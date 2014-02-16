@@ -1,0 +1,949 @@
+DELIMITERS            = sent ".";
+SOFT-DELIMITERS       = "<,>" ;
+
+LIST BOS              = (>>>) (sent);
+LIST EOS              = (<<<) (sent);
+
+LIST Coma             = (cm);
+
+# Nouns
+LIST NC               = (n);
+LIST NomF             = (n f);
+LIST NomM             = (n m);
+LIST NP               = (np top) (np ant) (np cog) (np al);
+LIST Toponim          = (np top);
+LIST Acr              = (n acr);
+
+SET  N                = NC + NP;
+
+# Numerals
+LIST Num              = (num);
+LIST Ord              = (ord);
+
+# Determiners         
+LIST Det              = (det);
+LIST PreDet	      = (predet);
+
+# Demonstratives
+LIST Dem              = (prn dem) (det dem);
+
+# Adjectives
+LIST Adj              = (adj);
+LIST Itg              = (itg);
+
+# Pronouns
+LIST PrnSubj          = (prn subj);
+LIST PrnDObj          = ("direct"ri prn obj);
+LIST PrnIObj          = ("indirect"ri prn obj) (+indirect);  # Lemmas from sub-readings are expressed as tags and prefixed with '+'
+LIST PrnInd	      = (prn ind);
+LIST PrnItg	      = (prn itg);
+LIST PrnDem           = (prn dem);
+
+SET Prn               = PrnSubj + PrnDObj + PrnIObj;
+
+# Determiners
+LIST DetDef           = (det def);
+LIST DetInd           = (det ind);
+LIST DetPos           = (det pos);
+
+# Prepositions
+LIST Prep             = pr;
+
+
+# Verbal particles 
+LIST Vpart            = (vpart);
+LIST VpartSDO         = ("a"i vpart);
+LIST VpartIDO         = ("e"i vpart);
+LIST VpartNeg         = (vpart neg);
+LIST VpartGer         = (vpart ger);
+LIST VpartNegImp      = ("na"i vpart neg);
+LIST VpartRef         = (vpart ref); # en em
+LIST VpartPPres       = ("en ur"i vpart ppres);
+
+# Verbs
+LIST Vbloc            = (vbloc);
+LIST Vblex            = (vblex);
+LIST Vbser            = (vbser);
+
+LIST VerbPP           = (vblex pp);
+LIST VerbImp          = (vblex imp);
+LIST VerbInf          = (vblex inf);
+LIST VerbImpers       = (vblex impers);
+
+LIST Fut              = (vblex fti) (vbser fti) (vbhaver fti);
+LIST TempsFin         = (pri) (pii) (past) (fti) (cni) (prh) (cip) (pih);  
+LIST Cond             = (cni) (cip);
+
+LIST VerbAux          = ("bezañ"ri vblex) ("kaout"ri vblex);
+
+SET Verb              = Vbloc | Vblex | Vbser;
+SET VerbFin           = Verb + TempsFin;
+
+
+# Adverbs
+LIST Adv              = (adv);
+LIST PreAdv           = (preadv);
+LIST Ket 	      = ("ket" adv);
+
+# Conjunctions
+
+LIST CC               = (cnjcoo);
+LIST CS               = (cnjsub);
+LIST CA               = (cnjadv);
+SET Conj             = CC | CA | CS;
+
+# Interjections 
+
+LIST Interj           = (ij);
+
+# Mutations 
+#  Quan el lema no té el mateix consonant com la forma superficial, 
+#  per exemple quan el plural es forma amb div- o daou-, cal afegir 
+#  les formes a la llista abaix.
+LIST SoftMutCons      = ("k.*"ri) ("t.*"ri) ("p.*"ri) ("g.*"ri) ("gw.*"ri) ("d.*"ri) ("b.*"ri) ("m.*"ri) ("askell"i) 
+                        ("abrant"i) ("brec'h"i) ("bronn"i) ("gar"i) ("fron"i) ("gweuz"i) ("jaritell"i) ("lez"i) 
+                        ("morzhed"i) ("skoaz"i) ("arzorn"i) ("dorn"i) ("glin"i) ("ilin"i) ("ividig"i) ("lagad"i) ("ufern"i) ;
+
+LIST SoftMut          = ("<g.*>"ri "k.*"ri) ("<d.*>"ri "t.*"ri) ("<b.*>"ri "p.*"ri) ("<c’h.*>"ri "g.*"ri) ("<c'h.*>"ri "g.*"ri)
+                        ("<w.*>"ri "gw.*"ri) ("<z.*>"ri "d.*"ri) ("<v.*>"ri "b.*"ri) ("<v.*>"ri "m.*"ri) ("<zivaskell>"i)
+                        ("<zivabrant>"i) ("<zivrec'h>"i) ("<zivronn>"i) ("<zivc'har>"i) ("<zivfron>"i) ("<ziweuz>"i) 
+                        ("<zivjaritell>"i) ("<zivlez>"i) ("<zivorzhed>"i) ("<zivskoaz>"i) ("<zaouarzorn>"i) ("<zaouarn>"i) 
+                        ("<zaoulin>"i) ("<zaouilin>"i) ("<zaouividig>"i) ("<zaoulagad>"i) ("<zaouufern>"i)  ;
+
+
+LIST AspMut           = ("<c’h.*>"ri "k.*"ri) ("<c'h.*>"ri "k.*"ri) ("<z.*>"ri "t.*"ri) ("<f.*>"ri "p.*"ri); 
+LIST HardMut          = ("<k.*>"ri "g.*"ri) ("<t.*>"ri "d.*"ri) ("<p.*>"ri "b.*"ri); 
+
+LIST MixedMutCons     = ("g.*"ri) ("g.*"ri) ("gw.*"ri) ("d.*"ri) ("b.*"ri) ("m.*"ri); 
+
+LIST MixedMut         = ("<c’h.*>"ri "g.*"ri) ("<c'h.*>"ri "g.*"ri) ("<w.*>"ri "gw.*"ri) ("<t.*>"ri "d.*"ri) ("<v.*>"ri "b.*"ri) ("<v.*>"ri "m.*"ri); 
+
+LIST HardMutTrigger   = ("ho"ri det pos) ("e"ri +da det pos);
+LIST AspMutTrigger    = ("o"ri det pos) ("va"ri det pos) ("he"ri det pos) ("peder"ri num f) ("pevar"ri num m) ("teir"ri num f) 
+                        ("tri"ri num m) ("nav"ri num) ;
+
+                        # Missing: "tra" (while), "seul" (all the more), "re" (those, ones)
+			# "en em" reflexive particle, "en ur" while, 
+
+LIST SoftMutTrigger   = ("a"i vpart) ("a"i pr) ("aba"i adv) ("da"i pr) ("ez"i vpart) ("hanter"i adj) ("holl"i adj)
+                        ("da"i det pos) ("daou"i num m) ("div"i num f) ("dindan"i adv) ("diwar"i pr) ("dre"i pr)
+                        ("e"i det pos m) ("na"i vpart neg) ("ne"i vpart neg) ("pa"i cnjsub) ("pe"i cnjcoo) 
+                        ("pe"i adv itg) ("ra"i vpart opt) ("re"i prn) ("war"i pr) ("re"i adv) ("an"i det def) ("un"i det ind)
+			("meur a"i det ind) ("kalz a"i pr) ("ken"i pr);
+
+LIST MixedMutTrigger  = ("e"i vpart);
+
+# Orthography
+LIST DroppedG         = ("<[aeiou].*>"r "g[aeiou].*"ri);
+
+LIST UPPER = ("<[ABCDEFGHIJKLMNOPQRSTUVWXYZ].*>"r);
+
+#
+#	Semantic lists
+#
+
+LIST Language		= ("alamaneg"ri n) ("brezhoneg"ri n) ("euskareg"ri n) ("gallaoueg"ri n) ("galleg"ri n) ("gwenedeg"ri n) ("italianeg"ri n) ("iwerzhoneg"ri n) 
+                      ("katalaneg"ri n) ("kembraeg"ri n) ("kerneveureg"ri n) ("manaveg"ri n) ("saozneg"ri n) ("skoseg"ri n) ("spagnoleg"ri n);
+
+# Sets
+
+SET PRE-N =  Adj | Det | Dem | NC | Num ; 
+
+SET WORD = NC | Verb | Adj | Prep | Prn | Adv | CC | CS | Num | ("\?") ;
+SET MARK =  ("\,") | ("\:") | ("\;") ;
+SET WORDMARK = WORD | MARK ;
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+SET NOT-ADJ = WORDMARK - Adj ;
+
+SET S-BOUNDARY = CS | (sent) ; 
+
+#
+# Main section
+#
+
+SECTION
+
+SELECT VpartIDO IF (1C ("<vez>"));
+
+REMOVE DetPos IF (0 DetPos) (0 Prep) (1C Toponim);
+
+# en ur gambr.
+REMOVE Vpart (NOT 1 Verb);
+
+# Setu petra a vez graet.
+SELECT VerbFin (-1 ("<a>"ri vpart) OR ("<e>"ri vpart)) (0 ("<vez>"ri)) (1 VerbPP);
+
+#Ma vez klasket sevel abadennoù
+REMOVE DetPos IF (-1 BOS) (1C Verb);
+
+#ne goust netra / n'eus redi ebet
+# N'ez an ket da labourat
+SELECT VerbFin IF (-1C ("ne"ri adv)) (NOT -1 (+kaout)) (NOT -1 (+bezañ)) (NOT 0 Vpart);
+
+#deuet e oan
+SELECT Vpart IF (-1C VerbPP) (1 VerbFin);
+
+#pet eur eo 
+SELECT PrnItg IF (1 VerbImpers);
+SELECT NC IF (-1 PrnItg) (0 ("<eur>" n)) (0 VerbImpers) (1 VerbFin);
+
+# bet (pp) no muta nunca.
+REMOVE VerbPP IF (0 ("<pet>"ri "bezañ" pp));
+
+# kouezhet oc’h
+# kouezhet oc'h bet izel-tre
+REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (NOT 1 ("<[aeiou].*>"ri)) (NOT 1 Verb OR Adv);
+REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (1 Adv);
+REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (NOT 1 VerbInf);
+
+# ne'z a ket mat. ne ya ket mat. 
+SELECT VerbFin IF (-1C ("ne"ri adv)) (0 VerbFin) (1C ("ket" adv));
+
+# "pell ez a an dud"
+REMOVE Vpart IF (-1C Vpart);
+
+# "pell ez a an dud"
+SELECT Verb IF (-1C Vpart);
+
+# "dav e vije"
+SELECT:Vpart_if_only_Vfin Vpart IF (1C VerbFin);
+
+# Remove imperatives for now
+REMOVE VerbImp IF (0 VerbImp);
+
+# tri ober
+SELECT NC IF (-1 Num) (0 NC) (0 VerbInf);
+
+#an treiñ emgefre
+SELECT NC IF (-1 ("an"ri det def)) (0 NC) (0 VerbInf);
+
+REMOVE ("ober"ri n) IF (NOT -1 Det);
+
+#ar bed
+REMOVE VerbFin IF (-1 ("<ar>"ri det def));
+
+#c'hoari a reont.
+REMOVE NC IF (0 NC) (0 VerbInf) (1 ("a"ri pr)) (2 ("ober" vblex pri));
+
+# REGLA (B    ): "Ur perzh 20€ zo bet goulennet evit kaout e anv engravet war unan eus karrezennigoù ar murlivadur. "
+REMOVE Vpart IF (-1 ("kaout"ri vblex inf)); 
+
+# implijout ar brezhoneg war ar panelloù kelaouiñ elektronek, prenañ ingal levrioù e brezhoneg evit ar vediaoueg, aozañ abadennoù e brezhoneg, stankaat ar c’hentelioù tañva brezhoneg er skolioù, komz brezhoneg e-pad al lidoù ofisiel.
+REMOVE ("komz" n) IF (1 NC);
+
+# REGLA (B    ): "Ur bed nevez."
+REMOVE Verb IF (-1 DetInd);
+
+# REGLA (B    ): "Ar pezh a fell deomp ober eo liammañ anezho"
+REMOVE NC IF (-3 ("ar pezh a"ri rel)) (-2 VerbFin) (0 VerbInf) (0 NC);
+
+#REGLA "Ar pezh a c’hall an treiñ emgefre ober "
+REMOVE Adj IF (-1 ("ar pezh a"ri)) (0 Verb) (0 Adj);
+
+
+# REGLA (B    ): "Ne garan ket ac’hanout"
+REMOVE NC IF (-1 ("ne"ri adv)) (1 ("ket"ri adv));
+
+# REGLA (B    ): "Al labour a vo kinniget deoc’h."
+SELECT NC IF (-1 ("<al>"ri det def));
+
+# REGLA (B0024): "WAR BONT AN NAONED"
+REMOVE Acr IF (0 NC) (0 Acr);
+
+# REGLA (B0022): "ha zo bet skrivet"
+REMOVE:Remove_SoftMut SoftMut IF (NOT -1 SoftMutTrigger);
+
+# REGLA (B0023):  "te a had"
+SELECT PrnSubj IF (1 VpartSDO) (2 VerbFin);
+
+# REGLA (B0001): "me a had"
+SELECT VpartSDO IF ((-1 PrnSubj) OR (-1 PrnDObj));
+
+# REGLA (B0002): "eviti e laboure"
+# Da skouer e 2004 e oa bet embannet gant Unvaniezh Europa
+SELECT VpartIDO IF ((-1 PrnIObj) OR (-1 Adv)) (1 Verb);
+
+# REGLA (B0003): "na ganit ket"
+SELECT VpartNegImp IF (1 VerbImp);
+
+SELECT VerbFin IF (-1 VpartNeg);
+
+# Rankout a ran en em ginnig
+SELECT VerbFin IF (-1 VpartRef);
+
+# REGLA (B0004): "a had"
+#SELECT Verb IF (-1 Vpart);
+
+# REGLA (     ): "ouzhpenn 1000 den deuet a zesk brezhoneg"
+SELECT VerbFin IF (-1 Vpart) (-1 Prep) (0 NC) (0 VerbFin) (1 NC);
+
+# REGLA (     ): "Kerzhet hon eus e-pad 2 eurvezh"
+REMOVE VerbInf IF (1 ("kaout" vblex));
+
+# REGLA (     ): "a ra"
+REMOVE Prep IF (0 Prep) (0 Verb) (1 Vpart) (1 VerbFin) (NOT 1 PRE-N);
+
+REMOVE Vpart IF (0 Vpart) (0 VerbFin) (-1 VerbFin) (-1 Vpart) (NOT -1 PRE-N);
+
+# REGLA (B0022): "ne ... ket"
+SELECT Verb IF (-1 VpartNeg) (1 Ket);
+
+# "Evit ar poent e c’heller ober gant e ijinadenn"
+SELECT VerbInf IF (-1 ("gellout" vblex) OR ("ober" vblex));
+
+# REGLA (B0005): "na ganit ket"
+SELECT VerbImp IF (-1 VpartNegImp);
+
+# REGLA (B0006): "emañ e Brest"
+SELECT Prep IF (-1 Vbloc) (NOT 1 SoftMut);
+
+#Kalz tostoc’h emañ e brezegenn ouzh da hini
+REMOVE Prep + ("e") IF (0 Vpart) (0 Prep) (1 SoftMutCons) (1 SoftMut) (NOT 1C NC);
+
+# REGLA (B0008): "edo o vervel"
+SELECT VpartGer IF (1 VerbInf);
+
+# Emaon o vont da ginnig ac’hanout dezho.
+SELECT Verb IF (1 PrnDObj) (2 PrnIObj);
+
+# REGLA (B0015): "o chom e Roazhon"
+SELECT VerbInf IF (-1 VpartGer);
+
+# REGLA (B0009): "Geriadur digor ha frank"
+#                "kinnig tremen anezho bep bloaz"
+#                "E Brest"
+#                "Anzav a rez"
+SELECT Adj IF (-1 NC) (0 NC) (0 Adj) (NOT 1 Prep) (NOT 1 PrnDObj) (NOT 0 Toponim) (NOT 0 VerbFin);
+
+
+# REGLA (B    ): "seul fonnusoc'h, seul welloc'h"
+SELECT PreAdv IF (1 (adj sint comp));
+
+# REGLA (B    ): "Katell a zeuio da gomz" 
+# 
+#   We need a list of verbs which come with their own verbal particles
+#
+REMOVE NC IF ((-3 Vpart) OR (-2 ("mont a ober"ri))) (-2 VerbFin) (-1 ("da" pr)) (0 VerbInf) (0 NC);
+
+# REGLA (B    ): "met dav eo dezho goulenn un aotre evit gallout ober kement-mañ gant ar re OGK"
+SELECT Verb IF (-3 ("dav"ri adj)) (-2 ("<eo>"ri vblex)) (-1 PrnIObj);
+SELECT Verb IF (-2 ("dav"ri adj)) (-1 ("<eo>"ri vblex));
+
+# REGLA (B    ): "Ne c’hallan ket ober an dra-se"
+SELECT VerbInf IF (-1 ("ket" adv)) (-2 VerbFin) (NOT -2 ("kaout"ri));
+
+# n'en doa ket gwelet 
+SELECT VerbPP IF (-1 ("ket" adv)) (-2 VerbFin) (-2 ("kaout"ri));
+
+# REGLA (B0012): "An dud a zeu da Roazhon"
+REMOVE VerbFin IF (0 Det) (1 NC);
+
+#Meur a bal zo gant an dud a fell dezho deskiÃ± ar yezh
+REMOVE Adj IF (-1 ("a")) (0 VerbFin) (0 Adj) (1C (prn obj));
+
+# REGLA (B0010): 
+REMOVE:Rem_Vfin VerbFin IF (*-1C VerbFin BARRIER S-BOUNDARY) (NOT -1* CC LINK -1* VerbFin);
+    ## Er mod m'eo savet an ti, gant ur savadur kreiz hag div gazel a-skouer a bep tu, e c'hell bout tri lec'h da labourat.
+    ## Ar stad zo unan eus stummoù aozadur politikel ur vro.
+
+# REGLA (C0002): "zeu da Gwengamp" "Prezidant Radio France a oa e Kemper d'ar 6 a viz Here"
+REMOVE PrnDObj IF (1 Toponim);
+
+# REGLA (    ): "ganet e oa bet e 1975" 
+REMOVE PrnDObj IF (1 Num);
+
+#Mont a ran da ginnig anezhi dezhe
+SELECT Prep IF (-1 ("mont a ober"ri)) (1 VerbInf);
+
+# REGLA (B    ): ", en he fenn Yannick Jadot rener kozh Greenpeace Bro-C'hall"
+REMOVE PrnDObj IF (-1 ("<en>"ri pr));
+
+# REGLA (B    ): "Bez' e rankan mont bremañ."
+REMOVE PrnDObj IF (-1 VerbInf) (1 VerbFin);
+
+# REGLA (B    ): "Ha n'on ket gwisket na gwalc’het c’hoazh"
+SELECT CC IF (-1 VerbPP) (1 VerbPP);
+
+# REGLA (B    ): "ar Skrivadeg a vo dalc'het e Skol-Veur La Harpe"
+REMOVE PrnDObj IF (-1 Verb) (1 NC);
+
+# REGLA (B    ): "o chom e oamp en un tiig koant "
+REMOVE PrnDObj IF (-2 VpartGer) (-1 Verb) (1 Verb);
+
+# REGLA (B    ): "Dalc'het e vo er sal Sten Kidna" 
+REMOVE PrnDObj IF (-1 VerbPP) (0 VpartIDO) (1 ("bezañ"ri vblex));
+
+# REGLA (B    ): "D'ar mare ma oan o tigeriñ an nor"
+REMOVE DetPos IF (1C VerbFin);
+
+# Roet em eus anezhi dezhañ. An hanter anezhi .
+# Ne welin ket ac'hanoc'h
+SELECT PrnDObj IF ((-1 Verb) OR (-1 ("ket" adv))) ;
+
+# REGLA (B0011): "Stad da lod"
+REMOVE PrnDObj IF (NOT -1 VerbFin) (NOT 1 VerbFin);
+
+# REGLA (B    ): "diorroet eo o rouedadoù war an dachenn"
+REMOVE PrnDObj IF (1 NC) (NOT 1 VerbFin);
+
+# REGLA (B    ): "d'ur skoazell digant an holl Vretoned"
+REMOVE PrnInd IF (-1 Det) (1 NC);
+SELECT PreDet IF (-1 Det) (1 NC);
+
+# REGLA (B0013): "Me am eus kanet"
+REMOVE VerbImp IF (-1 VerbFin);
+
+# REGLA (B0014): "Yann a zeuy" / "tud zo e Brest" / "e buhez ur yezh"
+SELECT:Vpart_if_Vfin Vpart IF (1 VerbFin) (NOT 1 NP) (NOT 1 NC);
+
+# REGLA (B0016): >The particle is omitted before every form of 'kaout' and the locative forms of 'bezañ'
+REMOVE Vpart IF (1 ("kaout" vblex));
+REMOVE Vpart IF (1 Vbloc);
+
+# REGLA (B0017): >The particle is omitted before verbal nouns and imperatives
+# C’hwitellat a ra en ur labourat
+REMOVE Vpart IF ((1C VerbInf) OR (1C VerbImp)) (NOT 0 ("<en ur>"));
+
+# REGLA (B0019): "o chom e Roazhon"
+REMOVE PrnDObj IF (-1 VerbInf);
+
+# REGLA (B0020): "Ni a ro al laezh"
+SELECT VerbFin IF (-1 VpartSDO) (-2 PrnSubj) ; 
+
+
+# REGLA (B    ): "Ne implij ket"
+REMOVE VerbInf IF (-1 ("ne"ri)) (1 ("ket"ri));
+
+# REGLA (B0021): >The particle is omitted before verbal nouns and imperatives
+REMOVE VerbInf IF (-1 Vpart) (0 VerbFin);
+REMOVE VerbImp IF (-1 Vpart) (0 VerbFin);
+
+REMOVE Itg IF (1 VerbPP);
+
+SELECT CS IF (1 VerbFin) (NOT 1 NC) (0 DetPos);
+
+# REGLA (B    ): "Bep sizhun e vez tro da lenn brezhoneg war Bremaik"
+SELECT N IF (-1 Prep) (0 N) (0 Adv);
+
+# REGLA (B    ): "Meur a viz"
+SELECT N IF (-1 Det) (0 N) (0 Verb);
+
+# REGLA (B    ): "kuit da gomz e galleg"
+SELECT Verb IF (-1 ("kuit da"));
+
+# REGLA (B    ): "emgav gant rener ar radio"
+REMOVE Verb IF (-1 ("gant" pr));
+
+# REGLA (B    ): "En 2 yezh war"
+REMOVE Adj IF (-1 Num) (0 Adj) (0 NC) (1 Prep);
+
+# a vo staliet goude e ti an dud
+REMOVE ("e" det pos) IF (1 NomM) (1 SoftMutCons) (NOT 1 SoftMut);
+
+# REGLA (B    ): "e c’heller ober gant e ijinadenn"
+#   "ouzhpenn da verañ savadurioù ar skolaj. "
+#   "muioc’h eget e 1975"
+REMOVE:Remove_prep_for_poss Prep IF (-1 Prep) (NOT -1 PRE-N) (NOT 1 Verb) (0 Prep) (0 DetPos) (NOT 1 Num);
+
+#  "ouzhpenn da verañ savadurioù ar skolaj. "
+SELECT:Prep_for_poss_if_verb Prep IF (0 Prep) (0 DetPos) (1C Verb) (NOT 0 Vpart);
+
+# REGLA (B    ): "15 studier" 
+REMOVE VerbImpers IF (NOT -1 Vpart) ((-1 Num) OR (-1 NC) OR (-1 Det)) (0 VerbImpers) (0 NC);
+
+# REGLA (B    ): "Bet hon eus kalz a draoù" / "Bet bezañ"
+SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (1 ("kaout" vblex));
+SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-1 ("kaout" vblex));
+SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (1 ("bezañ" vblex));
+SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-1 ("bezañ" vblex));
+
+SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("kaout" vblex));
+SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("kaout" vblex));
+SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("bezañ" vblex));
+SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("bezañ" vblex));
+
+# REGLA (B    ): "Skuizh e vi"
+SELECT SoftMut IF ((-1 ("e" vpart obj)) OR (-1 ("e" det pos))) (NOT -1 Prep) (NOT -1 PrnDObj);
+
+# REGLA (B    ): "D'an emgann ez an"
+REMOVE (+da) IF (1 DetDef);
+
+# REGLA (B    ): "Gwelet em eus ar c’hi en ur dreuziñ an hent"
+SELECT VerbInf (-1 VpartPPres);
+
+SELECT VerbPP IF (1C ("bezañ"ri vblex)) (1 VerbFin);
+
+
+# REGLA (B    ): "N'ez an ket da c'hoari "
+SELECT VerbFin IF (-1 Vpart) (-2 ("ne"ri adv));
+
+
+# REGLA (B    ): "en he fenn "
+# e ran mat
+REMOVE VerbFin IF (-1C DetPos);
+
+# REGLA (      ): "ouzhpenn 23"
+SELECT Prep IF (0 ("ouzhpenn")) ((1 Num) OR (1 NC));
+
+# REGLA (     ): "23 ouzhpenn"
+# "ouzhpenn da verañ savadurioù ar skolaj. "
+SELECT Adv IF (0 ("ouzhpenn")) ((-1 Num) OR (-1 NC) OR (1 Prep));
+
+# tremen 50 skoliad
+SELECT Prep IF (0 ("tremen")) (1C Num) (2 NC);
+
+# betek an trec'h
+SELECT NC IF (-2C Prep) (-1C DetDef) (0 NC) (0 VerbFin);
+
+# kalz a dud
+SELECT NC IF (-1C Prep) (-1C SoftMutTrigger) (0 NC) (0 VerbFin);
+
+# pemp servij / 5 servij
+SELECT NC IF (-1C Num) (0 NC) (0 VerbFin) (NOT 0 Prep);
+
+# eil gwreg ma zad
+REMOVE:Remove_VerbFin_BOS VerbFin IF (-1 BOS);
+
+# re a dud
+SELECT ("re a" pr) IF (0 ("<re a>"ri)) (1C NC); 
+
+# re a Roazhon. re a Varcelona.
+SELECT ("re" prn) IF (0 ("<re>"ri)) (1C Toponim); 
+
+
+# Interyecciones 
+# ma, mont a ran kuit
+REMOVE Interj IF (NOT 1 Coma);
+
+SELECT Interj IF (-1 BOS) (1 Coma);
+
+# ar staj-se, an hini kentañ evel-se
+SELECT DetDef IF (1 ("hini"));
+
+#an eil priz
+REMOVE Verb IF (-1C DetDef) (1C NC);
+
+#Prezidant Kevre Gouren Aodoù-an-Arvor
+#Ma c’hall
+# hag a ya da stummañ
+# mar fell dit 
+# e-lec'h ma tispleg
+REMOVE VerbFin IF (NOT -1 Vpart) (0 SoftMutCons) (NOT 0 SoftMut) (NOT -1 (".*ma"ri cnjadv)) (NOT -1 ("pa"i cnjsub))  (NOT -1 (".*ma"ri cnjsub));
+REMOVE VerbFin IF (-1C ("a" vpart)) (0 SoftMutCons) (NOT 0 SoftMut) (NOT 0 ("ya"ri adv)) (NOT -1 (".*ma"ri cnjadv));
+
+# e-lec'h ma tispleg 
+SELECT VerbFin IF (-1 (".*ma"ri cnjadv)) (0 VerbFin) (0 MixedMutCons) (0 MixedMut);
+
+# Aet e vefen a-walc’h eus
+SELECT Vpart IF (-1 VerbPP) (1C VerbFin);
+
+#emañ da vragoù pe war an daol pe war ar gador
+SELECT ("war" pr) IF (-1 ("pe" cnjcoo)) ;
+#pe gant an dud
+SELECT ("gant" pr) IF (-1 ("pe" cnjcoo)) ;
+
+#  en el singular, no mutan los sustantivos masculinos después del articulo (excepto k que muta en c'h)
+# ki (perro) --> ar c'hi, taol (golpe) --> an taol, perzh (qualidad) --> ar perzh, 
+# berzh (suceso) --> ar berzh, taol (mesa) --> an daol
+# the mutation k>c'h isn't a soft one. "ar gred" can't be a mutation of the word "kred" which is masculine.
+
+REMOVE NomM + SoftMut IF (0 SoftMutCons) (0 SoftMut) (-1C DetDef OR DetInd);
+
+# An niver a votoù bet dastumet gant listenn E.E.
+REMOVE VerbFin IF (-1C DetDef);
+
+# ar menegoù skrivet kentañ eus ar c’hoari go.
+SELECT Adj IF (0 Adj) (0 Num) (-1 Adj OR VerbPP) (NOT 1 NC);
+
+
+# farsal a rez
+SELECT Vpart IF (-1C VerbInf) (0 ("a"ri)) (1 ("ober"ri vblex));
+
+#ma ne bign ket an dud war an daol 
+SELECT:CSub_if_neg CS IF (0 ("ma"ri cnjsub)) (1 ("ne"ri neg)) (3 ("ket"ri adv));
+
+#Da verc'h nemeti
+SELECT:Pos_if_nemet DetPos IF (0 DetPos) (0 Prep) (2 ("nemet"ri));
+
+#pa c’houlenn devezhioù vakañsoù
+SELECT:p3_after_pa (vblex p3) IF (-1 ("pa"i cnjsub)) (0 VerbInf) (0 VerbFin);
+
+# ademas, en una serie Nombre Propio + a + verbo/sustantivo : hay que escoger al verbo
+SELECT VerbFin IF (-2 NP) (-1 ("a"ri)) (0 Verb) (0 NC); 
+
+# PART VERB + bezañ/kaout (auxiliares) + verbo que termina en -et --> participio not infinitivo
+# "peur e vo gwelet"
+SELECT:pp_if_verbaux_pp_or_inf VerbPP IF (-2 Vpart) (-1C VerbAux) (0 VerbPP) (0 VerbInf);
+
+# Pegen kriz eo ar vuhez / qué crual es la vida
+SELECT Adj IF (-1C ("pegen"ri adv));
+
+# ma zud
+REMOVE CS IF (1C NC);
+
+# an dud am boa gwelet disadorn
+REMOVE VerbInf IF (-1C ("kaout"ri)) (-1C VerbFin);
+
+# diwar-benn stad ar c’hleweled e brezhoneg
+SELECT NC IF (-1C ("diwar-benn"ri pr));
+
+SELECT Prep IF (0 ("<gant ma>"ri)) (1C NC);
+SELECT Conj IF (0 ("<gant ma>"ri)) (1C VerbFin);
+
+# evit kempouez plas ar yezh
+REMOVE Adj IF (-1C Prep);
+
+# n'eus redi ebet
+SELECT (p3 impers) IF (0 ("<n'eus>"ri) OR ("<n’eus>"ri));
+
+#ar perc’henn a implij ur micherour 
+SELECT VerbFin IF (-3 Det) (-2 NC) (-1 ("a"ri)) (0 NC) (0 VerbFin) (1 Det) (2 NC);
+
+SELECT ("ha pa"ri) IF (1 VerbFin + Cond);
+
+# me zo dougerez
+SELECT Adj IF (0 ("<dougerez>"ri)) (-1C ("bezañ"ri vblex)) (-2C PrnSubj);
+
+# dougerez on
+SELECT Adj IF (0 ("<dougerez>"ri)) (1C ("bezañ"ri vblex));
+
+# ur pikol den 
+SELECT NC IF (-1 ("pikol"ri) OR ("pezh"ri) OR ("mell"ri));
+
+#ma ne teu netra
+SELECT CS IF (1C ("ne"ri adv));
+
+#ne ra nemet c'hoari
+SELECT CS IF (0 ("nemet"ri)) (1 VerbFin); # check this, perhaps too loose
+
+#lavaret em eus dezhañ tremen
+REMOVE Prep IF (1 EOS);
+
+#Bevañ a ra e Mali 
+REMOVE DetPos IF (0 Prep) (0 DetPos) (1 NP) (NOT 1 SoftMutCons LINK 0 SoftMut);
+
+#hag e kinnige an dud tremen da welet anezhañ
+SELECT Verb IF (1 ("da" pr)) (2 VerbPP);
+
+# kinnig d'an dud tremen anezho bep bloaz
+# verbo + ART + NOUN + Tremen (ADJ) + prep/pron
+# verbo + ART + NOUN + Tremen (NOUN) + prep/pron
+REMOVE NC IF (-3 Verb) (-2 DetDef) (-1 NC) (0 VerbInf) ((1 Prep) OR (1 PrnDObj));
+REMOVE Adj IF (-3 Verb) (-2 DetDef) (-1 NC) (0 VerbInf) ((1 Prep) OR (1 PrnDObj));
+
+REMOVE Prep IF (0 VerbInf) (0 Prep) (1C PrnDObj);
+
+# ar wech kentañ
+SELECT Adj IF (0 Num) (0 Adj) (-1C NC);
+
+#20 milion a dud a implij anezhañ
+#bevañ a ran
+#SELECT Vpart IF (1 VerbFin) (1 NC) (2 PrnDObj);
+#REMOVE Vpart IF (1C NC) (NOT -1 VerbInf);
+
+#rebech kentañ
+REMOVE VerbInf IF (0 VerbInf) (0 NC) (1 Adj OR Ord);
+
+# Skrivadeg e brezhoneg e Kemper e miz Meurzh
+REMOVE PrnDObj IF (-1C NC) (0 Prep) (0 PrnDObj); 
+
+#Skuizh e oan c'hoazh
+REMOVE Vpart + ("e") IF (1 MixedMutCons) (NOT 1 MixedMut) (NOT 1 ("<[aeiou].*>"ri));
+
+#Skuizh e oan c'hoazh
+REMOVE NC IF (0 ("<oan>" n)) (0 ("<oan>" vblex)) (-1 ("e"));
+
+# bevañ a ran
+#SELECT VerbFin IF (-2 VerbInf) (-1C ("<a>"i)) (0 ("<ran>"i)) ;
+
+# e ran mat 
+# e ran vat
+REMOVE NC IF (-1 Vpart) (0 NC) (0 VerbFin) (1 Adj) (1 SoftMutCons) (NOT 1 SoftMut);
+
+# - ran venga después de un ART (def o indef) 
+# - o que este seguido de un ADJ con mutacion suave
+# ur ran : una rana
+# ran vihan : ranita
+SELECT VerbFin IF (0 ("<ran>")) (NOT -1 DetInd) (NOT 1 Adj) (NOT 1 SoftMutCons) (NOT 1 SoftMut);
+
+REMOVE VerbFin IF (NOT -1 Vpart) (NOT -1 (".*ma"ri)) (NOT -1 ("pa"i cnjsub)) (NOT -1 (prn rel));
+    ## dre ret ½ bost war ar buheziñ politikel 
+    ## ar mod ma c'hall an implijidi bezañ galvet 
+    ## Ar pezh a vank evit kas al labour da benn war dachenn an teknologiezhioù nevez eo frammoù a-vicher.
+
+#met bevañ a ra e Gwipedel
+SELECT VerbInf IF (0 (adj sup)) (0 VerbInf) (1 ("a")) (2 ("ober"));
+
+#Da skouer e 2004 e oa bet embannet gant Unvaniezh Europa
+REMOVE Vpart IF (1C Num);
+
+#C'hoari zo
+REMOVE VerbInf IF (0 VerbInf) (0 NC) (1 ("<zo>"));
+
+#ar mod ma c'hall an implijidi bezañ galvet
+REMOVE Adj IF (-3 DetDef) (-2 NC) (-1 ("ma")) (0 ("gallout"));
+
+#D'ar mare ma oan o tigeriñ an nor
+REMOVE NC IF (-1 CA | CS) (0 ("<oan>")) (1 ("o"));
+
+#C’hwitellat a ra en ur labourat
+SELECT Vpart IF (0 ("<en ur>")) (1C VerbInf);
+
+#Ne zeuio ket Katell da gomz
+REMOVE NC IF (0 NC) (0 VerbInf) (-1 ("da")) (NOT -1 ("<d'an>")) (NOT -1 ("<d'ar>")) (-2* VerbFin BARRIER BOS);
+
+# E Brest
+SELECT Toponim IF (-1 ("e"i)) (0 Toponim) ;
+
+# E Brest
+SELECT Prep IF (0 Prep) (0 NC) (1C Toponim);
+
+# e c’hallimp kas warc’hoazh dezho.
+SELECT VerbInf IF (-1C ("gallout" vblex));
+
+REMOVE DetPos IF (0 ("<e>"i)) (1 MixedMut) (NOT 1 SoftMut) ;
+REMOVE Prep IF (0 ("<e>"i)) (1 MixedMut) ;
+REMOVE NC IF (0 ("<e>"i)) (1 VerbFin) ; 
+    ## Evit talañ ouzh an diaezamant-se hag evit diorren an embann e tle ar Rannvro pe ur framm a zo fiziet ennañ ar yalc’hadoù termenañ palioù da dizhout evit an niver a ditloù embannet ha dre rummad.
+
+REMOVE ("pal" n f) IF (0C ("<pal>")) (NOT 1 SoftMut) ;
+    ## Kas ar galleg war-raok a chom pal pennan ar framm-se. 
+
+SELECT Vpart IF (0 ("<ez>"i)) (1 ("a"i)) ; 
+    ## Goude bezañ kendrec'het e dad ez a da Bariz da studiañ an arz ha degemeret eo en demiezh Jullian : eno e vo skoliad da Alfred Roll hag Emmanuel Damoye.
+
+SELECT VerbFin IF (-1C ("ar pezh a"i)); 
+    ## Ar pezh a vank evit kas al labour da benn war dachenn an teknologiezhioù nevez eo frammoù a-vicher.
+
+REMOVE VerbFin IF (0C NC OR VerbFin) (-1 ("o"i vpart)) (NOT -1 (prn obj)); 
+    ## Ezhomm zo da vont pelloc’h c’hoazh ganti evit kinnig abadennoù lies o danvez ha dedennus en o framm.
+
+REMOVE Det IF (0 ("<en>"i)) (1 DetPos);
+    ## Ezhomm zo da vont pelloc’h c’hoazh ganti evit kinnig abadennoù lies o danvez ha dedennus en o framm.
+    ## En o levr e vo kavet elfennoù sintetek hag a c'haller fiziout enno evit anavezout gwelloc'h hon endro, evit ijinañ gwelloc'h dazont Breizh.
+
+SELECT VerbFin IF (-1 ("a"i)) (0 NC OR VerbFin) (1 Prep OR PrnIObj) ;
+    ## « Tiez kozh e Roazhon », « Plasenn Koc'hu an Edeier, » taolennet e 1929 gant Camille Godet, a ro dimp da anavezout un neuz eus kêr Roazhon aet da get, e-lec'h m'emañ Plasenn Honoré Kommereg hiziv an deiz.
+
+SELECT Vpart IF (0 ("<e>"i)) (1C VerbFin);
+    ## Lakaet e veze sevel truajoù koulz gant an duged ha gant ar roueed, pe gant ar c’hêrioù o-unan.
+
+SELECT Adj IF (-1 NC) (0 Adj OR VerbPP) (1 Prep);
+    ## Daremprediñ Sant-Briag, kêr vrudet eus an arvor d'ar c'houlz-se, a rae ar c'hizeller d'an ampoent eo bet savet an delwenn-mañ.
+
+SECTION
+
+# REGLA (A0002): "hi a oar"
+SELECT DroppedG IF (-1 Vpart);
+
+SELECT NC IF (-1 DetDef) (0C NC OR Adj) (1 Adj);
+    ## E reter Etiopia emañ Harar Jugol (mogerioù-kreñv a dalvez ar ger diwezhañ-mañ).
+
+# REGLA (A0003): "na ganit ket"
+SELECT SoftMut IF (-1C SoftMutTrigger) (0 SoftMutCons) (0 SoftMut) (NOT -1 ("da"ri pr)) (NOT -1 (indirect)); 
+
+# REGLA (A0004): "emañ e Brest"
+REMOVE SoftMut IF (NOT -1 SoftMutTrigger);
+
+# REGLA (A0006): ""
+SELECT SoftMutTrigger IF (1C SoftMut) (1C SoftMutCons) (NOT 1 ("<vez>"i)) (NOT 0 ("<e>"i)) ;
+    ## Perc'hennet eo an tour gant an ti-kêr abaoe 1975 ; digor e vez da an den evit gweladenn bleinañ.
+
+SELECT NC IF (0 NC OR Adj) (-1 DetPos);
+    ## Ar groaz savet a vez flastret tamm-ha-tamm ma echu ho tres gant ur vegenn.
+
+# REGLA (A0005): "ez ti"
+SELECT HardMut IF (-1 HardMutTrigger);
+
+# REGLA (A0006): "ez ti"
+SELECT HardMutTrigger IF (1 HardMut);
+
+# REGLA (A0007): "o deus kanet"
+REMOVE HardMut IF (NOT -1 HardMutTrigger);
+
+# REGLA (A0008): "nemet peder flanedenn"
+SELECT AspMut IF (-1 AspMutTrigger);
+
+# REGLA (A0009): "nemet peder flanedenn"
+SELECT AspMutTrigger IF (1 AspMut);
+
+# REGLA (A0009): ""
+REMOVE AspMut IF (NOT -1 AspMutTrigger);
+
+# REGLA (A0008): ""
+#SELECT MixedMut IF (-1 MixedMutTrigger) (0 MixedMutCons);
+
+# REGLA (A0009): ""
+#SELECT MixedMutTrigger IF (1 MixedMut) (1 MixedMutCons);
+
+# REGLA (A0009): ""
+#REMOVE MixedMut IF (NOT -1 MixedMutTrigger);
+
+# REGLA (A0010): "un taol, un daol"
+REMOVE NomF IF (-1 SoftMutTrigger) (NOT 0 SoftMut) (0 NomF) (0 NomM);
+
+# "ken vi labouret"
+SELECT Fut IF (-1 ("ken"i)) (0 ("vi"i)) (1 VerbPP);
+
+# ul labour ken pouezus
+SELECT PreAdv IF (-1C NC) (0 ("ken"i)) (1 Adj);
+
+# e zivaskell 
+SELECT DetPos IF (0 ("<e>")) (1 SoftMut) (1 SoftMutCons) (1 NC);
+
+# pa oan bihan
+SELECT VerbFin (-1 ("pa"i cnjsub)) (0 VerbFin) (0 NC);
+
+SECTION
+
+# por el momento escoge a berzañ, mejor que le digas que escoja a merzout (berzañ no se conjuga mucho)
+SELECT ("merzout" vblex) IF (0 ("merzout" vblex)) (0 ("berzañ" vblex));
+
+# 'sa soeur' far more likely than 'dans soeur' or 'son loisir'
+SELECT ("e"ri det pos) IF (1 ("c’hoar"ri n f));
+SELECT ("c’hoar"ri n f) IF (-1 ("e"ri det pos));
+
+# REGLA (C0003): "al Louarn"
+REMOVE NP IF (0 NP) (0 NC) (-1 DetDef);
+
+# REGLA (C0001): "o chom e Roazhon"
+REMOVE DetPos IF (1 Toponim);
+
+REMOVE (obj) IF (-1 BOS);
+
+# Select 'ober' after determiner
+SELECT ("ober" n) IF ((-1 DetDef) OR (-1 Num));
+
+# bep pemp munut
+REMOVE Adj IF (0 Adj) (0 NC) (-1 Num);
+
+# meur a viz
+REMOVE ("biz"ri n) IF (0 ("biz"ri n)) (0 ("miz"ri n)) (-1 ("meur a"ri det ind));
+
+# en he fenn
+REMOVE (+an) IF (1 DetPos) (0 ("<en>"ri));
+
+# raktres sindikad bro Dinan
+REMOVE VerbFin IF (NOT (-1 Vpart) LINK (-1 Conj)) ;
+
+SELECT VerbFin IF (-1C* CS) (NOT 1C* VerbFin);
+    ## D'ar mare ma oan o tigeriñ an nor.
+    ## Ezhomm zo da vont pelloc’h c’hoazh ganti evit kinnig abadennoù lies o danvez ha dedennus en o framm.
+
+
+SELECT (pr) IF (-1 Num) (1 NC);
+
+# select proper names if they are in caps
+
+SELECT NP IF (0 ("Alan" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Al Lanv" np));
+SELECT NP IF (0 ("Al Levrig" np));
+SELECT NP IF (0 ("Al Liamm" np));
+SELECT NP IF (0 ("An Here" np));
+SELECT NP IF (0 ("Bremaik" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Bremañ" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Brud Nevez" np));
+SELECT NP IF (0 ("Daoulagad Breizh" np));
+SELECT NP IF (0 ("Dastum" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Dihun" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Divskouarn" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Diwan" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Dizale" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Emgann" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Emgleo Breiz" np));
+SELECT NP IF (0 ("Emsav" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Goursez" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Gwalarn" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Kalanna" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Keleier" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Kelenn" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Mervent" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Roudour" np)) (NOT -1 BOS);
+SELECT NP IF (0 ("Sked" np)) (NOT -1 BOS);
+
+SELECT NP IF (0 UPPER) (0C NP OR NC);
+
+#gant Kristen Nikolaz e Kemper
+SELECT (np ant) IF (0 (np ant)) (1 (np cog)) (0 UPPER) (1 UPPER);
+# Alan Stivell
+SELECT (np cog) IF (-1 (np ant)) (0 (np cog)) (-1 UPPER) (0 UPPER);
+
+# 'Francis'
+SELECT (apos) IF (0 (apos)) (0 Vpart);
+
+# ma vez roet.
+SELECT VerbFin IF (-1 ("ma"i)) (0 MixedMut);
+
+SELECT VerbFin IF (-1 ("ma"i) OR ("tra ma"i) OR ("mar")) (0 VerbFin);
+
+
+###############################################################################
+## Lexical selection 
+###############################################################################
+SECTION
+
+REMOVE DetPos (0 ("e"ri pr)) ((1 Num) OR (1 Language));
+#SUBSTITUTE ("e") ("e:1") ("e"ri pr) (0 Prep) ((1 Num) OR (1 Language));
+#
+#SUBSTITUTE ("den") ("den:1") ("den"ri n m pl) (-1C DetPos);
+#
+#SUBSTITUTE ("gwaz") ("gwaz:1") ("gwaz"ri n m) (-1C DetPos);
+
+# KSB / OAB 
+SELECT (n acr m sg) IF (0 (n acr m sg)) (0 (n acr sg));
+
+# treiñ + e + idioma = traduire + en + idioma 
+#SUBSTITUTE ("treiñ") ("treiñ:1") ("treiñ" vblex) (1 ("e")) (2 Language);
+
+# cuando se usa con el verbo paeañ (pagar) es mejor escoger a alquiler (loyer)
+#SUBSTITUTE ("feurm") ("feurm:1") ("feurm" n m) (-1C* ("paeañ" vblex) BARRIER S-BOUNDARY) ;
+#SUBSTITUTE ("feurm") ("feurm:1") ("feurm" n m) (1C* ("paeañ" vblex) BARRIER S-BOUNDARY) ;
+
+# un tamm dic'hortoz : un poco inhabitual/un peu inattendu.
+#SUBSTITUTE ("tamm") ("tamm:1") ("tamm" n) (-1 DetInd) (1 Adj);
+
+# Herve a gavo da evañ  
+#SUBSTITUTE ("kavout# da") ("kavout# da:1") ("kavout# da" vblex) (0 ("kavout# da")) (1C VerbInf);
+
+##
+## TRANSITIVE / INTRANSITIVE VERBS
+##
+
+SUBSTITUTE (vblex) (vblex tv) ("pediñ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
+
+SUBSTITUTE (vblex) (vblex tv) ("gouzañv"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
+
+SUBSTITUTE (vblex) (vblex tv) ("toullañ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
+
+SUBSTITUTE (vblex) (vblex tv) ("koumanantiñ"i vblex) (NOT 1C* Prep BARRIER S-BOUNDARY) (NOT 1* ("<d'ar>"i));
+
+SUBSTITUTE (vblex) (vblex tv) ("sevel"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
+
+## SYNTAX 
+
+SECTION
+
+LIST @X = @X ;
+LIST @SUBJ→ = @SUBJ→ ;
+LIST @←SUBJ = @←SUBJ ;
+LIST @+FMAINV = @+FMAINV ;
+LIST @-FMAINV = @-FMAINV ;
+
+MAP (@SUBJ→) TARGET PrnSubj | PrnDem (1C ("<zo>" vblex));
+
+MAP (@SUBJ→) TARGET PrnSubj | PrnDem (1C ("a" vpart)) (2C VerbFin);
+
+MAP (@+FMAINV) TARGET VerbFin (NOT 0 (+direct));
+
+AFTER-SECTIONS
+
+MAP (@X) TARGET PrnSubj | PrnDem ;
+MAP (@X) TARGET VerbFin (NOT 0 (+direct));
+
+# n'eus kador ebet
+SUBSTITUTE (cnjsub @+FMAINV) (cnjsub) (cnjsub);
+SUBSTITUTE (cnjadv @+FMAINV) (cnjadv) (cnjadv);
+SUBSTITUTE (adv @+FMAINV) (adv) (adv);

@@ -1,0 +1,14 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-bre.bre.acx -text
+/apertium-bre.bre.dix -text
+/apertium-bre.bre.rlx -text
+/apertium-bre.pc.in -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
