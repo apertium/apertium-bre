@@ -1,6 +1,6 @@
-prefix=/usr/local
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
 
 Name: apertium-bre
 Description: Finite-state morphological transducer and constraint grammar for Breton 
