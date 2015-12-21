@@ -12,3 +12,7 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+texts/miscellaneous.tagged.txt -text
+texts/miscellaneous.txt -text
+texts/oab.tagged.txt -text
+texts/oab.txt -text

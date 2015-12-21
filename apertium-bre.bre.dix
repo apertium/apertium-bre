@@ -66,6 +66,8 @@
     <sdef n="cm"     c="Coma"/>
     <sdef n="apos"   c="Apostrophe"/>
     <sdef n="guio"   c="Hyphen"/>
+    <sdef n="lquot"  c=""/>
+    <sdef n="rquot"  c=""/>
     <sdef n="sent"   c="End of sentence marker"/>
     <sdef n="ND"/>
     <sdef n="GD"/>
@@ -131,6 +133,11 @@
 
     <pardef n="coma">
       <e><re>,</re><p><l/><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="quot">
+      <e><p><l>«</l><r>«<s n="lquot"/></r></p></e>
+      <e><p><l>»</l><r>«<s n="rquot"/></r></p></e>
     </pardef>
 
     <pardef n="apos">
