@@ -11,7 +11,12 @@
 /apertium-bre.pc.in -text
 /autogen.sh -text
 /configure.ac -text
+dev/editdist.py -text
 /modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
 texts/miscellaneous.tagged.txt -text
 texts/miscellaneous.txt -text
 texts/oab.tagged.txt -text
