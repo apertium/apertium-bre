@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="bre-morph">
+  <mode name="bre-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="bre.automorf.bin"/>
@@ -9,7 +9,7 @@
     </pipeline>
   </mode>
 
-  <mode name="bre-gener">
+  <mode name="bre-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="bre.autogen.bin"/>
@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="bre-tagger">
+  <mode name="bre-tagger" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="bre.automorf.bin"/>
@@ -28,7 +28,7 @@
     </pipeline>
   </mode>
 
-  <mode name="bre-disam">
+  <mode name="bre-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="bre.automorf.bin"/>
