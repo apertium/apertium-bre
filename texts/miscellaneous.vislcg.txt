@@ -3,7 +3,7 @@
 "<zo>"
 	"bezañ" vblex pri p3 sg @aux #2->4
 "<o>"
-	"o" vpart ger @disc #3->4
+	"o" vpart ger @aux #3->4
 "<komz>"
 	"komz" vblex inf @root #4->0 
 "<gant ma>"
@@ -17,7 +17,7 @@
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->3
 "<a>"
-	"a" vpart @disc #2->3 
+	"a" vpart @aux #2->3 
 "<gomz>"
 	"komz" vblex pri p3 sg @root #3->0
 "<gant ma>"

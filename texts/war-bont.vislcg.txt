@@ -1,0 +1,241 @@
+# text = P'edon war bont an Naoned, an deiz all o kanañ.
+# text[fra] = Quand j'étais sur le pont de Nantes l'autre jour à chanter 
+"<P'edon>"
+	"pa" cnjsub @mark #1->4
+		"bezañ" vbloc pii p1 sg @cop #2->4
+"<war>"
+	"war" pr @case #3->4
+"<bont>"
+	"pont" n m sg @root #4->0
+"<an>"
+	"an" det def sp @det #5->6
+"<Naoned>"
+	"Naoned" np top sg @nmod:poss #6->4
+"<,>"
+	"," cm @punct #7->4
+"<an>"
+	"an" det def sp @det #8->9
+"<deiz>"
+	"deiz" n m sg @obl #9->4
+"<all>"
+	"all" adj ind mf sp @amod #10->9
+"<o>"
+	"o" vpart ger @aux #11->12
+"<kanañ>"
+	"kanañ" vblex inf @advcl #12->4
+"<.>"
+	"." sent @punct #13->4
+
+# text = Me 'welas ur verjelenn, war ar pont o ouelañ.
+# text[fra] = Je vis une bergère qui pleurait sur le pont 
+"<Me>"
+	"prpers" prn subj p1 mf sg @nsubj #1->3
+"<'welas>"
+	"a" vpart @aux #2->3
+		"gwelet" vblex past p3 sg @root #3->0
+"<ur>" 
+	"un" det ind sp @det #4->5
+"<verjelenn>"
+	"berjelenn" n f sg @obj #5->3
+"<war>"
+	"war" pr @case #6->8
+"<ar>"
+	"an" det def sp @det #7->8
+"<pont>"
+	"pont" n m sg @nmod #8->5
+"<o>"
+	"o" vpart ger @aux #9->10
+"<ouelañ>"
+	"gouelañ" vblex inf @advcl #10->3
+"<.>"
+	"." sent @punct #11->3
+
+# text = Petra 'peus 'ta plac'h yaouank?
+# text[fra] = Qu'as-tu donc jeune fille? 
+"<Petra>"
+	"petra" prn itg mf sp @advmod #1->2
+"<'peus>"
+	"kaout" vblex pri p2 pl @root #2->0
+"<'ta>"
+	"eta" adv @advmod #3->2
+"<plac'h>"
+	"plac’h" n f sg @vocative #4->2
+"<yaouank>"
+	"yaouank" adj mf sp @amod #5->4
+"<?>"
+	"?" sent @punct #6->2
+
+# text = Petra 'ra dit gouelañ ?
+# text[fra] = Qu'est-ce qui te fait pleurer ? 
+"<Petra>"
+	"petra" prn itg mf sp @advmod #1->3
+"<'>"
+	"a" vpart @aux @aux #2->3
+"<ra>"
+	"ober" vblex pri p3 sg @root #3->0
+"<dit>"
+	"da" pr @case #4->5
+		"indirect" prn obj p2 mf sg @obl #5->3
+"<gouelañ>"
+	"gouelañ" vblex inf @xcomp #6->3
+"<?>"
+	"?" sent @punct #7->3
+
+# text = Va gwalenn aour, emezi, zo kouezhet er mor amañ.
+# text[fra] = Mon anneau d'or, dit-elle, Est tombé là dans la mer 
+"<Va>"
+	"ma" det pos mf sp @det #1->2
+"<gwalenn>"
+	"gwalenn" n f sg @nsubj #2->9
+"<aour>"
+	"aour" n m sg @nmod #3->2
+"<,>"
+	"," cm @punct #4->6
+"<emezi>"
+	"eme" pr @case #5->6
+		"indirect" prn subj p3 f sg @parataxis #6->9
+"<,>"
+	"," cm @punct #7->6
+"<zo>"
+	"bezañ" vblex pri p3 sg @aux #8->9
+"<kouezhet>"
+	"kouezhañ" vblex pp @root #9->0
+"<er>"
+	"e" pr @case #10->12
+		"an" det def sp @det #11->12
+"<mor>"
+	"mor" n m sg @obl #13->9
+"<amañ>"
+	"amañ" adv @advmod #14->9
+"<.>" 
+	"." sent @punct #15->9
+
+# text = Petra 'roi din, plac'h yaouank, me 'yelo d'he zapañ ?
+# text[fra] = Que me donnes-tu, jeune fille, si je vais le chercher ? 
+"<Petra>"
+	"petra" prn itg mf sp @obj #1->3
+"<'roi>"
+	"a" vpart @aux #2->3
+		"reiñ" vblex fti p2 sg @root #3->0
+"<din>"
+	"da" pr @case #4->5
+		"indirect" prn obj p1 mf sg @obl #5->3
+"<,>"
+	"," cm @punct #6->3
+"<plac'h>"
+	"plac’h" n f sg @vocative #7->3
+"<yaouank>"
+	"yaouank" adj mf sp @amod #8->7
+"<,>"
+	"," cm @punct #9->12
+"<me>"
+	"prpers" prn subj p1 mf sg @nsubj #10->12
+"<'yelo>"
+	"a" vpart @aux #11->12
+		"mont" vblex fti p3 sg @parataxis #12->3
+"<d'he>"
+	"da" pr @case #13->14
+		"direct" prn obj p3 f sg @obl #14->15
+"<zapañ>"
+	"zapañ" vblex inf @xcomp #15->12
+"<?>"
+	"?" sent @punct #16->3
+
+# text = Hanter-kant skoed, emezi, em eus em yalc'h amañ.
+# text[fra] = Cinquante écus, dit-elle, que j'ai là dans ma bourse. 
+"<Hanter-kant>"
+	"hanter-kant" num mf pl @nummod #1->2
+"<skoed>"
+	"skoed" n m sg @parataxis #2->7
+"<,>"
+	"," cm @punct #3->5
+"<emezi>"
+	"eme" pr @case #4->5
+		"indirect" prn obj p3 f sg @parataxis #5->7
+"<,>"
+	"," cm @punct #6->5
+"<em eus>"
+	"kaout" vblex pri p1 sg @root #7->0
+"<em>"
+	"e" pr @case #8->10
+		"ma" det pos mf sp @det #9->10
+"<yalc'h>"
+	"yalc’h" n f sg @obl #10->7
+"<amañ>"
+	"amañ" adv @advmod #11->7
+"<.>"
+	"." sent @punct #12->7
+
+# text = 'vit ar c'hentañ ploñjadenn, netra gwelet e oa.
+# text[fra] = Au premier plongeon, on ne vit rien.
+"<'vit>"
+	"evit" pr @case #1->4
+"<ar>"
+	"an" det def sp @det #2->4
+"<c'hentañ>"
+	"kentañ" num ord mf sp @amod #3->4
+"<ploñjadenn>"
+	"ploñjadenn" n m sg @obl #4->7
+"<,>"
+	"," cm @punct #5->7
+"<netra>"
+	"netra" prn def mf sg @obj #6->7
+"<gwelet>"
+	"gwelet" vblex pp @root #7->0
+"<e>"
+	"e" vpart obj @aux #8->7
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #9->7
+"<.>"
+	"." sent @punct #10->7
+
+# text = 'vit an eilvet ploñjadenn, 'r walenn touchet e oa.
+# text[fra] = Au deuxième plongeon, l'anneau était touché.
+"<'vit>"
+	"evit" pr @case #1->4
+"<an>"
+	"an" det def sp @det #2->4
+"<eilvet>"
+	"eil" adj mf sp @amod #3->4
+"<ploñjadenn>"
+	"ploñjadenn" n m sg @obl #4->8
+"<,>"
+	"," cm @punct #5->8
+"<'r>"
+	"an" det def sp @det #6->7 
+"<walenn>"
+	"gwalenn" n f sg @obj #7->8
+"<touchet>"
+	"touchañ" vblex pp @root #8->0
+"<e>"
+	"e" vpart obj @aux #9->8
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #10->8
+"<.>"
+	"." sent @punct #11->8
+
+# text = 'vit an drede ploñjadenn, ar paotr, beuzet e oa.
+# text[fra] = Au troisième plongeon, le garçon fut noyé.
+"<'vit>"
+	"evit" pr @case #1->4
+"<an>"
+	"an" det def sp @det #2->4
+"<drede>"
+	"trede" num ord mf sp @amod #3->4
+"<ploñjadenn>"
+	"ploñjadenn" n m sg @obl #4->8
+"<,>"
+	"," cm @punct #5->8
+"<ar>"
+	"an" det def sp @det #6->7
+"<paotr>"
+	"paotr" n m sg @x #7->8
+"<beuzet>"
+	"beuziñ" vblex pp @root #8->0
+"<e>"
+	"e" vpart obj @aux #9->8
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #10->8
+"<.>"
+	"." sent @punct #11->8
+
