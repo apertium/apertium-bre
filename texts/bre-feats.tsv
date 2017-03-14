@@ -74,3 +74,4 @@ _	sent	_	_	_	PUNCT	_	_
 _	vblex	_	_	_	VERB	_	_
 _	vbloc	_	_	_	VERB	_	_
 _	vpart	_	_	_	PART	_	_
+_	x	_	_	dep	X	_	dep
