@@ -18,6 +18,7 @@ speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
 texts/bre-feats.tsv -text
+texts/grammar.vislcg.txt -text
 texts/miscellaneous.txt -text
 texts/miscellaneous.vislcg.txt -text
 texts/oab.txt -text

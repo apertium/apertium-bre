@@ -1,0 +1,436 @@
+"<Setu>"
+	"setu" adv
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
+"<ti>"
+	"ti" n m sg
+"<m'>"
+	"ma" cnjsub
+"<emaon>"
+	"bezañ" vbloc pri p1 sg @+FMAINV MAP:939
+"<o>"
+	"o" vpart ger
+;	"o" ij
+;	"o" n m sp
+;	"o" det pos mf sp
+;	"direct" prn obj p3 mf pl
+"<chom>"
+	"chom" vblex inf
+;	"chom" vblex imp p2 sg
+;	"chom" vblex pri p3 sg
+"<ennañ>"
+	"e" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent
+
+"<Setu>"
+	"setu" adv
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
+"<dorgenn>"
+	"torgenn" n f sg
+"<ma>"
+	"ma" cnjsub
+;	"ma" det pos mf sp
+;	"ma" ij
+"<savas>"
+	"sevel" vblex tv tv past p3 sg @+FMAINV
+"<-hi>"
+	"prpers" prn subj p3 f sg @X MAP:943
+"<he>"
+	"he" det pos f sp
+;	"direct" prn obj p3 f sg
+"<zi>"
+	"ti" n m sg
+"<warni>"
+	"war" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent
+
+"<E>"
+	"e" n m sp
+;	"e" det pos m sp
+;	"e" pr
+;	"direct" prn obj p3 m sg
+;	"e" vpart obj
+"<welout>"
+	"gwelout" vblex inf
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" pr
+;	"a" n m sp
+"<ran>"
+	"ober" vblex pri p1 sg @+FMAINV
+;	"ran" n f sg
+"<.>"
+	"." sent
+
+"<Gwelout>"
+	"gwelout" vblex inf
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" pr
+;	"a" n m sp
+"<ran>"
+	"ober" vblex pri p1 sg @+FMAINV
+;	"ran" n f sg
+"<anezhi>"
+	"direct" prn obj p3 f sg
+;	"eus" pr
+;		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent
+
+"<Yann>"
+	"Yann" np ant m sg
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" pr
+;	"a" n m sp
+"<zibab>"
+	"dibab" vblex pri p3 sg @+FMAINV
+;	"dibab" vblex imp p2 sg
+;	"dibab" vblex inf
+;	"dibab" n m sg
+"<ul>"
+	"un" det ind sp
+"<levr>"
+	"levr" n m sg
+"<.>"
+	"." sent
+
+"<Ul>"
+	"un" det ind sp
+"<levr>"
+	"levr" n m sg
+"<a>"
+	"a" pr
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" n m sp
+"<zibab>"
+	"dibab" vblex pri p3 sg @+FMAINV MAP:939
+	"dibab" n m sg
+;	"dibab" vblex imp p2 sg
+;	"dibab" vblex inf
+"<Yann>"
+	"Yann" np ant m sg
+"<.>"
+	"." sent
+
+"<Yann>"
+	"Yann" np ant m sg
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" pr
+;	"a" n m sp
+"<wel>"
+	"gwelout" vblex pri p3 sg @+FMAINV
+	"gwelout" vblex pri p3 sg @+FMAINV
+;	"gwelout" vblex imp p2 sg
+;	"gwel" n m sg
+"<Morwenna>"
+	"*Morwenna"
+"<.>"
+	"." sent
+
+"<Morwenna>"
+	"*Morwenna"
+"<a>"
+	"a" pr
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" n m sp
+"<wel>"
+	"gwel" n m sg
+	"gwelout" vblex pri p3 sg @+FMAINV MAP:939
+	"gwelout" vblex pri p3 sg @+FMAINV MAP:939
+;	"gwelout" vblex imp p2 sg
+"<Yann>"
+	"Yann" np ant m sg
+"<.>"
+	"." sent
+
+"<El>"
+	"e" pr
+		"an" det def sp
+"<liorzh>"
+	"liorzh" n f sg
+;	"liorzhañ" vblex imp p2 sg
+;	"liorzhañ" vblex pri p3 sg
+"<e>"
+	"direct" prn obj p3 m sg
+;	"e" pr
+;	"e" vpart obj
+;	"e" n m sp
+;	"e" det pos m sp
+"<c'hortoz>"
+	"gortoz" vblex inf
+;	"gortoz" vblex imp p2 sg
+;	"gortoz" vblex pri p3 sg
+"<Yann>"
+	"Yann" np ant m sg
+"<.>"
+	"." sent
+
+"<El>"
+	"e" pr
+		"an" det def sp
+"<liorzh>"
+	"liorzh" n f sg
+;	"liorzhañ" vblex imp p2 sg
+;	"liorzhañ" vblex pri p3 sg
+"<'>"
+	"’" apos
+;	"a" vpart
+;	"e" vpart obj
+;	"o" vpart ger
+"<ni>"
+	"prpers" prn subj p1 mf pl @X MAP:943
+"<c'hortoz>"
+	"gortoz" vblex inf
+;	"gortoz" vblex imp p2 sg
+;	"gortoz" vblex pri p3 sg
+"<Yann>"
+	"Yann" np ant m sg
+"<.>"
+	"." sent
+
+"<Piv>"
+	"piv" prn itg mf sp @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<wel>"
+	"gwelout" vblex pri p3 sg @root #3->0
+"<Yannig>"
+	"Yannig" np ant m sg @obj #4->3
+"<?>"
+	"?" sent @punct #5->3
+
+"<Mari>"
+	"Mari" np ant f sg @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<wel>"
+	"gwelout" vblex pri p3 sg @root #3->0
+"<Yannig>"
+	"Yannig" np ant m sg @obj #4->3
+"<.>"
+	"." sent @punct #5->3
+
+"<Al>"
+	"an" det def sp @det #1->2
+"<labour>"
+	"labour" n m sg @obj #2->4
+"<e>"
+	"e" vpart obj @aux #3->4
+"<kavo>"
+	"kavout" vblex fti p3 sg @root #4->0
+"<mat>"
+	"mat" adj mf sp @acl #5->2
+"<.>"
+	"." sent @punct #6->4
+
+"<Diskouezit>"
+	"diskouez" vblex imp p2 pl @root #1->0
+"<din>"
+	"da" pr @case #2->3
+		"indirect" prn obj p1 mf sg @obl #3->1
+"<an>"
+	"an" det def sp @det #4->5
+"<ti>"
+	"ti" n m sg @obj #5->1
+"<!>"
+	"!" sent @punct #6->1
+
+"<Na>"
+	"na" vpart neg @aux #1->2
+"<ziskouezit>"
+	"diskouez" vblex imp p2 pl @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<din>"
+	"da" pr @case #4->5
+		"indirect" prn obj p1 mf sg @obl #5->2
+"<an>"
+	"an" det def sp @det #6->7
+"<ti>" 
+	"ti" n m sg @obj #7->2
+"<!>"
+	"!" sent @punct #8->2
+
+"<Selaouit>"
+	"selaou" vblex pri p2 pl @+FMAINV MAP:939
+;	"selaou" vblex imp p2 pl
+"<ac'hanon>"
+	"direct" prn obj p1 mf sg
+;	"eus" pr
+;		"indirect" prn obj p1 mf sg
+"<!>"
+	"!" sent
+
+"<Va>"
+	"direct" prn obj p1 mf sg
+;	"ma" det pos mf sp
+;	"ma" cnjsub
+"<selaouit>"
+	"selaou" vblex pri p2 pl @+FMAINV MAP:939
+;	"selaou" vblex imp p2 pl
+"<!>"
+	"!" sent
+
+"<Na>"
+	"na" vpart neg
+;	"na" cnjcoo
+;	"na" preadv
+"<selaouit>"
+	"selaou" vblex pri p2 pl @+FMAINV MAP:939
+;	"selaou" vblex imp p2 pl
+"<ket>"
+	"ket" adv
+"<ac'hanon>"
+	"direct" prn obj p1 mf sg
+;	"eus" pr
+;		"indirect" prn obj p1 mf sg
+"<!>"
+	"!" sent
+
+"<Pesketaer>"
+	"pesketaer" n m sg
+;	"pesketa" vblex pri impers sp
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<vo>"
+	"bezañ" vblex fti p3 sg @+FMAINV MAP:939
+"<Yannig>"
+	"Yannig" np ant m sg
+"<a-hed>"
+	"a-hed" pr
+"<e>"
+	"e" det pos m sp
+;	"e" pr
+;	"e" n m sp
+;	"direct" prn obj p3 m sg
+;	"e" vpart obj
+"<vuhez>"
+	"buhez" n f sg
+;	"buheziñ" vblex imp p2 sg
+;	"buhezañ" vblex imp p2 sg
+;	"buheziñ" vblex pri p3 sg
+;	"buhezañ" vblex pri p3 sg
+"<.>"
+	"." sent
+
+"<Ne>"
+	"ne" adv neg
+"<gavo>"
+	"kavout" vblex fti p3 sg @+FMAINV MAP:939
+"<ket>"
+	"ket" adv
+"<ho>"
+	"direct" prn obj p2 mf pl
+;	"ho" det pos mf sp
+"<preudeur>"
+	"breur" n m pl
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+"<labour>"
+	"labourat" vblex pri p3 sg @+FMAINV
+;	"labour" n m sg
+"<e>"
+	"e" pr
+;	"e" det pos m sp
+;	"e" vpart obj
+;	"direct" prn obj p3 m sg
+;	"e" n m sp
+"<Pariz>"
+	"Pariz" np top sg
+"<.>"
+	"." sent
+
+"<N'>"
+	"ne" adv neg
+"<o deus>"
+	"kaout" vblex pri p3 pl @+FMAINV MAP:939
+"<ket>"
+	"ket" adv
+"<gwelet>"
+	"gwelout" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg
+;	"gwelout" vblex inf
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<wazed>"
+	"gwaz" n m pl
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
+"<ti>"
+	"ti" n m sg
+"<-se>"
+	"se" adv
+"<.>"
+	"." sent
+
+"<Ar>"
+	"an" det def sp @det #1->2
+"<wazed>"
+	"gwaz" n m pl @nsubj #2->6
+"<n'>"
+	"ne" adv neg @advmod #3->6
+"<o deus>"
+	"kaout" vblex pri p3 pl @aux #4->6
+"<ket>"
+	"ket" adv @advmod #5->6
+"<gwelet>"
+	"gwelout" vblex pp @root #6->0
+"<an>"
+	"an" det def sp @det #7->8
+"<ti>"
+	"ti" n m sg @obj #8->6
+"<-se>"
+	"se" adv @advmod #9->8
+"<.>"
+	"." sent @punct #10->6
+
