@@ -19,5 +19,5 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 texts/miscellaneous.tagged.txt -text
 texts/miscellaneous.txt -text
-texts/oab.tagged.txt -text
 texts/oab.txt -text
+texts/oab.vislcg.txt -text
