@@ -17749,59 +17749,46 @@
 "<.>"
 	"." sent @punct
 
+# text = Reiñ a reont un neuz c'hwekoc'h d'an tren ha gallout a reer krouiñ kinkladurioù gouloù ganto. »
+# text[fra] = Elles permettent de donner un aspect plus chaleureux au train et de créer des décors lumineux »
 "<Reiñ>"
-	"reiñ" vblex inf
+	"reiñ" vblex inf @root #1->0
 "<a>"
-	"a" vpart 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"monet" vblex imp p2 sg 
+	"a" vpart @aux #2->1
 "<reont>"
-	"ober" vblex pri p3 pl 
+	"ober" vblex pri p3 pl @aux #3->1
 "<un>"
-	"un" det ind sp @det
+	"un" det ind sp @det #4->5
 "<neuz>"
-	"neuz" n f sg
+	"neuz" n f sg @obj #5->1
 "<c'hwekoc'h>"
-	"c’hwek" adj sint comp
+	"c’hwek" adj sint comp @amod #6->5
 "<d'an>"
-	"da" pr @case
-		"an" det def sp
+	"da" pr @case #7->9
+		"an" det def sp @det #8->9
 "<tren>"
-	"tren" n m sg
+	"tren" n m sg @nmod #9->5
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij 
+	"ha" cnjcoo @cc #10->11
 "<gallout>"
-	"gallout" vblex inf
+	"gallout" vblex inf @conj #11->1
 "<a>"
-	"a" vpart 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"monet" vblex imp p2 sg 
+	"a" vpart @aux #12->11
 "<reer>"
-	"ober" vblex pri impers sp 
-"<krouiñ>"
-	"krouiñ" vblex inf 
-;	"krouiñ" n m sg 
+	"ober" vblex pri impers sp @aux #13->11
+"<krouiñ>" 
+	"krouiñ" vblex inf @xcomp #14->11
 "<kinkladurioù>"
-	"kinkladur" n m pl
+	"kinkladur" n m pl @obj #15->14
 "<gouloù>"
-	"gouloù" adj mf sp 
-;	"gouloù" n m sg 
+	"gouloù" adj mf sp @amod #16->15
 "<ganto>"
-	"gant" pr @case
-		"indirect" prn obj p3 mf pl
+	"gant" pr @case #17->18
+		"indirect" prn obj p3 mf pl @obl #18->14
 "<.>"
-	"." sent @punct
+	"." sent @punct #19->1
 "<»>"
-	"»" rquot
+	"»" rquot @punct #20->1
 
 "<Pedadenn>"
 	"pedadenn" n f sg
@@ -18133,39 +18120,35 @@
 "<.>"
 	"." sent @punct
 
-"<Muioc'h-mui a>"
-	"muioc’h-mui a" pr @case
-"<dud>"
-	"den" n m pl
+# text = Muioc'h-mui a dud a zebr boued bio. 
+# text[fra] = De plus en plus de personnes consomment bio. 
+"<Muioc'h-mui>"
+	"muioc’h-mui" adv #1->5
 "<a>"
-	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
+	"a" pr #2->3
+"<dud>"
+	"den" n m pl @nsubj #3->5
+"<a>"
+	"a" vpart @aux #4->5
 "<zebr>"
-	"debriñ" vblex pri p3 sg 
-;	"debriñ" vblex imp p2 sg 
-;	"zebr" n m sg 
+	"debriñ" vblex pri p3 sg @root #5->0
 "<boued>"
-	"boued" n m sg
+	"boued" n m sg @obj #6->5
 "<bio>"
-	"bio" adj mf sp
+	"bio" adj mf sp @amod #7->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->5
 
+# text = Sin vat eo.
+# text[fra] = C'est bon signe.
 "<Sin>"
-	"sin" n m sg
-;	"sinañ" vblex imp p2 sg 
-;	"sinañ" vblex pri p3 sg 
+	"sin" n m sg @root #1->0
 "<vat>"
-	"mat" adj mf sp
+	"mat" adj mf sp @amod #2->1
 "<eo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #4->1
 
 "<Ret>"
 	"ret" adj mf sp
