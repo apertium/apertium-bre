@@ -1,3 +1,4 @@
+# text[fra] = Les Olympiades sont une compétition exigeante et prestigieuse mais pas seulement.
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gevezadeg>"
@@ -15,24 +16,25 @@
 "<Olimpiadennoù>"
 	"olimpiadenn" n f pl @nsubj #8->2
 "<,>"
-	"," cm @punct #9->
+	"," cm @punct #9->13
 "<met>"
-	"met" cnjcoo @cc #10->
+	"met" cnjcoo @cc #10->13
 "<ouzhpenn>"
 	"ouzhpenn" pr @case #11->13
 "<an>"
 	"an" det def sp @det #12->13
 "<dra>"
-	"tra" n m sg @x #13->
+	"tra" n m sg @conj #13->2
 "<-se>"
-	"se" adv @x #14->
+	"se" adv @advmod #14->13
 "<ez>"
-	"e" vpart obj @disc #15->16
+	"e" vpart obj @aux #15->16
 "<int>"
-	"bezañ" vblex pri p3 pl @x #16->
+	"bezañ" vblex pri p3 pl @cop #16->13
 "<.>"
-	"." sent @punct #17->
+	"." sent @punct #17->2
 
+# text[fra] = La zone indiquée par la flèche n'est pas une galaxie mais un jet d'étoiles et de gaz provenant d'une des galaxies déformée par effet gravitationnel.
 "<An>"
 	"an" det def sp
 "<takad>"
@@ -96,6 +98,7 @@
 "<.>"
 	"." sent @punct
 
+# text[fra] = De vastes zones côtières se retrouvent donc alternativement submergées par les eaux, puis à l'air libre quelques heures plus tard.
 "<En em>"
 	"en em" vpart ref @disc
 "<gavout>"
@@ -156,132 +159,96 @@
 "<.>"
 	"." sent @punct
 
+# text = Grit anaoudegezh gant istor an Hollved kontet deoc'h a-hed e bazennoù bras war-bouez gerioù eeun dalc'hmat.
+# text[fra] = Découvrez l’histoire de l’Univers racontée dans ses grandes étapes avec un souci constant de simplicité.
 "<Grit>"
-	"ober" vblex pri p2 pl 
-;	"ober" vblex imp p2 pl 
+	"ober" vblex imp p2 pl @root #1->0
 "<anaoudegezh>"
-	"anaoudegezh" n f sg
+	"anaoudegezh" n f sg @obj #2->1
 "<gant>"
-	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
+	"gant" pr @case #3->4
 "<istor>"
-	"istor" n m sg
+	"istor" n m sg @obl #4->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #5->6
 "<Hollved>"
-	"hollved" n m sg
+	"hollved" n m sg @nmod:poss #6->4
 "<kontet>"
-	"kontañ" vblex pp
-;	"kontañ" vblex imp p3 sg 
+	"kontañ" vblex pp @acl:relcl #7->4
 "<deoc'h>"
-	"da" pr @case
-		"indirect" prn obj p2 mf pl
+	"da" pr @case #8->9
+		"indirect" prn obj p2 mf pl @obl #9->7
 "<a-hed>"
-	"a-hed" pr @case
+	"a-hed" pr @case #10->12
 "<e>"
-	"e" det pos m sp 
-;	"e" vpart obj 
-;	"direct" prn obj p3 m sg 
-;	"e" pr 
-;	"e" n m sp 
+	"e" det pos m sp @det #11->12
 "<bazennoù>"
-	"pazenn" n f pl
+	"pazenn" n f pl @obl #12->7
 "<bras>"
-	"bras" adj mf sp
+	"bras" adj mf sp @amod #13->12
 "<war-bouez>"
-	"war-bouez" pr @case
-	"war-bouez" adv 
+	"war-bouez" pr @case #14->15
 "<gerioù>"
-	"ger" n m pl
+	"ger" n m pl @obl #15->7
 "<eeun>"
-	"eeun" adj mf sp
+	"eeun" adj mf sp @amod #16->15
 "<dalc'hmat>"
-	"dalc’hmat" adv 
+	"dalc’hmat" adv @advmod #17->16
 "<.>"
-	"." sent @punct
+	"." sent @punct #18->1
 
+# text = Katalog menegerioù lodenn ar Rannvro atebek a oa bet kinniget da-geñver ar memes dalc'h.
+# text[fra] = Le catalogue des indicateurs du volet Région responsable a été présenté lors de la même session.
 "<Katalog>"
-	"katalog" n m sg
+	"katalog" n m sg @x
 "<menegerioù>"
-	"meneger" n m pl
+	"meneger" n m pl @nmod:poss
 "<lodenn>"
-	"lodenn" n f sg
-;	"lodenniñ" vblex imp p2 sg 
-;	"lodennañ" vblex imp p2 sg 
-;	"lodenniñ" vblex pri p3 sg 
-;	"lodennañ" vblex pri p3 sg 
+	"lodenn" n f sg @nmod:poss
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det
 "<Rannvro>"
-	"rannvro" n f sg
+	"rannvro" n f sg @nmod:poss
 "<atebek>"
-	"atebek" adj mf sp
+	"atebek" adj mf sp @amod
 "<a>"
 	"a" vpart 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"monet" vblex imp p2 sg 
 "<oa>"
 	"bezañ" vblex pii p3 sg 
 "<bet>"
 	"bezañ" vblex pp 
-;	"pet" prn itg mf sp 
-;	"kaout" vblex pp 
 "<kinniget>"
 	"kinnig" vblex pp
-;	"kinnig" vblex imp p3 sg 
 "<da-geñver>"
 	"da-geñver" pr @case
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg 
 "<memes>"
-	"memes" adv 
 	"memes" adj ind mf sp
 "<dalc'h>"
 	"dalc’h" n m sg
-;	"delc’her" vblex imp p2 sg 
-;	"derc’hel" vblex imp p2 sg 
-;	"delc’her" vblex pri p3 sg 
-;	"derc’hel" vblex pri p3 sg 
 "<.>"
 	"." sent @punct
 
+# text = Framm dave an diorren padus e Breizh
+# text[fra] = Le cadre de référence du développement durable en Bretagne
 "<Framm>"
-	"framm" n m sg
-;	"frammañ" vblex imp p2 sg 
-;	"frammañ" vblex pri p3 sg 
+	"framm" n m sg @root #1->0
 "<dave>"
-	"dave" n m sg
-;	"daveiñ" vblex imp p2 sg 
-;	"tevel" vblex pii p3 sg 
-;	"daveiñ" vblex pri p3 sg 
+	"dave" n m sg @nmod:poss #2->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #3->4
 "<diorren>"
-	"diorren" n m sg 
-;	"diorren" vblex inf 
+	"diorren" n m sg @nmod:poss #4->1
 "<padus>"
-	"padus" adj mf sp
+	"padus" adj mf sp @amod #5->4
 "<e>"
-	"e" pr 
-;	"e" vpart obj 
-;	"direct" prn obj p3 m sg 
-;	"e" det pos m sp 
-;	"e" n m sp 
+	"e" pr @case #6->7
 "<Breizh>"
-	"Breizh" np top sg 
-;	"preizh" n m sg 
+	"Breizh" np top sg @nmod #7->4
 
+# text = Pa vez tort an Heol d'an dremmwel o deus ar « bannoù » anezhañ ur gwiskad aergelc'h tevoc'h da dreuziñ.
+# text[fra] = Lorsque le Soleil est proche de l'horizon, les « rayons » du Soleil ont une plus grande épaisseur d'atmosphère à traverser.
 "<Pa>"
 	"pa" cnjsub 
 "<vez>"
@@ -335,15 +302,19 @@
 "<.>"
 	"." sent @punct
 
+# text = Penaos displegañ kement-se ?
+# text[fra] = Comment expliquer cela ?
 "<Penaos>"
 	"penaos" adv itg @advmod #1->2
 "<displegañ>"
 	"displegañ" vblex inf @root #2->0
 "<kement-se>"
-	"kement-se" prn dem mf sg @dobj #3->2
+	"kement-se" prn dem mf sg @obj #3->2
 "<?>"
 	"?" sent @punct #4->2
 
+# text = Muzuliañ uhelder Sterenn an Norzh zo kement hag anavezout ledred al lec'h (hag a-c'hin).
+# text[fra] = Mesurer la hauteur de l'étoile polaire, c'est connaître la latitude du lieu (et inversement).
 "<Muzuliañ>"
 	"muzuliañ" vblex inf
 "<uhelder>"
@@ -391,71 +362,72 @@
 "<.>"
 	"." sent @punct
 
+# text = Treiñ a ra an Douar en-dro d'an Heol (360°) en ur ober 365 devezh.
+# text[fra] = Effectivement, la Terre tourne autour du Soleil (360°) en 365 jours.
 "<Treiñ>"
 	"treiñ" vblex inf @root #1->0
 "<a>"
-	"a" vpart @disc #1->2
+	"a" vpart @aux #2->1
 "<ra>"
 	"ober" vblex pri p3 sg @aux #3->1
 "<an>"
-	"an" det def sp @det
+	"an" det def sp @det #4->5
 "<Douar>"
-	"douar" n m sg @nsubj
+	"douar" n m sg @nsubj #5->1
 "<en-dro d'>"
-	"en-dro da" pr @case
+	"en-dro da" pr @case #6->8
 "<an>"
-	"an" det def sp @det
+	"an" det def sp @det #7->8
 "<Heol>"
-	"heol" n m sg
+	"heol" n m sg @obl #8->1
 "<(>"
-	"(" lpar @punct
+	"(" lpar @punct #9->10
 "<360°>"
-	"360°" num mf pl
+	"360°" num mf pl @appos #10->8
 "<)>"
-	")" rpar @punct
+	")" rpar @punct #11->10
 "<en ur>"
-	"en ur" vpart ppres 
+	"en ur" vpart ppres @aux #12->13
 "<ober>"
-	"ober" vblex inf
-"<365>"
-	"365" num mf pl @nummod
+	"ober" vblex inf @advcl #13->1
+"<365>" 
+	"365" num mf pl @nummod #14->15
 "<devezh>"
-	"devezh" n m sg 
+	"devezh" n m sg @obj #15->13
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->1
 
+# text = Heuliet e oa bet pizh kresk ar vugale e-touez gorilhed ar menezioù.
+# text[fra] = Le développement de l'enfant a été suivi avec minutie chez le gorille de montagne.
 "<Heuliet>"
-	"heuliañ" vblex pp
+	"heuliañ" vblex pp 
 "<e>"
-	"e" vpart obj 
+	"e" vpart obj @aux
 "<oa>"
 	"bezañ" vblex pii p3 sg 
 "<bet>"
 	"bezañ" vblex pp 
 "<pizh>"
 	"pizh" adv 
-	"pizh" adj mf sp
 "<kresk>"
 	"kresk" n m sg
-;	"kreskiñ" vblex imp p2 sg 
-;	"kreskiñ" vblex pri p3 sg 
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nmod:poss
 "<e-touez>"
 	"e-touez" pr @case
 "<gorilhed>"
-	"gorilh" n m pl
+	"gorilh" n m pl 
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det
 "<menezioù>"
-	"menez" n m pl
+	"menez" n m pl @nmod:poss
 "<.>"
 	"." sent @punct
 
+# text = Emgavioù etre strolladoù gorilhed a vez alies dre ma n'int ket loened da zerc'hel d'o zachenn ha dre ma rannont an tachennoù-se.
+# text[fra] = Les rencontres entre groupes de gorilles sont favorisées par le fait que les gorilles ne sont pas des animaux territoriaux et que leurs groupes utilisent des domaines qui se chevauchent largement.
 "<Emgavioù>"
 	"emgav" n m pl
 "<etre>"
@@ -520,29 +492,20 @@
 "<.>"
 	"." sent @punct
 
+# text = Displegañ a ra ar stummoù direizh a gaver a-wechoù gant galaksiennoù zo.
+# text[fra] = Elles expliquent les formes parfois anormales de certaines galaxies.
 "<Displegañ>"
 	"displegañ" vblex inf
 "<a>"
 	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"monet" vblex pri p3 sg 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
 "<ra>"
 	"ober" vblex pri p3 sg 
-;	"ober" vblex imp p2 sg 
-;	"ra" vpart opt 
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg 
 "<stummoù>"
 	"stumm" n m pl
 "<direizh>"
 	"direizh" adj mf sp
-;	"direizhañ" vblex imp p2 sg 
-;	"direizhañ" vblex pri p3 sg 
 "<a>"
 	"a" vpart 
 ;	"a" pr 
@@ -568,37 +531,28 @@
 "<.>"
 	"." sent @punct
 
+# text = Anavezet evit bezañ un douar dedennus, darev evit an avantur evel rannvro europat, ne lez den ebet diseblant a-benn ar fin.
+# text[fra] = Reconnue pour son attractivité, prête pour l'aventure en tant que région européenne elle ne laisse en fin de compte personne indifférent.
 "<Anavezet>"
 	"anavezout" vblex pp
-;	"anavezout" vblex imp p3 sg 
 "<evit>"
-	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
+	"evit" pr @mark
 "<bezañ>"
-	"bezañ" vblex inf
+	"bezañ" vblex inf @cop
 "<un>"
 	"un" det ind sp @det
 "<douar>"
 	"douar" n m sg
-;	"douarañ" vblex imp p2 sg 
-;	"douarañ" vblex pri p3 sg 
 "<dedennus>"
-	"dedennus" adj mf sp
+	"dedennus" adj mf sp @amod
 "<,>"
 	"," cm @punct
 "<darev>"
 	"darev" adj mf sp
-;	"dareviñ" vblex imp p2 sg 
-;	"dareviñ" vblex pri p3 sg 
 "<evit>"
 	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
 "<avantur>"
 	"avantur" n f sg
 "<evel>"
@@ -606,7 +560,7 @@
 "<rannvro>"
 	"rannvro" n f sg
 "<europat>"
-	"europat" adj mf sp
+	"europat" adj mf sp @amod
 "<,>"
 	"," cm @punct
 "<ne>"
@@ -623,37 +577,34 @@
 "<.>"
 	"." sent @punct
 
+# text = Takad teñval
+# text[fra] = Zone obscure
 "<Takad>"
-	"takad" n m sg
+	"takad" n m sg @root #1->0
 "<teñval>"
-	"teñval" adj mf sp
+	"teñval" adj mf sp @amod #2-1
 
+# text = Unan eus an divizoù meur eo evit ma c’hallo hor planedenn tapout ur c’hempouez demokratel.
+# text[fra] = Il s’agit d’une des conditions majeures de l’équilibre démocratique de notre planète.
 "<Unan>"
 	"unan" num mf sg
-;	"unaniñ" vblex imp p2 sg 
-;	"unaniñ" vblex pri p3 sg 
 "<eus>"
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
 "<divizoù>"
 	"diviz" n m pl
 "<meur>"
-	"meur" adj mf sp
+	"meur" adj mf sp @amod
 "<eo>"
 	"bezañ" vblex pri p3 sg 
 "<evit ma>"
 	"evit ma" cnjadv 
-	"evit" pr @case
-		"ma" det pos mf sp
 "<c’hallo>"
 	"gallout" vblex fti p3 sg 
 "<hor>"
-	"hon" det pos mf sp
-;	"direct" prn obj p1 mf pl 
+	"hon" det pos mf sp @det
 "<planedenn>"
 	"planedenn" n f sg
 "<tapout>"
@@ -661,15 +612,9 @@
 "<ur>"
 	"un" det ind sp @det
 "<c’hempouez>"
-	"kempouez" adj mf sp
 	"kempouez" n m sg
-;	"kempouez" vblex imp p2 sg 
-;	"kempouezañ" vblex imp p2 sg 
-;	"kempouez" vblex inf 
-;	"kempouez" vblex pri p3 sg 
-;	"kempouezañ" vblex pri p3 sg 
 "<demokratel>"
-	"demokratel" adj mf sp
+	"demokratel" adj mf sp @amod
 "<.>"
 	"." sent @punct
 
@@ -1061,7 +1006,7 @@
 "<ivez>"
 	"ivez" adv @advmod #4->1
 "<levrioù>"
-	"levr" n m pl @dobj #5->1
+	"levr" n m pl @obj #5->1
 "<ha>"
 	"ha" cnjcoo @cc #6->5
 "<pennadoù>"
@@ -1100,7 +1045,7 @@
 "<1994>"
 	"1994" num mf pl @nmod #2->6
 "<e>"
-	"e" vpart obj @disc #3->6
+	"e" vpart obj @aux #3->6
 "<oa>"
 	"bezañ" vblex pii p3 sg @aux  #4->6
 "<bet>"
@@ -1110,7 +1055,7 @@
 "<un>"
 	"un" det ind sp @det #7->8
 "<diskouezadeg>"
-	"diskouezadeg" n f sg @dobj #8->6
+	"diskouezadeg" n f sg @obj #8->6
 "<adsell>"
 	"adsell" n m sg @nmod:poss #9->8
 "<dezhañ>"
@@ -1276,7 +1221,7 @@
 "<al>"
 	"an" det def sp @det #6->7
 "<levr>"
-	"levr" n m sg @dobj #7->5
+	"levr" n m sg @obj #7->5
 "<-mañ>"
 	"mañ" adv @x #8->
 "<.>"
@@ -1417,7 +1362,7 @@
 "<c’hinkladurioù>"
 	"kinkladur" n m pl @nsubj #3->5
 "<e>"
-	"e" vpart obj @disc #4->5
+	"e" vpart obj @aux #4->5
 "<lavarer>"
 	"lavaret" vblex pri impers sp @root #5->0
 "<ar pezh a>"
@@ -1449,7 +1394,7 @@
 "<lakaat>"
 	"lakaat" vblex inf @advcl #9->1
 "<donder>"
-	"donder" n m sg @dobj #10->9
+	"donder" n m sg @obj #10->9
 "<.>"
 	"." sent @punct #11->1
 
@@ -1590,7 +1535,7 @@
 "<Evel-se>"
 	"evel-se" adv @advmod #1->3
 "<e>"
-	"e" vpart obj @disc #2->3
+	"e" vpart obj @aux #2->3
 "<c’haller>"
 	"gallout" vblex pri impers sp @root #3->0
 "<stardañ>"
@@ -1600,7 +1545,7 @@
 "<ar>"
 	"an" det def sp @det #6->7
 "<perlez>"
-	"perlez" n f pl @dobj #7->4
+	"perlez" n f pl @obj #7->4
 "<.>"
 	"." sent @punct #8->3
 
@@ -1863,7 +1808,7 @@
 "<2004>"
 	"2004" num mf pl @nmod #2->
 "<e>"
-	"e" vpart obj @disc #3->
+	"e" vpart obj @aux #3->
 "<oa>"
 	"bezañ" vblex pii p3 sg @aux #4->
 "<bet>"
@@ -1877,7 +1822,7 @@
 "<Ofis>"
 	"Ofis" np al m sg @nsubj #9->6
 "<diagnostikoù>"
-	"diagnostik" n m pl @dobj #10->6
+	"diagnostik" n m pl @obj #10->6
 "<war>"
 	"war" pr @case 
 "<stad>"

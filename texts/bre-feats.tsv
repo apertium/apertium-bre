@@ -1,3 +1,7 @@
+_	vpart	ppres	_	_	PART	_	_
+_	vpart	ref	_	_	PART	_	_
+_	vpart	opt	_	_	PART	Mood=Opt	_
+_	vpart	neg	_	_	PART	Polarity=Neg	_
 _	vpart	obj	_	_	PART	_	_
 _	vpart	ger	_	_	PART	_	_
 _	prn	obj	_	_	_	PronType=Pers|Case=Acc	_

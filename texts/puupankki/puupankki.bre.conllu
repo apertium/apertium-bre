@@ -22,34 +22,107 @@
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = oab.vislcg.txt:1:0
+# text = Ur gevezadeg ziaes ha brudet eo an Olimpiadennoù, met ouzhpenn an dra -se ez int.
+1	Ur	un	DET	det	_	2	det	_	_
+2	gevezadeg	kevezadeg	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
+3	ziaes	diaes	ADJ	adj	_	2	amod	_	_
+4	ha	ha	CCONJ	cnjcoo	_	3	cc	_	_
+5	brudet	brudet	ADJ	adj	_	3	conj	_	_
+6	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+7	an	an	DET	det	_	8	det	_	_
+8	Olimpiadennoù	olimpiadenn	NOUN	n	Gender=Fem|Number=Plur	2	nsubj	_	_
+9	,	,	PUNCT	cm	_	13	punct	_	_
+10	met	met	CCONJ	cnjcoo	_	13	cc	_	_
+11	ouzhpenn	ouzhpenn	ADP	pr	_	13	case	_	_
+12	an	an	DET	det	_	13	det	_	_
+13	dra	tra	NOUN	n	Gender=Msc|Number=Sing	2	conj	_	_
+14	-se	se	ADV	adv	_	13	advmod	_	_
+15	ez	e	PART	vpart	_	16	aux	_	_
+16	int	bezañ	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+17	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = oab.vislcg.txt:2:34
+# text = Grit anaoudegezh gant istor an Hollved kontet deoc'h a-hed e bazennoù bras war-bouez gerioù eeun dalc'hmat.
+1	Grit	ober	VERB	vblex	Number=Plur|Person=2	0	root	_	_
+2	anaoudegezh	anaoudegezh	NOUN	n	Gender=Fem|Number=Sing	1	obj	_	_
+3	gant	gant	ADP	pr	_	4	case	_	_
+4	istor	istor	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+5	an	an	DET	det	_	6	det	_	_
+6	Hollved	hollved	NOUN	n	Gender=Msc|Number=Sing	4	nmod:poss	_	_
+7	kontet	kontañ	VERB	vblex	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8-9	deoc'h	_	_	_	_	_	_	_	_
+8	deoc	da	ADP	pr	_	9	case	_	_
+9	h	indirect	_	prn	Case=Acc|Number=Plur|Person=2|PronType=Pers	7	obl	_	_
+10	a-hed	a-hed	ADP	pr	_	12	case	_	_
+11	e	e	DET	det	Gender=Msc|PronType=Pos	12	det	_	_
+12	bazennoù	pazenn	NOUN	n	Gender=Fem|Number=Plur	7	obl	_	_
+13	bras	bras	ADJ	adj	_	12	amod	_	_
+14	war-bouez	war-bouez	ADP	pr	_	15	case	_	_
+15	gerioù	ger	NOUN	n	Gender=Msc|Number=Plur	7	obl	_	_
+16	eeun	eeun	ADJ	adj	_	15	amod	_	_
+17	dalc'hmat	dalc’hmat	ADV	adv	_	16	advmod	_	_
+18	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = oab.vislcg.txt:3:70
+# text = Framm dave an diorren padus e Breizh
+1	Framm	framm	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+2	dave	dave	NOUN	n	Gender=Msc|Number=Sing	1	nmod:poss	_	_
+3	an	an	DET	det	_	4	det	_	_
+4	diorren	diorren	NOUN	n	Gender=Msc|Number=Sing	1	nmod:poss	_	_
+5	padus	padus	ADJ	adj	_	4	amod	_	_
+6	e	e	ADP	pr	_	7	case	_	_
+7	Breizh	Breizh	PROPN	np	Number=Sing	4	nmod	_	_
+
+# sent_id = oab.vislcg.txt:4:85
 # text = Penaos displegañ kement-se?
 1	Penaos	penaos	ADV	adv	PronType=Itg	2	advmod	_	_
 2	displegañ	displegañ	VERB	vblex	VerbForm=Inf	0	root	_	_
-3	kement-se	kement-se	PRON	prn	Number=Sing|PronType=Dem	2	dobj	_	_
+3	kement-se	kement-se	_	prn	Case=Acc|Number=Sing|PronType=Dem|PronType=Pers	2	obj	_	_
 4	?	?	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:2:8
+# sent_id = oab.vislcg.txt:5:94
+# text = Treiñ a ra an Douar en-dro d' an Heol (360°) en ur ober 365 devezh.
+1	Treiñ	treiñ	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	an	an	DET	det	_	5	det	_	_
+5	Douar	douar	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+6	en-dro	en-dro	_	x	_	7	dep	_	_
+7	d'	da	ADP	pr	_	9	case	_	_
+8	an	an	DET	det	_	9	det	_	_
+9	Heol	heol	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+10	(	(	PUNCT	lpar	_	11	punct	_	_
+11	360°	360°	NUM	num	Number=Plur	9	appos	_	_
+12	)	)	PUNCT	rpar	_	11	punct	_	_
+13	en	en	_	x	_	14	dep	_	_
+14	ur	ur	PART	vpart	_	15	aux	_	_
+15	ober	ober	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+16	365	365	NUM	num	Number=Plur	17	nummod	_	_
+17	devezh	devezh	NOUN	n	Gender=Msc|Number=Sing	15	obj	_	_
+18	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = oab.vislcg.txt:6:131
 # text = Embann a ra ivez levrioù ha pennadoù niverus.
 1	Embann	embann	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	a	a	PART	vpart	_	1	disc	_	_
 3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
 4	ivez	ivez	ADV	adv	_	1	advmod	_	_
-5	levrioù	levr	NOUN	n	Gender=Msc|Number=Plur	1	dobj	_	_
+5	levrioù	levr	NOUN	n	Gender=Msc|Number=Plur	1	obj	_	_
 6	ha	ha	CCONJ	cnjcoo	_	5	cc	_	_
 7	pennadoù	pennad	NOUN	n	Gender=Msc|Number=Plur	5	conj	_	_
 8	niverus	niverus	ADJ	adj	_	7	amod	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:3:27
+# sent_id = oab.vislcg.txt:7:150
 # text = E 1994 e oa bet gouestlet un diskouezadeg adsell dezhañ gant mirdi Montroulez.
 1	E	e	ADP	pr	_	2	case	_	_
 2	1994	1994	NUM	num	Number=Plur	6	nmod	_	_
-3	e	e	PART	vpart	_	6	disc	_	_
+3	e	e	PART	vpart	_	6	aux	_	_
 4	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 5	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	6	aux	_	_
 6	gouestlet	gouestlañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 7	un	un	DET	det	_	8	det	_	_
-8	diskouezadeg	diskouezadeg	NOUN	n	Gender=Fem|Number=Sing	6	dobj	_	_
+8	diskouezadeg	diskouezadeg	NOUN	n	Gender=Fem|Number=Sing	6	obj	_	_
 9	adsell	adsell	NOUN	n	Gender=Msc|Number=Sing	8	nmod:poss	_	_
 10-11	dezhañ	_	_	_	_	_	_	_	_
 10	da	da	ADP	pr	_	11	case	_	_
@@ -59,7 +132,7 @@
 14	Montroulez	Montroulez	PROPN	np	Number=Sing	13	nmod:poss	_	_
 15	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:4:57
+# sent_id = oab.vislcg.txt:8:180
 # text = Tennit dousik-kenañ war an neudenn evit lakaat donder.
 1	Tennit	tennañ	VERB	vblex	Number=Plur|Person=2	0	root	_	_
 2	dousik	dousik	ADV	adv	_	1	advmod	_	_
@@ -70,18 +143,18 @@
 7	neudenn	neudenn	NOUN	n	Gender=Fem|Number=Sing	1	nmod	_	_
 8	evit	evit	ADP	pr	_	9	case	_	_
 9	lakaat	lakaat	VERB	vblex	VerbForm=Inf	1	advcl	_	_
-10	donder	donder	NOUN	n	Gender=Msc|Number=Sing	9	dobj	_	_
+10	donder	donder	NOUN	n	Gender=Msc|Number=Sing	9	obj	_	_
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:5:80
+# sent_id = oab.vislcg.txt:9:203
 # text = Evel-se e c’haller stardañ mat ar perlez.
 1	Evel-se	evel-se	ADV	adv	_	3	advmod	_	_
-2	e	e	PART	vpart	_	3	disc	_	_
+2	e	e	PART	vpart	_	3	aux	_	_
 3	c’haller	gallout	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	stardañ	stardañ	VERB	vblex	VerbForm=Inf	3	x	_	_
 5	mat	mat	ADV	adv	_	4	advmod	_	_
 6	ar	an	DET	det	_	7	det	_	_
-7	perlez	perlez	NOUN	n	Gender=Fem|Number=Plur	4	dobj	_	_
+7	perlez	perlez	NOUN	n	Gender=Fem|Number=Plur	4	obj	_	_
 8	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = war-bont.vislcg.txt:1:0
@@ -144,7 +217,7 @@
 4	,	,	PUNCT	cm	_	6	punct	_	_
 5-6	emezi	_	_	_	_	_	_	_	_
 5	eme	eme	ADP	pr	_	6	case	_	_
-6	i	indirect	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	9	parataxis	_	_
+6	e	indirect	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	9	parataxis	_	_
 7	,	,	PUNCT	cm	_	6	punct	_	_
 8	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	kouezhet	kouezhañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -163,7 +236,7 @@
 3	roi	reiñ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 4-5	din	_	_	_	_	_	_	_	_
 4	d	da	ADP	pr	_	5	case	_	_
-5	di	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	3	obl	_	_
+5	in	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	3	obl	_	_
 6	,	,	PUNCT	cm	_	3	punct	_	_
 7	plac'h	plac’h	NOUN	n	Gender=Fem|Number=Sing	3	vocative	_	_
 8	yaouank	yaouank	ADJ	adj	_	7	amod	_	_
@@ -185,7 +258,7 @@
 3	,	,	PUNCT	cm	_	5	punct	_	_
 4-5	emezi	_	_	_	_	_	_	_	_
 4	eme	eme	ADP	pr	_	5	case	_	_
-5	i	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	7	parataxis	_	_
+5	e	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	7	parataxis	_	_
 6	,	,	PUNCT	cm	_	5	punct	_	_
 7	em eus	kaout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8-9	em	_	_	_	_	_	_	_	_
