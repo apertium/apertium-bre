@@ -214,7 +214,7 @@
 "<.>"
 	"." sent @punct #11->8
 
-# text = 'vit an drede ploñjadenn, ar paotr, beuzet e oa.
+# text = 'vit an drede ploñjadenn, ar paotr beuzet e oa.
 # text[fra] = Au troisième plongeon, le garçon fut noyé.
 "<'vit>"
 	"evit" pr @case #1->4
@@ -229,7 +229,7 @@
 "<ar>"
 	"an" det def sp @det #6->7
 "<paotr>"
-	"paotr" n m sg @x #7->8
+	"paotr" n m sg @obj #7->8
 "<beuzet>"
 	"beuziñ" vblex pp @root #8->0
 "<e>"
