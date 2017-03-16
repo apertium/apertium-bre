@@ -10430,36 +10430,28 @@
 "<diuzet>"
 	"diuzañ" vblex pp
 
+# text = Krouiñ ur roll niverennet diouzh an arventennoù dre ziouer red
+# text[fra] = Crée une liste numérotée en fonction des paramètres par défaut actuels
 "<Krouiñ>"
-	"krouiñ" vblex inf
-	"krouiñ" n m sg
+	"krouiñ" vblex inf @root #1->0
 "<ur>"
-	"un" det ind sp @det
+	"un" det ind sp @det #2->3
 "<roll>"
-	"roll" n m sg
-;	"rollañ" vblex imp p2 sg 
-;	"rollañ" vblex pri p3 sg 
+	"roll" n m sg @obj #3->1
 "<niverennet>"
-	"niverenniñ" vblex pp
-;	"niverenniñ" vblex imp p3 sg 
+	"niverenniñ" vblex pp @acl #4->3
 "<diouzh>"
-	"diouzh" pr @case
+	"diouzh" pr @case #5->7
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #6->7
 "<arventennoù>"
-	"arventenn" n f pl
+	"arventenn" n f pl @obl #7->4
 "<dre>"
-	"dre" pr @case
+	"dre" pr @case #8->9
 "<ziouer>"
-	"diouer" n m sg 
-;	"dioueriñ" vblex imp p2 sg 
-;	"dioueriñ" vblex pri p3 sg 
+	"diouer" n m sg @nmod #9->7
 "<red>"
-	"red" adj mf sp 
-;	"redek" vblex pri p3 sg 
-;	"red" n m sg 
+	"red" adj mf sp @amod #10->7
 
 "<Lakaat>"
 	"lakaat" vblex inf
@@ -10467,8 +10459,6 @@
 	"bann" n m pl
 "<gant>"
 	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
 "<an>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -10491,52 +10481,43 @@
 	"mirout" vblex pp
 ;	"mirout" vblex imp p3 sg 
 
+# text = Keñveriañ an teul-mañ gant ar stumm enrollet da ziwezhañ war ar servijer.
+# text[fra] = Compare ce document avec la dernière version enregistrée sur le serveur.
 "<Keñveriañ>"
-	"keñveriañ" vblex inf
+	"keñveriañ" vblex inf @root #1->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #2->3
 "<teul>"
-	"teul" n m sg
+	"teul" n m sg @obj #3->1
 "<-mañ>"
-	"mañ" adv 
+	"mañ" adv @advmod #4->3
 "<gant>"
-	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
+	"gant" pr @case #5->7
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #6->7
 "<stumm>"
-	"stumm" n m sg
-;	"stummañ" vblex imp p2 sg 
-;	"stummañ" vblex pri p3 sg 
+	"stumm" n m sg @obl #7->1
 "<enrollet>"
-	"enrollañ" vblex pp
-;	"enrollañ" vblex imp p3 sg 
+	"enrollañ" vblex pp @acl #8->7
 "<da>"
-	"da" pr @case
-	"da" det pos mf sp
+	"da" pr @case #9->10
 "<ziwezhañ>"
-	"diwezhañ" adj mf sp
+	"diwezhañ" adj mf sp @obl #10->8
 "<war>"
-	"war" pr @case
-;	"gwar" n m sg 
+	"war" pr @case #11->13
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #12->13
 "<servijer>"
-	"servijer" n m sg
-;	"servijañ" vblex pri impers sp 
-;	"servijout" vblex pri impers sp 
+	"servijer" n m sg @obl #13->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->1
 
+# text = Eilañ war-du
+# text[fra] = Copier vers
 "<Eilañ>"
-	"eilañ" vblex inf
+	"eilañ" vblex inf @root #1->0
 "<war-du>"
-	"war-zu" pr @case
+	"war-zu" adv @advmod #2->1
 
 "<Titouroù>"
 	"titour" n m pl
@@ -10573,167 +10554,122 @@
 ;	"neveziñ" vblex imp p2 sg 
 ;	"neveziñ" vblex pri p3 sg 
 
+# text = Klaskit gwelet hag-eñ eo reizh hoc'h anv implijer hag ho ker-tremen.
+# text[fra] = Vérifiez que votre nom d'utilisateur et que votre mot de passe sont corrects.
 "<Klaskit>"
-	"klask" vblex pri p2 pl 
-;	"klask" vblex imp p2 pl 
+	"klask" vblex imp p2 pl @root #1->0
 "<gwelet>"
-	"gwelet" vblex inf
-	"gwelet" vblex pp
-	"gwelout" vblex pp
-;	"gwelout" vblex imp p3 sg 
+	"gwelet" vblex inf @xcomp #2->1
 "<hag-eñ>"
-	"hag-eñ" prn itg mf sp
+	"hag-eñ" prn itg mf sp @dep #3->5
 "<eo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #4->5
 "<reizh>"
-	"reizh" adj mf sp
-;	"reizhañ" vblex imp p2 sg 
-;	"reizhañ" vblex pri p3 sg 
+	"reizh" adj mf sp @dep #6->2
 "<hoc'h>"
-	"ho" det pos mf sp
-;	"direct" prn obj p2 mf pl 
+	"ho" det pos mf sp @det #7->8
 "<anv>"
-	"anv" n m sg
-;	"envel" vblex imp p2 sg 
-;	"envel" vblex pri p3 sg 
+	"anv" n m sg @nsubj #8->6
 "<implijer>"
-	"implijer" n m sg
-;	"implijout" vblex pri impers sp 
+	"implijer" n m sg @nmod:gen #9->8
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #10->12
 "<ho>"
-	"ho" det pos mf sp
-;	"direct" prn obj p2 mf pl 
-"<ker>"
-	"ger" n m sg 
-;	"ken" adv 
-;	"ker" adj mf sp 
-"<->"
-	"-" guio
-"<tremen>"
-	"tremen" adj mf sp
-	"tremen" vblex inf
-	"tremen" n m sg
-;	"tremen" vblex imp p2 sg 
-;	"tremen" vblex pri p3 sg 
-;	"tremen" pr 
+	"ho" det pos mf sp @det #11->12
+"<ker-tremen>"
+	"ger-tremen" n m sg @conj #12->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->1
 
+# text = Ne c'haller ouzhpennañ implijer ebet d'ar roll.
+# text[fra] = Impossible d'ajouter un ou plusieurs utilisateurs à la liste.
 "<Ne>"
-	"ne" adv neg 
+	"ne" adv neg @advmod #1->2
 "<c'haller>"
-	"gallout" vblex pri impers sp 
+	"gallout" vblex pri impers sp @root #2->0
 "<ouzhpennañ>"
-	"ouzhpennañ" vblex inf
+	"ouzhpennañ" vblex inf @xcomp #3->2
 "<implijer>"
-	"implijer" n m sg
-;	"implijout" vblex pri impers sp 
+	"implijer" n m sg @obj #4->3
 "<ebet>"
-	"ebet" adv 
+	"ebet" adv @advmod #5->2
 "<d'ar>"
-	"da" pr @case
-		"an" det def sp
+	"da" pr @case #6->8
+		"an" det def sp @det #7->8
 "<roll>"
-	"roll" n m sg 
-;	"rollañ" vblex imp p2 sg 
-;	"rollañ" vblex pri p3 sg 
+	"roll" n m sg @obl #8->3
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->2
 
+# text = Eilañ perzhioù an teuliad
+# text[fra] = Copier les propriétés du dossier
 "<Eilañ>"
-	"eilañ" vblex inf
+	"eilañ" vblex inf @root #1->0
 "<perzhioù>"
-	"perzh" n m pl
+	"perzh" n m pl @obj #2->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #3->4
 "<teuliad>"
-	"teuliad" n m sg
+	"teuliad" n m sg @nmod:gen #4->2
 
+# text = Ne c'haller ket lenn ur perzh skrivañ hepken.
+# text[fra] = Impossible de lire une propriété écriture seule.
 "<Ne>"
-	"ne" adv neg 
+	"ne" adv neg @advmod #1->2
 "<c'haller>"
-	"gallout" vblex pri impers sp 
+	"gallout" vblex pri impers sp @root #2->0
 "<ket>"
-	"ket" adv 
+	"ket" adv @advmod #3->2
 "<lenn>"
-	"lenn" vblex inf 
-;	"lenn" vblex imp p2 sg 
-;	"lennañ" vblex imp p2 sg 
-;	"lenn" n f sg 
-;	"lenn" n m sg 
-;	"lenn" vblex pri p3 sg 
-;	"lennañ" vblex pri p3 sg 
+	"lenn" vblex inf @xcomp #4->2
 "<ur>"
-	"un" det ind sp @det
+	"un" det ind sp @det #5->6
 "<perzh>"
-	"perzh" n m sg
-;	"berzh" n m sg 
+	"perzh" n m sg @obj #6->4
 "<skrivañ>"
-	"skrivañ" vblex inf
+	"skrivañ" vblex inf @acl #7->6
 "<hepken>"
-	"hepken" adv 
+	"hepken" adv @advmod #8->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #7->2
 
+# text = Unan eus ho kontoù pe meur a gont a gas ar c'hemennadoù nevez d'ar restr roadennoù-mañ.
+# text[fra] = Un ou plusieurs de vos comptes remettent les nouveaux messages dans ce fichier de données.
 "<Unan>"
-	"unan" num mf sg
-;	"unaniñ" vblex imp p2 sg 
-;	"unaniñ" vblex pri p3 sg 
+	"unan" num mf sg @nsubj #1->9
 "<eus>"
-	"eus" pr @case
-;	"bezañ" vblex pri p3 sg 
+	"eus" pr @case #2->4
 "<ho>"
-	"ho" det pos mf sp
-;	"direct" prn obj p2 mf pl 
+	"ho" det pos mf sp @det #3->4
 "<kontoù>"
-	"kont" n f pl
+	"kont" n f pl @nmod #4->1
 "<pe>"
-	"pe" cnjcoo
-	"pe" adj itg mf sp
-;	"bezañ" vblex cni p3 sg 
+	"pe" cnjcoo @cc #5->7
 "<meur a>"
-	"meur a" det ind mf pl
+	"meur a" det ind mf pl @det #6->7
 "<gont>"
-	"kont" n f sg
-;	"kontañ" vblex imp p2 sg 
-;	"kontañ" vblex pri p3 sg 
-;	"kont" n m sg 
+	"kont" n f sg @conj #7->4
 "<a>"
-	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
-;	"a" pr 
-;	"a" n m sp 
+	"a" vpart @aux #8->9
 "<gas>"
-	"kas" vblex pri p3 sg 
-;	"kas" vblex imp p2 sg 
-;	"kas" vblex inf 
-;	"kas" n m sg 
+	"kas" vblex pri p3 sg @root #9->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #10->11
 "<c'hemennadoù>"
-	"kemennad" n m pl
+	"kemennad" n m pl @obj #11->9
 "<nevez>"
-	"nevez" adj mf sp
-;	"neveziñ" vblex imp p2 sg 
-;	"neveziñ" vblex pri p3 sg 
-"<d'ar>"
-	"da" pr @case
-		"an" det def sp
+	"nevez" adj mf sp @amod #12->11
+"<d'ar>" 
+	"da" pr @case #13->15
+		"an" det def sp @det #14->15
 "<restr>"
-	"restr" n f sg
+	"restr" n f sg @obl #15->9
 "<roadennoù>"
-	"roadenn" n f pl
+	"roadenn" n f pl @nmod:gen #16->15
 "<-mañ>"
-	"mañ" adv 
+	"mañ" adv @advmod #17->15
 "<.>"
-	"." sent @punct
+	"." sent @punct #18->9
 
 "<Eilañ>"
 	"eilañ" vblex inf
