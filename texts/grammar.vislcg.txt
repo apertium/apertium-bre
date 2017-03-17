@@ -224,6 +224,8 @@
 "<.>"
 	"." sent
 
+# text = Piv a wel Yannig ?
+# text[fra] = Qui a vu Yannig ?
 "<Piv>"
 	"piv" prn itg mf sp @nsubj #1->3
 "<a>"
@@ -235,6 +237,8 @@
 "<?>"
 	"?" sent @punct #5->3
 
+# text = Mari a wel Yannig.
+# text[fra] = Mari a vu Yannig.
 "<Mari>"
 	"Mari" np ant f sg @nsubj #1->3
 "<a>"
@@ -246,6 +250,7 @@
 "<.>"
 	"." sent @punct #5->3
 
+# text = Al labour e kavo mat.
 "<Al>"
 	"an" det def sp @det #1->2
 "<labour>"
@@ -259,6 +264,7 @@
 "<.>"
 	"." sent @punct #6->4
 
+# text = Diskouezit din an ti !
 "<Diskouezit>"
 	"diskouez" vblex imp p2 pl @root #1->0
 "<din>"
@@ -271,6 +277,7 @@
 "<!>"
 	"!" sent @punct #6->1
 
+# text = Na ziskouezit ket din an ti !
 "<Na>"
 	"na" vpart neg @aux #1->2
 "<ziskouezit>"
@@ -413,6 +420,7 @@
 "<.>"
 	"." sent
 
+# text = Ar wazed n'o deus ket gwelet an ti-se.
 "<Ar>"
 	"an" det def sp @det #1->2
 "<wazed>"

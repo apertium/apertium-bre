@@ -1,5 +1,5 @@
 # text = P'edon war bont an Naoned, an deiz all o kanañ.
-# text[fra] = Quand j'étais sur le pont de Nantes l'autre jour à chanter 
+# text[fra] = Quand j'étais sur le pont de Nantes l'autre jour à chanter
 "<P'edon>"
 	"pa" cnjsub @mark #1->4
 		"bezañ" vbloc pii p1 sg @cop #2->4

@@ -1,3 +1,4 @@
+# text = Ur gevezadeg ziaes ha brudet eo an Olimpiadennoù, met ouzhpenn an dra-se ez int.
 # text[fra] = Les Olympiades sont une compétition exigeante et prestigieuse mais pas seulement.
 "<Ur>"
 	"un" det ind sp @det #1->2
@@ -34,6 +35,7 @@
 "<.>"
 	"." sent @punct #17->2
 
+# text = An takad merket gant ar bir n'eo ket ur c'halaksienn met ur bouilh stered ha gaz a zeu eus unan eus ar galaksiennoù distummet gant efed ar gravitadur.
 # text[fra] = La zone indiquée par la flèche n'est pas une galaxie mais un jet d'étoiles et de gaz provenant d'une des galaxies déformée par effet gravitationnel.
 "<An>"
 	"an" det def sp
@@ -98,6 +100,7 @@
 "<.>"
 	"." sent @punct
 
+# text = En em gavout a rae takadoù bras eus an aod dindan an dour ha dindan an amzer a bep eil un nebeud eurvezhioù war-lerc'h.
 # text[fra] = De vastes zones côtières se retrouvent donc alternativement submergées par les eaux, puis à l'air libre quelques heures plus tard.
 "<En em>"
 	"en em" vpart ref @disc
@@ -12047,26 +12050,26 @@
 ;	"taolenniñ" vblex imp p2 sg 
 ;	"taolenniñ" vblex pri p3 sg 
 
+
 "<Takad>"
 	"takad" n m sg
 "<testenn>"
 	"testenn" n f sg
 
+# text = Kemmañ ar bannoù hag an arventennoù
+# text[fra] = Modifier les colonnes et les paramètres`SM
 "<Kemmañ>"
-	"kemmañ" vblex inf
+	"kemmañ" vblex inf @root #1->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #2->3
 "<bannoù>"
-	"bann" n m pl
+	"bann" n m pl @obj #3->1
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #4->6
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #5->6
 "<arventennoù>"
-	"arventenn" n f pl
+	"arventenn" n f pl @conj #6->3
 
 "<Tresañ>"
 	"tresañ" vblex inf
@@ -12078,10 +12081,12 @@
 "<testenn>"
 	"testenn" n f sg
 
+# text = 5.
+# text[fra] = 5.
 "<5>"
-	"5" num mf pl
+	"5" num mf pl @root #1->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #2->1
 
 "<Roll>"
 	"roll" n m sg
@@ -12526,16 +12531,12 @@
 "<teul>"
 	"teul" n m sg
 
+# text = Lakaat a ra ar c'hemmoù hoc'h eus degaset e-kerz implijerien all.
+# text[fra] = Met à la disposition des autres utilisateurs les modifications que vous avez apportées.
 "<Lakaat>"
 	"lakaat" vblex inf
 "<a>"
 	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"monet" vblex pri p3 sg 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
 "<ra>"
 	"ober" vblex pri p3 sg 
 ;	"ober" vblex imp p2 sg 
@@ -12673,96 +12674,72 @@
 "<?>"
 	"?" sent @punct
 
+# text = Danevell ar grafik zo da vezañ liammet ouzh un danevell kroaziet dinamek.
+# text[fra] = Le rapport du graphique doit être lié à un rapport de tableau croisé dynamique.
 "<Danevell>"
-	"danevell" n f sg
-;	"danevelliñ" vblex imp p2 sg 
-;	"danevellañ" vblex imp p2 sg 
-;	"danevelliñ" vblex pri p3 sg 
-;	"danevellañ" vblex pri p3 sg 
+	"danevell" n f sg @nsubj
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det
 "<grafik>"
-	"grafik" n m sg
+	"grafik" n m sg @nmod:gen
 "<zo>"
-	"bezañ" vblex pri p3 sg 
-;	"teiñ" vblex imp p2 sg 
-;	"teiñ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop
 "<da>"
-	"da" pr 
-;	"da" det pos mf sp 
+	"da" pr @mark
 "<vezañ>"
 	"bezañ" vblex inf
 "<liammet>"
 	"liammañ" vblex pp
-;	"liammañ" vblex imp p3 sg 
 "<ouzh>"
 	"ouzh" pr @case
 "<un>"
 	"un" det ind sp @det
 "<danevell>"
 	"danevell" n f sg
-;	"danevelliñ" vblex imp p2 sg 
-;	"danevellañ" vblex imp p2 sg 
-;	"danevelliñ" vblex pri p3 sg 
-;	"danevellañ" vblex pri p3 sg 
 "<kroaziet>"
 	"kroaziañ" vblex pp
-;	"kroaziañ" vblex imp p3 sg 
 "<dinamek>"
 	"dinamek" adj mf sp
 "<.>"
 	"." sent @punct
 
+# text = Klikit war Echuiñ evit krouiñ danevell an daolenn kroaziet dinamek.
+# text[fra] = Cliquez sur Terminer pour créer le rapport de tableau croisé dynamique.
 "<Klikit>"
-	"klikañ" vblex pri p2 pl 
-;	"klikañ" vblex imp p2 pl 
+	"klikañ" vblex imp p2 pl @root #1->0
 "<war>"
-	"war" pr @case
-;	"gwar" n m sg 
+	"war" pr @case #2->2
 "<Echuiñ>"
-	"echuiñ" vblex inf
+	"echuiñ" vblex inf @obl #3->1
 "<evit>"
-	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
+	"evit" pr @case #4->5
 "<krouiñ>"
-	"krouiñ" vblex inf
-	"krouiñ" n m sg
+	"krouiñ" vblex inf @advcl #5->1
 "<danevell>"
-	"danevell" n f sg
-;	"danevelliñ" vblex imp p2 sg 
-;	"danevellañ" vblex imp p2 sg 
-;	"danevelliñ" vblex pri p3 sg 
-;	"danevellañ" vblex pri p3 sg 
+	"danevell" n f sg @obj #6->5
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #7->8
 "<daolenn>"
-	"taolenn" n f sg
-;	"taolenniñ" vblex imp p2 sg 
-;	"taolenniñ" vblex pri p3 sg 
+	"taolenn" n f sg @nmod:gen #8->6
 "<kroaziet>"
-	"kroaziañ" vblex pp
-;	"kroaziañ" vblex imp p3 sg 
+	"kroaziañ" vblex pp @dep #9->8
 "<dinamek>"
-	"dinamek" adj mf sp
+	"dinamek" adj mf sp @amod #10->8
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->1
 
+# text = Mirout ar c'hemmoù enrollet dija
+# text[fra] = Conserver celles déjà enregistrées
 "<Mirout>"
-	"mirout" vblex inf
+	"mirout" vblex inf @root #1->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #2->3
 "<c'hemmoù>"
-	"kemm" n m pl
+	"kemm" n m pl @obj #3->1
 "<enrollet>"
-	"enrollañ" vblex pp
-;	"enrollañ" vblex imp p3 sg 
+	"enrollañ" vblex pp @acl #4->3
 "<dija>"
-	"dija" adv 
+	"dija" adv @advmod #5->4
 
 "<Arventennoù>"
 	"arventenn" n f pl
@@ -13905,38 +13882,32 @@
 "<.>"
 	"." sent @punct
 
+# text = Ouzhpenn an displegadennoù-se ez eus kalz skeudennoù war ar panelloù-se.
+# text[fra] = Ces explications s'appuient sur une riche iconographie.
 "<Ouzhpenn>"
 	"ouzhpenn" pr @case
 	"ouzhpenn" adv 
 	"ouzhpenn" cnjadv 
-;	"ouzhpennañ" vblex imp p2 sg 
-;	"ouzhpennañ" vblex pri p3 sg 
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det
 "<displegadennoù>"
 	"displegadenn" n f pl
 "<-se>"
 	"se" adv 
 "<ez eus>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg  @cop
 "<kalz>"
 	"kalz" pr @case
-	"kalz" adv 
-	"kalz" n m sg
 "<skeudennoù>"
-	"skeudenn" n f pl
+	"skeudenn" n f pl 
 "<war>"
 	"war" pr @case
-;	"gwar" n m sg 
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det
 "<panelloù>"
-	"panell" n f pl
+	"panell" n f pl @nmod
 "<-se>"
-	"se" adv 
+	"se" adv @advmod
 "<.>"
 	"." sent @punct
 
@@ -13950,37 +13921,33 @@
 "<hiziv an deiz>"
 	"hiziv an deiz" adv 
 
+# text = Evit adkregiñ ganti, pouezit adarre war an douchenn PAUSE-se.
+# text[fra] = Pour la reprendre, appuyez à nouveau sur cette touche PAUSE.
 "<Evit>"
-	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
+	"evit" pr @case #1->2
 "<adkregiñ>"
-	"adkregiñ" vblex inf
-"<ganti>"
-	"gant" pr @case
-		"indirect" prn obj p3 f sg
+	"adkregiñ" vblex inf @advcl #2->6
+"<ganti>" 
+	"gant" pr @case #3->4
+		"indirect" prn obj p3 f sg @obl #4->2
 "<,>"
-	"," cm @punct
+	"," cm @punct #5->6
 "<pouezit>"
-	"pouezañ" vblex pri p2 pl 
-;	"pouezañ" vblex imp p2 pl 
+	"pouezañ" vblex imp p2 pl @root #6->0
 "<adarre>"
-	"adarre" adv 
+	"adarre" adv @advmod #7->6
 "<war>"
-	"war" pr @case
-;	"gwar" n m sg 
-"<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"war" pr @case #8->10
+"<an>" 
+	"an" det def sp @det #9->10
 "<douchenn>"
-	"touchenn" n f sg
+	"touchenn" n f sg @obl #10->6
 "<PAUSE>"
-	"PAUSE" n acr m sg
+	"PAUSE" n acr m sg @nmod:gen #11->10
 "<-se>"
-	"se" adv 
+	"se" adv @advmod #12->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->6
 
 "<N'eus>"
 	"ne" adv 
