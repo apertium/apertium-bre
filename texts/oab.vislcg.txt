@@ -571,7 +571,7 @@
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<teñval>"
-	"teñval" adj mf sp @amod #2-1
+	"teñval" adj mf sp @amod #2->1
 
 # text = Unan eus an divizoù meur eo evit ma c’hallo hor planedenn tapout ur c’hempouez demokratel.
 # text[fra] = Il s’agit d’une des conditions majeures de l’équilibre démocratique de notre planète.
@@ -607,6 +607,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Domani Arvorig an Hanternoz
+# text[fra] = Domaine nord armoricain
 "<Domani>"
 	"domani" n m sg
 "<Arvorig>"
@@ -712,6 +714,8 @@
 "<-mañ>"
 	"mañ" adv @advmod #8->7
 
+# text = Serret-eñ kloz e-korn ho kalver
+# text[fra] = Rangez-le bien dans le coin de votre calvaire,
 "<Serret>"
 	"serriñ" vblex pp
 ;	"serriñ" vblex imp p3 sg 
@@ -739,6 +743,8 @@
 	"gelver" vblex pri impers sp 
 	"gervel" vblex pri impers sp 
 
+# text = Daou arvest eus buhez Sant Erwan
+# text[fra] = Deux scènes de la vie de saint Yves
 "<Daou>"
 	"daou" num m pl
 "<arvest>"
@@ -761,6 +767,8 @@
 "<Erwan>"
 	"Erwan" np ant m sg
 
+# text = Porzh-mor bihan ouzh sklaer al loar
+# text[fra] = Petit port au clair de lune
 "<Porzh-mor>"
 	"porzh#-mor" n m sg
 "<bihan>"
@@ -774,6 +782,8 @@
 "<loar>"
 	"loar" n f sg
 
+# text = Porzh Pont-Aven
+# text[fra] = Port de Pont-Aven
 "<Porzh>"
 	"porzh" n m sg
 "<Pont-Aven>"
@@ -842,6 +852,8 @@
 "<.>"
 	"." sent @punct
 
+# text = An Den gloazet
+# text[fra] = L'Homme blessé
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -920,6 +932,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ezel eus Kevredigezh al Livourien-engraverien c'hall, e produ dourioù-kreñv.
+# text[fra] = Membre de la Société des Peintres-Graveurs français, il exécute des eaux-fortes.
 "<Ezel>"
 	"ezel" n m sg
 "<eus>"
@@ -1257,6 +1271,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Arzourien ar gevredigezh Spered Kelt
+# text[fra] = Artistes de l’association Spered Kelt
 "<Arzourien>"
 	"arzour" n m pl
 "<ar>"
@@ -1609,6 +1625,8 @@
 "<rannvroel>"
 	"rannvroel" adj mf sp @amod #4->3
 
+# text = an adkreizennañ start a-berzh ar Stad, enep reolennoù ar merañ frank evit ar strollegezhioù tiriadel hag an aozañ digreizennet hervez ar Vonreizh.
+# text[fra] = d’une recentralisation forte de l'État, contraire aux principes de libre administration des collectivités territoriales et d'organisation décentralisée prévue par la Constitution.
 "<an>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -1872,6 +1890,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Tud hag a lenn eo lennerien.
+# text[fra] = Les personnes seront des lennerien.
 "<Tud>"
 	"den" n m pl
 "<hag>"
@@ -1899,47 +1919,43 @@
 "<.>"
 	"." sent @punct
 
+# text = Paul Molac, prezidant KSB
+# text[fra] = Paul Molac, président du CCB
 "<Paul>"
-	"Paul" np ant m sg
+	"Paul" np ant m sg @root #1->0
 "<Molac>"
-	"Molac" np cog mf sg
+	"Molac" np cog mf sg @flat:name #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->4
 "<prezidant>"
-	"prezidant" n m sg
+	"prezidant" n m sg @appos #4->1
 "<KSB>"
-	"KSB" n acr m sg
+	"KSB" n acr m sg @nmod:gen #5->4
 
+# text = Ar ger tiriad-se n’eo ket gwall anavezet c’hoazh.
+# text[fra] = Le mot “tiriad” n’est pas encore très connu.
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #1->2
 "<ger>"
-	"ker" adj mf sp 
-;	"ger" n m sg 
+	"ger" n m sg @nsubj #2->9
 "<tiriad>"
-	"tiriad" n m sg
+	"tiriad" n m sg @appos #3->2
 "<-se>"
-	"se" adv 
+	"se" adv @advmod #4->2
 "<n’>"
-	"ne" adv neg 
+	"ne" adv neg @advmod #5->9
 "<eo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @aux #6->9
 "<ket>"
-	"ket" adv 
+	"ket" adv @advmod #7->9
 "<gwall>"
-	"gwall" preadv
-	"gwall" n m sg
-	"gwall" predet mf sp
-	"gwall" adj mf sp
+	"gwall" preadv @advmod #8->9
 "<anavezet>"
-	"anavezout" vblex pp
-;	"anavezout" vblex imp p3 sg 
+	"anavezout" vblex pp @root #9->0
 "<c’hoazh>"
-	"c’hoazh" adv 
-;	"koazhañ" vblex imp p2 sg 
-;	"koazhañ" vblex pri p3 sg 
+	"c’hoazh" adv @advmod #10->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->9
 
 "<Ar>"
 	"an" det def sp
@@ -2094,6 +2110,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Emdroadur kresk bloaziek ar c’helenn divyezhek etre 1997 ha 2007
+# text[fra] = Evolution de la croissance annuelle de l’enseignement bilingue entre 1997 et 2007
 "<Emdroadur>"
 	"emdroadur" n m sg
 "<kresk>"
@@ -2174,11 +2192,15 @@
 "<.>"
 	"." sent @punct
 
+# text = Kargoù hollek
+# text[fra] = Charges à caractère général
 "<Kargoù>"
 	"karg" n f pl
 "<hollek>"
 	"hollek" adj mf sp
 
+# text = Kargoù sokial diseurt all
+# text[fra] = Autres charges sociales diverses
 "<Kargoù>"
 	"karg" n f pl
 "<sokial>"
@@ -2334,6 +2356,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Degas a ra ar statud ofisiel ur framm lezennel a-benn normalaat implij ur yezh vihanniver.
+# text[fra] = Un statut officiel apporte en effet un cadre juridique pour normaliser l’emploi d’une langue minoritaire.
 "<Degas>"
 	"degas" vblex inf
 ;	"degas" vblex imp p2 sg 
@@ -2515,6 +2539,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ar Gevrat-steuñv Stad-Rannvro, ur stern evit termenañ perzh ar Stad
+# text[fra] = Le Contrat de Plan Etat-Région, un cadre pour définir le rôle de l’État
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -2774,6 +2800,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Bras a-walc’h eo ar c’hresk evit ar c’helenn d’an oadourien hag an aozadurioù sevenadurel a-hend-all (met diouzh ar raktresoù a vez kinniget e c’hell an traoù cheñch eus un eil bloavezh d’egile).
+# text[fra] = Par ailleurs, la progression pour l’enseignement aux adultes et les organisations culturelles est assez importante (mais il peut y avoir des variations d’une année sur l’autre en fonction des projets qui sont présentés).
 "<Bras>"
 	"bras" adj mf sp
 "<a-walc’h>"
@@ -3312,6 +3340,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Un Aotreegezh gant ar meneg yezhoù ha sevenadur rannvro zo kinniget d’ar studierien hepken.
+# text[fra] = Celle-ci ne propose qu’une Licence intitulée « Langues et culture régionales ».
 "<Un>"
 	"un" det ind sp @det
 "<Aotreegezh>"
@@ -3400,6 +3430,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Karget eo da genurzhiañ ar studioù war an dachenn geltiek.
+# text[fra] = Il est chargé de coordonner les études sur la matière celtique.
 "<Karget>"
 	"kargañ" vblex pp
 ;	"kargañ" vblex imp p3 sg 
@@ -3430,6 +3462,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Diorroet eo bet ar c’hinnig dre rouedadoù gant labour ar c’hevreadoù.
+# text[fra] = L’offre s’est développée en réseau par le travail des fédérations.
 "<Diorroet>"
 	"diorren" vblex pp 
 ;	"diorren" vblex imp p3 sg 
@@ -3589,6 +3623,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Brasoc’h eo bet an digresk gant live an deraouidi.
+# text[fra] = La baisse a été plus marquée chez les débutants.
 "<Brasoc’h>"
 	"bras" adj sint comp
 "<eo>"
@@ -3673,6 +3709,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ar splet ober se dindan askell DAO eo kaout ur framm boutin d'an 230 lec'hiad deskiñ a zo e Breizh.
+# text[fra] = L’avantage de réaliser cette évaluation sous l’égide de DAO est d’avoir un cadre commun pour les 230 sites d’apprentissage présents en Bretagne.
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -3779,6 +3817,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Evit echuiñ, a-benn diorren ar c’hinnig war an dachenn e ranker stummañ an niver a gelennerien ret.
+# text[fra] = Enfin, il est nécessaire de former le nombre requis d’enseignants pour pouvoir développer l’offre sur le terrain.
 "<Evit>"
 	"evit" pr @case
 ;	"evañ" vblex imp p2 pl 
@@ -3981,6 +4021,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Talvoudus-kenañ e vefe diorren ha stankaat implij ar brezhoneg war an tachennoù-se o lakaat politikerezhioù azasaet da dalvezout.
+# text[fra] = Il serait très utile de développer et de compléter l’emploi de la langue bretonne dans ces domaines, ceci en mettant en pratique des politiques adaptées.
 "<Talvoudus-kenañ>"
 	"talvoudus" adj mf sp
 		"kenañ" adv
@@ -4224,6 +4266,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Un diviz « kafe-filo » a vez aozet da-geñver ar festival Taol Kurun abaoe 2005 (heuliet eo bet ar skouer-se gant Sked adalek 2007).
+# text[fra] = Un débat « kafe-filo » en breton est organisé dans le cadre du festival Taol Kurun depuis 2005 (Sked a suivi cet exemple à partir de 2007).
 "<Un>"
 	"un" det ind sp @det
 "<diviz>"
@@ -4429,6 +4473,8 @@
 "<.>"
 	"." sent @punct #18->3
 
+# text = Gouelioù hag abadennoù all
+# text[fra] = Fêtes et autres événements
 "<Gouelioù>"
 	"gouel" n m pl
 	"gouel" n f pl
@@ -4684,6 +4730,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ur skoilh diazez eo hemañ a adkaver war dachennoù all evel hini ar media (radio, skinwel).
+# text[fra] = Il s’agit là d’un point d’achoppement de base que l’on retrouve dans d’autres domaines comme celui des médias (radio, télévision).
 "<Ur>"
 	"un" det ind sp @det
 "<skoilh>"
@@ -5609,6 +5657,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ar framm-se a chom da vezañ dibabet.
+# text[fra] = Cette structure-là reste encore à déterminer.
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -6232,6 +6282,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gant un 900 post-labour KILA bennak ha, gant se, tremen ur miliad a vrezhonegerien implijet warno e c’heller lavaret eo ar brezhoneg unan eus embregerezhioù bras Breizh.
+# text[fra] = Avec quelques 900 postes de travail ETP pourvus par plus d’un millier de brittophones, il est possible de dire que la langue bretonne est l’une des grandes entreprises de Bretagne.
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -6533,6 +6585,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ret eo goulenn ar respont digant kuzulierien an departamantoù kentoc’h
+# text[fra] = Il faut demander la réponse au conseiller généraux plutôt.
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -6649,6 +6703,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Diskouez a ra e plij ar brezhoneg d’an dud.
+# text[fra] = Cela montre que le breton plaît aux gens.
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -6691,6 +6747,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kevredigezh an dilennidi vrezhonegerien a c’hellfe labourat gant an dilennidi-se.
+# text[fra] = L’association des élus bretonnants pourrait travailler avec tous ces élus-là.
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<an>"
@@ -6942,6 +7000,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Muioc'h-mui e rank an diskoulmoù kinniget plegañ d'ar palioù kenwerzhel pe d'ar c'hontroll sokial.
+# text[fra] = Les solutions proposées sont de plus en plus soumises à des objectifs marchands ou de contrôle social.
 "<Muioc'h-mui>"
 	"muioc’h-mui" adv 
 "<e>"
@@ -6990,6 +7050,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kenlabourat gant ar c'hevredigezhioù a stourm abaoe dekvloaziadoù evit lakaat ar galloudoù publik a-dal d'o atebegezh.
+# text[fra] = Travailler en partenariat avec les associations qui luttent depuis des décennies pour mettre les pouvoirs publics face à leurs responsabilités
 "<Kenlabourat>"
 	"kenlabourat" vblex inf
 "<gant>"
@@ -7042,6 +7104,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ar palioù lakaet a oa ar c’henwerzh hag ar politikerezh, ar sevenadur hag ar relijion.
+# text[fra] = Ses objectifs sont le commerce et la politique, la culture et la religion.
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -7091,6 +7155,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Deuet e oa Douarnenez, neuze, da borzh kentañ Frañs evit ar sardin.
+# text[fra] = Douarnenez est devenu le premier port sardinier français.
 "<Deuet>"
 	"dont" vblex pp
 "<e>"
@@ -7214,6 +7280,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Frammoù ar bed prevez a ra kalz gant ar brezhoneg ivez.
+# text[fra] = Les organismes du secteur privé ne sont pas en reste.
 "<Frammoù>"
 	"framm" n m pl
 "<ar>"
@@ -7259,6 +7327,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ouzhpenn-se ne anavezer ket tout ar c’horfoù-egor a c’hallfe bezañ dañjerus evit an Douar.
+# text[fra] = De plus, nous ne connaissons pas tous les objets célestes dangereux pour la Terre.
 "<Ouzhpenn-se>"
 	"ouzhpenn-se" adv 
 "<ne>"
@@ -7307,6 +7377,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ul lec’h nevez d’ober kinnigoù
+# text[fra] = Une nouvelle force de proposition
 "<Ul>"
 	"un" det ind sp @det
 "<lec’h>"
@@ -7323,6 +7395,8 @@
 "<kinnigoù>"
 	"kinnig" n m pl
 
+# text = 1 dileuriad eus Ti Skiantoù an Den e, kinniget gant Kuzul skiantel an Ti,
+# text[fra] = 1 représentant de la Maison des Sciences de l'Homme en Bretagne, proposé par le Conseil scientifique de la Maison,
 "<1>"
 	"1" num mf sg
 	"1" num mf pl
@@ -7439,6 +7513,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gwelet aozlun KSB evit pep bodad
+# text[fra] = Voir l'organigramme du CCB par commissions
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -7901,6 +7977,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Karaez hag ar Poc’hêr, zo anezhañ un douar sonerien, zo ivez un douar gouelioù hag hengounioù dre natur.
+# text[fra] = Terre de musiciens, Carhaix et le Poher est aussi une terre de fêtes et de traditions par nature.
 "<Karaez>"
 	"Karaez" np top sg
 "<hag>"
@@ -8046,6 +8124,8 @@
 "<!>"
 	"!" sent @punct
 
+# text = Porzh diabarzh
+# text[fra] = Cour intérieure
 "<Porzh>"
 	"porzh" n m sg
 "<diabarzh>"
@@ -8053,6 +8133,8 @@
 ;	"diabarzh" pr 
 ;	"diabarzh" n m sg 
 
+# text = Deiziadur ar gouelioù hag an abadennoù
+# text[fra] = Calendrier des fêtes et manifestations
 "<Deiziadur>"
 	"deiziadur" n m sg
 "<ar>"
@@ -8070,6 +8152,8 @@
 "<abadennoù>"
 	"abadenn" n f pl
 
+# text = Renkañ aferioù ar gumun dre votiñ divizoù eo roll ar c’huzul-kêr.
+# text[fra] = Le rôle du conseil municipal consiste à régler par le vote de délibérations les affaires de la commune.
 "<Renkañ>"
 	"renkañ" vblex inf
 "<aferioù>"
@@ -8100,6 +8184,8 @@
 "<.>"
 	"." sent @punct
 
+# text = prientiñ ha seveniñ a ra divizoù ar c’huzul-kêr,
+# text[fra] = il prépare et exécute les délibérations du conseil municipal,
 "<prientiñ>"
 	"prientiñ" vblex inf
 "<ha>"
@@ -8160,6 +8246,8 @@
 "<.>"
 	"." sent @punct
 
+# text = tres lec’hiañ an dachenn
+# text[fra] = plan de situation permettant de localiser le terrain
 "<tres>"
 	"tres" n m sg
 ;	"tresañ" vblex imp p2 sg 
@@ -8243,6 +8331,8 @@
 "<,>"
 	"," cm @punct
 
+# text = un dachenn vasket diavaez,
+# text[fra] = un terrain de basket extérieur,
 "<un>"
 	"un" det ind sp @det
 "<dachenn>"
@@ -8316,6 +8406,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Adalek Breizh-Veur e c’haller mont da Norzh Breizh dre borzh Rosko.
+# text[fra] = Depuis la Grande-Bretagne, accès en Bretagne nord par le port de Roscoff.
 "<Adalek>"
 	"adalek" pr @case
 "<Breizh-Veur>"
@@ -8489,6 +8581,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kemper, kêr arz hag istor, a ginnig un endro bevañ dibar d’hec’h annezidi ha dizoloadennoù dibaouez d’he gweladennerien.
+# text[fra] = Quimper, ville d'art et d'histoire, offre à ses habitants un cadre de vie exceptionnel et à ses visiteurs des sources de découvertes inépuisables.
 "<Kemper>"
 	"Kemper" np top sg
 "<,>"
@@ -8546,6 +8640,8 @@
 "<.>"
 	"." sent @punct
 
+# text = E-pad c’hwec’h devezh, e-kreiz an hañv, e teu Kemper a-bezh da vezañ ur gouel bras gant sonioù, livioù ha dañsoù Breizh ha re sevenadurioù all ar bed.
+# text[fra] = Pendant six jours, au cœur de l'été, Le Cornouaille donne à Quimper des allures de fête parmi les sons, les couleurs et les danses de Bretagne et des autres cultures du monde.
 "<E-pad>"
 	"e-pad" pr @case
 "<c’hwec’h>"
@@ -8692,6 +8788,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Tachennoù dibar Breizh
+# text[fra] = Espaces remarquables de Bretagne
 "<Tachennoù>"
 	"tachenn" n f pl
 "<dibar>"
@@ -8700,6 +8798,8 @@
 	"Breizh" np top sg
 ;	"preizh" n m sg 
 
+# text = Ur glad naturel pinvidik-mor eo hag a ouestl Rannvro Breizh gwareziñ ha talvoudekaat.
+# text[fra] = Un patrimoine naturel particulièrement riche que la Région Bretagne s'engage à préserver et valoriser.
 "<Ur>"
 	"un" det ind sp @det
 "<glad>"
@@ -8745,6 +8845,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Bep Merc’her da 10 e 30 (nemet e-pad ar vakañsoù-skol), e vez kinniget mare ar c’hontadennoù d’ar vugale adalek 3 bloaz.
+# text[fra] = Chaque mercredi à 10h30 (sauf pendant les vacances scolaires), il est proposé l’heure du conte pour les enfants à partir de 3 ans.
 "<Bep>"
 	"bep" det ind mf sg
 ;	"pep" det ind mf sg 
@@ -8818,6 +8920,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kevredigezh ar skoazellerezed-mamm grataet
+# text[fra] = Association des assistantes maternelles agréées
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<ar>"
@@ -8832,6 +8936,8 @@
 "<grataet>"
 	"grataat" vblex pp
 
+# text = Merañ an takadoù naturel
+# text[fra] = Gestion des espaces naturels
 "<Merañ>"
 	"merañ" vblex inf
 	"merañ" n m sg
@@ -8844,6 +8950,8 @@
 "<naturel>"
 	"naturel" adj mf sp
 
+# text = Sevel pedadennoù divyezhek evit an abadennoù aozet get ar gumun.
+# text[fra] = Rédaction des cartons d'invitations bilingues pour les manifestations organisées dans la commune
 "<Sevel>"
 	"sevel" vblex tv inf 
 "<pedadennoù>"
@@ -8876,6 +8984,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Sonadegoù, arvestoù diehan, fest-noz
+# text[fra] = Concerts, spectacle permanent, Fest Noz,
 "<Sonadegoù>"
 	"sonadeg" n f pl
 "<,>"
@@ -8889,6 +8999,8 @@
 "<fest-noz>"
 	"fest#-noz" n m sg
 
+# text = Kevredigezh sevenadurel a ginnig arvestoù hag abadennoù a vesk arz, natur ha gouiziegezh.
+# text[fra] = Association culturelle proposant des spectacles et animations mêlant art, nature et connaissance.
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<sevenadurel>"
@@ -8937,6 +9049,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Pounneroc’h e oa karg an tour nevez eget hini an tour kent, eus an 11vet kantved.
+# text[fra] = Les charges de cette nouvelle tour sont plus lourdes que la précédente datant du 11e siècle.
 "<Pounneroc’h>"
 	"pounner" adj sint comp
 "<e>"
@@ -9095,6 +9209,8 @@
 "<.>"
 	"." sent @punct #13->7
 
+# text = Hiziv eo deuet ar porzh da vezañ ul lec’h plijus da vont da vale, ha dizoleiñ al loened hag ar plant a vev ar geunioù.
+# text[fra] = Aujourd’hui, le port est devenu un lieu idéal pour une promenade au calme à la découverte de la faune et de la flore des marais.
 "<Hiziv>"
 	"hiziv" adv 
 "<eo>"
@@ -9173,6 +9289,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gallout a ra ar vugale sevel goulennoù ouzh o zud hag ar gerioù-alc'hwez sikour anezho da respont.
+# text[fra] = Un enfant peut poser une question à ses parents, et les mots-clés aident les parents à répondre.
 "<Gallout>"
 	"gallout" vblex inf
 "<a>"
@@ -9239,6 +9357,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Pa vez feurmet al lojeiz, e rank an hêred daskoriñ ar feurmoù d’ar pried chomet bev.
+# text[fra] = Lorsque le logement est assuré en vertu d’un contrat de bail, la succession doit rembourser les loyers au conjoint survivant.
 "<Pa>"
 	"pa" cnjsub 
 "<vez>"
@@ -9569,6 +9689,8 @@
 "<.>"
 	"." sent @punct
 
+# text = An digarezioù da seniñ
+# text[fra] = Les occasions de jeu
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -9581,6 +9703,8 @@
 "<seniñ>"
 	"seniñ" vblex inf
 
+# text = An hini kentañ a c’houneze ur seizenn, an eil ivez »
+# text[fra] = Le premier cavalier gagnait un ruban, le deuxième aussi »
 "<An>"
 	"an" det def sp 
 ;	"mont" vblex pri p1 sg 
@@ -9621,6 +9745,8 @@
 "<»>"
 	"»" rquot
 
+# text = Skrid-degemer embannet e-pad gouel Aoter ar vammvro
+# text[fra] = Reçu émis lors de la fête de l’Autel de la patrie
 "<Skrid>"
 	"skrid" n m sg
 "<->"
@@ -9648,6 +9774,8 @@
 "<vammvro>"
 	"mammvro" n f sg
 
+# text = Ar chomlec’h postel-mañ zo anezhañ dija, ne c’hallit ket krouiñ ar gont-mañ
+# text[fra] = Cet E-mail existe déjà vous ne pouvez pas créer ce compte
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -9827,6 +9955,8 @@
 "<tachennadoù>"
 	"tachennad" n f pl
 
+# text = Tremen er c’hef
+# text[fra] = Le passage en caisse
 "<Tremen>"
 	"tremen" adj mf sp 
 ;	"tremen" vblex imp p2 sg 
@@ -9840,6 +9970,8 @@
 "<c’hef>"
 	"kef" n m sg
 
+# text = Traoñ ar skalfad, krec'h ar skalfad, kreiz ar skalfad
+# text[fra] = Bas de gamme, haut de gamme, milieu de gamme
 "<Traoñ>"
 	"traoñ" n m sg
 "<ar>"
@@ -10048,6 +10180,8 @@
 "<TUD>"
 	"den" n m pl @conj #3->1
 
+# text = An dud a vor
+# text[fra] = Les gens de la mer
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -10067,6 +10201,8 @@
 ;	"morañ" vblex imp p2 sg 
 ;	"mor" n m sg 
 
+# text = war tachennoù an deskadurezh, ar stummerezh hag ar yaouankiz
+# text[fra] = dans les domaines de l'éducation, de la formation et de la jeunesse
 "<war>"
 	"war" pr @case
 ;	"gwar" n m sg 
@@ -10093,6 +10229,8 @@
 "<yaouankiz>"
 	"yaouankiz" n f sg
 
+# text = Korn ar c’hevredigezhioù
+# text[fra] = Espace associations
 "<Korn>"
 	"korn" n m sg
 "<ar>"
@@ -10347,6 +10485,8 @@
 "<red>"
 	"red" adj mf sp @amod #10->7
 
+# text = Lakaat bannoù gant an hevelep ledander
+# text[fra] = Forcer des colonnes de largeur identique
 "<Lakaat>"
 	"lakaat" vblex inf
 "<bannoù>"
@@ -10363,6 +10503,8 @@
 "<ledander>"
 	"ledander" n m sg
 
+# text = Diskouez al lec'hioù miret
+# text[fra] = Afficher les espaces réservés
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -10413,6 +10555,8 @@
 "<war-du>"
 	"war-zu" adv @advmod #2->1
 
+# text = Titouroù all an implijer
+# text[fra] = Autres informations utilisateur
 "<Titouroù>"
 	"titour" n m pl
 ;	"ditour" n m pl 
@@ -10426,6 +10570,8 @@
 	"implijer" n m sg
 ;	"implijout" vblex pri impers sp 
 
+# text = Arventennoù ar gont
+# text[fra] = Paramètres du compte
 "<Arventennoù>"
 	"arventenn" n f pl
 "<ar>"
@@ -10437,6 +10583,8 @@
 ;	"kontañ" vblex pri p3 sg 
 ;	"kont" n m sg 
 
+# text = Roll skignañ nevez
+# text[fra] = Nouvelle liste de distribution
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -10565,11 +10713,15 @@
 "<.>"
 	"." sent @punct #18->9
 
+# text = Eilañ patrom
+# text[fra] = Copier le modèle de
 "<Eilañ>"
 	"eilañ" vblex inf
 "<patrom>"
 	"patrom" n m sg
 
+# text = Servijer kas
+# text[fra] = Serveur sortant
 "<Servijer>"
 	"servijer" n m sg
 ;	"servijañ" vblex pri impers sp 
@@ -10580,6 +10732,8 @@
 ;	"kas" vblex imp p2 sg 
 ;	"kas" vblex pri p3 sg 
 
+# text = Implijout ar memes arventennoù ha re ma servijer posteloù degas
+# text[fra] = Utiliser les mêmes paramètres que mon serveur de courrier entrant
 "<Implijout>"
 	"implijout" vblex inf
 "<ar>"
@@ -10779,6 +10933,8 @@
 "<implijout>"
 	"implijout" vblex inf @advcl #8->1
 
+# text = Kefluniañ gant an dorn arventennoù ar servijer
+# text[fra] = Configurer manuellement les paramètres du serveur
 "<Kefluniañ>"
 	"kefluniañ" vblex inf
 "<gant>"
@@ -10897,6 +11053,8 @@
 "<.>"
 	"." sent @punct #12->3
 
+# text = Embann deiziadurioù all
+# text[fra] = Publier d'autres calendriers
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -10907,6 +11065,8 @@
 "<all>"
 	"all" adj ind mf sp
 
+# text = Arventennoù an deiziadur embannet
+# text[fra] = Paramètres du calendrier publié
 "<Arventennoù>"
 	"arventenn" n f pl
 "<an>"
@@ -10930,6 +11090,8 @@
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
 
+# text = Roll pennañ ar rummadoù
+# text[fra] = Liste principale des catégories
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -10943,6 +11105,8 @@
 "<rummadoù>"
 	"rummad" n m pl
 
+# text = Aozer diwezhañ
+# text[fra] = Dernier auteur
 "<Aozer>"
 	"aozer" n m sg
 ;	"aozañ" vblex pri impers sp 
@@ -10950,6 +11114,8 @@
 "<diwezhañ>"
 	"diwezhañ" adj mf sp
 
+# text = Perzhioù ar vaezienn
+# text[fra] = Propriétés du champ
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -10958,6 +11124,8 @@
 "<vaezienn>"
 	"maezienn" n f sg
 
+# text = Framm hep liv.
+# text[fra] = Structure sans couleur.
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -11026,12 +11194,16 @@
 "<kendiviz>"
 	"kendiviz" n m sg @nmod:gen #10->9
 
+# text = Kelligoù eilet
+# text[fra] = Cellule copiée
 "<Kelligoù>"
 	"kellig" n f pl
 "<eilet>"
 	"eilañ" vblex pp
 ;	"eilañ" vblex imp p3 sg 
 
+# text = Linennoù Krec'h-Traoñ diuzet…
+# text[fra] = Lignes Haut-Bas sélectionnées...
 "<Linennoù>"
 	"linenn" n f pl
 "<Krec'h>"
@@ -11136,6 +11308,8 @@
 "<.>"
 	"." sent @punct #12->4
 
+# text = Roll restroù
+# text[fra] = Liste de fichiers
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11143,6 +11317,8 @@
 "<restroù>"
 	"restr" n f pl
 
+# text = Enrollañ an takad labour
+# text[fra] = Enregistrer l'espace de travail...`E
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -11155,6 +11331,8 @@
 	"labour" n m sg
 ;	"labourat" vblex pri p3 sg 
 
+# text = Sil an danevell
+# text[fra] = Filtre du rapport
 "<Sil>"
 	"Sil" np top sg 
 ;	"silañ" vblex imp p2 sg 
@@ -11171,12 +11349,16 @@
 ;	"danevelliñ" vblex pri p3 sg 
 ;	"danevellañ" vblex pri p3 sg 
 
+# text = Perzh brouilhed
+# text[fra] = Qualité brouillon
 "<Perzh>"
 	"perzh" n m sg
 ;	"berzh" n m sg 
 "<brouilhed>"
 	"brouilhed" n m sg
 
+# text = A grec'h da draoñ
+# text[fra] = Du haut vers le bas
 "<A>"
 	"a" pr 
 ;	"a" vpart 
@@ -11193,6 +11375,8 @@
 "<draoñ>"
 	"traoñ" n m sg
 
+# text = Dilec'hiañ pe eilañ
+# text[fra] = Déplacer ou copier
 "<Dilec'hiañ>"
 	"dilec’hiañ" vblex inf
 "<pe>"
@@ -11222,6 +11406,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Diskwel prenestr ar Perzhioù
+# text[fra] = Afficher la fenêtre des Propriétés
 "<Diskwel>"
 	"diskwel" vblex inf
 ;	"diskwel" vblex imp p2 sg 
@@ -11234,6 +11420,8 @@
 "<Perzhioù>"
 	"perzh" n m pl
 
+# text = Bannoù taolenn a-gleiz
+# text[fra] = Colonnes de tableau à gauche
 "<Bannoù>"
 	"bann" n m pl
 "<taolenn>"
@@ -11243,6 +11431,8 @@
 "<a-gleiz>"
 	"a-gleiz" adv 
 
+# text = Perzhioù ar roadennoù diavaez
+# text[fra] = Propriétés des données externes
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -11254,6 +11444,8 @@
 	"diavaez" adj mf sp 
 ;	"diavaez" n m sg 
 
+# text = Brasaat an arouez
+# text[fra] = Agrandir le symbole
 "<Brasaat>"
 	"brasaat" vblex inf
 "<an>"
@@ -11277,6 +11469,8 @@
 ;	"frammañ" vblex pri p3 sg 
 …
 
+# text = Kemmañ an implijer
+# text[fra] = Modifier l'utilisateur
 "<Kemmañ>"
 	"kemmañ" vblex inf
 "<an>"
@@ -11287,6 +11481,8 @@
 	"implijer" n m sg
 ;	"implijout" vblex pri impers sp 
 
+# text = Pellgargañ an talbennoù
+# text[fra] = Télécharger les en-têtes
 "<Pellgargañ>"
 	"pellgargañ" vblex inf
 "<an>"
@@ -11296,6 +11492,8 @@
 "<talbennoù>"
 	"talbenn" n m pl
 
+# text = Roll ebet
+# text[fra] = Aucune liste
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11303,6 +11501,8 @@
 "<ebet>"
 	"ebet" adv 
 
+# text = Brasaat d'al live
+# text[fra] = Agrandir au niveau
 "<Brasaat>"
 	"brasaat" vblex inf
 "<d'al>"
@@ -11328,6 +11528,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Diskouez takad labour an emvod
+# text[fra] = Afficher l'espace de travail de réunion
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -11360,6 +11562,8 @@
 "<Takad tresañ>"
 	"takad# tresañ" n m sg
 
+# text = Implijout an anv implijer hag ar ger-tremen-mañ
+# text[fra] = Utiliser le nom d'utilisateur et le mot de passe suivants
 "<Implijout>"
 	"implijout" vblex inf
 "<an>"
@@ -11393,6 +11597,8 @@
 "<-mañ>"
 	"mañ" adv 
 
+# text = Sil servijer
+# text[fra] = Filtre de serveur
 "<Sil>"
 	"Sil" np top sg 
 ;	"silañ" vblex imp p2 sg 
@@ -11403,6 +11609,8 @@
 ;	"servijañ" vblex pri impers sp 
 ;	"servijout" vblex pri impers sp 
 
+# text = Hizivaat eilenn an takad labour
+# text[fra] = Mettre à jour la copie de l'espace de travail
 "<Hizivaat>"
 	"hizivaat" vblex inf
 "<eilenn>"
@@ -11417,6 +11625,8 @@
 	"labour" n m sg
 ;	"labourat" vblex pri p3 sg 
 
+# text = Ouzhpennañ an domani da roll ar gaserien aprouet
+# text[fra] = Ajouter le domaine à la liste des expéditeurs approuvés
 "<Ouzhpennañ>"
 	"ouzhpennañ" vblex inf
 "<an>"
@@ -11441,6 +11651,8 @@
 	"aprouiñ" vblex pp
 ;	"aprouiñ" vblex imp p3 sg 
 
+# text = Mirout ma eilenn
+# text[fra] = Conserver ma copie
 "<Mirout>"
 	"mirout" vblex inf
 "<ma>"
@@ -11450,6 +11662,8 @@
 "<eilenn>"
 	"eilenn" n f sg
 
+# text = Hizivaat eilenn ar servijer
+# text[fra] = Mettre à jour la copie du serveur
 "<Hizivaat>"
 	"hizivaat" vblex inf
 "<eilenn>"
@@ -11462,11 +11676,15 @@
 ;	"servijañ" vblex pri impers sp 
 ;	"servijout" vblex pri impers sp 
 
+# text = Takadoù testenn
+# text[fra] = Zones de texte
 "<Takadoù>"
 	"takad" n m pl
 "<testenn>"
 	"testenn" n f sg
 
+# text = Eus ar c'horn
+# text[fra] = Du coin
 "<Eus>"
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
@@ -11476,6 +11694,8 @@
 "<c'horn>"
 	"korn" n m sg
 
+# text = Roll an trevelloù pemdeziek
+# text[fra] = Liste des tâches quotidiennes
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11489,6 +11709,8 @@
 "<pemdeziek>"
 	"pemdeziek" adj mf sp
 
+# text = Embann war ar Genrouedad
+# text[fra] = Publier sur Internet
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -11503,6 +11725,8 @@
 "<Genrouedad>"
 	"kenrouedad" n f sg
 
+# text = Perzhioù ar riblenn
+# text[fra] = Propriétés de la bordure
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -11523,6 +11747,8 @@
 "<takad tresañ>"
 	"takad# tresañ" n m sg
 
+# text = Digeriñ takad ar furmskrid
+# text[fra] = Ouvrir la zone du formulaire...
 "<Digeriñ>"
 	"digeriñ" vblex inf
 	"digeriñ" n m sg
@@ -11534,6 +11760,8 @@
 "<furmskrid>"
 	"furmskrid" n m sg
 
+# text = Fichañ an danevell
+# text[fra] = Disposition du rapport`C
 "<Fichañ>"
 	"fichañ" vblex inf
 "<an>"
@@ -11547,6 +11775,8 @@
 ;	"danevelliñ" vblex pri p3 sg 
 ;	"danevellañ" vblex pri p3 sg 
 
+# text = Bann diwezhañ
+# text[fra] = À la dernière colonne
 "<Bann>"
 	"bann" adj mf sp 
 ;	"bannañ" vblex imp p2 sg 
@@ -11555,6 +11785,8 @@
 "<diwezhañ>"
 	"diwezhañ" adj mf sp
 
+# text = Bannoù gant bandennoù
+# text[fra] = Colonnes à bandes`E
 "<Bannoù>"
 	"bann" n m pl
 "<gant>"
@@ -11564,6 +11796,8 @@
 "<bandennoù>"
 	"bandenn" n f pl
 
+# text = Urzh an takad kendeuziñ
+# text[fra] = Ordre de la zone de fusion
 "<Urzh>"
 	"urzh" n f sg
 "<an>"
@@ -11575,11 +11809,15 @@
 "<kendeuziñ>"
 	"kendeuziñ" vblex inf
 
+# text = Perzhioù CSS
+# text[fra] = Propriétés CSS
 "<Perzhioù>"
 	"perzh" n m pl
 "<CSS>"
 	"CSS" n acr m sg
 
+# text = Diskouez an holl berzhioù
+# text[fra] = Afficher toutes les propriétés
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -11595,6 +11833,8 @@
 "<berzhioù>"
 	"perzh" n m pl
 
+# text = Pouezañ war
+# text[fra] = Appuyer sur
 "<Pouezañ>"
 	"pouezañ" vblex inf
 "<war>"
@@ -11615,11 +11855,15 @@
 "<ent emgefreek>"
 	"ent emgefreek" adv 
 
+# text = Takad testenn
+# text[fra] = Zone de texte
 "<Takad>"
-	"takad" n m sg
+	"takad" n m sg @root #1->0
 "<testenn>"
-	"testenn" n f sg
+	"testenn" n f sg @nmod:gen #2->1
 
+# text = Furmad al lec'h miret
+# text[fra] = Format d'espace réservé
 "<Furmad>"
 	"furmad" n f sg
 "<al>"
@@ -11630,6 +11874,8 @@
 	"mirout" vblex pp
 ;	"mirout" vblex imp p3 sg 
 
+# text = Lakait ar biz war unan eus an dornelloù hag riklit anezhi da grennañ ar skeudenn.
+# text[fra] = Placez le pointeur sur l'une des poignées et faites-la glisser pour rogner l'image.
 "<Lakait>"
 	"lakaat" vblex pri p2 pl 
 "<ar>"
@@ -11681,6 +11927,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Testenn pe perzh
+# text[fra] = Texte ou propriété
 "<Testenn>"
 	"testenn" n f sg
 "<pe>"
@@ -11691,6 +11939,8 @@
 	"perzh" n m sg
 ;	"berzh" n m sg 
 
+# text = Anv implijer
+# text[fra] = Nom d'utilisateur
 "<Anv>"
 	"anv" n m sg
 ;	"envel" vblex imp p2 sg 
@@ -11722,6 +11972,8 @@
 "<unanbennak@skouer.com>"
 	"unanbennak@skouer.com" num
 
+# text = Dilemel an takad labour
+# text[fra] = Supprimer l'espace de travail
 "<Dilemel>"
 	"dilemel" vblex inf
 "<an>"
@@ -11734,6 +11986,8 @@
 	"labour" n m sg
 ;	"labourat" vblex pri p3 sg 
 
+# text = Dilemel ar bannoù
+# text[fra] = Supprimer les colonnes
 "<Dilemel>"
 	"dilemel" vblex inf
 "<ar>"
@@ -11742,6 +11996,8 @@
 "<bannoù>"
 	"bann" n m pl
 
+# text = Ensoc'hañ ur framm
+# text[fra] = Insérer un cadre
 "<Ensoc'hañ>"
 	"ensoc’hañ" vblex inf
 "<ur>"
@@ -11751,6 +12007,8 @@
 ;	"frammañ" vblex imp p2 sg 
 ;	"frammañ" vblex pri p3 sg 
 
+# text = Diuzañ ar bann
+# text[fra] = Sélectionner la colonne
 "<Diuzañ>"
 	"diuzañ" vblex inf
 "<ar>"
@@ -11762,11 +12020,15 @@
 ;	"bannañ" vblex imp p2 sg 
 ;	"bannañ" vblex pri p3 sg 
 
+# text = Follenn berzhioù
+# text[fra] = Feuille des propriétés
 "<Follenn>"
 	"follenn" n f sg
 "<berzhioù>"
 	"perzh" n m pl
 
+# text = Roll furmadoù
+# text[fra] = Liste de formats
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11774,6 +12036,8 @@
 "<furmadoù>"
 	"furmad" n f pl
 
+# text = Log da askañ
+# text[fra] = Case à cocher
 "<Log>"
 	"log" n f sg
 "<da>"
@@ -11782,6 +12046,8 @@
 "<askañ>"
 	"askañ" vblex inf
 
+# text = Takad testenn a-blom
+# text[fra] = Zone de texte verticale`V
 "<Takad>"
 	"takad" n m sg
 "<testenn>"
@@ -11789,6 +12055,8 @@
 "<a-blom>"
 	"a-blom" adv 
 
+# text = Embann al lec'hienn
+# text[fra] = Publier le site
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -11799,6 +12067,8 @@
 "<lec'hienn>"
 	"lec’hienn" n f sg
 
+# text = Kinnig klok
+# text[fra] = Présentation complète
 "<Kinnig>"
 	"kinnig" n m sg
 ;	"kinnig" vblex imp p2 sg 
@@ -11807,6 +12077,8 @@
 "<klok>"
 	"klok" adj mf sp
 
+# text = Enrollañ an takad furmskrid
+# text[fra] = Enregistrer la zone du formulaire
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -11818,6 +12090,8 @@
 "<furmskrid>"
 	"furmskrid" n m sg
 
+# text = Serriñ an takad furmskrid
+# text[fra] = Fermer la zone de formulaire
 "<Serriñ>"
 	"serriñ" vblex inf
 "<an>"
@@ -11839,6 +12113,8 @@
 "<traoñ>"
 	"traoñ" n m sg
 
+# text = Talbenn ha traoñ pajenn emgefreek
+# text[fra] = En-tête et pied de page automatiques`ZH
 "<Talbenn>"
 	"talbenn" n m sg
 "<ha>"
@@ -11851,6 +12127,8 @@
 "<emgefreek>"
 	"emgefreek" adj mf sp
 
+# text = Ostilhoù lec'hioù miret
+# text[fra] = Outils des espaces réservés
 "<Ostilhoù>"
 	"ostilh" n m pl
 "<lec'hioù>"
@@ -11859,11 +12137,15 @@
 	"mirout" vblex pp
 ;	"mirout" vblex imp p3 sg 
 
+# text = Talbennoù bannoù
+# text[fra] = En-têtes de colonnes`T
 "<Talbennoù>"
 	"talbenn" n m pl
 "<bannoù>"
 	"bann" n m pl
 
+# text = Diuzañ roadennoù ur bann eus an daolenn
+# text[fra] = Sélectionner les données d'une colonne du tableau`T
 "<Diuzañ>"
 	"diuzañ" vblex inf
 "<roadennoù>"
@@ -11887,14 +12169,15 @@
 ;	"taolenniñ" vblex imp p2 sg 
 ;	"taolenniñ" vblex pri p3 sg 
 
-
+# text = Takad testenn
+# text[fra] = Zone de texte
 "<Takad>"
-	"takad" n m sg
+	"takad" n m sg @root #1->0
 "<testenn>"
-	"testenn" n f sg
+	"testenn" n f sg @nmod:gen #2->1
 
 # text = Kemmañ ar bannoù hag an arventennoù
-# text[fra] = Modifier les colonnes et les paramètres`SM
+# text[fra] = Modifier les colonnes et les paramètres
 "<Kemmañ>"
 	"kemmañ" vblex inf @root #1->0
 "<ar>"
@@ -11908,6 +12191,8 @@
 "<arventennoù>"
 	"arventenn" n f pl @conj #6->3
 
+# text = Tresañ un takad testenn
+# text[fra] = Dessiner une zone de texte
 "<Tresañ>"
 	"tresañ" vblex inf
 ;	"dresañ" vblex inf 
@@ -11932,6 +12217,8 @@
 "<skignañ>"
 	"skignañ" vblex inf
 
+# text = Digeriñ ar roll teulioù-mañ
+# text[fra] = Ouvrir cette liste de documents`G
 "<Digeriñ>"
 	"digeriñ" vblex inf
 	"digeriñ" n m sg
@@ -11947,6 +12234,8 @@
 "<-mañ>"
 	"mañ" adv 
 
+# text = Digeriñ an teuliad roll skignañ-mañ
+# text[fra] = Ouvrir ce dossier de liste de distribution
 "<Digeriñ>"
 	"digeriñ" vblex inf
 	"digeriñ" n m sg
@@ -11965,6 +12254,8 @@
 "<-mañ>"
 	"mañ" adv 
 
+# text = Gwelet alberz ar roll darempredoù-mañ
+# text[fra] = Afficher l'aperçu de cette liste de contacts
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -11984,6 +12275,8 @@
 "<-mañ>"
 	"mañ" adv 
 
+# text = Takad testenn a-blom
+# text[fra] = Zone de texte verticale`V
 "<Takad>"
 	"takad" n m sg
 "<testenn>"
@@ -11991,6 +12284,8 @@
 "<a-blom>"
 	"a-blom" adv 
 
+# text = Stern roll
+# text[fra] = Zone de liste`CS
 "<Stern>"
 	"stern" n m sg
 "<roll>"
@@ -11998,6 +12293,8 @@
 ;	"rollañ" vblex imp p2 sg 
 ;	"rollañ" vblex pri p3 sg 
 
+# text = Framm traezenn dizalc'h
+# text[fra] = Cadre d'objet indépendant`CB
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -12015,6 +12312,8 @@
 "<pajenn>"
 	"pajenn" n f sg
 
+# text = Eilañ evel skeudenn
+# text[fra] = Copier comme image`R
 "<Eilañ>"
 	"eilañ" vblex inf
 "<evel>"
@@ -12024,6 +12323,8 @@
 ;	"skeudenniñ" vblex imp p2 sg 
 ;	"skeudenniñ" vblex pri p3 sg 
 
+# text = Enrollañ an takad labour
+# text[fra] = Enregistrer l'espace de travail...`E
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -12036,6 +12337,8 @@
 	"labour" n m sg
 ;	"labourat" vblex pri p3 sg 
 
+# text = Roll ar formulennoù
+# text[fra] = Liste des formules
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -12046,6 +12349,8 @@
 "<formulennoù>"
 	"formulenn" n f pl
 
+# text = Kendeuziñ Krouiñ Tarzh Talbenn
+# text[fra] = Fusion Créer Source En-tête
 "<Kendeuziñ>"
 	"kendeuziñ" vblex inf
 "<Krouiñ>"
@@ -12058,6 +12363,8 @@
 "<Talbenn>"
 	"talbenn" n m sg
 
+# text = Gwel Boas Talbenn
+# text[fra] = Affichage Normal En-tête
 "<Gwel>"
 	"gwel" n m sg
 ;	"gwelout" vblex imp p2 sg 
@@ -12068,6 +12375,8 @@
 "<Talbenn>"
 	"talbenn" n m sg
 
+# text = Enrollañ an danevell
+# text[fra] = Enregistrer la narration`N
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -12081,6 +12390,8 @@
 ;	"danevelliñ" vblex pri p3 sg 
 ;	"danevellañ" vblex pri p3 sg 
 
+# text = Distreiñ da roll an trevelloù
+# text[fra] = Revenir à la liste des tâches`I
 "<Distreiñ>"
 	"distreiñ" vblex inf
 "<da>"
@@ -12097,6 +12408,8 @@
 "<trevelloù>"
 	"trevell" n m pl
 
+# text = Embann ar respont
+# text[fra] = Publier la réponse`O
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -12121,6 +12434,8 @@
 ;	"berzh" n m sg 
 …
 
+# text = Ensoc'hañ bannoù a-gleiz
+# text[fra] = Insérer des colonnes à gauche`IG
 "<Ensoc'hañ>"
 	"ensoc’hañ" vblex inf
 "<bannoù>"
@@ -12128,6 +12443,8 @@
 "<a-gleiz>"
 	"a-gleiz" adv 
 
+# text = Perzhioù an daolenn
+# text[fra] = Propriétés du tableau...`P
 "<Perzhioù>"
 	"perzh" n m pl
 "<an>"
@@ -12139,6 +12456,8 @@
 ;	"taolenniñ" vblex imp p2 sg 
 ;	"taolenniñ" vblex pri p3 sg 
 
+# text = Framm nevez a-is
+# text[fra] = Nouveau cadre en dessous
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -12150,6 +12469,8 @@
 "<a-is>"
 	"a-is" adv 
 
+# text = Framm nevez a-gleiz
+# text[fra] = Nouveau cadre à gauche
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -12161,6 +12482,8 @@
 "<a-gleiz>"
 	"a-gleiz" adv 
 
+# text = Kont nevez
+# text[fra] = Nouveau compte
 "<Kont>"
 	"kont" n f sg
 	"kont" n m sg
@@ -12171,6 +12494,8 @@
 ;	"neveziñ" vblex imp p2 sg 
 ;	"neveziñ" vblex pri p3 sg 
 
+# text = Dilec'hiañ d'an takad bannoù
+# text[fra] = Déplacer vers la zone de colonnes
 "<Dilec'hiañ>"
 	"dilec’hiañ" vblex inf
 "<d'an>"
@@ -12181,6 +12506,8 @@
 "<bannoù>"
 	"bann" n m pl
 
+# text = Aotren kinnigoù eurioù nevez
+# text[fra] = Permettre de nouvelles propositions d'horaires
 "<Aotren>"
 	"aotren" vblex inf
 "<kinnigoù>"
@@ -12192,6 +12519,8 @@
 ;	"neveziñ" vblex imp p2 sg 
 ;	"neveziñ" vblex pri p3 sg 
 
+# text = Takad labour emvod
+# text[fra] = Espace de travail de réunion`N
 "<Takad>"
 	"takad" n m sg
 "<labour>"
@@ -12211,6 +12540,8 @@
 	"pajenn" n f sg
 …
 
+# text = Adskrivañ linennoù an talbenn
+# text[fra] = Répéter les lignes d'en-tête`P
 "<Adskrivañ>"
 	"adskrivañ" vblex inf
 "<linennoù>"
@@ -12222,6 +12553,8 @@
 "<talbenn>"
 	"talbenn" n m sg
 
+# text = Eilañ e Ma Deiziadur
+# text[fra] = Copier dans Mon Calendrier`FT
 "<Eilañ>"
 	"eilañ" vblex inf
 "<e>"
@@ -12237,11 +12570,15 @@
 "<Deiziadur>"
 	"deiziadur" n m sg
 
+# text = Takadoù teurel
+# text[fra] = Zones de dépôt`T
 "<Takadoù>"
 	"takad" n m pl
 "<teurel>"
 	"teurel" vblex inf
 
+# text = Ostilhoù talbenn ha traoñ pajenn
+# text[fra] = Outils des en-têtes et pieds de page
 "<Ostilhoù>"
 	"ostilh" n m pl
 "<talbenn>"
@@ -12254,6 +12591,8 @@
 "<pajenn>"
 	"pajenn" n f sg
 
+# text = Mont d'an talbenn
+# text[fra] = Atteindre l'en-tête`E
 "<Mont>"
 	"mont" vblex inf
 "<d'an>"
@@ -12271,6 +12610,8 @@
 	"perzh" n m pl
 …
 
+# text = Linenn talbenn
+# text[fra] = Ligne d'en-tête`G
 "<Linenn>"
 	"linenn" n f sg
 ;	"linennañ" vblex imp p2 sg 
@@ -12278,12 +12619,16 @@
 "<talbenn>"
 	"talbenn" n m sg
 
+# text = Rolloù aprouet
+# text[fra] = Listes approuvées`P
 "<Rolloù>"
 	"roll" n m pl
 "<aprouet>"
 	"aprouiñ" vblex pp
 ;	"aprouiñ" vblex imp p3 sg 
 
+# text = Stil takad testenn
+# text[fra] = Style de zone de texte`D
 "<Stil>"
 	"stil" n m sg
 "<takad>"
@@ -12291,6 +12636,8 @@
 "<testenn>"
 	"testenn" n f sg
 
+# text = Merañ titouroù ar servijer evit an diaz roadennoù
+# text[fra] = Gérer les informations du serveur pour la base de données
 "<Merañ>"
 	"merañ" vblex inf
 	"merañ" n m sg
@@ -12317,6 +12664,8 @@
 "<roadennoù>"
 	"roadenn" n f pl
 
+# text = Gweredekaet evit ar bannoù hepken
+# text[fra] = Activé pour les colonnes uniquement
 "<Gweredekaet>"
 	"gweredekaat" vblex pp
 "<evit>"
@@ -12331,6 +12680,8 @@
 "<hepken>"
 	"hepken" adv 
 
+# text = Stiloù an takadoù testenn
+# text[fra] = Styles des zones de texte`ZY
 "<Stiloù>"
 	"stil" n m pl
 "<an>"
@@ -12342,12 +12693,16 @@
 "<testenn>"
 	"testenn" n f sg
 
+# text = Implijer dianav
+# text[fra] = Utilisateur inconnu
 "<Implijer>"
 	"implijer" n m sg
 ;	"implijout" vblex pri impers sp 
 "<dianav>"
 	"dianav" adj mf sp
 
+# text = Embann evel
+# text[fra] = Publier en tant que
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -12356,6 +12711,8 @@
 "<evel>"
 	"evel" pr @case
 
+# text = Anavezer nemetañ an teul
+# text[fra] = Identifiant unique du document
 "<Anavezer>"
 	"anavezout" vblex pri impers sp 
 "<nemetañ>"
@@ -12397,6 +12754,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Enporzhiañ rolloù eus
+# text[fra] = Importer les listes à partir des
 "<Enporzhiañ>"
 	"enporzhiañ" vblex inf
 "<rolloù>"
@@ -12405,6 +12764,8 @@
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
 
+# text = Amdreiñ ar siloù danevell
+# text[fra] = Convertir les filtres de rapport
 "<Amdreiñ>"
 	"amdreiñ" vblex inf
 "<ar>"
@@ -12419,6 +12780,8 @@
 ;	"danevelliñ" vblex pri p3 sg 
 ;	"danevellañ" vblex pri p3 sg 
 
+# text = Takad red
+# text[fra] = Zone en cours
 "<Takad>"
 	"takad" n m sg
 "<red>"
@@ -12426,6 +12789,8 @@
 ;	"redek" vblex pri p3 sg 
 ;	"red" n m sg 
 
+# text = Diforc'hioù dre vann
+# text[fra] = Différences par colonne
 "<Diforc'hioù>"
 	"diforc’h" n m pl
 "<dre>"
@@ -12437,17 +12802,23 @@
 ;	"bann" adj mf sp 
 ;	"bannañ" vblex pri p3 sg 
 
+# text = Skouer talbenn
+# text[fra] = Exemple d'en-tête
 "<Skouer>"
 	"skouer" adj mf sp 
 ;	"skouer" n f sg 
 "<talbenn>"
 	"talbenn" n m sg
 
+# text = Perzhioù fonetek
+# text[fra] = Propriétés phonétiques
 "<Perzhioù>"
 	"perzh" n m pl
 "<fonetek>"
 	"fonetek" adj mf sp
 
+# text = Implijout anvioù ar bannoù hag al linennoù
+# text[fra] = Utiliser les noms de colonnes et de lignes
 "<Implijout>"
 	"implijout" vblex inf
 "<anvioù>"
@@ -12464,6 +12835,8 @@
 "<linennoù>"
 	"linenn" n f pl
 
+# text = Linenn, bann
+# text[fra] = Ligne, colonne
 "<Linenn>"
 	"linenn" n f sg
 ;	"linennañ" vblex imp p2 sg 
@@ -12476,6 +12849,8 @@
 ;	"bannañ" vblex imp p2 sg 
 ;	"bannañ" vblex pri p3 sg 
 
+# text = Elfenn da embann
+# text[fra] = Éléments à publier
 "<Elfenn>"
 	"elfenn" n f sg
 "<da>"
@@ -12578,6 +12953,8 @@
 "<dija>"
 	"dija" adv @advmod #5->4
 
+# text = Arventennoù al linennoù, ar bannoù hag ar siloù kuzh.
+# text[fra] = Paramètres masqués des lignes, colonnes et filtres
 "<Arventennoù>"
 	"arventenn" n f pl
 "<al>"
@@ -12605,6 +12982,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Dibab maeziennoù ar perzhioù evit ar vent
+# text[fra] = Choisir des champs de propriété pour la dimension
 "<Dibab>"
 	"dibab" vblex inf
 	"dibab" n m sg
@@ -12627,6 +13006,8 @@
 "<vent>"
 	"ment" n f sg
 
+# text = Mirout ar sil bannoù
+# text[fra] = Conserver le filtre des colonnes
 "<Mirout>"
 	"mirout" vblex inf
 "<ar>"
@@ -12639,6 +13020,8 @@
 "<bannoù>"
 	"bann" n m pl
 
+# text = Danevell ar grafik kroaziet dinamek hag an daolenn kroaziet dinamek
+# text[fra] = Rapport de graphique croisé dynamique et de tableau croisé dynamique
 "<Danevell>"
 	"danevell" n f sg
 ;	"danevelliñ" vblex imp p2 sg 
@@ -12671,6 +13054,8 @@
 "<dinamek>"
 	"dinamek" adj mf sp
 
+# text = Dibabit lec'hiadur ho tanevell taolenn kroaziet dinamek
+# text[fra] = Choisissez l'emplacement de votre rapport de tableau croisé dynamique
 "<Dibabit>"
 	"dibab" vblex pri p2 pl 
 ;	"dibab" vblex imp p2 pl 
@@ -12695,6 +13080,8 @@
 "<dinamek>"
 	"dinamek" adj mf sp
 
+# text = Pa vo prest ho roll, klikit war OK.
+# text[fra] = Cliquez sur OK lorsque votre liste est prête à l'emploi.
 "<Pa>"
 	"pa" cnjsub 
 "<vo>"
@@ -12726,6 +13113,8 @@
 "<.>"
 	"." sent @punct
 
+# text = O kehentiñ gant ar servijer
+# text[fra] = Communication avec le serveur en cours
 "<O>"
 	"o" vpart ger 
 ;	"o" ij 
@@ -12747,6 +13136,8 @@
 ;	"servijañ" vblex pri impers sp 
 ;	"servijout" vblex pri impers sp 
 
+# text = O c'hortoz ur respont digant ar servijer.
+# text[fra] = En attente d'une réponse du serveur.
 "<O>"
 	"o" vpart ger 
 ;	"o" ij 
@@ -12776,6 +13167,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Diskwel ur c'hemenn diwall
+# text[fra] = Afficher un message d'avertissement
 "<Diskwel>"
 	"diskwel" vblex inf
 ;	"diskwel" vblex imp p2 sg 
@@ -12792,6 +13185,8 @@
 ;	"diwall" vblex imp p2 sg 
 ;	"diwall" vblex pri p3 sg 
 
+# text = Aozer ar gwel personelaet
+# text[fra] = Organisateur de l'affichage personnalisé
 "<Aozer>"
 	"aozer" n m sg
 ;	"aozañ" vblex pri impers sp 
@@ -12851,6 +13246,8 @@
 ;	"dornañ" vblex imp p2 sg 
 ;	"dornañ" vblex pri p3 sg 
 
+# text = Roll arlunioù
+# text[fra] = Liste d'icônes
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -12963,6 +13360,8 @@
 	"bep" det ind mf sg
 ;	"pep" det ind mf sg 
 
+# text = Termenañ a ra kas hollek testenn ar chadennoù hag an takadoù testenn.
+# text[fra] = Définit le flux global du texte des chaînes et des zones de texte.
 "<Termenañ>"
 	"termenañ" vblex inf
 "<a>"
@@ -13090,15 +13489,11 @@
 	"diviz" n m pl
 "<-mañ>"
 	"mañ" adv 
-"<.>"
-	"." sent @punct
+"<...>"
+	"..." sent @punct
 
-"<.>"
-	"." sent @punct
-
-"<.>"
-	"." sent @punct
-
+# text = Pellgargañ an talbennoù hepken evit an elfennoù brasoc'h eget
+# text[fra] = Télécharger uniquement les en-têtes pour les éléments supérieurs à
 "<Pellgargañ>"
 	"pellgargañ" vblex inf
 "<an>"
@@ -13124,6 +13519,8 @@
 "<eget>"
 	"eget" cnjsub 
 
+# text = Perzhioù ober ar furmskrid
+# text[fra] = Propriétés de l'action du formulaire
 "<Perzhioù>"
 	"perzh" n m pl
 "<ober>"
@@ -13135,6 +13532,8 @@
 "<furmskrid>"
 	"furmskrid" n m sg
 
+# text = Goulenn digant an implijer digeriñ pe kas
+# text[fra] = Demander à l'utilisateur de l'ouvrir ou de l'envoyer
 "<Goulenn>"
 	"goulenn" vblex inf
 ;	"goulenn" vblex imp p2 sg 
@@ -13162,29 +13561,25 @@
 ;	"kas" vblex imp p2 sg 
 ;	"kas" vblex pri p3 sg 
 
+# text = Spisaat ur c'hemenn diwall
+# text[fra] = Spécifier un message d'alerte
 "<Spisaat>"
 	"spisaat" vblex inf
 "<ur>"
 	"un" det ind sp @det
 "<c'hemenn>"
 	"kemenn" n m sg
-;	"kemenn" vblex imp p2 sg 
-;	"kemenn" vblex inf 
-;	"kemenn" vblex pri p3 sg 
 "<diwall>"
 	"diwall" vblex inf
 ;	"diwall" vblex imp p2 sg 
 ;	"diwall" vblex pri p3 sg 
 
+# text = Ma kendalc'hit e c'hall c'hoarvezout ma ne vo ket an dud-se evit lenn ar c'hemennad-mañ.
+# text[fra] = Si vous continuez, ces personnes ne seront peut-être pas en mesure de lire ce message.
 "<Ma>"
 	"ma" cnjsub 
-;	"ma" det pos mf sp 
-;	"ma" ij 
 "<kendalc'hit>"
 	"kendelc’her" vblex pri p2 pl 
-	"kenderc’hel" vblex pri p2 pl 
-;	"kendelc’her" vblex imp p2 pl 
-;	"kenderc’hel" vblex imp p2 pl 
 "<e>"
 	"direct" prn obj p3 m sg 
 ;	"e" pr 
@@ -13237,54 +13632,51 @@
 "<.>"
 	"." sent @punct
 
+# text = Ha c'hoant hoc'h eus da gefluniañ ur gont postel ?
+# text[fra] = Voulez-vous configurer un compte de messagerie ?
 "<Ha>"
-	"ha" cnjcoo
-;	"ha" ij 
+	"ha" cnjcoo @cc #1->3
 "<c'hoant>"
-	"c’hoant" n m sg
-;	"koant" adj mf sp 
+	"c’hoant" n m sg @obj #2->3
 "<hoc'h eus>"
-	"kaout" vblex pri p2 pl 
+	"kaout" vblex pri p2 pl @root #3->0
 "<da>"
-	"da" pr 
-;	"da" det pos mf sp 
+	"da" pr @mark #4->5
 "<gefluniañ>"
-	"kefluniañ" vblex inf
+	"kefluniañ" vblex inf @advcl #5->3
 "<ur>"
-	"un" det ind sp @det
+	"un" det ind sp @det #6->7
 "<gont>"
-	"kont" n f sg
-;	"kontañ" vblex imp p2 sg 
-;	"kontañ" vblex pri p3 sg 
-;	"kont" n m sg 
+	"kont" n f sg @obj #7->5
 "<postel>"
-	"postel" n m sg
+	"postel" n m sg @compound #8->7
 "<?>"
-	"?" sent @punct
+	"?" sent @punct #9->3
 
+# text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
+# text[fra] = Il est recommandé de conserver celles du serveur.
 "<Peurliesañ>"
-	"peurliesañ" adv 
-"<ho po c'hoant da>"
-	"kaout# c’hoant da" vblex fti p2 pl 
+	"peurliesañ" adv @advmod #1->2
+"<ho po>"
+	"kaout" vblex fti p2 pl @root #2->0
+"<c'hoant>" 
+	"c’hoant" n m sg @obj #3->2
+"<da>"
+	"da" pr @mark #4->5
 "<virout>"
-	"mirout" vblex inf
+	"mirout" vblex inf @advcl #5->2
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #6->7
 "<reolennoù>"
-	"reolenn" n f pl
+	"reolenn" n f pl @obj #7->5
 "<war>"
-	"war" pr @case
-;	"gwar" n m sg 
+	"war" pr @case #8->10
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #9->10
 "<servijer>"
-	"servijer" n m sg
-;	"servijañ" vblex pri impers sp 
-;	"servijout" vblex pri impers sp 
+	"servijer" n m sg @nmod #10->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->2
 
 "<Ha>"
 	"ha" cnjcoo
@@ -13332,6 +13724,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kemennad respont emgefreek d'an dud e-maez ma aozadur
+# text[fra] = Message de réponse automatique aux personnes étrangères à ma société
 "<Kemennad>"
 	"kemennad" n m sg
 "<respont>"
@@ -13355,6 +13749,8 @@
 "<aozadur>"
 	"aozadur" n m sg
 
+# text = An danevelloù hir o fad zo da vezañ liammet evit kaout ar gwellañ disoc'hoù.
+# text[fra] = Les narrations de longue durée doivent être liées pour obtenir de meilleurs résultats.
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -13401,6 +13797,8 @@
 "<.>"
 	"." sent @punct
 
+# text = O prientiñ ar c'hinnig hag o kontrollañ ar restr e-keñver an arventennoù surentez red.
+# text[fra] = Préparation de la présentation en cours et contrôle du fichier par rapport aux paramètres de sécurité actuels.
 "<O>"
 	"o" vpart ger 
 ;	"o" det pos mf sp 
@@ -13449,6 +13847,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Framm hiniennel
+# text[fra] = Cadre individuel
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -13539,6 +13939,8 @@
 "<.>"
 	"." sent @punct #18->6
 
+# text = Kevredigezh Breizh dindan ar Renad Kozh
+# text[fra] = La société bretonne sous l'Ancien Régime
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<Breizh>"
@@ -13606,6 +14008,8 @@
 "<.>"
 	"." sent @punct
 
+# text = ur vro zo pinvidik a wazed hag a vaouezed
+# text[fra] = une terre riche de ses hommes et de ses femmes.
 "<ur>"
 	"un" det ind sp @det
 "<vro>"
@@ -13639,6 +14043,8 @@
 "<vaouezed>"
 	"maouez" n f pl
 
+# text = brasaet e voe ar c'hastell hag adsavet e voe moger-dro kêr a-raok he astenn.
+# text[fra] = le château est agrandi et l'enceinte urbaine est reconstruite et étendue.
 "<brasaet>"
 	"brasaat" vblex pp
 "<e>"
@@ -13974,8 +14380,6 @@
 
 "<Evit>"
 	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
 "<pennadurezhioù>"
 	"pennadurezh" n f pl
 "<Frañs>"
@@ -13998,6 +14402,8 @@
 "<.>"
 	"." sent @punct
 
+# text = a zo laouen ouzh ho pediñ d'al lid-degemer kinniget en enor da
+# text[fra] = ont le plaisir de vous convier à la réception offerte en l'honneur des
 "<a>"
 	"a" vpart 
 ;	"mont" vblex imp p2 sg 
@@ -14048,6 +14454,8 @@
 	"da" pr @case
 	"da" det pos mf sp
 
+# text = berzhidi hag aozerien
+# text[fra] = participants et des organisateurs de la
 "<berzhidi>"
 	"perzhiad" n m pl
 "<hag>"
@@ -14055,6 +14463,8 @@
 "<aozerien>"
 	"aozer" n m pl
 
+# text = An douvezioù, ar porzh hag an hent-ged a c'haller gweladenniñ digoust.
+# text[fra] = Les douves, la cour et le chemin de ronde sont en accès libre.
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -14142,6 +14552,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Niv. d'ober war an douchennaoueg
+# text[fra] = N° à composer sur votre clavier
 "<Niv.>"
 	"Niv." n acr m sg
 	"niv." n acr m sg
@@ -14160,6 +14572,8 @@
 "<douchennaoueg>"
 	"touchennaoueg" n f sg
 
+# text = 2602 Porzh Naoned e 1914
+# text[fra] = 2602 Le port de Nantes en 1914
 "<2602>"
 	"2602" num mf pl
 "<Porzh>"
@@ -14175,6 +14589,8 @@
 "<1914>"
 	"1914" num mf pl
 
+# text = 2803 Amprest evit adsevel porzh Naoned
+# text[fra] = 2803 Emprunt pour la reconstruction du port
 "<2803>"
 	"2803" num mf pl
 "<Amprest>"
@@ -14194,6 +14610,8 @@
 "<Naoned>"
 	"Naoned" np top sg
 
+# text = Ostel Kentañ ar C'hef Espern
+# text[fra] = Premier Hôtel de la Caisse d'Epargne
 "<Ostel>"
 	"ostel" n m sg
 "<Kentañ>"
@@ -14209,6 +14627,8 @@
 ;	"espern" vblex imp p2 sg 
 ;	"espern" vblex pri p3 sg 
 
+# text = E-kreizik-kreiz ar gêr nevez e oa ar blasenn divent-se, hañval a-walc'h doc'h an Arme Veur e-kreiz galloud an impalaeriezh.
+# text[fra] = De même que la Grande Armée constitue le cœur du pouvoir impérial, cette place immense est l'élément central autour duquel s'organise la ville nouvelle.
 "<E-kreizik-kreiz>"
 	"e-kreizik-kreiz" pr @case
 	"e-kreizik-kreiz" adv 
@@ -14428,6 +14848,8 @@
 "<.>"
 	"." sent @punct
 
+# text = studiañ an dermenadurezh hervez un hentenn skiantel war an tachennoù nevez digoret d'ar brezhoneg a-benn erbediñ implij termenoù skoueriekaet.
+# text[fra] = étudier scientifiquement la terminologie des nouveaux domaines qui s'ouvrent à la langue bretonne afin de recommander des termes normalisés.
 "<studiañ>"
 	"studiañ" vblex inf
 "<an>"
@@ -14794,6 +15216,8 @@
 "<.>"
 	"." sent @punct
 
+# text = gounidegezh an annezidi, live an tailhoù, kresk ar boblañs ha kresk niver an implijoù.
+# text[fra] = le revenu des habitants, le niveau des impôts, l'augmentation de population et l'augmentation du nombre d'emplois.
 "<gounidegezh>"
 	"gounidegezh" n f sg
 "<an>"
@@ -15129,6 +15553,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Derc'hel kont eus pennaenn ar ragevezh ;
+# text[fra] = Prise en compte du principe de précaution ;
 "<Derc'hel>"
 	"derc’hel" vblex inf
 "<kont>"
@@ -15508,6 +15934,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kinnigoù hervez an ezhommoù
+# text[fra] = Avec des offres adaptées
 "<Kinnigoù>"
 	"kinnig" n m pl
 "<hervez>"
@@ -16577,6 +17005,8 @@
 "<.>"
 	"." sent @punct #9->2
 
+# text = Skoaziadennoù d'ar c'hevredigezhioù
+# text[fra] = Subventions aux associations
 "<Skoaziadennoù>"
 	"skoaziadenn" n f pl
 "<d'ar>"
@@ -16585,11 +17015,15 @@
 "<c'hevredigezhioù>"
 	"kevredigezh" n f pl
 
+# text = Tachenn foran
+# text[fra] = Domaine public
 "<Tachenn>"
 	"tachenn" n f sg
 "<foran>"
 	"foran" adj mf sp
 
+# text = skolioù, studierion, kevredigezhioù sevenadurel ha sport, dileuridi a ved an armerzh.
+# text[fra] = scolaires, étudiants, associations culturelles et sportives, représentants du monde économique.
 "<skolioù>"
 	"skol" n f pl
 "<,>"
@@ -16654,6 +17088,8 @@
 "<.>"
 	"." sent @punct #9->2
 
+# text = Ag ar mammennoù d'ar c'hogoù
+# text[fra] = De la source au robinet
 "<Ag>"
 	"a" pr @case
 "<ar>"
@@ -16750,6 +17186,8 @@
 "<.>"
 	"." sent @punct #16->14
 
+# text = Ho kont
+# text[fra] = Votre compte
 "<Ho>"
 	"ho" det pos mf sp
 ;	"direct" prn obj p2 mf pl 
@@ -16759,6 +17197,8 @@
 ;	"kontañ" vblex imp p2 sg 
 ;	"kontañ" vblex pri p3 sg 
 
+# text = Deiziataer ar c'hevredigezhioù
+# text[fra] = Agenda des associations
 "<Deiziataer>"
 	"deiziataer" n m sg
 "<ar>"
@@ -16767,6 +17207,8 @@
 "<c'hevredigezhioù>"
 	"kevredigezh" n f pl
 
+# text = Klask un abadenn
+# text[fra] = Rechercher une manifestation
 "<Klask>"
 	"klask" vblex inf
 	"klask" n m sg
@@ -16777,6 +17219,8 @@
 "<abadenn>"
 	"abadenn" n f sg
 
+# text = - ar retredidi hag an dud oadet .
+# text[fra] = - les retraités et personnes âgées .
 "<->"
 	"-" guio
 "<ar>"
@@ -16797,6 +17241,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Monet d'ar poull
+# text[fra] = Accès au bassin
 "<Monet>"
 	"monet" vblex inf
 "<d'ar>"
@@ -17047,6 +17493,8 @@
 "<.>"
 	"." sent @punct #20->1
 
+# text = Roll Kuzul armerzhel ha sokial ar Rannvro
+# text[fra] = Le rôle du Conseil économique et social régional
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -17066,6 +17514,8 @@
 "<Rannvro>"
 	"rannvro" n f sg
 
+# text = Roll an izili dre skolaj
+# text[fra] = La liste des membres par collège
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -17365,6 +17815,8 @@
 "<.>"
 	"." sent @punct #22->16
 
+# text = Merañ enframmet an takadoù aod
+# text[fra] = Gestion Intégrée des Zones Côtières
 "<Merañ>"
 	"merañ" vblex inf
 	"merañ" n m sg
@@ -17380,6 +17832,8 @@
 "<aod>"
 	"aod" n m sg
 
+# text = Eus an den a lezenn d'ar sant pareour
+# text[fra] = De l'homme de loi au saint guérisseur
 "<Eus>"
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
@@ -17412,6 +17866,8 @@
 "<pareour>"
 	"pareour" n m sg
 
+# text = Breizh ar maezioù
+# text[fra] = Bretagne des campagnes
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg 
@@ -17620,6 +18076,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Krenn am zer
+# text[fra] = Moyen- â ge
 "<Krenn>"
 	"krenn" adj mf sp
 ;	"krennañ" vblex imp p2 sg 
@@ -17657,6 +18115,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Evit tizhout ar pal-se e tleer suraat hag aesaat labour ar wazourien.
+# text[fra] = Pour atteindre cet objectif, il est nécessaire d'améliorer le niveau de sécurité et de confort des agents.
 "<Evit>"
 	"evit" pr @case
 ;	"evañ" vblex imp p2 pl 
@@ -17698,6 +18158,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Roll ar servijoù
+# text[fra] = Annuaire des services
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -17918,6 +18380,8 @@
 "<.>"
 	"." sent @punct
 
+# text = ar varc'hadourezh, an dud hag an amzer. »
+# text[fra] = marchandises, des hommes et du temps. »
 "<ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -17944,6 +18408,8 @@
 "<»>"
 	"»" rquot
 
+# text = Poan o kenvevañ gant an amezeien frank c'halloudus
+# text[fra] = Cohabitation difficile avec le puissant voisin franc
 "<Poan>"
 	"poan" n f sg
 "<o>"
@@ -17976,6 +18442,8 @@
 "<Galloud>"
 	"galloud" n m sg
 
+# text = - Pouez an hent-houarn hag ar porzhioù
+# text[fra] = - Rôle important du chemin de fer et des ports
 "<->"
 	"-" guio
 "<Pouez>"
@@ -17997,6 +18465,8 @@
 "<porzhioù>"
 	"porzh" n m pl
 
+# text = kresk ar friturioù war aod ar su (eus
+# text[fra] = développement des conserveries sur la côte sud (de
 "<kresk>"
 	"kresk" n m sg
 ;	"kreskiñ" vblex imp p2 sg 
@@ -18022,6 +18492,8 @@
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
 
+# text = An talbenn - An adreñv
+# text[fra] = Le front L ’ arrière
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -18037,6 +18509,8 @@
 "<adreñv>"
 	"adreñv" n m sg
 
+# text = ul liamm etre an talbenn hag an adreñv, pouez
+# text[fra] = trait d ’ union entre le front et l ’ arrière, importance de la
 "<ul>"
 	"un" det ind sp @det
 "<liamm>"
@@ -18067,6 +18541,8 @@
 ;	"pouezañ" vblex imp p2 sg 
 ;	"pouezañ" vblex pri p3 sg 
 
+# text = Karr-arsailh amerikan war maezioù Sant-Maloù (Il-ha-Gwilen)
+# text[fra] = Char américain dans la campagne de Saint-Malo (Ille-et Vilaine)
 "<Karr>"
 	"karr" n m sg
 "<->"
@@ -18089,6 +18565,8 @@
 "<)>"
 	")" rpar
 
+# text = dindan tri bloaz e vo tizhet an daou bal-se gant ar Rannvro ha skol-veur Breizh-Izel (SBI).
+# text[fra] = pour atteindre ce double objectif, la Région et l'université de Bretagne occidentale (UBO) se donnent trois ans.
 "<dindan>"
 	"dindan" pr @case
 	"dindan" adv 
@@ -18145,6 +18623,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Anavezet-kaer eo evit difenn ar servijoù publik hag ar stourm skouerius kaset gantañ evit ospital Karaez.
+# text[fra] = Il est aussi très connu pour sa défense des services publics et la lutte exemplaire en faveur de l’hôpital de Carhaix.
 "<Anavezet>"
 	"anavezout" vblex pp
 ;	"anavezout" vblex imp p3 sg 
@@ -18249,6 +18729,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Post-labour
+# text[fra] = Poste occupé
 "<Post>"
 	"post" n m sg
 ;	"postañ" vblex imp p2 sg 
@@ -18513,6 +18995,8 @@
 ;	"brezhonegiñ" vblex pri p3 sg 
 ;	"brezhonegañ" vblex pri p3 sg 
 
+# text = Roll-labour emvodoù ar framm
+# text[fra] = Ordre du jour des réunions de la structure
 "<Roll-labour>"
 	"roll#-labour" n m sg
 "<emvodoù>"
@@ -18525,6 +19009,8 @@
 ;	"frammañ" vblex imp p2 sg 
 ;	"frammañ" vblex pri p3 sg 
 
+# text = Diskouez d’ho pratikoù identelezh ho framm
+# text[fra] = Afficher auprès de vos clients l’identité bilingue de votre organisme
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -18685,6 +19171,8 @@
 "<.>"
 	"." sent @punct #17->3
 
+# text = Tres ofisiel embannet gant kumun Pluguen, warnañ stummoù skoueriekaet al lec’hanvioù
+# text[fra] = Plan officiel édité par la commune de Pluguffan, comprenant les formes normalisées des toponymes locaux
 "<Tres>"
 	"tres" n m sg
 ;	"tresañ" vblex imp p2 sg 
@@ -18754,6 +19242,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Estreget gant danvez al Levr gwer e pled ar respont pa glask kinnig ur sell hollek hag enframmet war ar pesketaerezh hag an dourc'hounezerezh.
+# text[fra] = Cette réponse ne concerne pas seulement le contenu du Livre vert mais cherche à proposer une vision globale et intégrée des activités de pêche et d'aquaculture.
 "<Estreget>"
 	"estreget" pr @case
 	"estreget" cnjadv 
@@ -19481,6 +19971,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Fichenn Titouroù Abadenn
+# text[fra] = Fiche infos spectacle
 "<Fichenn>"
 	"fichenn" n f sg
 "<Titouroù>"
@@ -19489,6 +19981,8 @@
 "<Abadenn>"
 	"abadenn" n f sg
 
+# text = Fichenn ditouroù abadenn pe saloñs
+# text[fra] = Infos spectacle ou salon
 "<Fichenn>"
 	"fichenn" n f sg
 "<ditouroù>"
@@ -19503,6 +19997,8 @@
 "<saloñs>"
 	"saloñs" n m sg
 
+# text = Kinniget vez gant ar gouel ur gwir skeudenn eus an embann e Breizh, ken evit ar galleg ken evit ar brezhoneg.
+# text[fra] = Le festival propose une véritable vitrine de l’édition en Bretagne, aussi bien en langue française que bretonne.
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -19616,6 +20112,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Digoret e vez dorioù ar sal 20 munut a-raok an abadenn.
+# text[fra] = L’ouverture des portes se fait 20 minutes avant le spectacle.
 "<Digoret>"
 	"digoriñ" vblex pp
 	"digeriñ" vblex pp
@@ -19876,6 +20374,8 @@
 "<.>"
 	"." sent @punct #17->7
 
+# text = al leon zo kousket ouzh ma zreid n'eo ket an hini emaout o klask.
+# text[fra] = le lion endormi à mes pieds n'est pas celui que tu cherches.
 "<al>"
 	"an" det def sp
 "<leon>"
@@ -19936,3 +20436,4 @@
 	"munut" adj mf sp @amod #4->3
 "<!>"
 	"!" sent @punct #5->2
+
