@@ -8999,124 +8999,101 @@
 "<.>"
 	"." sent @punct
 
+# text = Ur raktres bras e oa, pa oa anv da gaout un talbenn daou-ugent metr hed.
+# text[fra] = Ce projet est ambitieux puisqu’il prévoit une longueur de façade de quarante mètres.
 "<Ur>"
-	"un" det ind sp @det
+	"un" det ind sp @det #1->2
 "<raktres>"
-	"raktres" n m sg
-;	"raktresañ" vblex imp p2 sg 
-;	"raktresañ" vblex pri p3 sg 
+	"raktres" n m sg @nsubj #2->3
 "<bras>"
-	"bras" adj mf sp
+	"bras" adj mf sp @root #3->0
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux #4->3
 "<oa>"
-	"bezañ" vblex pii p3 sg 
+	"bezañ" vblex pii p3 sg @cop #5->3
 "<,>"
-	"," cm @punct
+	"," cm @punct #6->9
 "<pa>"
-	"pa" cnjsub 
-"<oa anv da>"
-	"bezañ# anv da" vblex pii p3 sg 
+	"pa" cnjsub @mark #7->9
+"<oa>"
+	"bezañ" vblex pii p3 sg @cop #8->9
+"<anv>"
+	"anv" n m sg @dep #9->3
+"<da>"
+	"da" pr @mark #10->11
 "<gaout>"
-	"kaout" vblex inf
+	"kaout" vblex inf @advcl #11->9
 "<un>"
-	"un" det ind sp @det
+	"un" det ind sp @det #12->13
 "<talbenn>"
-	"talbenn" n m sg
+	"talbenn" n m sg @obj #13->11
 "<daou-ugent>"
-	"daou-ugent" num mf pl
+	"daou-ugent" num mf pl @nummod #14->15
 "<metr>"
-	"metr" n m sg
+	"metr" n m sg @nmod:gen #15->13
 "<hed>"
-	"hed" n m sg
+	"hed" n m sg @nmod:gen #16->15
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->3
 
+# text = Koll a reas an abatioù eus o galloud neuze.
+# text[fra] = Les abbayes perdent alors de leur pouvoir.
 "<Koll>"
-	"koll" vblex inf
-	"koll" n m sg
-;	"koll" vblex imp p2 sg 
-;	"koll" vblex pri p3 sg 
+	"koll" vblex inf @root #1->0
 "<a>"
-	"a" vpart 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"monet" vblex imp p2 sg 
+	"a" vpart @aux #2->1
 "<reas>"
-	"ober" vblex past p3 sg 
+	"ober" vblex past p3 sg @aux #3->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #4->5
 "<abatioù>"
-	"abati" n m pl
+	"abati" n m pl @nsubj #5->1
 "<eus>"
-	"eus" pr @case
-;	"bezañ" vblex pri p3 sg 
+	"eus" pr @case #6->8
 "<o>"
-	"o" n m sp
-	"o" det pos mf sp
-;	"o" vpart ger 
-;	"direct" prn obj p3 mf pl 
-;	"o" ij 
+	"o" det pos mf sp @det #7->8
 "<galloud>"
-	"galloud" n m sg
+	"galloud" n m sg @obj #8->1
 "<neuze>"
-	"neuze" adv 
+	"neuze" adv @advmod #9->1
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->1
 
+# text = Kresk kêr
+# text[fra] = Centre ville
 "<Kresk>"
-	"kresk" n m sg
-;	"kreskiñ" vblex imp p2 sg 
-;	"kreskiñ" vblex pri p3 sg 
+	"kresk" n m sg @root #1->0
 "<kêr>"
-	"kêr" n f sg
+	"kêr" n f sg @nmod:gen #2->1
 
+# text = Gant ar porzh o kreskiñ e teuas greantioù d’en em staliañ eno.
+# text[fra] = Le développement du port incite les industries à s’y implanter.
 "<Gant>"
-	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
+	"gant" pr @case #1->3
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #2->3
 "<porzh>"
-	"porzh" n m sg
+	"porzh" n m sg @obl #3->5
 "<o>"
-	"o" vpart ger 
-;	"o" ij 
-;	"o" n m sp 
-;	"o" det pos mf sp 
-;	"direct" prn obj p3 mf pl 
+	"o" vpart ger @aux #4->5
 "<kreskiñ>"
-	"kreskiñ" vblex inf
+	"kreskiñ" vblex inf @advcl #5->7
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux #6->7
 "<teuas>"
-	"dont" vblex past p3 sg 
+	"dont" vblex past p3 sg @root #7->0
 "<greantioù>"
-	"greanti" n m pl
+	"greanti" n m pl @nsubj #8->7
 "<d’>"
-	"da" pr @case
+	"da" pr @mark #9->11
 "<en em>"
-	"en em" vpart ref
+	"en em" vpart ref @aux #10->11
 "<staliañ>"
-	"staliañ" vblex inf
+	"staliañ" vblex inf @acl #11->8
 "<eno>"
-	"eno" adv 
+	"eno" adv @advmod #12->11
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->7
 
 "<Hiziv>"
 	"hiziv" adv 
@@ -9317,44 +9294,30 @@
 "<.>"
 	"." sent @punct
 
+# text = Kinnig a raio kelc’hioù keltiek gwellañ Breizh o frogramm 2002.
+# text[fra] = Les meilleurs cercles de Bretagne présenteront leur programme 2002.
 "<Kinnig>"
-	"kinnig" vblex inf
-	"kinnig" n m sg
-;	"kinnig" vblex imp p2 sg 
-;	"kinnig" vblex pri p3 sg 
+	"kinnig" vblex inf @root #1->0
 "<a>"
-	"a" vpart 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"monet" vblex imp p2 sg 
+	"a" vpart @aux #2->1
 "<raio>"
-	"ober" vblex fti p3 sg 
+	"ober" vblex fti p3 sg @aux #3->1
 "<kelc’hioù>"
-	"kelc’h" n m pl
+	"kelc’h" n m pl @nsubj #4->1
 "<keltiek>"
-	"keltiek" adj mf sp
+	"keltiek" adj mf sp @amod #5->4
 "<gwellañ>"
-	"gwell" adj sint sup
+	"gwell" adj sint sup @amod #6->4
 "<Breizh>"
-	"Breizh" np top sg
-;	"preizh" n m sg 
+	"Breizh" np top sg @nmod:gen #7->4
 "<o>"
-	"o" det pos mf sp 
-;	"o" ij 
-;	"direct" prn obj p3 mf pl 
-;	"o" vpart ger 
-;	"o" n m sp 
+	"o" det pos mf sp @det #8->9
 "<frogramm>"
-	"programm" n m sg 
-;	"programmiñ" vblex imp p2 sg 
-;	"programmiñ" vblex pri p3 sg 
+	"programm" n m sg @obj #9->1
 "<2002>"
-	"2002" num mf pl
+	"2002" num mf pl @dep #10->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->1
 
 "<En em>"
 	"en em" vpart ref
