@@ -789,6 +789,8 @@
 "<Pont-Aven>"
 	"Pont-Aven" np top sg
 
+# text = Donder an dourioù, gourdrouz an oabl a zeu da zegas takadoù teñval, glas ha rous, ha frammañ an ec’honder.
+# text[fra] = La profondeur des eaux, la menace du ciel, viennent apporter leurs touches sombres, bleues et brunes, et construire l'espace.
 "<Donder>"
 	"donder" n m sg
 "<an>"
@@ -867,6 +869,8 @@
 	"gloazañ" vblex pp
 ;	"gloazañ" vblex imp p3 sg 
 
+# text = En em gavout a ra gant Gauguin e 1888. 
+# text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
 "<En em>"
 	"en em" vpart ref
 "<gavout>"
@@ -900,6 +904,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Hemañ a erbed dezhañ en em ouestlañ penn-da-benn d'al livañ.
+# text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
 "<Hemañ>"
 	"hemañ" prn dem m sg @SUBJ→ MAP:937
 "<a>"
@@ -1055,6 +1061,8 @@
 "<.>"
 	"." sent @punct #15->6
 
+# text = Met e 1881 e ra freuz-stal e di-embann, ken e tilez an dour-kreñv da vat evit en em ouestlañ d'al liverezh.
+# text[fra] = Mais la chute de sa maison d'édition en 1881 le fait renoncer à l'eau-forte pour se consacrer à la peinture.
 "<Met>"
 	"met" cnjcoo
 "<e>"
@@ -1138,6 +1146,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Un toullad mat a weledvaoù eus ar maezioù war vord an dour a zo chomet war e lerc'h
+# text[fra] = Il nous laisse de nombreux paysages de campagne au bord de l'eau.
 "<Un>"
 	"un" det ind sp @det
 "<toullad mat>"
@@ -1214,6 +1224,8 @@
 "<.>"
 	"." sent @punct #9->5
 
+# text = Doare-ober hag enklask arzourien ar gevredigezh Spered Kelt hag arzourien dizalc'h a zo lakaet war wel en diskouezadeg.
+# text[fra] = Cette exposition met en valeur la démarche et la recherche des artistes de l’association Spered Kelt et d’artistes indépendants.
 "<Doare>"
 	"doare" n m sg
 ;	"doareañ" vblex imp p2 sg 
@@ -1286,6 +1298,8 @@
 	"kelt" adj mf sp 
 ;	"Kelt" n m sg 
 
+# text = En deroù e talveze ar c'henemglev evit an eskemmoù kenwerzhel hag ekonomikel dreist-holl, met tamm-ha-tamm eo bet astennet da dachennoù all.
+# text[fra] = Plutôt concentrée sur les échanges commerciaux et économiques dans la phase de démarrage, la coopération s’est progressivement étendue à d’autres secteurs.
 "<En deroù>"
 	"en deroù" adv 
 "<e>"
@@ -1344,6 +1358,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Dre ar c’hinkladurioù e lavarer ar pezh a daver warnañ.
+# text[fra] = Les décors disent ce que la parole tait.
 "<Dre>"
 	"dre" pr @case #1->3
 "<ar>"
@@ -1422,6 +1438,8 @@
 "<.>"
 	"." sent @punct #15->1
 
+# text = Tennit an nadoz just e-kichen ho neudenn gentañ en ur lakaat an nadoz da dremen dreist ho neudenn.
+# text[fra] = Ressortez juste à côté de votre premier fil en faisant passer l'aiguille au dessus de votre fil.
 "<Tennit>"
 	"tennañ" vblex pri p2 pl 
 ;	"tennañ" vblex imp p2 pl 
@@ -1476,6 +1494,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Treuzit an holl wiadoù, tennit ho nadoz er-maez en ur zilec’hiañ, hag all.
+# text[fra] = Traversez toutes les étoffes, ressortez votre aiguille en décalant et ainsi de suite.
 "<Treuzit>"
 	"treuziñ" vblex pri p2 pl 
 ;	"treuziñ" vblex imp p2 pl 
@@ -1533,6 +1553,8 @@
 "<.>"
 	"." sent @punct #8->3
 
+# text = 2) a gas keloù d’ar guzulierien-departamant eus Rannvro Breizh diwar-benn ar pezh emañ o c’houlenn digant ministr ar sevenadur abalamour da ginnig dezho penaos prederiañ hag ober kinnigoù asambles.
+# text[fra] = 2) décide d'informer les conseils généraux de la région Bretagne de sa démarche auprès du ministre de la culture afin de leur proposer un cadre de réflexion et de proposition commun.
 "<2>"
 	"2" num mf pl
 "<)>"
@@ -1820,6 +1842,8 @@
 "<.>"
 	"." sent @punct #18->6
 
+# text = N’eus ket keit-se e oa bet kalzik pennadoù diwar-benn mekanikoù nevez ar Post ha na vijent ket bet gouest da lenn brezhoneg.
+# text[fra] = Il y a peu la presse s’était faite largement l’écho de difficultés supposées des nouvelles machines de la Poste pour lire la langue bretonne.
 "<N’eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -2067,6 +2091,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Anat eo pegen pouezus eo evit ar gerent kaout ur c’hinnig tost d’o lec’h annez.
+# text[fra] = L’importance qu’il y a pour les parents de disposer d’une offre de proximité est évidente.
 "<Anat>"
 	"anat" adj mf sp
 "<eo>"
@@ -2210,6 +2236,8 @@
 "<all>"
 	"all" adj ind mf sp
 
+# text = Skoaziadennoù mont en-dro evit ar c’hevredigezhioù ha tud all a wir brevez
+# text[fra] = Subventions de fonctionnement aux associations et autres personnes de droit privé
 "<Skoaziadennoù>"
 	"skoaziadenn" n f pl
 "<mont en-dro>"
@@ -2245,6 +2273,8 @@
 "<brevez>"
 	"prevez" adj mf sp
 
+# text = C'hwec'h geriaoueg-godell pleustrek a zo o paouez bezañ embannet gant Ofis ar Brezhoneg.
+# text[fra] = Six lexiques de poche très pratiques viennent d'être édités par l'Office de la langue bretonne.
 "<C'hwec'h>"
 	"c’hwec’h" num mf pl
 "<geriaoueg>"
@@ -2279,6 +2309,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Hiziv e vo kinniget an 19 skipailh d’an holl.
+# text[fra] = Les 19 équipes seront présentées aujourd'hui.
 "<Hiziv>"
 	"hiziv" adv 
 "<e>"
@@ -2305,6 +2337,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Priziet eo ar brezhoneg gant ar gevredigezh hiziv an deiz, met ezhomm he deus bezañ emskiantekoc’h eus talvoudegezh ar yezh.
+# text[fra] = Aujourd’hui, la société estime la langue bretonne, mais elle a besoin d’être davantage consciente de son utilité.
 "<Priziet>"
 	"priziañ" vblex pp
 ;	"priziañ" vblex imp p3 sg 
@@ -2408,6 +2442,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Adalek 2007 e vo ur programm nevez war meur a vloaz evit ar frammoù a labour evit skoazellañ ar yezhoù bihanniver en Europa.
+# text[fra] = A partir de 2007, elle va mettre en place un programme pluriannuel pour les structures travaillant au soutien des langues minoritaires en Europe.
 "<Adalek>"
 	"adalek" pr @case
 "<2007>"
@@ -2477,6 +2513,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Diorren an teknologiezhoù nevez, ar micherioù hag ar gennadoù liammet d’ar yezhoù bihanniver a lak an danevell-se war-raok peurgetket.
+# text[fra] = Le rapport met particulièrement en avant le développement des nouvelles technologies, des professions et des secteurs liés aux langues les moins répandues.
 "<Diorren>"
 	"diorren" vblex inf
 	"diorren" n m sg
@@ -2587,6 +2625,8 @@
 ;	"stadañ" vblex imp p2 sg 
 ;	"stadañ" vblex pri p3 sg 
 
+# text = An darn vrasañ eus ar budjed-se a vez gouestlet d'ar galleg atav.
+# text[fra] = La majeure partie de ce budget reste toujours consacrée à la langue française.
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -2631,6 +2671,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gant ar PS hag an UDB e oa bet embannet diazez ur politikerezh yezh gant pennaennoù resis zoken.
+# text[fra] = Les bases d’une politique linguistique comprenant des principes précis avaient même été publiées par le PS et l’UDB.
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -2684,6 +2726,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kinnigoù pennañ politikerezh yezh Rannvro Breizh evit ar brezhoneg
+# text[fra] = Principales propositions de la politique linguistique de la Région Bretagne pour la langue bretonne
 "<Kinnigoù>"
 	"kinnig" n m pl
 "<pennañ>"
@@ -2913,6 +2957,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ar budjed gouestlet d'ar yezhoù rannvro gant Kuzulioù-rannvro all e Frañs
+# text[fra] = Le budget alloué aux langues régionales par d’autres Conseils régionaux en France
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -2945,6 +2991,8 @@
 "<Frañs>"
 	"Frañs" np top sg
 
+# text = Nebeutoc'h a venegoù a vo troet er reter koulskoude.
+# text[fra] = Toutefois, moins de mentions seront traduites à l’est.
 "<Nebeutoc'h a>"
 	"nebeutoc’h a" pr @case
 "<venegoù>"
@@ -2971,6 +3019,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Disklêriadurioù evel-se zo da vezañ lieskementet ha da vezañ lakaet da dalvezout asambles gant sikour derezioù all ar galloudoù foran.
+# text[fra] = De telles déclarations méritent d’être multipliées et d’être mises en pratique avec l’aide d’autres échelons des pouvoirs publics.
 "<Disklêriadurioù>"
 	"disklêriadur" n m pl
 "<evel-se>"
@@ -3058,6 +3108,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Nebeut-tre a oberoù a-du gant ar brezhoneg a vez kaset ganto evit ar poent c’hoazh, setu ret e vefe gounit e kemerfent anezhañ e kont buan.
+# text[fra] = Pour l’heure, leurs actions en faveur de la langue bretonne restent encore très limitées, il apparaît par conséquent nécessaire de parvenir à ce qu’elles la prennent rapidement en compte.
 "<Nebeut-tre>"
 	"nebeut" adj mf sp
 		"tre" adv
@@ -3194,6 +3246,8 @@
 "<.>"
 	"." sent @punct #22->15
 
+# text = Kemer harp war yezh ar vro, gwriziennet ha bev, a ro tro da zigeriñ muioc’h c’hoazh spered ar vugale (anavezout an-unan evit gellout anavezout ar re all) e-ser doujañ da liesseurted ar sevenadurioù.
+# text[fra] = S’appuyer sur la langue du pays, enracinée et vivante, permet d’ouvrir encore davantage l’esprit des enfants (se connaître soi-même pour pouvoir connaître les autres) tout en respectant la diversité culturelle.
 "<Kemer harp war>"
 	"kemer# harp war" vblex inf
 ;	"kemer# harp war" vblex imp p2 sg 
@@ -3285,6 +3339,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Pell emañ Yann eus e gazeg avat evit ar pal a 2000 skoliad ouzhpenn en eil derez.
+# text[fra] = A la rentrée 2006, le secondaire ne comptait que 625 élèves bilingues supplémentaires par rapport à la rentrée 2001, soit moins du tiers de l’objectif fixé.
 "<Pell>"
 	"pell" adv 
 	"pell" adj mf sp
@@ -3383,6 +3439,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Evit echuiñ, kinnig a ra Skol-veur Breizh-Izel un diplom skol-veur « Yezhoù ha sevenadur Breizh ».
+# text[fra] = Enfin, l’Université de Bretagne Occidentale propose un diplôme universitaire “Langues et culture bretonnes”.
 "<Evit>"
 	"evit" pr @case
 ;	"evañ" vblex imp p2 pl 
@@ -3501,6 +3559,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Stad ar c’hinnig kentelioù noz
+# text[fra] = Etat de l’offre de cours du soir
 "<Stad>"
 	"stad" n f sg
 ;	"stadañ" vblex imp p2 sg 
@@ -3516,6 +3576,8 @@
 "<kentelioù noz>"
 	"kentel#-noz" n f pl
 
+# text = Kinniget e vez da skouer gant Mervent daou pe tri hanter-devezh bep miz da implijidi ti-kêr Douarnenez.
+# text[fra] = Ainsi, Mervent propose deux à trois demi-journées de cours par mois aux employés municipaux de Douarnenez.
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -3571,6 +3633,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Evel ma ya an implijoù yaouank da get e chom stanket emdroadur ar c’hinnig tamm-ha-tamm abaoe 2002.
+# text[fra] = Il est clair que l’évolution de l’offre se trouve freinée depuis 2002 par l’arrivée à échéance progressive des emplois-jeunes.
 "<Evel ma>"
 	"evel ma" cnjadv 
 "<ya>"
@@ -3657,6 +3721,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Pal kentañ ar gevredigezh-se eo bodañ ar frammoù deskiñ evit an oadourien, er-maez eus an Deskadurezh Stad.
+# text[fra] = L’objectif premier de cette association est de rassembler les structures d’apprentissage pour adultes, hors Éducation Nationale.
 "<Pal>"
 	"pal" n f sg
 	"pal" n m sg
@@ -3774,6 +3840,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gant an implijerien e vez arc’hantaouet an darn vrasañ eus ar stummadurioù a-hend-all.
+# text[fra] = En cas de financement externe, ce sont en majorité les employeurs qui financent les formations.
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -3883,6 +3951,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Bed ar yec’hed a rankfe diorren an degemer hag ar c’hinnig servijoù e brezhoneg ivez.
+# text[fra] = Le monde de la santé devrait aussi développer l’accueil et l’offre de services en langue bretonne.
 "<Bed>"
 	"bed" n m sg
 ;	"pediñ" vblex imp p2 sg 
@@ -3933,6 +4003,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Un digarez eo ivez da vroudañ ar re gozh da gomz e brezhoneg ouzh ar remziadoù all.
+# text[fra] = C’est également une occasion d’inciter les personnes âgées à s’adresser en breton aux autres générations.
 "<Un>"
 	"un" det ind sp @det
 "<digarez>"
@@ -3976,6 +4048,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Un nebeud kevredigezhioù a glask mont war an dachenn-se e-giz Startijenn ar Vro Vigoudenn.
+# text[fra] = Quelques associations cherchent à aller sur ce terrain comme Startijenn ar Vro Vigoudenn.
 "<Un>"
 	"un" det ind sp @det
 "<nebeud>"
@@ -4086,6 +4160,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Bec’h o dez ar skolioù pe ar c’hevredigezhioù oc’h aozañ degouezhioù evit ar vugale, ha bras eo ar goulenn avat.
+# text[fra] = Les écoles et les associations ont des difficultés à organiser des événements pour les enfants, la demande est pourtant importante.
 "<Bec’h>"
 	"bec’h" n m sg
 ;	"pec’hiñ" vblex imp p2 sg 
@@ -4145,6 +4221,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Abadennoù a-ratozh evit ar re gozh a vez aozet gant ar c’hevread UDARPA 29 o teurel evezh eus peseurt rannyezh zo anavezet gant an arvesterien.
+# text[fra] = La fédération UDARPA 29 organise des spectacles à l’intention des anciens en prêtant attention à la forme dialectale que connaissent les spectateurs.
 "<Abadennoù>"
 	"abadenn" n f pl
 "<a-ratozh>"
@@ -4361,6 +4439,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Pal ar beilhadegoù dre-vras a zo bodañ brezhonegerien a-vihanik gant tud zo o teskiñ ar yezh evit ma tivizfent kenetrezo war danvezioù a bep seurt.
+# text[fra] = Globalement, la vocation des veillées est de réunir des brittophones de naissance avec des gens qui apprennent la langue afin qu’ils discutent entre eux sur des sujets de toutes sortes.
 "<Pal>"
 	"pal" n f sg
 	"pal" n m sg
@@ -4485,6 +4565,8 @@
 "<all>"
 	"all" adj ind mf sp
 
+# text = Abadennoù all a c’hell bezañ aozet gant Strollad ar Vro Bagan da skouer war dachenn ar c’hoariva.
+# text[fra] = D’autres spectacles peuvent être montés avec Strollad ar Vro Bagan, par exemple, sur le terrain du théâtre.
 "<Abadennoù>"
 	"abadenn" n f pl
 "<all>"
@@ -4537,6 +4619,8 @@
 "<.>"
 	"." sent @punct
 
+# text = An darn vrasañ eus ar stalioù pleustriñ a vez kinniget d’an dud deuet a bled gant un danvez liammet ouzh glad ar vro e mod pe vod.
+# text[fra] = La majorité des ateliers pratiques qui sont proposés aux adultes ont trait à une matière liée d’une manière ou d’une autre au patrimoine breton.
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -4606,6 +4690,8 @@
 "<.>"
 	"." sent @punct
 
+# text = E Frañs ne bled ket niveradeg ar boblañs gant tachennoù sellet outo evel traoù a denn d’ar vuhez prevez, abaoe 1962.
+# text[fra] = En France, depuis 1962, le recensement de la population ne s’occupe pas des domaines considérés comme relevant de la vie privée.
 "<E>"
 	"e" pr 
 ;	"e" det pos m sp 
@@ -4681,6 +4767,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gallout a ra an dra-se displegañ perak ne blij ket dezho lenn e brezhoneg.
+# text[fra] = Ceci peut expliquer en partie pourquoi ils n’aiment pas lire en breton.
 "<Gallout>"
 	"gallout" vblex inf
 "<a>"
@@ -4784,6 +4872,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Keleier eus Breizh hag eus ar bed a-bezh zo kinniget gant Bremañ.
+# text[fra] = Bremañ propose des informations bretonnes et internationales.
 "<Keleier>"
 	"Keleier" np al m sg 
 ;	"keloù" n m pl 
@@ -4884,6 +4974,8 @@
 "<.>"
 	"." sent @punct #11->1
 
+# text = Tennet en deus digant Skol-Uhel ar Vro ar galloud da ingalañ skoaziadoù war an dachenn-se.
+# text[fra] = Il a retiré à l’Institut Culturel de Bretagne le pouvoir de répartir des aides dans ce domaine.
 "<Tennet>"
 	"tennañ" vblex pp
 ;	"tennañ" vblex imp p3 sg 
@@ -4920,6 +5012,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Da-heul he steuñv Politikerezh yezh he deus kinniget Rannvro Breizh lakaat e pleustr ur stignad a-ratozh evit harpañ an embann brezhonek e 2006.
+# text[fra] = A la suite de son plan de Politique linguistique, la Région Bretagne a proposé de mettre en place un dispositif sur mesure pour aider l’édition en breton en 2006.
 "<Da-heul>"
 	"da-heul" pr @case
 	"da-heul" adv 
@@ -5039,6 +5133,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Daoust d'un digresk etre 2002 ha 2004 eo kresket ar budjed roet d'an embann e brezhoneg gant Kuzul-rannvro Breizh.
+# text[fra] = Malgré une baisse entre 2002 et 2004, les budgets alloués à l’édition par le Conseil régional ont augmenté.
 "<Daoust>"
 	"daoust" pr @case
 "<d'>"
@@ -5494,6 +5590,8 @@
 "<c’hinnig>" 
 	"kinnig" n m sg @root #9->0
 
+# text = Evit ledanaat ar c’hinnig abadennoù e c’haller diorren ar rouedad a grog da zont war wel gant an eskemmoù abadennoù.
+# text[fra] = Afin d’étoffer l’offre d’émissions, on peut développer le réseau qui commence à émerger avec les échanges d’émissions.
 "<Evit>"
 	"evit" pr @case
 ;	"evañ" vblex imp p2 pl 
@@ -5554,6 +5652,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Stankoc’h eo deuet ar c’hinnig programmoù brezhonek da vezañ, gant an teknologiezhioù nevez ha dreist-holl gant ar Genrouedad.
+# text[fra] = L’offre de programmes en breton s’est étoffée grâce aux nouvelles technologies et, surtout, grâce à Internet.
 "<Stankoc’h>"
 	"stank" adj sint comp
 ;	"stankañ" vblex fti p2 pl 
@@ -5607,6 +5707,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Un hent all eo ar podskignañ evit ledanaat ar skignañ abadennoù brezhoneg ha diorren ar skingomz e brezhoneg.
+# text[fra] = La baladodiffusion est une nouvelle voie ouverte pour généraliser la diffusion des émissions en breton et développer la radio en breton.
 "<Un>"
 	"un" det ind sp @det
 "<hent>"
@@ -5691,6 +5793,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gant lec'hienn An Tour Tan e vez skignet abadennoù Radio Kerne war-eeun abaoe deroù 2005 a-hend-all.
+# text[fra] = Par ailleurs, depuis début 2005, An Tour Tan diffuse en direct des émissions de Radio Kerne.
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -5739,6 +5843,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Lakaet e vez enlinenn abadennoù keleier France Bleu Breizh-Izel e brezhoneg.
+# text[fra] = Les émissions en breton, consacrées aux informations, de France Bleu Breiz Izel sont mises en ligne.
 "<Lakaet>"
 	"lakaat" vblex pp
 "<e>"
@@ -5857,6 +5963,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Kinniget e vez keleier berr enlinenn bep Lun, diwar-benn ar sport, ar sinema, an dudi hag ar vuhez pemdeziek dre vras.
+# text[fra] = Chaque lundi, il propose brièvement en ligne des informations sur le sport, le cinéma, les loisirs et la vie quotidienne en général.
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -5927,6 +6035,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ur vammenn eo evit ar mediaoù, ar strollegezhioù foran hag an dud o deus c’hoant bezañ kelaouet diwar-benn kement a denn d’ar yezhoù bihanniver hag ar brezhoneg peurgetket.
+# text[fra] = C’est une source pour les médias, les collectivités territoriales et les personnes souhaitant se tenir informés de ce qui concerne les langues minoritaires et, notamment, le breton.
 "<Ur>"
 	"un" det ind sp @det
 "<vammenn>"
@@ -6001,6 +6111,8 @@
 "<.>"
 	"." sent @punct
 
+# text = A-drugarez da labour hiniennoù pe kevredigezhioù ez eus eus al lec'hiennoù-se.
+# text[fra] = C'est grâce au travail de particuliers ou d'associations que ces sites existent.
 "<A-drugarez da>"
 	"a-drugarez da" pr @case
 "<labour>"
@@ -6028,6 +6140,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Embann a ra traoù a vez produet ha skignet e brezhoneg koulz evit an dud deuet hag ar vugale.
+# text[fra] = Cette association publie des films produits et diffusés en breton tant pour les adultes que pour les enfants.
 "<Embann>"
 	"embann" vblex inf
 ;	"embann" vblex imp p2 sg 
@@ -6147,6 +6261,8 @@
 "<2006>"
 	"2006" num mf pl
 
+# text = Poan en deus an AVAL da anavezout ar brezhoneg
+# text[fra] = L’ANPE peine à reconnaître la langue bretonne
 "<Poan>"
 	"poan" n f sg
 "<en deus>"
@@ -6173,6 +6289,8 @@
 ;	"brezhonegiñ" vblex pri p3 sg 
 ;	"brezhonegañ" vblex pri p3 sg 
 
+# text = Ret eo anzav o deus sinet kalzig a dud evit embann e oa tomm o c’halon ouzh ar yezh met n’o deus graet netra fetis evit kas ar yezh-se war-raok war o zachenn.
+# text[fra] = Il faut admettre que de nombreuses personnes ont signé pour affirmer leur attachement à la langue, mais qu’elles n’ont rien fait de concret pour développer le breton dans leur domaine d’activité.
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -6387,6 +6505,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Tud n'o deus ket labouret biskoazh
+# text[fra] = Personnes n'ayant jamais travaillé
 "<Tud>"
 	"den" n m pl
 "<n'>"
@@ -6400,6 +6520,8 @@
 "<biskoazh>"
 	"biskoazh" adv 
 
+# text = N’eo ket trawalc’h evit ma teufe un den da vezañ brezhoneger ampart ha gouest da gomz brezhoneg ouzh e vugale d’e dro.
+# text[fra] = Cette pratique est insuffisante pour permettre à une personne de devenir brittophone à part entière et d’être un agent de transmission de la langue à ses enfants.
 "<N’>"
 	"ne" adv neg 
 "<eo>"
@@ -6474,6 +6596,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ne c’hoari ket ar familh he roll ken evit treuzkas ar yezh, koulz lavaret.
+# text[fra] = La famille ne joue pratiquement plus son rôle dans la transmission de la langue bretonne.
 "<Ne>"
 	"ne" adv neg 
 "<c’hoari>"
@@ -6523,6 +6647,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Emouestl pep hini evit reiñ lañs en-dro d’an treuzkas eo diazez kendalc’h ar brezhoneg ha savidigezh e zazont.
+# text[fra] = La conservation de la langue régionale et la construction de son avenir repose sur l’implication de chacun dans la relance de la transmission familiale.
 "<Emouestl>"
 	"emouestl" n m sg
 "<pep hini>"
@@ -6617,6 +6743,8 @@
 "<kentoc’h>"
 	"kentoc’h" adv 
 
+# text = A-wechoù ne ouezer ket re petra da ober, pa n’eur ket tud diouzh ar vicher, pa weler kement a dud o c’houlenn, evit gouzout da biv reiñ sikour.
+# text[fra] = Parfois, on ne sait pas quoi faire, quand on n'est pas du métier, quand on voit tant de gens qui vous sollicitent, pour savoir à qui donner de l'aide.
 "<A-wechoù>"
 	"a-wezhioù" adv 
 "<ne>"
@@ -6786,6 +6914,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ne vir ket e lakaer panelloù divyezhek bep tro ma vez digoret ur savadur nevez gant ar Gumuniezh kumunioù.
+# text[fra] = Cela n’empêche que dès qu’un nouveau bâtiment est inauguré par la Communauté de communes, on y applique une signalétique bilingue.
 "<Ne>"
 	"ne" adv neg 
 "<vir>"
@@ -6838,6 +6968,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Lavaret em eus ez eus da gaozeal eus ar yezh war bep tachenn.
+# text[fra] = J'ai dit qu'on devait parler de la langue dans tous les domaines.
 "<Lavaret>"
 	"lavarout" vblex pp
 	"lavaret" vblex pp
@@ -6872,6 +7004,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Arabat rediañ an dud nemet e rank ar brezhoneg bezañ e pep lec’h.
+# text[fra] = On ne doit pas obliger les gens mais le breton doit être partout.
 "<Arabat>"
 	"arabat" pr @case
 	"arabat" adv 
@@ -6912,6 +7046,8 @@
 "<.>"
 	"." sent @punct
 
+# text = en ur zielfennañ stad ar yezh dre c’hennad ha dre dakad bro;
+# text[fra] = analysera la situation de la langue par secteurs et par zones géographiques ;
 "<en ur>"
 	"en ur" vpart ppres
 ;	"e" pr 
@@ -6944,6 +7080,8 @@
 "<;>"
 	";" sent @punct
 
+# text = hon eus c’hoant, der al lusk engouestl hag emglev-mañ, da lakaat splann youl hor c’hevredigezh da greñvaat ar brezhoneg.
+# text[fra] = ouhaitons, par cette dynamique d’engagement et d’accord, afficher la volonté de notre société à renforcer la langue bretonne.
 "<hon eus>"
 	"kaout" vblex pri p1 pl 
 "<c’hoant>"
@@ -7197,6 +7335,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gouestlet e oa bet Iliz ar Galon-Sakr da Zoue d’ar 16 a viz Gwengolo 1877.
+# text[fra] = L’église du Sacré Cœur est consacrée le 16 septembre 1877.
 "<Gouestlet>"
 	"gouestlañ" vblex pp
 ;	"gouestlañ" vblex imp p3 sg 
@@ -7249,6 +7389,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Deuet eo porzh Douarnenez a-benn d'en em ober ouzh plegennoù diaes ar gennad.
+# text[fra] = Le port de Douarnenez a su une nouvelle fois s’adapter à une conjoncture difficile.
 "<Deuet>"
 	"dont" vblex pp
 "<eo>"
@@ -7446,6 +7588,8 @@
 "<,>"
 	"," cm @punct
 
+# text = An hini a zo lakaet d’erlec’hiañ un ezel eus ar C’huzul, zo anvet betek fin respet an den erlec’hiet gantañ.
+# text[fra] = La personne désignée pour remplacer un membre du Conseil exerce son mandat jusqu'à expiration du mandat de la personne qu'elle remplace.
 "<An>"
 	"an" det def sp 
 ;	"mont" vblex pri p1 sg 
@@ -7535,6 +7679,8 @@
 	"bodad" n m sg
 ;	"podad" n m sg 
 
+# text = Lakaat war wel reolennoù diabarzh ar framm e brezhoneg
+# text[fra] = Affichage du réglement intérieur de l'organisme en langue bretonne
 "<Lakaat war wel>"
 	"lakaat# war wel" vblex inf
 "<reolennoù>"
@@ -7553,6 +7699,8 @@
 "<e brezhoneg>"
 	"e brezhoneg" adv 
 
+# text = Tikedoù-kef e brezhoneg
+# text[fra] = Tickets de caisse en langue bretonne
 "<Tikedoù>"
 	"tiked" n m pl
 "<->"
@@ -7562,6 +7710,8 @@
 "<e brezhoneg>"
 	"e brezhoneg" adv 
 
+# text = D'ar re a ginnig servijoù e brezhoneg d'ar re e darempred ganto e vo roet al label-mañ.
+# text[fra] = Ce label s'adresse aux organismes qui offrent des services en langue bretonne à leurs membres ou clients.
 "<D'ar re>"
 	"da" pr @case
 		"ar re" prn rel mf pl
@@ -7610,6 +7760,8 @@
 "<.>"
 	"." sent @punct
 
+# text = E 2003 e oa bet kefridiet servij Glad Yezhel an Ofis gant Brest Meurgêr ar Mor da sevel un teul dave a-benn kinnig ur stumm boutin d’an anvioù-lec’h.
+# text[fra] = En 2003, le service Patrimoine linguistique a été missionné par Brest Métropole Océane pour établir un document de référence afin de proposer une forme homogène des toponymes locaux.
 "<E>"
 	"e" pr @case
 	"e" n m sp
@@ -7693,6 +7845,8 @@
 "<.>"
 	"." sent @punct
 
+# text = An Emglev « Ya d’ar brezhoneg », kroget e 2001 gant 178 siner, a vod e 2007, goude 6 vloaz eta, 600 siner deuet eus holl dachennoù ar gennad prevez.
+# text[fra] = Lancé en 2001 avec 178 premiers signataires, « l’Accord du XXI siècle Ya d’ar brezhoneg » rassemble 6 ans plus tard en 2007 600 signataires issus de tous les domaines du secteur privé.
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -7911,6 +8065,8 @@
 "<.>"
 	"." sent @punct
 
+# text = War an div dachenn-se ez eo anat ez eus da genlabourat.
+# text[fra] = Dans ces deux domaines une collaboration interrégionale s’impose.
 "<War>"
 	"war" pr @case
 ;	"gwar" n m sg 
@@ -7944,6 +8100,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Ar skrivagner, Jakez Konan, em boa bet anavezet un tamm ouzhpenn-se.
+# text[fra] = J'avais d'ailleurs connu un peu son auteur Jakez Konan.
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -8215,6 +8373,8 @@
 "<,>"
 	"," cm @punct
 
+# text = lakaat takadoù gwareziñ en-dro d’al lec’hioù ma vez renet obererezhioù noazus.
+# text[fra] = Instauration de zones tampon autour des activités nuisantes.
 "<lakaat>"
 	"lakaat" vblex inf
 "<takadoù>"
@@ -8264,6 +8424,8 @@
 "<dachenn>"
 	"tachenn" n f sg
 
+# text = kinnigoù labour
+# text[fra] = offres d'emploi
 "<kinnigoù labour>"
 	"kinnig# labour" n m pl
 
@@ -8345,6 +8507,8 @@
 "<,>"
 	"," cm @punct
 
+# text = Sellet ouzh bloazlevr ar c’hevredigezhioù (rubrikenn bloazlevr)
+# text[fra] = Se reporter à l'annuaire des associations (rubrique annuaire)
 "<Sellet ouzh>"
 	"sellet# ouzh" vblex inf
 	"sellet# ouzh" vblex pp
@@ -8439,6 +8603,8 @@
 "<.>"
 	"." sent @punct
 
+# text = bilhedoù evit arvestoù a bep seurt;
+# text[fra] = une billetterie pour des spectacles divers;
 "<bilhedoù>"
 	"bilhed" n m pl
 "<evit>"
@@ -8452,6 +8618,8 @@
 "<;>"
 	";" sent @punct
 
+# text = Goude ma voe staget Breizh ouzh Bro-C’hall e 1532 e kendalc’has ar c’hevezerezh etre galloud an eskob ha hini an dug, en ur wanaat koulskoude.
+# text[fra] = Avec le rattachement de la Bretagne à la France en 1532, la rivalité entre le pouvoir épiscopal et ducal persiste mais s'atténue.
 "<Goude ma>"
 	"goude ma" cnjadv 
 "<voe>"
@@ -8524,6 +8692,8 @@
 "<.>"
 	"." sent @punct
 
+# text = N’ouzer ket da betra e talveze ar pezh-se pa oa bet graet ar c’hinkladur-se, dibar e Breizh.
+# text[fra] = On ignore la fonction de cette pièce lorsqu’y fut exécuté ce décor, exceptionnel en Bretagne.
 "<N’>"
 	"ne" adv neg 
 "<ouzer>"
@@ -8755,6 +8925,8 @@
 	"merkañ" vblex pp
 ;	"merkañ" vblex imp p3 sg 
 
+# text = Ouzhpenn 40 obererezh sport a vez kinniget bep bloaz.
+# text[fra] = Plus de 40 activités sportives sont proposées chaque année.
 "<Ouzhpenn>"
 	"ouzhpenn" pr 
 ;	"ouzhpennañ" vblex imp p2 sg 
@@ -10287,6 +10459,8 @@
 "<.>"
 	"." sent @punct #17->5
 
+# text = Pa oa kroget ajañs sevenadurel Breizh - tost ugent vloaz zo - da feurmiñ diskouezadegoù-bale, e oa er penn a-raok ha brudet dre ar vro war an dachenn-se.
+# text[fra] = En créant - il y a près de vingt ans - une activité de location d'expositions itinérantes, l'agence culturelle de Bretagne a été un précurseur, nationalement reconnu, dans ce domaine.
 "<Pa>"
 	"pa" cnjsub 
 "<oa>"
@@ -11140,6 +11314,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gorread 3M gant ur framm war wel.
+# text[fra] = Surface 3D avec structure apparente.
 "<Gorread>"
 	"gorread" n m sg
 "<3>"
@@ -11386,6 +11562,8 @@
 "<eilañ>"
 	"eilañ" vblex inf
 
+# text = Ne c'haller ket kevreañ ouzh ar servijer evit ar poent.
+# text[fra] = Impossible d'établir une connexion avec le serveur en ce moment.
 "<Ne>"
 	"ne" adv neg 
 "<c'haller>"
@@ -11559,6 +11737,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Takad tresañ
+# text[fra] = Zone de dessin
 "<Takad tresañ>"
 	"takad# tresañ" n m sg
 
@@ -11735,6 +11915,8 @@
 "<riblenn>"
 	"riblenn" n f sg
 
+# text = Steudañ war an takad tresañ
+# text[fra] = Aligner sur la zone de dessin
 "<Steudañ>"
 	"steudañ" vblex inf
 "<war>"
@@ -11841,6 +12023,8 @@
 	"war" pr @case
 ;	"gwar" n m sg 
 
+# text = Ouzhpennañ gerioù d'ar roll ent emgefreek
+# text[fra] = Ajout automatique des mots à la liste
 "<Ouzhpennañ>"
 	"ouzhpennañ" vblex inf
 "<gerioù>"
@@ -12862,6 +13046,8 @@
 ;	"embann" vblex pri p3 sg 
 ;	"embann" vblex inf 
 
+# text = Pelec'h hoc'h eus c'hoant da lakaat an danevell kroaziet dinamek ?
+# text[fra] = Où souhaitez-vous placer le rapport de tableau croisé dynamique ?
 "<Pelec'h>"
 	"pelec’h" adv itg 
 "<hoc'h eus c'hoant da>"
@@ -13202,6 +13388,8 @@
 "<personelaet>"
 	"personelaat" vblex pp
 
+# text = Troc'hañ al linenn e dibenn un oberiadenn kas pe resev gant an dorn
+# text[fra] = Raccrocher à la fin d'une opération manuelle d'envoi ou de réception
 "<Troc'hañ>"
 	"troc’hañ" vblex inf
 "<al>"
@@ -13430,6 +13618,8 @@
 "<guitaat>"
 	"kuitaat" vblex inf
 
+# text = Diuzit an dibarzhioù hoc'h eus c'hoant evit ar gont diuzet
+# text[fra] = Sélectionnez les options désirées pour le compte sélectionné
 "<Diuzit>"
 	"diuzañ" vblex pri p2 pl 
 ;	"diuzañ" vblex imp p2 pl 
@@ -13460,6 +13650,8 @@
 	"diuzañ" vblex pp
 ;	"diuzañ" vblex imp p3 sg 
 
+# text = Pellgargañ an elfennoù klok a bleg d'an divizoù-mañ...
+# text[fra] = Télécharger les éléments complets qui satisfont aux conditions suivantes...
 "<Pellgargañ>"
 	"pellgargañ" vblex inf
 "<an>"
@@ -14075,6 +14267,8 @@
 "<.>"
 	"." sent @punct
 
+# text = 3/ Tachenn Veurzh hiziv an deiz
+# text[fra] = 3/ Le champs de Mars aujourd'hui
 "<3>"
 	"3" num mf pl
 "</>"
@@ -14437,6 +14631,8 @@
 "<.>"
 	"." sent @punct #13->10
 
+# text = Dieub oc'h da zibab an displegadenn-mañ-displegadenn hervez ho c'hoant hag an amzer ho peus.
+# text[fra] = N'hésitez pas à sélectionner les commentaires en fonction de vos centres d'intérêts et du temps dont vous disposez.
 "<Dieub>"
 	"dieub" adj mf sp
 ;	"dieubiñ" vblex imp p2 sg 
@@ -14484,17 +14680,17 @@
 # text = Niv. d'ober war an douchennaoueg
 # text[fra] = N° à composer sur votre clavier
 "<Niv.>"
-	"niv." n acr m sg
+	"niv." n acr m sg @root #1->0
 "<d'>"
-	"da" pr @case
+	"da" pr @mark #2->3
 "<ober>"
-	"ober" vblex inf
+	"ober" vblex inf @advcl #3->1
 "<war>"
-	"war" pr @case
+	"war" pr @case #4->6
 "<an>"
-	"an" det def sp
+	"an" det def sp @det #5->6
 "<douchennaoueg>"
-	"touchennaoueg" n f sg
+	"touchennaoueg" n f sg @obl #6->3
 
 # text = 2602 Porzh Naoned e 1914
 # text[fra] = 2602 Le port de Nantes en 1914
@@ -14530,10 +14726,8 @@
 	"ostel" n m sg
 "<Kentañ>"
 	"kentañ" adj mf sp 
-;	"kentañ" num ord mf sp 
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg 
 "<C'hef>"
 	"kef" n m sg
 "<Espern>"
@@ -14590,36 +14784,39 @@
 "<.>"
 	"." sent @punct
 
+# text = Gwezharall e talveze ar Blavezh da harzoù naturel er c'hornôg d'ar gêr.
+# text[fra] = Le Blavet servait jadis de frontière naturelle à l'ouest de la ville.
 "<Gwezharall>"
-	"gwezhall" adv 
+	"gwezhall" adv @advmod #1->3
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux #2->3
 "<talveze>"
-	"talvezout" vblex pii p3 sg 
+	"talvezout" vblex pii p3 sg @root #3->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #4->5
 "<Blavezh>"
-	"Blavezh" np top sg
+	"Blavezh" np top sg @nsubj #5->3
 "<da>"
-	"da" pr @case
-	"da" det pos mf sp
+	"da" pr @case #6->7
 "<harzoù>"
-	"harz" n m pl
-	"harzoù" n m pl
+	"harz" n m pl @obl #7->3
 "<naturel>"
-	"naturel" adj mf sp
-"<er c'hornôg>"
-	"er c’hornôg" adv 
-"<d'ar gêr>"
-	"d’ar gêr" adv 
+	"naturel" adj mf sp @amod #8->7
+"<er>" 
+	"e" pr @case #9->11
+		"an" det def sp @det #10->11
+"<c'hornôg>"
+	"kornôg" n m sg @obl #11->3
+"<d'ar>"
+	"da" pr @case #12->14
+		"an" det def sp @det #13->14
+"<gêr>"
+	"kêr" n f sg @nmod #14->11
 "<.>"
-	"." sent @punct
+	"." sent @punct #15->3
 
+# text = Kinnig d'ar Maezioù Frank aozañ ur brezegenn diwar-benn kudenn ar yezhoù adalek 2 eur enderv (da-geñver o heuliad prezegennoù).
+# text[fra] = Proposer aux Champs Libres d'organiser une conférence sur le thème de la question linguistique à partir de 14 h (dans le cadre de son cycle de conférences).
 "<Kinnig>"
 	"kinnig" vblex inf
 	"kinnig" n m sg
@@ -14676,6 +14873,8 @@
 "<.>"
 	"." sent @punct
 
+# text = War ar fichennoù all a-zivout an hentadoù divyezhek e vo kinniget ar bedagogiezh lakaet e plas gant pep hini eus an hentadoù-se ha diskouezet roll pep kevredigezh.
+# text[fra] = Les fiches suivantes sur les filières d'enseignement présenteront la pédagogie mise en place par chacune de ces filières et le rôle de chaque association.
 "<War>"
 	"war" pr @case
 ;	"gwar" n m sg 
@@ -14807,6 +15006,8 @@
 "<.>"
 	"." sent @punct
 
+# text = «Ya d'ar Brezhoneg», soñjet da gentañ-penn evit oberourien ar gevredigezh keodedel,
+# text[fra] = Initialement destiné aux acteurs de la société civile, “Ya d'ar
 "<«>"
 	"«" lquot
 "<Ya d'ar Brezhoneg>"
@@ -14822,14 +15023,11 @@
 	"da gentañ-penn" adv 
 "<evit>"
 	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
 "<oberourien>"
 	"oberour" n m pl
 	"oberer" n m pl
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg 
 "<gevredigezh>"
 	"kevredigezh" n f sg
 "<keodedel>"
@@ -14837,94 +15035,62 @@
 "<,>"
 	"," cm @punct
 
+# text = Hiziv an deiz ez eus 270 000 a dud hag a gomz brezhoneg war ar pemdez, hag 11 000 bugel zo skoliataet en hentadoù kelenn divyezhek e Breizh.
+# text[fra] = Aujourd'hui, 270 000 personnes le parlent au quotidien et, en Bretagne, 11 000 élèves sont scolarisés en filière bilingue.
 "<Hiziv an deiz>"
 	"hiziv an deiz" adv 
 "<ez eus>"
 	"bezañ" vblex pri p3 sg 
-"<270>"
-	"270" num mf pl
-"<000>"
-	"000" num mf pl
+"<270 000>"
+	"270 000" num mf pl
 "<a>"
 	"a" pr 
-;	"a" vpart 
-;	"monet" vblex imp p2 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"mont" vblex pri p3 sg 
-;	"a" n m sp 
 "<dud>"
 	"den" n m pl
 "<hag>"
 	"ha" cnjcoo
 "<a>"
 	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
 "<gomz>"
 	"komz" vblex pri p3 sg 
-;	"komz" vblex imp p2 sg 
-;	"komz" n f sg 
-;	"komz" vblex inf 
 "<brezhoneg>"
 	"brezhoneg" n m sg
-;	"brezhonegiñ" vblex imp p2 sg 
-;	"brezhonegañ" vblex imp p2 sg 
-;	"brezhonegiñ" vblex pri p3 sg 
-;	"brezhonegañ" vblex pri p3 sg 
 "<war>"
 	"war" pr @case
-;	"gwar" n m sg 
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg 
 "<pemdez>"
 	"pemdez" adj mf sp
 "<,>"
 	"," cm @punct
 "<hag>"
 	"ha" cnjcoo
-"<11>"
-	"11" num mf pl
-"<000>"
-	"000" num mf pl
+"<11 000>"
+	"11 000" num mf pl
 "<bugel>"
 	"bugel" n m sg
 "<zo>"
 	"bezañ" vblex pri p3 sg 
-;	"teiñ" vblex imp p2 sg 
-;	"teiñ" vblex pri p3 sg 
 "<skoliataet>"
 	"skoliata" vblex pp
 "<en>"
-	"e" pr @case
 	"e" pr @case
 		"an" det def sp
 "<hentadoù>"
 	"hentad" n m pl
 "<kelenn>"
 	"kelenn" n m sg
-;	"kelenn" vblex imp p2 sg 
-;	"kelenn" vblex pri p3 sg 
-;	"kelenn" vblex inf 
 "<divyezhek>"
 	"divyezhek" adj mf sp
 "<e>"
 	"e" pr 
-;	"e" vpart obj 
-;	"direct" prn obj p3 m sg 
-;	"e" det pos m sp 
-;	"e" n m sp 
 "<Breizh>"
 	"Breizh" np top sg 
-;	"preizh" n m sg 
 "<.>"
 	"." sent @punct
 
+# text = E-pad ar sizhunvezh-se e vo tu da dalvoudekaat ar pezh labour a zo bet kaset da benn gant aozadurioù, kevredigezhioù, maouezed ha gwazed o deus gouezet difenn danvezioù hor rannvro, hag int gwallgaset a-wechoù.
+# text[fra] = Cette semaine est l'occasion de valoriser l'immense travail accompli par les organisations, associations, femmes et hommes qui ont su défendre les ressources de notre région parfois mises à mal.
 "<E-pad>"
 	"e-pad" pr @case
 "<ar>"
@@ -15019,6 +15185,8 @@
 "<.>"
 	"." sent @punct
 
+# text = An ekonomiezh, eil diazez an diorren padus, a roio tro da ziskouez ne vez ket atav un troc'h dre ret etre prederiadennoù ar geodedourien gant an endro ha kinnigoù an embregerezhioù.
+# text[fra] = Le second pilier du développement durable, l'économie, sera l'occasion de montrer qu'il n'y a pas forcément hiatus entre les préoccupations environnementales des citoyens et les propositions des entreprises.
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -15118,55 +15286,39 @@
 # text = gounidegezh an annezidi, live an tailhoù, kresk ar boblañs ha kresk niver an implijoù.
 # text[fra] = le revenu des habitants, le niveau des impôts, l'augmentation de population et l'augmentation du nombre d'emplois.
 "<gounidegezh>"
-	"gounidegezh" n f sg
+	"gounidegezh" n f sg @root #1->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #2->3
 "<annezidi>"
-	"annezad" n m pl
+	"annezad" n m pl @nmod:gen #3->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->5
 "<live>"
-	"live" n m sg
-;	"livañ" vblex pii p3 sg 
+	"live" n m sg @conj #5->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #6->7
 "<tailhoù>"
-	"tailh" n f pl
-	"tailhoù" n f pl
+	"tailh" n f pl @nmod:gen #7->5
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<kresk>"
-	"kresk" n m sg
-;	"kreskiñ" vblex imp p2 sg 
-;	"kreskiñ" vblex pri p3 sg 
+	"kresk" n m sg @conj #9->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #10->11
 "<boblañs>"
-	"poblañs" n f sg
+	"poblañs" n f sg @nmod:gen #11->9
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij 
+	"ha" cnjcoo @cc #12->13
 "<kresk>"
-	"kresk" n m sg
-;	"kreskiñ" vblex imp p2 sg 
-;	"kreskiñ" vblex pri p3 sg 
+	"kresk" n m sg @conj #13->1
 "<niver>"
-	"niver" n m sg
-;	"niveriñ" vblex imp p2 sg 
-;	"niveriñ" vblex pri p3 sg 
+	"niver" n m sg @nmod:gen #14->13
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #15->16
 "<implijoù>"
-	"implij" n m pl
+	"implij" n m pl @nmod:gen #16->14
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->1
 
 # text = Galvet e vo ar poloù kevezusted, an embregerezhioù, ar poellgorioù rannvro, ar c'hreizennoù skiantel, an ensavadurioù enklask hag an obererien sevenadurel dave, da ziskouez o skiant-prenet war an tachennoù-se.
 # text[fra] = Elle mobilisera l'expertise des pôles de compétitivité, des entreprises, des comités régionaux, des centres scientifiques, des instituts de recherche et des acteurs culturels faisant référence dans ces domaines.
@@ -15385,6 +15537,8 @@
 "<;>"
 	";" sent @punct #24->6
 
+# text = N'eus nemet ur c'hinnig eus an daolenn amañ dindan, gwelloc'h e vo azasaat anezhi diouzh ar gwirvoud evit pep chanter enta.
+# text[fra] = Le tableau ci-dessous constitue une proposition qu'il conviendra de confronter à la réalité et d'adapter à chaque chantier.
 "<N'eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -15911,6 +16065,8 @@
 "<»>"
 	"»" rquot @punct #14->11
 
+# text = Kreizenn ar monumantoù broadel a embann un dastumad levrioù-heñchañ diwar-benn monumantoù Frañs, zo troet e meur a yezh
+# text[fra] = Le Centre des monuments nationaux publie une collection de guides sur les monuments français, traduits en plusieurs langues.
 "<Kreizenn>"
 	"kreizenn" n f sg
 ;	"kreizenniñ" vblex imp p2 sg 
@@ -15976,6 +16132,8 @@
 	"yezh" n f sg
 	"yezh" adj mf sp
 
+# text = Setu perak e vo kinniget d'ar strollegezhioù tiriadel, d'ar strolladoù obererezh ha d'ar Broioù, sinañ ha degemer anezhi.
+# text[fra] = Elle sera donc proposée pour signature et adoption aux collectivités territoriales, à leurs groupements et aux Pays.
 "<Setu perak>"
 	"setu perak" cnjadv 
 "<e>"
@@ -16343,6 +16501,8 @@
 "<.>"
 	"." sent @punct #25->
 
+# text = Diwar 2008 e vo roet da c'houzout d'al liseoù gant ar Rannvro, pa vo paeet ar skoaziad hollek, an durc'hadurioù konterezh a dalvez da anavezout ar skoaziad « yezhoù rannvroel ».
+# text[fra] = A partir de 2008, la Région communiquera aux lycées, lors du versement de la dotation globale, les orientations comptables qui permettent d'identifier la dotation « langues régionales ».
 "<Diwar>"
 	"diwar" pr @case
 "<2008>"
@@ -16547,6 +16707,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Gouelioù Gouelioù an Arvor
+# text[fra] = Fêtes d'Arvor
 "<Gouelioù>"
 	"gouel" n m pl
 	"gouel" n f pl
@@ -16760,6 +16922,8 @@
 "<.>"
 	"." sent @punct #13->1
 
+# text = Dre an nor-dal-se he deus c'hoant Kêr da zegas deoc'h titouroù talvoudus ha nevesaet, ha da ginnig servijoù enlinenn deoc'h a-benn aesaat hoc'h enklaskoù hag ho tifraeoù.
+# text[fra] = Par ce portail, la Ville souhaite vous apporter des informations pertinentes et actualisées et vous proposer des services en ligne afin de faciliter vos recherches et démarches.
 "<Dre>"
 	"dre" pr @case
 "<an>"
@@ -17419,6 +17583,8 @@
 "<)>"
 	")" rpar @punct #5->4
 
+# text = Pennadoù, levrioù ha danevelloù savet nevez zo
+# text[fra] = Articles, ouvrages et rapports récents
 "<Pennadoù>"
 	"pennad" n m pl
 "<,>"
@@ -17540,6 +17706,8 @@
 "<.>"
 	"." sent @punct #4->1
 
+# text = Ret eo da holl obererien Breizh degas o lod, ha d'ar Stad ivez p'he deus, asambles gant ar c'humunioù, ar galloud da cheñch ar reolennoù.
+# text[fra] = L'implication de tous les acteurs bretons est nécessaire, de même que l'implication de l'État qui dispose, avec les communes, du pouvoir réglementaire.
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -17803,6 +17971,8 @@
 "<!>"
 	"!" sent @punct
 
+# text = Souezhet-kaer e vi da'z tro, pa weli kamaladed eus ar fozioù o tont en-dro eus an talbenn ha galleg ganto.
+# text[fra] = A ton tour tu seras bien surpris de voir revenir du front des copains de tranchées qui s'expriment en français.
 "<Souezhet>"
 	"souezhet" adj mf sp
 "<->"
@@ -18002,6 +18172,8 @@
 "<servijoù>"
 	"servij" n m pl
 
+# text = Muioc'h-mui a diez-annez, stank ha strewet, a voe diwar-goust ar c'hoadegi hag al lanneier ha gant se e voe krouet kalz tachennoù digor.
+# text[fra] = L ’ habitat rural, dense et dispersé, se développe en gagnant sur la forêt et la lande, en créant de nombreux espaces ouverts.
 "<Muioc'h-mui a>"
 	"muioc’h-mui a" pr @case
 "<diez-annez>"
@@ -18079,6 +18251,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Enebiezh Dispac'hourien / Chouaned.
+# text[fra] = Opposition Révolution / Chouannerie.
 "<Enebiezh>"
 	"enebiezh" n f sg
 "<Dispac'hourien>"
@@ -18115,6 +18289,8 @@
 "<...>"
 	"..." sent @punct
 
+# text = Tachennoù a-bezh eus keodedoù zo a yeas da get.
+# text[fra] = Des secteurs entiers des Cités périclitent.
 "<Tachennoù>"
 	"tachenn" n f pl
 "<a-bezh>"
@@ -18197,6 +18373,8 @@
 "<c'halloudus>"
 	"galloudus" adj mf sp
 
+# text = Logo / Galloud
+# text[fra] = Logo / Pouvoir
 "<Logo>"
 	"logo" n m sg
 "</>"
@@ -18412,6 +18590,8 @@
 "<.>"
 	"." sent @punct
 
+# text = Dielfennañ a ra hoc'h ezhommoù, selaou hoc'h evezhiadennoù, kinnig diskoulmoù deoc'h ha sevel rakprizioù.
+# text[fra] = Il analyse vos besoins, écoute vos remarques, vous propose des solutions et en établit le devis.
 "<Dielfennañ>"
 	"dielfennañ" vblex inf
 "<a>"
@@ -18474,6 +18654,8 @@
 	"labour" n m sg
 ;	"labourat" vblex pri p3 sg 
 
+# text = War-lerc’h ar brezel ez eus bet embannet un toullad kanaouennoù bet skrivet en toull-bac’h dindan an titl « Tri zon brudet eus mare an Dieubidigezh ».
+# text[fra] = Quelques chansons écrites en prison ont été éditées après guerre sous le titre « Trois succès de la Libération ».
 "<War-lerc’h>"
 	"war-lerc’h" pr @case
 	"war-lerc’h" adv 
@@ -18555,21 +18737,16 @@
 "<.>"
 	"." sent @punct
 
+# text = Graet e oant evit bezañ gwelet hag embann ar soñjoù kentelius a vennent difenn, ha diskouez a raent ivez ar medalennoù o doa gounezet da-geñver kenstrivadegoù.
+# text[fra] = Faites pour être vues et pour exprimer les valeurs morales des ensembles vocaux, elles « exposent » également les médailles qu’ils gagnent lors des concours.
 "<Graet>"
 	"ober" vblex pp
-;	"ober" vblex imp p3 sg 
 "<e>"
 	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
 "<oant>"
 	"bezañ" vblex pii p3 pl 
 "<evit>"
 	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
 "<bezañ>"
 	"bezañ" vblex inf
 "<gwelet>"
@@ -18581,9 +18758,6 @@
 	"ha" cnjcoo
 "<embann>"
 	"embann" vblex inf
-	"embann" n m sg
-;	"embann" vblex imp p2 sg 
-;	"embann" vblex pri p3 sg 
 "<ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -18646,61 +18820,45 @@
 "<.>"
 	"." sent @punct
 
+# text = An holl frammoù a sav kartennoù hetoù ha da gentañ holl evit lidañ ar bloavezh nevez.
+# text[fra] = Tous les organismes impriment des cartes de voeux et en premier lieu pour souhaiter la bonne année.
 "<An>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #1->3
 "<holl>"
-	"holl" predet mf sp 
-;	"holl" prn ind mf pl 
-;	"holl" adv 
+	"holl" predet mf sp @det #2->3
 "<frammoù>"
-	"framm" n m pl
+	"framm" n m pl @nsubj #3->5
 "<a>"
-	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
+	"a" vpart @aux #4->5
 "<sav>"
-	"sevel" vblex tv pri p3 sg 
-;	"sevel" vblex imp p2 sg 
-;	"sav" n m sg 
+	"sevel" vblex tv pri p3 sg @root #5->0
 "<kartennoù>"
-	"kartenn" n f pl
+	"kartenn" n f pl @obj #6->5
 "<hetoù>"
-	"het" n m pl
+	"het" n m pl @nmod:gen #7->6
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij 
-"<da gentañ>"
-	"da gentañ" adv 
-	"da" pr @case
-		"kentañ" adj mf sp
+	"ha" cnjcoo @cc #8->13
+"<da>"
+	"da" pr @case #9->11
+"<gentañ>"
+	"kentañ" adj mf sp @amod #10->11
 "<holl>"
-	"holl" adv 
-	"holl" predet mf sp
-	"holl" prn ind mf pl
+	"holl" prn ind mf pl @obl #11->13
 "<evit>"
-	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
+	"evit" pr @mark #12->13
 "<lidañ>"
-	"lidañ" vblex inf
+	"lidañ" vblex inf @conj #13->5
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
-"<bloavezh>"
-	"bloavezh" n m sg
+	"an" det def sp @det #14->15
+"<bloavezh>" 
+	"bloavezh" n m sg @obj #15->13
 "<nevez>"
-	"nevez" adj mf sp
-;	"neveziñ" vblex imp p2 sg 
-;	"neveziñ" vblex pri p3 sg 
+	"nevez" adj mf sp @amod #16->15
 "<.>"
-	"." sent @punct
+	"." sent @punct #17->5
 
+# text = Lakaat kement den e darempred gant ho framm da welet brezhoneg
+# text[fra] = Amener toute personne en contact avec votre organisme à voir du breton
 "<Lakaat>"
 	"lakaat" vblex inf
 "<kement>"
@@ -18800,16 +18958,8 @@
 	"framm" n m pl
 "<zo>"
 	"bezañ" vblex pri p3 sg 
-;	"teiñ" vblex imp p2 sg 
-;	"teiñ" vblex pri p3 sg 
 "<a>"
 	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
 "<ginnig>"
 	"kinnig" vblex pri p3 sg 
 ;	"kinnig" vblex imp p2 sg 
@@ -18941,6 +19091,8 @@
 "<lec’hanvioù>"
 	"lec’hanv" n m pl
 
+# text = Kaset e vo da benn gant 8 menaj skouer da gentañ-penn.
+# text[fra] = Il s'appuiera notamment sur 8 fermes pilotes.
 "<Kaset>"
 	"kas" vblex pp
 ;	"kas" vblex imp p3 sg 
@@ -19109,159 +19261,117 @@
 "<.>"
 	"." sent @punct #26->5
 
+# text = A-benn tizhout e balioù en doa disklêriet an emstriver sokialour e oa « a-du » evit krouiñ ministrerezh ar Mor.
+# text[fra] = Pour atteindre ces objectifs, le candidat socialiste à la présidentielle s'est déclaré "favorable" à l'idée d'un ministère de la Mer.
 "<A-benn>"
-	"a-benn" pr @case
+	"a-benn" pr @mark #1->2
 "<tizhout>"
-	"tizhout" vblex inf
+	"tizhout" vblex inf @advcl #2->6
 "<e>"
-	"e" det pos m sp 
-;	"e" vpart obj 
-;	"direct" prn obj p3 m sg 
-;	"e" pr 
-;	"e" n m sp 
+	"e" det pos m sp @det #3->4
 "<balioù>"
-	"pal" n m pl 
-	"pal" n f pl 
-;	"bal" n m pl 
-;	"bali" n f pl 
+	"pal" n m pl @obj #4->2
 "<en doa>"
-	"kaout" vblex pii p3 m sg 
+	"kaout" vblex pii p3 m sg @aux #5->6
 "<disklêriet>"
-	"disklêriañ" vblex pp
-;	"disklêriañ" vblex imp p3 sg 
+	"disklêriañ" vblex pp @root #6->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #7->8
 "<emstriver>"
-	"emstriver" n m sg
-;	"emstrivañ" vblex pri impers sp 
+	"emstriver" n m sg @nsubj #8->6
 "<sokialour>"
-	"sokialour" n m sg
+	"sokialour" n m sg @nmod:gen #9->8
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux #10->13
 "<oa>"
-	"bezañ" vblex pii p3 sg 
+	"bezañ" vblex pii p3 sg @cop #11->13
 "<«>"
-	"«" lquot
+	"«" lquot @punct #12->13
 "<a-du>"
-	"a-du" adv 
+	"a-du" adv @ccomp #13->6
 "<»>"
-	"»" rquot
+	"»" rquot @punct #14->13
 "<evit>"
-	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
+	"evit" pr @mark #15->16
 "<krouiñ>"
-	"krouiñ" vblex inf
-	"krouiñ" n m sg
+	"krouiñ" vblex inf @advcl #16->13
 "<ministrerezh>"
-	"ministrerezh" n m sg
+	"ministrerezh" n m sg @obj #17->16
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #18->19
 "<Mor>"
-	"mor" n m sg
-;	"morañ" vblex imp p2 sg 
-;	"morañ" vblex pri p3 sg 
+	"mor" n m sg @nmod:gen #19->17
 "<.>"
-	"." sent @punct
+	"." sent @punct #20->6
 
+# text = « Ma'z on dilennet da brezidant ar Republik e vo degemeret mat ar c'hinnig-se ganin », en doa lavaret dirak 1.000 den bodet d'abardaez e Palez ar C'hendalc'hioù an Oriant.
+# text[fra] = "Si je suis élu président de la République, j'accueillerai positivement une telle proposition", a-t-il déclaré devant 1.000 personnes réunies en début de soirée au palais des Congrès de Lorient.
+"<«>"
+	"«" lquot @punct #1->11
 "<Ma'z>"
-	"ma" cnjsub 
+	"ma" cnjsub @mark #2->4
 "<on>"
-	"bezañ" vblex pri p1 sg 
+	"bezañ" vblex pri p1 sg @aux #3->4
 "<dilennet>"
-	"dilenn" vblex pp
-;	"dilenn" vblex imp p3 sg 
+	"dilenn" vblex pp @advcl #4->11
 "<da>"
-	"da" pr @case
-	"da" det pos mf sp
+	"da" pr @case #5->6
 "<brezidant>"
-	"prezidant" n m sg
+	"prezidant" n m sg @obl #6->4
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #7->8
 "<Republik>"
-	"republik" n f sg
+	"republik" n f sg @nmod:gen #8->6
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux #9->11
 "<vo>"
-	"bezañ" vblex fti p3 sg 
+	"bezañ" vblex fti p3 sg @aux #10->11
 "<degemeret>"
-	"degemer" vblex pp
-;	"degemer" vblex imp p3 sg 
+	"degemer" vblex pp @parataxis #11->21
 "<mat>"
-	"mat" adj mf sp
+	"mat" adj mf sp @advmod #12->11
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #13->14
 "<c'hinnig>"
-	"kinnig" n m sg 
-;	"kinnig" vblex imp p2 sg 
-;	"kinnig" vblex inf 
-;	"kinnig" vblex pri p3 sg 
+	"kinnig" n m sg @obj #14->11
 "<-se>"
-	"se" adv 
+	"se" adv @advmod #15->14
 "<ganin>"
-	"gant" pr @case
-		"indirect" prn obj p1 mf sg
-;	"kanal" vblex fti p1 sg 
-;	"kaniñ" vblex fti p1 sg 
-;	"kanañ" vblex fti p1 sg 
-;	"genel" vblex fti p1 sg 
+	"gant" pr @case #16->17
+		"indirect" prn obj p1 mf sg @obl #17->11
 "<»>"
-	"»" rquot
+	"»" rquot @punct #18->11
 "<,>"
-	"," cm @punct
-"<en doa>"
-	"kaout" vblex pii p3 m sg 
+	"," cm @punct #19->21
+"<en doa>" 
+	"kaout" vblex pii p3 m sg @aux #20->21
 "<lavaret>"
-	"lavarout" vblex pp
-	"lavaret" vblex pp
-;	"lavarout" vblex imp p3 sg 
-;	"lavaret" vblex inf 
+	"lavarout" vblex pp @root #21->0
 "<dirak>"
-	"dirak" pr @case
+	"dirak" pr @case #22->24
 "<1.000>"
-	"1.000" num mf pl
+	"1.000" num mf pl @nummod #23->24
 "<den>"
-	"den" n m sg 
-;	"denañ" vblex imp p2 sg 
-;	"den" adv 
-;	"denañ" vblex pri p3 sg 
+	"den" n m sg @obl #24->21
 "<bodet>"
-	"bodañ" vblex pp
-;	"bodañ" vblex imp p3 sg 
+	"bodañ" vblex pp @acl #25->24
 "<d'abardaez>"
-	"d’abardaez" adv 
+	"d’abardaez" adv @advmod #26->25
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" pr @case #27->28
 "<Palez>"
-	"palat" vblex pri p2 sg 
-;	"palez" n m sg 
+	"palez" n m sg @obl #28->25
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #29->30
 "<C'hendalc'hioù>"
-	"kendalc’h" n m pl
+	"kendalc’h" n m pl @nmod:gen #30->28
 "<an Oriant>"
-	"An Oriant" np top sg
+	"An Oriant" np top sg @nmod:gen #31->28
 "<.>"
-	"." sent @punct
+	"." sent @punct #32->21
 
+# text = Kinniget en doa Jacques Chirac sevel Karta gwir an endro, stag ouzh ar Vonreizh, evel ma'z eo bet graet dija evit gwirioù Mab-den hag ar gwirioù ekonomikel ha sokial.
+# text[fra] = Jacques Chirac a notamment proposé l'élaboration d'une Charte du droit à l'environnement, adossée à la Constitution, comme le sont les droits de l'Homme ou les droits économiques et sociaux.
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -19403,55 +19513,44 @@
 "<.>"
 	"." sent @punct
 
+# text = E-maez dibunadeg Pariz e oa bet trubuilhoù etre ar polis hag « hiniennoù diavaez e-maez kontroll an aozerien, war a seblant ».
+# text[fra] = En marge du cortège parisien, la manifestation a été ternie par quelques affrontements entre la police et "des éléments extérieurs semblant échapper aux organisateurs".
 "<E-maez>"
 	"e-maez" pr @case
 "<dibunadeg>"
-	"dibunadeg" n f sg
+	"dibunadeg" n f sg @obl
 "<Pariz>"
-	"Pariz" np top sg
+	"Pariz" np top sg @nmod:gen
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux
 "<oa>"
-	"bezañ" vblex pii p3 sg 
+	"bezañ" vblex pii p3 sg @aux
 "<bet>"
-	"bezañ" vblex pp 
-;	"pet" prn itg mf sp 
-;	"kaout" vblex pp 
+	"bezañ" vblex pp @cop
 "<trubuilhoù>"
-	"trubuilh" n m pl
+	"trubuilh" n m pl @root
 "<etre>"
 	"etre" pr @case
-	"etre" adj mf sp
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det
 "<polis>"
-	"polis" n m sg
+	"polis" n m sg 
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc
 "<«>"
-	"«" lquot
+	"«" lquot @punct
 "<hiniennoù>"
-	"hinienn" n f pl
+	"hinienn" n f pl @conj
 "<diavaez>"
-	"diavaez" adj mf sp 
-;	"diavaez" n m sg 
+	"diavaez" adj mf sp @amod
 "<e-maez>"
 	"e-maez" pr @case
 "<kontroll>"
-	"kontroll" n m sg
-;	"kontrollañ" vblex imp p2 sg 
-;	"kontrollañ" vblex pri p3 sg 
+	"kontroll" n m sg @nmod
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det
 "<aozerien>"
-	"aozer" n m pl
+	"aozer" n m pl @nmod:gen
 "<,>"
 	"," cm @punct
 "<war a seblant>"
@@ -19461,174 +19560,142 @@
 "<.>"
 	"." sent @punct
 
+# text = « N’eus dañjer ebet ken war vor », zo bet embannet gant ar prefeti-mor.
+# text[fra] = "Tout danger nautique est écarté", a annoncé la préfecture maritime.
 "<«>"
-	"«" lquot
-
+	"«" lquot @punct #1->
 "<N’eus>"
-	"ne" adv 
-		"bezañ" vblex pri impers sp
-	"ne" adv 
-		"kaout" vblex pri p1 pl
+	"ne" adv @advmod #2->
+		"bezañ" vblex pri impers sp @x #3->
 "<dañjer>"
-	"dañjer" n m sg
+	"dañjer" n m sg @x #4->
 "<ebet>"
-	"ebet" adv 
+	"ebet" adv @advmod #5->
 "<ken>"
-	"ken" pr @case
+	"ken" pr @case 
 	"ken" adv 
 	"ken" preadv
-;	"gen" n f pl 
-"<war vor>"
-	"war vor" adv 
+"<war>"
+	"war" pr @case
+"<vor>"
+	"mor" n m sg @nmod
 "<»>"
-	"»" rquot
+	"»" rquot @punct
 "<,>"
 	"," cm @punct
 "<zo>"
-	"bezañ" vblex pri p3 sg 
-;	"teiñ" vblex imp p2 sg 
-;	"teiñ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @aux
 "<bet>"
-	"bezañ" vblex pp 
-;	"pet" prn itg mf sp 
-;	"kaout" vblex pp 
+	"bezañ" vblex pp @aux
 "<embannet>"
-	"embann" vblex pp
-;	"embann" vblex imp p3 sg 
+	"embann" vblex pp @root
 "<gant>"
 	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
-"<prefeti>"
-	"prefeti" n m sg
-"<->"
-	"-" guio
-"<mor>"
-	"mor" n m sg
-;	"morañ" vblex imp p2 sg 
-;	"morañ" vblex pri p3 sg 
+	"an" det def sp @det
+"<prefeti-mor>"
+	"prefeti-mor" n m sg @obl:agent
 "<.>"
 	"." sent @punct
 
+# text = Ma'z ouzhpenner ar familh hag ar vignoned, pedet ur wezh an amzer, e tizher e-tro 3 milion den.
+# text[fra] = Si l'on ajoute la famille et les copains, invités occasionnels, ce total atteint sans doute trois millions de personnes.
 "<Ma'z>"
-	"ma" cnjsub 
+	"ma" cnjsub @mark #1->2
 "<ouzhpenner>"
-	"ouzhpennañ" vblex pri impers sp 
+	"ouzhpennañ" vblex pri impers sp @advcl #2->16
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #3->4
 "<familh>"
-	"familh" n f sg
+	"familh" n f sg @obj #4->2
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #5->7
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #6->7
 "<vignoned>"
-	"mignon" n m pl
+	"mignon" n m pl @conj #7->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #8->9
 "<pedet>"
-	"pediñ" vblex tv pp 
-;	"pediñ" vblex imp p3 sg 
-"<ur wezh an amzer>"
-	"ur wezh an amzer" adv 
+	"pediñ" vblex tv pp @appos #9->4
+"<ur>"
+	"un" det ind sp @det #10->11
+"<wezh>"
+	"gwezh" n f sg @obl #11->9
+"<an>"
+	"an" det def sp @det #12->13
+"<amzer>"
+	"amzer" n f sg @nmod:gen #13->11
 "<,>"
-	"," cm @punct
+	"," cm @punct #14->9
 "<e>"
-	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
+	"e" vpart obj @aux #15->16
 "<tizher>"
-	"tizhout" vblex pri impers sp 
+	"tizhout" vblex pri impers sp @root #16->0
 "<e-tro>"
-	"e-tro" pr @case
+	"e-tro" pr @case #17->20
 "<3>"
-	"3" num mf pl
+	"3" num mf pl @compound #18->19
 "<milion>"
-	"milion" n m sg
+	"milion" n m sg @nummod #19->20
 "<den>"
-	"den" adv 
-	"den" n m sg
-;	"denañ" vblex imp p2 sg 
-;	"denañ" vblex pri p3 sg 
+	"den" n m sg @obl #20->16
 "<.>"
-	"." sent @punct
+	"." sent @punct #21->16
 
-"<Er bloaz-mañ>"
-	"er bloaz-mañ" adv 
+# text = Er bloaz-mañ ne vo mui a harzoù war an tri-c’hard eus Frañs.
+# text[fra] = Cette année, les pêcheurs ne connaîtront plus de frontières sur les trois quarts du territoire national.
+"<Er>"
+	"e" pr @case
+		"an" det def sp @det
+"<bloaz>"
+	"bloaz" n m sg @obl
+"<-mañ>"
+	"mañ" adv @advmod
 "<ne>"
-	"ne" adv neg 
+	"ne" adv neg @advmod
 "<vo>"
 	"bezañ" vblex fti p3 sg 
 "<mui>"
-	"mui" adv 
-;	"muiañ" vblex imp p2 sg 
-;	"muiañ" vblex pri p3 sg 
+	"mui" adv @advmod
 "<a>"
 	"a" pr @case
-	"a" n m sp
-;	"a" vpart 
-;	"monet" vblex imp p2 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"mont" vblex pri p3 sg 
 "<harzoù>"
 	"harz" n m pl
-	"harzoù" n m pl
 "<war>"
 	"war" pr @case
-;	"gwar" n m sg 
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det
 "<tri>"
-	"tri" num m pl
+	"tri" num m pl @nummod
 "<->"
-	"-" guio
+	"-" guio @punct
 "<c’hard>"
-	"kard" n m sg
+	"kard" n m sg @obl
 "<eus>"
 	"eus" pr @case
-;	"bezañ" vblex pri p3 sg 
 "<Frañs>"
-	"Frañs" np top sg
+	"Frañs" np top sg @nmod
 "<.>"
 	"." sent @punct
 
+# text = Evit talañ ouzh an oberoù-se e krog Naonediz d'en em frammañ evit mestroniañ o aon ha sachañ evezh ar galloudoù foran lec'hel ha broadel.
+# text[fra] = Face à ces actes, les habitants commencent à s'organiser afin de dominer leur peur et d'interpeller les pouvoirs publics à l'échelon local et national.
 "<Evit>"
 	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
 "<talañ ouzh>"
 	"talañ# ouzh" vblex inf
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
 "<oberoù>"
 	"ober" n m pl
 "<-se>"
 	"se" adv 
 "<e>"
 	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
 "<krog>"
 	"krogiñ" vblex pri p3 sg 
 	"kregiñ" vblex pri p3 sg 
-;	"krogiñ" vblex imp p2 sg 
-;	"kregiñ" vblex imp p2 sg 
-;	"krog" n m sg 
-;	"krog" adj mf sp 
 "<Naonediz>"
 	"Naonedad" n m pl
 "<d'>"
@@ -19639,26 +19706,20 @@
 	"frammañ" vblex inf
 "<evit>"
 	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
 "<mestroniañ>"
 	"mestroniañ" vblex inf
 "<o>"
 	"o" n m sp
 	"o" det pos mf sp
-;	"o" vpart ger 
 ;	"direct" prn obj p3 mf pl 
-;	"o" ij 
 "<aon>"
 	"aon" n m sg
 "<ha>"
 	"ha" cnjcoo
-;	"ha" ij 
 "<sachañ evezh>"
 	"sachañ# evezh" vblex inf
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg 
 "<galloudoù>"
 	"galloud" n m pl
 "<foran>"
@@ -19667,12 +19728,13 @@
 	"lec’hel" adj mf sp
 "<ha>"
 	"ha" cnjcoo
-;	"ha" ij 
 "<broadel>"
 	"broadel" adj mf sp
 "<.>"
 	"." sent @punct
 
+# text = Un nebeud kevredigezhioù a vez degemeret eno ur wezh an amzer ivez.
+# text[fra] = Quelques associations y trouvent ponctuellement refuge.
 "<Un>"
 	"un" det ind sp @det
 "<nebeud>"
@@ -19819,6 +19881,8 @@
 "<.>"
 	"." sent @punct
 
+# text = En em gavit 15 munut a-raok an abadenn, mar plij.
+# text[fra] = Merci d’arriver 15 minutes avant le spectacle.
 "<En em>"
 	"en em" vpart ref
 "<gavit>"
@@ -19888,146 +19952,88 @@
 "<.>"
 	"." sent @punct
 
+# text = Dedennet eo gant an deskadurezh ha kemer a ra perzh e kevredigezhioù a bep seurt a stourm evit stummañ ar re yaouank.
+# text[fra] = Il est intéressé par l'éducation et il est impliqué dans différentes associations qui militent pour la formation des jeunes.
 "<Dedennet>"
-	"dedennañ" vblex pp 
-;	"dedennañ" vblex imp p3 sg 
-;	"dedennet" adj mf sp 
+	"dedennañ" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<gant>"
-	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
+	"gant" pr @case #3->5
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #4->5
 "<deskadurezh>"
-	"deskadurezh" n f sg
+	"deskadurezh" n f sg @obl #5->1
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij 
+	"ha" cnjcoo @cc #6->7
 "<kemer>"
-	"kemer" vblex inf
-;	"kemer" vblex imp p2 sg REMOVE:215
-;	"kemerout" vblex imp p2 sg REMOVE:215
-;	"kemer" vblex pri p3 sg REMOVE:508:Remove_VerbFin_BOS
-;	"kemerout" vblex pri p3 sg REMOVE:508:Remove_VerbFin_BOS
+	"kemer" vblex inf @conj #7->1
 "<a>"
-	"a" vpart SELECT:400:Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:215
-;	"monet" vblex imp p2 sg REMOVE:215
-;	"a" pr SELECT:400:Vpart_if_Vfin
-;	"a" n m sp SELECT:400:Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:400:Vpart_if_Vfin
-;	"monet" vblex pri p3 sg SELECT:400:Vpart_if_Vfin
+	"a" vpart @aux #8->7
 "<ra>"
-	"ober" vblex pri p3 sg @+FMAINV MAP:939
-;	"ra" vpart opt REMOVE:174
-;	"ober" vblex imp p2 sg REMOVE:215
+	"ober" vblex pri p3 sg @aux #9->7
 "<perzh>"
-	"perzh" n m sg
-;	"berzh" n m sg REMOVE:765
+	"perzh" n m sg @obj #10->7
 "<e>"
-	"e" n m sp
-	"e" det pos m sp
-;	"e" vpart obj REMOVE:174
-;	"direct" prn obj p3 m sg REMOVE:387
-;	"e" pr REMOVE:623
+	"e" det pos m sp @det #11->12
 "<kevredigezhioù>"
-	"kevredigezh" n f pl
+	"kevredigezh" n f pl @nmod:gen #12->10
 "<a>"
-	"a" pr
-	"a" n m sp
-;	"a" vpart REMOVE:174
-;	"monet" vblex imp p2 sg REMOVE:215
-;	"mont" vblex imp p2 sg REMOVE:215
-;	"monet" vblex pri p3 sg REMOVE:508:Remove_VerbFin_BOS
-;	"mont" vblex pri p3 sg REMOVE:508:Remove_VerbFin_BOS
+	"a" pr @case #13->15
 "<bep>"
-	"bep" det ind mf sg
-	"pep" det ind mf sg
+	"bep" det ind mf sg @det #14->15
 "<seurt>"
-	"seurt" n m sg
+	"seurt" n m sg @nmod #15->12
 "<a>"
-	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
-;	"a" pr 
-;	"a" n m sp 
+	"a" vpart @aux #16->17
 "<stourm>"
-	"stourm" vblex pri p3 sg 
-;	"stourm" vblex imp p2 sg 
-;	"stourm" vblex inf 
-;	"stourm" n m sg 
+	"stourm" vblex pri p3 sg @acl #17->12
 "<evit>"
-	"evit" pr @case
-;	"evañ" vblex imp p2 pl 
-;	"evañ" vblex pri p2 pl 
+	"evit" pr @mark #18->19
 "<stummañ>"
-	"stummañ" vblex inf
-	"stummañ" n m sg
+	"stummañ" vblex inf @advcl #19->17
 "<ar re>"
-	"ar re" prn rel mf sg
+	"ar re" prn rel mf sg @dep #20->19
 "<yaouank>"
-	"yaouank" adj mf sp
+	"yaouank" adj mf sp @obj #21->19
 "<.>"
-	"." sent @punct
+	"." sent @punct #22->1
 
+# text = Kement abadenn sevenadurel a denn da zanvez Breizh a vez brudet gant pedadennoù divyezhek.
+# text[fra] = Les manifestations culturelles font l’objet de communication bilingue systématique quand ils concernent des thèmes bretons.
 "<Kement>"
-	"kement" det ind mf sg
+	"kement" det ind mf sg @det #1->2
 "<abadenn>"
-	"abadenn" n f sg
+	"abadenn" n f sg @nsubj #2->5
 "<sevenadurel>"
-	"sevenadurel" adj mf sp
+	"sevenadurel" adj mf sp @amod #3->2
 "<a>"
-	"a" vpart 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
-"<denn da>"
-	"tennañ# da" vblex pri p3 sg 
-;	"tennañ# da" vblex imp p2 sg 
+	"a" vpart @aux #4->5
+"<denn>"
+	"tennañ" vblex pri p3 sg @root #5->0
+"<da>"
+	"da" pr @case #6->7
 "<zanvez>"
-	"danvez" n m sg
+	"danvez" n m sg @obl #7->5
 "<Breizh>"
-	"Breizh" np top sg
-;	"preizh" n m sg 
+	"Breizh" np top sg @nmod:gen #8->7
 "<a>"
-	"a" vpart 
-;	"a" pr 
-;	"a" n m sp 
-;	"mont" vblex pri p3 sg 
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex pri p3 sg 
-;	"monet" vblex imp p2 sg 
+	"a" vpart @aux #9->11
 "<vez>"
-	"bezañ" vblex prh p3 sg 
-;	"bez" n m sg 
-;	"mez" n f pl 
-;	"bezañ" vblex imp p2 sg 
+	"bezañ" vblex prh p3 sg @aux #10->11
 "<brudet>"
-	"brudañ" vblex pp
-	"brudiñ" vblex pp
-	"brudet" adj mf sp
-;	"brudañ" vblex imp p3 sg 
-;	"brudiñ" vblex imp p3 sg 
+	"brudañ" vblex pp @acl #12->8
 "<gant>"
-	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
+	"gant" pr @case #13->14
 "<pedadennoù>"
-	"pedadenn" n f pl
+	"pedadenn" n f pl @obl #14->12
 "<divyezhek>"
-	"divyezhek" adj mf sp
+	"divyezhek" adj mf sp #15->14
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->5
 
+# text = Gweladennoù ingal e brezhoneg evit an holl e kreizenn an arz a vremañ bep tro ma vez kinniget diskouezadegoù.
+# text[fra] = Des visites régulières en breton pour tous publics sont également organisées au centre d’art contemporain à l’occasion de chacune des expositions présentées.
 "<Gweladennoù>"
 	"gweladenn" n f pl
 "<ingal>"
@@ -20115,8 +20121,6 @@
 	"leon" n m sg
 "<zo>"
 	"bezañ" vblex pri p3 sg 
-;	"teiñ" vblex imp p2 sg 
-;	"teiñ" vblex pri p3 sg 
 "<kousket>"
 	"kousket" vblex inf
 	"kousket" vblex pp
@@ -20124,8 +20128,6 @@
 	"ouzh" pr @case
 "<ma>"
 	"ma" det pos mf sp
-;	"ma" ij 
-;	"ma" cnjsub 
 "<zreid>"
 	"troad" n m pl
 "<n'>"
@@ -20136,24 +20138,14 @@
 	"ket" adv 
 "<an>"
 	"an" det def sp 
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
 "<hini>"
-	"hini" adv 
 	"hini" prn ind mf sg
 "<emaout>"
 	"bezañ" vbloc pri p2 sg 
 "<o>"
 	"o" vpart ger 
-;	"o" ij 
-;	"o" n m sp 
-;	"o" det pos mf sp 
-;	"direct" prn obj p3 mf pl 
 "<klask>"
 	"klask" vblex inf 
-;	"klask" vblex imp p2 sg 
-;	"klask" n m sg 
-;	"klask" vblex pri p3 sg 
 "<.>"
 	"." sent @punct
 
