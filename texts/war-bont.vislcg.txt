@@ -93,7 +93,7 @@
 	"," cm @punct #4->6
 "<emezi>"
 	"eme" pr @case #5->6
-		"indirect" prn subj p3 f sg @parataxis #6->9
+		"indirect" prn obj p3 f sg @parataxis #6->9
 "<,>"
 	"," cm @punct #7->6
 "<zo>"
