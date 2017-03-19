@@ -17,6 +17,7 @@ speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
+texts/apertium.vislcg.txt -text
 texts/bre-feats.tsv -text
 texts/grammar.vislcg.txt -text
 texts/miscellaneous.txt -text

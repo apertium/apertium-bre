@@ -1,0 +1,7227 @@
+# text = N'int ket aet war-raok.
+# text[fra] = Ils n'ont pas progressé.
+"<N'>"
+	"ne" adv neg @advmod #1->4
+"<int>"
+	"bezañ" vblex pri p3 pl @aux #2->4
+"<ket>"
+	"ket" adv @advmod #3->4
+"<aet>"
+	"mont" vblex pp @root #4->0
+"<war-raok>"
+	"war-raok" adv @advmod #5->4
+"<.>"
+	"." sent @punct #6->4
+
+# text = N'eur ket aet war-raok.
+# text[fra] = On n'a pas progressé.
+"<N'>"
+	"ne" adv neg @advmod #1->4
+"<eur>"
+	"bezañ" vblex pri impers pl @aux #2->4
+"<ket>"
+	"ket" adv @advmod #3->4
+"<aet>"
+	"mont" vblex pp @root #4->0
+"<war-raok>"
+	"war-raok" adv @advmod #5->4
+"<.>"
+	"." sent @punct #5->4
+
+# text = Ne labour ket amañ.
+# text[fra] = Il ne travaille pas ici.
+"<Ne>"
+	"ne" adv neg @advmod #1->2
+"<labour>"
+	"labourat" vblex pri p3 sg @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<amañ>"
+	"amañ" adv @advmod #4->2
+"<.>"
+	"." sent @punct #5->2
+
+# text = Ne implij ket.
+# text[fra] = Il n'emploie pas.
+"<Ne>"
+	"ne" adv neg 
+"<implij>"
+	"implijout" vblex pri p3 sg
+"<ket>"
+	"ket" adv 
+"<.>"
+	"." sent @punct
+
+# text = Glav a ra.
+# text[fra] = Il pleut.
+"<Glav>"
+	"glav" n m sg @dep #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<ra>"
+	"ober" vblex pri p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Erc’h a ra.
+# text[fra] = Il neige.
+"<Erc’h>"
+	"erc’h" n m sg @dep #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<ra>"
+	"ober" vblex pri p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = O kanañ emañ.
+# text[fra] = Il est en train de chanter.
+"<O>"
+	"o" vpart ger @aux
+"<kanañ>"
+	"kanañ" vblex inf
+"<emañ>"
+	"bezañ" vbloc pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = O kanañ kreñv emañ.
+# text[fra] = Il est en train de chanter fort.
+"<O>"
+	"o" vpart ger @aux
+"<kanañ>"
+	"kanañ" vblex inf
+"<kreñv>"
+	"kreñv" adj mf sp
+"<emañ>"
+	"bezañ" vbloc pri p3 sg
+"<.>"
+	"." sent @punct
+
+# text = Debriñ a ran.
+# text[fra] = Je mange.
+"<Debriñ>"
+	"debriñ" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ran>"
+	"ober" vblex pri p1 sg @aux #3->1
+"<.>"
+	"." sent @punct #4->1
+
+# text = Graet he deus.
+# text[fra] = Elle a fait.
+"<Graet>"
+	"ober" vblex pp @root #1->0
+"<he deus>"
+	"kaout" vblex pri p3 f sg @aux #2->1
+"<.>" 
+	"." sent @punct #3->1
+
+# text = Lazhet eo bet.
+# text[fra] = Il a été tué.
+"<Lazhet>"
+	"lazhañ" vblex pp @root
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux
+"<bet>"
+	"bezañ" vblex pp @aux
+"<.>"
+	"." sent @punct
+
+# text = Dav e vije.
+# text[fra] = Il serait nécessaire.
+"<Dav>"
+	"dav" adj mf sp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<vije>"
+	"bezañ" vblex cip p3 sg @cop #3->1
+"<.>"
+	"." sent @punct #4->1
+
+# text = Evet en deus.
+# text[fra] = Il a bu.
+"<Evet>"
+	"evañ" vblex pp @root #1->0
+"<en deus>"
+	"kaout" vblex pri p3 m sg @aux #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Evet he deus.
+# text[fra] = Elle a bu.
+"<Evet>"
+	"evañ" vblex pp @root #1->0
+"<he deus>"
+	"kaout" vblex pri p3 f sg @aux #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Kerzhet hon eus e-pad 2 eurvezh.
+# text[fra] = Nous avons marché pendant 2 heures.
+"<Kerzhet>"
+	"kerzhout" vblex pp @root #1->0
+"<hon eus>"
+	"kaout" vblex pri p1 pl @aux #2->1
+"<e-pad>"
+	"e-pad" pr @case #3->5
+"<2>"
+	"2" num mf pl @nummod #4->5
+"<eurvezh>"
+	"eurvezh" n f sg @obl #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Lennet he devoa ur gontadenn d'he bugel.
+# text[fra] = Elle avait lu un conte à son enfant.
+"<Lennet>"
+	"lenn" vblex pp @root #1->0
+"<he devoa>"
+	"kaout" vblex pii p3 f sg @aux #2->1
+"<ur>"
+	"un" det ind sp @det #3->4
+"<gontadenn>"
+	"kontadenn" n f sg @obj #4->1
+"<d'he>"
+	"da" pr @case #5->7
+		"he" det pos f sp @det #6->7
+"<bugel>"
+	"bugel" n m sg @obl #7->1
+"<.>"
+	"." sent @punct #8->1
+
+# text = Bet hon eus kalz a draoù.
+# text[fra] = Nous avons eu beaucoup de choses.
+"<Bet>"
+	"kaout" vblex pp @root #1->0
+"<hon eus>"
+	"kaout" vblex pri p1 pl @aux #2->1
+"<kalz a>"
+	"kalz a" pr @det #3->4
+"<draoù>"
+	"tra" n m pl @obj #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# text = Bet em eus plijadur gant ar plac'h.
+# text[fra] = J'ai eu du plaisir avec la fille.
+"<Bet>"
+	"kaout" vblex pp @root #1->0
+"<em eus>"
+	"kaout" vblex pri p1 sg @aux #2->1
+"<plijadur>"
+	"plijadur" n f sg @obj #3->1
+"<gant>"
+	"gant" pr @case #4->6
+"<ar>"
+	"an" det def sp @det #5->6
+"<plac'h>"
+	"plac’h" n f sg @obl #6->1
+"<.>"
+	"." sent @punct #7->1
+
+# text = Klask a ran ober un dra bennak.
+# text[fra] = Je cherche à faire quelque chose.
+"<Klask>"
+	"klask" vblex inf
+;	"klask" vblex imp p2 sg 
+;	"klask" n m sg 
+;	"klask" vblex pri p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<un dra bennak>"
+	"un dra bennak" prn ind mf sg
+"<.>"
+	"." sent @punct
+
+# text = Klask a ran mont kuit.
+# text[fra] = J'essaie de partir.
+"<Klask>"
+	"klask" vblex inf
+;	"klask" vblex imp p2 sg 
+;	"klask" n m sg 
+;	"klask" vblex pri p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<mont kuit>"
+	"mont# kuit" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Emaon o vont da ginnig ac’hanout dezho.
+# text[fra] = Je vais te présenter à eux.
+"<Emaon>"
+	"bezañ" vbloc pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<vont>"
+	"mont" vblex inf
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" vblex pri p3 sg 
+;	"kinnig" n m sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Katell a zeuio da gomz.
+# text[fra] = Katell viendra parler.
+"<Katell>"
+	"Katell" np ant f sg
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<zeuio da>"
+	"dont# da" vblex fti p3 sg 
+"<gomz>"
+	"komz" vblex inf
+	"komz" n f sg
+;	"komz" vblex imp p2 sg 
+;	"komz" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da c'hoari.
+# text[fra] = Je vais jouer.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<c'hoari>"
+	"c’hoari" vblex inf
+;	"c’hoari" vblex imp p2 sg 
+;	"c’hoari" n m sg 
+;	"koarañ" vblex fti p2 sg 
+;	"c’hoari" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout dezhañ.
+# text[fra] = Je suis allé lui dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout anezhañ dit.
+# text[fra] = Je suis allé te le dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Bras eo ar paotr.
+# text[fra] = Le garçon est grand.
+"<Bras>"
+	"bras" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<paotr>"
+	"paotr" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Bras eo ti Herve.
+# text[fra] = La maison d'Herve est grande.
+"<Bras>"
+	"bras" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ti>"
+	"ti" n m sg
+"<Herve>"
+	"Herve" np ant m sg
+	"Herve" np cog mf sg
+"<.>"
+	"." sent @punct
+
+# text = Londrez eo kêr-benn Bro-Saoz.
+# text[fra] = Londres est la capitale de l'Angleterre.
+"<Londrez>"
+	"Londrez" np top sg
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<kêr-benn>"
+	"kêr#-p#enn" n f sg
+"<Bro-Saoz>"
+	"bro-Saoz" np top sg
+"<.>"
+	"." sent @punct
+
+# text = Pa vez anv a vont kuit.
+# text[fra] = Quand il est question de partir.
+"<Pa>"
+	"pa" cnjsub 
+"<vez anv a>"
+	"bezañ# anv a" vblex prh p3 sg 
+;	"bezañ# anv a" vblex imp p2 sg 
+"<vont kuit>"
+	"mont# kuit" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo dit dont.
+# text[fra] = Il faut que tu viennes.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo deomp dont.
+# text[fra] = Il faut que nous venions.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo deoc'h dont.
+# text[fra] = Il faut que vous veniez.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<deoc'h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo dezhañ dont.
+# text[fra] = Il faut qu'il vienne.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo dezhi dont.
+# text[fra] = Il faut qu'elle vienne.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo dezho dont.
+# text[fra] = Il faut qu'ils viennent.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ret eo d'an dud dont.
+# text[fra] = Il faut que les gens viennent.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<d'an>"
+	"da" pr
+		"an" det def sp
+"<dud>"
+	"den" n m pl
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Poent eo din mont.
+# text[fra] = Il est temps que j'y aille.
+"<Poent>"
+	"poent" n m sg
+;	"bezañ" vblex past p3 pl 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<din>"
+	"da" pr
+		"indirect" prn obj p1 mf sg
+;	"tin" n m sg 
+"<mont>"
+	"mont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Poent eo mont d'ar gêr.
+# text[fra] = Il est temps d'aller à la maison.
+"<Poent>"
+	"poent" n m sg
+;	"bezañ" vblex past p3 pl 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<mont d'ar gêr>"
+	"mont a ober# d’ar gêr" vblex inf
+	"mont a ober# da gaout" vblex inf
+	"mont a ober# da vakañsiñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Poent eo da Francis debriñ.
+# text[fra] = Il est temps que Francis mange.
+"<Poent>"
+	"poent" n m sg
+;	"bezañ" vblex past p3 pl 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<Francis>"
+	"Francis" np ant m sg
+"<debriñ>"
+	"debriñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Poent eo debriñ.
+# text[fra] = Il est temps de manger.
+"<Poent>"
+	"poent" n m sg
+;	"bezañ" vblex past p3 pl 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<debriñ>"
+	"debriñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = C’hwitellat a ra en ur labourat.
+# text[fra] = Il siffle en travaillant.
+"<C’hwitellat>"
+	"c’hwitellat" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<ra>"
+	"ober" vblex pri p3 sg 
+;	"ra" vpart opt @aux
+;	"ober" vblex imp p2 sg 
+"<en ur>"
+	"en ur" vpart ppres @aux
+;	"e" pr 
+;		"un" det ind sp
+"<labourat>"
+	"labourat" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Gwelet em eus ar c’hi en ur dreuziñ an hent.
+# text[fra] = J'ai vu le chien en traversant la route.
+"<Gwelet>"
+	"gwelout" vblex pp
+	"gwelet" vblex pp
+;	"gwelout" vblex imp p3 sg 
+;	"gwelet" vblex inf 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<c’hi>"
+	"ki" n m sg
+;	"kiañ" vblex imp p2 sg 
+;	"kiañ" vblex pri p3 sg 
+"<en ur>"
+	"en ur" vpart ppres @aux
+;	"e" pr 
+;		"un" det ind sp
+"<dreuziñ>"
+	"treuziñ" vblex inf
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<hent>"
+	"hent" n m sg
+;	"hentañ" vblex imp p2 sg 
+;	"hentañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Bez' hor bo muioc'h a amzer warc'hoazh.
+# text[fra] = Nous aurons plus de temps demain.
+"<Bez'>"
+	"bezañ" vblex inf
+"<hor bo>"
+	"kaout" vblex fti p1 pl 
+"<muioc'h a>"
+	"muioc’h a" pr
+"<amzer>"
+	"amzer" n f sg
+"<warc'hoazh>"
+	"warc’hoazh" adv 
+"<.>"
+	"." sent @punct
+
+# text = Emaon o paouez echuiñ ma levr.
+# text[fra] = Je viens de finir mon livre.
+"<Emaon o paouez>"
+	"bezañ# o paouez" vbloc pri p1 sg 
+"<echuiñ>"
+	"echuiñ" vblex inf
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij 
+;	"ma" cnjsub 
+"<levr>"
+	"levr" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Krog on da gompren.
+# text[fra] = Je commence à comprendre.
+"<Krog>"
+	"krog" n m sg
+	"krog" adj mf sp
+;	"krogiñ" vblex imp p2 sg 
+;	"kregiñ" vblex imp p2 sg 
+;	"krogiñ" vblex pri p3 sg 
+;	"kregiñ" vblex pri p3 sg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<gompren>"
+	"kompren" vblex inf
+;	"kompren" vblex imp p2 sg 
+;	"kompren" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Fellout a ra dezhañ ma advevo yezh e vro.
+# text[fra] = Il veut que revive la langue de son pays.
+"<Fellout>"
+	"fellout" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<ra>"
+	"ober" vblex pri p3 sg 
+;	"ra" vpart opt @aux
+;	"ober" vblex imp p2 sg 
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<ma>"
+	"ma" cnjsub 
+;	"ma" det pos mf sp 
+;	"ma" ij 
+"<advevo>"
+	"advevañ" vblex fti p3 sg 
+"<yezh>"
+	"yezh" n f sg
+	"yezh" adj mf sp
+"<e>"
+	"e" det pos m sp 
+;	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" pr 
+;	"e" n m sp 
+"<vro>"
+	"bro" n f sg
+"<.>"
+	"." sent @punct
+
+# text = Ne oar ket.
+# text[fra] = Il ne sait pas.
+"<Ne>"
+	"ne" adv neg 
+"<oar>"
+	"gouzout" vblex pri p3 sg 
+"<ket>"
+	"ket" adv 
+"<.>"
+	"." sent @punct
+
+# text = Distagañ a reas ar chadenn aour.
+# text[fra] = Il détacha la chaîne en or.
+"<Distagañ>"
+	"distagañ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<reas>"
+	"ober" vblex past p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<chadenn>"
+	"chadenn" n f sg
+;	"chadennañ" vblex imp p2 sg 
+;	"chadennañ" vblex pri p3 sg 
+"<aour>"
+	"aour" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Ne ra ket glav.
+# text[fra] = Il ne pleut pas.
+"<Ne>"
+	"ne" adv neg 
+"<ra>"
+	"ober" vblex pri p3 sg 
+;	"ra" vpart opt @aux
+;	"ober" vblex imp p2 sg 
+"<ket>"
+	"ket" adv 
+"<glav>"
+	"glav" n m sg
+;	"klav" n m sg 
+"<.>"
+	"." sent @punct
+
+# text = N'eo ket bet lazhet.
+# text[fra] = Il n'a pas été tué.
+"<N'>"
+	"ne" adv neg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ket>"
+	"ket" adv 
+"<bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<lazhet>"
+	"lazhañ" vblex pp
+;	"lazhañ" vblex imp p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = N'he deus ket graet.
+# text[fra] = Elle n'a pas fait.
+"<N'>"
+	"ne" adv neg 
+"<he deus>"
+	"kaout" vblex pri p3 f sg 
+"<ket>"
+	"ket" adv 
+"<graet>"
+	"ober" vblex pp
+;	"ober" vblex imp p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = N'em eus ket roet.
+# text[fra] = Je n'ai pas donné.
+"<N'>"
+	"ne" adv neg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = N'hon eus ket bet kalz a draoù.
+# text[fra] = Nous n'avons pas eu beaucoup de choses.
+"<N'>"
+	"ne" adv neg 
+"<hon eus>"
+	"kaout" vblex pri p1 pl 
+"<ket>"
+	"ket" adv 
+"<bet>"
+	"kaout" vblex pp 
+;	"pet" prn itg mf sp 
+;	"bezañ" vblex pp 
+"<kalz a>"
+	"kalz a" pr
+"<draoù>"
+	"tra" n m pl
+"<.>"
+	"." sent @punct
+
+# text = Ne zeuio ket Katell da gomz.
+# text[fra] = Katell ne viendra pas parler.
+"<Ne>"
+	"ne" adv neg 
+"<zeuio>"
+	"dont" vblex fti p3 sg 
+"<ket>"
+	"ket" adv 
+"<Katell>"
+	"Katell" np ant f sg
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<gomz>"
+	"komz" vblex inf
+;	"komz" vblex imp p2 sg 
+;	"komz" vblex pri p3 sg 
+;	"komz" n f sg 
+"<.>"
+	"." sent @punct
+
+# text = N'ez an ket da labourat.
+# text[fra] = Je ne vais pas travailler.
+"<N'>"
+	"ne" adv neg 
+"<ez>"
+	"e" vpart obj @aux
+;	"mont" vblex pri p2 sg 
+;	"monet" vblex pri p2 sg 
+;	"e" pr 
+;		"da" det pos mf sp
+"<an>"
+	"mont" vblex pri p1 sg 
+	"monet" vblex pri p1 sg 
+;	"an" det def sp 
+"<ket>"
+	"ket" adv 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<labourat>"
+	"labourat" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = N'on ket bet o lavarout dezhañ.
+# text[fra] = Je ne suis pas allé lui dire.
+"<N'>"
+	"ne" adv neg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = N'emañ ket ar vugale o tebriñ.
+# text[fra] = Les enfants ne sont pas en train de manger.
+"<N'>"
+	"ne" adv neg 
+"<emañ>"
+	"bezañ" vbloc pri p3 sg 
+"<ket>"
+	"ket" adv 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<vugale>"
+	"bugel" n m pl
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<tebriñ>"
+	"debriñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Ne c’hallan ket ober an dra-se.
+# text[fra] = Je ne peux pas faire cette chose.
+"<Ne>"
+	"ne" adv neg 
+"<c’hallan>"
+	"gallout" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<dra>"
+	"tra" n m sg
+"<-se>"
+	"se" adv 
+"<.>"
+	"." sent @punct
+
+# text = N'em eus ket roet anezhañ dezhañ.
+# text[fra] = Je ne le lui ai pas donné.
+"<N'>"
+	"ne" adv neg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Ne welin ket ac'hanoc'h.
+# text[fra] = Je ne vous verrai pas.
+"<Ne>"
+	"ne" adv neg 
+"<welin>"
+	"gwelet" vblex fti p1 sg 
+	"gwelout" vblex fti p1 sg 
+"<ket>"
+	"ket" adv 
+"<ac'hanoc'h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Ne garan ket ac’hanout.
+# text[fra] = Je ne t'aime pas.
+"<Ne>"
+	"ne" adv neg 
+"<garan>"
+	"garanañ" vblex pri p3 sg 
+;	"garan" n f sg 
+;	"garanañ" vblex imp p2 sg 
+;	"kariñ" vblex pri p1 sg 
+;	"karout" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = N'on ket bet o kinnig anezhi dezhi.
+# text[fra] = Je ne suis pas allé la lui présenter.
+"<N'>"
+	"ne" adv neg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = N'ouzon ket.
+# text[fra] = Je ne sais pas.
+"<N'>"
+	"ne" adv neg 
+"<ouzon>"
+	"gouzout" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<.>"
+	"." sent @punct
+
+# text = N'ouzon ket mui.
+# text[fra] = Je ne sais plus.
+"<N'>"
+	"ne" adv neg 
+"<ouzon>"
+	"gouzout" vblex pri p1 sg 
+"<ket mui>"
+	"ket mui" adv 
+"<.>"
+	"." sent @punct
+
+# text = N'ouzon ket ken.
+# text[fra] = Je ne sais plus.
+"<N'>"
+	"ne" adv neg 
+"<ouzon>"
+	"gouzout" vblex pri p1 sg 
+"<ket ken>"
+	"ket ken" adv 
+"<.>"
+	"." sent @punct
+
+# text = N'ouzon ket petra ober.
+# text[fra] = Je ne sais pas quoi faire.
+"<N'>"
+	"ne" adv neg 
+"<ouzon>"
+	"gouzout" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<petra>"
+	"petra" prn itg mf sp
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<.>"
+	"." sent @punct
+
+# text = Ne vefe hentad divyezhek ebet er Releg-Kerhuon.
+# text[fra] = Il n'y aurait pas de filière bilingue au Relecq-Kerhuon.
+"<Ne>"
+	"ne" adv neg 
+"<vefe>"
+	"bezañ" vblex cni p3 sg 
+"<hentad divyezhek>"
+	"hentad# divyezhek" n m sg
+"<ebet>"
+	"ebet" adv 
+"<er Releg-Kerhuon>"
+	"e" pr
+		"Ar Releg-Kerhuon" np top sg
+"<.>"
+	"." sent @punct
+
+# text = Sellout a ra ouzh ur plac’h.
+# text[fra] = Il regarde une fille.
+"<Sellout a ra ouzh>"
+	"sellout a ober# ouzh" vblex pri p3 sg 
+;	"sellout a ober# ouzh" vblex imp p2 sg 
+"<ur>"
+	"un" det ind sp
+"<plac’h>"
+	"plac’h" n f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanout.
+# text[fra] = Je suis allé te présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanomp.
+# text[fra] = Je suis allé nous présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanoc’h.
+# text[fra] = Je suis allé vous présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ.
+# text[fra] = Je suis allé le présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi.
+# text[fra] = Je suis allé la présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezho.
+# text[fra] = Je suis allé les présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout dit.
+# text[fra] = Je suis allé te dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout deomp.
+# text[fra] = Je suis allé nous dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout deoc'h.
+# text[fra] = Je suis allé vous dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<deoc'h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout dezhañ.
+# text[fra] = Je suis allé lui dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout dezhi.
+# text[fra] = Je suis allé lui dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o lavarout dezho.
+# text[fra] = Je suis allé leur dire.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<lavarout>"
+	"lavarout" vblex inf
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanout dezhañ.
+# text[fra] = Je suis allé te présenter à lui.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanout dezhi.
+# text[fra] = Je suis allé te présenter à elle.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanout dezhe.
+# text[fra] = Je suis allé te présenter à eux.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanomp dezhañ.
+# text[fra] = Je suis allé nous présenter à lui.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanomp dezhi.
+# text[fra] = Je suis allé nous présenter à elle.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanomp dezhe.
+# text[fra] = Je suis allé nous présenter à eux.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanomp dezho.
+# text[fra] = Je suis allé nous présenter à eux.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanoc’h dezhañ.
+# text[fra] = Je suis allé vous présenter à lui.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanoc’h dezhi.
+# text[fra] = Je suis allé vous présenter à elle.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanoc’h deomp.
+# text[fra] = Je suis allé vous présenter à nous.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig ac’hanoc’h dezhe.
+# text[fra] = Je suis allé vous présenter à eux.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ dit.
+# text[fra] = Je suis allé te le présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ dezhi.
+# text[fra] = Je suis allé le lui présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ dezhañ.
+# text[fra] = Je suis allé le lui présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ deomp.
+# text[fra] = Je suis allé nous le présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ deoc’h.
+# text[fra] = Je suis allé vous le présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ dezhe.
+# text[fra] = Je suis allé le leur présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhañ dezho.
+# text[fra] = Je suis allé le leur présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi dit.
+# text[fra] = Je suis allé te la présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi dezhañ.
+# text[fra] = Je suis allé la lui présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi dezhi.
+# text[fra] = Je suis allé la lui présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi deomp.
+# text[fra] = Je suis allé nous la présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi deoc’h.
+# text[fra] = Je suis allé vous la présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi dezhe.
+# text[fra] = Je suis allé la leur présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezhi dezho.
+# text[fra] = Je suis allé la leur présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezho dit.
+# text[fra] = Je suis allé te les présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezho dezhañ.
+# text[fra] = Je suis allé les lui présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezho dezhi.
+# text[fra] = Je suis allé les lui présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezho deoc’h.
+# text[fra] = Je suis allé vous les présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Bet on o kinnig anezho dezhe.
+# text[fra] = Je suis allé les leur présenter.
+"<Bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<kinnig>"
+	"kinnig" vblex inf 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanout.
+# text[fra] = Je vais te présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanomp.
+# text[fra] = Je vais nous présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanoc’h.
+# text[fra] = Je vais vous présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ.
+# text[fra] = Je vais le présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi.
+# text[fra] = Je vais la présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezho.
+# text[fra] = Je vais les présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin anezhañ dimerc’her kentañ.
+# text[fra] = Je le verrai mercredi prochain.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dimerc’her kentañ>"
+	"dimerc’her kentañ" adv 
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin ac’hanout.
+# text[fra] = Je te verrai.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin ac’hanomp.
+# text[fra] = Je nous verrai.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin ac’hanoc’h.
+# text[fra] = Je vous verrai.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin anezhañ.
+# text[fra] = Je le verrai.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin anezhi.
+# text[fra] = Je la verrai.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Gwelet a rin anezho.
+# text[fra] = Je les verrai.
+"<Gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Karout a ran ac’hanout.
+# text[fra] = Je t'aime.
+"<Karout>"
+	"karout" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Al labour a vo kinniget deoc’h.
+# text[fra] = Le travail vous sera présenté.
+"<Al>"
+	"an" det def sp
+"<labour>"
+	"labour" n m sg 
+;	"labourat" vblex pri p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<vo>"
+	"bezañ" vblex fti p3 sg 
+"<kinniget>"
+	"kinnig" vblex pp
+;	"kinnig" vblex imp p3 sg 
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanout dezhañ.
+# text[fra] = Je t'ai donné à lui.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanout dezhi.
+# text[fra] = Je t'ai donné à elle.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanout dezhe.
+# text[fra] = Je t'ai donné à eux.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanomp dezhañ.
+# text[fra] = Je nous ai donné à lui.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanomp dezhi.
+# text[fra] = Je nous ai donné à elle.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanomp deoc’h.
+# text[fra] = Je nous ai donné à vous.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanomp dezhe.
+# text[fra] = Je nous ai donné à eux.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanomp dezho.
+# text[fra] = Je nous ai donné à eux.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanoc’h dezhañ.
+# text[fra] = Je vous ai donné à lui.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanoc’h dezhi.
+# text[fra] = Je vous ai donné à elle.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanoc’h deomp.
+# text[fra] = Je vous ai donné à nous.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus ac’hanoc’h dezhe.
+# text[fra] = Je vous ai donné à eux.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ dit.
+# text[fra] = Je te l'ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ dezhi.
+# text[fra] = Je le lui ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ dezhañ.
+# text[fra] = Je le lui ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ deomp.
+# text[fra] = Je nous l'ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ deoc’h.
+# text[fra] = Je vous l'ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ dezhe.
+# text[fra] = Je le leur ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhañ dezho.
+# text[fra] = Je le leur ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi dit.
+# text[fra] = Je te l'ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi dezhañ.
+# text[fra] = Je la lui ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi dezhi.
+# text[fra] = Je la lui ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi deomp.
+# text[fra] = Je nous l'ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi deoc’h.
+# text[fra] = Je vous l'ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi dezhe.
+# text[fra] = Je la leur ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezhi dezho.
+# text[fra] = Je la leur ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezho dit.
+# text[fra] = Je te les ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezho dezhañ.
+# text[fra] = Je les lui ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezho dezhi.
+# text[fra] = Je les lui ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezho deoc’h.
+# text[fra] = Je vous les ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Roet em eus anezho dezhe.
+# text[fra] = Je les leur ai donné.
+"<Roet>"
+	"roiñ" vblex pp
+	"reiñ" vblex pp
+;	"roiñ" vblex imp p3 sg 
+;	"reiñ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanout dezhañ.
+# text[fra] = Te donner à lui.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanout dezhi.
+# text[fra] = Te donner à elle.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanout dezhe.
+# text[fra] = Te donner à eux.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanomp dezhañ.
+# text[fra] = Nous donner à lui.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanomp dezhi.
+# text[fra] = Nous donner à elle.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanomp deoc’h.
+# text[fra] = Nous donner à vous.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanomp dezhe.
+# text[fra] = Nous donner à eux.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanomp dezho.
+# text[fra] = Nous donner à eux.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanoc’h dezhañ.
+# text[fra] = Vous donner à lui.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanoc’h dezhi.
+# text[fra] = Vous donner à elle.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanoc’h deomp.
+# text[fra] = Vous donner à nous.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Reiñ ac’hanoc’h dezhe.
+# text[fra] = Vous donner à eux.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ dit.
+# text[fra] = Te le donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ dezhi.
+# text[fra] = Le lui donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ dezhañ.
+# text[fra] = Le lui donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ deomp.
+# text[fra] = Nous le donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ deoc’h.
+# text[fra] = Vous le donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ dezhe.
+# text[fra] = Le leur donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhañ dezho.
+# text[fra] = Le leur donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi dit.
+# text[fra] = Te la donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi dezhañ.
+# text[fra] = La lui donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi dezhi.
+# text[fra] = La lui donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi deomp.
+# text[fra] = Nous la donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi deoc’h.
+# text[fra] = Vous la donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi dezhe.
+# text[fra] = La leur donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezhi dezho.
+# text[fra] = La leur donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezho dit.
+# text[fra] = Te les donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezho dezhañ.
+# text[fra] = Les lui donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezho dezhi.
+# text[fra] = Les lui donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezho deoc’h.
+# text[fra] = Vous les donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Reiñ anezho dezhe.
+# text[fra] = Les leur donner.
+"<Reiñ>"
+	"reiñ" vblex inf
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanout dezhañ.
+# text[fra] = Je vais te présenter à lui.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanout dezhi.
+# text[fra] = Je vais te présenter à elle.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanout dezhe.
+# text[fra] = Je vais te présenter à eux.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanout>"
+	"direct" prn obj p2 mf sg 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanomp dezhañ.
+# text[fra] = Je vais nous présenter à lui.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanomp dezhi.
+# text[fra] = Je vais nous présenter à elle.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanomp deoc’h.
+# text[fra] = Je vais nous présenter à vous.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanomp dezhe.
+# text[fra] = Je vais nous présenter à eux.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanomp dezho.
+# text[fra] = Je vais nous présenter à eux.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanomp>"
+	"direct" prn obj p1 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p1 mf pl
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanoc’h dezhañ.
+# text[fra] = Je vais vous présenter à lui.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanoc’h dezhi.
+# text[fra] = Je vais vous présenter à elle.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanoc’h deomp.
+# text[fra] = Je vais vous présenter à nous.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig ac’hanoc’h dezhe.
+# text[fra] = Je vais vous présenter à eux.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<ac’hanoc’h>"
+	"direct" prn obj p2 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p2 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ dit.
+# text[fra] = Je vais te le présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ dezhi.
+# text[fra] = Je vais le lui présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ dezhañ.
+# text[fra] = Je vais le lui présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ deomp.
+# text[fra] = Je vais nous le présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ deoc’h.
+# text[fra] = Je vais vous le présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ dezhe.
+# text[fra] = Je vais le leur présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhañ dezho.
+# text[fra] = Je vais le leur présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhañ>"
+	"direct" prn obj p3 m sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 m sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi dit.
+# text[fra] = Je vais te la présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi dezhañ.
+# text[fra] = Je vais la lui présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi dezhi.
+# text[fra] = Je vais la lui présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi deomp.
+# text[fra] = Je vais nous la présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi deoc’h.
+# text[fra] = Je vais vous la présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi dezhe.
+# text[fra] = Je vais la leur présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezhi dezho.
+# text[fra] = Je vais la leur présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezhi>"
+	"direct" prn obj p3 f sg 
+;	"eus" pr 
+;		"indirect" prn obj p3 f sg
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezho dit.
+# text[fra] = Je vais te les présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezho dezhañ.
+# text[fra] = Je vais les lui présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhañ>"
+	"da" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezho dezhi.
+# text[fra] = Je vais les lui présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezho deoc’h.
+# text[fra] = Je vais vous les présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<deoc’h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Mont a ran da ginnig anezho dezhe.
+# text[fra] = Je vais les leur présenter.
+"<Mont a ran>"
+	"mont a ober" vblex pri p1 sg 
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<ginnig>"
+	"kinnig" vblex inf
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex pri p3 sg 
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<dezhe>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Me am eus kanet.
+# text[fra] = J'ai chanté.
+"<Me>"
+	"prpers" prn subj p1 mf sg @X MAP:943
+"<am eus>"
+	"kaout" vblex pri p1 sg 
+"<kanet>"
+	"kanal" vblex pp
+	"kanañ" vblex pp
+	"kaniñ" vblex pp
+;	"kanal" vblex imp p3 sg 
+;	"kanañ" vblex imp p3 sg 
+;	"kaniñ" vblex imp p3 sg 
+;	"genel" vblex imp p3 sg 
+;	"genel" vblex pp 
+"<.>"
+	"." sent @punct
+
+# text = An amzer zo brav.
+# text[fra] = Le temps est beau.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<amzer>"
+	"amzer" n f sg
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<brav>"
+	"brav" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Ni a ro al laezh da Vari.
+# text[fra] = Nous donnons le lait à Mari.
+"<Ni>"
+	"prpers" prn subj p1 mf pl @SUBJ→ MAP:937
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<ro>"
+	"roiñ" vblex pri p3 sg 
+	"reiñ" vblex pri p3 sg 
+;	"roiñ" vblex imp p2 sg 
+;	"reiñ" vblex imp p2 sg 
+;	"ro" n m sg 
+"<al>"
+	"an" det def sp
+"<laezh>"
+	"laezh" n m sg
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<Vari>"
+	"Mari" n m sg 
+;	"Mari" np ant f sg 
+"<.>"
+	"." sent @punct
+
+# text = Yann a zeuy hag a ray ur brezegenn.
+# text[fra] = Yann viendra et il fera un discours.
+"<Yann>"
+	"Yann" np ant m sg
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<zeuy>"
+	"dont" vblex fti p3 sg 
+"<hag>"
+	"ha" cnjcoo
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<ray>"
+	"ober" vblex fti p3 sg 
+"<ur>"
+	"un" det ind sp
+"<brezegenn>"
+	"prezegenn" n f sg
+;	"prezegenniñ" vblex imp p2 sg 
+;	"prezegenniñ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Deskiñ a reer traoù amañ.
+# text[fra] = On apprend des choses ici.
+"<Deskiñ>"
+	"deskiñ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<reer>"
+	"ober" vblex pri impers sp 
+"<traoù>"
+	"tra" n m pl
+"<amañ>"
+	"amañ" adv 
+"<.>"
+	"." sent @punct
+
+# text = Dilun beure e welin ar maer da 11 eur.
+# text[fra] = Lundi matin je verrai le maire à 11 heures.
+"<Dilun>"
+	"dilun" adv 
+"<beure>"
+	"beure" n m sg
+;	"peuriñ" vblex pii p3 sg 
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<welin>"
+	"gwelet" vblex fti p1 sg 
+	"gwelout" vblex fti p1 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<maer>"
+	"maer" n m sg
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<11>"
+	"11" num mf pl
+"<eur>"
+	"eur" n f sg
+;	"bezañ" vblex pri impers pl 
+"<.>"
+	"." sent @punct
+
+# text = Debriñ a ran un aval.
+# text[fra] = Je mange une pomme.
+"<Debriñ>"
+	"debriñ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<un>"
+	"un" det ind sp
+"<aval>"
+	"aval" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Ober a ra ur wastell.
+# text[fra] = Il fait un gâteau.
+"<Ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<ra>"
+	"ober" vblex pri p3 sg 
+;	"ra" vpart opt @aux
+;	"ober" vblex imp p2 sg 
+"<ur>"
+	"un" det ind sp
+"<wastell>"
+	"gwastell" n f sg
+"<.>"
+	"." sent @punct
+
+# text = Ober a ra gwestell.
+# text[fra] = Il fait des gâteaux.
+"<Ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<ra>"
+	"ober" vblex pri p3 sg 
+;	"ra" vpart opt @aux
+;	"ober" vblex imp p2 sg 
+"<gwestell>"
+	"gwastell" n f pl
+"<.>"
+	"." sent @punct
+
+# text = Emañ ar vugale o tebriñ.
+# text[fra] = Les enfants sont en train de manger.
+"<Emañ>"
+	"bezañ" vbloc pri p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<vugale>"
+	"bugel" n m pl
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<tebriñ>"
+	"debriñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = O redek un tamm pep lec’h emaint.
+# text[fra] = Ils sont en train de courir un peu partout.
+"<O>"
+	"o" vpart ger @aux
+;	"o" det pos mf sp 
+;	"o" ij 
+;	"o" n m sp 
+;	"direct" prn obj p3 mf pl 
+"<redek>"
+	"redek" vblex inf
+"<un tamm pep lec’h>"
+	"un tamm pep lec’h" adv 
+"<emaint>"
+	"bezañ" vbloc pri p3 pl 
+"<.>"
+	"." sent @punct
+
+# text = Tad Yann eo ma eontr.
+# text[fra] = Le père de Yann est mon oncle.
+"<Tad>"
+	"tad" n m sg
+"<Yann>"
+	"Yann" np ant m sg
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij 
+;	"ma" cnjsub 
+"<eontr>"
+	"eontr" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Ma teuez ganin.
+# text[fra] = Si tu viens avec moi.
+"<Ma>"
+	"ma" cnjsub 
+;	"ma" det pos mf sp 
+;	"ma" ij 
+"<teuez>"
+	"dont" vblex pri p2 sg 
+"<ganin>"
+	"gant" pr
+		"indirect" prn obj p1 mf sg
+;	"kanal" vblex fti p1 sg 
+;	"kaniñ" vblex fti p1 sg 
+;	"kanañ" vblex fti p1 sg 
+;	"genel" vblex fti p1 sg 
+"<.>"
+	"." sent @punct
+
+# text = Tangi a zo bet kaset dirak al lez-varn.
+# text[fra] = Tangi a été envoyé devant le tribunal.
+"<Tangi>"
+	"Tangi" np ant m sg
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<kaset>"
+	"kas" vblex pp
+;	"kas" vblex imp p3 sg 
+"<dirak>"
+	"dirak" pr
+"<al>"
+	"an" det def sp
+"<lez-varn>"
+	"lez#-b#arn" n f sg
+"<.>"
+	"." sent @punct
+
+# text = Gallout a ran ober an dra-se.
+# text[fra] = Je peux faire cette chose.
+"<Gallout>"
+	"gallout" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<dra>"
+	"tra" n m sg
+"<-se>"
+	"se" adv 
+"<.>"
+	"." sent @punct
+
+# text = Ar vugale a rede buan.
+# text[fra] = Les enfants couraient vite.
+"<Ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<vugale>"
+	"bugel" n m pl
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rede>"
+	"redek" vblex pii p3 sg 
+"<buan>"
+	"buan" adv 
+	"buan" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Ar serc’hed en em starde.
+# text[fra] = Les amants se serraient.
+"<Ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<serc’hed>"
+	"serc’h" n mf pl
+"<en em>"
+	"en em" vpart ref @aux
+"<starde>"
+	"stardañ" vblex pii p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Jean Pierre Cluzel, Prezidant Radio France a oa e Kemper d'ar 6 a viz Here evit sinañ an emglev Ya d’ar Brezhoneg.
+# text[fra] = Jean Pierre Cluzel, le Président de Radio France était à Quimper le 6 octobre pour signer l'accord Ya d’ar Brezhoneg.
+"<Jean>"
+	"Jean" np ant m sg 
+;	"jean" n m sg 
+"<Pierre>"
+	"Pierre" np ant m sg
+"<Cluzel>"
+	"Cluzel" np cog mf sg
+"<,>"
+	"," cm @punct
+"<Prezidant>"
+	"prezidant" n m sg
+"<Radio France>"
+	"Radio France" np al mf sg
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<oa>"
+	"bezañ" vblex pii p3 sg 
+"<e>"
+	"e" pr 
+;	"e" det pos m sp 
+;	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" n m sp 
+"<Kemper>"
+	"Kemper" np top sg
+"<d'ar>"
+	"da" pr
+		"an" det def sp
+"<6>"
+	"6" num mf pl
+"<a>"
+	"a" pr 
+;	"a" vpart @aux
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"mont" vblex pri p3 sg 
+;	"a" n m sp 
+"<viz Here>"
+	"miz Here" n m sp
+"<evit>"
+	"evit" pr
+;	"evañ" vblex imp p2 pl 
+;	"evañ" vblex pri p2 pl 
+"<sinañ>"
+	"sinañ" vblex inf
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<emglev>"
+	"emglev" n m sg
+"<Ya d’ar Brezhoneg>"
+	"Ya d’ar Brezhoneg" np al mf sg
+"<.>"
+	"." sent @punct
+
+# text = Hiziv, pep tra a cheñch fonnus.
+# text[fra] = Aujourd’hui, tout change vite.
+"<Hiziv>"
+	"hiziv" adv 
+"<,>"
+	"," cm @punct
+"<pep tra>"
+	"pep tra" prn def mf sg
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<cheñch>"
+	"cheñch" vblex pri p3 sg 
+;	"cheñch" vblex imp p2 sg 
+;	"cheñch" vblex inf 
+"<fonnus>"
+	"fonnus" adv 
+	"fonnus" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Ar stad zo unan eus stummoù aozadur politikel ur vro.
+# text[fra] = L'état est une des formes d'organisation politique d'un pays.
+"<Ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<stad>"
+	"stad" n f sg
+;	"stadañ" vblex imp p2 sg 
+;	"stadañ" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<unan>"
+	"unan" num mf sg
+;	"unaniñ" vblex imp p2 sg 
+;	"unaniñ" vblex pri p3 sg 
+"<eus>"
+	"eus" pr
+;	"bezañ" vblex pri p3 sg 
+"<stummoù>"
+	"stumm" n m pl
+"<aozadur>"
+	"aozadur" n m sg
+"<politikel>"
+	"politikel" adj mf sp
+"<ur>"
+	"un" det ind sp
+"<vro>"
+	"bro" n f sg
+"<.>"
+	"." sent @punct
+
+# text = Skrivañ a ran da Erwan Le Bourdonnec.
+# text[fra] = J'écris à Erwan Le Bourdonnec.
+"<Skrivañ>"
+	"skrivañ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<Erwan Le Bourdonnec>"
+	"Erwan Le Bourdonnec" np ant mf sg
+"<.>"
+	"." sent @punct
+
+# text = An Emvod Meur en deus votet evit dilenn ar C’huzul-Merañ.
+# text[fra] = L'Assemblée générale a voté pour élire le Conseil d’administration.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<Emvod Meur>"
+	"emvod#-meur" n m sg
+"<en deus>"
+	"kaout" vblex pri p3 m sg 
+"<votet>"
+	"votiñ" vblex pp
+;	"votiñ" vblex imp p3 sg 
+"<evit>"
+	"evit" pr
+;	"evañ" vblex imp p2 pl 
+;	"evañ" vblex pri p2 pl 
+"<dilenn>"
+	"dilenn" vblex inf
+;	"dilenn" vblex imp p2 sg 
+;	"dilenn" vblex pri p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<C’huzul-Merañ>"
+	"kuzul#-merañ" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Enskrivadurioù ar studierien a vo degemeret etre an 29 a viz Meurzh hag an 9 a viz Ebrel.
+# text[fra] = Les inscriptions des étudiants seront accueillies entre le 29 mars et le 9 avril.
+"<Enskrivadurioù>"
+	"enskrivadur" n m pl
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<studierien>"
+	"studier" n m pl
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<vo>"
+	"bezañ" vblex fti p3 sg 
+"<degemeret>"
+	"degemer" vblex pp
+;	"degemer" vblex imp p3 sg 
+"<etre>"
+	"etre" pr
+	"etre" adj mf sp
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<29>"
+	"29" num mf pl
+"<a>"
+	"a" pr 
+;	"a" vpart @aux
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"mont" vblex pri p3 sg 
+;	"a" n m sp 
+"<viz Meurzh>"
+	"miz Meurzh" n m sp
+"<hag>"
+	"ha" cnjcoo
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<9>"
+	"9" num mf pl
+"<a>"
+	"a" pr 
+;	"a" vpart @aux
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"mont" vblex pri p3 sg 
+;	"a" n m sp 
+"<viz Ebrel>"
+	"miz Ebrel" n m sp
+"<.>"
+	"." sent @punct
+
+# text = Ober a rin se ma-unan.
+# text[fra] = Je ferai ça moi-même.
+"<Ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<se>"
+	"se" prn dem mf sg @X MAP:943
+"<ma-unan>"
+	"direct" prn ref p1 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Ober a raio se e-unan.
+# text[fra] = Il fera ça lui-même.
+"<Ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<raio>"
+	"ober" vblex fti p3 sg 
+"<se>"
+	"se" prn dem mf sg @X MAP:943
+"<e-unan>"
+	"direct" prn ref p3 m sg
+"<.>"
+	"." sent @punct
+
+# text = Ober a raio se hec’h-unan.
+# text[fra] = Elle fera ça elle-même.
+"<Ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<raio>"
+	"ober" vblex fti p3 sg 
+"<se>"
+	"se" prn dem mf sg @X MAP:943
+"<hec’h-unan>"
+	"direct" prn ref p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Troc’het em eus ma biz bihan.
+# text[fra] = Je me suis coupé le petit doigt.
+"<Troc’het>"
+	"troc’hañ" vblex pp
+;	"troc’hañ" vblex imp p3 sg 
+"<em eus>"
+	"kaout" vblex pri p1 sg 
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij 
+;	"ma" cnjsub 
+"<biz>"
+	"biz" n m sg 
+;	"bizañ" vblex imp p2 sg 
+;	"piz" n f pl 
+;	"bizañ" vblex pri p3 sg 
+"<bihan>"
+	"bihan" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Dec'h en doa klasket ar c'henstrollad "Rusia Arall" manifestiñ war plasenn Trioumfalnaia.
+# text[fra] = Hier, le collectif "Une Autre Russie" avait essayé de manifester sur la place Trioumfalnaia.
+"<Dec'h>"
+	"dec’h" adv 
+;	"tec’hout" vblex imp p2 sg 
+;	"tec’hout" vblex pri p3 sg 
+"<en doa>"
+	"kaout" vblex pii p3 m sg 
+"<klasket>"
+	"klask" vblex pp
+;	"klask" vblex imp p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<c'henstrollad>"
+	"
+;	"kenstrollad" n m sg 
+"<Rusia>"
+	"Rusia" np top sg
+"<Arall>"
+	"arall" adj ind mf sp
+" 
+"<manifestiñ>"
+	"manifestiñ" vblex inf
+"<war>"
+	"war" pr
+;	"gwar" n m sg 
+"<plasenn>"
+	"plasenn" n f sg
+"<Trioumfalnaia>"
+	"*Trioumfalnaia"
+"<.>"
+	"." sent @punct
+
+# text = Chañs am eus bet.
+# text[fra] = J'ai eu de la chance.
+"<Chañs>"
+	"chañs" n f sg
+"<am eus>"
+	"kaout" vblex pri p1 sg 
+"<bet>"
+	"kaout" vblex pp 
+;	"pet" prn itg mf sp 
+;	"bezañ" vblex pp 
+"<.>"
+	"." sent @punct
+
+# text = Ur prof am eus bet.
+# text[fra] = J'ai eu un cadeau.
+"<Ur>"
+	"un" det ind sp
+"<prof>"
+	"prof" n m sg
+;	"profañ" vblex imp p2 sg 
+;	"profañ" vblex pri p3 sg 
+"<am eus>"
+	"kaout" vblex pri p1 sg 
+"<bet>"
+	"kaout" vblex pp 
+;	"pet" prn itg mf sp 
+;	"bezañ" vblex pp 
+"<.>"
+	"." sent @punct
+
+# text = Chas ar c’helenner Aouregan a oa bet prenet er C'hastell-Nevez.
+# text[fra] = Les chiens du professeur Aouregan avaient été achetés à Châteauneuf.
+"<Chas>"
+	"ki" n m pl
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<c’helenner>"
+	"kelenner" n m sg
+;	"kelenn" vblex pri impers sp 
+"<Aouregan>"
+	"Aouregan" np cog mf sg
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<oa>"
+	"bezañ" vblex pii p3 sg 
+"<bet>"
+	"bezañ" vblex pp 
+;	"pet" prn itg mf sp 
+;	"kaout" vblex pp 
+"<prenet>"
+	"prenañ" vblex pp
+;	"prenañ" vblex imp p3 sg 
+"<er>"
+	"e" pr
+		"an" det def sp
+"<C'hastell-Nevez>"
+	"Kastell-Nevez" np top sg
+"<.>"
+	"." sent @punct
+
+# text = Ret eo dit chom hep dont.
+# text[fra] = Il ne faut pas que tu viennes.
+"<Ret>"
+	"ret" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<chom>"
+	"chom" vblex inf
+;	"chom" vblex imp p2 sg 
+;	"chom" vblex pri p3 sg 
+"<hep>"
+	"hep" pr
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Poent eo mont.
+# text[fra] = Il est temps d'y aller.
+"<Poent>"
+	"poent" n m sg
+;	"bezañ" vblex past p3 pl 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<mont>"
+	"mont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = N'eo ket dav mont ken buan.
+# text[fra] = Il ne faut pas aller si vite.
+"<N'>"
+	"ne" adv neg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ket>"
+	"ket" adv 
+"<dav>"
+	"dav" adj mf sp
+;	"tevel" vblex imp p2 sg 
+;	"tevel" vblex pri p3 sg 
+"<mont>"
+	"mont" vblex inf
+"<ken>"
+	"ken" pr
+	"ken" adv 
+	"ken" preadv
+;	"gen" n f pl 
+"<buan>"
+	"buan" adv 
+	"buan" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = N'eo ket ret deoc'h reiñ ho chomlec'h.
+# text[fra] = Vous n'avez pas à donner votre adresse.
+"<N'>"
+	"ne" adv neg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ket>"
+	"ket" adv 
+"<ret>"
+	"ret" adj mf sp
+"<deoc'h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<reiñ>"
+	"reiñ" vblex inf
+"<ho>"
+	"ho" det pos mf sp
+;	"direct" prn obj p2 mf pl 
+"<chomlec'h>"
+	"chomlec’h" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Skuizh on.
+# text[fra] = Je suis fatigué.
+"<Skuizh>"
+	"skuizh" adj mf sp
+;	"skuizhañ" vblex imp p2 sg 
+;	"skuizhañ" vblex pri p3 sg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<.>"
+	"." sent @punct
+
+# text = Klañv on.
+# text[fra] = Je suis malade.
+"<Klañv>"
+	"klañv" adj mf sp
+;	"kleñvel" vblex imp p2 sg 
+;	"kleñvel" vblex pri p3 sg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<.>"
+	"." sent @punct
+
+# text = Laouen e oa Katell.
+# text[fra] = Katell était contente.
+"<Laouen>"
+	"laouen" adj mf sp
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<oa>"
+	"bezañ" vblex pii p3 sg 
+"<Katell>"
+	"Katell" np ant f sg
+"<.>"
+	"." sent @punct
+
+# text = Hiziv eo yen.
+# text[fra] = Il fait froid aujourd'hui.
+"<Hiziv>"
+	"hiziv" adv 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<yen>"
+	"yen" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Bras eo.
+# text[fra] = Il est grand.
+"<Bras>"
+	"bras" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Savet ha renet eo al lec’hienn gant Philippe Argouarc’h.
+# text[fra] = Le site est construit et dirigé par Philippe Argouarc’h.
+"<Savet>"
+	"sevel" vblex tv tv pp 
+;	"sevel" vblex imp p3 sg 
+"<ha>"
+	"ha" cnjcoo 
+;	"ha" ij 
+"<renet>"
+	"ren" vblex pp
+;	"ren" vblex imp p3 sg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<al>"
+	"an" det def sp
+"<lec’hienn>"
+	"lec’hienn" n f sg
+"<gant>"
+	"gant" pr
+;	"kant" num mf pl 
+;	"kant" n m sg 
+"<Philippe>"
+	"Philippe" np ant m sg
+"<Argouarc’h>"
+	"Argouarc’h" np cog mf sg
+"<.>"
+	"." sent @punct
+
+# text = Ar Redadeg a zo he fal talvoudekaat ar yezh.
+# text[fra] = Le but de la Redadeg est de valoriser la langue.
+"<Ar Redadeg>"
+	"Ar Redadeg" np al mf sg
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<he>"
+	"he" det pos f sp
+;	"direct" prn obj p3 f sg 
+"<fal>"
+	"pal" n f sg
+	"pal" n m sg
+;	"palat" vblex pri p3 sg 
+"<talvoudekaat>"
+	"talvoudekaat" vblex inf
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<yezh>"
+	"yezh" n f sg
+	"yezh" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Skuizh e vi.
+# text[fra] = Tu seras fatigué.
+"<Skuizh>"
+	"skuizh" adj mf sp
+;	"skuizhañ" vblex imp p2 sg 
+;	"skuizhañ" vblex pri p3 sg 
+"<e>"
+	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+"<vi>"
+	"bezañ" vblex fti p2 sg 
+;	"vi" n m sg 
+"<.>"
+	"." sent @punct
+
+# text = Bez' e rankan mont bremañ.
+# text[fra] = Je dois y aller maintenant.
+"<Bez'>"
+	"bezañ" vblex inf
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<rankan>"
+	"rankout" vblex pri p1 sg 
+"<mont>"
+	"mont" vblex inf
+"<bremañ>"
+	"bremañ" adv 
+"<.>"
+	"." sent @punct
+
+# text = Ur c’hi bihan a welan.
+# text[fra] = Je vois un petit chien.
+"<Ur>"
+	"un" det ind sp
+"<c’hi>"
+	"ki" n m sg
+;	"kiañ" vblex imp p2 sg 
+;	"kiañ" vblex pri p3 sg 
+"<bihan>"
+	"bihan" adj mf sp
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<welan>"
+	"gwelet" vblex pri p1 sg 
+	"gwelout" vblex pri p1 sg 
+"<.>"
+	"." sent @punct
+
+# text = Al levr-mañ a brenimp warc’hoazh.
+# text[fra] = Nous achèterons ce livre demain.
+"<Al>"
+	"an" det def sp
+"<levr>"
+	"levr" n m sg
+"<-mañ>"
+	"mañ" adv 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<brenimp>"
+	"prenañ" vblex fti p1 pl 
+"<warc’hoazh>"
+	"warc’hoazh" adv 
+"<.>"
+	"." sent @punct
+
+# text = Ar paotr a welan a zo skuizh.
+# text[fra] = Le garçon que je vois est fatigué.
+"<Ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<paotr>"
+	"paotr" n m sg
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<welan>"
+	"gwelet" vblex pri p1 sg 
+	"gwelout" vblex pri p1 sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<skuizh>"
+	"skuizh" adj mf sp
+;	"skuizhañ" vblex imp p2 sg 
+;	"skuizhañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Ur vezh eo.
+# text[fra] = C'est une honte.
+"<Ur>"
+	"un" det ind sp
+"<vezh>"
+	"mezh" n f sg
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Un ti eo.
+# text[fra] = C'est une maison.
+"<Un>"
+	"un" det ind sp
+"<ti>"
+	"ti" n m sg
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Bras eo.
+# text[fra] = C'est grand.
+"<Bras>"
+	"bras" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Amañ eo.
+# text[fra] = C'est ici.
+"<Amañ>"
+	"amañ" adv 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Eno ez eus tud .
+# text[fra] = Là-bas, il y a du monde.
+"<Eno>"
+	"eno" adv 
+"<ez eus>"
+	"bezañ" vblex pri p3 sg 
+"<tud>"
+	"den" n m pl
+"<.>"
+	"." sent @punct
+
+# text = Er stal ez eus traoù marc'had-mat.
+# text[fra] = Dans le magasin il y a des choses bon marchés.
+"<Er>"
+	"e" pr
+		"an" det def sp
+"<stal>"
+	"stal" n f sg
+"<ez eus>"
+	"bezañ" vblex pri p3 sg 
+"<traoù>"
+	"tra" n m pl
+"<marc'had-mat>"
+	"marc’had-mat" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Bara a zo war an daol.
+# text[fra] = Il y a du pain sur la table.
+"<Bara>"
+	"bara" n m sg
+;	"parañ" vblex pri p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<war>"
+	"war" pr
+;	"gwar" n m sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<daol>"
+	"taol" n f sg 
+;	"teuler" vblex imp p2 sg 
+;	"teurel" vblex imp p2 sg 
+;	"teuler" vblex pri p3 sg 
+;	"teurel" vblex pri p3 sg 
+;	"taol" n m sg 
+"<.>"
+	"." sent @punct
+
+# text = Tri miz 'zo .
+# text[fra] = Il y a trois mois.
+"<Tri>"
+	"tri" num m pl
+"<miz>"
+	"miz" n m sg
+"<'zo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = N'eus morse bet kement a dud.
+# text[fra] = Il n'y a jamais eu autant de monde.
+"<N'eus>"
+	"ne" adv 
+		"bezañ" vblex pri impers sp
+	"ne" adv 
+		"kaout" vblex pri p1 pl
+"<morse>"
+	"morse" adv 
+"<bet>"
+	"bezañ" vblex pp
+	"kaout" vblex pp
+;	"pet" prn itg mf sp 
+"<kement a>"
+	"kement a" pr
+"<dud>"
+	"den" n m pl
+"<.>"
+	"." sent @punct
+
+# text = N'eus bet degaset titour nevez ebet.
+# text[fra] = Aucun nouveau renseignement n'a été apporté.
+"<N'eus>"
+	"ne" adv 
+		"bezañ" vblex pri impers sp
+	"ne" adv 
+		"kaout" vblex pri p1 pl
+"<bet>"
+	"bezañ" vblex pp
+	"kaout" vblex pp
+;	"pet" prn itg mf sp 
+"<degaset>"
+	"degas" vblex pp
+;	"degas" vblex imp p3 sg 
+"<titour>"
+	"titour" n m sg
+;	"titouriñ" vblex imp p2 sg 
+;	"titouriñ" vblex pri p3 sg 
+;	"ditour" n m sg 
+"<nevez>"
+	"nevez" adj mf sp
+;	"neveziñ" vblex imp p2 sg 
+;	"neveziñ" vblex pri p3 sg 
+"<ebet>"
+	"ebet" adv 
+"<.>"
+	"." sent @punct
+
+# text = D'an emgann ez an .
+# text[fra] = Je vais au combat.
+"<D'an>"
+	"da" pr
+		"an" det def sp
+"<emgann>"
+	"emgann" n m sg
+"<ez>"
+	"e" vpart obj @aux
+;	"mont" vblex pri p2 sg 
+;	"monet" vblex pri p2 sg 
+;	"e" pr 
+;		"da" det pos mf sp
+"<an>"
+	"mont" vblex pri p1 sg 
+	"monet" vblex pri p1 sg 
+;	"an" det def sp 
+"<.>"
+	"." sent @punct
+
+# text = D'an emgann ez ez .
+# text[fra] = Tu vas au combat.
+"<D'an>"
+	"da" pr
+		"an" det def sp
+"<emgann>"
+	"emgann" n m sg
+"<ez>"
+	"e" vpart obj @aux
+;	"mont" vblex pri p2 sg 
+;	"monet" vblex pri p2 sg 
+;	"e" pr 
+;		"da" det pos mf sp
+"<ez>"
+	"monet" vblex pri p2 sg 
+	"mont" vblex pri p2 sg 
+;	"e" vpart obj @aux
+;	"e" pr 
+;		"da" det pos mf sp
+"<.>"
+	"." sent @punct
+
+# text = D'an emgann ez a .
+# text[fra] = Il va au combat.
+"<D'an>"
+	"da" pr
+		"an" det def sp
+"<emgann>"
+	"emgann" n m sg
+"<ez>"
+	"e" vpart obj @aux
+;	"mont" vblex pri p2 sg 
+;	"monet" vblex pri p2 sg 
+;	"e" pr 
+;		"da" det pos mf sp
+"<a>"
+	"mont" vblex pri p3 sg 
+	"monet" vblex pri p3 sg 
+;	"a" vpart @aux
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<.>"
+	"." sent @punct
+
+# text = Da Wened ez i .
+# text[fra] = Tu iras à Vannes.
+"<Da>"
+	"da" pr
+;	"da" det pos mf sp 
+"<Wened>"
+	"Gwened" np top sg
+"<ez>"
+	"e" vpart obj @aux
+	"e" pr
+		"da" det pos mf sp
+;	"mont" vblex pri p2 sg 
+;	"monet" vblex pri p2 sg 
+"<i>"
+	"i" n m sp
+	"mont" vblex fti p2 sg 
+	"monet" vblex fti p2 sg 
+	"prpers" prn subj p3 mf pl @X MAP:943
+"<.>"
+	"." sent @punct
+
+# text = Buan e rede ar vugale.
+# text[fra] = Les enfants couraient vite.
+"<Buan>"
+	"buan" adv 
+	"buan" adj mf sp
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<rede>"
+	"redek" vblex pii p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<vugale>"
+	"bugel" n m pl
+"<.>"
+	"." sent @punct
+
+# text = Ne red ket buan ar vugale.
+# text[fra] = Les enfants ne courent pas vite.
+"<Ne>"
+	"ne" adv neg 
+"<red>"
+	"redek" vblex pri p3 sg 
+;	"red" n m sg 
+;	"red" adj mf sp 
+"<ket>"
+	"ket" adv 
+"<buan>"
+	"buan" adv 
+	"buan" adj mf sp
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<vugale>"
+	"bugel" n m pl
+"<.>"
+	"." sent @punct
+
+# text = Amañ emañ.
+# text[fra] = Il est ici.
+"<Amañ>"
+	"amañ" adv 
+"<emañ>"
+	"bezañ" vbloc pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Diskouez a rin an timbr-se dit.
+# text[fra] = Je te montrerai ce timbre.
+"<Diskouez>"
+	"diskouez" vblex inf
+;	"diskouez" vblex imp p2 sg 
+;	"diskouez" vblex pri p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<timbr>"
+	"timbr" n m sg
+;	"timbrañ" vblex imp p2 sg 
+;	"timbrañ" vblex pri p3 sg 
+"<-se>"
+	"se" adv 
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<.>"
+	"." sent @punct
+
+# text = Gwellañ ma c’hallez.
+# text[fra] = Le mieux que tu peux.
+"<Gwellañ>"
+	"gwell" adj sint sup
+"<ma>"
+	"ma" cnjsub 
+;	"ma" det pos mf sp 
+;	"ma" ij 
+"<c’hallez>"
+	"gallout" vblex pri p2 sg 
+"<.>"
+	"." sent @punct
+
+# text = An doping hag en deus breinet an dro diwezhañ.
+# text[fra] = Le dopage qui a pourri le dernier tour.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<doping>"
+	"*doping"
+"<hag>"
+	"ha" cnjcoo
+"<en deus>"
+	"kaout" vblex pri p3 m sg 
+"<breinet>"
+	"breinañ" vblex pp
+;	"breinañ" vblex imp p3 sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<dro>"
+	"tro" n f sg
+;	"troiñ" vblex imp p2 sg 
+;	"treiñ" vblex imp p2 sg 
+;	"troiñ" vblex pri p3 sg 
+;	"treiñ" vblex pri p3 sg 
+"<diwezhañ>"
+	"diwezhañ" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = An den hag a zeuy fenoz.
+# text[fra] = La personne qui viendra ce soir.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<den>"
+	"den" adv 
+	"den" n m sg
+;	"denañ" vblex imp p2 sg 
+;	"denañ" vblex pri p3 sg 
+"<hag>"
+	"ha" cnjcoo
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<zeuy>"
+	"dont" vblex fti p3 sg 
+"<fenoz>"
+	"fenoz" adv 
+"<.>"
+	"." sent @punct
+
+# text = An iliz hag a welit ahont a zo bras.
+# text[fra] = L'église que vous voyez là-bas est grande.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<iliz>"
+	"iliz" n f sg
+"<hag>"
+	"ha" cnjcoo
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<welit>"
+	"gwelet" vblex pri p2 pl 
+	"gwelout" vblex pri p2 pl 
+;	"gwelout" vblex imp p2 pl 
+"<ahont>"
+	"ahont" adv 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<bras>"
+	"bras" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Da dad a zo bras.
+# text[fra] = Ton père est grand.
+"<Da>"
+	"da" pr
+	"da" det pos mf sp
+"<dad>"
+	"tad" n m sg
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<bras>"
+	"bras" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Dedennus eo da labour.
+# text[fra] = Ton travail est intéressant.
+"<Dedennus>"
+	"dedennus" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<labour>"
+	"labour" n m sg
+;	"labourat" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Ezhomm am eus koad evit ober tan.
+# text[fra] = J'ai besoin de bois pour faire du feu.
+"<Ezhomm>"
+	"ezhomm" n m sg
+"<am eus>"
+	"kaout" vblex pri p1 sg 
+"<koad>"
+	"koad" n m sg
+"<evit>"
+	"evit" pr
+;	"evañ" vblex imp p2 pl 
+;	"evañ" vblex pri p2 pl 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<tan>"
+	"tan" n m sg
+;	"dan" n m sg 
+"<.>"
+	"." sent @punct
+
+# text = An den en em wel er melezour.
+# text[fra] = La personne se voit dans le miroir.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<den>"
+	"den" adv 
+	"den" n m sg
+;	"denañ" vblex imp p2 sg 
+;	"denañ" vblex pri p3 sg 
+"<en em>"
+	"en em" vpart ref @aux
+"<wel>"
+	"gwelet" vblex pri p3 sg 
+	"gwelout" vblex pri p3 sg 
+;	"gwel" n m sg 
+;	"gwelout" vblex imp p2 sg 
+"<er>"
+	"e" pr
+		"an" det def sp
+"<melezour>"
+	"melezour" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Rankout a ran en em ginnig.
+# text[fra] = Je dois me présenter.
+"<Rankout>"
+	"rankout" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<en em>"
+	"en em" vpart ref @aux
+"<ginnig>"
+	"kinnig" vblex pri p3 sg 
+;	"kinnig" n m sg 
+;	"kinnig" vblex imp p2 sg 
+;	"kinnig" vblex inf 
+"<.>"
+	"." sent @punct
+
+# text = En em walc’hiñ a ran.
+# text[fra] = Je me lave.
+"<En em>"
+	"en em" vpart ref @aux
+"<walc’hiñ>"
+	"gwalc’hiñ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<.>"
+	"." sent @punct
+
+# text = En em c'houlenn a ran.
+# text[fra] = Je me demande.
+"<En em>"
+	"en em" vpart ref @aux
+"<c'houlenn>"
+	"goulenn" vblex pri p3 sg 
+;	"goulenn" n m sg 
+;	"goulenn" vblex imp p2 sg 
+;	"goulenn" vblex inf 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<.>"
+	"." sent @punct
+
+# text = Ret e vefe deomp en em gavout.
+# text[fra] = Il faudrait que l'on se retrouve.
+"<Ret>"
+	"ret" adj mf sp
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<vefe>"
+	"bezañ" vblex cni p3 sg 
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<en em>"
+	"en em" vpart ref @aux
+"<gavout>"
+	"kavout" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = En em gannet out c'hoazh ?
+# text[fra] = Tu t'es encore battu ?
+"<En em>"
+	"en em" vpart ref @aux
+"<gannet>"
+	"kannañ" vblex pp
+;	"kannañ" vblex imp p3 sg 
+"<out>"
+	"bezañ" vblex pri p2 sg 
+"<c'hoazh>"
+	"c’hoazh" adv 
+;	"koazhañ" vblex imp p2 sg 
+;	"koazhañ" vblex pri p3 sg 
+"<?>"
+	"?" sent @punct
+
+# text = Pa zihunan re abred ne savan ket diouzhtu.
+# text[fra] = Quand je me réveille trop tôt je ne me lève pas tout de suite.
+"<Pa>"
+	"pa" cnjsub 
+"<zihunan>"
+	"dihuniñ" vblex pri p1 sg 
+"<re>"
+	"re" adv 
+	"re" n m sg
+	"re" prn ind mf pl
+"<abred>"
+	"abred" adv 
+	"abred" adj mf sp
+"<ne>"
+	"ne" adv neg 
+"<savan>"
+	"sevel" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<diouzhtu>"
+	"diouzhtu" adv 
+"<.>"
+	"." sent @punct
+
+# text = En em walc'hiñ a ran.
+# text[fra] = Je me lave.
+"<En em>"
+	"en em" vpart ref @aux
+"<walc'hiñ>"
+	"gwalc’hiñ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<.>"
+	"." sent @punct
+
+# text = En em walc'hiñ a rin.
+# text[fra] = Je me laverai.
+"<En em>"
+	"en em" vpart ref @aux
+"<walc'hiñ>"
+	"gwalc’hiñ" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<.>"
+	"." sent @punct
+
+# text = En em walc'het on.
+# text[fra] = Je me suis lavé.
+"<En em>"
+	"en em" vpart ref @aux
+"<walc'het>"
+	"gwalc’hañ" vblex pp
+	"gwalc’hiñ" vblex pp
+;	"gwalc’hañ" vblex imp p3 sg 
+;	"gwalc’hiñ" vblex imp p3 sg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<.>"
+	"." sent @punct
+
+# text = N'on ket en em walc'het c'hoazh.
+# text[fra] = Je ne me suis pas encore lavé.
+"<N'>"
+	"ne" adv neg 
+"<on>"
+	"bezañ" vblex pri p1 sg 
+"<ket>"
+	"ket" adv 
+"<en em>"
+	"en em" vpart ref @aux
+"<walc'het>"
+	"gwalc’hañ" vblex pp
+	"gwalc’hiñ" vblex pp
+;	"gwalc’hañ" vblex imp p3 sg 
+;	"gwalc’hiñ" vblex imp p3 sg 
+"<c'hoazh>"
+	"c’hoazh" adv 
+;	"koazhañ" vblex imp p2 sg 
+;	"koazhañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Emaon oc'h en em walc'hiñ.
+# text[fra] = Je suis en train de me laver.
+"<Emaon>"
+	"bezañ" vbloc pri p1 sg 
+"<oc'h>"
+	"bezañ" vblex pri p2 pl 
+;	"o" vpart ger @aux
+"<en em>"
+	"en em" vpart ref @aux
+"<walc'hiñ>"
+	"gwalc’hiñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Oc'h en em walc'hiñ e oan.
+# text[fra] = J'étais en train de me laver.
+"<Oc'h>"
+	"bezañ" vblex pri p2 pl 
+;	"o" vpart ger @aux
+"<en em>"
+	"en em" vpart ref @aux
+"<walc'hiñ>"
+	"gwalc’hiñ" vblex inf
+"<e>"
+	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" det pos m sp 
+;	"e" n m sp 
+;	"e" pr 
+"<oan>"
+	"bezañ" vblex pii p1 sg 
+;	"oan" n m sg 
+"<.>"
+	"." sent @punct
+
+# text = Emaon o vont d'en em walc'hiñ.
+# text[fra] = Je vais me laver.
+"<Emaon>"
+	"bezañ" vbloc pri p1 sg 
+"<o>"
+	"o" vpart ger @aux
+"<vont>"
+	"mont" vblex inf
+"<d'>"
+	"da" pr
+"<en em>"
+	"en em" vpart ref @aux
+"<walc'hiñ>"
+	"gwalc’hiñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Me en em walc'h.
+# text[fra] = Je me lave.
+"<Me>"
+	"prpers" prn subj p1 mf sg @nsubj #1->3
+"<en em>"
+	"en em" vpart ref @aux #2->3
+"<walc'h>"
+	"gwalc’hañ" vblex pri p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Er sal dour en em walc'han.
+# text[fra] = Je me lave dans la salle de bain.
+"<Er>"
+	"e" pr @case #1->3
+		"an" det def sp @det #2->3
+"<sal>"
+	"sal" n f sg @obl #3->6
+"<dour>"
+	"dour" n m sg @nmod:gen #4->4
+"<en em>"
+	"en em" vpart ref @aux #5->6
+"<walc'han>"
+	"gwalc’hañ" vblex pri p1 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# text = Er sal dour en em walc'hen.
+# text[fra] = Je me lavais dans la salle de bain.
+"<Er>"
+	"e" pr @case #1->3
+		"an" det def sp @det #2->3
+"<sal>"
+	"sal" n f sg @obl #3->6
+"<dour>"
+	"dour" n m sg @nmod:gen #4->3
+"<en em>"
+	"en em" vpart ref @aux #5->6
+"<walc'hen>"
+	"gwalc’hañ" vblex pii p1 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+
+# text = Er sal dour on en em walc'het.
+# text[fra] = Je me suis lavé dans la salle de bain.
+"<Er>"
+	"e" pr @case #1->3
+		"an" det def sp @det #2->3
+"<sal>"
+	"sal" n f sg @obl #3->7
+"<dour>"
+	"dour" n m sg @nmod:gen #4->3
+"<on>"
+	"bezañ" vblex pri p1 sg @aux #5->7
+"<en em>"
+	"en em" vpart ref @aux #6->7
+"<walc'het>"
+	"gwalc’hañ" vblex pp @root #7->0
+"<.>"
+	"." sent @punct #8->7
+
+# text = En em walc'het on er sal dour.
+# text[fra] = Je me suis lavé dans la salle de bain.
+"<En em>"
+	"en em" vpart ref @aux #1->2
+"<walc'het>"
+	"gwalc’hañ" vblex pp @root #2->0
+"<on>"
+	"bezañ" vblex pri p1 sg @aux #3->2
+"<er>"
+	"e" pr @case #4->6
+		"an" det def sp @det #5->6
+"<sal>"
+	"sal" n f sg @obl #6->2
+"<dour>"
+	"dour" n m sg @nmod:poss #7->6
+"<.>"
+	"." sent @punct #8->2
+
+# text = Perak en em walc'hez ?
+# text[fra] = Pourquoi te laves tu ?
+"<Perak>"
+	"perak" adv itg @advmod #1->3
+"<en em>"
+	"en em" vpart ref @aux #2->3
+"<walc'hez>"
+	"gwalc’hañ" vblex pri p2 sg @root #3->0
+"<?>"
+	"?" sent @punct #4->3
+
+# text = Evit ar poent e c’heller ober gant e ijinadenn en un dek yezh bennak.
+# text[fra] = Pour l'instant on peut faire avec son invention dans une dizaine de langues.
+"<Evit ar poent>"
+	"evit ar poent" adv 
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<c’heller>"
+	"gellout" vblex pri impers sp 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<gant>"
+	"gant" pr
+;	"kant" num mf pl 
+;	"kant" n m sg 
+"<e>"
+	"e" n m sp
+	"e" det pos m sp
+;	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" pr 
+"<ijinadenn>"
+	"ijinadenn" n f sg
+"<en un>"
+	"e" pr
+		"un" det ind sp
+"<dek>"
+	"dek" num mf pl
+"<yezh>"
+	"yezh" n f sg
+;	"yezh" adj mf sp 
+"<bennak>"
+	"bennak" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = E penn ar raktres emañ Nadine Thouvenin hag he doa graet berzh e Lannarstêr gant raktres an dorioù.
+# text[fra] = A la tête du projet c'est Nadine Thouvenin qui avait eu du succès à Lanester avec le projet des portes.
+"<E penn>"
+	"e penn" pr
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<raktres>"
+	"raktres" n m sg
+;	"raktresañ" vblex imp p2 sg 
+;	"raktresañ" vblex pri p3 sg 
+"<emañ>"
+	"bezañ" vbloc pri p3 sg 
+"<Nadine>"
+	"Nadine" np ant f sg
+"<Thouvenin>"
+	"Thouvenin" np cog mf sg
+"<hag>"
+	"ha" cnjcoo
+"<he doa>"
+	"kaout" vblex pii p3 f sg 
+"<graet berzh>"
+	"ober# berzh" vblex pp
+"<e>"
+	"e" pr 
+;	"e" det pos m sp 
+;	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" n m sp 
+"<Lannarstêr>"
+	"Lannarstêr" np top sg
+"<gant>"
+	"gant" pr
+;	"kant" num mf pl 
+;	"kant" n m sg 
+"<raktres>"
+	"raktres" n m sg
+;	"raktresañ" vblex imp p2 sg 
+;	"raktresañ" vblex pri p3 sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<dorioù>"
+	"dor" n f pl
+;	"tor" n m pl 
+"<.>"
+	"." sent @punct
+
+# text = Barnet e vo c’hwec’h stourmer an adunvanidigezh d'ar Yaou 12 a viz C'hwevrer e Lez-kastiz Naoned.
+# text[fra] = Six militants de la réunification seront jugés le jeudi 12 février au tribunal correctionnel de Nantes. .
+"<Barnet>"
+	"barn" vblex pp
+;	"barn" vblex imp p3 sg 
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<vo>"
+	"bezañ" vblex fti p3 sg 
+"<c’hwec’h>"
+	"c’hwec’h" num mf pl
+"<stourmer>"
+	"stourmer" n m sg
+;	"stourm" vblex pri impers sp 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<adunvanidigezh>"
+	"adunvanidigezh" n f sg
+"<d'ar Yaou>"
+	"d’ar Yaou" adv 
+"<12>"
+	"12" num mf pl
+"<a>"
+	"a" pr 
+;	"a" vpart @aux
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"mont" vblex pri p3 sg 
+;	"a" n m sp 
+"<viz C'hwevrer>"
+	"miz C’hwevrer" n m sp
+"<e>"
+	"e" pr
+	"e" det pos m sp
+	"e" n m sp
+;	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+"<Lez-kastiz>"
+	"lez#-kastiz" n f sg
+"<Naoned>"
+	"Naoned" np top sg
+"<.>"
+	"." sent @punct
+
+# text = Er bloaz-mañ eo aet un tamm mat war-raok al luskad.
+# text[fra] = Cette année l'élan a bien avancé .
+"<Er bloaz-mañ>"
+	"er bloaz-mañ" adv 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<aet>"
+	"mont" vblex pp
+	"monet" vblex pp
+;	"mont" vblex imp p3 sg 
+;	"monet" vblex imp p3 sg 
+"<un>"
+	"un" det ind sp
+"<tamm>"
+	"tamm" adv 
+	"tamm" n m sg
+"<mat>"
+	"mat" adj mf sp
+"<war-raok>"
+	"war-raok" adv 
+"<al>"
+	"an" det def sp
+"<luskad>"
+	"luskad" n m sg
+"<.>"
+	"." sent @punct
+
+# text = Lavaret ez eus dit mont d'ar gêr.
+# text[fra] = On t'a dit de rentrer à la maison.
+"<Lavaret>"
+	"lavaret" vblex pp 
+	"lavarout" vblex pp 
+;	"lavarout" vblex imp p3 sg 
+;	"lavaret" vblex inf 
+"<ez eus>"
+	"bezañ" vblex pri p3 sg 
+"<dit>"
+	"da" pr
+		"indirect" prn obj p2 mf sg
+"<mont d'ar gêr>"
+	"mont a ober# d’ar gêr" vblex inf
+	"mont a ober# da gaout" vblex inf
+	"mont a ober# da vakañsiñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Gwechall e vezen o pesketa e Loktudi.
+# text[fra] = Avant je pêchais à Loctudy.
+"<Gwechall>"
+	"gwezhall" adv 
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<vezen>"
+	"bezañ" vblex pih p1 sg 
+;	"bezen" n f sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<pesketa>"
+	"pesketa" vblex inf 
+;	"pesketa" vblex imp p2 sg 
+;	"pesketa" n m sg 
+;	"pesketa" vblex pri p3 sg 
+"<e>"
+	"e" pr 
+;	"e" det pos m sp 
+;	"e" vpart obj @aux
+;	"direct" prn obj p3 m sg 
+;	"e" n m sp 
+"<Loktudi>"
+	"Loktudi" np top sg
+"<.>"
+	"." sent @punct
+
+# text = Biken ne gredfes pokat dezhi.
+# text[fra] = Tu n'oserais jamais l'embrasser.
+"<Biken>"
+	"biken" adv 
+;	"pikat" vblex pii p1 sg 
+;	"pikañ" vblex pii p1 sg 
+"<ne>"
+	"ne" adv neg 
+"<gredfes>"
+	"krediñ" vblex cni p2 sg 
+"<pokat>"
+	"pokat" vblex inf
+"<dezhi>"
+	"da" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = Gouzout a ran an tu d'ober an dra-se.
+# text[fra] = Je sais le moyen de faire cette chose.
+"<Gouzout>"
+	"gouzout" vblex inf
+;	"gouzout" vblex pri p2 sg 
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<tu>"
+	"tu" n m sg
+;	"duañ" vblex imp p2 sg 
+;	"duañ" vblex pri p3 sg 
+;	"du" adj mf sp 
+"<d'>"
+	"da" pr
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<dra>"
+	"tra" n m sg
+"<-se>"
+	"se" adv 
+"<.>"
+	"." sent @punct
+
+# text = N'eus ket tu siwazh.
+# text[fra] = Il n'y pas moyen malheureusement.
+"<N'eus>"
+	"ne" adv 
+		"bezañ" vblex pri impers sp
+	"ne" adv 
+		"kaout" vblex pri p1 pl
+"<ket>"
+	"ket" adv 
+"<tu>"
+	"tu" n m sg
+;	"duañ" vblex imp p2 sg 
+;	"duañ" vblex pri p3 sg 
+;	"du" adj mf sp 
+"<siwazh>"
+	"siwazh" adv 
+;	"siwazh" ij 
+"<.>"
+	"." sent @punct
+
+# text = Pegoulz ez po tro da zont ?
+# text[fra] = Quand auras tu l'occasion de venir ?
+"<Pegoulz>"
+	"pegoulz" adv itg 
+"<ez>"
+	"e" vpart obj @aux
+;	"mont" vblex pri p2 sg 
+;	"monet" vblex pri p2 sg 
+;	"e" pr 
+;		"da" det pos mf sp
+"<po tro da>"
+	"kaout# tro da" vblex fti p2 sg 
+	"kaout# tro da" vblex fti p2 pl 
+"<zont>"
+	"dont" vblex inf
+"<?>"
+	"?" sent @punct
+
+# text = Deuet e oa an holl.
+# text[fra] = Ils étaient tous venus.
+"<Deuet>"
+	"dont" vblex pp
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<oa>"
+	"bezañ" vblex pii p3 sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<holl>"
+	"holl" adv 
+	"holl" predet mf sp
+	"holl" prn ind mf pl
+"<.>"
+	"." sent @punct
+
+# text = An holl ac'hanomp a oa eno.
+# text[fra] = Nous étions tous là.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<holl>"
+	"holl" adv 
+	"holl" predet mf sp
+	"holl" prn ind mf pl
+"<ac'hanomp>"
+	"eus" pr
+		"indirect" prn obj p1 mf pl
+;	"direct" prn obj p1 mf pl 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<oa>"
+	"bezañ" vblex pii p3 sg 
+"<eno>"
+	"eno" adv 
+"<.>"
+	"." sent @punct
+
+# text = Me zo o vont da zebriñ.
+# text[fra] = Je vais aller manger.
+"<Me>"
+	"prpers" prn subj p1 mf sg @SUBJ→ MAP:935
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<o>"
+	"o" vpart ger @aux
+;	"o" ij 
+;	"o" n m sp 
+;	"o" det pos mf sp 
+;	"direct" prn obj p3 mf pl 
+"<vont>"
+	"mont" vblex inf
+"<da>"
+	"da" pr 
+;	"da" det pos mf sp 
+"<zebriñ>"
+	"debriñ" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Trizek sizhunvezh e oa padet kendivizoù ar prosez, etre C'hwevrer ha Mezheven 2007.
+# text[fra] = Les débats du procès avaient duré treize semaines, entre février et juin 2007.
+"<Trizek>"
+	"trizek" num mf pl
+"<sizhunvezh>"
+	"sizhunvezh" n f sg
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<oa>"
+	"bezañ" vblex pii p3 sg 
+"<padet>"
+	"padout" vblex pp
+;	"padout" vblex imp p3 sg 
+"<kendivizoù>"
+	"kendiviz" n m pl
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<prosez>"
+	"prosez" n m sg
+"<,>"
+	"," cm @punct
+"<etre>"
+	"etre" pr
+	"etre" adj mf sp
+"<C'hwevrer>"
+	"C’hwevrer" n m sp
+"<ha>"
+	"ha" cnjcoo
+;	"ha" ij 
+"<Mezheven>"
+	"Mezheven" n m sp
+"<2007>"
+	"2007" num mf pl
+"<.>"
+	"." sent @punct
+
+# text = Ar pezh a fell deomp ober eo liammañ anezho.
+# text[fra] = Ce que nous voulons faire c'est les relier.
+"<Ar pezh a>"
+	"ar pezh a" prn rel mf sg
+"<fell>"
+	"fellout" vblex pri p3 sg 
+;	"fellout" vblex imp p2 sg 
+;	"pell" adj mf sp 
+"<deomp>"
+	"da" pr
+		"indirect" prn obj p1 mf pl
+;	"mont" vblex imp p1 pl 
+;	"monet" vblex imp p1 pl 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<liammañ>"
+	"liammañ" vblex inf
+"<anezho>"
+	"direct" prn obj p3 mf pl 
+;	"eus" pr 
+;		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent @punct
+
+# text = Baleadennoù kontet hag heñchet er c’hoadoù a vo aozet ivez.
+# text[fra] = Des excursions contées et orientées dans les bois seront aussi organisées.
+"<Baleadennoù>"
+	"baleadenn" n f pl
+"<kontet>"
+	"kontañ" vblex pp
+;	"kontañ" vblex imp p3 sg 
+"<hag>"
+	"ha" cnjcoo
+"<heñchet>"
+	"heñchañ" vblex pp
+;	"heñchañ" vblex imp p3 sg 
+"<er>"
+	"e" pr
+		"an" det def sp
+"<c’hoadoù>"
+	"koad" n m pl
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<vo>"
+	"bezañ" vblex fti p3 sg 
+"<aozet>"
+	"aozañ" vblex pp
+	"aoziñ" vblex pp
+;	"aozañ" vblex imp p3 sg 
+;	"aoziñ" vblex imp p3 sg 
+"<ivez>"
+	"ivez" adv 
+"<.>"
+	"." sent @punct
+
+# text = Un abadenn evit ar re yaouank eo.
+# text[fra] = C'est une émission pour les jeunes.
+"<Un>"
+	"un" det ind sp
+"<abadenn>"
+	"abadenn" n f sg
+"<evit>"
+	"evit" pr
+;	"evañ" vblex imp p2 pl 
+;	"evañ" vblex pri p2 pl 
+"<ar re>"
+	"ar re" prn rel mf sg
+"<yaouank>"
+	"yaouank" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Kalz re hir eo ar film.
+# text[fra] = Le film est beaucoup trop long.
+"<Kalz re>"
+	"kalz re" adv 
+"<hir>"
+	"hir" adj mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<film>"
+	"film" n m sg
+;	"filmañ" vblex imp p2 sg 
+;	"filmañ" vblex pri p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Mont a rin gant ar re-se.
+# text[fra] = J'irai avec ceux-ci.
+"<Mont a rin>"
+	"mont a ober" vblex fti p1 sg 
+"<gant>"
+	"gant" pr
+;	"kant" num mf pl 
+;	"kant" n m sg 
+"<ar re-se>"
+	"ar re-se" prn dem mf pl @X MAP:943
+"<.>"
+	"." sent @punct
+
+# text = Ret e vo dibab goude-se.
+# text[fra] = Il faudra choisir après ça.
+"<Ret>"
+	"ret" adj mf sp
+"<e>"
+	"e" vpart obj @aux
+;	"e" pr 
+;	"e" n m sp 
+;	"e" det pos m sp 
+;	"direct" prn obj p3 m sg 
+"<vo>"
+	"bezañ" vblex fti p3 sg 
+"<dibab>"
+	"dibab" vblex inf
+	"dibab" n m sg
+;	"dibab" vblex imp p2 sg 
+;	"dibab" vblex pri p3 sg 
+"<goude-se>"
+	"goude-se" adv 
+"<.>"
+	"." sent @punct
+
+# text = Gallout a rin ober kement-se.
+# text[fra] = Je pourrai faire tout cela.
+"<Gallout>"
+	"gallout" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<rin>"
+	"ober" vblex fti p1 sg 
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<kement-se>"
+	"kement-se" prn dem mf sg @X MAP:943
+"<.>"
+	"." sent @punct
+
+# text = Goulenn a reont ma vo digoret an nor .
+# text[fra] = Ils demandent que soit ouvert la porte.
+"<Goulenn>"
+	"goulenn" vblex inf
+	"goulenn" n m sg
+;	"goulenn" vblex imp p2 sg 
+;	"goulenn" vblex pri p3 sg 
+"<a>"
+	"a" vpart @aux
+;	"a" pr 
+;	"a" n m sp 
+;	"mont" vblex pri p3 sg 
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex pri p3 sg 
+;	"monet" vblex imp p2 sg 
+"<reont>"
+	"ober" vblex pri p3 pl 
+"<ma>"
+	"ma" cnjsub 
+;	"ma" det pos mf sp 
+;	"ma" ij 
+"<vo>"
+	"bezañ" vblex fti p3 sg 
+"<digoret>"
+	"digoriñ" vblex pp
+	"digeriñ" vblex pp
+;	"digoriñ" vblex imp p3 sg 
+;	"digeriñ" vblex imp p3 sg 
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<nor>"
+	"dor" n f sg
+"<.>"
+	"." sent @punct
+
+# text = Ne vin ket evit dont.
+# text[fra] = Je ne pourrai pas venir.
+"<Ne>"
+	"ne" adv neg 
+"<vin>"
+	"bezañ" vblex fti p1 sg 
+;	"min" n m sg 
+"<ket>"
+	"ket" adv 
+"<evit>"
+	"evit" pr
+;	"evañ" vblex imp p2 pl 
+;	"evañ" vblex pri p2 pl 
+"<dont>"
+	"dont" vblex inf
+"<.>"
+	"." sent @punct
+
+# text = Soñjal a ran enni.
+# text[fra] = Je pense à elle.
+"<Soñjal>"
+	"soñjal" vblex inf
+"<a>"
+	"a" vpart @aux
+;	"mont" vblex imp p2 sg 
+;	"monet" vblex imp p2 sg 
+;	"mont" vblex pri p3 sg 
+;	"monet" vblex pri p3 sg 
+;	"a" pr 
+;	"a" n m sp 
+"<ran>"
+	"ober" vblex pri p1 sg 
+;	"ran" n f sg 
+"<enni>"
+	"e" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent @punct
+
+# text = An eil gwech din gwelet se.
+# text[fra] = C'est la deuxième fois que je vois ça.
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg 
+;	"monet" vblex pri p1 sg 
+"<eil>"
+	"eil" adj mf sp
+	"eil" num ord mf sp
+;	"eilañ" vblex imp p2 sg 
+;	"eilañ" vblex pri p3 sg 
+"<gwech>"
+	"gwech" n f sg
+"<din>"
+	"da" pr
+		"indirect" prn obj p1 mf sg
+;	"tin" n m sg 
+"<gwelet>"
+	"gwelet" vblex inf
+	"gwelet" vblex pp
+	"gwelout" vblex pp
+;	"gwelout" vblex imp p3 sg 
+"<se>"
+	"se" prn dem mf sg @X MAP:943
+"<.>"
+	"." sent @punct
+
+# text = Kentañ klevet.
+# text[fra] = C'est la première fois que j'entends ça.
+"<Kentañ>"
+	"kentañ" adj mf sp
+	"kentañ" num ord mf sp
+"<klevet>"
+	"klevet" vblex inf
+	"klevet" vblex pp
+	"klevout" vblex pp
+;	"klevout" vblex imp p3 sg 
+"<.>"
+	"." sent @punct
+
+# text = Degouezhet eo da gentañ.
+# text[fra] = Il est arrivé en premier.
+"<Degouezhet>"
+	"degouezhout" vblex pp
+;	"degouezhout" vblex imp p3 sg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<da gentañ>"
+	"da gentañ" adv 
+;	"da" pr 
+;		"kentañ" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Degouezhet eo da eil.
+# text[fra] = Il est arrivé en deuxième.
+"<Degouezhet>"
+	"degouezhout" vblex pp
+;	"degouezhout" vblex imp p3 sg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<da eil>"
+	"da eil" adv 
+"<.>"
+	"." sent @punct
+
+# text = Degouezhet eo da drede.
+# text[fra] = Il est arrivé en troisième.
+"<Degouezhet>"
+	"degouezhout" vblex pp
+;	"degouezhout" vblex imp p3 sg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<drede>"
+	"trede" adj mf sp
+	"trede" num ord mf sp
+"<.>"
+	"." sent @punct
+
+# text = Piv eo ar pempvet?
+# text[fra] = Qui est le cinquième?
+"<Piv>"
+	"piv" prn itg mf sp
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<pempvet>"
+	"pempvet" adj mf sp
+"<?>"
+	"?" sent @punct
+
+# text = Hi eo ar bempvet.
+# text[fra] = C'est elle la cinquième.
+"<Hi>"
+	"prpers" prn subj p3 f sg @X MAP:943
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg 
+"<bempvet>"
+	"pempvet" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Hi zo pempvet.
+# text[fra] = Elle est cinquième.
+"<Hi>"
+	"prpers" prn subj p3 f sg @SUBJ→ MAP:935
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<pempvet>"
+	"pempvet" adj mf sp
+"<.>"
+	"." sent @punct
+
+# text = Piv zo da bevare?
+# text[fra] = Qui est arrivé quatrième?
+"<Piv>"
+	"piv" prn itg mf sp
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<bevare>"
+	"pevare" adv itg 
+	"pevare" adj mf sp
+"<?>"
+	"?" sent @punct
+
+# text = Kentañ tra zo d'ober eo mont kuit alemañ.
+# text[fra] = La première chose à faire c'est de partir d'ici.
+"<Kentañ>"
+	"kentañ" adj mf sp
+	"kentañ" num ord mf sp
+"<tra>"
+	"tra" n m sg
+"<zo>"
+	"bezañ" vblex pri p3 sg 
+;	"teiñ" vblex imp p2 sg 
+;	"teiñ" vblex pri p3 sg 
+"<d'>"
+	"da" pr
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg 
+"<eo>"
+	"bezañ" vblex pri p3 sg 
+"<mont kuit>"
+	"mont# kuit" vblex inf
+"<alemañ>"
+	"alemañ" adv 
+"<.>"
+	"." sent @punct
+
