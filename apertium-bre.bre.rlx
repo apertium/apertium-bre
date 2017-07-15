@@ -212,7 +212,7 @@ SELECT Verb IF (-1C Vpart);
 SELECT:Vpart_if_only_Vfin Vpart IF (1C VerbFin);
 
 # Remove imperatives for now
-REMOVE VerbImp IF (0 VerbImp);
+REMOVE VerbImp IF (0 VerbImp) (NOT 1* ("!"));
 
 # tri ober
 SELECT NC IF (-1 Num) (0 NC) (0 VerbInf);
