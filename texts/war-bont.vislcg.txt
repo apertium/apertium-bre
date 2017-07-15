@@ -70,7 +70,7 @@
 "<Petra>"
 	"petra" prn itg mf sp @advmod #1->3
 "<'>"
-	"a" vpart @aux @aux #2->3
+	"a" vpart @aux #2->3
 "<ra>"
 	"ober" vblex pri p3 sg @root #3->0
 "<dit>"

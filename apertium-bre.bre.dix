@@ -145,7 +145,7 @@
     </pardef>
 
     <pardef n="separa">
-      <e><re>[.\?;:!]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>([.\?;:!]|[.\?;:!][.\?;:!][.\?;:!])</re><p><l/><r><s n="sent"/></r></p></e>
     </pardef>
 
     <pardef n="KM__n">
@@ -25365,7 +25365,7 @@
 
   <section id="unchecked" type="standard">
 
-
+    <e r="LR"><p><l>'r</l><r>an<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
 
 
     <!-- Skraboù - Apostrophes -->

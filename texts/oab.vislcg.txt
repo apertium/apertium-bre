@@ -10781,21 +10781,21 @@
 "<eo>"
 	"bezañ" vblex pri p3 sg @cop #4->5
 "<reizh>"
-	"reizh" adj mf sp @dep #6->2
+	"reizh" adj mf sp @dep #5->2
 "<hoc'h>"
-	"ho" det pos mf sp @det #7->8
+	"ho" det pos mf sp @det #6->7
 "<anv>"
-	"anv" n m sg @nsubj #8->6
+	"anv" n m sg @nsubj #7->6
 "<implijer>"
-	"implijer" n m sg @nmod:gen #9->8
+	"implijer" n m sg @nmod:gen #8->7
 "<hag>"
-	"ha" cnjcoo @cc #10->12
+	"ha" cnjcoo @cc #9->11
 "<ho>"
-	"ho" det pos mf sp @det #11->12
+	"ho" det pos mf sp @det #10->11
 "<ker-tremen>"
-	"ger-tremen" n m sg @conj #12->8
+	"ger-tremen" n m sg @conj #11->7
 "<.>"
-	"." sent @punct #13->1
+	"." sent @punct #12->1
 
 # text = Ne c'haller ouzhpennañ implijer ebet d'ar roll.
 # text[fra] = Impossible d'ajouter un ou plusieurs utilisateurs à la liste.
@@ -10808,7 +10808,7 @@
 "<implijer>"
 	"implijer" n m sg @obj #4->3
 "<ebet>"
-	"ebet" adv @advmod #5->2
+	"ebet" adv @advmod #5->3
 "<d'ar>"
 	"da" pr @case #6->8
 		"an" det def sp @det #7->8
@@ -15497,45 +15497,45 @@
 "<youl>"
 	"youl" n f sg @obj #6->4
 "<da>"
-	"da" pr @mark #5->6
+	"da" pr @mark #7->8
 "<luskañ>"
-	"luskañ" vblex inf @advcl #6->4
+	"luskañ" vblex inf @advcl #8->4
 "<an>"
-	"an" det def sp @det #7->8
+	"an" det def sp @det #9->10
 "<argerzh>"
-	"argerzh" n m sg @obj #8->6
+	"argerzh" n m sg @obj #10->8
 "<-se>"
-	"se" adv @advmod #9->8
+	"se" adv @advmod #11->10
 "<war>"
-	"war" pr @case #10->12
+	"war" pr @case #12->14
 "<o>"
-	"o" det pos mf sp @det #11->12
+	"o" det pos mf sp @det #13->14
 "<zachenn>"
-	"tachenn" n f sg @obl #12->6
+	"tachenn" n f sg @obl #14->8
 "<barregezh>"
-	"barregezh" n f sg @nmod:gen #13->12
+	"barregezh" n f sg @nmod:gen #15->14
 "<ha>"
-	"ha" cnjcoo @cc #14->4
+	"ha" cnjcoo @cc #16->19
 "<bremañ>"
-	"bremañ" adv @advmod #15->17 
+	"bremañ" adv @advmod #17->19 
 "<e>"
-	"e" vpart obj @aux #16->17
+	"e" vpart obj @aux #18->19
 "<kemeront>"
-	"kemer" vblex pri p3 pl @conj #17->4
+	"kemer" vblex pri p3 pl @conj #19->4
 "<perzh>"
-	"perzh" n m sg @obj #18->17
+	"perzh" n m sg @obj #20->19
 "<da>"
-	"da" pr @mark #19->20
+	"da" pr @mark #21->22
 "<gas>"
-	"kas" vblex inf @advcl #20->17
+	"kas" vblex inf @advcl #22->19
 "<ar>"
-	"an" det def sp @det #21->22
+	"an" det def sp @det #23->24
 "<c'houlzad>"
-	"koulzad" n m sg @obj #22->20
+	"koulzad" n m sg @obj #24->22
 "<war-raok>"
-	"war-raok" adv @advmod #23->20
+	"war-raok" adv @advmod #25->22
 "<;>"
-	";" sent @punct #24->6
+	";" sent @punct #26->4
 
 # text = N'eus nemet ur c'hinnig eus an daolenn amañ dindan, gwelloc'h e vo azasaat anezhi diouzh ar gwirvoud evit pep chanter enta.
 # text[fra] = Le tableau ci-dessous constitue une proposition qu'il conviendra de confronter à la réalité et d'adapter à chaque chantier.
@@ -15827,7 +15827,7 @@
 "<div>"
 	"daou" num f pl @nummod #9->10
 "<Rannvro>"
-	"rannvro" n f sg @nsubj #10->6
+	"rannvro" n f sg @nsubj #10->7
 "<da>"
 	"da" pr @mark #11->12
 "<zizoleiñ>"
@@ -16059,7 +16059,7 @@
 "<Douar>"
 	"douar" n m sg @appos #11->7
 "<an>"
-	"an" det def sp @det #12->14
+	"an" det def sp @det #12->13
 "<Holen>"
 	"holen" n m sg @nmod:gen #13->11
 "<»>"

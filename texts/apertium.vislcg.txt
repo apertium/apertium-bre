@@ -6276,7 +6276,7 @@
 "<sal>"
 	"sal" n f sg @obl #3->6
 "<dour>"
-	"dour" n m sg @nmod:gen #4->4
+	"dour" n m sg @nmod:gen #4->3
 "<en em>"
 	"en em" vpart ref @aux #5->6
 "<walc'han>"
