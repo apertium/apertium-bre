@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>AaBbChchC’hc’hDdEeFfGgHhIiJjKkLlMmNnOoPpRrSsTtUuVvWwYyZzùÙêÊñÑâÂîÎôÔûÛüÜ’ÇçÉéÈèXxQqÏïœæàÀáÁèÈéÉËë</alphabet>
+  <alphabet>AaBbChchC’hc’hDdEeFfGgHhIiJjKkLlMmNnOoPpRrSsTtUuVvWwYyZzùÙêÊñÑâÂîÎôÔûÛüÜ’ÇçÉéÈèXxQqÏïœæàÀáÁèÈéÉËëăắẵặấầẩậǎåäãąāảạḃḇćĉčďḋđḍḏɗðĕếềễểệěẽėęēḗẹəğĝǧġḡƣȟħḩḥḫíìĭǐĩīỉịıĵǩḳḵľŀłļḷṃńňṅņṇŋóòŏốồỗổộǒöőõøǫōṓỏọơớờợɔºṗřṛśšşṣſßťŧţṭṯúŭǔůǚűũūủụṷưừữửựŵýỳŷÿȳȝ</alphabet>
   <sdefs>
     <sdef n="n"      c="Nom"/>
     <sdef n="np"     c="Nom propre"/>
@@ -6769,6 +6769,7 @@
     <e lm="c’hwib"><i>c’hwib</i><par n="evn__n"/></e>
     <e lm="c’hwil"><i>c’hwil</i><par n="evn__n"/></e>
     <e lm="diaoul"><par n="initial-d"/><i>iaoul</i><par n="evn__n"/></e>
+    <e lm="diaoul" r="LR" c="Err/Orth"><par n="initial-d"/><i>iaoul</i><par n="merienaer__n"/></e>
     <e lm="dinosaor"><par n="initial-d"/><i>inosaor</i><par n="evn__n"/></e>
     <e lm="dourvarc’h"><par n="initial-d"/><i>ourvarc’h</i><par n="evn__n"/></e>
     <e lm="dube"><par n="initial-d"/><i>ube</i><par n="evn__n"/></e>
@@ -9593,6 +9594,7 @@
     <e lm="harz-labour"><i>harz</i><par n="si__n"/><p><l>-labour</l><r><g>-labour</g></r></p></e>
     <e lm="harz-lamm"><i>harz</i><par n="si__n"/><p><l>-lamm</l><r><g>-lamm</g></r></p></e>
     <e lm="harzh"><i>harzh</i><par n="si__n"/></e>
+    <e lm="hebraeg"><i>hebraeg</i><par n="si__n"/></e>
     <e lm="hed"><i>hed</i><par n="si__n"/></e>
     <e lm="hedad"><i>hedad</i><par n="si__n"/></e>
     <e lm="hedred"><i>hedred</i><par n="si__n"/></e>
@@ -10631,6 +10633,7 @@
     <e lm="enebour"><i>eneb</i><par n="sekret/our__n"/></e>
     <e lm="eneoniour"><i>eneoni</i><par n="sekret/our__n"/></e>	
     <e lm="estrañjour"><i>estrañj</i><par n="sekret/our__n"/></e>
+    <e lm="evnoniour"><i>evnoni</i><par n="sekret/our__n"/></e>
     <e lm="etrebroadelour"><i>etrebroadel</i><par n="sekret/our__n"/></e>
       <e lm="etrevroadelour"><p><l>etrevroadel</l><r>etrebroadel</r></p><par n="sekret/our__n"/></e>	
 	<e lm="faskour"><i>fask</i><par n="sekret/our__n"/></e>
@@ -10691,6 +10694,7 @@
     <e lm="livour"><i>liv</i><par n="sekret/our__n"/></e>
     <e lm="lizheregour"><i>lizhereg</i><par n="sekret/our__n"/></e>
     <e lm="louzawour"><i>louzaw</i><par n="sekret/our__n"/></e>
+    <e lm="loenoniour"><i>loenoni</i><par n="sekret/our__n"/></e>
     <e lm="lunedour"><i>luned</i><par n="sekret/our__n"/></e>
     <e lm="marc’hadour"><par n="initial-m"/><i>arc’had</i><par n="sekret/our__n"/></e>	
 	<!--    <e lm="marzhoniour"><par n="initial-m"/><i>arzhoni</i><par n="sekret/our__n"/></e> -->
@@ -16355,6 +16359,7 @@
 
     <e lm="sperloenigan"><i>sperloenigan</i><par n="evn__n"/></e>
     <e lm="spesad"><i>spesad</i><par n="si__n"/></e>
+    <e lm="isspesad"><i>isspesad</i><par n="si__n"/></e>
     <e lm="spes"><i>spes</i><par n="si__n"/></e>
     <e lm="speurenn"><i>speurenn</i><par n="sae__n"/></e>
     <e lm="speur"><i>speur</i><par n="kentel__n"/></e>
@@ -20362,6 +20367,17 @@
 
     <e lm="ap"><i>ap</i><par n="Calloc’h__np"/></e> <!-- Per a noms de Gal·les -->
 
+<!-- From Bible/apertium-eng -->
+<e lm="Moizez"><i>Moizez</i><par n="Yann__np"/></e>
+<e lm="Herodez"><i>Herodez</i><par n="Yann__np"/></e>
+<e lm="Jona"><i>Jona</i><par n="Yann__np"/></e>
+<e lm="Izaia"><i>Izaia</i><par n="Yann__np"/></e>
+<e lm="Barabbaz"><i>Barabbaz</i><par n="Yann__np"/></e>
+<e lm="Izaak"><i>Izaak</i><par n="Yann__np"/></e>
+
+<e lm="Judea"><i>Judea</i><par n="Roazhon__np"/></e>
+<e lm="Nazared"><i>Nazared</i><par n="Roazhon__np"/></e>
+
 <!-- From Wikipedia/apertium-eng -->
 <e lm="Aaron"><i>Aaron</i><par n="Yann__np"/></e>
 <e lm="Abd"><i>Abd</i><par n="Yann__np"/></e>
@@ -20926,6 +20942,8 @@
 <e lm="Zack"><i>Zack</i><par n="Yann__np"/></e>
 <e lm="Zavier"><i>Zavier</i><par n="Yann__np"/></e>
 
+<e lm="Edouarzh"><i>Edouarzh</i><par n="Yann__np"/></e>
+
 <e lm="Adelaide"><i>Adelaide</i><par n="Añjela__np"/></e>
 <e lm="Adélaïde"><i>Adélaïde</i><par n="Añjela__np"/></e>
 <e lm="Adèle"><i>Adèle</i><par n="Añjela__np"/></e>
@@ -21285,7 +21303,10 @@
 <e lm="Aten"><i>Aten</i><par n="Roazhon__np"/></e>
 <e lm="Calais"><i>Calais</i><par n="Roazhon__np"/></e>
 <e lm="Calvados"><i>Calvados</i><par n="Roazhon__np"/></e>
+<e lm="München"><i>München</i><par n="Roazhon__np"/></e>
+<e lm="Württemberg"><i>Württemberg</i><par n="Roazhon__np"/></e>
 <e lm="Flandrez"><i>Flandrez</i><par n="Roazhon__np"/></e>
+
     <e lm="Sir Aberteifi"><i>Sir<b/>Aberteifi</i><par n="Roazhon__np"/></e>
     <e lm="Sir Benfro"><i>Sir<b/>Benfro</i><par n="Roazhon__np"/></e>
     <e lm="Sir Drefaldwyn"><i>Sir<b/>Drefaldwyn</i><par n="Roazhon__np"/></e>
@@ -21308,6 +21329,272 @@
     <e lm="New Hampshire"><i>New<b/>Hampshire</i><par n="Roazhon__np"/></e>
     <e lm="New Brunswick"><i>New<b/>Brunswick</i><par n="Roazhon__np"/></e>
     <e lm="New Delhi"><i>New<b/>Delhi</i><par n="Roazhon__np"/></e>
+
+    <e lm="Saint-Agnan-le-Malherbe"><i>Saint-Agnan-le-Malherbe</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aignan-de-Cramesnil"><i>Saint-Aignan-de-Cramesnil</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Alban"><i>Saint-Alban</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Albin"><i>Saint-Albin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Amand-les-Eaux"><i>Saint-Amand-les-Eaux</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Amand-Montrond"><i>Saint-Amand-Montrond</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-André"><i>Saint-André</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-André-d'Hébertot"><i>Saint-André-d'Hébertot</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-André-lez-Lille"><i>Saint-André-lez-Lille</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-André-sur-Orne"><i>Saint-André-sur-Orne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Antoine"><i>Saint-Antoine</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aubert"><i>Saint-Aubert</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aubin"><i>Saint-Aubin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aubin-d'Arquenay"><i>Saint-Aubin-d'Arquenay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aubin-des-Préaux"><i>Saint-Aubin-des-Préaux</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aubin-de-Terregatte"><i>Saint-Aubin-de-Terregatte</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aubin-le-Guichard"><i>Saint-Aubin-le-Guichard</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Augustin"><i>Saint-Augustin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Aybert"><i>Saint-Aybert</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Barthélemy"><i>Saint-Barthélemy</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Benin"><i>Saint-Benin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Benoît-d'Hébertot"><i>Saint-Benoît-d'Hébertot</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Blaise"><i>Saint-Blaise</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Brice"><i>Saint-Brice</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Brieuc"><i>Saint-Brieuc</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Charles-de-Percy"><i>Saint-Charles-de-Percy</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Christophe"><i>Saint-Christophe</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Claude"><i>Saint-Claude</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Côme-de-Fresné"><i>Saint-Côme-de-Fresné</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Contest"><i>Saint-Contest</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Cosme"><i>Saint-Cosme</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Cyr"><i>Saint-Cyr</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Cyr-du-Ronceray"><i>Saint-Cyr-du-Ronceray</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Denis"><i>Saint-Denis</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Denis-de-Mailloc"><i>Saint-Denis-de-Mailloc</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Denis-de-Méré"><i>Saint-Denis-de-Méré</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Denis-Maisoncelles"><i>Saint-Denis-Maisoncelles</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Denis-sur-Loire"><i>Saint-Denis-sur-Loire</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Denœux"><i>Saint-Denœux</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Désir"><i>Saint-Désir</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Dié-des-Vosges"><i>Saint-Dié-des-Vosges</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Dizant"><i>Saint-Dizant</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Dizier"><i>Saint-Dizier</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Domingue"><i>Saint-Domingue</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Dyé-sur-Loire"><i>Saint-Dyé-sur-Loire</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Agnès"><i>Sainte-Agnès</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Angèle"><i>Sainte-Angèle</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Anne"><i>Sainte-Anne</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Barbe"><i>Sainte-Barbe</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ébremond-de-Bonfossé"><i>Saint-Ébremond-de-Bonfossé</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Christine"><i>Sainte-Christine</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Croix-Grand-Tonne"><i>Sainte-Croix-Grand-Tonne</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Croix-sur-Mer"><i>Sainte-Croix-sur-Mer</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Foy"><i>Sainte-Foy</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Foy-de-Montgommery"><i>Sainte-Foy-de-Montgommery</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Honorine-de-Ducy"><i>Sainte-Honorine-de-Ducy</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Honorine-des-Pertes"><i>Sainte-Honorine-des-Pertes</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Honorine-du-Fay"><i>Sainte-Honorine-du-Fay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Éloi"><i>Saint-Éloi</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marguerite-d'Elle"><i>Sainte-Marguerite-d'Elle</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marguerite-des-Loges"><i>Sainte-Marguerite-des-Loges</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marguerite-de-Viette"><i>Sainte-Marguerite-de-Viette</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marie"><i>Sainte-Marie</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marie-aux-Mines"><i>Sainte-Marie-aux-Mines</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marie-Kerque"><i>Sainte-Marie-Kerque</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marie-Laumont"><i>Sainte-Marie-Laumont</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Marie-Outre-l'Eau"><i>Sainte-Marie-Outre-l'Eau</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Menehould"><i>Sainte-Menehould</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Mère-Église"><i>Sainte-Mère-Église</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Ode"><i>Sainte-Ode</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Opportune"><i>Sainte-Opportune</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Erblon"><i>Saint-Erblon</i><par n="Roazhon__np"/></e>
+    <e lm="Sainte-Suzanne-sur-Vire"><i>Sainte-Suzanne-sur-Vire</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Étienne"><i>Saint-Étienne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Étienne-au-Mont"><i>Saint-Étienne-au-Mont</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Étienne-du-Rouvray"><i>Saint-Étienne-du-Rouvray</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Étienne-la-Thillaye"><i>Saint-Étienne-la-Thillaye</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Étienne-Roilaye"><i>Saint-Étienne-Roilaye</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Félix"><i>Saint-Félix</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Florent"><i>Saint-Florent</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Floris"><i>Saint-Floris</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Folquin"><i>Saint-Folquin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Fulgent"><i>Saint-Fulgent</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Gabriel-Brécy"><i>Saint-Gabriel-Brécy</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Gatien-des-Bois"><i>Saint-Gatien-des-Bois</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges"><i>Saint-Georges</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges-d'Aunay"><i>Saint-Georges-d'Aunay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges-de-l'Oyapock"><i>Saint-Georges-de-l'Oyapock</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges-de-Montaigu"><i>Saint-Georges-de-Montaigu</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges-en-Auge"><i>Saint-Georges-en-Auge</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges-Montcocq"><i>Saint-Georges-Montcocq</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Georges-sur-Meuse"><i>Saint-Georges-sur-Meuse</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain"><i>Saint-Germain</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-d'Ectot"><i>Saint-Germain-d'Ectot</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-de-Livet"><i>Saint-Germain-de-Livet</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-de-Montgommery"><i>Saint-Germain-de-Montgommery</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-de-Tallevende-la-Lande-Vaumont"><i>Saint-Germain-de-Tallevende-la-Lande-Vaumont</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-du-Crioult"><i>Saint-Germain-du-Crioult</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-du-Pert"><i>Saint-Germain-du-Pert</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-en-Laye"><i>Saint-Germain-en-Laye</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-la-Blanche-Herbe"><i>Saint-Germain-la-Blanche-Herbe</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-Langot"><i>Saint-Germain-Langot</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-Laval"><i>Saint-Germain-Laval</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Germain-le-Vasson"><i>Saint-Germain-le-Vasson</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Gervais"><i>Saint-Gervais</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Gervais-la-Forêt"><i>Saint-Gervais-la-Forêt</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ghislain"><i>Saint-Ghislain</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Gilles"><i>Saint-Gilles</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Gilles-Croix-de-Vie"><i>Saint-Gilles-Croix-de-Vie</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire"><i>Saint-Hilaire</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire-Cottes"><i>Saint-Hilaire-Cottes</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire-de-Loulay"><i>Saint-Hilaire-de-Loulay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire-de-Riez"><i>Saint-Hilaire-de-Riez</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire-du-Harcouët"><i>Saint-Hilaire-du-Harcouët</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire-lez-Cambrai"><i>Saint-Hilaire-lez-Cambrai</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hilaire-sur-Helpe"><i>Saint-Hilaire-sur-Helpe</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Hymer"><i>Saint-Hymer</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Inglevert"><i>Saint-Inglevert</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jacques"><i>Saint-Jacques</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-James"><i>Saint-James</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean"><i>Saint-Jean</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-d'Angély"><i>Saint-Jean-d'Angély</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-de-la-Haize"><i>Saint-Jean-de-la-Haize</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-de-Livet"><i>Saint-Jean-de-Livet</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-de-Maurienne"><i>Saint-Jean-de-Maurienne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-de-Monts"><i>Saint-Jean-de-Monts</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-des-Essartiers"><i>Saint-Jean-des-Essartiers</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-le-Thomas"><i>Saint-Jean-le-Thomas</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jean-le-Vieux"><i>Saint-Jean-le-Vieux</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Joachim"><i>Saint-Joachim</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Josse"><i>Saint-Josse</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Josse-sur-Mer"><i>Saint-Josse-sur-Mer</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Jouin"><i>Saint-Jouin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Julien"><i>Saint-Julien</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Julien-de-Mailloc"><i>Saint-Julien-de-Mailloc</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Julien-en-Genevois"><i>Saint-Julien-en-Genevois</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Julien-le-Faucon"><i>Saint-Julien-le-Faucon</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Julien-sur-Calonne"><i>Saint-Julien-sur-Calonne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Lambert"><i>Saint-Lambert</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Lambert-du-Lattay"><i>Saint-Lambert-du-Lattay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent"><i>Saint-Laurent</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-Blangy"><i>Saint-Laurent-Blangy</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-de-Condel"><i>Saint-Laurent-de-Condel</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-de-Terregatte"><i>Saint-Laurent-de-Terregatte</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-du-Maroni"><i>Saint-Laurent-du-Maroni</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-du-Mont"><i>Saint-Laurent-du-Mont</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-Nouan"><i>Saint-Laurent-Nouan</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-sur-Mer"><i>Saint-Laurent-sur-Mer</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Laurent-sur-Sèvre"><i>Saint-Laurent-sur-Sèvre</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Léger-Dubosq"><i>Saint-Léger-Dubosq</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Léger-en-Gaume"><i>Saint-Léger-en-Gaume</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Leu"><i>Saint-Leu</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Lô"><i>Saint-Lô</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Louet-sur-Seulles"><i>Saint-Louet-sur-Seulles</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Louis"><i>Saint-Louis</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Loup"><i>Saint-Loup</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Loup-de-Fribois"><i>Saint-Loup-de-Fribois</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Loup-Hors"><i>Saint-Loup-Hors</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Mandé"><i>Saint-Mandé</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Manvieu-Bocage"><i>Saint-Manvieu-Bocage</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Manvieu-Norrey"><i>Saint-Manvieu-Norrey</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Marc"><i>Saint-Marc</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Mars"><i>Saint-Mars</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-au-Laërt"><i>Saint-Martin-au-Laërt</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-aux-Chartrains"><i>Saint-Martin-aux-Chartrains</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-Boulogne"><i>Saint-Martin-Boulogne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-Choquel"><i>Saint-Martin-Choquel</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Bienfaite-la-Cressonnière"><i>Saint-Martin-de-Bienfaite-la-Cressonnière</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Blagny"><i>Saint-Martin-de-Blagny</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Bonfossé"><i>Saint-Martin-de-Bonfossé</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Fontenay"><i>Saint-Martin-de-Fontenay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-la-Lieue"><i>Saint-Martin-de-la-Lieue</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Mailloc"><i>Saint-Martin-de-Mailloc</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Mieux"><i>Saint-Martin-de-Mieux</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-de-Sallen"><i>Saint-Martin-de-Sallen</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-des-Besaces"><i>Saint-Martin-des-Besaces</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-des-Champs"><i>Saint-Martin-des-Champs</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-des-Entrées"><i>Saint-Martin-des-Entrées</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-d'Hardinghem"><i>Saint-Martin-d'Hardinghem</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-Don"><i>Saint-Martin-Don</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-du-Mesnil-Oury"><i>Saint-Martin-du-Mesnil-Oury</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-lez-Tatinghem"><i>Saint-Martin-lez-Tatinghem</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-sur-Cojeul"><i>Saint-Martin-sur-Cojeul</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Martin-sur-Écaillon"><i>Saint-Martin-sur-Écaillon</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Maurice-sur-Mortagne"><i>Saint-Maurice-sur-Mortagne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Médard"><i>Saint-Médard</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Michel"><i>Saint-Michel</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Michel-de-Livet"><i>Saint-Michel-de-Livet</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Michel-sous-Bois"><i>Saint-Michel-sous-Bois</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Michel-sur-Loire"><i>Saint-Michel-sur-Loire</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Michel-sur-Ternoise"><i>Saint-Michel-sur-Ternoise</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Nicolas"><i>Saint-Nicolas</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Omer"><i>Saint-Omer</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Omer-Capelle"><i>Saint-Omer-Capelle</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ouen"><i>Saint-Ouen</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ouen-des-Besaces"><i>Saint-Ouen-des-Besaces</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ouen-du-Mesnil-Oger"><i>Saint-Ouen-du-Mesnil-Oger</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ouen-le-Houx"><i>Saint-Ouen-le-Houx</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ouen-le-Pin"><i>Saint-Ouen-le-Pin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Ovin"><i>Saint-Ovin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pair"><i>Saint-Pair</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pair-sur-Mer"><i>Saint-Pair-sur-Mer</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Palais"><i>Saint-Palais</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pantaléon"><i>Saint-Pantaléon</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Patrice"><i>Saint-Patrice</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul"><i>Saint-Paul</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul-de-Baïse"><i>Saint-Paul-de-Baïse</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul-de-Vence"><i>Saint-Paul-de-Vence</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul-de-Vern"><i>Saint-Paul-de-Vern</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul-du-Vernay"><i>Saint-Paul-du-Vernay</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul-le-Jeune"><i>Saint-Paul-le-Jeune</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Paul-sur-Ubaye"><i>Saint-Paul-sur-Ubaye</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Philbert-de-Bouaine"><i>Saint-Philbert-de-Bouaine</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Philbert-des-Champs"><i>Saint-Philbert-des-Champs</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Philibert"><i>Saint-Philibert</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre"><i>Saint-Pierre</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-Azif"><i>Saint-Pierre-Azif</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-Canivet"><i>Saint-Pierre-Canivet</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-de-Mailloc"><i>Saint-Pierre-de-Mailloc</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-des-Landes"><i>Saint-Pierre-des-Landes</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-du-Bû"><i>Saint-Pierre-du-Bû</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-du-Fresne"><i>Saint-Pierre-du-Fresne</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-du-Jonquet"><i>Saint-Pierre-du-Jonquet</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-en-Auge"><i>Saint-Pierre-en-Auge</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-Langers"><i>Saint-Pierre-Langers</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-la-Roche"><i>Saint-Pierre-la-Roche</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-la-Vieille"><i>Saint-Pierre-la-Vieille</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-sur-Dives"><i>Saint-Pierre-sur-Dives</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pierre-Tarentaine"><i>Saint-Pierre-Tarentaine</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Planchers"><i>Saint-Planchers</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Pol-sur-Ternoise"><i>Saint-Pol-sur-Ternoise</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Priest"><i>Saint-Priest</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Python"><i>Saint-Python</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Quentin"><i>Saint-Quentin</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Raphaël"><i>Saint-Raphaël</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Rémy-au-Bois"><i>Saint-Rémy-au-Bois</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Remy-Chaussée"><i>Saint-Remy-Chaussée</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Remy-du-Nord"><i>Saint-Remy-du-Nord</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Romphaire"><i>Saint-Romphaire</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Samson-de-Bonfossé"><i>Saint-Samson-de-Bonfossé</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Samson-de-la-Roque"><i>Saint-Samson-de-la-Roque</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Saulve"><i>Saint-Saulve</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Sauveur-la-Pommeraye"><i>Saint-Sauveur-la-Pommeraye</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Sébastien"><i>Saint-Sébastien</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Senier-de-Beuvron"><i>Saint-Senier-de-Beuvron</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Senier-sous-Avranches"><i>Saint-Senier-sous-Avranches</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Sever-Calvados"><i>Saint-Sever-Calvados</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Souplet"><i>Saint-Souplet</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Sulpice"><i>Saint-Sulpice</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Sulpice-de-Pommeray"><i>Saint-Sulpice-de-Pommeray</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Sulpice-des-Landes"><i>Saint-Sulpice-des-Landes</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Thomas"><i>Saint-Thomas</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Tricat"><i>Saint-Tricat</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Urbain"><i>Saint-Urbain</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vaast"><i>Saint-Vaast</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vaast-en-Auge"><i>Saint-Vaast-en-Auge</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vaast-en-Cambrésis"><i>Saint-Vaast-en-Cambrésis</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vaast-sur-Seulles"><i>Saint-Vaast-sur-Seulles</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Venant"><i>Saint-Venant</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Viâtre"><i>Saint-Viâtre</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vigor-des-Mézerets"><i>Saint-Vigor-des-Mézerets</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vigor-le-Grand"><i>Saint-Vigor-le-Grand</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Vincent"><i>Saint-Vincent</i><par n="Roazhon__np"/></e>
+    <e lm="Saint-Waast"><i>Saint-Waast</i><par n="Roazhon__np"/></e>
+
 
 <!-- From Wikipedia/apertium-cat -->
 
@@ -21708,6 +21995,338 @@
 <e lm="Yu"><i>Yu</i><par n="Calloc’h__np"/></e>
 <e lm="Zheng"><i>Zheng</i><par n="Calloc’h__np"/></e>
 
+    <e lm="abostolek"><i>abostolek</i><par n="bras__adj"/></e>
+    <e lm="adamawek"><i>adamawek</i><par n="bras__adj"/></e>
+    <e lm="adstagennek"><i>adstagennek</i><par n="bras__adj"/></e>
+    <e lm="afrikanek"><i>afrikanek</i><par n="bras__adj"/></e>
+    <e lm="akademek"><i>akademek</i><par n="bras__adj"/></e>
+    <e lm="akademiek"><i>akademiek</i><par n="bras__adj"/></e>
+    <e lm="akanek"><i>akanek</i><par n="bras__adj"/></e>
+    <e lm="alemanek"><i>alemanek</i><par n="bras__adj"/></e>
+    <e lm="alfabetek"><i>alfabetek</i><par n="bras__adj"/></e>
+    <e lm="algonkek"><i>algonkek</i><par n="bras__adj"/></e>
+    <e lm="aljebrek"><i>aljebrek</i><par n="bras__adj"/></e>
+    <e lm="aljek"><i>aljek</i><par n="bras__adj"/></e>
+    <e lm="altaek"><i>altaek</i><par n="bras__adj"/></e>
+    <e lm="andiek"><i>andiek</i><par n="bras__adj"/></e>
+    <e lm="angamek"><i>angamek</i><par n="bras__adj"/></e>
+    <e lm="angasek"><i>angasek</i><par n="bras__adj"/></e>
+    <e lm="aostriek"><i>aostriek</i><par n="bras__adj"/></e>
+    <e lm="aostronezek"><i>aostronezek</i><par n="bras__adj"/></e>
+    <e lm="aotrouniek"><i>aotrouniek</i><par n="bras__adj"/></e>
+    <e lm="apostolek"><i>apostolek</i><par n="bras__adj"/></e>
+    <e lm="aramaek"><i>aramaek</i><par n="bras__adj"/></e>
+    <e lm="arameek"><i>arameek</i><par n="bras__adj"/></e>
+    <e lm="araogennek"><i>araogennek</i><par n="bras__adj"/></e>
+    <e lm="arawanek"><i>arawanek</i><par n="bras__adj"/></e>
+    <e lm="ardamezek"><i>ardamezek</i><par n="bras__adj"/></e>
+    <e lm="arkaek"><i>arkaek</i><par n="bras__adj"/></e>
+    <e lm="arktek"><i>arktek</i><par n="bras__adj"/></e>
+    <e lm="armeniek"><i>armeniek</i><par n="bras__adj"/></e>
+    <e lm="aryek"><i>aryek</i><par n="bras__adj"/></e>
+    <e lm="askellek"><i>askellek</i><par n="bras__adj"/></e>
+    <e lm="askornek"><i>askornek</i><par n="bras__adj"/></e>
+    <e lm="astronomek"><i>astronomek</i><par n="bras__adj"/></e>
+    <e lm="atabaskek"><i>atabaskek</i><par n="bras__adj"/></e>
+    <e lm="attek"><i>attek</i><par n="bras__adj"/></e>
+    <e lm="aztekek"><i>aztekek</i><par n="bras__adj"/></e>
+    <e lm="aztek"><i>aztek</i><par n="bras__adj"/></e>
+    <e lm="baibaiek"><par n="initial-b"/><i>aibaiek</i><par n="bras__adj"/></e>
+    <e lm="baltek"><par n="initial-b"/><i>altek</i><par n="bras__adj"/></e>
+    <e lm="banglaek"><par n="initial-b"/><i>anglaek</i><par n="bras__adj"/></e>
+    <e lm="bantouek"><par n="initial-b"/><i>antouek</i><par n="bras__adj"/></e>
+    <e lm="barvek"><par n="initial-b"/><i>arvek</i><par n="bras__adj"/></e>
+    <e lm="bavarek"><par n="initial-b"/><i>avarek</i><par n="bras__adj"/></e>
+    <e lm="benouek"><par n="initial-b"/><i>enouek</i><par n="bras__adj"/></e>
+    <e lm="berberek"><par n="initial-b"/><i>erberek</i><par n="bras__adj"/></e>
+    <e lm="beriodek"><par n="initial-b"/><i>eriodek</i><par n="bras__adj"/></e>
+    <e lm="bgaiek"><par n="initial-b"/><par n="initial-g"/><i>aiek</i><par n="bras__adj"/></e>
+    <e lm="biblek"><par n="initial-b"/><i>iblek</i><par n="bras__adj"/></e>
+    <e lm="biouek"><par n="initial-b"/><i>iouek</i><par n="bras__adj"/></e>
+    <e lm="bizkaokazek"><par n="initial-b"/><i>izkaokazek</i><par n="bras__adj"/></e>
+    <e lm="bodoek"><par n="initial-b"/><i>odoek</i><par n="bras__adj"/></e>
+    <e lm="bolek"><par n="initial-b"/><i>olek</i><par n="bras__adj"/></e>
+    <e lm="bortugalek"><par n="initial-b"/><i>ortugalek</i><par n="bras__adj"/></e>
+    <e lm="bouek"><par n="initial-b"/><i>ouek</i><par n="bras__adj"/></e>
+    <e lm="boullomek"><par n="initial-b"/><i>oullomek</i><par n="bras__adj"/></e>
+    <e lm="bramiek"><par n="initial-b"/><i>ramiek</i><par n="bras__adj"/></e>
+    <e lm="brizhellek"><par n="initial-b"/><i>rizhellek</i><par n="bras__adj"/></e>
+    <e lm="burmek"><par n="initial-b"/><i>urmek</i><par n="bras__adj"/></e>
+    <e lm="chastaek"><i>chastaek</i><par n="bras__adj"/></e>
+    <e lm="dambalvezek"><par n="initial-d"/><i>ambalvezek</i><par n="bras__adj"/></e>
+    <e lm="danek"><par n="initial-d"/><i>anek</i><par n="bras__adj"/></e>
+    <e lm="dantek"><par n="initial-d"/><i>antek</i><par n="bras__adj"/></e>
+    <e lm="daoubennek"><par n="initial-d"/><i>aoubennek</i><par n="bras__adj"/></e>
+    <e lm="daoudroadek"><par n="initial-d"/><i>aoudroadek</i><par n="bras__adj"/></e>
+    <e lm="daouvloaziek"><par n="initial-d"/><i>aouvloaziek</i><par n="bras__adj"/></e>
+    <e lm="dardek"><par n="initial-d"/><i>ardek</i><par n="bras__adj"/></e>
+    <e lm="deutonek"><par n="initial-d"/><i>eutonek</i><par n="bras__adj"/></e>
+    <e lm="diakritek"><par n="initial-d"/><i>iakritek</i><par n="bras__adj"/></e>
+    <e lm="diatonek"><par n="initial-d"/><i>iatonek</i><par n="bras__adj"/></e>
+    <e lm="dibarek"><par n="initial-d"/><i>ibarek</i><par n="bras__adj"/></e>
+    <e lm="didoek"><par n="initial-d"/><i>idoek</i><par n="bras__adj"/></e>
+    <e lm="dinkek"><par n="initial-d"/><i>inkek</i><par n="bras__adj"/></e>
+    <e lm="divellkeinek"><par n="initial-d"/><i>ivellkeinek</i><par n="bras__adj"/></e>
+    <e lm="djenek"><par n="initial-d"/><i>jenek</i><par n="bras__adj"/></e>
+    <e lm="dramatek"><par n="initial-d"/><i>ramatek</i><par n="bras__adj"/></e>
+    <e lm="dravidek"><par n="initial-d"/><i>ravidek</i><par n="bras__adj"/></e>
+    <e lm="dreinek"><par n="initial-d"/><i>reinek</i><par n="bras__adj"/></e>
+    <e lm="drimiziek"><par n="initial-d"/><i>rimiziek</i><par n="bras__adj"/></e>
+    <e lm="droellennek"><par n="initial-d"/><i>roellennek</i><par n="bras__adj"/></e>
+    <e lm="drovezhiek"><par n="initial-d"/><i>rovezhiek</i><par n="bras__adj"/></e>
+    <e lm="egiptek"><i>egiptek</i><par n="bras__adj"/></e>
+    <e lm="elektrek"><i>elektrek</i><par n="bras__adj"/></e>
+    <e lm="elektromagnetek"><i>elektromagnetek</i><par n="bras__adj"/></e>
+    <e lm="enezek"><i>enezek</i><par n="bras__adj"/></e>
+    <e lm="eoulmaenek"><i>eoulmaenek</i><par n="bras__adj"/></e>
+    <e lm="erotek"><i>erotek</i><par n="bras__adj"/></e>
+    <e lm="eskimoek"><i>eskimoek</i><par n="bras__adj"/></e>
+    <e lm="esperantek"><i>esperantek</i><par n="bras__adj"/></e>
+    <e lm="estruskek"><i>estruskek</i><par n="bras__adj"/></e>
+    <e lm="etiopek"><i>etiopek</i><par n="bras__adj"/></e>
+    <e lm="etruskek"><i>etruskek</i><par n="bras__adj"/></e>
+    <e lm="europek"><i>europek</i><par n="bras__adj"/></e>
+    <e lm="ezoterek"><i>ezoterek</i><par n="bras__adj"/></e>
+    <e lm="fanoliek"><i>fanoliek</i><par n="bras__adj"/></e>
+    <e lm="fenisek"><i>fenisek</i><par n="bras__adj"/></e>
+    <e lm="feurek"><i>feurek</i><par n="bras__adj"/></e>
+    <e lm="filogenetek"><i>filogenetek</i><par n="bras__adj"/></e>
+    <e lm="finnek"><i>finnek</i><par n="bras__adj"/></e>
+    <e lm="flandrezek"><i>flandrezek</i><par n="bras__adj"/></e>
+    <e lm="fonemek"><i>fonemek</i><par n="bras__adj"/></e>
+    <e lm="frankek"><i>frankek</i><par n="bras__adj"/></e>
+    <e lm="galaktek"><par n="initial-g"/><i>alaktek</i><par n="bras__adj"/></e>
+    <e lm="galianek"><par n="initial-g"/><i>alianek</i><par n="bras__adj"/></e>
+    <e lm="galizek"><par n="initial-g"/><i>alizek</i><par n="bras__adj"/></e>
+    <e lm="garoek"><par n="initial-g"/><i>aroek</i><par n="bras__adj"/></e>
+    <e lm="gbeek"><par n="initial-g"/><i>beek</i><par n="bras__adj"/></e>
+    <e lm="gilgradek"><par n="initial-g"/><i>ilgradek</i><par n="bras__adj"/></e>
+    <e lm="glaviek"><par n="initial-g"/><i>laviek</i><par n="bras__adj"/></e>
+    <e lm="gloanek"><par n="initial-g"/><i>loanek</i><par n="bras__adj"/></e>
+    <e lm="godellek"><par n="initial-g"/><i>odellek</i><par n="bras__adj"/></e>
+    <e lm="gongaek"><par n="initial-g"/><i>ongaek</i><par n="bras__adj"/></e>
+    <e lm="gourek"><par n="initial-g"/><i>ourek</i><par n="bras__adj"/></e>
+    <e lm="gwaraniek"><par n="initial-g"/><i>waraniek</i><par n="bras__adj"/></e>
+    <e lm="gwernenezek"><par n="initial-g"/><i>wernenezek</i><par n="bras__adj"/></e>
+    <e lm="halizek"><i>halizek</i><par n="bras__adj"/></e>
+    <e lm="harek"><i>harek</i><par n="bras__adj"/></e>
+    <e lm="hebreek"><i>hebreek</i><par n="bras__adj"/></e>
+    <e lm="hellazek"><i>hellazek</i><par n="bras__adj"/></e>
+    <e lm="hellenadek"><i>hellenadek</i><par n="bras__adj"/></e>
+    <e lm="hengirillek"><i>hengirillek</i><par n="bras__adj"/></e>
+    <e lm="hennek"><i>hennek</i><par n="bras__adj"/></e>
+    <e lm="hensaoznek"><i>hensaoznek</i><par n="bras__adj"/></e>
+    <e lm="hernewek"><i>hernewek</i><par n="bras__adj"/></e>
+    <e lm="herrek"><i>herrek</i><par n="bras__adj"/></e>
+    <e lm="hiek"><i>hiek</i><par n="bras__adj"/></e>
+    <e lm="hieroglifek"><i>hieroglifek</i><par n="bras__adj"/></e>
+    <e lm="himalayek"><i>himalayek</i><par n="bras__adj"/></e>
+    <e lm="hindek"><i>hindek</i><par n="bras__adj"/></e>
+    <e lm="hindouek"><i>hindouek</i><par n="bras__adj"/></e>
+    <e lm="hirlostek"><i>hirlostek</i><par n="bras__adj"/></e>
+    <e lm="hlagolitek"><i>hlagolitek</i><par n="bras__adj"/></e>
+    <e lm="hokanek"><i>hokanek</i><par n="bras__adj"/></e>
+    <e lm="hollveliek"><i>hollveliek</i><par n="bras__adj"/></e>
+    <e lm="hornek"><i>hornek</i><par n="bras__adj"/></e>
+    <e lm="hourek"><i>hourek</i><par n="bras__adj"/></e>
+    <e lm="hresianek"><i>hresianek</i><par n="bras__adj"/></e>
+    <e lm="hungarek"><i>hungarek</i><par n="bras__adj"/></e>
+    <e lm="hwezhek"><i>hwezhek</i><par n="bras__adj"/></e>
+    <e lm="iberek"><i>iberek</i><par n="bras__adj"/></e>
+    <e lm="idjoek"><i>idjoek</i><par n="bras__adj"/></e>
+    <e lm="indezek"><i>indezek</i><par n="bras__adj"/></e>
+    <e lm="ionek"><i>ionek</i><par n="bras__adj"/></e>
+    <e lm="iranek"><i>iranek</i><par n="bras__adj"/></e>
+    <e lm="islandek"><i>islandek</i><par n="bras__adj"/></e>
+    <e lm="istorek"><i>istorek</i><par n="bras__adj"/></e>
+    <e lm="italek"><i>italek</i><par n="bras__adj"/></e>
+    <e lm="jerzenezek"><i>jerzenezek</i><par n="bras__adj"/></e>
+    <e lm="kabellek"><par n="initial-k"/><i>abellek</i><par n="bras__adj"/></e>
+    <e lm="kadaiek"><par n="initial-k"/><i>adaiek</i><par n="bras__adj"/></e>
+    <e lm="kadoek"><par n="initial-k"/><i>adoek</i><par n="bras__adj"/></e>
+    <e lm="kanaorek"><par n="initial-k"/><i>anaorek</i><par n="bras__adj"/></e>
+    <e lm="kanonek"><par n="initial-k"/><i>anonek</i><par n="bras__adj"/></e>
+    <e lm="kaokazek"><par n="initial-k"/><i>aokazek</i><par n="bras__adj"/></e>
+    <e lm="karenek"><par n="initial-k"/><i>arenek</i><par n="bras__adj"/></e>
+    <e lm="karibek"><par n="initial-k"/><i>aribek</i><par n="bras__adj"/></e>
+    <e lm="karnek"><par n="initial-k"/><i>arnek</i><par n="bras__adj"/></e>
+    <e lm="katawbek"><par n="initial-k"/><i>atawbek</i><par n="bras__adj"/></e>
+    <e lm="keltek"><par n="initial-k"/><i>eltek</i><par n="bras__adj"/></e>
+    <e lm="kemplezhek"><par n="initial-k"/><i>emplezhek</i><par n="bras__adj"/></e>
+    <e lm="kenedek"><par n="initial-k"/><i>enedek</i><par n="bras__adj"/></e>
+    <e lm="keñveriek"><par n="initial-k"/><i>eñveriek</i><par n="bras__adj"/></e>
+    <e lm="kerneveurek"><par n="initial-k"/><i>erneveurek</i><par n="bras__adj"/></e>
+    <e lm="Kernewek"><par n="initial-K"/><i>ernewek</i><par n="bras__adj"/></e>
+    <e lm="kevrinek"><par n="initial-k"/><i>evrinek</i><par n="bras__adj"/></e>
+    <e lm="kirantiek"><par n="initial-k"/><i>irantiek</i><par n="bras__adj"/></e>
+    <e lm="kirek"><par n="initial-k"/><i>irek</i><par n="bras__adj"/></e>
+    <e lm="kognek"><par n="initial-k"/><i>ognek</i><par n="bras__adj"/></e>
+    <e lm="koiek"><par n="initial-k"/><i>oiek</i><par n="bras__adj"/></e>
+    <e lm="kolierek"><par n="initial-k"/><i>olierek</i><par n="bras__adj"/></e>
+    <e lm="komouzek"><par n="initial-k"/><i>omouzek</i><par n="bras__adj"/></e>
+    <e lm="kongoek"><par n="initial-k"/><i>ongoek</i><par n="bras__adj"/></e>
+    <e lm="konyakek"><par n="initial-k"/><i>onyakek</i><par n="bras__adj"/></e>
+    <e lm="kopek"><par n="initial-k"/><i>opek</i><par n="bras__adj"/></e>
+    <e lm="koptek"><par n="initial-k"/><i>optek</i><par n="bras__adj"/></e>
+    <e lm="kordofanek"><par n="initial-k"/><i>ordofanek</i><par n="bras__adj"/></e>
+    <e lm="koreanek"><par n="initial-k"/><i>oreanek</i><par n="bras__adj"/></e>
+    <e lm="kosmek"><par n="initial-k"/><i>osmek</i><par n="bras__adj"/></e>
+    <e lm="kouchitek"><par n="initial-k"/><i>ouchitek</i><par n="bras__adj"/></e>
+    <e lm="koukiek"><par n="initial-k"/><i>oukiek</i><par n="bras__adj"/></e>
+    <e lm="kouralek"><par n="initial-k"/><i>ouralek</i><par n="bras__adj"/></e>
+    <e lm="kreek"><par n="initial-k"/><i>reek</i><par n="bras__adj"/></e>
+    <e lm="krenngembraek"><par n="initial-k"/><i>renngembraek</i><par n="bras__adj"/></e>
+    <e lm="krennvrezhonek"><par n="initial-k"/><i>rennvrezhonek</i><par n="bras__adj"/></e>
+    <e lm="kreolek"><par n="initial-k"/><i>reolek</i><par n="bras__adj"/></e>
+    <e lm="kribennek"><par n="initial-k"/><i>ribennek</i><par n="bras__adj"/></e>
+    <e lm="kwaek"><par n="initial-k"/><i>waek</i><par n="bras__adj"/></e>
+    <e lm="lappek"><i>lappek</i><par n="bras__adj"/></e>
+    <e lm="latinek"><i>latinek</i><par n="bras__adj"/></e>
+    <e lm="latvek"><i>latvek</i><par n="bras__adj"/></e>
+    <e lm="lidek"><i>lidek</i><par n="bras__adj"/></e>
+    <e lm="liesek"><i>liesek</i><par n="bras__adj"/></e>
+    <e lm="linennek"><i>linennek</i><par n="bras__adj"/></e>
+    <e lm="lizherennek"><i>lizherennek</i><par n="bras__adj"/></e>
+    <e lm="loloek"><i>loloek</i><par n="bras__adj"/></e>
+    <e lm="lourennek"><i>lourennek</i><par n="bras__adj"/></e>
+    <e lm="lunedek"><i>lunedek</i><par n="bras__adj"/></e>
+    <e lm="mabanek"><par n="initial-m"/><i>abanek</i><par n="bras__adj"/></e>
+    <e lm="madarek"><par n="initial-m"/><i>adarek</i><par n="bras__adj"/></e>
+    <e lm="malayek"><par n="initial-m"/><i>alayek</i><par n="bras__adj"/></e>
+    <e lm="mandeek"><par n="initial-m"/><i>andeek</i><par n="bras__adj"/></e>
+    <e lm="mandingek"><par n="initial-m"/><i>andingek</i><par n="bras__adj"/></e>
+    <e lm="mangeek"><par n="initial-m"/><i>angeek</i><par n="bras__adj"/></e>
+    <e lm="maoek"><par n="initial-m"/><i>aoek</i><par n="bras__adj"/></e>
+    <e lm="marellek"><par n="initial-m"/><i>arellek</i><par n="bras__adj"/></e>
+    <e lm="masek"><par n="initial-m"/><i>asek</i><par n="bras__adj"/></e>
+    <e lm="mazatekek"><par n="initial-m"/><i>azatekek</i><par n="bras__adj"/></e>
+    <e lm="medek"><par n="initial-m"/><i>edek</i><par n="bras__adj"/></e>
+    <e lm="menezek"><par n="initial-m"/><i>enezek</i><par n="bras__adj"/></e>
+    <e lm="metrek"><par n="initial-m"/><i>etrek</i><par n="bras__adj"/></e>
+    <e lm="mienek"><par n="initial-m"/><i>ienek</i><par n="bras__adj"/></e>
+    <e lm="migornek"><par n="initial-m"/><i>igornek</i><par n="bras__adj"/></e>
+    <e lm="mikstekek"><par n="initial-m"/><i>ikstekek</i><par n="bras__adj"/></e>
+    <e lm="miwokek"><par n="initial-m"/><i>iwokek</i><par n="bras__adj"/></e>
+    <e lm="mojennek"><par n="initial-m"/><i>ojennek</i><par n="bras__adj"/></e>
+    <e lm="monek"><par n="initial-m"/><i>onek</i><par n="bras__adj"/></e>
+    <e lm="mongek"><par n="initial-m"/><i>ongek</i><par n="bras__adj"/></e>
+    <e lm="mongolek"><par n="initial-m"/><i>ongolek</i><par n="bras__adj"/></e>
+    <e lm="montagnek"><par n="initial-m"/><i>ontagnek</i><par n="bras__adj"/></e>
+    <e lm="morganatek"><par n="initial-m"/><i>organatek</i><par n="bras__adj"/></e>
+    <e lm="moueek"><par n="initial-m"/><i>oueek</i><par n="bras__adj"/></e>
+    <e lm="moundek"><par n="initial-m"/><i>oundek</i><par n="bras__adj"/></e>
+    <e lm="muskogeek"><par n="initial-m"/><i>uskogeek</i><par n="bras__adj"/></e>
+    <e lm="nagaek"><i>nagaek</i><par n="bras__adj"/></e>
+    <e lm="naskapiek"><i>naskapiek</i><par n="bras__adj"/></e>
+    <e lm="ndouek"><i>ndouek</i><par n="bras__adj"/></e>
+    <e lm="nijerek"><i>nijerek</i><par n="bras__adj"/></e>
+    <e lm="nilotek"><i>nilotek</i><par n="bras__adj"/></e>
+    <e lm="nitrek"><i>nitrek</i><par n="bras__adj"/></e>
+    <e lm="norgeek"><i>norgeek</i><par n="bras__adj"/></e>
+    <e lm="normanek"><i>normanek</i><par n="bras__adj"/></e>
+    <e lm="norsek"><i>norsek</i><par n="bras__adj"/></e>
+    <e lm="norvegek"><i>norvegek</i><par n="bras__adj"/></e>
+    <e lm="noumek"><i>noumek</i><par n="bras__adj"/></e>
+    <e lm="nubiek"><i>nubiek</i><par n="bras__adj"/></e>
+    <e lm="ojibwek"><i>ojibwek</i><par n="bras__adj"/></e>
+    <e lm="ometoek"><i>ometoek</i><par n="bras__adj"/></e>
+    <e lm="omotek"><i>omotek</i><par n="bras__adj"/></e>
+    <e lm="oriyek"><i>oriyek</i><par n="bras__adj"/></e>
+    <e lm="otek"><i>otek</i><par n="bras__adj"/></e>
+    <e lm="otomanek"><i>otomanek</i><par n="bras__adj"/></e>
+    <e lm="otomek"><i>otomek</i><par n="bras__adj"/></e>
+    <e lm="ougrek"><i>ougrek</i><par n="bras__adj"/></e>
+    <e lm="ouralek"><i>ouralek</i><par n="bras__adj"/></e>
+    <e lm="outiek"><i>outiek</i><par n="bras__adj"/></e>
+    <e lm="outoek"><i>outoek</i><par n="bras__adj"/></e>
+    <e lm="papouek"><par n="initial-p"/><i>apouek</i><par n="bras__adj"/></e>
+    <e lm="parsek"><par n="initial-p"/><i>arsek</i><par n="bras__adj"/></e>
+    <e lm="penoutiek"><par n="initial-p"/><i>enoutiek</i><par n="bras__adj"/></e>
+    <e lm="pentatonek"><par n="initial-p"/><i>entatonek</i><par n="bras__adj"/></e>
+    <e lm="persek"><par n="initial-p"/><i>ersek</i><par n="bras__adj"/></e>
+    <e lm="pluñvek"><par n="initial-p"/><i>luñvek</i><par n="bras__adj"/></e>
+    <e lm="polinezek"><par n="initial-p"/><i>olinezek</i><par n="bras__adj"/></e>
+    <e lm="polonek"><par n="initial-p"/><i>olonek</i><par n="bras__adj"/></e>
+    <e lm="pomoek"><par n="initial-p"/><i>omoek</i><par n="bras__adj"/></e>
+    <e lm="popolokek"><par n="initial-p"/><i>opolokek</i><par n="bras__adj"/></e>
+    <e lm="pornografek"><par n="initial-p"/><i>ornografek</i><par n="bras__adj"/></e>
+    <e lm="postek"><par n="initial-p"/><i>ostek</i><par n="bras__adj"/></e>
+    <e lm="potchourek"><par n="initial-p"/><i>otchourek</i><par n="bras__adj"/></e>
+    <e lm="psikedelek"><par n="initial-p"/><i>sikedelek</i><par n="bras__adj"/></e>
+    <e lm="ramouek"><i>ramouek</i><par n="bras__adj"/></e>
+    <e lm="reizhiadek"><i>reizhiadek</i><par n="bras__adj"/></e>
+    <e lm="reizhkredennek"><i>reizhkredennek</i><par n="bras__adj"/></e>
+    <e lm="riek"><i>riek</i><par n="bras__adj"/></e>
+    <e lm="rizennek"><i>rizennek</i><par n="bras__adj"/></e>
+    <e lm="roudennek"><i>roudennek</i><par n="bras__adj"/></e>
+    <e lm="roumanek"><i>roumanek</i><par n="bras__adj"/></e>
+    <e lm="runek"><i>runek</i><par n="bras__adj"/></e>
+    <e lm="ryoukyouek"><i>ryoukyouek</i><par n="bras__adj"/></e>
+    <e lm="saharek"><i>saharek</i><par n="bras__adj"/></e>
+    <e lm="salek"><i>salek</i><par n="bras__adj"/></e>
+    <e lm="salichek"><i>salichek</i><par n="bras__adj"/></e>
+    <e lm="samiek"><i>samiek</i><par n="bras__adj"/></e>
+    <e lm="samoyedek"><i>samoyedek</i><par n="bras__adj"/></e>
+    <e lm="sanek"><i>sanek</i><par n="bras__adj"/></e>
+    <e lm="sañskritek"><i>sañskritek</i><par n="bras__adj"/></e>
+    <e lm="senoufoek"><i>senoufoek</i><par n="bras__adj"/></e>
+    <e lm="sepikek"><i>sepikek</i><par n="bras__adj"/></e>
+    <e lm="serbek"><i>serbek</i><par n="bras__adj"/></e>
+    <e lm="sferek"><i>sferek</i><par n="bras__adj"/></e>
+    <e lm="sgawek"><i>sgawek</i><par n="bras__adj"/></e>
+    <e lm="siek"><i>siek</i><par n="bras__adj"/></e>
+    <e lm="siouek"><i>siouek</i><par n="bras__adj"/></e>
+    <e lm="siriek"><i>siriek</i><par n="bras__adj"/></e>
+    <e lm="skinoberiek"><i>skinoberiek</i><par n="bras__adj"/></e>
+    <e lm="skornek"><i>skornek</i><par n="bras__adj"/></e>
+    <e lm="skouarnek"><i>skouarnek</i><par n="bras__adj"/></e>
+    <e lm="skoueriek"><i>skoueriek</i><par n="bras__adj"/></e>
+    <e lm="slovenek"><i>slovenek</i><par n="bras__adj"/></e>
+    <e lm="songayek"><i>songayek</i><par n="bras__adj"/></e>
+    <e lm="soudanek"><i>soudanek</i><par n="bras__adj"/></e>
+    <e lm="sourmek"><i>sourmek</i><par n="bras__adj"/></e>
+    <e lm="sovietek"><i>sovietek</i><par n="bras__adj"/></e>
+    <e lm="sovietek"><i>sovietek</i><par n="bras__adj"/></e>
+    <e lm="spagnek"><i>spagnek</i><par n="bras__adj"/></e>
+    <e lm="strategek"><i>strategek</i><par n="bras__adj"/></e>
+    <e lm="sulfurek"><i>sulfurek</i><par n="bras__adj"/></e>
+    <e lm="svedek"><i>svedek</i><par n="bras__adj"/></e>
+    <e lm="taiek"><par n="initial-t"/><i>aiek</i><par n="bras__adj"/></e>
+    <e lm="talek"><par n="initial-t"/><i>alek</i><par n="bras__adj"/></e>
+    <e lm="tamachekek"><par n="initial-t"/><i>amachekek</i><par n="bras__adj"/></e>
+    <e lm="tamangek"><par n="initial-t"/><i>amangek</i><par n="bras__adj"/></e>
+    <e lm="tamilek"><par n="initial-t"/><i>amilek</i><par n="bras__adj"/></e>
+    <e lm="tanek"><par n="initial-t"/><i>anek</i><par n="bras__adj"/></e>
+    <e lm="tanoek"><par n="initial-t"/><i>anoek</i><par n="bras__adj"/></e>
+    <e lm="tanveneziek"><par n="initial-t"/><i>anveneziek</i><par n="bras__adj"/></e>
+    <e lm="tchekek"><par n="initial-t"/><i>chekek</i><par n="bras__adj"/></e>
+    <e lm="tchiangek"><par n="initial-t"/><i>chiangek</i><par n="bras__adj"/></e>
+    <e lm="tchinantekek"><par n="initial-t"/><i>chinantekek</i><par n="bras__adj"/></e>
+    <e lm="tchinek"><par n="initial-t"/><i>chinek</i><par n="bras__adj"/></e>
+    <e lm="tchoumachek"><par n="initial-t"/><i>choumachek</i><par n="bras__adj"/></e>
+    <e lm="teutonek"><par n="initial-t"/><i>eutonek</i><par n="bras__adj"/></e>
+    <e lm="totonakek"><par n="initial-t"/><i>otonakek</i><par n="bras__adj"/></e>
+    <e lm="toungousek"><par n="initial-t"/><i>oungousek</i><par n="bras__adj"/></e>
+    <e lm="toupiek"><par n="initial-t"/><i>oupiek</i><par n="bras__adj"/></e>
+    <e lm="tredanek"><par n="initial-t"/><i>redanek</i><par n="bras__adj"/></e>
+    <e lm="tredanwarellek"><par n="initial-t"/><i>redanwarellek</i><par n="bras__adj"/></e>
+    <e lm="treuzkaokazek"><par n="initial-t"/><i>reuzkaokazek</i><par n="bras__adj"/></e>
+    <e lm="troellennek"><par n="initial-t"/><i>roellennek</i><par n="bras__adj"/></e>
+    <e lm="undoueek"><i>undoueek</i><par n="bras__adj"/></e>
+    <e lm="vantouek"><i>vantouek</i><par n="bras__adj"/></e>
+    <e lm="verberek"><i>verberek</i><par n="bras__adj"/></e>
+    <e lm="vogalennek"><i>vogalennek</i><par n="bras__adj"/></e>
+    <e lm="volkanek"><i>volkanek</i><par n="bras__adj"/></e>
+    <e lm="yenisek"><i>yenisek</i><par n="bras__adj"/></e>
+    <e lm="yiek"><i>yiek</i><par n="bras__adj"/></e>
+    <e lm="youatek"><i>youatek</i><par n="bras__adj"/></e>
+    <e lm="youmanek"><i>youmanek</i><par n="bras__adj"/></e>
+    <e lm="yuzevek"><i>yuzevek</i><par n="bras__adj"/></e>
+    <e lm="zaparoek"><i>zaparoek</i><par n="bras__adj"/></e>
+    <e lm="zapotekek"><i>zapotekek</i><par n="bras__adj"/></e>
+    <e lm="zemek"><i>zemek</i><par n="bras__adj"/></e>
+    <e lm="zenatiek"><i>zenatiek</i><par n="bras__adj"/></e>
+
 
 
 
@@ -21768,6 +22387,7 @@
     <e lm="aostriat-hungarat"><i>aostriat-hungarat</i><par n="bras__adj"/></e>
     <e lm="araogennel"><i>araogennel</i><par n="bras__adj"/></e>
     <e lm="arab"><i>arab</i><par n="bras__adj"/></e>
+    <e lm="arabek"><i>arabek</i><par n="bras__adj"/></e>
     <e lm="arbennik"><i>arbennik</i><par n="bras__adj"/></e>
     <e lm="arc’hantinat"><i>arc’hantinat</i><par n="bras__adj"/></e>
     <e lm="arc’hlas"><i>arc’hlas</i><par n="bras__adj"/></e>
@@ -21787,6 +22407,7 @@
     <e lm="asturian"><i>asturian</i><par n="bras__adj"/></e>
     <e lm="atahinus"><i>atahinus</i><par n="bras__adj"/></e>
     <e lm="atebek"><i>atebek</i><par n="bras__adj"/></e>
+    <e lm="atomek"><i>atomek</i><par n="bras__adj"/></e>
     <e lm="atlantel"><i>atlantel</i><par n="bras__adj"/></e>
     <e lm="azas"><i>azas</i><par n="bras__adj"/></e>
     <e lm="azerbaidjanat"><i>azerbaidjanat</i><par n="bras__adj"/></e>	
@@ -22667,6 +23288,7 @@
     <e lm="ofisiel"><i>ofisiel</i><par n="bras__adj"/></e>
     <e lm="okeaniat"><i>Okeaniat</i><par n="bras__adj"/></e>
     <e lm="okitan"><i>okitan</i><par n="bras__adj"/></e>
+    <e lm="okitaneg"><i>okitaneg</i><par n="bras__adj"/></e>
     <e lm="olimpek"><i>olimpek</i><par n="bras__adj"/></e>
     <e lm="omanat"><i>omanat</i><par n="bras__adj"/></e>
     <e lm="onest"><i>onest</i><par n="bras__adj"/></e>	
@@ -22800,6 +23422,7 @@
     <e lm="roumanat"><i>Roumanat</i><par n="bras__adj"/></e>
     <e lm="rous"><i>rous</i><par n="bras__adj"/></e>
     <e lm="rusian"><i>rusian</i><par n="bras__adj"/></e>
+    <e lm="rusek"><i>rusek</i><par n="bras__adj"/></e>
     <e lm="rusianek"><i>rusianek</i><par n="bras__adj"/></e>
     <e lm="rust"><i>rust</i><par n="bras__adj"/></e>
     <e lm="ruzart"><i>ruzart</i><par n="bras__adj"/></e>
@@ -22839,6 +23462,7 @@
 <!--    <e lm="sin"><i>sin</i><par n="bras__adj"/></e> -->
     <e lm="sinaat"><i>sinaat</i><par n="bras__adj"/></e>
     <e lm="sinaek"><i>sinaek</i><par n="bras__adj"/></e>
+    <e lm="sinek"><i>sinek</i><par n="bras__adj"/></e>
     <e lm="singapourat"><i>singapourat</i><par n="bras__adj"/></e>
       <e lm="sintetek"><p><l>sintetek</l><r>sintezek</r></p><par n="bras__adj"/></e>
     <e lm="sintezek"><i>sintezek</i><par n="bras__adj"/></e>
@@ -22944,6 +23568,7 @@
     <e lm="tanzanian"><par n="initial-t"/><i>anzanian</i><par n="bras__adj"/></e>
     <e lm="tarzhus"><par n="initial-t"/><i>arzhus</i><par n="bras__adj"/></e>
     <e lm="tatar"><par n="initial-t"/><i>atar</i><par n="bras__adj"/></e>
+    <e lm="tchadek"><par n="initial-t"/><i>chadek</i><par n="bras__adj"/></e>
     <e lm="tchadian"><par n="initial-t"/><i>chadian</i><par n="bras__adj"/></e>
     <e lm="tchek"><par n="initial-t"/><i>chek</i><par n="bras__adj"/></e>
     <e lm="tchekoslovak"><par n="initial-t"/><i>chekoslovak</i><par n="bras__adj"/></e>
@@ -22999,6 +23624,7 @@
     <e lm="trumm"><par n="initial-t"/><i>rumm</i><par n="bras__adj"/></e>
     <e lm="tunizian"><par n="initial-t"/><i>unizian</i><par n="bras__adj"/></e>
     <e lm="turk"><par n="initial-t"/><i>urk</i><par n="bras__adj"/></e>
+    <e lm="turkek"><par n="initial-t"/><i>urkek</i><par n="bras__adj"/></e>
     <e lm="turkmen"><par n="initial-t"/><i>urkmen</i><par n="bras__adj"/></e>
     <e lm="tuvaluan"><par n="initial-t"/><i>uvaluan</i><par n="bras__adj"/></e>
     <e lm="uhel"><i>uhel</i><par n="bras__adj"/></e>
@@ -26883,6 +27509,7 @@
     <!-- Abbreviations -->   
 
     <e lm="Dr."><i>Dr.</i><par n="Dr.__abbr"/></e>
+    <e lm="St."><i>St.</i><par n="Dr.__abbr"/></e>
 	
   </section>
 
