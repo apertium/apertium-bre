@@ -96,6 +96,8 @@
     <pardef n="distàncies">
       <e><re>[0-9]+</re><p><l><b/>km</l><r><b/>km<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><re>[0-9]+</re><p><l>km</l><r><b/>km<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><re>[0-9]+</re><p><l><b/>cm</l><r><b/>cm<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><re>[0-9]+</re><p><l>cm</l><r><b/>cm<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="fechas">
@@ -234,6 +236,13 @@
       <e r="LR"><p><l>V</l><r>B</r></p></e>
       <e r="LR"><p><l>P</l><r>B</r></p></e>
       <e r="RL"><p><l><a/>B</l><r>B</r></p></e>
+    </pardef>
+
+    <pardef n="initial-C(k)">
+      <e r="LR"><p><l>C</l><r>C</r></p></e>
+      <e r="LR"><p><l>G</l><r>C</r></p></e>
+      <e r="LR"><p><l>C’h</l><r>C</r></p></e>
+      <e r="RL"><p><l><a/>C</l><r>C</r></p></e>
     </pardef>
 
     <pardef n="initial-K">
@@ -20035,6 +20044,7 @@
     <e lm="Cetelem"><i>Cetelem</i><par n="Wikipedia__np"/></e>
     <e lm="Citroën"><i>Citroën</i><par n="Wikipedia__np"/></e>
     <e lm="Commons"><i>Commons</i><par n="Wikipedia__np"/></e>
+    <e lm="Commonwealth"><par n="initial-C(k)"/><i>ommonwealth</i><par n="Wikipedia__np"/></e>
     <e lm="Coop Breizh"><i>Coop<b/>Breizh</i><par n="Wikipedia__np"/></e>
     <e lm="Daoulagad Breizh"><par n="initial-D"/><i>aoulagad<b/>Breizh</i><par n="Wikipedia__np"/></e>
     <e lm="Dastum"><par n="initial-D"/><i>astum</i><par n="Wikipedia__np"/></e>
