@@ -15,6 +15,7 @@
     <sdef n="top"    c="Toponym"/>
     <sdef n="ant"    c="Anthroponym"/>
     <sdef n="cog"    c="Cognomen"/>
+    <sdef n="abbr"   c="Abbreviations"/>
     <sdef n="al"     c="Autres"/>
     <sdef n="pr"     c="Preposition"/>
     <sdef n="cnjcoo" c="Conjonction de coordination"/>
@@ -66,6 +67,8 @@
     <sdef n="cm"     c="Coma"/>
     <sdef n="apos"   c="Apostrophe"/>
     <sdef n="guio"   c="Hyphen"/>
+    <sdef n="lpar"   c=""/>
+    <sdef n="rpar"   c=""/>
     <sdef n="lquot"  c=""/>
     <sdef n="rquot"  c=""/>
     <sdef n="sent"   c="End of sentence marker"/>
@@ -98,6 +101,8 @@
       <e r="LR"><re>[0-9]+</re><p><l>km</l><r><b/>km<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><re>[0-9]+</re><p><l><b/>cm</l><r><b/>cm<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><re>[0-9]+</re><p><l>cm</l><r><b/>cm<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><re>[0-9]+</re><p><l><b/>mm</l><r><b/>mm<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><re>[0-9]+</re><p><l>mm</l><r><b/>mm<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="fechas">
@@ -148,6 +153,8 @@
 
     <pardef n="separa">
       <e><re>([.\?;:!]|[.\?;:!][.\?;:!][.\?;:!])</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><p><l>(</l><r>(<s n="lpar"/></r></p></e>
+      <e><p><l>)</l><r>)<s n="rpar"/></r></p></e>
     </pardef>
 
     <pardef n="KM__n">
@@ -5804,6 +5811,10 @@
       <e><p><l>apent</l><r>epel<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
     <!-- END PARADIGMS TO CHECK -->  
+
+    <pardef n="Dr.__abbr">
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
+    </pardef>
   </pardefs>
 
   <section id="main" type="standard">
@@ -9312,6 +9323,7 @@
     <e lm="devezhiad"><par n="initial-d"/><i>evezhiad</i><par n="si__n"/></e>
     <e lm="dezverk"><par n="initial-d"/><i>ezverk</i><par n="si__n"/></e>
 	<e lm="DFKS"><i>DFKS</i><par n="KM__n"/></e>
+	<e lm="Sir"><i>Sir</i><par n="KM__n"/></e>
     <e lm="diagnostik"><par n="initial-d"/><i>iagnostik</i><par n="si__n"/></e>
     <e lm="diazad"><par n="initial-d"/><i>iazad</i><par n="si__n"/></e>
     <e lm="diazez"><par n="initial-d"/><i>iazez</i><par n="si__n"/></e>
@@ -9632,6 +9644,7 @@
     <e lm="is-skourr"><i>is-skourr</i><par n="si__n"/></e>
     <e lm="istant"><i>istant</i><par n="si__n"/></e>
     <e lm="istitl"><i>istitl</i><par n="si__n"/></e>
+    <e lm="henc’hresianeg"><i>henc’hresianeg</i><par n="si__n"/></e>
     <e lm="italianeg"><i>italianeg</i><par n="si__n"/></e>
     <e lm="ivin"><i>ivin</i><par n="si__n"/></e>
     <e lm="iwerzhoneg"><i>iwerzhoneg</i><par n="si__n"/></e>
@@ -10750,6 +10763,7 @@
     <e lm="adreger"><i>adreg</i><par n="kelenn/er__n"/></e>
     <e lm="alier"><i>ali</i><par n="kelenn/er__n"/></e>
 	<e lm="alamaneger"><i>alamaneg</i><par n="kelenn/er__n"/></e>
+	<e lm="gresianeger"><par n="initial-g"/><i>resianeg</i><par n="kelenn/er__n"/></e>
     <e lm="alouber"><i>aloub</i><par n="kelenn/er__n"/></e>
     <e lm="alpaer"><i>alpa</i><par n="kelenn/er__n"/></e>
     <e lm="aluzener"><i>aluzen</i><par n="kelenn/er__n"/></e>
@@ -16504,6 +16518,9 @@
     <e lm="Aljer"><i>Aljer</i><par n="Roazhon__np"/></e>
     <e lm="Aljeria"><i>Aljeria</i><par n="Roazhon__np"/></e>
     <e lm="Amerika"><i>Amerika</i><par n="Roazhon__np"/></e>
+    <e lm="Norzhamerika"><i>Norzhamerika</i><par n="Roazhon__np"/></e>
+    <e lm="Suamerika"><i>Suamerika</i><par n="Roazhon__np"/></e>
+    <e lm="Vienna"><i>Vienna</i><par n="Roazhon__np"/></e>
     <e lm="Andorra"><i>Andorra</i><par n="Roazhon__np"/></e>
     <e lm="Angola"><i>Angola</i><par n="Roazhon__np"/></e>
     <e lm="Anguilla"><i>Anguilla</i><par n="Roazhon__np"/></e>
@@ -20203,6 +20220,148 @@
     <e lm="Bro Gozh ma Zadoù"><par n="initial-B"/><i>ro<b/>Gozh<b/>ma<b/>Zadoù</i><par n="Bodadenn_Vroadel__np"/></e>	
     <e lm="Tolgenn Aour"><par n="initial-T"/><i>olgenn<b/>Aour</i><par n="Bodadenn_Vroadel__np"/></e>	
 
+
+<!-- Manually added -->
+    <e lm="Alaska"><i>Alaska</i><par n="Roazhon__np"/></e>
+    <e lm="Aleksandria"><i>Aleksandria</i><par n="Roazhon__np"/></e>
+    <e lm="Amsterdam"><i>Amsterdam</i><par n="Roazhon__np"/></e>
+    <e lm="Anatolia"><i>Anatolia</i><par n="Roazhon__np"/></e>
+    <e lm="Andalouzia"><i>Andalouzia</i><par n="Roazhon__np"/></e>
+    <e lm="Antarktika"><i>Antarktika</i><par n="Roazhon__np"/></e>
+    <e lm="Antwerpen"><i>Antwerpen</i><par n="Roazhon__np"/></e>
+    <e lm="Arizona"><i>Arizona</i><par n="Roazhon__np"/></e>
+    <e lm="Arktika"><i>Arktika</i><par n="Roazhon__np"/></e>
+    <e lm="Asturiez"><i>Asturiez</i><par n="Roazhon__np"/></e>
+    <e lm="Auvergne"><i>Auvergne</i><par n="Roazhon__np"/></e>
+    <e lm="Bavaria"><par n="initial-B"/><i>avaria</i><par n="Roazhon__np"/></e>
+    <e lm="Bengal"><par n="initial-B"/><i>engal</i><par n="Roazhon__np"/></e>
+    <e lm="Bizantion"><par n="initial-B"/><i>izantion</i><par n="Roazhon__np"/></e>
+    <e lm="Bizkaia"><par n="initial-B"/><i>izkaia</i><par n="Roazhon__np"/></e>
+    <e lm="Bohemia"><par n="initial-B"/><i>ohemia</i><par n="Roazhon__np"/></e>
+    <e lm="Bologna"><par n="initial-B"/><i>ologna</i><par n="Roazhon__np"/></e>
+    <e lm="Bosnia"><par n="initial-B"/><i>osnia</i><par n="Roazhon__np"/></e>
+    <e lm="Bourgogn"><par n="initial-B"/><i>ourgogn</i><par n="Roazhon__np"/></e>
+    <e lm="Brandenburg"><par n="initial-B"/><i>randenburg</i><par n="Roazhon__np"/></e>
+    <e lm="Brusel"><par n="initial-B"/><i>rusel</i><par n="Roazhon__np"/></e>
+    <e lm="Budapest"><par n="initial-B"/><i>udapest</i><par n="Roazhon__np"/></e>
+    <e lm="Caen"><i>Caen</i><par n="Roazhon__np"/></e>
+    <e lm="California"><i>California</i><par n="Roazhon__np"/></e>
+    <e lm="Catalunya"><i>Catalunya</i><par n="Roazhon__np"/></e>
+    <e lm="Chicago"><i>Chicago</i><par n="Roazhon__np"/></e>
+    <e lm="Coruña"><i>Coruña</i><par n="Roazhon__np"/></e>
+    <e lm="Cuba"><i>Cuba</i><par n="Roazhon__np"/></e>
+    <e lm="Darmstadt"><par n="initial-D"/><i>armstadt</i><par n="Roazhon__np"/></e>
+    <e lm="Dresden"><par n="initial-D"/><i>resden</i><par n="Roazhon__np"/></e>
+    <e lm="Essex"><i>Essex</i><par n="Roazhon__np"/></e>
+    <e lm="Eurazia"><i>Eurazia</i><par n="Roazhon__np"/></e>
+    <e lm="Florida"><i>Florida</i><par n="Roazhon__np"/></e>
+    <e lm="Frankfurt"><i>Frankfurt</i><par n="Roazhon__np"/></e>
+    <e lm="Gaillimh"><par n="initial-G"/><i>aillimh</i><par n="Roazhon__np"/></e>
+    <e lm="Geneva"><par n="initial-G"/><i>eneva</i><par n="Roazhon__np"/></e>
+    <e lm="Germania"><par n="initial-G"/><i>ermania</i><par n="Roazhon__np"/></e>
+    <e lm="Gipuzkoa"><par n="initial-G"/><i>ipuzkoa</i><par n="Roazhon__np"/></e>
+    <e lm="Granada"><par n="initial-G"/><i>ranada</i><par n="Roazhon__np"/></e>
+    <e lm="Hamburg"><i>Hamburg</i><par n="Roazhon__np"/></e>
+    <e lm="Hannover"><i>Hannover</i><par n="Roazhon__np"/></e>
+    <e lm="Hessen"><i>Hessen</i><par n="Roazhon__np"/></e>
+    <e lm="Himalaya"><i>Himalaya</i><par n="Roazhon__np"/></e>
+    <e lm="Hollywood"><i>Hollywood</i><par n="Roazhon__np"/></e>
+    <e lm="Holstein"><i>Holstein</i><par n="Roazhon__np"/></e>
+    <e lm="Iparralde"><i>Iparralde</i><par n="Roazhon__np"/></e>
+    <e lm="Istanbul"><i>Istanbul</i><par n="Roazhon__np"/></e>
+    <e lm="Jersey"><i>Jersey</i><par n="Roazhon__np"/></e>
+    <e lm="Kalifornia"><par n="initial-K"/><i>alifornia</i><par n="Roazhon__np"/></e>
+    <e lm="Karib"><par n="initial-K"/><i>arib</i><par n="Roazhon__np"/></e>
+    <e lm="Kastilha"><par n="initial-K"/><i>astilha</i><par n="Roazhon__np"/></e>
+    <e lm="Kiprenez"><par n="initial-K"/><i>iprenez</i><par n="Roazhon__np"/></e>
+    <e lm="Kreizamerika"><par n="initial-K"/><i>reizamerika</i><par n="Roazhon__np"/></e>
+    <e lm="Krimea"><par n="initial-K"/><i>rimea</i><par n="Roazhon__np"/></e>
+    <e lm="Leipzig"><i>Leipzig</i><par n="Roazhon__np"/></e>
+    <e lm="Lille"><i>Lille</i><par n="Roazhon__np"/></e>
+    <e lm="Limbourg"><i>Limbourg</i><par n="Roazhon__np"/></e>
+    <e lm="Lisboa"><i>Lisboa</i><par n="Roazhon__np"/></e>
+    <e lm="Lombardia"><i>Lombardia</i><par n="Roazhon__np"/></e>
+    <e lm="Maine"><par n="initial-M"/><i>aine</i><par n="Roazhon__np"/></e>
+    <e lm="Massachusetts"><par n="initial-M"/><i>assachusetts</i><par n="Roazhon__np"/></e>
+    <e lm="Mercia"><par n="initial-M"/><i>ercia</i><par n="Roazhon__np"/></e>
+    <e lm="Mezopotamia"><par n="initial-M"/><i>ezopotamia</i><par n="Roazhon__np"/></e>
+    <e lm="Milano"><par n="initial-M"/><i>ilano</i><par n="Roazhon__np"/></e>
+    <e lm="Missouri"><par n="initial-M"/><i>issouri</i><par n="Roazhon__np"/></e>
+    <e lm="Mongolia"><par n="initial-M"/><i>ongolia</i><par n="Roazhon__np"/></e>
+    <e lm="Montevideo"><par n="initial-M"/><i>ontevideo</i><par n="Roazhon__np"/></e>
+    <e lm="Moskov"><par n="initial-M"/><i>oskov</i><par n="Roazhon__np"/></e>
+    <e lm="Nafarroa"><i>Nafarroa</i><par n="Roazhon__np"/></e>
+    <e lm="Naplez"><i>Naplez</i><par n="Roazhon__np"/></e>
+    <e lm="Napoli"><i>Napoli</i><par n="Roazhon__np"/></e>
+    <e lm="Navarra"><i>Navarra</i><par n="Roazhon__np"/></e>
+    <e lm="Norzhafrika"><i>Norzhafrika</i><par n="Roazhon__np"/></e>
+    <e lm="Nürnberg"><i>Nürnberg</i><par n="Roazhon__np"/></e>
+    <e lm="Ohio"><i>Ohio</i><par n="Roazhon__np"/></e>
+    <e lm="Ontario"><i>Ontario</i><par n="Roazhon__np"/></e>
+    <e lm="Oregon"><i>Oregon</i><par n="Roazhon__np"/></e>
+    <e lm="Orléans"><i>Orléans</i><par n="Roazhon__np"/></e>
+    <e lm="Orleañs"><i>Orleañs</i><par n="Roazhon__np"/></e>
+    <e lm="Pennsylvania"><par n="initial-P"/><i>ennsylvania</i><par n="Roazhon__np"/></e>
+    <e lm="Persia"><par n="initial-P"/><i>ersia</i><par n="Roazhon__np"/></e>
+    <e lm="Piemonte"><par n="initial-P"/><i>iemonte</i><par n="Roazhon__np"/></e>
+    <e lm="Provañs"><par n="initial-P"/><i>rovañs</i><par n="Roazhon__np"/></e>
+    <e lm="Prusia"><par n="initial-P"/><i>rusia</i><par n="Roazhon__np"/></e>
+    <e lm="Reims"><i>Reims</i><par n="Roazhon__np"/></e>
+    <e lm="Rhondda"><i>Rhondda</i><par n="Roazhon__np"/></e>
+    <e lm="Rhône"><i>Rhône</i><par n="Roazhon__np"/></e>
+    <e lm="Sachsen"><i>Sachsen</i><par n="Roazhon__np"/></e>
+    <e lm="Savoia"><i>Savoia</i><par n="Roazhon__np"/></e>
+    <e lm="Siberia"><i>Siberia</i><par n="Roazhon__np"/></e>
+    <e lm="Skandinavia"><i>Skandinavia</i><par n="Roazhon__np"/></e>
+    <e lm="Somme"><i>Somme</i><par n="Roazhon__np"/></e>
+    <e lm="Sussex"><i>Sussex</i><par n="Roazhon__np"/></e>
+    <e lm="Taiwan"><par n="initial-T"/><i>aiwan</i><par n="Roazhon__np"/></e>
+    <e lm="Tasmania"><par n="initial-T"/><i>asmania</i><par n="Roazhon__np"/></e>
+    <e lm="Tchekoslovakia"><par n="initial-T"/><i>chekoslovakia</i><par n="Roazhon__np"/></e>
+    <e lm="Tennessee"><par n="initial-T"/><i>ennessee</i><par n="Roazhon__np"/></e>
+    <e lm="Thüringen"><par n="initial-T"/><i>hüringen</i><par n="Roazhon__np"/></e>
+    <e lm="Troia"><par n="initial-T"/><i>roia</i><par n="Roazhon__np"/></e>
+    <e lm="Utrecht"><i>Utrecht</i><par n="Roazhon__np"/></e>
+    <e lm="Varsovia"><i>Varsovia</i><par n="Roazhon__np"/></e>
+    <e lm="Venezia"><i>Venezia</i><par n="Roazhon__np"/></e>
+    <e lm="Versailhez"><i>Versailhez</i><par n="Roazhon__np"/></e>
+    <e lm="Vienna"><i>Vienna</i><par n="Roazhon__np"/></e>
+    <e lm="Vietnam"><i>Vietnam</i><par n="Roazhon__np"/></e>
+    <e lm="Wallonia"><i>Wallonia</i><par n="Roazhon__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Roazhon__np"/></e>
+    <e lm="Wessex"><i>Wessex</i><par n="Roazhon__np"/></e>
+    <e lm="Westhoek"><i>Westhoek</i><par n="Roazhon__np"/></e>
+    <e lm="Wrecsam"><i>Wrecsam</i><par n="Roazhon__np"/></e>
+    <e lm="Yorkshire"><i>Yorkshire</i><par n="Roazhon__np"/></e>
+    <e lm="Zanzibar"><i>Zanzibar</i><par n="Roazhon__np"/></e>
+    <e lm="Zaragoza"><i>Zaragoza</i><par n="Roazhon__np"/></e>
+    <e lm="Zürich"><i>Zürich</i><par n="Roazhon__np"/></e>
+
+
+    <e lm="Washington"><i>Washington</i><par n="Calloc’h__np"/></e>
+    <e lm="Llywelyn"><i>Llywelyn</i><par n="Calloc’h__np"/></e>
+    <e lm="Smith"><i>Smith</i><par n="Calloc’h__np"/></e>
+    <e lm="Buonaparte"><par n="initial-B"/><i>uonaparte</i><par n="Calloc’h__np"/></e>
+    <e lm="Goebbels"><par n="initial-G"/><i>oebbels</i><par n="Calloc’h__np"/></e>
+    <e lm="Franco"><i>Franco</i><par n="Calloc’h__np"/></e>
+    <e lm="Young"><i>Young</i><par n="Calloc’h__np"/></e>
+    <e lm="Castro"><i>Castro</i><par n="Calloc’h__np"/></e>
+    <e lm="Fernández"><i>Fernández</i><par n="Calloc’h__np"/></e>
+    <e lm="Zedong"><i>Zedong</i><par n="Calloc’h__np"/></e>
+    <e lm="Hussein"><i>Hussein</i><par n="Calloc’h__np"/></e>
+    <e lm="Grimm"><par n="initial-G"/><i>rimm</i><par n="Calloc’h__np"/></e>
+    <e lm="Luther"><i>Luther</i><par n="Calloc’h__np"/></e>
+    <e lm="Hamilton"><i>Hamilton</i><par n="Calloc’h__np"/></e>
+    <e lm="McLaren"><par n="initial-M"/><i>cLaren</i><par n="Calloc’h__np"/></e>
+    <e lm="Minh"><par n="initial-M"/><i>inh</i><par n="Calloc’h__np"/></e>
+    <e lm="Miller"><par n="initial-M"/><i>iller</i><par n="Calloc’h__np"/></e>
+    <e lm="McCartney"><par n="initial-M"/><i>cCartney</i><par n="Calloc’h__np"/></e>
+    <e lm="Hemingway"><i>Hemingway</i><par n="Calloc’h__np"/></e>
+    <e lm="Rogers"><i>Rogers</i><par n="Calloc’h__np"/></e>
+    <e lm="Tolkien"><par n="initial-T"/><i>olkien</i><par n="Calloc’h__np"/></e>
+
+    <e lm="ap"><i>ap</i><par n="Calloc’h__np"/></e> <!-- Per a noms de Gal·les -->
+
 <!-- From Wikipedia/apertium-eng -->
 <e lm="Aaron"><i>Aaron</i><par n="Yann__np"/></e>
 <e lm="Abd"><i>Abd</i><par n="Yann__np"/></e>
@@ -21122,8 +21281,38 @@
 <e lm="Zaida"><i>Zaida</i><par n="Añjela__np"/></e>
 <e lm="Zenaida"><i>Zenaida</i><par n="Añjela__np"/></e>
 
+<e lm="Kerdiz"><par n="initial-K"/><i>erdiz</i><par n="Roazhon__np"/></e>
+<e lm="Aten"><i>Aten</i><par n="Roazhon__np"/></e>
+<e lm="Calais"><i>Calais</i><par n="Roazhon__np"/></e>
+<e lm="Calvados"><i>Calvados</i><par n="Roazhon__np"/></e>
+<e lm="Flandrez"><i>Flandrez</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Aberteifi"><i>Sir<b/>Aberteifi</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Benfro"><i>Sir<b/>Benfro</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Drefaldwyn"><i>Sir<b/>Drefaldwyn</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Ddinbych"><i>Sir<b/>Ddinbych</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Faesyfed"><i>Sir<b/>Faesyfed</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Feirionnydd"><i>Sir<b/>Feirionnydd</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Fôn"><i>Sir<b/>Fôn</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Forgannwg"><i>Sir<b/>Forgannwg</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Frycheiniog"><i>Sir<b/>Frycheiniog</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Fynwy"><i>Sir<b/>Fynwy</i><par n="Roazhon__np"/></e>
+    <e lm="Sir y Fflint"><i>Sir<b/>y<b/>Fflint</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Gaerfyrddin"><i>Sir<b/>Gaerfyrddin</i><par n="Roazhon__np"/></e>
+    <e lm="Sir Gaernarfon"><i>Sir<b/>Gaernarfon</i><par n="Roazhon__np"/></e>
+
+    <e lm="New York"><i>New<b/>York</i><par n="Roazhon__np"/></e>
+    <e lm="New Jersey"><i>New<b/>Jersey</i><par n="Roazhon__np"/></e>
+    <e lm="New Mexico"><i>New<b/>Mexico</i><par n="Roazhon__np"/></e>
+    <e lm="New Orleans"><i>New<b/>Orleans</i><par n="Roazhon__np"/></e>
+    <e lm="New Zealand"><i>New<b/>Zealand</i><par n="Roazhon__np"/></e>
+    <e lm="New Hampshire"><i>New<b/>Hampshire</i><par n="Roazhon__np"/></e>
+    <e lm="New Brunswick"><i>New<b/>Brunswick</i><par n="Roazhon__np"/></e>
+    <e lm="New Delhi"><i>New<b/>Delhi</i><par n="Roazhon__np"/></e>
 
 <!-- From Wikipedia/apertium-cat -->
+
+<e lm="Medici"><i>Medici</i><par n="Calloc’h__np"/></e>
+<e lm="de’ Medici"><i>de’<b/>Medici</i><par n="Calloc’h__np"/></e>
 <e lm="Achille"><i>Achille</i><par n="Calloc’h__np"/></e>
 <e lm="Addis"><i>Addis</i><par n="Calloc’h__np"/></e>
 <e lm="Agostino"><i>Agostino</i><par n="Calloc’h__np"/></e>
@@ -22765,6 +22954,7 @@
     <e lm="teknikel"><par n="initial-t"/><i>eknikel</i><par n="bras__adj"/></e>
     <e lm="teknologel"><par n="initial-t"/><i>eknologel</i><par n="bras__adj"/></e>
     <e lm="tematek"><par n="initial-t"/><i>ematek</i><par n="bras__adj"/></e>
+    <e lm="tibetek"><par n="initial-t"/><i>ibetek</i><par n="bras__adj"/></e>
     <e lm="tener"><par n="initial-t"/><i>ener</i><par n="bras__adj"/></e>
     <e lm="tenn"><par n="initial-t"/><i>enn</i><par n="bras__adj"/></e>
     <e lm="teñval"><par n="initial-t"/><i>eñval</i><par n="bras__adj"/></e>
@@ -26689,8 +26879,13 @@
 
     <e lm="tennañ splet eus"><par n="initial-t"/><i>enn</i><par n="had/añ__vblex"/><p><l><b/>splet<b/>eus</l><r><g><b/>splet<b/>eus</g></r></p></e>	
     <e lm="tennañ a ober splet eus"><i>tennañ<b/>a<b/></i><par n="/ober__vblex"/><p><l><b/>splet<b/>eus</l><r><g><b/>splet<b/>eus</g></r></p></e>
+
+    <!-- Abbreviations -->   
+
+    <e lm="Dr."><i>Dr.</i><par n="Dr.__abbr"/></e>
 	
-	</section>
+  </section>
+
 
   <section id="unchecked" type="standard">
 
