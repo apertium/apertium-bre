@@ -416,7 +416,7 @@
 
 # sent_id = bro-gozh.vislcg.txt:1:0
 # text = Ni, Breizhiz a galon, karomp hon gwir vro!
-# text[fra] = 
+# text[fra] = Nous Bretons de coeur, nous aimons notre vrai pays!
 1	Ni	prpers	_	prn	Case=Nom|Number=Plur|Person=1|PronType=Pers	7	nsubj	_	_
 2	,	,	PUNCT	cm	_	3	punct	_	_
 3	Breizhiz	Breizhad	NOUN	n	Gender=Msc|Number=Plur	1	appos	_	_
@@ -429,6 +429,89 @@
 9	gwir	gwir	ADJ	adj	_	10	amod	_	_
 10	vro	bro	NOUN	n	Gender=Fem|Number=Sing	7	obj	_	_
 11	!	!	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:2:23
+# text = Brudet eo an Arvor dre ar bed tro-do.
+# text[fra] = L'Arvor est renommée à travers le monde.
+1	Brudet	brudañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	an	An	X	x	_	4	dep	_	_
+4	Arvor	Arvor	PROPN	np	Number=Sing	1	nsubj	_	_
+5	dre	dre	ADP	pr	_	7	case	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	bed	bed	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+8	tro-dro	tro-dro	ADV	adv	_	1	advmod	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:3:44
+# text = Dispont kreiz ar brezel, hon tadoù ken mad, a skuilhas eviti o gwad.
+# text[fra] = Sans peur au coeur de la guerre, nos ancêtres si bons versèrent leur sang pour elle.
+1	Dispont	dispont	ADJ	adj	_	7	amod	_	_
+2	'kreiz	e-kreiz	ADP	pr	_	4	case	_	_
+3	ar	an	DET	det	_	4	det	_	_
+4	brezel	brezel	NOUN	n	Gender=Msc|Number=Sing	1	nmod	_	_
+5	,	,	PUNCT	cm	_	7	punct	_	_
+6	hon	hon	DET	det	PronType=Pos	7	det	_	_
+7	tadoù	tad	NOUN	n	Gender=Msc|Number=Plur	12	nsubj:appos	_	_
+8	ken	ken	ADV	preadv	_	9	advmod	_	_
+9	mat	mat	ADJ	adj	_	7	amod	_	_
+10	,	,	PUNCT	cm	_	12	punct	_	_
+11	a	a	PART	vpart	_	12	aux	_	_
+12	skuilhas	skuilhañ	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13-14	eviti	_	_	_	_	_	_	_	_
+13	eviti	evit	ADP	pr	_	14	case	_	_
+14	i	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	12	obl	_	_
+15	o	o	DET	det	PronType=Pos	16	det	_	_
+16	gwad	gwad	NOUN	n	Gender=Msc|Number=Sing	12	obj	_	_
+17	.	.	PUNCT	sent	_	12	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:4:80
+# text = O Breizh, ma Bro, me 'gar ma Bro.
+# text[fra] = O Bretagne, mon pays, que j'aime mon pays
+1	O	o	INTERJ	ij	_	2	case	_	_
+2	Breizh	Breizh	PROPN	np	Number=Sing	9	discourse	_	_
+3	,	,	PUNCT	cm	_	5	punct	_	_
+4	ma	ma	DET	det	PronType=Pos	5	det	_	_
+5	bro	bro	NOUN	n	Gender=Fem|Number=Sing	2	appos	_	_
+6	,	,	PUNCT	cm	_	5	punct	_	_
+7	me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	9	nsubj	_	_
+8	'	a	PART	vpart	_	9	aux	_	_
+9	gar	karout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ma	ma	DET	det	PronType=Pos	11	det	_	_
+11	bro	bro	NOUN	n	Gender=Fem|Number=Sing	9	obj	_	_
+12	.	.	PUNCT	sent	_	9	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:5:107
+# text = Tra ma vo mor 'vel mur 'n he zro.
+# text[fra] = Tant que la mer sera comme un mur autour d'elle.
+1	Tra	tra	X	x	_	2	dep	_	_
+2	ma	ma	SCONJ	cnjadv	_	6	mark	_	_
+3	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+4	mor	mor	NOUN	n	Gender=Msc|Number=Sing	6	nsubj	_	_
+5	'vel	evel	ADP	pr	_	6	case	_	_
+6	mur	mur	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
+7	'n	un	DET	det	_	6	det	_	_
+8	he	he	DET	det	Gender=Fem|PronType=Pos	9	det	_	_
+9	zro	tro	NOUN	n	Gender=Fem|Number=Sing	6	nmod:gen	_	_
+10	,	,	PUNCT	cm	_	13	punct	_	_
+11	ra	ra	PART	vpart	Mood=Opt	13	aux	_	_
+12	vezo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+13	digabestr	digabestr	ADJ	adj	_	6	parataxis	_	_
+14	ma	ma	DET	det	PronType=Pos	15	det	_	_
+15	bro	bro	NOUN	n	Gender=Fem|Number=Sing	13	nsubj	_	_
+16	!	!	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:6:142
+# text = Ar Vretoned 'zo tud kalet ha kreñv.
+# text[fra] = Les Bretons sont des gens durs et forts;
+1	Ar	an	DET	det	_	2	det	_	_
+2	Vretoned	Breton	NOUN	n	Gender=Msc|Number=Plur	4	nsubj	_	_
+3	'zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	tud	den	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
+5	kalet	kalet	ADJ	adj	_	4	amod	_	_
+6	ha	ha	CCONJ	cnjcoo	_	7	cc	_	_
+7	kreñv	kreñv	ADJ	adj	_	5	conj	_	_
+8	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:1:0
 # text = Piv a wel Yannig ?

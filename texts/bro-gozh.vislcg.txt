@@ -1,5 +1,5 @@
 # text = Ni, Breizhiz a galon, karomp hon gwir vro!
-# text[fra] = 
+# text[fra] = Nous Bretons de coeur, nous aimons notre vrai pays!
 "<Ni>"
 	"prpers" prn subj p1 mf pl @nsubj #1->7
 "<,>"
@@ -22,210 +22,145 @@
 "<!>"
 	"!" sent @punct #11->7
 
+# text = Brudet eo an Arvor dre ar bed tro-do.
+# text[fra] = L'Arvor est renommée à travers le monde.
 "<Brudet>"
-	"brudañ" vblex pp SELECT:485
+	"brudañ" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux:pass #2->1
 "<an Arvor>"
-	"An Arvor" np top sg
+	"An Arvor" np top sg @nsubj #3->1
 "<dre>"
-	"dre" pr
+	"dre" pr @case #4->6
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #5->6
 "<bed>"
-	"bed" n m sg
+	"bed" n m sg @obl #6->1
 "<tro-dro>"
-	"tro-dro" adv
+	"tro-dro" adv @advmod #7->1
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
+# text = Dispont kreiz ar brezel, hon tadoù ken mad, a skuilhas eviti o gwad.
+# text[fra] = Sans peur au coeur de la guerre, nos ancêtres si bons versèrent leur sang pour elle.
 "<Dispont>"
-	"dispont" adj mf sp
+	"dispont" adj mf sp @amod #1->7
 "<'kreiz>"
-	"e-kreiz" adv
+	"e-kreiz" pr @case #2->4
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #3->4
 "<brezel>"
-	"brezel" n m sg
+	"brezel" n m sg @nmod #4->1
 "<,>"
-	"," cm
+	"," cm @punct #5->7
 "<hon>"
-	"hon" det pos mf sp
+	"hon" det pos mf sp @det #6->7
 "<tadoù>"
-	"tad" n m pl
+	"tad" n m pl @nsubj:appos #7->12
 "<ken>"
-	"ken" preadv SELECT:800
-;	"gen" n f pl REMOVE:773
-;	"ken" pr SELECT:800
-;	"ken" adv SELECT:800
+	"ken" preadv @advmod #8->9
 "<mat>"
-	"mat" adj mf sp
+	"mat" adj mf sp @amod #9->7
 "<,>"
-	"," cm
+	"," cm @punct #10->12
 "<a>"
-	"a" vpart SELECT:220:Vpart_if_only_Vfin
-;	"a" pr SELECT:220:Vpart_if_only_Vfin
-;	"a" n m sp SELECT:220:Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:220:Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:220:Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:220:Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:220:Vpart_if_only_Vfin
+	"a" vpart @aux #11->12
 "<skuilhas>"
-	"skuilhañ" vblex past p3 sg
+	"skuilhañ" vblex past p3 sg @root #12->0
 "<eviti>"
-	"evit" pr
-		"indirect" prn obj p3 f sg
+	"evit" pr @case #13->14
+		"indirect" prn obj p3 f sg @obl #14->12
 "<o>"
-	"o" n m sp
-	"o" det pos mf sp
-;	"o" ij REMOVE:527
-;	"o" vpart ger REMOVE:181
-;	"direct" prn obj p3 mf pl REMOVE:395
+	"o" det pos mf sp @det #15->16
 "<gwad>"
-	"gwad" n m sg SELECT:763
-;	"gwadañ" vblex imp p2 sg REMOVE:223
-;	"gwadañ" vblex pri p3 sg SELECT:763
+	"gwad" n m sg @obj #16->12
 "<.>"
-	"." sent
+	"." sent @punct #17->12
 
-"<.>"
-	"." sent
-
-
-
+# text = O Breizh, ma Bro, me 'gar ma Bro.
+# text[fra] = O Bretagne, mon pays, que j'aime mon pays
 "<O>"
-	"o" n m sp
-	"o" det pos mf sp
-;	"o" vpart ger REMOVE:181
-;	"direct" prn obj p3 mf pl REMOVE:395
-;	"o" ij REMOVE:527
-"<!>"
-	"!" sent
-
+	"o" ij @case #1->2
 "<Breizh>"
-	"Breizh" np top sg
-;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+	"Breizh" np top sg @discourse #2->9
 "<,>"
-	"," cm
+	"," cm @punct #3->5
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij REMOVE:527
-;	"ma" cnjsub REMOVE:593
+	"ma" det pos mf sp @det #4->5
 "<bro>"
-	"bro" n f sg
+	"bro" n f sg @appos #5->2
 "<,>"
-	"," cm
+	"," cm @punct #6->5
 "<me>"
-	"prpers" prn subj p1 mf sg
+	"prpers" prn subj p1 mf sg @nsubj #7->9
 "<'>"
-	"a" vpart SELECT:271
-;	"’" apos SELECT:271
-;	"e" vpart obj SELECT:271
-;	"o" vpart ger SELECT:271
+	"a" vpart @aux #8->9
 "<gar>"
-	"kariñ" vblex pri p3 sg SELECT:422
-	"karout" vblex pri p3 sg SELECT:422
-;	"kariñ" vblex imp p2 sg REMOVE:223
-;	"karout" vblex imp p2 sg REMOVE:223
-;	"gar" n f sg SELECT:422
-;	"kar" n m sg SELECT:422
-;	"kar" adj mf sp SELECT:422
+	"karout" vblex pri p3 sg @root #9->0
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij REMOVE:527
-;	"ma" cnjsub REMOVE:593
+	"ma" det pos mf sp @det #10->11
 "<bro>"
-	"bro" n f sg
+	"bro" n f sg @obj #11->9
 "<.>"
-	"." sent
+	"." sent @punct #12->9
 
-
-
+# text = Tra ma vo mor 'vel mur 'n he zro.
+# text[fra] = Tant que la mer sera comme un mur autour d'elle.
 "<Tra ma>"
-	"tra ma" cnjadv
+	"tra ma" cnjadv @mark #1->5
 "<vo>"
-	"bezañ" vblex fti p3 sg
+	"bezañ" vblex fti p3 sg @cop #2->5
 "<mor>"
-	"mor" n m sg
-;	"morañ" vblex imp p2 sg REMOVE:405
-;	"morañ" vblex pri p3 sg REMOVE:542
+	"mor" n m sg @nsubj #3->5
 "<'vel>"
-	"evel" pr
+	"evel" pr @case #4->5
 "<mur>"
-	"mur" n f sg
-"<'>"
-	"’" apos
-;	"a" vpart REMOVE:181
-;	"e" vpart obj REMOVE:181
-;	"o" vpart ger REMOVE:181
-"<n>"
-	"n" n m sp
+	"mur" n f sg @root #5->0
+"<'n>"
+	"un" det ind sp @det #6->5
 "<he>"
-	"he" det pos f sp
-;	"direct" prn obj p3 f sg REMOVE:395
+	"he" det pos f sp @det #7->8
 "<zro>"
-	"tro" n f sg SELECT:763
-;	"troiñ" vblex pri p3 sg REMOVE:542
-;	"treiñ" vblex pri p3 sg REMOVE:542
-;	"treiñ" vblex imp p2 sg SELECT:763
-;	"troiñ" vblex imp p2 sg SELECT:763
+	"tro" n f sg @nmod:gen #8->5
 "<,>"
-	"," cm
+	"," cm @punct #9->12
 "<ra>"
-	"ra" vpart opt SELECT:220:Vpart_if_only_Vfin
-;	"ober" vblex pri p3 sg SELECT:220:Vpart_if_only_Vfin
-;	"ober" vblex imp p2 sg SELECT:220:Vpart_if_only_Vfin
+	"ra" vpart opt @aux #10->12
 "<vezo>"
-	"bezañ" vblex fti p3 sg
+	"bezañ" vblex fti p3 sg @cop #11->12
 "<digabestr>"
-	"digabestr" adj mf sp
+	"digabestr" adj mf sp @parataxis #12->5
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij REMOVE:527
-;	"ma" cnjsub REMOVE:593
+	"ma" det pos mf sp @det #13->14
 "<bro>"
-	"bro" n f sg
+	"bro" n f sg @nsubj #14->12
 "<!>"
-	"!" sent
+	"!" sent @punct #15->5
 
-"<.>"
-	"." sent
-
-
-
+# text = Breizh, douar ar Sent kozh, douar ar Varzhed, n'eus bro all a garan kement 'barzh ar bed, pep menez, pep traonienn, d'am c'halon zo kaer, enne kousk meur a Vreizhad taer !
+# text[fra] = Bretagne, terre des vieux Saints, terre des Bardes, Il n'est d'autre pays au monde que j'aime autant; Chaque montagne, chaque vallée est chère dans mon coeur. En eux dorment plus d'un Breton héroïque!
 "<Breizh>"
-	"Breizh" np top sg
-;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+	"Breizh" np top sg @appos
 "<,>"
-	"," cm
+	"," cm @punct
 "<douar>"
 	"douar" n m sg
-;	"douarañ" vblex imp p2 sg REMOVE:223
-;	"douarañ" vblex pri p3 sg REMOVE:542
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:350
+	"an" det def sp @det
 "<Sant>"
-	"sant" n m sg
-;	"santout" vblex imp p2 sg REMOVE:223
-;	"santout" vblex pri p3 sg REMOVE:234
+	"sant" n m sg @nmod:gen
 "<Kozh>"
-	"kozh" adj mf sp
-;	"kozhañ" vblex imp p2 sg REMOVE:223
-;	"kozhañ" vblex pri p3 sg REMOVE:542
+	"kozh" adj mf sp @amod
 "<,>"
-	"," cm
+	"," cm @punct
 "<douar>"
-	"douar" n m sg
-;	"douarañ" vblex imp p2 sg REMOVE:223
-;	"douarañ" vblex pri p3 sg REMOVE:542
+	"douar" n m sg 
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:350
+	"an" det def sp @det
 "<varzhed>"
-	"barzh" n m pl
+	"barzh" n m pl @nmod:gen
 "<,>"
-	"," cm
+	"," cm @punct
 "<n'eus>"
 	"ne" adv
 		"bezañ" vblex pri impers sp
@@ -236,109 +171,101 @@
 "<all>"
 	"all" adj ind mf sp
 "<a>"
-	"a" pr
+	"a" pr @case
 	"a" vpart
 	"a" n m sp
-;	"mont" vblex imp p2 sg REMOVE:223
-;	"monet" vblex imp p2 sg REMOVE:223
-;	"mont" vblex pri p3 sg REMOVE:542
-;	"monet" vblex pri p3 sg REMOVE:542
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
 "<garan>"
 	"garan" n f sg
 	"kariñ" vblex pri p1 sg
 	"karout" vblex pri p1 sg
 	"garanañ" vblex pri p3 sg
-;	"garanañ" vblex imp p2 sg REMOVE:223
+;	"garanañ" vblex imp p2 sg
 "<kement>"
 	"kement" det ind mf sg
 "<'barzh>"
-	"e-barzh" pr
+	"e-barzh" pr @case
 	"e-barzh" adv
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:350
+;	"arat" vblex pri p3 sg
 "<bed>"
 	"bed" n m sg
-;	"pediñ" vblex imp p2 sg REMOVE:223
-;	"pediñ" vblex pri p3 sg REMOVE:234
-"<.>"
-	"." sent
-
-
-
-"<Pep>"
-	"pep" det ind mf sg
-;	"bep" det ind mf sg REMOVE:773
-"<menez>"
-	"menez" n m sg
+;	"pediñ" vblex imp p2 sg
+;	"pediñ" vblex pri p3 sg
 "<,>"
 	"," cm
 "<pep>"
 	"pep" det ind mf sg
-;	"bep" det ind mf sg REMOVE:773
+"<menez>"
+	"menez" n m sg
+"<,>"
+	"," cm @punct
+"<pep>"
+	"pep" det ind mf sg
+;	"bep" det ind mf sg
 "<traoñienn>"
 	"traoñienn" n f sg
 "<d'am>"
-	"da" pr
+	"da" pr @case
 		"ma" det pos mf sp
 "<c'halon>"
 	"kalon" n f sg
 "<zo>"
 	"teiñ" vblex imp p2 sg
-;	"teiñ" vblex pri p3 sg REMOVE:542
-;	"bezañ" vblex pri p3 sg REMOVE:542
+;	"teiñ" vblex pri p3 sg
+;	"bezañ" vblex pri p3 sg
 "<ker>"
 	"ken" adv
 	"ker" adj mf sp
-;	"ger" n m sg REMOVE:773
+;	"ger" n m sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<eno>"
 	"eno" adv
 "<'>"
-	"e" vpart obj SELECT:275
-;	"’" apos SELECT:275
-;	"a" vpart SELECT:275
-;	"o" vpart ger SELECT:275
+	"e" vpart obj
+;	"’" apos
+;	"a" vpart
+;	"o" vpart ger
 "<kousk>"
-	"kousket" vblex pri p3 sg SELECT:217
-;	"kousk" n m sg SELECT:217
+	"kousket" vblex pri p3 sg
+;	"kousk" n m sg
 "<meur a>"
 	"meur a" det ind mf pl
 "<Vreizhad>"
 	"Breizhad" n m sg
 "<taer>"
-	"taer" adj mf sp SELECT:327
-;	"daer" n m sg SELECT:327
+	"taer" adj mf sp
+;	"daer" n m sg
 "<!>"
 	"!" sent
 
-"<.>"
-	"." sent
 
-
-
+# text = Ar Vretoned 'zo tud kalet ha kreñv.
+# text[fra] = Les Bretons sont des gens durs et forts;
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:350
+	"an" det def sp @det #1->2
 "<Vretoned>"
-	"Breton" n m pl
+	"Breton" n m pl @nsubj #2->4
 "<'zo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @cop #3->4
 "<tud>"
-	"den" n m pl
+	"den" n m pl @root #4->0
 "<kalet>"
-	"kalet" adj mf sp
+	"kalet" adj mf sp @amod #5->4
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij REMOVE:527
+	"ha" cnjcoo @cc #6->7
 "<kreñv>"
-	"kreñv" adj mf sp
+	"kreñv" adj mf sp @conj #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->4
 
-
-
+# text =  N'eus pobl ken kaloneg a zindan an neñv,  
+# text[fra] = 
 "<N'eus>"
 	"ne" adv
 		"bezañ" vblex pri impers sp
@@ -346,31 +273,31 @@
 		"kaout" vblex pri p1 pl
 "<pobl>"
 	"pobl" n f sg
-;	"poblañ" vblex imp p2 sg REMOVE:223
-;	"poblañ" vblex pri p3 sg REMOVE:542
+;	"poblañ" vblex imp p2 sg
+;	"poblañ" vblex pri p3 sg
 "<ken>"
-	"ken" preadv SELECT:800
-;	"gen" n f pl REMOVE:773
-;	"ken" pr SELECT:800
-;	"ken" adv SELECT:800
+	"ken" preadv
+;	"gen" n f pl
+;	"ken" pr @case
+;	"ken" adv
 "<kalonek>"
 	"kalonek" adj mf sp
 "<a>"
-	"a" pr
+	"a" pr @case
 	"a" n m sp
-;	"a" vpart REMOVE:181
-;	"monet" vblex imp p2 sg REMOVE:223
-;	"mont" vblex imp p2 sg REMOVE:223
-;	"monet" vblex pri p3 sg REMOVE:542
-;	"mont" vblex pri p3 sg REMOVE:542
+;	"a" vpart
+;	"monet" vblex imp p2 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"mont" vblex pri p3 sg
 "<->"
 	"-" guio
 "<zindan>"
 	"dindan" adv
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:350
-;	"monet" vblex pri p1 sg REMOVE:350
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
 "<neñv>"
 	"neñv" n m sg
 "<.>"
@@ -383,30 +310,30 @@
 "<trist>"
 	"trist" adj mf sp
 "<,>"
-	"," cm
+	"," cm @punct
 "<son>"
 	"son" n f sg
 	"son" n m sg
-;	"soniñ" vblex imp p2 sg REMOVE:223
-;	"seniñ" vblex imp p2 sg REMOVE:223
-;	"soniñ" vblex pri p3 sg REMOVE:680
-;	"seniñ" vblex pri p3 sg REMOVE:680
+;	"soniñ" vblex imp p2 sg
+;	"seniñ" vblex imp p2 sg
+;	"soniñ" vblex pri p3 sg
+;	"seniñ" vblex pri p3 sg
 "<dudius>"
 	"dudius" adj mf sp
 "<a>"
-	"a" vpart SELECT:220:Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg REMOVE:223
-;	"monet" vblex imp p2 sg REMOVE:223
-;	"mont" vblex pri p3 sg REMOVE:542
-;	"monet" vblex pri p3 sg REMOVE:542
-;	"a" pr SELECT:220:Vpart_if_only_Vfin
-;	"a" n m sp SELECT:220:Vpart_if_only_Vfin
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" pr @case
+;	"a" n m sp
 "<ziwan>"
-	"diwanañ" vblex pri p3 sg SELECT:736
-;	"diwanañ" vblex imp p2 sg REMOVE:223
-;	"diwan" n m sg SELECT:736
+	"diwanañ" vblex pri p3 sg
+;	"diwanañ" vblex imp p2 sg
+;	"diwan" n m sg
 "<enno>"
-	"e" pr
+	"e" pr @case
 		"indirect" prn obj p3 mf pl
 "<.>"
 	"." sent
@@ -416,32 +343,32 @@
 "<O>"
 	"o" n m sp
 	"o" det pos mf sp
-;	"o" vpart ger REMOVE:181
-;	"direct" prn obj p3 mf pl REMOVE:395
-;	"o" ij REMOVE:527
+;	"o" vpart ger
+;	"direct" prn obj p3 mf pl
+;	"o" ij
 "<!>"
 	"!" sent
 
 "<pegen>"
 	"pegen" preadv
 	"pegen" adv itg
-;	"pegañ" vblex pii p1 sg REMOVE:516:Remove_VerbFin_BOS
+;	"pegañ" vblex pii p1 sg
 "<kaer>"
 	"kaer" adj mf sp
 "<ez>"
-	"e" vpart obj SELECT:220:Vpart_if_only_Vfin
-;	"mont" vblex pri p2 sg SELECT:220:Vpart_if_only_Vfin
-;	"monet" vblex pri p2 sg SELECT:220:Vpart_if_only_Vfin
-;	"e" pr SELECT:220:Vpart_if_only_Vfin
+	"e" vpart obj
+;	"mont" vblex pri p2 sg
+;	"monet" vblex pri p2 sg
+;	"e" pr @case
 ;		"da" det pos mf sp
 "<out>"
 	"bezañ" vblex pri p2 sg
 "<,>"
-	"," cm
+	"," cm @punct
 "<ma>"
 	"ma" det pos mf sp
-;	"ma" ij REMOVE:527
-;	"ma" cnjsub REMOVE:593
+;	"ma" ij
+;	"ma" cnjsub
 "<bro>"
 	"bro" n f sg
 "<!>"
@@ -457,120 +384,120 @@
 "<eo>"
 	"bezañ" vblex pri p3 sg
 "<bet>"
-	"bezañ" vblex pp SELECT:469
-;	"pet" prn itg mf sp REMOVE:265:Remove_SoftMut
-;	"kaout" vblex pp SELECT:469
+	"bezañ" vblex pp
+;	"pet" prn itg mf sp
+;	"kaout" vblex pp
 "<trec'het>"
 	"trec’hiñ" vblex pp
-;	"trec’hiñ" vblex imp p3 sg REMOVE:223
+;	"trec’hiñ" vblex imp p3 sg
 "<Breizh>"
 	"Breizh" np top sg
-;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+;	"preizh" n m sg
 "<er>"
-	"e" pr
+	"e" pr @case
 		"an" det def sp
 "<brezelioù>"
 	"brezel" n m pl
 "<bras>"
 	"bras" adj mf sp
 "<,>"
-	"," cm
+	"," cm @punct
 "<he>"
 	"he" det pos f sp
-;	"direct" prn obj p3 f sg REMOVE:395
+;	"direct" prn obj p3 f sg
 "<yezh>"
-	"yezh" n f sg SELECT:763
-;	"yezh" adj mf sp SELECT:763
+	"yezh" n f sg
+;	"yezh" adj mf sp
 "<a>"
-	"a" vpart SELECT:408:Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:223
-;	"monet" vblex imp p2 sg REMOVE:223
-;	"a" pr SELECT:408:Vpart_if_Vfin
-;	"a" n m sp SELECT:408:Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:408:Vpart_if_Vfin
-;	"monet" vblex pri p3 sg SELECT:408:Vpart_if_Vfin
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"a" pr @case
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
 "<zo>"
 	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:223
-;	"teiñ" vblex pri p3 sg REMOVE:782
+;	"teiñ" vblex imp p2 sg
+;	"teiñ" vblex pri p3 sg
 "<bepred>"
 	"bepred" adv
 "<ken>"
-	"ken" pr
+	"ken" pr @case
 	"ken" adv
 	"ken" preadv
-;	"gen" n f pl REMOVE:773
+;	"gen" n f pl
 "<bev>"
 	"bev" adj mf sp
-;	"beviñ" vblex imp p2 sg REMOVE:223
-;	"bevañ" vblex imp p2 sg REMOVE:223
-;	"beviñ" vblex pri p3 sg REMOVE:542
-;	"bevañ" vblex pri p3 sg REMOVE:542
+;	"beviñ" vblex imp p2 sg
+;	"bevañ" vblex imp p2 sg
+;	"beviñ" vblex pri p3 sg
+;	"bevañ" vblex pri p3 sg
 "<ha>"
 	"ha" cnjcoo
-;	"ha" ij REMOVE:527
+;	"ha" ij
 "<biskoazh>"
 	"biskoazh" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<he>"
 	"he" det pos f sp
-;	"direct" prn obj p3 f sg REMOVE:395
+;	"direct" prn obj p3 f sg
 "<c'halon>"
 	"kalon" n f sg
 "<virvidik>"
 	"birvidik" adj mf sp
 "<a>"
-	"a" vpart SELECT:220:Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg REMOVE:223
-;	"monet" vblex imp p2 sg REMOVE:223
-;	"mont" vblex pri p3 sg REMOVE:542
-;	"monet" vblex pri p3 sg REMOVE:542
-;	"a" pr SELECT:220:Vpart_if_only_Vfin
-;	"a" n m sp SELECT:220:Vpart_if_only_Vfin
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" pr @case
+;	"a" n m sp
 "<lamm>"
-	"lammat" vblex pri p3 sg SELECT:840
-;	"lamm" n m sg SELECT:840
+	"lammat" vblex pri p3 sg
+;	"lamm" n m sg
 "<c'hoazh>"
 	"c’hoazh" adv
-;	"koazhañ" vblex imp p2 sg REMOVE:223
-;	"koazhañ" vblex pri p3 sg REMOVE:542
+;	"koazhañ" vblex imp p2 sg
+;	"koazhañ" vblex pri p3 sg
 "<'>"
 	"’" apos
-;	"a" vpart REMOVE:181
-;	"e" vpart obj REMOVE:181
-;	"o" vpart ger REMOVE:181
+;	"a" vpart
+;	"e" vpart obj
+;	"o" vpart ger
 "<n>"
 	"n" n m sp
 "<he>"
 	"he" det pos f sp
-;	"direct" prn obj p3 f sg REMOVE:395
+;	"direct" prn obj p3 f sg
 "<c'hreiz>"
-	"kreiz" n m sg SELECT:763
-;	"kreizañ" vblex imp p2 sg REMOVE:223
-;	"kreizañ" vblex pri p3 sg REMOVE:542
-;	"kreiz" adj mf sp SELECT:763
+	"kreiz" n m sg
+;	"kreizañ" vblex imp p2 sg
+;	"kreizañ" vblex pri p3 sg
+;	"kreiz" adj mf sp
 "<.>"
 	"." sent
 
 
 
 "<Dihunet>"
-	"dihuniñ" vblex pp SELECT:485
-;	"dihuniñ" vblex imp p3 sg SELECT:485
+	"dihuniñ" vblex pp
+;	"dihuniñ" vblex imp p3 sg
 "<out>"
 	"bezañ" vblex pri p2 sg
 "<bremañ>"
 	"bremañ" adv
 "<,>"
-	"," cm
+	"," cm @punct
 "<ma>"
 	"ma" cnjsub
-;	"ma" ij REMOVE:527
-;	"ma" det pos mf sp REMOVE:821
+;	"ma" ij
+;	"ma" det pos mf sp
 "<Breizh>"
 	"Breizh" np top sg
-;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+;	"preizh" n m sg
 "<!>"
 	"!" sent
 
