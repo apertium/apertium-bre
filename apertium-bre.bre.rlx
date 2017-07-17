@@ -4,7 +4,8 @@ SOFT-DELIMITERS       = "<,>" ;
 LIST BOS              = (>>>) (sent);
 LIST EOS              = (<<<) (sent);
 
-LIST Coma             = (cm);
+LIST Coma             = cm ;
+LIST Guio             = guio ;
 
 # Nouns
 LIST NC               = (n);
@@ -46,8 +47,8 @@ LIST DetDef           = (det def);
 LIST DetInd           = (det ind);
 LIST DetPos           = (det pos);
 
-# Prepositions
-LIST Prep             = pr;
+# Prositions
+LIST Pr             = pr;
 
 
 # Verbal particles 
@@ -61,9 +62,9 @@ LIST VpartRef         = (vpart ref); # en em
 LIST VpartPPres       = ("en ur"i vpart ppres);
 
 # Verbs
-LIST Vbloc            = (vbloc);
-LIST Vblex            = (vblex);
-LIST Vbser            = (vbser);
+LIST Vbloc            = vbloc;
+LIST Vblex            = vblex;
+LIST Vbser            = vbser;
 
 LIST VerbPP           = (vblex pp);
 LIST VerbImp          = (vblex imp);
@@ -81,20 +82,20 @@ SET VerbFin           = Verb + TempsFin;
 
 
 # Adverbs
-LIST Adv              = (adv);
-LIST PreAdv           = (preadv);
+LIST Adv              = adv;
+LIST PreAdv           = preadv;
 LIST Ket 	      = ("ket" adv);
 
 # Conjunctions
 
-LIST CC               = (cnjcoo);
-LIST CS               = (cnjsub);
-LIST CA               = (cnjadv);
+LIST CC               = cnjcoo ;
+LIST CS               = cnjsub ;
+LIST CA               = cnjadv ;
 SET Conj             = CC | CA | CS;
 
 # Interjections 
 
-LIST Interj           = (ij);
+LIST Interj           = ij ;
 
 # Mutations 
 #  Quan el lema no té el mateix consonant com la forma superficial, 
@@ -109,7 +110,6 @@ LIST SoftMut          = ("<g.*>"ri "k.*"ri) ("<d.*>"ri "t.*"ri) ("<b.*>"ri "p.*"
                         ("<zivabrant>"i) ("<zivrec'h>"i) ("<zivronn>"i) ("<zivc'har>"i) ("<zivfron>"i) ("<ziweuz>"i) 
                         ("<zivjaritell>"i) ("<zivlez>"i) ("<zivorzhed>"i) ("<zivskoaz>"i) ("<zaouarzorn>"i) ("<zaouarn>"i) 
                         ("<zaoulin>"i) ("<zaouilin>"i) ("<zaouividig>"i) ("<zaoulagad>"i) ("<zaouufern>"i)  ;
-
 
 LIST AspMut           = ("<c’h.*>"ri "k.*"ri) ("<c'h.*>"ri "k.*"ri) ("<z.*>"ri "t.*"ri) ("<f.*>"ri "p.*"ri); 
 LIST HardMut          = ("<k.*>"ri "g.*"ri) ("<t.*>"ri "d.*"ri) ("<p.*>"ri "b.*"ri); 
@@ -138,6 +138,14 @@ LIST DroppedG         = ("<[aeiou].*>"r "g[aeiou].*"ri);
 
 LIST UPPER = ("<[ABCDEFGHIJKLMNOPQRSTUVWXYZ].*>"r);
 
+# Specific words
+
+LIST Vez = "<vez>"i ;
+LIST Ne = "ne" ;
+LIST Eur = ("<eur>"i n) ;
+LIST Bet = ("bezañ" vblex pp) ;
+LIST Pet = "<pet>"i ;
+
 #
 #	Semantic lists
 #
@@ -149,7 +157,7 @@ LIST Language		= ("alamaneg"ri n) ("brezhoneg"ri n) ("euskareg"ri n) ("gallaoueg
 
 SET PRE-N =  Adj | Det | Dem | NC | Num ; 
 
-SET WORD = NC | Verb | Adj | Prep | Prn | Adv | CC | CS | Num | ("\?") ;
+SET WORD = NC | Verb | Adj | Pr | Prn | Adv | CC | CS | Num | ("\?") ;
 SET MARK =  ("\,") | ("\:") | ("\;") ;
 SET WORDMARK = WORD | MARK ;
 
@@ -164,17 +172,11 @@ SET S-BOUNDARY = CS | (sent) ;
 # Main section
 #
 
-LIST Vez = "<vez>"i ;
-LIST Ne = "ne" ;
-LIST Eur = ("<eur>"i n) ;
-LIST Bet = ("bezañ" vblex pp) ;
-LIST Pet = "<pet>"i ;
-
 SECTION
 
 SELECT VpartIDO IF (1C Vez);
 
-REMOVE DetPos IF (0 DetPos) (0 Prep) (1C Toponim);
+REMOVE DetPos IF (0 DetPos) (0 Pr) (1C Toponim);
 
 REMOVE Vpart (NOT 1 Verb);
 	# en ur gambr.
@@ -284,13 +286,13 @@ SELECT VerbFin IF (-1 VpartRef);
 #SELECT Verb IF (-1 Vpart);
 
 # REGLA (     ): "ouzhpenn 1000 den deuet a zesk brezhoneg"
-SELECT VerbFin IF (-1 Vpart) (-1 Prep) (0 NC) (0 VerbFin) (1 NC);
+SELECT VerbFin IF (-1 Vpart) (-1 Pr) (0 NC) (0 VerbFin) (1 NC);
 
 # REGLA (     ): "Kerzhet hon eus e-pad 2 eurvezh"
 REMOVE VerbInf IF (1 ("kaout" vblex));
 
 # REGLA (     ): "a ra"
-REMOVE Prep IF (0 Prep) (0 Verb) (1 Vpart) (1 VerbFin) (NOT 1 PRE-N);
+REMOVE Pr IF (0 Pr) (0 Verb) (1 Vpart) (1 VerbFin) (NOT 1 PRE-N);
 
 REMOVE Vpart IF (0 Vpart) (0 VerbFin) (-1 VerbFin) (-1 Vpart) (NOT -1 PRE-N);
 
@@ -304,10 +306,10 @@ SELECT VerbInf IF (-1 ("gellout" vblex) OR ("ober" vblex));
 SELECT VerbImp IF (-1 VpartNegImp);
 
 # REGLA (B0006): "emañ e Brest"
-SELECT Prep IF (-1 Vbloc) (NOT 1 SoftMut);
+SELECT Pr IF (-1 Vbloc) (NOT 1 SoftMut);
 
 #Kalz tostoc’h emañ e brezegenn ouzh da hini
-REMOVE Prep + ("e") IF (0 Vpart) (0 Prep) (1 SoftMutCons) (1 SoftMut) (NOT 1C NC);
+REMOVE Pr + ("e") IF (0 Vpart) (0 Pr) (1 SoftMutCons) (1 SoftMut) (NOT 1C NC);
 
 # REGLA (B0008): "edo o vervel"
 SELECT VpartGer IF (1 VerbInf);
@@ -322,7 +324,7 @@ SELECT VerbInf IF (-1 VpartGer);
 #                "kinnig tremen anezho bep bloaz"
 #                "E Brest"
 #                "Anzav a rez"
-SELECT Adj IF (-1 NC) (0 NC) (0 Adj) (NOT 1 Prep) (NOT 1 PrnDObj) (NOT 0 Toponim) (NOT 0 VerbFin);
+SELECT Adj IF (-1 NC) (NOT -1 Pr) (0 NC) (0 Adj) (NOT 1 Pr) (NOT 1 PrnDObj) (NOT 0 Toponim) (NOT 0 VerbFin);
 
 
 # REGLA (B    ): "seul fonnusoc'h, seul welloc'h"
@@ -362,7 +364,7 @@ REMOVE PrnDObj IF (1 Toponim);
 REMOVE PrnDObj IF (1 Num);
 
 #Mont a ran da ginnig anezhi dezhe
-SELECT Prep IF (-1 ("mont a ober"ri)) (1 VerbInf);
+SELECT Pr IF (-1 ("mont a ober"ri)) (1 VerbInf);
 
 # REGLA (B    ): ", en he fenn Yannick Jadot rener kozh Greenpeace Bro-C'hall"
 REMOVE PrnDObj IF (-1 ("<en>"ri pr));
@@ -432,7 +434,7 @@ REMOVE Itg IF (1 VerbPP);
 SELECT CS IF (1 VerbFin) (NOT 1 NC) (0 DetPos);
 
 # REGLA (B    ): "Bep sizhun e vez tro da lenn brezhoneg war Bremaik"
-SELECT N IF (-1 Prep) (0 N) (0 Adv);
+SELECT N IF (-1 Pr) (0 N) (0 Adv);
 
 # REGLA (B    ): "Meur a viz"
 SELECT N IF (-1 Det) (0 N) (0 Verb);
@@ -444,7 +446,7 @@ SELECT Verb IF (-1 ("kuit da"));
 REMOVE Verb IF (-1 ("gant" pr));
 
 # REGLA (B    ): "En 2 yezh war"
-REMOVE Adj IF (-1 Num) (0 Adj) (0 NC) (1 Prep);
+REMOVE Adj IF (-1 Num) (0 Adj) (0 NC) (1 Pr);
 
 # a vo staliet goude e ti an dud
 REMOVE ("e" det pos) IF (1 NomM) (1 SoftMutCons) (NOT 1 SoftMut);
@@ -452,10 +454,10 @@ REMOVE ("e" det pos) IF (1 NomM) (1 SoftMutCons) (NOT 1 SoftMut);
 # REGLA (B    ): "e c’heller ober gant e ijinadenn"
 #   "ouzhpenn da verañ savadurioù ar skolaj. "
 #   "muioc’h eget e 1975"
-REMOVE:Remove_prep_for_poss Prep IF (-1 Prep) (NOT -1 PRE-N) (NOT 1 Verb) (0 Prep) (0 DetPos) (NOT 1 Num);
+REMOVE:Remove_prep_for_poss Pr IF (-1 Pr) (NOT -1 PRE-N) (NOT 1 Verb) (0 Pr) (0 DetPos) (NOT 1 Num);
 
 #  "ouzhpenn da verañ savadurioù ar skolaj. "
-SELECT:Prep_for_poss_if_verb Prep IF (0 Prep) (0 DetPos) (1C Verb) (NOT 0 Vpart);
+SELECT:Pr_for_poss_if_verb Pr IF (0 Pr) (0 DetPos) (1C Verb) (NOT 0 Vpart);
 
 # REGLA (B    ): "15 studier" 
 REMOVE VerbImpers IF (NOT -1 Vpart) ((-1 Num) OR (-1 NC) OR (-1 Det)) (0 VerbImpers) (0 NC);
@@ -472,7 +474,7 @@ SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("bezañ" vb
 SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("bezañ" vblex));
 
 # REGLA (B    ): "Skuizh e vi"
-SELECT SoftMut IF ((-1 ("e" vpart obj)) OR (-1 ("e" det pos))) (NOT -1 Prep) (NOT -1 PrnDObj);
+SELECT SoftMut IF ((-1 ("e" vpart obj)) OR (-1 ("e" det pos))) (NOT -1 Pr) (NOT -1 PrnDObj);
 
 # REGLA (B    ): "D'an emgann ez an"
 REMOVE (+da) IF (1 DetDef);
@@ -492,23 +494,23 @@ SELECT VerbFin IF (-1 Vpart) (-2 ("ne"ri adv));
 REMOVE VerbFin IF (-1C DetPos);
 
 # REGLA (      ): "ouzhpenn 23"
-SELECT Prep IF (0 ("ouzhpenn")) ((1 Num) OR (1 NC));
+SELECT Pr IF (0 ("ouzhpenn")) ((1 Num) OR (1 NC));
 
 # REGLA (     ): "23 ouzhpenn"
 # "ouzhpenn da verañ savadurioù ar skolaj. "
-SELECT Adv IF (0 ("ouzhpenn")) ((-1 Num) OR (-1 NC) OR (1 Prep));
+SELECT Adv IF (0 ("ouzhpenn")) ((-1 Num) OR (-1 NC) OR (1 Pr));
 
 # tremen 50 skoliad
-SELECT Prep IF (0 ("tremen")) (1C Num) (2 NC);
+SELECT Pr IF (0 ("tremen")) (1C Num) (2 NC);
 
 # betek an trec'h
-SELECT NC IF (-2C Prep) (-1C DetDef) (0 NC) (0 VerbFin);
+SELECT NC IF (-2C Pr) (-1C DetDef) (0 NC) (0 VerbFin);
 
 # kalz a dud
-SELECT NC IF (-1C Prep) (-1C SoftMutTrigger) (0 NC) (0 VerbFin);
+SELECT NC IF (-1C Pr) (-1C SoftMutTrigger) (0 NC) (0 VerbFin);
 
 # pemp servij / 5 servij
-SELECT NC IF (-1C Num) (0 NC) (0 VerbFin) (NOT 0 Prep);
+SELECT NC IF (-1C Num) (0 NC) (0 VerbFin) (NOT 0 Pr);
 
 # eil gwreg ma zad
 REMOVE:Remove_VerbFin_BOS VerbFin IF (-1 BOS);
@@ -572,7 +574,7 @@ SELECT Vpart IF (-1C VerbInf) (0 ("a"ri)) (1 ("ober"ri vblex));
 SELECT:CSub_if_neg CS IF (0 ("ma"ri cnjsub)) (1 ("ne"ri neg)) (3 ("ket"ri adv));
 
 #Da verc'h nemeti
-SELECT:Pos_if_nemet DetPos IF (0 DetPos) (0 Prep) (2 ("nemet"ri));
+SELECT:Pos_if_nemet DetPos IF (0 DetPos) (0 Pr) (2 ("nemet"ri));
 
 #pa c’houlenn devezhioù vakañsoù
 SELECT:p3_after_pa (vblex p3) IF (-1 ("pa"i cnjsub)) (0 VerbInf) (0 VerbFin);
@@ -596,11 +598,11 @@ REMOVE VerbInf IF (-1C ("kaout"ri)) (-1C VerbFin);
 # diwar-benn stad ar c’hleweled e brezhoneg
 SELECT NC IF (-1C ("diwar-benn"ri pr));
 
-SELECT Prep IF (0 ("<gant ma>"ri)) (1C NC);
+SELECT Pr IF (0 ("<gant ma>"ri)) (1C NC);
 SELECT Conj IF (0 ("<gant ma>"ri)) (1C VerbFin);
 
 # evit kempouez plas ar yezh
-REMOVE Adj IF (-1C Prep);
+REMOVE Adj IF (-1C Pr);
 
 # n'eus redi ebet
 SELECT (p3 impers) IF (0 ("<n'eus>"ri) OR ("<n’eus>"ri));
@@ -626,10 +628,10 @@ SELECT CS IF (1C ("ne"ri adv));
 SELECT CS IF (0 ("nemet"ri)) (1 VerbFin); # check this, perhaps too loose
 
 #lavaret em eus dezhañ tremen
-REMOVE Prep IF (1 EOS);
+REMOVE Pr IF (1 EOS);
 
 #Bevañ a ra e Mali 
-REMOVE DetPos IF (0 Prep) (0 DetPos) (1 NP) (NOT 1 SoftMutCons LINK 0 SoftMut);
+REMOVE DetPos IF (0 Pr) (0 DetPos) (1 NP) (NOT 1 SoftMutCons LINK 0 SoftMut);
 
 #hag e kinnige an dud tremen da welet anezhañ
 SELECT Verb IF (1 ("da" pr)) (2 VerbPP);
@@ -637,10 +639,10 @@ SELECT Verb IF (1 ("da" pr)) (2 VerbPP);
 # kinnig d'an dud tremen anezho bep bloaz
 # verbo + ART + NOUN + Tremen (ADJ) + prep/pron
 # verbo + ART + NOUN + Tremen (NOUN) + prep/pron
-REMOVE NC IF (-3 Verb) (-2 DetDef) (-1 NC) (0 VerbInf) ((1 Prep) OR (1 PrnDObj));
-REMOVE Adj IF (-3 Verb) (-2 DetDef) (-1 NC) (0 VerbInf) ((1 Prep) OR (1 PrnDObj));
+REMOVE NC IF (-3 Verb) (-2 DetDef) (-1 NC) (0 VerbInf) ((1 Pr) OR (1 PrnDObj));
+REMOVE Adj IF (-3 Verb) (-2 DetDef) (-1 NC) (0 VerbInf) ((1 Pr) OR (1 PrnDObj));
 
-REMOVE Prep IF (0 VerbInf) (0 Prep) (1C PrnDObj);
+REMOVE Pr IF (0 VerbInf) (0 Pr) (1C PrnDObj);
 
 # ar wech kentañ
 SELECT Adj IF (0 Num) (0 Adj) (-1C NC);
@@ -654,7 +656,7 @@ SELECT Adj IF (0 Num) (0 Adj) (-1C NC);
 REMOVE VerbInf IF (0 VerbInf) (0 NC) (1 Adj OR Ord);
 
 # Skrivadeg e brezhoneg e Kemper e miz Meurzh
-REMOVE PrnDObj IF (-1C NC) (0 Prep) (0 PrnDObj); 
+REMOVE PrnDObj IF (-1C NC) (0 Pr) (0 PrnDObj); 
 
 #Skuizh e oan c'hoazh
 REMOVE Vpart + ("e") IF (1 MixedMutCons) (NOT 1 MixedMut) (NOT 1 ("<[aeiou].*>"ri));
@@ -705,13 +707,13 @@ REMOVE NC IF (0 NC) (0 VerbInf) (-1 ("da")) (NOT -1 ("<d'an>")) (NOT -1 ("<d'ar>
 SELECT Toponim IF (-1 ("e"i)) (0 Toponim) ;
 
 # E Brest
-SELECT Prep IF (0 Prep) (0 NC) (1C Toponim);
+SELECT Pr IF (0 Pr) (0 NC) (1C Toponim);
 
 # e c’hallimp kas warc’hoazh dezho.
 SELECT VerbInf IF (-1C ("gallout" vblex));
 
 REMOVE DetPos IF (0 ("<e>"i)) (1 MixedMut) (NOT 1 SoftMut) ;
-REMOVE Prep IF (0 ("<e>"i)) (1 MixedMut) ;
+REMOVE Pr IF (0 ("<e>"i)) (1 MixedMut) ;
 REMOVE NC IF (0 ("<e>"i)) (1 VerbFin) ; 
     ## Evit talañ ouzh an diaezamant-se hag evit diorren an embann e tle ar Rannvro pe ur framm a zo fiziet ennañ ar yalc’hadoù termenañ palioù da dizhout evit an niver a ditloù embannet ha dre rummad.
 
@@ -731,13 +733,13 @@ REMOVE Det IF (0 ("<en>"i)) (1 DetPos);
     ## Ezhomm zo da vont pelloc’h c’hoazh ganti evit kinnig abadennoù lies o danvez ha dedennus en o framm.
     ## En o levr e vo kavet elfennoù sintetek hag a c'haller fiziout enno evit anavezout gwelloc'h hon endro, evit ijinañ gwelloc'h dazont Breizh.
 
-SELECT VerbFin IF (-1 ("a"i)) (0 NC OR VerbFin) (1 Prep OR PrnIObj) ;
+SELECT VerbFin IF (-1 ("a"i)) (0 NC OR VerbFin) (1 Pr OR PrnIObj) ;
     ## « Tiez kozh e Roazhon », « Plasenn Koc'hu an Edeier, » taolennet e 1929 gant Camille Godet, a ro dimp da anavezout un neuz eus kêr Roazhon aet da get, e-lec'h m'emañ Plasenn Honoré Kommereg hiziv an deiz.
 
 SELECT Vpart IF (0 ("<e>"i)) (1C VerbFin);
     ## Lakaet e veze sevel truajoù koulz gant an duged ha gant ar roueed, pe gant ar c’hêrioù o-unan.
 
-SELECT Adj IF (-1 NC) (0 Adj OR VerbPP) (1 Prep);
+SELECT Adj IF (-1 NC) (0 Adj OR VerbPP) (1 Pr);
     ## Daremprediñ Sant-Briag, kêr vrudet eus an arvor d'ar c'houlz-se, a rae ar c'hizeller d'an ampoent eo bet savet an delwenn-mañ.
 
 SECTION
@@ -885,6 +887,8 @@ SELECT VerbFin IF (-1 ("ma"i)) (0 MixedMut);
 
 SELECT VerbFin IF (-1 ("ma"i) OR ("tra ma"i) OR ("mar")) (0 VerbFin);
 
+REMOVE Verb IF (0 N OR Verb) (-1 Guio LINK -1 N) ;
+
 
 ###############################################################################
 ## Lexical selection 
@@ -892,7 +896,7 @@ SELECT VerbFin IF (-1 ("ma"i) OR ("tra ma"i) OR ("mar")) (0 VerbFin);
 SECTION
 
 REMOVE DetPos (0 ("e"ri pr)) ((1 Num) OR (1 Language));
-#SUBSTITUTE ("e") ("e:1") ("e"ri pr) (0 Prep) ((1 Num) OR (1 Language));
+#SUBSTITUTE ("e") ("e:1") ("e"ri pr) (0 Pr) ((1 Num) OR (1 Language));
 #
 #SUBSTITUTE ("den") ("den:1") ("den"ri n m pl) (-1C DetPos);
 #
@@ -924,7 +928,7 @@ SUBSTITUTE (vblex) (vblex tv) ("gouzañv"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY
 
 SUBSTITUTE (vblex) (vblex tv) ("toullañ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
 
-SUBSTITUTE (vblex) (vblex tv) ("koumanantiñ"i vblex) (NOT 1C* Prep BARRIER S-BOUNDARY) (NOT 1* ("<d'ar>"i));
+SUBSTITUTE (vblex) (vblex tv) ("koumanantiñ"i vblex) (NOT 1C* Pr BARRIER S-BOUNDARY) (NOT 1* ("<d'ar>"i));
 
 SUBSTITUTE (vblex) (vblex tv) ("sevel"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
 

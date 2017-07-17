@@ -2,76 +2,77 @@
 <dictionary>
   <alphabet>AaBbChchC’hc’hDdEeFfGgHhIiJjKkLlMmNnOoPpRrSsTtUuVvWwYyZzùÙêÊñÑâÂîÎôÔûÛüÜ’ÇçÉéÈèXxQqÏïœæàÀáÁèÈéÉËëăắẵặấầẩậǎåäãąāảạḃḇćĉčďḋđḍḏɗðĕếềễểệěẽėęēḗẹəğĝǧġḡƣȟħḩḥḫíìĭǐĩīỉịıĵǩḳḵľŀłļḷṃńňṅņṇŋóòŏốồỗổộǒöőõøǫōṓỏọơớờợɔºṗřṛśšşṣſßťŧţṭṯúŭǔůǚűũūủụṷưừữửựŵýỳŷÿȳȝ</alphabet>
   <sdefs>
-    <sdef n="n"      c="Nom"/>
-    <sdef n="np"     c="Nom propre"/>
-    <sdef n="num"    c="Numeral"/>
-    <sdef n="mf"     c="Masculin/feminin"/>
-    <sdef n="m"      c="Gourel (Masculin)"/>
-    <sdef n="f"      c="Benel (Feminin)"/>
-    <sdef n="sg"     c="Singular"/>
-    <sdef n="pl"     c="Plural"/>
-    <sdef n="sp"     c="Singular/plural"/>
-    <sdef n="acr"    c="Acronimo"/>
-    <sdef n="top"    c="Toponym"/>
-    <sdef n="ant"    c="Anthroponym"/>
-    <sdef n="cog"    c="Cognomen"/>
-    <sdef n="abbr"   c="Abbreviations"/>
-    <sdef n="al"     c="Autres"/>
-    <sdef n="pr"     c="Preposition"/>
-    <sdef n="cnjcoo" c="Conjonction de coordination"/>
-    <sdef n="cnjsub" c="Conjonction de subordination"/>
-    <sdef n="cnjadv" c="Conjonction adverbial"/>
-    <sdef n="prn"    c="Pronom"/>
-    <sdef n="subj"   c="Subjet"/>
-    <sdef n="obj"    c="Objet"/>
-    <sdef n="rel"    c="Relatif"/>
-    <sdef n="opt"    c="Optatif"/>
-    <sdef n="ppres"  c="Present participle"/>
-    <sdef n="neg"    c="Negatif"/>
-    <sdef n="ref"    c="Reflexif"/>
-    <sdef n="ij"     c="Interjection"/>
-    <sdef n="adv"    c="Adverbe"/>
-    <sdef n="preadv" c="Preadverbe"/>
-    <sdef n="adj"    c="Adjectif"/>
-    <sdef n="sint"   c="Synthetic"/>
-    <sdef n="comp"   c="Comparatif"/>
-    <sdef n="sup"    c="Superlatif"/>
-    <sdef n="excl"   c="Exclamatif"/>
-    <sdef n="itg"    c="Interrogatif"/>
-    <sdef n="vblex"  c="Verb"/>
-    <sdef n="vbloc"  c="Verb (locative form)"/>
-    <sdef n="vpart"  c="Verbal particle"/>
-    <sdef n="inf"    c="Infinitif"/>
-    <sdef n="pri"    c="Present indicative"/>
-    <sdef n="pii"    c="Imperfect"/>
-    <sdef n="prh"    c="Present habitual"/>
-    <sdef n="pih"    c="Imperfect habitual"/>
-    <sdef n="cni"    c="Conditional"/>
-    <sdef n="cip"    c="Past conditional"/>
-    <sdef n="imp"    c="Imperative"/>
-    <sdef n="past"   c="Past definite"/>
-    <sdef n="pp"     c="Past participle"/>
-    <sdef n="fti"    c="Future indicative"/>
-    <sdef n="ger"    c="Particle for present participle"/>
-    <sdef n="p1"     c="1st person"/>
-    <sdef n="p2"     c="2nd person"/>
-    <sdef n="p3"     c="3rd person"/>
-    <sdef n="impers" c="Impersonal"/>
-    <sdef n="det"    c="Determiner"/>
-    <sdef n="predet" c="Pre-determiner"/>
-    <sdef n="ind"    c="Indefinite"/>
-    <sdef n="def"    c="Definite"/>
-    <sdef n="dem"    c="Demonstratif"/>
-    <sdef n="pos"    c="Possessive"/>
-    <sdef n="ord"    c="Ordinal"/>
-    <sdef n="cm"     c="Coma"/>
-    <sdef n="apos"   c="Apostrophe"/>
-    <sdef n="guio"   c="Hyphen"/>
-    <sdef n="lpar"   c=""/>
-    <sdef n="rpar"   c=""/>
-    <sdef n="lquot"  c=""/>
-    <sdef n="rquot"  c=""/>
-    <sdef n="sent"   c="End of sentence marker"/>
+    <sdef n="n"       c="Nom"/>
+    <sdef n="np"      c="Nom propre"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="mf"      c="Masculin/feminin"/>
+    <sdef n="m"       c="Gourel (Masculin)"/>
+    <sdef n="f"       c="Benel (Feminin)"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c="Singular/plural"/>
+    <sdef n="acr"     c="Acronimo"/>
+    <sdef n="top"     c="Toponym"/>
+    <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
+    <sdef n="abbr"    c="Abbreviations"/>
+    <sdef n="al"      c="Autres"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="cnjcoo"  c="Conjonction de coordination"/>
+    <sdef n="cnjsub"  c="Conjonction de subordination"/>
+    <sdef n="cnjadv"  c="Conjonction adverbial"/>
+    <sdef n="prn"     c="Pronom"/>
+    <sdef n="subj"    c="Subjet"/>
+    <sdef n="obj"     c="Objet"/>
+    <sdef n="rel"     c="Relatif"/>
+    <sdef n="opt"     c="Optatif"/>
+    <sdef n="ppres"   c="Present participle"/>
+    <sdef n="neg"     c="Negatif"/>
+    <sdef n="ref"     c="Reflexif"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="adv"     c="Adverbe"/>
+    <sdef n="preadv"  c="Preadverbe"/>
+    <sdef n="adj"     c="Adjectif"/>
+    <sdef n="sint"    c="Synthetic"/>
+    <sdef n="comp"    c="Comparatif"/>
+    <sdef n="sup"     c="Superlatif"/>
+    <sdef n="excl"    c="Exclamatif"/>
+    <sdef n="itg"     c="Interrogatif"/>
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="vbloc"   c="Verb (locative form)"/>
+    <sdef n="vpart"   c="Verbal particle"/>
+    <sdef n="inf"     c="Infinitif"/>
+    <sdef n="pri"     c="Present indicative"/>
+    <sdef n="pii"     c="Imperfect"/>
+    <sdef n="prh"     c="Present habitual"/>
+    <sdef n="pih"     c="Imperfect habitual"/>
+    <sdef n="cni"     c="Conditional"/>
+    <sdef n="cip"     c="Past conditional"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="past"    c="Past definite"/>
+    <sdef n="pp"      c="Past participle"/>
+    <sdef n="fti"     c="Future indicative"/>
+    <sdef n="ger"     c="Particle for present participle"/>
+    <sdef n="p1"      c="1st person"/>
+    <sdef n="p2"      c="2nd person"/>
+    <sdef n="p3"      c="3rd person"/>
+    <sdef n="impers"  c="Impersonal"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="predet"  c="Pre-determiner"/>
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="def"     c="Definite"/>
+    <sdef n="dem"     c="Demonstratif"/>
+    <sdef n="pos"     c="Possessive"/>
+    <sdef n="ord"     c="Ordinal"/>
+    <sdef n="cm"      c="Coma"/>
+    <sdef n="apos"    c="Apostrophe"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="lpar"    c=""/>
+    <sdef n="percent" c="Percentage"/>
+    <sdef n="rpar"    c=""/>
+    <sdef n="lquot"   c=""/>
+    <sdef n="rquot"   c=""/>
+    <sdef n="sent"    c="End of sentence marker"/>
     <sdef n="ND"/>
     <sdef n="GD"/>
   </sdefs>
@@ -119,6 +120,7 @@
     <pardef n="numeros">
       <e><p><l>1</l><r>1<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l>%</l><r><s n="num"/><s n="percent"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="acronimos">
