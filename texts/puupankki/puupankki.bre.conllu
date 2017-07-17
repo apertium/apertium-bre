@@ -609,6 +609,74 @@
 6	amezeg	amezeg	NOUN	n	Gender=Msc|Number=Sing	3	nmod	_	_
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
+# sent_id = miscellaneous.vislcg.txt:3:29
+# text = Ul zo ganin.
+1	Ul	un	DET	det	_	2	det	_	_
+2	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	ganin	_	_	_	_	_	_	_	_
+3	ganin	gant	ADP	pr	_	5	case	_	_
+4	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	0	root	_	_
+5	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = miscellaneous.vislcg.txt:4:39
+# text = Un died zo ganit.
+1	Un	un	DET	det	_	2	det	_	_
+2	died	died	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4-5	ganit	_	_	_	_	_	_	_	_
+4	ganit	gant	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Number=Sing|Person=2|PronType=Pers	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = miscellaneous.vislcg.txt:5:51
+# text = Un urzhiataer zo gantañ.
+1	Un	un	DET	det	_	2	det	_	_
+2	urzhiataer	urzhiataer	NOUN	n	Gender=Msc|Number=Sing	5	nsubj	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4-5	gantañ	_	_	_	_	_	_	_	_
+4	gantañ	gant	ADP	pr	_	5	case	_	_
+5	añ	indirect	_	prn	Case=Acc|Gender=Msc|Number=Sing|Person=3|PronType=Pers	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = miscellaneous.vislcg.txt:6:63
+# text = Ur bugel zo ganti.
+1	Ur	un	DET	det	_	2	det	_	_
+2	bugel	bugel	NOUN	n	Gender=Msc|Number=Sing	5	nsubj	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4-5	ganti	_	_	_	_	_	_	_	_
+4	ganti	gant	ADP	pr	_	5	case	_	_
+5	i	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = miscellaneous.vislcg.txt:7:75
+# text = Ur c'harr zo ganimp.
+1	Ur	un	DET	det	_	2	det	_	_
+2	c'harr	karr	NOUN	n	Gender=Msc|Number=Sing	5	nsubj	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4-5	ganimp	_	_	_	_	_	_	_	_
+4	ganimp	gant	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Number=Plur|Person=1|PronType=Pers	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = miscellaneous.vislcg.txt:8:87
+# text = Un ti zo ganeoc'h.
+1	Un	un	DET	det	_	2	det	_	_
+2	ti	ti	NOUN	n	Gender=Msc|Number=Sing	5	nsubj	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4-5	ganeoc'h	_	_	_	_	_	_	_	_
+4	ganeoc	gant	ADP	pr	_	5	case	_	_
+5	h	indirect	_	prn	Case=Acc|Number=Plur|Person=2|PronType=Pers	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = miscellaneous.vislcg.txt:9:99
+# text = Arc'hant zo ganto.
+1	Arc'hant	arc’hant	NOUN	n	Gender=Msc|Number=Sing	4	nsubj	_	_
+2	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3-4	ganto	_	_	_	_	_	_	_	_
+3	ganto	gant	ADP	pr	_	4	case	_	_
+4	o	indirect	_	prn	Case=Acc|Number=Plur|Person=3|PronType=Pers	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
+
 # sent_id = oab.vislcg.txt:1:0
 # text = Ur gevezadeg ziaes ha brudet eo an Olimpiadennoù, met ouzhpenn an dra-se ez int.
 # text[fra] = Les Olympiades sont une compétition exigeante et prestigieuse mais pas seulement.

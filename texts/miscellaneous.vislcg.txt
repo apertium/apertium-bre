@@ -31,82 +31,82 @@
 "<Ul>"
 	"un" det ind sp @det #1->2
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @nsubj #3->5
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->5
 "<ganin>"
-	"gant" pr @case
-		"indirect" prn obj p1 mf sg
+	"gant" pr @case #4->5
+		"indirect" prn obj p1 mf sg @root #5->0
 "<.>"
-	"." sent @punct #
+	"." sent @punct #6->5
 
 "<Un>"
 	"un" det ind sp @det #1->2
 "<died>"
-	"died" n f sg
+	"died" n f sg @nsubj #2->5
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->5
 "<ganit>"
-	"gant" pr @case
-		"indirect" prn obj p2 mf sg
+	"gant" pr @case #4->5
+		"indirect" prn obj p2 mf sg @root #5->0
 "<.>"
-	"." sent @punct #
+	"." sent @punct #6->5
 
 "<Un>"
 	"un" det ind sp @det #1->2
 "<urzhiataer>"
-	"urzhiataer" n m sg
+	"urzhiataer" n m sg @nsubj #2->5
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->5
 "<gantañ>"
-	"gant" pr @case
-		"indirect" prn obj p3 m sg
+	"gant" pr @case #4->5
+		"indirect" prn obj p3 m sg @root #5->0
 "<.>"
-	"." sent @punct #
+	"." sent @punct #6->5
 
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<bugel>"
-	"bugel" n m sg
+	"bugel" n m sg @nsubj #2->5
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->5
 "<ganti>"
-	"gant" pr @case
-		"indirect" prn obj p3 f sg
+	"gant" pr @case #4->5
+		"indirect" prn obj p3 f sg @root #5->0
 "<.>"
-	"." sent @punct #
+	"." sent @punct #6->5
 
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<c'harr>"
-	"karr" n m sg @
+	"karr" n m sg @nsubj #2->5
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->5
 "<ganimp>"
-	"gant" pr @case
-		"indirect" prn obj p1 mf pl
-"<.>"
-	"." sent @punct #
+	"gant" pr @case #4->5
+		"indirect" prn obj p1 mf pl @root #5->0
+"<.>" 
+	"." sent @punct #6->5
 
 "<Un>"
 	"un" det ind sp @det #1->2
 "<ti>"
-	"ti" n m sg
+	"ti" n m sg @nsubj #2->5
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #3->5
 "<ganeoc'h>"
-	"gant" pr @case
-		"indirect" prn obj p2 mf pl
+	"gant" pr @case #4->5
+		"indirect" prn obj p2 mf pl @root #5->0
 "<.>"
-	"." sent @punct #
+	"." sent @punct #6->5
 
 "<Arc'hant>"
-	"arc’hant" n m sg @nsubj #1->
+	"arc’hant" n m sg @nsubj #1->4
 "<zo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #2->4
 "<ganto>"
-	"gant" pr @case
-		"indirect" prn obj p3 mf pl
+	"gant" pr @case #3->4
+		"indirect" prn obj p3 mf pl @root #4->0
 "<.>"
-	"." sent @punct #
+	"." sent @punct #5->4
 
