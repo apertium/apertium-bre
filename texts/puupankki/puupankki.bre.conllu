@@ -414,6 +414,22 @@
 # text[fra] = Mais Elle est regarder un plaisir.
 # text[fra] = Mais Elle est regarder un plaisir.
 
+# sent_id = bro-gozh.vislcg.txt:1:0
+# text = Ni, Breizhiz a galon, karomp hon gwir vro!
+# text[fra] = 
+1	Ni	prpers	_	prn	Case=Nom|Number=Plur|Person=1|PronType=Pers	7	nsubj	_	_
+2	,	,	PUNCT	cm	_	3	punct	_	_
+3	Breizhiz	Breizhad	NOUN	n	Gender=Msc|Number=Plur	1	appos	_	_
+4-5	a galon	_	_	_	_	_	_	_	_
+4	a	a	ADP	pr	_	5	case	_	_
+5	galon	kalon	NOUN	n	Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	cm	_	3	punct	_	_
+7	karomp	karout	VERB	vblex	Number=Plur|Person=1	0	root	_	_
+8	hon	hon	DET	det	PronType=Pos	10	det	_	_
+9	gwir	gwir	ADJ	adj	_	10	amod	_	_
+10	vro	bro	NOUN	n	Gender=Fem|Number=Sing	7	obj	_	_
+11	!	!	PUNCT	sent	_	7	punct	_	_
+
 # sent_id = grammar.vislcg.txt:1:0
 # text = Piv a wel Yannig ?
 # text[fra] = Qui a vu Yannig ?
@@ -1429,6 +1445,30 @@
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = oab.vislcg.txt:55:1547
+# text = Diorroet eo bet ar c’hinnig dre rouedadoù gant labour ar c’hevreadoù.
+# text[fra] = L’offre s’est développée en réseau par le travail des fédérations.
+1	Diorroet	diorren	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	1	aux:pass	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	c’hinnig	kinnig	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+6	dre	dre	ADP	pr	_	7	case	_	_
+7	rouedadoù	rouedad	NOUN	n	Gender=Fem|Number=Plur	1	obl	_	_
+8	gant	gant	ADP	pr	_	9	case	_	_
+9	labour	labour	NOUN	n	Gender=Msc|Number=Sing	1	obl:agent	_	_
+10	ar	an	DET	det	_	11	det	_	_
+11	c’hevreadoù	kevread	NOUN	n	Gender=Msc|Number=Plur	9	nmod:gen	_	_
+12	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = oab.vislcg.txt:56:1574
+# text = Stad ar c’hinnig kentelioù noz
+# text[fra] = Etat de l’offre de cours du soir
+1	Stad	stad	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
+2	ar	an	DET	det	_	3	det	_	_
+3	c’hinnig	kinnig	NOUN	n	Gender=Msc|Number=Sing	1	nmod:gen	_	_
+4	kentelioù noz	kentel-noz	NOUN	n	Gender=Fem|Number=Plur	3	nmod:gen	_	_
+
+# sent_id = oab.vislcg.txt:57:1585
 # text = Alies ne gavont ket e diabarzh o framm ar barregezhioù ret evit diorren implij ar yezh ouzhpenn-se.
 # text[fra] = Souvent, ils ne trouvent pas à l’intérieur de leur structure les compétences nécessaires pour développer l’usage de la langue, qui plus est.
 1	Alies	alies	ADV	adv	_	3	advmod	_	_
@@ -1450,7 +1490,7 @@
 17	ouzhpenn-se	ouzhpenn-se	ADV	adv	_	3	advmod	_	_
 18	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:56:1586
+# sent_id = oab.vislcg.txt:58:1624
 # text = Skoazellet eo an embann e brezhoneg gant ar galloudoù foran.
 # text[fra] = L’édition en breton est aidée par les pouvoirs publics.
 1	Skoazellet	skoazellañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -1465,7 +1505,7 @@
 10	foran	foran	ADJ	adj	_	9	amod	_	_
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:57:1611
+# sent_id = oab.vislcg.txt:59:1649
 # text = Kinniget eo ar produiñ kleweled e brezhoneg d’ar c’houlz-se ivez.
 # text[fra] = La production audiovisuelle en langue bretonne est présentée par la même occasion.
 1	Kinniget	kinnig	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -1483,7 +1523,7 @@
 12	ivez	ivez	ADV	adv	_	10	advmod	_	_
 13	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:58:1639
+# sent_id = oab.vislcg.txt:60:1677
 # text = Sinet e oa bet ur c’hendivizad palioù ha danvezioù etre ar Stad, France 3 ha Strollegezh Korsika evit krouiñ ar chadenn e miz Ebrel 2006.
 # text[fra] = En avril 2006, une convention d’objectifs et de moyens a été signée entre l’État, France 3 et la Collectivité de Corse pour la création de cette chaîne.
 1	Sinet	sinañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -1514,7 +1554,7 @@
 26	2006	2006	NUM	num	Number=Plur	25	dep	_	_
 27	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:59:1696
+# sent_id = oab.vislcg.txt:61:1734
 # text = Met nevez eo ar c’hinnig-se.
 # text[fra] = Mais cette offre nouvelle commence à émerger.
 1	Met	met	CCONJ	cnjcoo	_	2	cc	_	_
@@ -1525,7 +1565,7 @@
 6	-se	se	ADV	adv	_	5	advmod	_	_
 7	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:60:1713
+# sent_id = oab.vislcg.txt:62:1751
 # text = An diskoulmoù hag an diaesterioù evit diorren ar c’hinnig
 # text[fra] = Les solutions pour développer l’offre et les blocages
 1	An	an	DET	det	_	2	det	_	_
@@ -1538,7 +1578,7 @@
 8	ar	an	DET	det	_	9	det	_	_
 9	c’hinnig	kinnig	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 
-# sent_id = oab.vislcg.txt:61:1734
+# sent_id = oab.vislcg.txt:63:1772
 # text = Ur raktres bras e oa, pa oa anv da gaout un talbenn daou-ugent metr hed.
 # text[fra] = Ce projet est ambitieux puisqu’il prévoit une longueur de façade de quarante mètres.
 1	Ur	un	DET	det	_	2	det	_	_
@@ -1559,7 +1599,7 @@
 16	hed	hed	NOUN	n	Gender=Msc|Number=Sing	15	nmod:gen	_	_
 17	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:62:1771
+# sent_id = oab.vislcg.txt:64:1809
 # text = Koll a reas an abatioù eus o galloud neuze.
 # text[fra] = Les abbayes perdent alors de leur pouvoir.
 1	Koll	koll	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -1573,13 +1613,13 @@
 9	neuze	neuze	ADV	adv	_	1	advmod	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:63:1794
+# sent_id = oab.vislcg.txt:65:1832
 # text = Kresk kêr
 # text[fra] = Centre ville
 1	Kresk	kresk	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	kêr	kêr	NOUN	n	Gender=Fem|Number=Sing	1	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:64:1801
+# sent_id = oab.vislcg.txt:66:1839
 # text = Gant ar porzh o kreskiñ e teuas greantioù d’en em staliañ eno.
 # text[fra] = Le développement du port incite les industries à s’y implanter.
 1	Gant	gant	ADP	pr	_	3	case	_	_
@@ -1597,7 +1637,7 @@
 13	eno	eno	ADV	adv	_	12	advmod	_	_
 14	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = oab.vislcg.txt:65:1832
+# sent_id = oab.vislcg.txt:67:1870
 # text = Kinnig a raio kelc’hioù keltiek gwellañ Breizh o frogramm 2002.
 # text[fra] = Les meilleurs cercles de Bretagne présenteront leur programme 2002.
 1	Kinnig	kinnig	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -1612,7 +1652,7 @@
 10	2002	2002	NUM	num	Number=Plur	9	dep	_	_
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:66:1857
+# sent_id = oab.vislcg.txt:68:1895
 # text = Warno e veze lakaet anv ar gwaz pe hini ar wreg.
 # text[fra] = Elles portaient le nom du mari ou de l’épouse.
 1-2	Warno	_	_	_	_	_	_	_	_
@@ -1630,7 +1670,7 @@
 12	wreg	gwreg	NOUN	n	Gender=Fem|Number=Sing	10	nmod:gen	_	_
 13	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:67:1885
+# sent_id = oab.vislcg.txt:69:1923
 # text = Un torkad bokedoù mar plij.
 # text[fra] = Un bouquet s'il vous plaît.
 1	Un	un	DET	det	_	2	det	_	_
@@ -1640,7 +1680,7 @@
 5	plij	plij	ADV	adv	_	2	discourse	_	_
 6	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:68:1900
+# sent_id = oab.vislcg.txt:70:1938
 # text = Get an TTB emañ Gwened àr-hed teir euriad d'ar muiañ a Bariz, gant meur a dren bemdez.
 # text[fra] = En TGV, Vannes est à moins de trois heures de Paris, avec de nombreuses liaisons par jour.
 1	Get	get	ADP	pr	_	3	case	_	_
@@ -1663,7 +1703,7 @@
 18	bemdez	bemdez	ADV	adv	_	8	advmod	_	_
 19	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = oab.vislcg.txt:69:1941
+# sent_id = oab.vislcg.txt:71:1979
 # text = Kresk an niver ar skolidi, en holl, zo 660 skoliad e-keñver an distro-skol kent.
 # text[fra] = La croissance des effectifs en nombre absolu est de 660 élèves par rapport à la rentrée dernière.
 1	Kresk	kresk	NOUN	n	Gender=Msc|Number=Sing	12	nsubj	_	_
@@ -1684,14 +1724,14 @@
 16	kent	kent	ADJ	adj	Number=Sing	15	amod	_	_
 17	.	.	PUNCT	sent	_	12	punct	_	_
 
-# sent_id = oab.vislcg.txt:70:1978
+# sent_id = oab.vislcg.txt:72:2016
 # text = DASTUMADOÙ HA TUD
 # text[fra] = DES COLLECTIONS ET DES HOMMES
 1	DASTUMADOÙ	dastumad	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
 2	HA	ha	CCONJ	cnjcoo	_	3	cc	_	_
 3	TUD	den	NOUN	n	Gender=Msc|Number=Plur	1	conj	_	_
 
-# sent_id = oab.vislcg.txt:71:1987
+# sent_id = oab.vislcg.txt:73:2025
 # text = Àr tachenn ar sevenadur
 # text[fra] = Dans le domaine culturel
 1	Àr	àr	ADP	pr	_	2	case	_	_
@@ -1699,7 +1739,7 @@
 3	ar	an	DET	det	_	4	det	_	_
 4	sevenadur	sevenadur	NOUN	n	Gender=Msc|Number=Sing	2	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:72:1998
+# sent_id = oab.vislcg.txt:74:2036
 # text = Ur gevredigezh rannvroel e servij obererien sevenadurel ar c'humunioù war ar maez pe ar c'hêrioù krenn.
 # text[fra] = Une association régionale au service des acteurs culturels des communes en zones rurales et des villes moyennes.
 1	Ur	un	DET	det	_	2	det	_	_
@@ -1720,7 +1760,7 @@
 16	krenn	krenn	ADJ	adj	_	15	amod	_	_
 17	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:73:2035
+# sent_id = oab.vislcg.txt:75:2073
 # text = Abaoe 2001 e vez kinniget arvestoù digor d'an holl gant an ti-kêr.
 # text[fra] = Depuis 2001, la municipalité propose au public des spectacles ouverts à tous.
 1	Abaoe	abaoe	ADP	pr	_	2	case	_	_
@@ -1739,14 +1779,14 @@
 13	ti-kêr	ti-kêr	NOUN	n	Gender=Msc|Number=Sing	5	obl:agent	_	_
 14	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:74:2065
+# sent_id = oab.vislcg.txt:76:2103
 # text = Standoù ar c'hevredigezhioù
 # text[fra] = Les stands des associations
 1	Standoù	stand	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
 2	ar	an	DET	det	_	3	det	_	_
 3	c'hevredigezhioù	kevredigezh	NOUN	n	Gender=Fem|Number=Plur	1	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:75:2074
+# sent_id = oab.vislcg.txt:77:2112
 # text = Ofis ar Brezhoneg eo aozadur dave ar strollegezhioù lec'hel àr tachenn ar politikerezh yezh.
 # text[fra] = L'Office de la Langue Bretonne est l'organisme de référence pour les collectivités locales en matière de politique linguistique.
 1	Ofis	Ofis	X	x	_	3	dep	_	_
@@ -1765,7 +1805,7 @@
 14	yezh	yezh	NOUN	n	Gender=Fem|Number=Sing	13	nmod:gen	_	_
 15	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:76:2107
+# sent_id = oab.vislcg.txt:78:2145
 # text = Krouiñ ur roll niverennet diouzh an arventennoù dre ziouer red
 # text[fra] = Crée une liste numérotée en fonction des paramètres par défaut actuels
 1	Krouiñ	krouiñ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -1779,7 +1819,7 @@
 9	ziouer	diouer	NOUN	n	Gender=Msc|Number=Sing	7	nmod	_	_
 10	red	red	ADJ	adj	_	7	amod	_	_
 
-# sent_id = oab.vislcg.txt:77:2130
+# sent_id = oab.vislcg.txt:79:2168
 # text = Keñveriañ an teul-mañ gant ar stumm enrollet da ziwezhañ war ar servijer.
 # text[fra] = Compare ce document avec la dernière version enregistrée sur le serveur.
 1	Keñveriañ	keñveriañ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -1797,13 +1837,13 @@
 13	servijer	servijer	NOUN	n	Gender=Msc|Number=Sing	8	obl	_	_
 14	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:78:2161
+# sent_id = oab.vislcg.txt:80:2199
 # text = Eilañ war-du
 # text[fra] = Copier vers
 1	Eilañ	eilañ	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	war-du	war-zu	ADV	adv	_	1	advmod	_	_
 
-# sent_id = oab.vislcg.txt:79:2168
+# sent_id = oab.vislcg.txt:81:2206
 # text = Klaskit gwelet hag-eñ eo reizh hoc'h anv implijer hag ho ker-tremen.
 # text[fra] = Vérifiez que votre nom d'utilisateur et que votre mot de passe sont corrects.
 1	Klaskit	klask	VERB	vblex	Number=Plur|Person=2	0	root	_	_
@@ -1819,7 +1859,7 @@
 11	ker-tremen	ger-tremen	NOUN	n	Gender=Msc|Number=Sing	7	conj	_	_
 12	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:80:2195
+# sent_id = oab.vislcg.txt:82:2233
 # text = Ne c'haller ouzhpennañ implijer ebet d'ar roll.
 # text[fra] = Impossible d'ajouter un ou plusieurs utilisateurs à la liste.
 1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
@@ -1833,7 +1873,7 @@
 8	roll	roll	NOUN	n	Gender=Msc|Number=Sing	3	obl	_	_
 9	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:81:2215
+# sent_id = oab.vislcg.txt:83:2253
 # text = Eilañ perzhioù an teuliad
 # text[fra] = Copier les propriétés du dossier
 1	Eilañ	eilañ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -1841,7 +1881,7 @@
 3	an	an	DET	det	_	4	det	_	_
 4	teuliad	teuliad	NOUN	n	Gender=Msc|Number=Sing	2	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:82:2226
+# sent_id = oab.vislcg.txt:84:2264
 # text = Ne c'haller ket lenn ur perzh skrivañ hepken.
 # text[fra] = Impossible de lire une propriété écriture seule.
 1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
@@ -1853,7 +1893,7 @@
 7	.	.	PUNCT	sent	_	2	punct	_	_
 8	hepken	hepken	ADV	adv	_	6	advmod	_	_
 
-# sent_id = oab.vislcg.txt:83:2245
+# sent_id = oab.vislcg.txt:85:2283
 # text = Unan eus ho kontoù pe meur a gont a gas ar c'hemennadoù nevez d'ar restr roadennoù-mañ.
 # text[fra] = Un ou plusieurs de vos comptes remettent les nouveaux messages dans ce fichier de données.
 1	Unan	unan	NUM	num	Number=Sing	10	nsubj	_	_
@@ -1877,7 +1917,7 @@
 18	-mañ	mañ	ADV	adv	_	16	advmod	_	_
 19	.	.	PUNCT	sent	_	10	punct	_	_
 
-# sent_id = oab.vislcg.txt:84:2285
+# sent_id = oab.vislcg.txt:86:2323
 # text = Evel-se e tiwaller na vefe paouezet ho roll gant embanner un deiziadur Kenrouedad.
 # text[fra] = Ceci permet d'éviter la suspension éventuelle de votre liste par l'éditeur d'un calendrier Internet.
 1	Evel-se	evel-se	ADV	adv	_	3	dep	_	_
@@ -1895,7 +1935,7 @@
 13	Kenrouedad	kenrouedad	NOUN	n	Gender=Fem|Number=Sing	13	nmod:gen	_	_
 14	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:85:2316
+# sent_id = oab.vislcg.txt:87:2354
 # text = Kevreañ ouzh ur servijer LDAP evit klask ha gwiriañ ar chomlec'hioù postel ha titouroù all.
 # text[fra] = Se connecter à un serveur LDAP pour rechercher et vérifier les adresses de messagerie et autres informations.
 1	Kevreañ	kevreañ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -1915,7 +1955,7 @@
 15	all	all	ADJ	adj	_	14	amod	_	_
 16	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:86:2351
+# sent_id = oab.vislcg.txt:88:2389
 # text = Gant ar servijer-mañ e vez goulennet diganin kevreañ
 # text[fra] = Ce serveur exige que je me connecte
 1	Gant	gant	ADP	pr	_	3	case	_	_
@@ -1930,7 +1970,7 @@
 9	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	7	obl	_	_
 10	kevreañ	kevreañ	VERB	vblex	VerbForm=Inf	7	xcomp	_	_
 
-# sent_id = oab.vislcg.txt:87:2373
+# sent_id = oab.vislcg.txt:89:2411
 # text = Kefluniet brav eo ho kont postel evit implijout
 # text[fra] = Votre compte de messagerie est correctement configuré pour utiliser
 1	Kefluniet	kefluniañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -1942,7 +1982,7 @@
 7	evit	evit	ADP	pr	_	8	mark	_	_
 8	implijout	implijout	VERB	vblex	VerbForm=Inf	1	advcl	_	_
 
-# sent_id = oab.vislcg.txt:88:2392
+# sent_id = oab.vislcg.txt:90:2430
 # text = An titouroù a eskemmit gant al lec'hienn-mañ ne c'hallont ket bezañ lennet pe cheñchet gant implijerien all.
 # text[fra] = Les informations que vous échangez avec ce site ne peuvent pas être consultées ou modifiées par d'autres utilisateurs.
 1	An	an	DET	det	_	2	det	_	_
@@ -1965,7 +2005,7 @@
 18	all	all	ADJ	adj	_	17	amod	_	_
 19	.	.	PUNCT	sent	_	10	punct	_	_
 
-# sent_id = oab.vislcg.txt:89:2433
+# sent_id = oab.vislcg.txt:91:2471
 # text = Skriverezit anv ar voest posteloù en deus kefluniet ho merour evidoc'h. 
 # text[fra] = Tapez le nom de la boîte aux lettres que l'administrateur a configurée pour vous. 
 1	Skriverezit	skriverezañ	VERB	vblex	Number=Plur|Person=2	0	root	_	_
@@ -1982,7 +2022,7 @@
 11	h	indirect	_	prn	Case=Acc|Number=Plur|Person=2|PronType=Pers	7	obl	_	_
 12	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:90:2459
+# sent_id = oab.vislcg.txt:92:2497
 # text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
 # text[spa] = Generalmente el nombre de buzón de correos corresponde a tu nombre de usuario.
 1	Peurliesañ	peurliesañ	ADV	adv	_	3	advmod	_	_
@@ -1998,7 +2038,7 @@
 11	implijer	implijer	NOUN	n	Gender=Msc|Number=Sing	10	nmod:gen	_	_
 12	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:91:2486
+# sent_id = oab.vislcg.txt:93:2524
 # text = Pouezit war F1 evit kaout skoazell war ar voest kendiviz
 # text[fra] = Appuyez sur F1 pour obtenir de l'aide sur la boîte de dialogue
 1	Pouezit	pouezañ	VERB	vblex	Number=Plur|Person=2	0	root	_	_
@@ -2012,14 +2052,14 @@
 9	voest	boest	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
 10	kendiviz	kendiviz	NOUN	n	Gender=Msc|Number=Sing	9	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:92:2509
+# sent_id = oab.vislcg.txt:94:2547
 # text = Eilañ ar grafik
 # text[fra] = Copier le graphique
 1	Eilañ	eilañ	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	ar	an	DET	det	_	3	det	_	_
 3	grafik	grafik	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
 
-# sent_id = oab.vislcg.txt:93:2518
+# sent_id = oab.vislcg.txt:95:2556
 # text = Un destenn erlec'hiañ a vez implijet ivez evit an dud nammet.
 # text[fra] = Un texte de remplacement est également utilisé pour aider les personnes handicapées.
 1	Un	un	DET	det	_	2	det	_	_
@@ -2035,7 +2075,7 @@
 11	nammet	nammet	ADJ	adj	_	10	amod	_	_
 12	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:94:2545
+# sent_id = oab.vislcg.txt:96:2583
 # text = N'eo ket implijet ar perzh-mañ gant ahel an talvoudoù.
 # text[fra] = Cette propriété n'est pas utilisée par les axes des valeurs.
 1	N'	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
@@ -2051,7 +2091,7 @@
 11	talvoudoù	talvoud	NOUN	n	Gender=Msc|Number=Plur	9	nmod:gen	_	_
 12	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = oab.vislcg.txt:95:2572
+# sent_id = oab.vislcg.txt:97:2610
 # text = N'eo ket implijet ar perzh-mañ gant ahel ar rummadoù.
 # text[fra] = Propriété non utilisée par les axes des catégories.
 1	N'	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
@@ -2067,19 +2107,19 @@
 11	rummadoù	rummad	NOUN	n	Gender=Msc|Number=Plur	9	nmod:gen	_	_
 12	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = oab.vislcg.txt:96:2599
+# sent_id = oab.vislcg.txt:98:2637
 # text = Takad testenn
 # text[fra] = Zone de texte
 1	Takad	takad	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	testenn	testenn	NOUN	n	Gender=Fem|Number=Sing	1	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:97:2606
+# sent_id = oab.vislcg.txt:99:2644
 # text = Takad testenn
 # text[fra] = Zone de texte
 1	Takad	takad	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	testenn	testenn	NOUN	n	Gender=Fem|Number=Sing	1	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:98:2613
+# sent_id = oab.vislcg.txt:100:2651
 # text = Kemmañ ar bannoù hag an arventennoù
 # text[fra] = Modifier les colonnes et les paramètres
 1	Kemmañ	kemmañ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2089,13 +2129,13 @@
 5	an	an	DET	det	_	6	det	_	_
 6	arventennoù	arventenn	NOUN	n	Gender=Fem|Number=Plur	3	conj	_	_
 
-# sent_id = oab.vislcg.txt:99:2628
+# sent_id = oab.vislcg.txt:101:2666
 # text = 5.
 # text[fra] = 5.
 1	5	5	NUM	num	Number=Plur	0	root	_	_
 2	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:100:2635
+# sent_id = oab.vislcg.txt:102:2673
 # text = Klikit war Echuiñ evit krouiñ danevell an daolenn kroaziet dinamek.
 # text[fra] = Cliquez sur Terminer pour créer le rapport de tableau croisé dynamique.
 1	Klikit	klikañ	VERB	vblex	Number=Plur|Person=2	0	root	_	_
@@ -2110,7 +2150,7 @@
 10	dinamek	dinamek	ADJ	adj	_	8	amod	_	_
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:101:2660
+# sent_id = oab.vislcg.txt:103:2698
 # text = Mirout ar c'hemmoù enrollet dija
 # text[fra] = Conserver celles déjà enregistrées
 1	Mirout	mirout	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2119,7 +2159,7 @@
 4	enrollet	enrollañ	VERB	vblex	Tense=Past|VerbForm=Part	3	acl	_	_
 5	dija	dija	ADV	adv	_	4	advmod	_	_
 
-# sent_id = oab.vislcg.txt:102:2673
+# sent_id = oab.vislcg.txt:104:2711
 # text = Ha c'hoant hoc'h eus da gefluniañ ur gont postel ?
 # text[fra] = Voulez-vous configurer un compte de messagerie ?
 1	Ha	ha	CCONJ	cnjcoo	_	3	cc	_	_
@@ -2132,7 +2172,7 @@
 8	postel	postel	NOUN	n	Gender=Msc|Number=Sing	7	compound	_	_
 9	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:103:2694
+# sent_id = oab.vislcg.txt:105:2732
 # text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
 # text[fra] = Il est recommandé de conserver celles du serveur.
 1	Peurliesañ	peurliesañ	ADV	adv	_	2	advmod	_	_
@@ -2147,7 +2187,7 @@
 10	servijer	servijer	NOUN	n	Gender=Msc|Number=Sing	7	nmod	_	_
 11	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:104:2719
+# sent_id = oab.vislcg.txt:106:2757
 # text = Ha c'hoant hoc'h eus da verañ ho rolloù kaserien berzet bremañ ?
 # text[fra] = Voulez-vous gérer vos listes des expéditeurs indésirables maintenant ?
 1	Ha	ha	CCONJ	cnjcoo	_	3	cc	_	_
@@ -2162,7 +2202,7 @@
 10	bremañ	bremañ	ADV	adv	_	5	advmod	_	_
 11	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:105:2744
+# sent_id = oab.vislcg.txt:107:2782
 # text = Merañ ar rolloù...
 # text[fra] = Gérer les listes...
 1	Merañ	merañ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2170,14 +2210,14 @@
 3	rolloù	roll	NOUN	n	Gender=Msc|Number=Plur	1	obj	_	_
 4	...	...	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:106:2755
+# sent_id = oab.vislcg.txt:108:2793
 # text = Logo / Galloud
 # text[fra] = Logo / Pouvoir
 1	Logo	logo	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	/	/	_	sym	_	1	list	_	_
 3	Galloud	galloud	NOUN	n	Gender=Msc|Number=Sing	1	list	_	_
 
-# sent_id = oab.vislcg.txt:107:2764
+# sent_id = oab.vislcg.txt:109:2802
 # text = E-kreiz ar reuz e voe kreñvaet o galloud gant an Duged ha krouet un danvez Stad vodern.
 # text[fra] = Au milieu de ces difficultés, le nouveau pouvoir ducal se renforce et façonne un embryon d’état moderne.
 1	E-kreiz	e-kreiz	ADP	pr	_	3	case	_	_
@@ -2199,7 +2239,7 @@
 17	vodern	modern	ADJ	adj	_	16	amod	_	_
 18	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:108:2803
+# sent_id = oab.vislcg.txt:110:2841
 # text = Kevredigezh Breizh dindan ar Renad Kozh
 # text[fra] = La société bretonne sous l'Ancien Régime
 1	Kevredigezh	kevredigezh	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
@@ -2209,7 +2249,7 @@
 5	Renad	renad	NOUN	n	Gender=Msc|Number=Sing	1	nmod	_	_
 6	Kozh	kozh	ADJ	adj	_	5	amod	_	_
 
-# sent_id = oab.vislcg.txt:109:2818
+# sent_id = oab.vislcg.txt:111:2856
 # text = ur vro zo pinvidik a wazed hag a vaouezed
 # text[fra] = une terre riche de ses hommes et de ses femmes.
 1	ur	un	DET	det	_	2	det	_	_
@@ -2222,7 +2262,7 @@
 8	a	a	ADP	pr	_	9	case	_	_
 9	vaouezed	maouez	NOUN	n	Gender=Fem|Number=Plur	6	conj	_	_
 
-# sent_id = oab.vislcg.txt:110:2839
+# sent_id = oab.vislcg.txt:112:2877
 # text = brasaet e voe ar c'hastell hag adsavet e voe moger-dro kêr a-raok he astenn.
 # text[fra] = le château est agrandi et l'enceinte urbaine est reconstruite et étendue.
 1	brasaet	brasaat	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2241,7 +2281,7 @@
 14	astenn	astenn	NOUN	n	Gender=Msc|Number=Sing	7	obl	_	_
 15	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:111:2872
+# sent_id = oab.vislcg.txt:113:2910
 # text = Evit adkregiñ ganti, pouezit adarre war an douchenn PAUSE-se.
 # text[fra] = Pour la reprendre, appuyez à nouveau sur cette touche PAUSE.
 1	Evit	evit	ADP	pr	_	2	case	_	_
@@ -2259,7 +2299,7 @@
 12	-se	se	ADV	adv	_	10	advmod	_	_
 13	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:112:2900
+# sent_id = oab.vislcg.txt:114:2938
 # text = Gouestlet eo ar werenn-mañ d'ar binvioù merdeiñ.
 # text[fra] = Cette vitrine est consacrée aux instruments de navigation.
 1	Gouestlet	gouestlañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2274,7 +2314,7 @@
 9	merdeiñ	merdeiñ	VERB	vblex	VerbForm=Inf	8	acl	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:113:2922
+# sent_id = oab.vislcg.txt:115:2960
 # text = Gouestlet eo an eil gwerenn e-kreiz da ensavadurioù ar c'henwerzh ha d' ar c'huzul-kêr.
 # text[fra] = La deuxième vitrine au centre est consacrée aux institutions du négoce et à la municipalité.
 1	Gouestlet	gouestlañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2293,7 +2333,7 @@
 14	c'huzul-kêr	kuzul-kêr	NOUN	n	Gender=Msc|Number=Sing	8	conj	_	_
 15	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:114:2955
+# sent_id = oab.vislcg.txt:116:2993
 # text = Dindan un nebeud bloavezhioù eo deuet Sant-Nazer da vezañ porzh bras an aber ha keveziñ a ra ouzh Naoned.
 # text[fra] = En quelques années, Saint-Nazaire devient le grand port de l'estuaire, concurrençant Nantes.
 1	Dindan	dindan	ADP	pr	_	3	case	_	_
@@ -2317,7 +2357,7 @@
 19	Naoned	Naoned	PROPN	np	Number=Sing	15	obl	_	_
 20	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:115:2998
+# sent_id = oab.vislcg.txt:117:3036
 # text = D'ar greanterezhioù nevez eo gouestlet ar peurrest eus ar sal.
 # text[fra] = Le reste de la salle est consacré aux nouvelles industries.
 1-2	D'ar	_	_	_	_	_	_	_	_
@@ -2334,7 +2374,7 @@
 11	sal	sal	NOUN	n	Gender=Fem|Number=Sing	8	nmod	_	_
 12	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:116:3024
+# sent_id = oab.vislcg.txt:118:3062
 # text = Evit pennadurezhioù Frañs libr eo ret adsevel ar porzh a-raok pep tra.
 # text[fra] = Pour les nouvelles autorités de la France libre, la priorité est la reconstruction du port.
 1	Evit	evit	ADP	pr	_	2	case	_	_
@@ -2351,7 +2391,7 @@
 12	tra	tra	NOUN	n	Gender=Msc|Number=Sing	6	obl	_	_
 13	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:117:3053
+# sent_id = oab.vislcg.txt:119:3091
 # text = An douvezioù, ar porzh hag an hent-ged a c'haller gweladenniñ digoust.
 # text[fra] = Les douves, la cour et le chemin de ronde sont en accès libre.
 1	An	an	DET	det	_	2	det	_	_
@@ -2368,7 +2408,7 @@
 12	digoust	digoust	ADV	adv	_	10	advmod	_	_
 13	.	.	PUNCT	sent	_	10	punct	_	_
 
-# sent_id = oab.vislcg.txt:118:3082
+# sent_id = oab.vislcg.txt:120:3120
 # text = Niv. d'ober war an douchennaoueg
 # text[fra] = N° à composer sur votre clavier
 1	Niv.	niv.	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
@@ -2378,7 +2418,7 @@
 5	an	an	DET	det	_	6	det	_	_
 6	douchennaoueg	touchennaoueg	NOUN	n	Gender=Fem|Number=Sing	3	obl	_	_
 
-# sent_id = oab.vislcg.txt:119:3097
+# sent_id = oab.vislcg.txt:121:3135
 # text = 2602 Porzh Naoned e 1914
 # text[fra] = 2602 Le port de Nantes en 1914
 1	2602	2602	NUM	num	Number=Plur	2	parataxis	_	_
@@ -2387,7 +2427,7 @@
 4	e	e	ADP	pr	_	2	case	_	_
 5	1914	1914	NUM	num	Number=Plur	2	nmod	_	_
 
-# sent_id = oab.vislcg.txt:120:3110
+# sent_id = oab.vislcg.txt:122:3148
 # text = 2803 Amprest evit adsevel porzh Naoned
 # text[fra] = 2803 Emprunt pour la reconstruction du port
 1	2803	2803	NUM	num	Number=Plur	2	parataxis	_	_
@@ -2397,7 +2437,7 @@
 5	porzh	porzh	NOUN	n	Gender=Msc|Number=Sing	4	obj	_	_
 6	Naoned	Naoned	PROPN	np	Number=Sing	5	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:121:3125
+# sent_id = oab.vislcg.txt:123:3163
 # text = Gwezharall e talveze ar Blavezh da harzoù naturel er c'hornôg d'ar gêr.
 # text[fra] = Le Blavet servait jadis de frontière naturelle à l'ouest de la ville.
 1	Gwezharall	gwezhall	ADV	adv	_	3	advmod	_	_
@@ -2418,7 +2458,7 @@
 14	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	11	nmod	_	_
 15	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:122:3156
+# sent_id = oab.vislcg.txt:124:3194
 # text = gounidegezh an annezidi, live an tailhoù, kresk ar boblañs ha kresk niver an implijoù.
 # text[fra] = le revenu des habitants, le niveau des impôts, l'augmentation de population et l'augmentation du nombre d'emplois.
 1	gounidegezh	gounidegezh	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
@@ -2439,7 +2479,7 @@
 16	implijoù	implij	NOUN	n	Gender=Msc|Number=Plur	14	nmod:gen	_	_
 17	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:123:3193
+# sent_id = oab.vislcg.txt:125:3231
 # text = Galvet e vo ar poloù kevezusted, an embregerezhioù, ar poellgorioù rannvro, ar c'hreizennoù skiantel, an ensavadurioù enklask hag an obererien sevenadurel dave, da ziskouez o skiant-prenet war an tachennoù-se.
 # text[fra] = Elle mobilisera l'expertise des pôles de compétitivité, des entreprises, des comités régionaux, des centres scientifiques, des instituts de recherche et des acteurs culturels faisant référence dans ces domaines.
 1	Galvet	gelver	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2479,7 +2519,7 @@
 35	-se	se	ADV	adv	_	34	advmod	_	_
 36	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:124:3268
+# sent_id = oab.vislcg.txt:126:3306
 # text = Peseurt palioù zo d'ar Gevrat-se ?
 # text[fra] = Quels sont les objectifs de ce Contrat ?
 1	Peseurt	peseurt	DET	adj	PronType=Itg	2	det	_	_
@@ -2492,7 +2532,7 @@
 7	-se	se	ADV	adv	_	6	advmod	_	_
 8	?	?	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:125:3286
+# sent_id = oab.vislcg.txt:127:3324
 # text = 37 gwazour o doa embannet o youl da luskañ an argerzh-se war o zachenn barregezh ha bremañ e kemeront perzh da gas ar c'houlzad war-raok ;
 # text[fra] = 37 agents se sont déclarés volontaires pour animer cette démarche dans leur champ de compétences et participent aujourd'hui à la progression de l'opération ;
 1	37	37	NUM	num	Number=Plur	2	nummod	_	_
@@ -2522,7 +2562,7 @@
 25	war-raok	war-raok	ADV	adv	_	22	advmod	_	_
 26	;	;	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = oab.vislcg.txt:126:3341
+# sent_id = oab.vislcg.txt:128:3379
 # text = - termeniñ kevelerien a c'hallfe bezañ war dachenn al labour-douar padus.
 # text[fra] = - l'identification des partenaires potentiels en matière d'agriculture durable.
 1	-	-	PUNCT	guio	_	2	punct	_	_
@@ -2538,7 +2578,7 @@
 11	padus	padus	ADJ	adj	_	10	amod	_	_
 12	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:127:3368
+# sent_id = oab.vislcg.txt:129:3406
 # text = War dachenn ar sevenadur e vo broudet an div Rannvro da zizoleiñ holl dachennoù krouidigezh sevenadurel an eil hag eben.
 # text[fra] = Dans le domaine culturel, les deux Régions favoriseront la découverte réciproque dans tous les domaines de la création culturelle.
 1	War	war	ADP	pr	_	2	case	_	_
@@ -2563,7 +2603,7 @@
 20	eben	egile	PRON	prn	Gender=Fem|Number=Sing	18	conj	_	_
 21	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = oab.vislcg.txt:128:3413
+# sent_id = oab.vislcg.txt:130:3451
 # text = Laouen on get an emdroadur-se.
 # text[fra] = Je me réjouis de cette évolution.
 1	Laouen	laouen	ADJ	adj	_	0	root	_	_
@@ -2574,7 +2614,7 @@
 6	-se	se	ADV	adv	_	5	advmod	_	_
 7	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:129:3430
+# sent_id = oab.vislcg.txt:131:3468
 # text = ha c’hoant hoc'h eus da virout kambreier ?
 # text[fra] = Désirez-vous réserver des chambres d’hôtel ?
 1	ha	ha	CCONJ	cnjcoo	_	3	cc	_	_
@@ -2585,7 +2625,7 @@
 6	kambreier	kambr	NOUN	n	Gender=Fem|Number=Plur	5	obj	_	_
 7	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:130:3447
+# sent_id = oab.vislcg.txt:132:3485
 # text = ha c’hoant hoc’h eus da virout predoù ?
 # text[fra] = Désirez-vous réserver de la restauration ?
 1	ha	ha	CCONJ	cnjcoo	_	3	cc	_	_
@@ -2596,7 +2636,7 @@
 6	predoù	pred	NOUN	n	Gender=Msc|Number=Plur	5	obj	_	_
 7	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:131:3464
+# sent_id = oab.vislcg.txt:133:3502
 # text = 2002 Lidañ a reer digoradur ar framm touristel degemer « Douar an Holen »
 # text[fra] = 2002 Inauguration de la structure touristique d’accueil « Terre de Sel »
 1	2002	2002	NUM	num	Number=Plur	2	parataxis	_	_
@@ -2614,7 +2654,7 @@
 13	Holen	holen	NOUN	n	Gender=Msc|Number=Sing	11	nmod:gen	_	_
 14	»	»	PUNCT	rquot	_	11	punct	_	_
 
-# sent_id = oab.vislcg.txt:132:3495
+# sent_id = oab.vislcg.txt:134:3533
 # text = KINNIG DEOC'H DISKOULMOÙ PERSONELAET
 # text[fra] = VOUS OFFRIR DES SOLUTIONS PERSONNALISEES
 1	KINNIG	kinnig	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2624,7 +2664,7 @@
 4	DISKOULMOÙ	diskoulm	NOUN	n	Gender=Msc|Number=Plur	1	obj	_	_
 5	PERSONELAET	personelaat	VERB	vblex	Tense=Past|VerbForm=Part	4	amod	_	_
 
-# sent_id = oab.vislcg.txt:133:3507
+# sent_id = oab.vislcg.txt:135:3545
 # text = keodedourien, strollegezhioù, obererien armerzhel...
 # text[fra] = citoyens, collectivités, acteurs économiques… 
 1	keodedourien	keodedour	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
@@ -2635,7 +2675,7 @@
 6	armerzhel	armerzhel	ADJ	adj	_	5	amod	_	_
 7	...	...	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:134:3524
+# sent_id = oab.vislcg.txt:136:3562
 # text = Skoazellet e vez mont en-dro ar gevredigezh gant ar Rannvro hag emañ goprad ar gevredigezh gant un implij kevredigezhel a laz rannvroel.
 # text[fra] = Le fonctionnement de l'association est aidé par la Région et le salarié de l'association est sur un emploi associatif d'intérêt régional.
 1	Skoazellet	skoazellañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2662,7 +2702,7 @@
 22	rannvroel	rannvroel	ADJ	adj	_	21	amod	_	_
 23	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:135:3573
+# sent_id = oab.vislcg.txt:137:3611
 # text = Kinnig ar gêr pe ar vro
 # text[fra] = Présenter la ville ou le pays
 1	Kinnig	kinnig	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2672,7 +2712,7 @@
 5	ar	an	DET	det	_	6	det	_	_
 6	vro	bro	NOUN	n	Gender=Fem|Number=Sing	3	conj	_	_
 
-# sent_id = oab.vislcg.txt:136:3588
+# sent_id = oab.vislcg.txt:138:3626
 # text = Saverion bennañ àr o zachenn
 # text[fra] = Des constructeurs leaders dans leur domaine
 1	Saverion	saver	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
@@ -2681,7 +2721,7 @@
 4	o	o	DET	det	PronType=Pos	5	det	_	_
 5	zachenn	tachenn	NOUN	n	Gender=Fem|Number=Sing	1	nmod	_	_
 
-# sent_id = oab.vislcg.txt:137:3601
+# sent_id = oab.vislcg.txt:139:3639
 # text = Ur gorread leur a 350 m² a vo da bep hini hag hañval e vo o framm.	
 # text[fra] = De structures similaires, ils disposeront chacun d'une surface au sol de 350 m².
 1	Ur	un	DET	det	_	2	det	_	_
@@ -2703,7 +2743,7 @@
 17	framm	framm	NOUN	n	Gender=Msc|Number=Sing	14	nsubj	_	_
 18	.	.	PUNCT	sent	_	12	punct	_	_
 
-# sent_id = oab.vislcg.txt:138:3640
+# sent_id = oab.vislcg.txt:140:3678
 # text = Laouen eo kêr Wened o kinnig deoc'h he lec'hienn Internet nevez.
 # text[fra] = La ville de Vannes est heureuse de vous présenter son nouveau site Internet.
 1	Laouen	laouen	ADJ	adj	_	0	root	_	_
@@ -2721,7 +2761,7 @@
 12	nevez	nevez	ADJ	adj	_	10	amod	_	_
 13	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:139:3668
+# sent_id = oab.vislcg.txt:141:3706
 # text = Kinnig a ra al lec'hienn deoc'h un dorikell c'halloudel evit ho tifraeoù melestradurel.
 # text[fra] = Le site vous propose un guichet virtuel d'accès aux démarches administratives.
 1	Kinnig	kinnig	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2741,14 +2781,14 @@
 14	melestradurel	melestradurel	ADJ	adj	_	13	amod	_	_
 15	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:140:3700
+# sent_id = oab.vislcg.txt:142:3738
 # text = Kargoù ar maer
 # text[fra] = Les fonctions du maire
 1	Kargoù	karg	NOUN	n	Gender=Fem|Number=Plur	0	root	_	_
 2	ar	an	DET	det	_	3	det	_	_
 3	maer	maer	NOUN	n	Gender=Msc|Number=Sing	1	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:141:3709
+# sent_id = oab.vislcg.txt:143:3747
 # text = Ul lec'h evit kinnigoù hag eskemmoù eo ivez.
 # text[fra] = Elles sont également un lieu de propositions et d'échanges.
 1	Ul	un	DET	det	_	2	det	_	_
@@ -2761,7 +2801,7 @@
 8	ivez	ivez	ADV	adv	_	2	advmod	_	_
 9	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:142:3730
+# sent_id = oab.vislcg.txt:144:3768
 # text = Aezamant 28° eo gwrezverk dour ar poull sport.
 # text[fra] = Confort La température de l'eau du bassin sportif est de 28°.
 1	Aezamant	aezamant	NOUN	n	Gender=Msc|Number=Sing	2	parataxis	_	_
@@ -2774,7 +2814,7 @@
 8	sport	sport	NOUN	n	Gender=Msc|Number=Sing	7	nmod:gen	_	_
 9	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:143:3751
+# sent_id = oab.vislcg.txt:145:3789
 # text = Ag ar mammennoù d'ar c'hogoù
 # text[fra] = De la source au robinet
 1	Ag	a	ADP	pr	_	3	case	_	_
@@ -2785,7 +2825,7 @@
 5	ar	an	DET	det	_	6	det	_	_
 6	c'hogoù	kog	NOUN	n	Gender=Msc|Number=Plur	3	nmod	_	_
 
-# sent_id = oab.vislcg.txt:144:3765
+# sent_id = oab.vislcg.txt:146:3803
 # text = Graet e vezont àr standilhonoù dastumet àr-eeun diouzh ar c'hogoù.
 # text[fra] = Ils sont réalisés sur des échantillons prélevés directement au robinet.
 1	Graet	ober	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2800,7 +2840,7 @@
 10	c'hogoù	kog	NOUN	n	Gender=Msc|Number=Plur	6	obl	_	_
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:145:3790
+# sent_id = oab.vislcg.txt:147:3828
 # text = ■ 60 tonennad produioù da naetaat marc'hadoù hag abadennoù.
 # text[fra] = ■ 60 tonnes de produits de nettoyage des marchés et manifestations.
 1	■	■	PUNCT	sent	_	3	punct	_	_
@@ -2814,7 +2854,7 @@
 9	abadennoù	abadenn	NOUN	n	Gender=Fem|Number=Plur	7	conj	_	_
 10	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:146:3813
+# sent_id = oab.vislcg.txt:148:3851
 # text = Labourioù diouzh ar c'houlz (karter ar porzh) ha dreistordinal a vez graet alies.
 # text[fra] = Des opérations saisonnières (secteur du port) et exceptionnelles sont fréquemment organisées.
 1	Labourioù	labour	NOUN	n	Gender=Msc|Number=Plur	14	nsubj	_	_
@@ -2834,27 +2874,27 @@
 15	alies	alies	ADV	adv	_	14	advmod	_	_
 16	.	.	PUNCT	sent	_	14	punct	_	_
 
-# sent_id = oab.vislcg.txt:147:3848
+# sent_id = oab.vislcg.txt:149:3886
 # text = Ho kont
 # text[fra] = Votre compte
 1	Ho	ho	DET	det	PronType=Pos	2	det	_	_
 2	kont	kont	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
 
-# sent_id = oab.vislcg.txt:148:3855
+# sent_id = oab.vislcg.txt:150:3893
 # text = Deiziataer ar c'hevredigezhioù
 # text[fra] = Agenda des associations
 1	Deiziataer	deiziataer	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	ar	an	DET	det	_	3	det	_	_
 3	c'hevredigezhioù	kevredigezh	NOUN	n	Gender=Fem|Number=Plur	1	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:149:3864
+# sent_id = oab.vislcg.txt:151:3902
 # text = Klask un abadenn
 # text[fra] = Rechercher une manifestation
 1	Klask	klask	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	un	un	DET	det	_	3	det	_	_
 3	abadenn	abadenn	NOUN	n	Gender=Fem|Number=Sing	1	obj	_	_
 
-# sent_id = oab.vislcg.txt:150:3873
+# sent_id = oab.vislcg.txt:152:3911
 # text = - ar retredidi hag an dud oadet .
 # text[fra] = - les retraités et personnes âgées .
 1	-	-	PUNCT	guio	_	3	punct	_	_
@@ -2866,7 +2906,7 @@
 7	oadet	oadet	ADJ	adj	_	6	amod	_	_
 8	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = oab.vislcg.txt:151:3892
+# sent_id = oab.vislcg.txt:153:3930
 # text = Monet d'ar poull
 # text[fra] = Accès au bassin
 1	Monet	monet	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2875,7 +2915,7 @@
 3	ar	an	DET	det	_	4	det	_	_
 4	poull	poull	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
 
-# sent_id = oab.vislcg.txt:152:3902
+# sent_id = oab.vislcg.txt:154:3940
 # text = E 1952 e oa daet da vout ezel ag ar Gevredigezh Liesdiskiblezh.
 # text[fra] = En 1952, il devient membre de la Société Polymathique.
 1	E	e	ADP	pr	_	2	case	_	_
@@ -2892,7 +2932,7 @@
 12	Liesdiskiblezh	liesdiskiblezh	ADJ	adj	_	11	amod	_	_
 13	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:153:3931
+# sent_id = oab.vislcg.txt:155:3969
 # text = « Ar c'horn azasaet ouzh an dud e kadorioù-ruilh zo aveet gant skrammoù difer evit titouriñ ar veajourien ha dudiañ anezho.
 # text[fra] = « L'espace adapté pour les personnes en fauteuil roulant est équipé spécifiquement d'écrans d'information voyageurs et loisirs.
 1	«	«	PUNCT	lquot	_	11	punct	_	_
@@ -2918,7 +2958,7 @@
 21	anezho	direct	_	prn	Case=Acc|Number=Plur|Person=3|PronType=Pers	20	obj	_	_
 22	.	.	PUNCT	sent	_	11	punct	_	_
 
-# sent_id = oab.vislcg.txt:154:3978
+# sent_id = oab.vislcg.txt:156:4016
 # text = Reiñ a reont un neuz c'hwekoc'h d'an tren ha gallout a reer krouiñ kinkladurioù gouloù ganto. »
 # text[fra] = Elles permettent de donner un aspect plus chaleureux au train et de créer des décors lumineux »
 1	Reiñ	reiñ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -2944,7 +2984,7 @@
 19	.	.	PUNCT	sent	_	1	punct	_	_
 20	»	»	PUNCT	rquot	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:155:4019
+# sent_id = oab.vislcg.txt:157:4057
 # text = Pedadenn evit daou zen.
 # text[fra] = Invitation pour deux personnes.
 1	Pedadenn	pedadenn	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
@@ -2953,7 +2993,7 @@
 4	zen	den	NOUN	n	Gender=Msc|Number=Sing	1	nmod	_	_
 5	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:156:4032
+# sent_id = oab.vislcg.txt:158:4070
 # text = Dibabet he deus Breizh ivez degas skoazell d'an deskadurezh uhel evit diorren ur c'hinnig stummañ kempouezet e-barzh ar vro.
 # text[fra] = La Bretagne a également choisi d'apporter son soutien à l'enseignement supérieur afin de développer une offre de formation équilibrée sur le territoire.
 1	Dibabet	dibab	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -2978,7 +3018,7 @@
 19	vro	bro	NOUN	n	Gender=Fem|Number=Sing	16	obl	_	_
 20	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:157:4074
+# sent_id = oab.vislcg.txt:159:4112
 # text = Prezidant Kuzul-rannvro Breizh (PS)
 # text[fra] = Président du Conseil régional de Bretagne (PS)
 1	Prezidant	prezidant	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
@@ -2988,7 +3028,7 @@
 5	PS	PS	NOUN	n	Gender=Msc|Number=Sing	1	appos	_	_
 6	)	)	PUNCT	rpar	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:158:4089
+# sent_id = oab.vislcg.txt:160:4127
 # text = Un taol-chañs eo ar c'hresk poblañs-se.
 # text[fra] = Cette progression démographique est une chance.
 1	Un	un	DET	det	_	2	det	_	_
@@ -3000,7 +3040,7 @@
 7	-se	se	ADV	adv	_	5	advmod	_	_
 8	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = oab.vislcg.txt:159:4108
+# sent_id = oab.vislcg.txt:161:4146
 # text = a brient ar c'hinnigoù
 # text[fra] = prépare les propositions
 1	a	a	PART	vpart	_	2	aux	_	_
@@ -3008,7 +3048,7 @@
 3	ar	an	DET	det	_	4	det	_	_
 4	c'hinnigoù	kinnig	NOUN	n	Gender=Msc|Number=Plur	2	obj	_	_
 
-# sent_id = oab.vislcg.txt:160:4119
+# sent_id = oab.vislcg.txt:162:4157
 # text = Muioc'h-mui a dud a zebr boued bio. 
 # text[fra] = De plus en plus de personnes consomment bio. 
 1	Muioc'h-mui	muioc’h-mui	ADV	adv	_	5	X	_	_
@@ -3020,7 +3060,7 @@
 7	bio	bio	ADJ	adj	_	6	amod	_	_
 8	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:161:4138
+# sent_id = oab.vislcg.txt:163:4176
 # text = Sin vat eo.
 # text[fra] = C'est bon signe.
 1	Sin	sin	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
@@ -3028,7 +3068,7 @@
 3	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 4	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:162:4149
+# sent_id = oab.vislcg.txt:164:4187
 # text = Gant ur c'hresk a 35% eus ar veajourien dindan pemp bloaz, emañ Breizh e penn rannvroioù Frañs evit an TER.
 # text[fra] = Avec une croissance de fréquentation du TER de 35% en cinq ans, la Bretagne se classe en tête des régions de France.
 1	Gant	gant	ADP	pr	_	3	case	_	_
@@ -3055,7 +3095,7 @@
 22	TER	TER	NOUN	n	Gender=Msc|Number=Sing	17	obl	_	_
 23	.	.	PUNCT	sent	_	17	punct	_	_
 
-# sent_id = oab.vislcg.txt:163:4198
+# sent_id = oab.vislcg.txt:165:4236
 # text = En holl lec'hioù e c'hall mont an dud nammet.
 # text[fra] = L’ensemble des espaces est accessible aux personnes à mobilité réduite
 1	En	e	ADP	pr	_	3	case	_	_
@@ -3069,7 +3109,7 @@
 9	nammet	nammet	ADJ	adj	_	8	amod	_	_
 10	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:164:4221
+# sent_id = oab.vislcg.txt:166:4259
 # text = Evit tizhout ar pal-se e tleer suraat hag aesaat labour ar wazourien.
 # text[fra] = Pour atteindre cet objectif, il est nécessaire d'améliorer le niveau de sécurité et de confort des agents.
 1	Evit	evit	ADP	pr	_	2	mark	_	_
@@ -3087,7 +3127,7 @@
 13	wazourien	gwazour	NOUN	n	Gender=Msc|Number=Plur	11	nmod:gen	_	_
 14	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = oab.vislcg.txt:165:4252
+# sent_id = oab.vislcg.txt:167:4290
 # text = An holl frammoù a sav kartennoù hetoù ha da gentañ holl evit lidañ ar bloavezh nevez.
 # text[fra] = Tous les organismes impriment des cartes de voeux et en premier lieu pour souhaiter la bonne année.
 1	An	an	DET	det	_	3	det	_	_
@@ -3108,7 +3148,7 @@
 16	nevez	nevez	ADJ	adj	_	15	amod	_	_
 17	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:166:4289
+# sent_id = oab.vislcg.txt:168:4327
 # text = Staliañ ar brezhoneg e diabarzh mont en-dro ho framm
 # text[fra] = Installer la langue bretonne dans le cœur du fonctionnement de votre organisme
 1	Staliañ	staliañ	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -3121,7 +3161,7 @@
 8	ho	ho	DET	det	PronType=Pos	9	det	_	_
 9	framm	framm	NOUN	n	Gender=Msc|Number=Sing	7	nmod:gen	_	_
 
-# sent_id = oab.vislcg.txt:167:4310
+# sent_id = oab.vislcg.txt:169:4348
 # text = Ofis ar Brezhoneg a sav kontoù e zisoc'hoù eus ar 1añ a viz Genver d'ar 31añ a viz Kerzu.
 # text[fra] = L'Office de la Langue Bretonne établit ses comptes de résultats du 1er Janvier au 31 Décembre.
 1	Ofis	Ofis	X	x	_	3	dep	_	_
@@ -3147,7 +3187,7 @@
 20	Kerzu	Kerzu	NOUN	n	Gender=Msc	17	nmod	_	_
 21	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:168:4354
+# sent_id = oab.vislcg.txt:170:4392
 # text = War-dro 5.000 den o doa lestret e bigi ar gompagnunezh-vor Penn-ar-Bed evit mont da Eusa, Sun ha Molenez e-kerzh an dibenn-sizhun Pask tremen.
 # text[fra] = Près de 5.000 personnes ont été transportées par la Compagnie maritime Penn ar Bed durant le dernier week-end de Pâques vers les îles de Molène, Ouessant et Sein.
 1	War-dro	war-dro	ADV	adv	_	2	advmod	_	_
@@ -3177,7 +3217,7 @@
 25	tremen	tremen	ADJ	adj	_	23	amod	_	_
 26	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:169:4409
+# sent_id = oab.vislcg.txt:171:4447
 # text = A-benn tizhout e balioù en doa disklêriet an emstriver sokialour e oa « a-du » evit krouiñ ministrerezh ar Mor.
 # text[fra] = Pour atteindre ces objectifs, le candidat socialiste à la présidentielle s'est déclaré "favorable" à l'idée d'un ministère de la Mer.
 1	A-benn	a-benn	ADP	pr	_	2	mark	_	_
@@ -3201,7 +3241,7 @@
 19	Mor	mor	NOUN	n	Gender=Msc|Number=Sing	17	nmod:gen	_	_
 20	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = oab.vislcg.txt:170:4452
+# sent_id = oab.vislcg.txt:172:4490
 # text = « Ma'z on dilennet da brezidant ar Republik e vo degemeret mat ar c'hinnig-se ganin », en doa lavaret dirak 1.000 den bodet d'abardaez e Palez ar C'hendalc'hioù an Oriant.
 # text[fra] = "Si je suis élu président de la République, j'accueillerai positivement une telle proposition", a-t-il déclaré devant 1.000 personnes réunies en début de soirée au palais des Congrès de Lorient.
 1	«	«	PUNCT	lquot	_	11	punct	_	_
@@ -3239,7 +3279,7 @@
 32	Oriant	Oriant	PROPN	np	Number=Sing	28	nmod:gen	_	_
 33	.	.	PUNCT	sent	_	21	punct	_	_
 
-# sent_id = oab.vislcg.txt:171:4520
+# sent_id = oab.vislcg.txt:173:4558
 # text = Ma'z ouzhpenner ar familh hag ar vignoned, pedet ur wezh an amzer, e tizher e-tro 3 milion den.
 # text[fra] = Si l'on ajoute la famille et les copains, invités occasionnels, ce total atteint sans doute trois millions de personnes.
 1	Ma'z	ma	SCONJ	cnjsub	_	2	mark	_	_
@@ -3264,7 +3304,7 @@
 20	den	den	NOUN	n	Gender=Msc|Number=Sing	16	obl	_	_
 21	.	.	PUNCT	sent	_	16	punct	_	_
 
-# sent_id = oab.vislcg.txt:172:4565
+# sent_id = oab.vislcg.txt:174:4603
 # text = Dedennet eo gant an deskadurezh ha kemer a ra perzh e kevredigezhioù a bep seurt a stourm evit stummañ ar re yaouank.
 # text[fra] = Il est intéressé par l'éducation et il est impliqué dans différentes associations qui militent pour la formation des jeunes.
 1	Dedennet	dedennañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -3291,7 +3331,7 @@
 22	yaouank	yaouank	ADJ	adj	_	19	obj	_	_
 23	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = oab.vislcg.txt:173:4614
+# sent_id = oab.vislcg.txt:175:4652
 # text = Kement abadenn sevenadurel a denn da zanvez Breizh a vez brudet gant pedadennoù divyezhek.
 # text[fra] = Les manifestations culturelles font l’objet de communication bilingue systématique quand ils concernent des thèmes bretons.
 1	Kement	kement	DET	det	Number=Sing	2	det	_	_
@@ -3310,7 +3350,7 @@
 14	divyezhek	divyezhek	ADJ	adj	_	14	X	_	_
 15	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = oab.vislcg.txt:174:4647
+# sent_id = oab.vislcg.txt:176:4685
 # text = Al linenn reter-kornôg a zarempredo an takadoù annez, implij hag obererezh pennañ.
 # text[fra] = Cette ligne est-ouest desservira les principaux secteurs d’habitat, d’emploi et d’activité.
 1	Al	an	DET	det	_	2	det	_	_
@@ -3330,7 +3370,7 @@
 15	pennañ	pennañ	ADJ	adj	_	15	amod	_	_
 16	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = oab.vislcg.txt:175:4682
+# sent_id = oab.vislcg.txt:177:4720
 # text = un aod traezh munut !
 # text[fra] = plage de sable fin !
 1	un	un	DET	det	_	2	det	_	_

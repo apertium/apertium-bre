@@ -19,6 +19,7 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 texts/apertium.vislcg.txt -text
 texts/bre-feats.tsv -text
+texts/bro-gozh.vislcg.txt -text
 texts/grammar.vislcg.txt -text
 texts/miscellaneous.txt -text
 texts/miscellaneous.vislcg.txt -text

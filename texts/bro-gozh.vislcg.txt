@@ -1,0 +1,581 @@
+# text = Ni, Breizhiz a galon, karomp hon gwir vro!
+# text[fra] = 
+"<Ni>"
+	"prpers" prn subj p1 mf pl @nsubj #1->7
+"<,>"
+	"," cm @punct #2->3
+"<Breizhiz>"
+	"Breizhad" n m pl @appos #3->1
+"<a galon>"
+	"a" pr @case #4->5
+		"kalon" n f sg @nmod #5->3
+"<,>"
+	"," cm @punct #6->3
+"<karomp>"
+	"karout" vblex imp p1 pl @root #7->0
+"<hon>"
+	"hon" det pos mf sp @det #8->10
+"<gwir>"
+	"gwir" adj mf sp @amod #9->10
+"<vro>"
+	"bro" n f sg @obj #10->7
+"<!>"
+	"!" sent @punct #11->7
+
+"<Brudet>"
+	"brudañ" vblex pp SELECT:485
+"<eo>"
+	"bezañ" vblex pri p3 sg
+"<an Arvor>"
+	"An Arvor" np top sg
+"<dre>"
+	"dre" pr
+"<ar>"
+	"an" det def sp
+"<bed>"
+	"bed" n m sg
+"<tro-dro>"
+	"tro-dro" adv
+"<.>"
+	"." sent
+
+"<Dispont>"
+	"dispont" adj mf sp
+"<'kreiz>"
+	"e-kreiz" adv
+"<ar>"
+	"an" det def sp
+"<brezel>"
+	"brezel" n m sg
+"<,>"
+	"," cm
+"<hon>"
+	"hon" det pos mf sp
+"<tadoù>"
+	"tad" n m pl
+"<ken>"
+	"ken" preadv SELECT:800
+;	"gen" n f pl REMOVE:773
+;	"ken" pr SELECT:800
+;	"ken" adv SELECT:800
+"<mat>"
+	"mat" adj mf sp
+"<,>"
+	"," cm
+"<a>"
+	"a" vpart SELECT:220:Vpart_if_only_Vfin
+;	"a" pr SELECT:220:Vpart_if_only_Vfin
+;	"a" n m sp SELECT:220:Vpart_if_only_Vfin
+;	"mont" vblex pri p3 sg SELECT:220:Vpart_if_only_Vfin
+;	"mont" vblex imp p2 sg SELECT:220:Vpart_if_only_Vfin
+;	"monet" vblex pri p3 sg SELECT:220:Vpart_if_only_Vfin
+;	"monet" vblex imp p2 sg SELECT:220:Vpart_if_only_Vfin
+"<skuilhas>"
+	"skuilhañ" vblex past p3 sg
+"<eviti>"
+	"evit" pr
+		"indirect" prn obj p3 f sg
+"<o>"
+	"o" n m sp
+	"o" det pos mf sp
+;	"o" ij REMOVE:527
+;	"o" vpart ger REMOVE:181
+;	"direct" prn obj p3 mf pl REMOVE:395
+"<gwad>"
+	"gwad" n m sg SELECT:763
+;	"gwadañ" vblex imp p2 sg REMOVE:223
+;	"gwadañ" vblex pri p3 sg SELECT:763
+"<.>"
+	"." sent
+
+"<.>"
+	"." sent
+
+
+
+"<O>"
+	"o" n m sp
+	"o" det pos mf sp
+;	"o" vpart ger REMOVE:181
+;	"direct" prn obj p3 mf pl REMOVE:395
+;	"o" ij REMOVE:527
+"<!>"
+	"!" sent
+
+"<Breizh>"
+	"Breizh" np top sg
+;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+"<,>"
+	"," cm
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij REMOVE:527
+;	"ma" cnjsub REMOVE:593
+"<bro>"
+	"bro" n f sg
+"<,>"
+	"," cm
+"<me>"
+	"prpers" prn subj p1 mf sg
+"<'>"
+	"a" vpart SELECT:271
+;	"’" apos SELECT:271
+;	"e" vpart obj SELECT:271
+;	"o" vpart ger SELECT:271
+"<gar>"
+	"kariñ" vblex pri p3 sg SELECT:422
+	"karout" vblex pri p3 sg SELECT:422
+;	"kariñ" vblex imp p2 sg REMOVE:223
+;	"karout" vblex imp p2 sg REMOVE:223
+;	"gar" n f sg SELECT:422
+;	"kar" n m sg SELECT:422
+;	"kar" adj mf sp SELECT:422
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij REMOVE:527
+;	"ma" cnjsub REMOVE:593
+"<bro>"
+	"bro" n f sg
+"<.>"
+	"." sent
+
+
+
+"<Tra ma>"
+	"tra ma" cnjadv
+"<vo>"
+	"bezañ" vblex fti p3 sg
+"<mor>"
+	"mor" n m sg
+;	"morañ" vblex imp p2 sg REMOVE:405
+;	"morañ" vblex pri p3 sg REMOVE:542
+"<'vel>"
+	"evel" pr
+"<mur>"
+	"mur" n f sg
+"<'>"
+	"’" apos
+;	"a" vpart REMOVE:181
+;	"e" vpart obj REMOVE:181
+;	"o" vpart ger REMOVE:181
+"<n>"
+	"n" n m sp
+"<he>"
+	"he" det pos f sp
+;	"direct" prn obj p3 f sg REMOVE:395
+"<zro>"
+	"tro" n f sg SELECT:763
+;	"troiñ" vblex pri p3 sg REMOVE:542
+;	"treiñ" vblex pri p3 sg REMOVE:542
+;	"treiñ" vblex imp p2 sg SELECT:763
+;	"troiñ" vblex imp p2 sg SELECT:763
+"<,>"
+	"," cm
+"<ra>"
+	"ra" vpart opt SELECT:220:Vpart_if_only_Vfin
+;	"ober" vblex pri p3 sg SELECT:220:Vpart_if_only_Vfin
+;	"ober" vblex imp p2 sg SELECT:220:Vpart_if_only_Vfin
+"<vezo>"
+	"bezañ" vblex fti p3 sg
+"<digabestr>"
+	"digabestr" adj mf sp
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij REMOVE:527
+;	"ma" cnjsub REMOVE:593
+"<bro>"
+	"bro" n f sg
+"<!>"
+	"!" sent
+
+"<.>"
+	"." sent
+
+
+
+"<Breizh>"
+	"Breizh" np top sg
+;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+"<,>"
+	"," cm
+"<douar>"
+	"douar" n m sg
+;	"douarañ" vblex imp p2 sg REMOVE:223
+;	"douarañ" vblex pri p3 sg REMOVE:542
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg REMOVE:350
+"<Sant>"
+	"sant" n m sg
+;	"santout" vblex imp p2 sg REMOVE:223
+;	"santout" vblex pri p3 sg REMOVE:234
+"<Kozh>"
+	"kozh" adj mf sp
+;	"kozhañ" vblex imp p2 sg REMOVE:223
+;	"kozhañ" vblex pri p3 sg REMOVE:542
+"<,>"
+	"," cm
+"<douar>"
+	"douar" n m sg
+;	"douarañ" vblex imp p2 sg REMOVE:223
+;	"douarañ" vblex pri p3 sg REMOVE:542
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg REMOVE:350
+"<varzhed>"
+	"barzh" n m pl
+"<,>"
+	"," cm
+"<n'eus>"
+	"ne" adv
+		"bezañ" vblex pri impers sp
+	"ne" adv
+		"kaout" vblex pri p1 pl
+"<bro>"
+	"bro" n f sg
+"<all>"
+	"all" adj ind mf sp
+"<a>"
+	"a" pr
+	"a" vpart
+	"a" n m sp
+;	"mont" vblex imp p2 sg REMOVE:223
+;	"monet" vblex imp p2 sg REMOVE:223
+;	"mont" vblex pri p3 sg REMOVE:542
+;	"monet" vblex pri p3 sg REMOVE:542
+"<garan>"
+	"garan" n f sg
+	"kariñ" vblex pri p1 sg
+	"karout" vblex pri p1 sg
+	"garanañ" vblex pri p3 sg
+;	"garanañ" vblex imp p2 sg REMOVE:223
+"<kement>"
+	"kement" det ind mf sg
+"<'barzh>"
+	"e-barzh" pr
+	"e-barzh" adv
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg REMOVE:350
+"<bed>"
+	"bed" n m sg
+;	"pediñ" vblex imp p2 sg REMOVE:223
+;	"pediñ" vblex pri p3 sg REMOVE:234
+"<.>"
+	"." sent
+
+
+
+"<Pep>"
+	"pep" det ind mf sg
+;	"bep" det ind mf sg REMOVE:773
+"<menez>"
+	"menez" n m sg
+"<,>"
+	"," cm
+"<pep>"
+	"pep" det ind mf sg
+;	"bep" det ind mf sg REMOVE:773
+"<traoñienn>"
+	"traoñienn" n f sg
+"<d'am>"
+	"da" pr
+		"ma" det pos mf sp
+"<c'halon>"
+	"kalon" n f sg
+"<zo>"
+	"teiñ" vblex imp p2 sg
+;	"teiñ" vblex pri p3 sg REMOVE:542
+;	"bezañ" vblex pri p3 sg REMOVE:542
+"<ker>"
+	"ken" adv
+	"ker" adj mf sp
+;	"ger" n m sg REMOVE:773
+"<,>"
+	"," cm
+"<eno>"
+	"eno" adv
+"<'>"
+	"e" vpart obj SELECT:275
+;	"’" apos SELECT:275
+;	"a" vpart SELECT:275
+;	"o" vpart ger SELECT:275
+"<kousk>"
+	"kousket" vblex pri p3 sg SELECT:217
+;	"kousk" n m sg SELECT:217
+"<meur a>"
+	"meur a" det ind mf pl
+"<Vreizhad>"
+	"Breizhad" n m sg
+"<taer>"
+	"taer" adj mf sp SELECT:327
+;	"daer" n m sg SELECT:327
+"<!>"
+	"!" sent
+
+"<.>"
+	"." sent
+
+
+
+"<Ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg REMOVE:350
+"<Vretoned>"
+	"Breton" n m pl
+"<'zo>"
+	"bezañ" vblex pri p3 sg
+"<tud>"
+	"den" n m pl
+"<kalet>"
+	"kalet" adj mf sp
+"<ha>"
+	"ha" cnjcoo
+;	"ha" ij REMOVE:527
+"<kreñv>"
+	"kreñv" adj mf sp
+"<.>"
+	"." sent
+
+
+
+"<N'eus>"
+	"ne" adv
+		"bezañ" vblex pri impers sp
+	"ne" adv
+		"kaout" vblex pri p1 pl
+"<pobl>"
+	"pobl" n f sg
+;	"poblañ" vblex imp p2 sg REMOVE:223
+;	"poblañ" vblex pri p3 sg REMOVE:542
+"<ken>"
+	"ken" preadv SELECT:800
+;	"gen" n f pl REMOVE:773
+;	"ken" pr SELECT:800
+;	"ken" adv SELECT:800
+"<kalonek>"
+	"kalonek" adj mf sp
+"<a>"
+	"a" pr
+	"a" n m sp
+;	"a" vpart REMOVE:181
+;	"monet" vblex imp p2 sg REMOVE:223
+;	"mont" vblex imp p2 sg REMOVE:223
+;	"monet" vblex pri p3 sg REMOVE:542
+;	"mont" vblex pri p3 sg REMOVE:542
+"<->"
+	"-" guio
+"<zindan>"
+	"dindan" adv
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg REMOVE:350
+;	"monet" vblex pri p1 sg REMOVE:350
+"<neñv>"
+	"neñv" n m sg
+"<.>"
+	"." sent
+
+
+
+"<Gwerz>"
+	"gwerz" n f sg
+"<trist>"
+	"trist" adj mf sp
+"<,>"
+	"," cm
+"<son>"
+	"son" n f sg
+	"son" n m sg
+;	"soniñ" vblex imp p2 sg REMOVE:223
+;	"seniñ" vblex imp p2 sg REMOVE:223
+;	"soniñ" vblex pri p3 sg REMOVE:680
+;	"seniñ" vblex pri p3 sg REMOVE:680
+"<dudius>"
+	"dudius" adj mf sp
+"<a>"
+	"a" vpart SELECT:220:Vpart_if_only_Vfin
+;	"mont" vblex imp p2 sg REMOVE:223
+;	"monet" vblex imp p2 sg REMOVE:223
+;	"mont" vblex pri p3 sg REMOVE:542
+;	"monet" vblex pri p3 sg REMOVE:542
+;	"a" pr SELECT:220:Vpart_if_only_Vfin
+;	"a" n m sp SELECT:220:Vpart_if_only_Vfin
+"<ziwan>"
+	"diwanañ" vblex pri p3 sg SELECT:736
+;	"diwanañ" vblex imp p2 sg REMOVE:223
+;	"diwan" n m sg SELECT:736
+"<enno>"
+	"e" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent
+
+
+
+"<O>"
+	"o" n m sp
+	"o" det pos mf sp
+;	"o" vpart ger REMOVE:181
+;	"direct" prn obj p3 mf pl REMOVE:395
+;	"o" ij REMOVE:527
+"<!>"
+	"!" sent
+
+"<pegen>"
+	"pegen" preadv
+	"pegen" adv itg
+;	"pegañ" vblex pii p1 sg REMOVE:516:Remove_VerbFin_BOS
+"<kaer>"
+	"kaer" adj mf sp
+"<ez>"
+	"e" vpart obj SELECT:220:Vpart_if_only_Vfin
+;	"mont" vblex pri p2 sg SELECT:220:Vpart_if_only_Vfin
+;	"monet" vblex pri p2 sg SELECT:220:Vpart_if_only_Vfin
+;	"e" pr SELECT:220:Vpart_if_only_Vfin
+;		"da" det pos mf sp
+"<out>"
+	"bezañ" vblex pri p2 sg
+"<,>"
+	"," cm
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij REMOVE:527
+;	"ma" cnjsub REMOVE:593
+"<bro>"
+	"bro" n f sg
+"<!>"
+	"!" sent
+
+"<.>"
+	"." sent
+
+
+
+"<Mard>"
+	"ma" cnjsub
+"<eo>"
+	"bezañ" vblex pri p3 sg
+"<bet>"
+	"bezañ" vblex pp SELECT:469
+;	"pet" prn itg mf sp REMOVE:265:Remove_SoftMut
+;	"kaout" vblex pp SELECT:469
+"<trec'het>"
+	"trec’hiñ" vblex pp
+;	"trec’hiñ" vblex imp p3 sg REMOVE:223
+"<Breizh>"
+	"Breizh" np top sg
+;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+"<er>"
+	"e" pr
+		"an" det def sp
+"<brezelioù>"
+	"brezel" n m pl
+"<bras>"
+	"bras" adj mf sp
+"<,>"
+	"," cm
+"<he>"
+	"he" det pos f sp
+;	"direct" prn obj p3 f sg REMOVE:395
+"<yezh>"
+	"yezh" n f sg SELECT:763
+;	"yezh" adj mf sp SELECT:763
+"<a>"
+	"a" vpart SELECT:408:Vpart_if_Vfin
+;	"mont" vblex imp p2 sg REMOVE:223
+;	"monet" vblex imp p2 sg REMOVE:223
+;	"a" pr SELECT:408:Vpart_if_Vfin
+;	"a" n m sp SELECT:408:Vpart_if_Vfin
+;	"mont" vblex pri p3 sg SELECT:408:Vpart_if_Vfin
+;	"monet" vblex pri p3 sg SELECT:408:Vpart_if_Vfin
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex imp p2 sg REMOVE:223
+;	"teiñ" vblex pri p3 sg REMOVE:782
+"<bepred>"
+	"bepred" adv
+"<ken>"
+	"ken" pr
+	"ken" adv
+	"ken" preadv
+;	"gen" n f pl REMOVE:773
+"<bev>"
+	"bev" adj mf sp
+;	"beviñ" vblex imp p2 sg REMOVE:223
+;	"bevañ" vblex imp p2 sg REMOVE:223
+;	"beviñ" vblex pri p3 sg REMOVE:542
+;	"bevañ" vblex pri p3 sg REMOVE:542
+"<ha>"
+	"ha" cnjcoo
+;	"ha" ij REMOVE:527
+"<biskoazh>"
+	"biskoazh" adv
+"<,>"
+	"," cm
+"<he>"
+	"he" det pos f sp
+;	"direct" prn obj p3 f sg REMOVE:395
+"<c'halon>"
+	"kalon" n f sg
+"<virvidik>"
+	"birvidik" adj mf sp
+"<a>"
+	"a" vpart SELECT:220:Vpart_if_only_Vfin
+;	"mont" vblex imp p2 sg REMOVE:223
+;	"monet" vblex imp p2 sg REMOVE:223
+;	"mont" vblex pri p3 sg REMOVE:542
+;	"monet" vblex pri p3 sg REMOVE:542
+;	"a" pr SELECT:220:Vpart_if_only_Vfin
+;	"a" n m sp SELECT:220:Vpart_if_only_Vfin
+"<lamm>"
+	"lammat" vblex pri p3 sg SELECT:840
+;	"lamm" n m sg SELECT:840
+"<c'hoazh>"
+	"c’hoazh" adv
+;	"koazhañ" vblex imp p2 sg REMOVE:223
+;	"koazhañ" vblex pri p3 sg REMOVE:542
+"<'>"
+	"’" apos
+;	"a" vpart REMOVE:181
+;	"e" vpart obj REMOVE:181
+;	"o" vpart ger REMOVE:181
+"<n>"
+	"n" n m sp
+"<he>"
+	"he" det pos f sp
+;	"direct" prn obj p3 f sg REMOVE:395
+"<c'hreiz>"
+	"kreiz" n m sg SELECT:763
+;	"kreizañ" vblex imp p2 sg REMOVE:223
+;	"kreizañ" vblex pri p3 sg REMOVE:542
+;	"kreiz" adj mf sp SELECT:763
+"<.>"
+	"." sent
+
+
+
+"<Dihunet>"
+	"dihuniñ" vblex pp SELECT:485
+;	"dihuniñ" vblex imp p3 sg SELECT:485
+"<out>"
+	"bezañ" vblex pri p2 sg
+"<bremañ>"
+	"bremañ" adv
+"<,>"
+	"," cm
+"<ma>"
+	"ma" cnjsub
+;	"ma" ij REMOVE:527
+;	"ma" det pos mf sp REMOVE:821
+"<Breizh>"
+	"Breizh" np top sg
+;	"preizh" n m sg REMOVE:265:Remove_SoftMut
+"<!>"
+	"!" sent
+
+"<.>"
+	"." sent
+
+
+

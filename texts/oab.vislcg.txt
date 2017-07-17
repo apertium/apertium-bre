@@ -3045,84 +3045,55 @@
 # text = Diorroet eo bet ar c’hinnig dre rouedadoù gant labour ar c’hevreadoù.
 # text[fra] = L’offre s’est développée en réseau par le travail des fédérations.
 "<Diorroet>"
-	"diorren" vblex pp 
-;	"diorren" vblex imp p3 sg 
-;	"diorroet" adj mf sp 
+	"diorren" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg 
-"<bet>"
-	"bezañ" vblex pp 
-;	"pet" prn itg mf sp 
-;	"kaout" vblex pp 
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<bet>" 
+	"bezañ" vblex pp @aux:pass #3->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #4->5
 "<c’hinnig>"
-	"kinnig" n m sg 
-;	"kinnig" vblex imp p2 sg 
-;	"kinnig" vblex inf 
-;	"kinnig" vblex pri p3 sg 
+	"kinnig" n m sg @nsubj #5->1
 "<dre>"
-	"dre" pr @case
+	"dre" pr @case #6->7
 "<rouedadoù>"
-	"rouedad" n f pl
+	"rouedad" n f pl @obl #7->1
 "<gant>"
-	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
+	"gant" pr @case #8->9
 "<labour>"
-	"labour" n m sg
-;	"labourat" vblex pri p3 sg 
+	"labour" n m sg @obl:agent #9->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #10->11
 "<c’hevreadoù>"
-	"kevread" n m pl
+	"kevread" n m pl @nmod:gen #11->9
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->1
 
 # text = Stad ar c’hinnig kentelioù noz
 # text[fra] = Etat de l’offre de cours du soir
 "<Stad>"
-	"stad" n f sg
-;	"stadañ" vblex imp p2 sg 
-;	"stadañ" vblex pri p3 sg 
+	"stad" n f sg @root #1->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #2->3
 "<c’hinnig>"
-	"kinnig" n m sg 
-;	"kinnig" vblex imp p2 sg 
-;	"kinnig" vblex inf 
-;	"kinnig" vblex pri p3 sg 
+	"kinnig" n m sg @nmod:gen #3->1
 "<kentelioù noz>"
-	"kentel#-noz" n f pl
+	"kentel-noz" n f pl @nmod:gen #4->3
 
 # text = Kinniget e vez da skouer gant Mervent daou pe tri hanter-devezh bep miz da implijidi ti-kêr Douarnenez.
 # text[fra] = Ainsi, Mervent propose deux à trois demi-journées de cours par mois aux employés municipaux de Douarnenez.
 "<Kinniget>"
 	"kinnig" vblex pp
-;	"kinnig" vblex imp p3 sg 
 "<e>"
 	"e" vpart obj 
-;	"e" pr 
-;	"e" n m sp 
-;	"e" det pos m sp 
-;	"direct" prn obj p3 m sg 
 "<vez>"
 	"bezañ" vblex prh p3 sg 
-;	"bez" n m sg 
-;	"mez" n f pl 
-;	"bezañ" vblex imp p2 sg 
 "<da skouer>"
 	"da skouer" adv 
 "<gant>"
 	"gant" pr @case
-;	"kant" num mf pl 
-;	"kant" n m sg 
 "<Mervent>"
 	"Mervent" np al mf sg 
-;	"mervent" n m sg 
 "<daou>"
 	"daou" num m pl
 "<pe>"
