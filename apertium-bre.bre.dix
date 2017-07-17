@@ -206,6 +206,8 @@
     <pardef n="initial-P">
       <e r="LR"><p><l>P</l><r>P</r></p></e>
       <e r="LR"><p><l>B</l><r>P</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>bP</l><r>P</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>b-P</l><r>P</r></p></e>
       <e r="LR"><p><l>F</l><r>P</r></p></e>
       <e r="RL"><p><l><a/>P</l><r>P</r></p></e>
     </pardef>
@@ -241,6 +243,8 @@
     <pardef n="initial-B">
       <e r="LR"><p><l>B</l><r>B</r></p></e>
       <e r="LR"><p><l>V</l><r>B</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>vB</l><r>B</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>v-B</l><r>B</r></p></e>
       <e r="LR"><p><l>P</l><r>B</r></p></e>
       <e r="RL"><p><l><a/>B</l><r>B</r></p></e>
     </pardef>
@@ -255,6 +259,8 @@
     <pardef n="initial-K">
       <e r="LR"><p><l>K</l><r>K</r></p></e>
       <e r="LR"><p><l>G</l><r>K</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>gK</l><r>K</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>g-K</l><r>K</r></p></e>
       <e r="LR"><p><l>C’h</l><r>K</r></p></e>
       <e r="RL"><p><l><a/>K</l><r>K</r></p></e>
     </pardef>
@@ -355,6 +361,8 @@
 
     <pardef n="initial-M">
       <e r="LR"><p><l>M</l><r>M</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>v-M</l><r>M</r></p></e>
+      <e r="LR" c="Err/Orth"><p><l>vM</l><r>M</r></p></e>
       <e r="LR"><p><l>V</l><r>M</r></p></e>
       <e r="RL"><p><l><a/>M</l><r>M</r></p></e>
     </pardef>
@@ -5813,7 +5821,9 @@
     <!-- END PARADIGMS TO CHECK -->  
 
     <pardef n="Dr.__abbr">
-      <e><p><l></l><r><s n="abbr"/></r></p></e>
+      <e><p><l></l><r>.<s n="abbr"/></r></p></e>
+      <e><p><l>.</l><r>.<s n="abbr"/></r></p></e>
+      <e><p><l>.</l><r>.<s n="abbr"/><j/>.<s n="sent"/></r></p></e>
     </pardef>
   </pardefs>
 
@@ -9147,6 +9157,7 @@
 	<e lm="aters"><i>aters</i><par n="si__n"/></e>
 	<e lm="atlas"><i>atlas</i><par n="si__n"/></e>
     <e lm="atiz"><i>atiz</i><par n="si__n"/></e>
+    <e lm="atom"><i>atom</i><par n="si__n"/></e>
     <e lm="aval"><i>aval</i><par n="si__n"/></e>
     <e lm="aval-douar"><i>aval</i><par n="si__n"/><p><l>-douar</l><r><g>-douar</g></r></p></e>
     <e lm="aval-pin"><i>aval</i><par n="si__n"/><p><l>-pin</l><r><g>-pin</g></r></p></e>
@@ -9644,6 +9655,7 @@
     <e lm="islonk"><i>islonk</i><par n="si__n"/></e>
     <e lm="isprid"><i>isprid</i><par n="si__n"/></e>
     <e lm="is-skourr"><i>is-skourr</i><par n="si__n"/></e>
+    <e lm="is-skourr" r="LR" c="Err/Orth"><p><l>isskourr</l><r>is-skourr</r></p><par n="si__n"/></e>
     <e lm="istant"><i>istant</i><par n="si__n"/></e>
     <e lm="istitl"><i>istitl</i><par n="si__n"/></e>
     <e lm="henc’hresianeg"><i>henc’hresianeg</i><par n="si__n"/></e>
@@ -9979,6 +9991,7 @@
     <e lm="oad gour"><i>oad</i><par n="si__n"/><p><l><b/>gour</l><r><g><b/>gour</g></r></p></e>
     <e lm="ober"><i>ober</i><par n="si__n"/></e> 
     <e lm="oberiantiz"><i>oberiantiz</i><par n="si__n"/></e> 
+    <e lm="oblast"><i>oblast</i><par n="si__n"/></e>
     <e lm="oeñs"><i>oeñs</i><par n="si__n"/></e>
     <e lm="ofis"><i>ofis</i><par n="si__n"/></e>
     <e lm="okarina"><i>okarina</i><par n="si__n"/></e>
@@ -10128,6 +10141,7 @@
     <e lm="pretordi"><par n="initial-p"/><i>retordi</i><par n="si__n"/></e>
     <e lm="preveudi"><par n="initial-p"/><i>reveudi</i><par n="si__n"/></e>
     <e lm="prezeg"><par n="initial-p"/><i>rezeg</i><par n="si__n"/></e>	
+    <e lm="flandrezeg"><i>flandrezeg</i><par n="si__n"/></e>	
     <e lm="pri"><par n="initial-p"/><i>ri</i><par n="si__n"/></e>
     <e lm="pried"><par n="initial-p"/><i>ried</i><par n="si__n"/></e>
     <e lm="prioldi"><par n="initial-p"/><i>rioldi</i><par n="si__n"/></e>
@@ -10846,6 +10860,11 @@
     <e lm="c’hoarier klub"><i>c’hoari</i><par n="kelenn/er__n"/><p><l><b/>klub</l><r><g><b/>klub</g></r></p></e>
     <e lm="c’hoarier mell-droad"><i>c’hoari</i><par n="kelenn/er__n"/><p><l><b/>mell-droad</l><r><g><b/>mell-droad</g></r></p></e>
     <e lm="c’hoarier tennis"><i>c’hoari</i><par n="kelenn/er__n"/><p><l><b/>tennis</l><r><g><b/>tennis</g></r></p></e>	
+    <e lm="mestrc’hoarier"><par n="initial-m"/><i>estrc’hoari</i><par n="kelenn/er__n"/></e>
+    <e lm="meurc’hoarier"><par n="initial-m"/><i>eurc’hoari</i><par n="kelenn/er__n"/></e>
+    <e lm="pennc’hoarier"><par n="initial-p"/><i>ennc’hoari</i><par n="kelenn/er__n"/></e>
+    <e lm="liesc’hoarier"><i>liesc’hoari</i><par n="kelenn/er__n"/></e>
+    <e lm="kenc’hoarier"><par n="initial-k"/><i>enc’hoari</i><par n="kelenn/er__n"/></e>
     <e lm="c’hwenner"><i>c’hwenn</i><par n="kelenn/er__n"/></e>
     <e lm="c’hwilier"><i>c’hwili</i><par n="kelenn/er__n"/></e>
     <e lm="c’hwister"><i>c’hwist</i><par n="kelenn/er__n"/></e>
@@ -14792,6 +14811,8 @@
 
     <e lm="sturienn"><i>sturienn</i><par n="sae__n"/></e>
 
+    <e lm="asteroidenn"><i>asteroidenn</i><par n="sae__n"/></e>
+
     <e lm="stur"><i>stur</i><par n="priz__n"/></e>
     <e lm="sturva"><i>sturva</i><par n="si__n"/></e>
     <e lm="stuz"><i>stuz</i><par n="priz__n"/></e>
@@ -15867,6 +15888,7 @@
 
     <e lm="greanterezh"><par n="initial-g"/><i>reanterezh</i><par n="priz__n"/></e>
     <e lm="greg"><par n="initial-g"/><i>reg</i><par n="sae__n"/></e>
+    <e lm="gregach"><par n="initial-g"/><i>regach</i><par n="sae__n"/></e> <!-- COMPROVAR -->
     <e lm="gremm"><par n="initial-g"/><i>remm</i><par n="si__n"/></e>
     <e lm="Gresian"><par n="initial-G"/><i>resian</i><par n="evn__n"/></e>
 
@@ -16561,6 +16583,7 @@
     <e lm="Botswana"><par n="initial-B"/><i>otswana</i><par n="Roazhon__np"/></e>
     <e lm="Brazil"><par n="initial-B"/><i>razil</i><par n="Roazhon__np"/></e>
     <e lm="Breizh"><par n="initial-B"/><i>reizh</i><par n="Roazhon__np"/></e>
+    <e lm="Breizh" r="LR" c="Err/Orth"><par n="initial-B"/><p><l>reiz</l><r>reizh</r></p><par n="Roazhon__np"/></e>
     <e lm="Breizh-Izel"><par n="initial-B"/><i>reizh-Izel</i><par n="Roazhon__np"/></e>
     <e lm="Breizh-Uhel"><par n="initial-B"/><i>reizh-Uhel</i><par n="Roazhon__np"/></e>
     <e lm="Breizh-Vihan"><par n="initial-B"/><i>reizh-Vihan</i><par n="Roazhon__np"/></e>
@@ -18989,6 +19012,7 @@
     <e lm="Yestinieg"><i>Yestinieg</i><par n="Roazhon__np"/></e>
     <e lm="Zinzag-Lokrist"><i>Zinzag-Lokrist</i><par n="Roazhon__np"/></e>
 
+    <e lm="Janed"><i>Janed</i><par n="Añjela__np"/></e>		
     <e lm="Adeline"><i>Adeline</i><par n="Añjela__np"/></e>		
     <e lm="Agata"><i>Agata</i><par n="Añjela__np"/></e>	
     <e lm="Agathe"><i>Agathe</i><par n="Añjela__np"/></e>	
@@ -19149,6 +19173,7 @@
     <e lm="Marguerite"><par n="initial-M"/><i>arguerite</i><par n="Añjela__np"/></e>	
     <e lm="Mari"><par n="initial-M"/><i>ari</i><par n="Añjela__np"/></e>
     <e lm="Maria"><par n="initial-M"/><i>aria</i><par n="Añjela__np"/></e>
+    <e lm="María"><par n="initial-M"/><i>aría</i><par n="Añjela__np"/></e>
     <e lm="Marianna"><par n="initial-M"/><i>arianna</i><par n="Añjela__np"/></e>
     <e lm="Marianne"><par n="initial-M"/><i>arianne</i><par n="Añjela__np"/></e>
     <e lm="Mariannig"><par n="initial-M"/><i>ariannig</i><par n="Añjela__np"/></e>
@@ -20366,6 +20391,698 @@
     <e lm="Tolkien"><par n="initial-T"/><i>olkien</i><par n="Calloc’h__np"/></e>
 
     <e lm="ap"><i>ap</i><par n="Calloc’h__np"/></e> <!-- Per a noms de Gal·les -->
+
+<e lm="Malory"><i>Malory</i><par n="Calloc’h__np"/></e>
+<e lm="Rodríguez"><i>Rodríguez</i><par n="Calloc’h__np"/></e>
+<e lm="Bach"><i>Bach</i><par n="Calloc’h__np"/></e>
+<e lm="García"><i>García</i><par n="Calloc’h__np"/></e>
+<e lm="Green"><i>Green</i><par n="Calloc’h__np"/></e>
+<e lm="Johnson"><i>Johnson</i><par n="Calloc’h__np"/></e>
+<e lm="Shakespeare"><i>Shakespeare</i><par n="Calloc’h__np"/></e>
+<e lm="Caravaggio"><i>Caravaggio</i><par n="Calloc’h__np"/></e>
+<e lm="Mecklenburg"><i>Mecklenburg</i><par n="Calloc’h__np"/></e>
+<e lm="Brown"><i>Brown</i><par n="Calloc’h__np"/></e>
+<e lm="Amalie"><i>Amalie</i><par n="Añjela__np"/></e>
+<e lm="Sofia"><i>Sofia</i><par n="Añjela__np"/></e>
+<e lm="Joan"><i>Joan</i><par n="Añjela__np"/></e>
+<e lm="Afrodite"><i>Afrodite</i><par n="Añjela__np"/></e>
+<e lm="Georgia"><i>Georgia</i><par n="Añjela__np"/></e>
+<e lm="Judit"><i>Judit</i><par n="Añjela__np"/></e>
+<e lm="Ilias"><i>Ilias</i><par n="Yann__np"/></e>
+<e lm="Roperzh"><i>Roperzh</i><par n="Yann__np"/></e>
+<e lm="Rudolf"><i>Rudolf</i><par n="Yann__np"/></e>
+<e lm="Bill"><i>Bill</i><par n="Yann__np"/></e>
+<e lm="Jordan"><i>Jordan</i><par n="Yann__np"/></e>
+<e lm="Albrecht"><i>Albrecht</i><par n="Yann__np"/></e>
+<e lm="Pieter"><i>Pieter</i><par n="Yann__np"/></e>
+<e lm="Friederike"><i>Friederike</i><par n="Yann__np"/></e>
+<e lm="Masimilian"><i>Masimilian</i><par n="Yann__np"/></e>
+<e lm="Joan"><i>Joan</i><par n="Yann__np"/></e>
+<e lm="Konfusius"><i>Konfusius</i><par n="Yann__np"/></e>
+<e lm="Walt"><i>Walt</i><par n="Yann__np"/></e>
+<e lm="Gruffudd"><i>Gruffudd</i><par n="Yann__np"/></e>
+<e lm="João"><i>João</i><par n="Yann__np"/></e>
+<e lm="Odisseüs"><i>Odisseüs</i><par n="Yann__np"/></e>
+<e lm="Morgannwg"><i>Morgannwg</i><par n="Roazhon__np"/></e>
+<e lm="Sevilla"><i>Sevilla</i><par n="Roazhon__np"/></e>
+<e lm="Bayern"><i>Bayern</i><par n="Roazhon__np"/></e>
+<e lm="Córdoba"><i>Córdoba</i><par n="Roazhon__np"/></e>
+<e lm="Porto"><i>Porto</i><par n="Roazhon__np"/></e>
+<e lm="Viet Nam"><i>Viet<b/>Nam</i><par n="Roazhon__np"/></e>
+<e lm="Westfalen"><i>Westfalen</i><par n="Roazhon__np"/></e>
+<e lm="Habana"><i>Habana</i><par n="Roazhon__np"/></e>
+<e lm="Patagonia"><i>Patagonia</i><par n="Roazhon__np"/></e>
+<e lm="Sardigna"><i>Sardigna</i><par n="Roazhon__np"/></e>
+<e lm="Habsburg"><i>Habsburg</i><par n="Roazhon__np"/></e>
+<e lm="Gallia"><i>Gallia</i><par n="Roazhon__np"/></e>
+<e lm="Hawaii"><i>Hawaii</i><par n="Roazhon__np"/></e>
+<e lm="Toledo"><i>Toledo</i><par n="Roazhon__np"/></e>
+<e lm="Sofia"><i>Sofia</i><par n="Roazhon__np"/></e>
+<e lm="Buenos Aires"><i>Buenos<b/>Aires</i><par n="Roazhon__np"/></e>
+<e lm="Genova"><i>Genova</i><par n="Roazhon__np"/></e>
+<e lm="Northumbria"><i>Northumbria</i><par n="Roazhon__np"/></e>
+<e lm="Pfalz"><i>Pfalz</i><par n="Roazhon__np"/></e>
+<e lm="Toskana"><i>Toskana</i><par n="Roazhon__np"/></e>
+<e lm="Seine"><i>Seine</i><par n="Roazhon__np"/></e>
+<e lm="Aragón"><i>Aragón</i><par n="Roazhon__np"/></e>
+<e lm="Kopenhagen"><i>Kopenhagen</i><par n="Roazhon__np"/></e>
+<e lm="Richmond"><i>Richmond</i><par n="Roazhon__np"/></e>
+<e lm="Georgia"><i>Georgia</i><par n="Roazhon__np"/></e>
+<e lm="Schleswig"><i>Schleswig</i><par n="Roazhon__np"/></e>
+<e lm="Illinois"><i>Illinois</i><par n="Roazhon__np"/></e>
+<e lm="Torino"><i>Torino</i><par n="Roazhon__np"/></e>
+<e lm="Calabria"><i>Calabria</i><par n="Roazhon__np"/></e>
+<e lm="Dyffryn"><i>Dyffryn</i><par n="Roazhon__np"/></e>
+<e lm="Jamaika"><i>Jamaika</i><par n="Roazhon__np"/></e>
+<e lm="Köln"><i>Köln</i><par n="Roazhon__np"/></e>
+<e lm="Pyrénées"><i>Pyrénées</i><par n="Roazhon__np"/></e>
+
+
+    <e lm="Aasen"><i>Aasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Aertsen"><i>Aertsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Alertshausen"><i>Alertshausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Algotsson"><i>Algotsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Alsen"><i>Alsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Altshausen"><i>Altshausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Alysson"><i>Alysson</i><par n="Calloc’h__np"/></e>
+    <e lm="Ameisen"><i>Ameisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Amundsen"><i>Amundsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Andersen"><i>Andersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Anderssen"><i>Anderssen</i><par n="Calloc’h__np"/></e>
+    <e lm="Andersson"><i>Andersson</i><par n="Calloc’h__np"/></e>
+    <e lm="Andrésson"><i>Andrésson</i><par n="Calloc’h__np"/></e>
+    <e lm="Andriessen"><i>Andriessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Arastoksen"><i>Arastoksen</i><par n="Calloc’h__np"/></e>
+    <e lm="Arfvidsson"><i>Arfvidsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Arnesen"><i>Arnesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Asbjørnsen"><i>Asbjørnsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Asen"><i>Asen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ásgrímsson"><i>Ásgrímsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Asleifsson"><i>Asleifsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Assen"><i>Assen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ásvaldsson"><i>Ásvaldsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Aucepsen"><i>Aucepsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Aukaisen"><i>Aukaisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Axelsson"><i>Axelsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Baardsen"><par n="initial-B"/><i>aardsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Bahlsen"><par n="initial-B"/><i>ahlsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Balisson"><par n="initial-B"/><i>alisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Bellingshausen"><par n="initial-B"/><i>ellingshausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Belsen"><par n="initial-B"/><i>elsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Benediktsson"><par n="initial-B"/><i>enediktsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Bengtsson"><par n="initial-B"/><i>engtsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Bennigsen"><par n="initial-B"/><i>ennigsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Bertelsson"><par n="initial-B"/><i>ertelsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Besson"><par n="initial-B"/><i>esson</i><par n="Calloc’h__np"/></e>
+    <e lm="Betsen"><par n="initial-B"/><i>etsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Bisson"><par n="initial-B"/><i>isson</i><par n="Calloc’h__np"/></e>
+    <e lm="Björnsson"><par n="initial-B"/><i>jörnsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Bœsenbiesen"><par n="initial-B"/><i>œsenbiesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Boisson"><par n="initial-B"/><i>oisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Borkhausen"><par n="initial-B"/><i>orkhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Boyesen"><par n="initial-B"/><i>oyesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Boysen"><par n="initial-B"/><i>oysen</i><par n="Calloc’h__np"/></e>
+    <e lm="Bresson"><par n="initial-B"/><i>resson</i><par n="Calloc’h__np"/></e>
+    <e lm="Brunisen"><par n="initial-B"/><i>runisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Brynjúlfsson"><par n="initial-B"/><i>rynjúlfsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Buisson"><par n="initial-B"/><i>uisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Bundhosen"><par n="initial-B"/><i>undhosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Bunsen"><par n="initial-B"/><i>unsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Burghausen"><par n="initial-B"/><i>urghausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Buysson"><par n="initial-B"/><i>uysson</i><par n="Calloc’h__np"/></e>
+    <e lm="Carlsen"><i>Carlsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Carlsson"><i>Carlsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Chanhassen"><i>Chanhassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Chasen"><i>Chasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Chausson"><i>Chausson</i><par n="Calloc’h__np"/></e>
+    <e lm="Chevasson"><i>Chevasson</i><par n="Calloc’h__np"/></e>
+    <e lm="Chosen"><i>Chosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Christensen"><i>Christensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Christiansen"><i>Christiansen</i><par n="Calloc’h__np"/></e>
+    <e lm="Claesen"><i>Claesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Claesson"><i>Claesson</i><par n="Calloc’h__np"/></e>
+    <e lm="Clisson"><i>Clisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Corsen"><i>Corsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Cosson"><i>Cosson</i><par n="Calloc’h__np"/></e>
+    <e lm="Cresson"><i>Cresson</i><par n="Calloc’h__np"/></e>
+    <e lm="Crossen"><i>Crossen</i><par n="Calloc’h__np"/></e>
+    <e lm="Danielsen"><par n="initial-D"/><i>anielsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Davringhausen"><par n="initial-D"/><i>avringhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Delicatessen"><par n="initial-D"/><i>elicatessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Diesdenhausen"><par n="initial-D"/><i>iesdenhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Diessen"><par n="initial-D"/><i>iessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Dilsen"><par n="initial-D"/><i>ilsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Dionysen"><par n="initial-D"/><i>ionysen</i><par n="Calloc’h__np"/></e>
+    <e lm="Droysen"><par n="initial-D"/><i>roysen</i><par n="Calloc’h__np"/></e>
+    <e lm="Eiriksson"><i>Eiriksson</i><par n="Calloc’h__np"/></e>
+    <e lm="Eiríksson"><i>Eiríksson</i><par n="Calloc’h__np"/></e>
+    <e lm="Émosson"><i>Émosson</i><par n="Calloc’h__np"/></e>
+    <e lm="Engebretsen"><i>Engebretsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Engelbrechtsen"><i>Engelbrechtsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Enkhausen"><i>Enkhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Eosen"><i>Eosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ericsson"><i>Ericsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Eriksen"><i>Eriksen</i><par n="Calloc’h__np"/></e>
+    <e lm="Eriksson"><i>Eriksson</i><par n="Calloc’h__np"/></e>
+    <e lm="Erlandsson"><i>Erlandsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Erlendsson"><i>Erlendsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Esen"><i>Esen</i><par n="Calloc’h__np"/></e>
+    <e lm="Eskildsen"><i>Eskildsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Essen"><i>Essen</i><par n="Calloc’h__np"/></e>
+    <e lm="Esson"><i>Esson</i><par n="Calloc’h__np"/></e>
+    <e lm="Eusen"><i>Eusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Expressen"><i>Expressen</i><par n="Calloc’h__np"/></e>
+    <e lm="Facsen"><i>Facsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Falkenhausen"><i>Falkenhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Faurisson"><i>Faurisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Faurrisson"><i>Faurrisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Fergusson"><i>Fergusson</i><par n="Calloc’h__np"/></e>
+    <e lm="Fersen"><i>Fersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Fleinhausen"><i>Fleinhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Frankenhausen"><i>Frankenhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Fresson"><i>Fresson</i><par n="Calloc’h__np"/></e>
+    <e lm="Friesen"><i>Friesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Füssen"><i>Füssen</i><par n="Calloc’h__np"/></e>
+    <e lm="Gabrielsson"><par n="initial-G"/><i>abrielsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Galeasen"><par n="initial-G"/><i>aleasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Garsen"><par n="initial-G"/><i>arsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Gaussen"><par n="initial-G"/><i>aussen</i><par n="Calloc’h__np"/></e>
+    <e lm="Gausson"><par n="initial-G"/><i>ausson</i><par n="Calloc’h__np"/></e>
+    <e lm="Georgsson"><par n="initial-G"/><i>eorgsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Gjestsen"><par n="initial-G"/><i>jestsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Goarshausen"><par n="initial-G"/><i>oarshausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Godwinsson"><par n="initial-G"/><i>odwinsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Gölsen"><par n="initial-G"/><i>ölsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Gormsen"><par n="initial-G"/><i>ormsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Gormsson"><par n="initial-G"/><i>ormsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Grimsson"><par n="initial-G"/><i>rimsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Grímsson"><par n="initial-G"/><i>rímsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Guðjónsson"><par n="initial-G"/><i>uðjónsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Guðmundsson"><par n="initial-G"/><i>uðmundsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Gunnarsson"><par n="initial-G"/><i>unnarsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Gunnlaugsson"><par n="initial-G"/><i>unnlaugsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Gustafsson"><par n="initial-G"/><i>ustafsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Hallgrímsson"><i>Hallgrímsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Hansen"><i>Hansen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hanssen"><i>Hanssen</i><par n="Calloc’h__np"/></e>
+    <e lm="Haraldsen"><i>Haraldsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Haraldsson"><i>Haraldsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Harisson"><i>Harisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Harrisson"><i>Harrisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Harryhausen"><i>Harryhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hechthausen"><i>Hechthausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hemessen"><i>Hemessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hengesen"><i>Hengesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hensen"><i>Hensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Herjólfsson"><i>Herjólfsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Hermannsson"><i>Hermannsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Herrenhausen"><i>Herrenhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Herrhausen"><i>Herrhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Heusen"><i>Heusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hildburghausen"><i>Hildburghausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hohenschönhausen"><i>Hohenschönhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Holgersson"><i>Holgersson</i><par n="Calloc’h__np"/></e>
+    <e lm="Holosen"><i>Holosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hornussen"><i>Hornussen</i><par n="Calloc’h__np"/></e>
+    <e lm="Hróðvitnisson"><i>Hróðvitnisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Husson"><i>Husson</i><par n="Calloc’h__np"/></e>
+    <e lm="Ibsen"><i>Ibsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Immenhusen"><i>Immenhusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Isaksen"><i>Isaksen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jacobsen"><i>Jacobsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jadebusen"><i>Jadebusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jakobsen"><i>Jakobsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jäniksen"><i>Jäniksen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jansen"><i>Jansen</i><par n="Calloc’h__np"/></e>
+    <e lm="Janssen"><i>Janssen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jasson"><i>Jasson</i><par n="Calloc’h__np"/></e>
+    <e lm="Jeinsen"><i>Jeinsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jensen"><i>Jensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jeppesen"><i>Jeppesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jessen"><i>Jessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jochumsson"><i>Jochumsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Johansen"><i>Johansen</i><par n="Calloc’h__np"/></e>
+    <e lm="Johansson"><i>Johansson</i><par n="Calloc’h__np"/></e>
+    <e lm="Johnsson"><i>Johnsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Jonassen"><i>Jonassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jonsson"><i>Jonsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Jónsson"><i>Jónsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Jorgensen"><i>Jorgensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Jürgensen"><i>Jürgensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kaisen"><par n="initial-K"/><i>aisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kaltenhausen"><par n="initial-K"/><i>altenhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kamphuisen"><par n="initial-K"/><i>amphuisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Karlsson"><par n="initial-K"/><i>arlsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Karnasen"><par n="initial-K"/><i>arnasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kassen"><par n="initial-K"/><i>assen</i><par n="Calloc’h__np"/></e>
+    <e lm="Keisen"><par n="initial-K"/><i>eisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kerbosen"><par n="initial-K"/><i>erbosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kernasen"><par n="initial-K"/><i>ernasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kittelsen"><par n="initial-K"/><i>ittelsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Klassen"><par n="initial-K"/><i>lassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Klausen"><par n="initial-K"/><i>lausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Knutsson"><par n="initial-K"/><i>nutsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Kokenhusen"><par n="initial-K"/><i>okenhusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kösen"><par n="initial-K"/><i>ösen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kristinsson"><par n="initial-K"/><i>ristinsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Kristjánsson"><par n="initial-K"/><i>ristjánsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Kritikerprisen"><par n="initial-K"/><i>ritikerprisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Kursachsen"><par n="initial-K"/><i>ursachsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Länsstyrelsen"><i>Länsstyrelsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Larsen"><i>Larsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Larsson"><i>Larsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Lassen"><i>Lassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lasson"><i>Lasson</i><par n="Calloc’h__np"/></e>
+    <e lm="Lauridsen"><i>Lauridsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lausen"><i>Lausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lederhosen"><i>Lederhosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lennartsson"><i>Lennartsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Lesen"><i>Lesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lesson"><i>Lesson</i><par n="Calloc’h__np"/></e>
+    <e lm="Leverkusen"><i>Leverkusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lornsen"><i>Lornsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Losen"><i>Losen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ludvigsen"><i>Ludvigsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Lüttringhausen"><i>Lüttringhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="MacAdam"><par n="initial-M"/><i>acAdam</i><par n="Calloc’h__np"/></e>
+    <e lm="MacAilpein"><par n="initial-M"/><i>acAilpein</i><par n="Calloc’h__np"/></e>
+    <e lm="MacAlea"><par n="initial-M"/><i>acAlea</i><par n="Calloc’h__np"/></e>
+    <e lm="MacALeavy"><par n="initial-M"/><i>acALeavy</i><par n="Calloc’h__np"/></e>
+    <e lm="MacAllan"><par n="initial-M"/><i>acAllan</i><par n="Calloc’h__np"/></e>
+    <e lm="MacAlpin"><par n="initial-M"/><i>acAlpin</i><par n="Calloc’h__np"/></e>
+    <e lm="MacArthur"><par n="initial-M"/><i>acArthur</i><par n="Calloc’h__np"/></e>
+    <e lm="MacAskill"><par n="initial-M"/><i>acAskill</i><par n="Calloc’h__np"/></e>
+    <e lm="MacBride"><par n="initial-M"/><i>acBride</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCartaned"><par n="initial-M"/><i>acCartaned</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCarthy"><par n="initial-M"/><i>acCarthy</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCartney"><par n="initial-M"/><i>acCartney</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCleod"><par n="initial-M"/><i>acCleod</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCoinneach"><par n="initial-M"/><i>acCoinneach</i><par n="Calloc’h__np"/></e>
+    <e lm="MacColl"><par n="initial-M"/><i>acColl</i><par n="Calloc’h__np"/></e>
+    <e lm="MacConloy"><par n="initial-M"/><i>acConloy</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCormick"><par n="initial-M"/><i>acCormick</i><par n="Calloc’h__np"/></e>
+    <e lm="MacCullough"><par n="initial-M"/><i>acCullough</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDermott"><par n="initial-M"/><i>acDermott</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDhòmhnaill"><par n="initial-M"/><i>acDhòmhnaill</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDonagh"><par n="initial-M"/><i>acDonagh</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDonald"><par n="initial-M"/><i>acDonald</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDonell"><par n="initial-M"/><i>acDonell</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDonnell"><par n="initial-M"/><i>acDonnell</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDougal"><par n="initial-M"/><i>acDougal</i><par n="Calloc’h__np"/></e>
+    <e lm="MacDuinnshléibhe"><par n="initial-M"/><i>acDuinnshléibhe</i><par n="Calloc’h__np"/></e>
+    <e lm="MacFarlane"><par n="initial-M"/><i>acFarlane</i><par n="Calloc’h__np"/></e>
+    <e lm="MacGarr"><par n="initial-M"/><i>acGarr</i><par n="Calloc’h__np"/></e>
+    <e lm="MacGill"><par n="initial-M"/><i>acGill</i><par n="Calloc’h__np"/></e>
+    <e lm="MacGillivray"><par n="initial-M"/><i>acGillivray</i><par n="Calloc’h__np"/></e>
+    <e lm="MacGowan"><par n="initial-M"/><i>acGowan</i><par n="Calloc’h__np"/></e>
+    <e lm="MacGregor"><par n="initial-M"/><i>acGregor</i><par n="Calloc’h__np"/></e>
+    <e lm="MacGriogair"><par n="initial-M"/><i>acGriogair</i><par n="Calloc’h__np"/></e>
+    <e lm="MacIsaac"><par n="initial-M"/><i>acIsaac</i><par n="Calloc’h__np"/></e>
+    <e lm="MacKaye"><par n="initial-M"/><i>acKaye</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLain"><par n="initial-M"/><i>acLain</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLane"><par n="initial-M"/><i>acLane</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLay"><par n="initial-M"/><i>acLay</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLea"><par n="initial-M"/><i>acLea</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLean"><par n="initial-M"/><i>acLean</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLeod"><par n="initial-M"/><i>acLeod</i><par n="Calloc’h__np"/></e>
+    <e lm="MacLise"><par n="initial-M"/><i>acLise</i><par n="Calloc’h__np"/></e>
+    <e lm="MacMahon"><par n="initial-M"/><i>acMahon</i><par n="Calloc’h__np"/></e>
+    <e lm="MacManus"><par n="initial-M"/><i>acManus</i><par n="Calloc’h__np"/></e>
+    <e lm="MacMillan"><par n="initial-M"/><i>acMillan</i><par n="Calloc’h__np"/></e>
+    <e lm="MacNeill"><par n="initial-M"/><i>acNeill</i><par n="Calloc’h__np"/></e>
+    <e lm="MacPherson"><par n="initial-M"/><i>acPherson</i><par n="Calloc’h__np"/></e>
+    <e lm="MacPhillips"><par n="initial-M"/><i>acPhillips</i><par n="Calloc’h__np"/></e>
+    <e lm="MacQueen"><par n="initial-M"/><i>acQueen</i><par n="Calloc’h__np"/></e>
+    <e lm="Macsen"><par n="initial-M"/><i>acsen</i><par n="Calloc’h__np"/></e>
+    <e lm="MacTaggart"><par n="initial-M"/><i>acTaggart</i><par n="Calloc’h__np"/></e>
+    <e lm="MacTavish"><par n="initial-M"/><i>acTavish</i><par n="Calloc’h__np"/></e>
+    <e lm="MacThòmais"><par n="initial-M"/><i>acThòmais</i><par n="Calloc’h__np"/></e>
+    <e lm="Madsen"><par n="initial-M"/><i>adsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Magnussen"><par n="initial-M"/><i>agnussen</i><par n="Calloc’h__np"/></e>
+    <e lm="Magnusson"><par n="initial-M"/><i>agnusson</i><par n="Calloc’h__np"/></e>
+    <e lm="Magnússon"><par n="initial-M"/><i>agnússon</i><par n="Calloc’h__np"/></e>
+    <e lm="Maksen"><par n="initial-M"/><i>aksen</i><par n="Calloc’h__np"/></e>
+    <e lm="Marsen"><par n="initial-M"/><i>arsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Masen"><par n="initial-M"/><i>asen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mathausen"><par n="initial-M"/><i>athausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Matthiessen"><par n="initial-M"/><i>atthiessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mattsson"><par n="initial-M"/><i>attsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Maubuisson"><par n="initial-M"/><i>aubuisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Maumusson"><par n="initial-M"/><i>aumusson</i><par n="Calloc’h__np"/></e>
+    <e lm="Mauthausen"><par n="initial-M"/><i>authausen</i><par n="Calloc’h__np"/></e>
+    <e lm="McAleese"><par n="initial-M"/><i>cAleese</i><par n="Calloc’h__np"/></e>
+    <e lm="McAlmon"><par n="initial-M"/><i>cAlmon</i><par n="Calloc’h__np"/></e>
+    <e lm="McAloon"><par n="initial-M"/><i>cAloon</i><par n="Calloc’h__np"/></e>
+    <e lm="McAvoy"><par n="initial-M"/><i>cAvoy</i><par n="Calloc’h__np"/></e>
+    <e lm="McBeal"><par n="initial-M"/><i>cBeal</i><par n="Calloc’h__np"/></e>
+    <e lm="McBrain"><par n="initial-M"/><i>cBrain</i><par n="Calloc’h__np"/></e>
+    <e lm="McBride"><par n="initial-M"/><i>cBride</i><par n="Calloc’h__np"/></e>
+    <e lm="McCaffery"><par n="initial-M"/><i>cCaffery</i><par n="Calloc’h__np"/></e>
+    <e lm="McCaffrey"><par n="initial-M"/><i>cCaffrey</i><par n="Calloc’h__np"/></e>
+    <e lm="McCain"><par n="initial-M"/><i>cCain</i><par n="Calloc’h__np"/></e>
+    <e lm="McCaleb"><par n="initial-M"/><i>cCaleb</i><par n="Calloc’h__np"/></e>
+    <e lm="McCallum"><par n="initial-M"/><i>cCallum</i><par n="Calloc’h__np"/></e>
+    <e lm="McCalmans"><par n="initial-M"/><i>cCalmans</i><par n="Calloc’h__np"/></e>
+    <e lm="McCandless"><par n="initial-M"/><i>cCandless</i><par n="Calloc’h__np"/></e>
+    <e lm="McCann"><par n="initial-M"/><i>cCann</i><par n="Calloc’h__np"/></e>
+    <e lm="McCarey"><par n="initial-M"/><i>cCarey</i><par n="Calloc’h__np"/></e>
+    <e lm="McCarren"><par n="initial-M"/><i>cCarren</i><par n="Calloc’h__np"/></e>
+    <e lm="McCartan"><par n="initial-M"/><i>cCartan</i><par n="Calloc’h__np"/></e>
+    <e lm="McCarthy"><par n="initial-M"/><i>cCarthy</i><par n="Calloc’h__np"/></e>
+    <e lm="McCarty"><par n="initial-M"/><i>cCarty</i><par n="Calloc’h__np"/></e>
+    <e lm="McCauley"><par n="initial-M"/><i>cCauley</i><par n="Calloc’h__np"/></e>
+    <e lm="McCausland"><par n="initial-M"/><i>cCausland</i><par n="Calloc’h__np"/></e>
+    <e lm="McCawley"><par n="initial-M"/><i>cCawley</i><par n="Calloc’h__np"/></e>
+    <e lm="McCay"><par n="initial-M"/><i>cCay</i><par n="Calloc’h__np"/></e>
+    <e lm="McClain"><par n="initial-M"/><i>cClain</i><par n="Calloc’h__np"/></e>
+    <e lm="McClair"><par n="initial-M"/><i>cClair</i><par n="Calloc’h__np"/></e>
+    <e lm="McClane"><par n="initial-M"/><i>cClane</i><par n="Calloc’h__np"/></e>
+    <e lm="McClay"><par n="initial-M"/><i>cClay</i><par n="Calloc’h__np"/></e>
+    <e lm="McClelland"><par n="initial-M"/><i>cClelland</i><par n="Calloc’h__np"/></e>
+    <e lm="McClellan"><par n="initial-M"/><i>cClellan</i><par n="Calloc’h__np"/></e>
+    <e lm="McCloy"><par n="initial-M"/><i>cCloy</i><par n="Calloc’h__np"/></e>
+    <e lm="McClure"><par n="initial-M"/><i>cClure</i><par n="Calloc’h__np"/></e>
+    <e lm="McClurg"><par n="initial-M"/><i>cClurg</i><par n="Calloc’h__np"/></e>
+    <e lm="McConico"><par n="initial-M"/><i>cConico</i><par n="Calloc’h__np"/></e>
+    <e lm="McConnell"><par n="initial-M"/><i>cConnell</i><par n="Calloc’h__np"/></e>
+    <e lm="McCormack"><par n="initial-M"/><i>cCormack</i><par n="Calloc’h__np"/></e>
+    <e lm="McCourt"><par n="initial-M"/><i>cCourt</i><par n="Calloc’h__np"/></e>
+    <e lm="McCoy"><par n="initial-M"/><i>cCoy</i><par n="Calloc’h__np"/></e>
+    <e lm="McCracken"><par n="initial-M"/><i>cCracken</i><par n="Calloc’h__np"/></e>
+    <e lm="McCrae"><par n="initial-M"/><i>cCrae</i><par n="Calloc’h__np"/></e>
+    <e lm="McCrane"><par n="initial-M"/><i>cCrane</i><par n="Calloc’h__np"/></e>
+    <e lm="McCree"><par n="initial-M"/><i>cCree</i><par n="Calloc’h__np"/></e>
+    <e lm="McCullers"><par n="initial-M"/><i>cCullers</i><par n="Calloc’h__np"/></e>
+    <e lm="McCulley"><par n="initial-M"/><i>cCulley</i><par n="Calloc’h__np"/></e>
+    <e lm="McCullough"><par n="initial-M"/><i>cCullough</i><par n="Calloc’h__np"/></e>
+    <e lm="McCune"><par n="initial-M"/><i>cCune</i><par n="Calloc’h__np"/></e>
+    <e lm="McDade"><par n="initial-M"/><i>cDade</i><par n="Calloc’h__np"/></e>
+    <e lm="McDaniel"><par n="initial-M"/><i>cDaniel</i><par n="Calloc’h__np"/></e>
+    <e lm="McDavid"><par n="initial-M"/><i>cDavid</i><par n="Calloc’h__np"/></e>
+    <e lm="McDermott"><par n="initial-M"/><i>cDermott</i><par n="Calloc’h__np"/></e>
+    <e lm="McDevitt"><par n="initial-M"/><i>cDevitt</i><par n="Calloc’h__np"/></e>
+    <e lm="McDonald"><par n="initial-M"/><i>cDonald</i><par n="Calloc’h__np"/></e>
+    <e lm="McDonnell"><par n="initial-M"/><i>cDonnell</i><par n="Calloc’h__np"/></e>
+    <e lm="McDonough"><par n="initial-M"/><i>cDonough</i><par n="Calloc’h__np"/></e>
+    <e lm="McDougal"><par n="initial-M"/><i>cDougal</i><par n="Calloc’h__np"/></e>
+    <e lm="McDougall"><par n="initial-M"/><i>cDougall</i><par n="Calloc’h__np"/></e>
+    <e lm="McDowall"><par n="initial-M"/><i>cDowall</i><par n="Calloc’h__np"/></e>
+    <e lm="McDowell"><par n="initial-M"/><i>cDowell</i><par n="Calloc’h__np"/></e>
+    <e lm="McDuck"><par n="initial-M"/><i>cDuck</i><par n="Calloc’h__np"/></e>
+    <e lm="McDuff"><par n="initial-M"/><i>cDuff</i><par n="Calloc’h__np"/></e>
+    <e lm="McElhone"><par n="initial-M"/><i>cElhone</i><par n="Calloc’h__np"/></e>
+    <e lm="McErlaine"><par n="initial-M"/><i>cErlaine</i><par n="Calloc’h__np"/></e>
+    <e lm="McEvoy"><par n="initial-M"/><i>cEvoy</i><par n="Calloc’h__np"/></e>
+    <e lm="McEwan"><par n="initial-M"/><i>cEwan</i><par n="Calloc’h__np"/></e>
+    <e lm="McFarland"><par n="initial-M"/><i>cFarland</i><par n="Calloc’h__np"/></e>
+    <e lm="McFarlane"><par n="initial-M"/><i>cFarlane</i><par n="Calloc’h__np"/></e>
+    <e lm="McFeely"><par n="initial-M"/><i>cFeely</i><par n="Calloc’h__np"/></e>
+    <e lm="McFly"><par n="initial-M"/><i>cFly</i><par n="Calloc’h__np"/></e>
+    <e lm="McGahan"><par n="initial-M"/><i>cGahan</i><par n="Calloc’h__np"/></e>
+    <e lm="McGarry"><par n="initial-M"/><i>cGarry</i><par n="Calloc’h__np"/></e>
+    <e lm="McGee"><par n="initial-M"/><i>cGee</i><par n="Calloc’h__np"/></e>
+    <e lm="McGeoch"><par n="initial-M"/><i>cGeoch</i><par n="Calloc’h__np"/></e>
+    <e lm="McGill"><par n="initial-M"/><i>cGill</i><par n="Calloc’h__np"/></e>
+    <e lm="McGillis"><par n="initial-M"/><i>cGillis</i><par n="Calloc’h__np"/></e>
+    <e lm="McGlown"><par n="initial-M"/><i>cGlown</i><par n="Calloc’h__np"/></e>
+    <e lm="McGlynn"><par n="initial-M"/><i>cGlynn</i><par n="Calloc’h__np"/></e>
+    <e lm="McGoldrick"><par n="initial-M"/><i>cGoldrick</i><par n="Calloc’h__np"/></e>
+    <e lm="McGonagall"><par n="initial-M"/><i>cGonagall</i><par n="Calloc’h__np"/></e>
+    <e lm="McGoohan"><par n="initial-M"/><i>cGoohan</i><par n="Calloc’h__np"/></e>
+    <e lm="McGovern"><par n="initial-M"/><i>cGovern</i><par n="Calloc’h__np"/></e>
+    <e lm="McGowan"><par n="initial-M"/><i>cGowan</i><par n="Calloc’h__np"/></e>
+    <e lm="McGrath"><par n="initial-M"/><i>cGrath</i><par n="Calloc’h__np"/></e>
+    <e lm="McGrew"><par n="initial-M"/><i>cGrew</i><par n="Calloc’h__np"/></e>
+    <e lm="McGuinness"><par n="initial-M"/><i>cGuinness</i><par n="Calloc’h__np"/></e>
+    <e lm="McGuinn"><par n="initial-M"/><i>cGuinn</i><par n="Calloc’h__np"/></e>
+    <e lm="McGuire"><par n="initial-M"/><i>cGuire</i><par n="Calloc’h__np"/></e>
+    <e lm="McHale"><par n="initial-M"/><i>cHale</i><par n="Calloc’h__np"/></e>
+    <e lm="McHanon"><par n="initial-M"/><i>cHanon</i><par n="Calloc’h__np"/></e>
+    <e lm="McHenry"><par n="initial-M"/><i>cHenry</i><par n="Calloc’h__np"/></e>
+    <e lm="McHugh"><par n="initial-M"/><i>cHugh</i><par n="Calloc’h__np"/></e>
+    <e lm="McIlhenny"><par n="initial-M"/><i>cIlhenny</i><par n="Calloc’h__np"/></e>
+    <e lm="McIlroy"><par n="initial-M"/><i>cIlroy</i><par n="Calloc’h__np"/></e>
+    <e lm="McInnes"><par n="initial-M"/><i>cInnes</i><par n="Calloc’h__np"/></e>
+    <e lm="McIntosh"><par n="initial-M"/><i>cIntosh</i><par n="Calloc’h__np"/></e>
+    <e lm="McIntyre"><par n="initial-M"/><i>cIntyre</i><par n="Calloc’h__np"/></e>
+    <e lm="McJunkins"><par n="initial-M"/><i>cJunkins</i><par n="Calloc’h__np"/></e>
+    <e lm="McKagan"><par n="initial-M"/><i>cKagan</i><par n="Calloc’h__np"/></e>
+    <e lm="McKay"><par n="initial-M"/><i>cKay</i><par n="Calloc’h__np"/></e>
+    <e lm="McKeague"><par n="initial-M"/><i>cKeague</i><par n="Calloc’h__np"/></e>
+    <e lm="McKee"><par n="initial-M"/><i>cKee</i><par n="Calloc’h__np"/></e>
+    <e lm="McKellen"><par n="initial-M"/><i>cKellen</i><par n="Calloc’h__np"/></e>
+    <e lm="McKelly"><par n="initial-M"/><i>cKelly</i><par n="Calloc’h__np"/></e>
+    <e lm="McKelvey"><par n="initial-M"/><i>cKelvey</i><par n="Calloc’h__np"/></e>
+    <e lm="McKenna"><par n="initial-M"/><i>cKenna</i><par n="Calloc’h__np"/></e>
+    <e lm="McKennitt"><par n="initial-M"/><i>cKennitt</i><par n="Calloc’h__np"/></e>
+    <e lm="McKenzie"><par n="initial-M"/><i>cKenzie</i><par n="Calloc’h__np"/></e>
+    <e lm="McKinley"><par n="initial-M"/><i>cKinley</i><par n="Calloc’h__np"/></e>
+    <e lm="McKinnon"><par n="initial-M"/><i>cKinnon</i><par n="Calloc’h__np"/></e>
+    <e lm="McKnight"><par n="initial-M"/><i>cKnight</i><par n="Calloc’h__np"/></e>
+    <e lm="McKone"><par n="initial-M"/><i>cKone</i><par n="Calloc’h__np"/></e>
+    <e lm="McKormick"><par n="initial-M"/><i>cKormick</i><par n="Calloc’h__np"/></e>
+    <e lm="McLachlan"><par n="initial-M"/><i>cLachlan</i><par n="Calloc’h__np"/></e>
+    <e lm="McLarenoù"><par n="initial-M"/><i>cLarenoù</i><par n="Calloc’h__np"/></e>
+    <e lm="McLaurin"><par n="initial-M"/><i>cLaurin</i><par n="Calloc’h__np"/></e>
+    <e lm="McLean"><par n="initial-M"/><i>cLean</i><par n="Calloc’h__np"/></e>
+    <e lm="McLelland"><par n="initial-M"/><i>cLelland</i><par n="Calloc’h__np"/></e>
+    <e lm="McLemoresville"><par n="initial-M"/><i>cLemoresville</i><par n="Calloc’h__np"/></e>
+    <e lm="McLennan"><par n="initial-M"/><i>cLennan</i><par n="Calloc’h__np"/></e>
+    <e lm="McLeod"><par n="initial-M"/><i>cLeod</i><par n="Calloc’h__np"/></e>
+    <e lm="McLiam"><par n="initial-M"/><i>cLiam</i><par n="Calloc’h__np"/></e>
+    <e lm="McLynn"><par n="initial-M"/><i>cLynn</i><par n="Calloc’h__np"/></e>
+    <e lm="McMahon"><par n="initial-M"/><i>cMahon</i><par n="Calloc’h__np"/></e>
+    <e lm="McManus"><par n="initial-M"/><i>cManus</i><par n="Calloc’h__np"/></e>
+    <e lm="McMC"><par n="initial-M"/><i>cMC</i><par n="Calloc’h__np"/></e>
+    <e lm="McMenemy"><par n="initial-M"/><i>cMenemy</i><par n="Calloc’h__np"/></e>
+    <e lm="McMillan"><par n="initial-M"/><i>cMillan</i><par n="Calloc’h__np"/></e>
+    <e lm="McMurdo"><par n="initial-M"/><i>cMurdo</i><par n="Calloc’h__np"/></e>
+    <e lm="McMurray"><par n="initial-M"/><i>cMurray</i><par n="Calloc’h__np"/></e>
+    <e lm="McNab"><par n="initial-M"/><i>cNab</i><par n="Calloc’h__np"/></e>
+    <e lm="McNeill"><par n="initial-M"/><i>cNeill</i><par n="Calloc’h__np"/></e>
+    <e lm="McNeilly"><par n="initial-M"/><i>cNeilly</i><par n="Calloc’h__np"/></e>
+    <e lm="McNelly"><par n="initial-M"/><i>cNelly</i><par n="Calloc’h__np"/></e>
+    <e lm="McNew"><par n="initial-M"/><i>cNew</i><par n="Calloc’h__np"/></e>
+    <e lm="McNichol"><par n="initial-M"/><i>cNichol</i><par n="Calloc’h__np"/></e>
+    <e lm="McNish"><par n="initial-M"/><i>cNish</i><par n="Calloc’h__np"/></e>
+    <e lm="McNiven"><par n="initial-M"/><i>cNiven</i><par n="Calloc’h__np"/></e>
+    <e lm="McPherson"><par n="initial-M"/><i>cPherson</i><par n="Calloc’h__np"/></e>
+    <e lm="McQueen"><par n="initial-M"/><i>cQueen</i><par n="Calloc’h__np"/></e>
+    <e lm="McRae"><par n="initial-M"/><i>cRae</i><par n="Calloc’h__np"/></e>
+    <e lm="McShain"><par n="initial-M"/><i>cShain</i><par n="Calloc’h__np"/></e>
+    <e lm="McShane"><par n="initial-M"/><i>cShane</i><par n="Calloc’h__np"/></e>
+    <e lm="McSherry"><par n="initial-M"/><i>cSherry</i><par n="Calloc’h__np"/></e>
+    <e lm="McSweeney"><par n="initial-M"/><i>cSweeney</i><par n="Calloc’h__np"/></e>
+    <e lm="McSwiney"><par n="initial-M"/><i>cSwiney</i><par n="Calloc’h__np"/></e>
+    <e lm="McTwisp"><par n="initial-M"/><i>cTwisp</i><par n="Calloc’h__np"/></e>
+    <e lm="McVeigh"><par n="initial-M"/><i>cVeigh</i><par n="Calloc’h__np"/></e>
+    <e lm="McVie"><par n="initial-M"/><i>cVie</i><par n="Calloc’h__np"/></e>
+    <e lm="Meisen"><par n="initial-M"/><i>eisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Meissen"><par n="initial-M"/><i>eissen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mersen"><par n="initial-M"/><i>ersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mesen"><par n="initial-M"/><i>esen</i><par n="Calloc’h__np"/></e>
+    <e lm="Michelsen"><par n="initial-M"/><i>ichelsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Michielsen"><par n="initial-M"/><i>ichielsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Miosen"><par n="initial-M"/><i>iosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Misen"><par n="initial-M"/><i>isen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mommsen"><par n="initial-M"/><i>ommsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Montcresson"><par n="initial-M"/><i>ontcresson</i><par n="Calloc’h__np"/></e>
+    <e lm="Montesson"><par n="initial-M"/><i>ontesson</i><par n="Calloc’h__np"/></e>
+    <e lm="Morisson"><par n="initial-M"/><i>orisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Morrisson"><par n="initial-M"/><i>orrisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Mortensen"><par n="initial-M"/><i>ortensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mousson"><par n="initial-M"/><i>ousson</i><par n="Calloc’h__np"/></e>
+    <e lm="Mühlhausen"><par n="initial-M"/><i>ühlhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Mülhausen"><par n="initial-M"/><i>ülhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Munchausen"><par n="initial-M"/><i>unchausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Musson"><par n="initial-M"/><i>usson</i><par n="Calloc’h__np"/></e>
+    <e lm="Nansen"><i>Nansen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nastasen"><i>Nastasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nennhausen"><i>Nennhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nepomusen"><i>Nepomusen</i><par n="Calloc’h__np"/></e>
+    <e lm="Neuhausen"><i>Neuhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Niclasen"><i>Niclasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Niederhausen"><i>Niederhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Niedersachsen"><i>Niedersachsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Niederschönhausen"><i>Niederschönhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nielsen"><i>Nielsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nijssen"><i>Nijssen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nilsson"><i>Nilsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Nincsen"><i>Nincsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Nordhausen"><i>Nordhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Bannon"><i>O’Bannon</i><par n="Calloc’h__np"/></e>
+    <e lm="Oberhausen"><i>Oberhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Brian"><i>O’Brian</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Brien"><i>O’Brien</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Brien"><i>O’Brien</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Brother"><i>O’Brother</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Bryan"><i>O’Bryan</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Carolan"><i>O’Carolan</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Casey"><i>O’Casey</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Cathain"><i>O’Cathain</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Coineen"><i>O’Coineen</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Connel"><i>O’Connel</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Connell"><i>O’Connell</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Connell"><i>O’Connell</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Conner"><i>O’Conner</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Connor"><i>O’Connor</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Connor"><i>O’Connor</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Day"><i>O’Day</i><par n="Calloc’h__np"/></e>
+    <e lm="Oddsson"><i>Oddsson</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Donnell"><i>O’Donnell</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Donojú"><i>O’Donojú</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Donovan"><i>O’Donovan</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Donovan"><i>O’Donovan</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Doyle"><i>O’Doyle</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Duffy"><i>O’Duffy</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Faolain"><i>O’Faolain</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Farrell"><i>O’Farrell</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Flaherty"><i>O’Flaherty</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Flynn"><i>O’Flynn</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Growney"><i>O’Growney</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Hanlon"><i>O’Hanlon</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Hara"><i>O’Hara</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Higgins"><i>O’Higgins</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Keeffe"><i>O’Keeffe</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Keeffe"><i>O’Keeffe</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Kelly"><i>O’Kelly</i><par n="Calloc’h__np"/></e>
+    <e lm="Olavsson"><i>Olavsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Olesen"><i>Olesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Oligosen"><i>Oligosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Olofsson"><i>Olofsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Olsen"><i>Olsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Olsson"><i>Olsson</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Mahony"><i>O’Mahony</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Malley"><i>O’Malley</i><par n="Calloc’h__np"/></e>
+    <e lm="O’May"><i>O’May</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Meara"><i>O’Meara</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Mero"><i>O’Mero</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Mine"><i>O’Mine</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Murphy"><i>O’Murphy</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Murphy"><i>O’Murphy</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Neal"><i>O’Neal</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Neil"><i>O’Neil</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Neill"><i>O’Neill</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Neill"><i>O’Neill</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Nolan"><i>O’Nolan</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Reilly"><i>O’Reilly</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Riordan"><i>O’Riordan</i><par n="Calloc’h__np"/></e>
+    <e lm="Ormesson"><i>Ormesson</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Rourke"><i>O’Rourke</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Shanter"><i>O’Shanter</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Shea"><i>O’Shea</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Stravaganza"><i>O’Stravaganza</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Sullivan"><i>O’Sullivan</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Sullivans"><i>O’Sullivans</i><par n="Calloc’h__np"/></e>
+    <e lm="O’Toole"><i>O’Toole</i><par n="Calloc’h__np"/></e>
+    <e lm="Ottensen"><i>Ottensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ottesen"><i>Ottesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Paleosen"><par n="initial-P"/><i>aleosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Pálsson"><par n="initial-P"/><i>álsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Pattensen"><par n="initial-P"/><i>attensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Patursson"><par n="initial-P"/><i>atursson</i><par n="Calloc’h__np"/></e>
+    <e lm="Paulsen"><par n="initial-P"/><i>aulsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Pedersen"><par n="initial-P"/><i>edersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Pedersson"><par n="initial-P"/><i>edersson</i><par n="Calloc’h__np"/></e>
+    <e lm="Pellisson"><par n="initial-P"/><i>ellisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Persson"><par n="initial-P"/><i>ersson</i><par n="Calloc’h__np"/></e>
+    <e lm="Petersen"><par n="initial-P"/><i>etersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Pilsen"><par n="initial-P"/><i>ilsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Plassen"><par n="initial-P"/><i>lassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Pleistosen"><par n="initial-P"/><i>leistosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Plessen"><par n="initial-P"/><i>lessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Pliosen"><par n="initial-P"/><i>liosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Poisson"><par n="initial-P"/><i>oisson</i><par n="Calloc’h__np"/></e>
+    <e lm="Posen"><par n="initial-P"/><i>osen</i><par n="Calloc’h__np"/></e>
+    <e lm="Preussen"><par n="initial-P"/><i>reussen</i><par n="Calloc’h__np"/></e>
+    <e lm="Prinzessen"><par n="initial-P"/><i>rinzessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ramussen"><i>Ramussen</i><par n="Calloc’h__np"/></e>
+    <e lm="Rasmussen"><i>Rasmussen</i><par n="Calloc’h__np"/></e>
+    <e lm="Recklinghausen"><i>Recklinghausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Reisen"><i>Reisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Rengershausen"><i>Rengershausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Risen"><i>Risen</i><par n="Calloc’h__np"/></e>
+    <e lm="Rosen"><i>Rosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Rossen"><i>Rossen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sachsenhausen"><i>Sachsenhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sangerhausen"><i>Sangerhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sangershausen"><i>Sangershausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sassen"><i>Sassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Schaffhausen"><i>Schaffhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Schönhausen"><i>Schönhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Segsen"><i>Segsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Seksen"><i>Seksen</i><par n="Calloc’h__np"/></e>
+    <e lm="Shinkansen"><i>Shinkansen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sigfússon"><i>Sigfússon</i><par n="Calloc’h__np"/></e>
+    <e lm="Sigurdsson"><i>Sigurdsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Sigurðsson"><i>Sigurðsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Sonderhausen"><i>Sonderhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sørensen"><i>Sørensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sparkassen"><i>Sparkassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Steinstossen"><i>Steinstossen</i><par n="Calloc’h__np"/></e>
+    <e lm="Stensen"><i>Stensen</i><par n="Calloc’h__np"/></e>
+    <e lm="Stockausen"><i>Stockausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sturlusson"><i>Sturlusson</i><par n="Calloc’h__np"/></e>
+    <e lm="Suomalaisen"><i>Suomalaisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Sveinsson"><i>Sveinsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Sverkersson"><i>Sverkersson</i><par n="Calloc’h__np"/></e>
+    <e lm="Sweynsson"><i>Sweynsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Taillasson"><par n="initial-T"/><i>aillasson</i><par n="Calloc’h__np"/></e>
+    <e lm="Tannhausen"><par n="initial-T"/><i>annhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thannhausen"><par n="initial-T"/><i>hannhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thomsen"><par n="initial-T"/><i>homsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thonissen"><par n="initial-T"/><i>honissen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thorlaksson"><par n="initial-T"/><i>horlaksson</i><par n="Calloc’h__np"/></e>
+    <e lm="Thoroddsen"><par n="initial-T"/><i>horoddsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thorsen"><par n="initial-T"/><i>horsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thorvaldsen"><par n="initial-T"/><i>horvaldsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thurneysen"><par n="initial-T"/><i>hurneysen</i><par n="Calloc’h__np"/></e>
+    <e lm="Thyssen"><par n="initial-T"/><i>hyssen</i><par n="Calloc’h__np"/></e>
+    <e lm="Tiersen"><par n="initial-T"/><i>iersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Tiessen"><par n="initial-T"/><i>iessen</i><par n="Calloc’h__np"/></e>
+    <e lm="Tlemsen"><par n="initial-T"/><i>lemsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Torstensson"><par n="initial-T"/><i>orstensson</i><par n="Calloc’h__np"/></e>
+    <e lm="Tousen"><par n="initial-T"/><i>ousen</i><par n="Calloc’h__np"/></e>
+    <e lm="Traisen"><par n="initial-T"/><i>raisen</i><par n="Calloc’h__np"/></e>
+    <e lm="Twinsen"><par n="initial-T"/><i>winsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Uetersen"><i>Uetersen</i><par n="Calloc’h__np"/></e>
+    <e lm="Ulrichsen"><i>Ulrichsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Usson"><i>Usson</i><par n="Calloc’h__np"/></e>
+    <e lm="Vacsen"><i>Vacsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Vaucresson"><i>Vaucresson</i><par n="Calloc’h__np"/></e>
+    <e lm="Vebjørnsson"><i>Vebjørnsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Velsen"><i>Velsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Vilhjálmsson"><i>Vilhjálmsson</i><par n="Calloc’h__np"/></e>
+    <e lm="Vindrosen"><i>Vindrosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Virtuosen"><i>Virtuosen</i><par n="Calloc’h__np"/></e>
+    <e lm="Vogesen"><i>Vogesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Vossen"><i>Vossen</i><par n="Calloc’h__np"/></e>
+    <e lm="Vülhausen"><i>Vülhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Waldhausen"><i>Waldhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wallhausen"><i>Wallhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Waltershausen"><i>Waltershausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Warmenhuysen"><i>Warmenhuysen</i><par n="Calloc’h__np"/></e>
+    <e lm="Warthausen"><i>Warthausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Westeinderplassen"><i>Westeinderplassen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wetzhausen"><i>Wetzhausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wiesen"><i>Wiesen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wildeshausen"><i>Wildeshausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Willumsen"><i>Willumsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Winsen"><i>Winsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wissen"><i>Wissen</i><par n="Calloc’h__np"/></e>
+    <e lm="Woldsen"><i>Woldsen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wolfratshausen"><i>Wolfratshausen</i><par n="Calloc’h__np"/></e>
+    <e lm="Wossen"><i>Wossen</i><par n="Calloc’h__np"/></e>
+    <e lm="Yasen"><i>Yasen</i><par n="Calloc’h__np"/></e>
+    <e lm="Zaysen"><i>Zaysen</i><par n="Calloc’h__np"/></e>
+    <e lm="Zossen"><i>Zossen</i><par n="Calloc’h__np"/></e>
+
+    <e lm="Ford"><i>Ford</i><par n="Calloc’h__np"/></e>
+    <e lm="Vermeer"><i>Vermeer</i><par n="Calloc’h__np"/></e>
+    <e lm="Trump"><par n="initial-T"/><i>rump</i><par n="Calloc’h__np"/></e>
+
+    <e lm="Boulogne"><par n="initial-B"/><i>oulogne</i><par n="Roazhon__np"/></e>
+    <e lm="Borneo"><par n="initial-B"/><i>orneo</i><par n="Roazhon__np"/></e>
 
 <!-- From Bible/apertium-eng -->
 <e lm="Moizez"><i>Moizez</i><par n="Yann__np"/></e>
@@ -23288,7 +24005,7 @@
     <e lm="ofisiel"><i>ofisiel</i><par n="bras__adj"/></e>
     <e lm="okeaniat"><i>Okeaniat</i><par n="bras__adj"/></e>
     <e lm="okitan"><i>okitan</i><par n="bras__adj"/></e>
-    <e lm="okitaneg"><i>okitaneg</i><par n="bras__adj"/></e>
+    <e lm="okitanek"><i>okitanek</i><par n="bras__adj"/></e>
     <e lm="olimpek"><i>olimpek</i><par n="bras__adj"/></e>
     <e lm="omanat"><i>omanat</i><par n="bras__adj"/></e>
     <e lm="onest"><i>onest</i><par n="bras__adj"/></e>	
@@ -23627,6 +24344,7 @@
     <e lm="turkek"><par n="initial-t"/><i>urkek</i><par n="bras__adj"/></e>
     <e lm="turkmen"><par n="initial-t"/><i>urkmen</i><par n="bras__adj"/></e>
     <e lm="tuvaluan"><par n="initial-t"/><i>uvaluan</i><par n="bras__adj"/></e>
+    <e lm="juluan"><i>juluan</i><par n="bras__adj"/></e>
     <e lm="uhel"><i>uhel</i><par n="bras__adj"/></e>
     <e lm="uhel e live"><i>uhel</i><par n="bras__adj"/><p><l><b/>e<b/>live</l><r><g><b/>e<b/>live</g></r></p></e>
     <e lm="uhel o live"><i>uhel</i><par n="bras__adj"/><p><l><b/>o<b/>live</l><r><g><b/>o<b/>live</g></r></p></e>
@@ -27508,8 +28226,9 @@
 
     <!-- Abbreviations -->   
 
-    <e lm="Dr."><i>Dr.</i><par n="Dr.__abbr"/></e>
-    <e lm="St."><i>St.</i><par n="Dr.__abbr"/></e>
+    <e lm="Dr."><i>Dr</i><par n="Dr.__abbr"/></e>
+    <e lm="St."><i>St</i><par n="Dr.__abbr"/></e>
+    <e lm="Jr."><i>Jr</i><par n="Dr.__abbr"/></e>
 	
   </section>
 
