@@ -513,6 +513,17 @@
 7	kreñv	kreñv	ADJ	adj	_	5	conj	_	_
 8	.	.	PUNCT	sent	_	4	punct	_	_
 
+# sent_id = bro-gozh.vislcg.txt:7:161
+# text = Dihunet out bremañ, ma Breizh !
+# text[fra] = Tu es réveillée maintenant ma Bretagne!
+1	Dihunet	dihuniñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	out	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	bremañ	bremañ	ADV	adv	_	1	advmod	_	_
+4	,	,	PUNCT	cm	_	6	punct	_	_
+5	ma	ma	DET	det	PronType=Pos	6	det	_	_
+6	Breizh	Breizh	PROPN	np	Number=Sing	1	dislocated	_	_
+7	!	!	PUNCT	sent	_	1	punct	_	_
+
 # sent_id = grammar.vislcg.txt:1:0
 # text = Piv a wel Yannig ?
 # text[fra] = Qui a vu Yannig ?

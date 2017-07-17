@@ -264,7 +264,7 @@
 "<.>"
 	"." sent @punct #8->4
 
-# text =  N'eus pobl ken kaloneg a zindan an neñv,  
+# text = N'eus pobl ken kaloneg a zindan an neñv, 
 # text[fra] = 
 "<N'eus>"
 	"ne" adv
@@ -374,10 +374,6 @@
 "<!>"
 	"!" sent
 
-"<.>"
-	"." sent
-
-
 
 "<Mard>"
 	"ma" cnjsub
@@ -480,29 +476,20 @@
 "<.>"
 	"." sent
 
-
-
+# text = Dihunet out bremañ, ma Breizh !
+# text[fra] = Tu es réveillée maintenant ma Bretagne!
 "<Dihunet>"
-	"dihuniñ" vblex pp
-;	"dihuniñ" vblex imp p3 sg
+	"dihuniñ" vblex pp @root #1->0
 "<out>"
-	"bezañ" vblex pri p2 sg
+	"bezañ" vblex pri p2 sg @aux:pass #2->1
 "<bremañ>"
-	"bremañ" adv
+	"bremañ" adv @advmod #3->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #4->6
 "<ma>"
-	"ma" cnjsub
-;	"ma" ij
-;	"ma" det pos mf sp
+	"ma" det pos mf sp @det #5->6
 "<Breizh>"
-	"Breizh" np top sg
-;	"preizh" n m sg
+	"Breizh" np top sg @dislocated #6->1
 "<!>"
-	"!" sent
-
-"<.>"
-	"." sent
-
-
+	"!" sent @punct #7->1
 
