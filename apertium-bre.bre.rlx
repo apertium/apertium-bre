@@ -17,8 +17,8 @@ LIST Acr              = (n acr);
 SET  N                = NC + NP;
 
 # Numerals
-LIST Num              = (num);
-LIST Ord              = (ord);
+LIST Num              = num ;
+LIST Ord              = ord ;
 
 # Determiners         
 LIST Det              = (det);
@@ -74,7 +74,7 @@ LIST Fut              = (vblex fti) (vbser fti) (vbhaver fti);
 LIST TempsFin         = (pri) (pii) (past) (fti) (cni) (prh) (cip) (pih);  
 LIST Cond             = (cni) (cip);
 
-LIST VerbAux          = ("bezañ"ri vblex) ("kaout"ri vblex);
+LIST VerbAux          = ("bezañ" vblex) ("kaout" vblex);
 
 SET Verb              = Vbloc | Vblex | Vbser;
 SET VerbFin           = Verb + TempsFin;
@@ -164,34 +164,40 @@ SET S-BOUNDARY = CS | (sent) ;
 # Main section
 #
 
+LIST Vez = "<vez>"i ;
+LIST Ne = "ne" ;
+LIST Eur = ("<eur>"i n) ;
+LIST Bet = ("bezañ" vblex pp) ;
+LIST Pet = "<pet>"i ;
+
 SECTION
 
-SELECT VpartIDO IF (1C ("<vez>"));
+SELECT VpartIDO IF (1C Vez);
 
 REMOVE DetPos IF (0 DetPos) (0 Prep) (1C Toponim);
 
-# en ur gambr.
 REMOVE Vpart (NOT 1 Verb);
+	# en ur gambr.
 
-# Setu petra a vez graet.
-SELECT VerbFin (-1 ("<a>"ri vpart) OR ("<e>"ri vpart)) (0 ("<vez>"ri)) (1 VerbPP);
+SELECT VerbFin (-1 VpartIDO OR VpartSDO) (0 Vez) (1 VerbPP) ;
+	# Setu petra a vez graet.
 
 #Ma vez klasket sevel abadennoù
 REMOVE DetPos IF (-1 BOS) (1C Verb);
 
 #ne goust netra / n'eus redi ebet
 # N'ez an ket da labourat
-SELECT VerbFin IF (-1C ("ne"ri adv)) (NOT -1 (+kaout)) (NOT -1 (+bezañ)) (NOT 0 Vpart);
+SELECT VerbFin IF (-1C Ne) (NOT -1/* VerbAux) (NOT 0 Vpart);
 
 #deuet e oan
 SELECT Vpart IF (-1C VerbPP) (1 VerbFin);
 
 #pet eur eo 
 SELECT PrnItg IF (1 VerbImpers);
-SELECT NC IF (-1 PrnItg) (0 ("<eur>" n)) (0 VerbImpers) (1 VerbFin);
+SELECT NC IF (-1 PrnItg) (0 Eur) (0 VerbImpers) (1 VerbFin);
 
 # bet (pp) no muta nunca.
-REMOVE VerbPP IF (0 ("<pet>"ri "bezañ" pp));
+REMOVE Bet IF (0 Pet);
 
 # kouezhet oc’h
 # kouezhet oc'h bet izel-tre
@@ -923,27 +929,27 @@ SUBSTITUTE (vblex) (vblex tv) ("koumanantiñ"i vblex) (NOT 1C* Prep BARRIER S-BO
 SUBSTITUTE (vblex) (vblex tv) ("sevel"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY));
 
 ## SYNTAX 
-
-SECTION
-
-LIST @X = @X ;
-LIST @SUBJ→ = @SUBJ→ ;
-LIST @←SUBJ = @←SUBJ ;
-LIST @+FMAINV = @+FMAINV ;
-LIST @-FMAINV = @-FMAINV ;
-
-MAP (@SUBJ→) TARGET PrnSubj | PrnDem (1C ("<zo>" vblex));
-
-MAP (@SUBJ→) TARGET PrnSubj | PrnDem (1C ("a" vpart)) (2C VerbFin);
-
-MAP (@+FMAINV) TARGET VerbFin (NOT 0 (+direct));
-
-AFTER-SECTIONS
-
-MAP (@X) TARGET PrnSubj | PrnDem ;
-MAP (@X) TARGET VerbFin (NOT 0 (+direct));
-
-# n'eus kador ebet
-SUBSTITUTE (cnjsub @+FMAINV) (cnjsub) (cnjsub);
-SUBSTITUTE (cnjadv @+FMAINV) (cnjadv) (cnjadv);
-SUBSTITUTE (adv @+FMAINV) (adv) (adv);
+#
+#SECTION
+#
+#LIST @X = @X ;
+#LIST @SUBJ→ = @SUBJ→ ;
+#LIST @←SUBJ = @←SUBJ ;
+#LIST @+FMAINV = @+FMAINV ;
+#LIST @-FMAINV = @-FMAINV ;
+#
+#MAP (@SUBJ→) TARGET PrnSubj | PrnDem (1C ("<zo>" vblex));
+#
+#MAP (@SUBJ→) TARGET PrnSubj | PrnDem (1C ("a" vpart)) (2C VerbFin);
+#
+#MAP (@+FMAINV) TARGET VerbFin (NOT 0 (+direct));
+#
+#AFTER-SECTIONS
+#
+#MAP (@X) TARGET PrnSubj | PrnDem ;
+#MAP (@X) TARGET VerbFin (NOT 0 (+direct));
+#
+## n'eus kador ebet
+#SUBSTITUTE (cnjsub @+FMAINV) (cnjsub) (cnjsub);
+#SUBSTITUTE (cnjadv @+FMAINV) (cnjadv) (cnjadv);
+#SUBSTITUTE (adv @+FMAINV) (adv) (adv);

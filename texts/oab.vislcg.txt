@@ -38,100 +38,98 @@
 # text = An takad merket gant ar bir n'eo ket ur c'halaksienn met ur bouilh stered ha gaz a zeu eus unan eus ar galaksiennoù distummet gant efed ar gravitadur.
 # text[fra] = La zone indiquée par la flèche n'est pas une galaxie mais un jet d'étoiles et de gaz provenant d'une des galaxies déformée par effet gravitationnel.
 "<An>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<takad>"
-	"takad" n m sg
+	"takad" n m sg @nsubj #2->11
 "<merket>"
-	"merkañ" vblex pp
+	"merkañ" vblex pp @acl #3->2
 "<gant>"
-	"gant" pr @case
+	"gant" pr @case #4->6
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #5->6
 "<bir>"
-	"bir" n m sg
+	"bir" n m sg @obl #6->3
 "<n'>"
-	"ne" adv neg 
+	"ne" adv neg @advmod #7->11
 "<eo>"
-	"bezañ" vblex pri p3 sg 
+	"bezañ" vblex pri p3 sg @cop #8->11
 "<ket>"
-	"ket" adv 
+	"ket" adv @advmod:neg #9->11
 "<ur>"
-	"un" det ind sp @det
+	"un" det ind sp @det #10->11
 "<c'halaksienn>"
-	"galaksienn" n f sg
+	"galaksienn" n f sg @root #11->0
 "<met>"
-	"met" cnjcoo
+	"met" cnjcoo @cc #12->14
 "<ur>"
-	"un" det ind sp @det
+	"un" det ind sp @det #13->14
 "<bouilh>"
-	"bouilh" n m sg
+	"bouilh" n m sg @conj #14->11
 "<stered>"
-	"stered" n f pl
+	"stered" n f pl @nmod:gen #15->14
 "<ha>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #16->17
 "<gaz>"
-	"gaz" n m sg
+	"gaz" n m sg @conj #17->15
 "<a>"
-	"a" vpart 
+	"a" vpart @aux #18->19
 "<zeu>"
-	"dont" vblex pri p3 sg 
+	"dont" vblex pri p3 sg @x #19->14
 "<eus>"
-	"eus" pr @case
+	"eus" pr @case #20->21
 "<unan>"
-	"unan" num mf sg
-;	"unaniñ" vblex imp p2 sg 
-;	"unaniñ" vblex pri p3 sg 
+	"unan" num mf sg @x #21->19
 "<eus>"
-	"eus" pr @case
+	"eus" pr @case #22->24
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #23->24
 "<galaksiennoù>"
-	"galaksienn" n f pl
+	"galaksienn" n f pl @nmod #24->21
 "<distummet>"
-	"distummañ" vblex pp
+	"distummañ" vblex pp @acl #25->24
 "<gant>"
-	"gant" pr @case
+	"gant" pr @case #26->27
 "<efed>"
-	"efed" n m sg
+	"efed" n m sg @obl #27->25
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #28->29
 "<gravitadur>"
-	"gravitadur" n m sg
+	"gravitadur" n m sg @nmod:gen #29->27
 "<.>"
-	"." sent @punct
+	"." sent @punct #30->11
 
 # text = En em gavout a rae takadoù bras eus an aod dindan an dour ha dindan an amzer a bep eil un nebeud eurvezhioù war-lerc'h.
 # text[fra] = De vastes zones côtières se retrouvent donc alternativement submergées par les eaux, puis à l'air libre quelques heures plus tard.
 "<En em>"
-	"en em" vpart ref @disc
+	"en em" vpart ref @aux
 "<gavout>"
 	"kavout" vblex inf
 "<a>"
-	"a" vpart @disc
+	"a" vpart @aux
 "<rae>"
 	"ober" vblex pii p3 sg 
 "<takadoù>"
 	"takad" n m pl
 "<bras>"
-	"bras" adj mf sp
+	"bras" adj mf sp @amod
 "<eus>"
 	"eus" pr @case
 "<an>"
-	"an" det def sp
+	"an" det def sp @det
 "<aod>"
 	"aod" n m sg
 "<dindan>"
 	"dindan" pr @case
 "<an>"
-	"an" det def sp
+	"an" det def sp @det
 "<dour>"
 	"dour" n m sg
 "<ha>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc
 "<dindan>"
 	"dindan" pr @case
 "<an>"
-	"an" det def sp
+	"an" det def sp @det
 "<amzer>"
 	"amzer" n f sg
 "<a>"
@@ -203,35 +201,35 @@
 # text = Katalog menegerioù lodenn ar Rannvro atebek a oa bet kinniget da-geñver ar memes dalc'h.
 # text[fra] = Le catalogue des indicateurs du volet Région responsable a été présenté lors de la même session.
 "<Katalog>"
-	"katalog" n m sg @dep
+	"katalog" n m sg @nsubj #1->10
 "<menegerioù>"
-	"meneger" n m pl @nmod:gen
+	"meneger" n m pl @nmod:gen #2->1
 "<lodenn>"
-	"lodenn" n f sg @nmod:gen
+	"lodenn" n f sg @nmod:gen #3->2
 "<ar>"
-	"an" det def sp @det
+	"an" det def sp @det #4->5
 "<Rannvro>"
-	"rannvro" n f sg @nmod:gen
+	"rannvro" n f sg @nmod:gen #5->3
 "<atebek>"
-	"atebek" adj mf sp @amod
+	"atebek" adj mf sp @amod #6->5
 "<a>"
-	"a" vpart 
+	"a" vpart @aux #7->10
 "<oa>"
-	"bezañ" vblex pii p3 sg 
+	"bezañ" vblex pii p3 sg @aux #8->10
 "<bet>"
-	"bezañ" vblex pp 
+	"bezañ" vblex pp @aux:pass #9->10
 "<kinniget>"
-	"kinnig" vblex pp
+	"kinnig" vblex pp @root #10->0
 "<da-geñver>"
-	"da-geñver" pr @case
+	"da-geñver" pr @case #11->14
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #12->14
 "<memes>"
-	"memes" adj ind mf sp
+	"memes" adj ind mf sp @amod #13->14
 "<dalc'h>"
-	"dalc’h" n m sg
+	"dalc’h" n m sg @obl #14->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #15->10
 
 # text = Framm dave an diorren padus e Breizh
 # text[fra] = Le cadre de référence du développement durable en Bretagne
@@ -253,37 +251,30 @@
 # text = Pa vez tort an Heol d'an dremmwel o deus ar « bannoù » anezhañ ur gwiskad aergelc'h tevoc'h da dreuziñ.
 # text[fra] = Lorsque le Soleil est proche de l'horizon, les « rayons » du Soleil ont une plus grande épaisseur d'atmosphère à traverser.
 "<Pa>"
-	"pa" cnjsub 
+	"pa" cnjsub @mark #1->3
 "<vez>"
-	"bezañ" vblex prh p3 sg 
-;	"bezañ" vblex imp p2 sg 
-;	"bez" n m sg 
-;	"mez" n f pl 
+	"bezañ" vblex prh p3 sg @cop #2->3
 "<tort>"
-	"tort" adj mf sp 
-;	"tort" n m sg 
+	"tort" adj mf sp @advcl #3->9
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg 
-;	"monet" vblex pri p1 sg 
+	"an" det def sp @det #4->5
 "<Heol>"
-	"heol" n m sg
+	"heol" n m sg @nsubj #5->3
 "<d'an>"
-	"da" pr @case
-		"an" det def sp
+	"da" pr @case #6->8
+		"an" det def sp @det #7->8
 "<dremmwel>"
-	"dremmwel" n m sg
+	"dremmwel" n m sg @obl #8->3
 "<o deus>"
-	"kaout" vblex pri p3 pl 
+	"kaout" vblex pri p3 pl @root #9->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg 
+	"an" det def sp @det #10->12
 "<«>"
-	"«" lquot
+	"«" lquot @punct #11->12
 "<bannoù>"
-	"bann" n m pl
+	"bann" n m pl @nsubj #12->9
 "<»>"
-	"»" rquot
+	"»" rquot @punct #13->12
 "<anezhañ>"
 	"eus" pr @case
 		"indirect" prn obj p3 m sg
@@ -291,17 +282,15 @@
 "<ur>"
 	"un" det ind sp @det
 "<gwiskad>"
-	"gwiskad" n m sg
+	"gwiskad" n m sg 
 "<aergelc'h>"
-	"aergelc’h" n m sg
+	"aergelc’h" n m sg @nmod:gen
 "<tevoc'h>"
-	"tev" adj sint comp
-;	"deviñ" vblex fti p2 pl 
+	"tev" adj sint comp @amod
 "<da>"
-	"da" pr 
-;	"da" det pos mf sp 
+	"da" pr @mark 
 "<dreuziñ>"
-	"treuziñ" vblex inf
+	"treuziñ" vblex inf @acl
 "<.>"
 	"." sent @punct
 
@@ -389,31 +378,31 @@
 # text = Heuliet e oa bet pizh kresk ar vugale e-touez gorilhed ar menezioù.
 # text[fra] = Le développement de l'enfant a été suivi avec minutie chez le gorille de montagne.
 "<Heuliet>"
-	"heuliañ" vblex pp 
+	"heuliañ" vblex pp @root #1->0
 "<e>"
-	"e" vpart obj @aux
+	"e" vpart obj @aux #2->1
 "<oa>"
-	"bezañ" vblex pii p3 sg 
+	"bezañ" vblex pii p3 sg @aux #3->1
 "<bet>"
-	"bezañ" vblex pp 
+	"bezañ" vblex pp @aux:pass #4->1
 "<pizh>"
-	"pizh" adv 
+	"pizh" adv @advmod #5->1
 "<kresk>"
-	"kresk" n m sg
+	"kresk" n m sg @nsubj #6->1
 "<ar>"
-	"an" det def sp @det
+	"an" det def sp @det #7->8
 "<vugale>"
-	"bugel" n m pl @nmod:gen
+	"bugel" n m pl @nmod:gen #8->6
 "<e-touez>"
-	"e-touez" pr @case
+	"e-touez" pr @case #9->10
 "<gorilhed>"
-	"gorilh" n m pl 
+	"gorilh" n m pl @obl #10->1
 "<ar>"
-	"an" det def sp @det
+	"an" det def sp @det #11->12
 "<menezioù>"
-	"menez" n m pl @nmod:gen
+	"menez" n m pl @nmod:gen #12->10
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->1
 
 # text = Emgavioù etre strolladoù gorilhed a vez alies dre ma n'int ket loened da zerc'hel d'o zachenn ha dre ma rannont an tachennoù-se.
 # text[fra] = Les rencontres entre groupes de gorilles sont favorisées par le fait que les gorilles ne sont pas des animaux territoriaux et que leurs groupes utilisent des domaines qui se chevauchent largement.
