@@ -16,6 +16,8 @@
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="cog"     c="Cognomen"/>
     <sdef n="abbr"    c="Abbreviations"/>
+    <sdef n="barb"    c="Barbarismes"/>
+    <sdef n="sym"     c="Symbols"/>
     <sdef n="al"      c="Autres"/>
     <sdef n="pr"      c="Preposition"/>
     <sdef n="cnjcoo"  c="Conjonction de coordination"/>
@@ -71,6 +73,7 @@
     <sdef n="percent" c="Percentage"/>
     <sdef n="rpar"    c=""/>
     <sdef n="lquot"   c=""/>
+    <sdef n="quot"    c=""/>
     <sdef n="rquot"   c=""/>
     <sdef n="sent"    c="End of sentence marker"/>
     <sdef n="ND"/>
@@ -136,6 +139,15 @@
       <e><re>[a-z.]+@[a-z.]+</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
 
+    <pardef n="simbols">
+      <e><re>[αβγδεζηθικλμνξοπρσςτυφχψω]</re><p><l></l><r><s n="sym"/></r></p></e>
+    </pardef>
+
+    <pardef n="barbarismes">
+      <e><re>[αβγδεζηθικλμνξοπρσςτυφχψω][αβγδεζηθικλμνξοπρσςτυφχψω]+</re><p><l></l><r><s n="barb"/></r></p></e>
+      <e><re>[а-яё]+</re><p><l></l><r><s n="barb"/></r></p></e>
+    </pardef>
+
     <pardef n="guionet">
       <e><p><l>-</l><r>-<s n="guio"/></r></p></e>
     </pardef>
@@ -147,6 +159,9 @@
     <pardef n="quot">
       <e><p><l>«</l><r>«<s n="lquot"/></r></p></e>
       <e><p><l>»</l><r>«<s n="rquot"/></r></p></e>
+      <e><p><l>“</l><r>“<s n="lquot"/></r></p></e>
+      <e><p><l>”</l><r>”<s n="rquot"/></r></p></e>
+      <e><p><l>"</l><r>"<s n="quot"/></r></p></e>
     </pardef>
 
     <pardef n="apos">
@@ -29270,13 +29285,13 @@
     <e>
       <par n="acronimos"/> <!-- Acronyms -->
     </e>
-    <e>
-      <par n="separa"/> <!-- End of sentence -->
-    </e>
+    <e><par n="separa"/> <!-- End of sentence --></e>
     <e>
       <par n="emails"/>
     </e>
     <e><par n="urls"/></e>
+    <e><par n="simbols"/></e>
+    <e><par n="barbarismes"/></e>
     <e><par n="distàncies"/></e>
     <e><par n="personas"/></e>
     <e><par n="guionet"/></e>

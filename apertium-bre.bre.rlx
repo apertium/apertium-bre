@@ -4,8 +4,9 @@ SOFT-DELIMITERS       = "<,>" ;
 LIST BOS              = (>>>) (sent);
 LIST EOS              = (<<<) (sent);
 
-LIST Coma             = cm ;
+LIST Cm               = cm ;
 LIST Guio             = guio ;
+LIST Excl             = "!" ;
 
 # Nouns
 LIST NC               = (n);
@@ -145,13 +146,14 @@ LIST Ne = "ne" ;
 LIST Eur = ("<eur>"i n) ;
 LIST Bet = ("bezañ" vblex pp) ;
 LIST Pet = "<pet>"i ;
+LIST O = "<o>"i ; 
 
 #
 #	Semantic lists
 #
 
-LIST Language		= ("alamaneg"ri n) ("brezhoneg"ri n) ("euskareg"ri n) ("gallaoueg"ri n) ("galleg"ri n) ("gwenedeg"ri n) ("italianeg"ri n) ("iwerzhoneg"ri n) 
-                      ("katalaneg"ri n) ("kembraeg"ri n) ("kerneveureg"ri n) ("manaveg"ri n) ("saozneg"ri n) ("skoseg"ri n) ("spagnoleg"ri n);
+LIST Language	= ("alamaneg" n) ("brezhoneg" n) ("euskareg" n) ("gallaoueg" n) ("galleg" n) ("gwenedeg" n) ("italianeg" n) ("iwerzhoneg" n) 
+                  ("katalaneg" n) ("kembraeg" n) ("kerneveureg" n) ("manaveg" n) ("saozneg" n) ("skoseg" n) ("spagnoleg" n);
 
 # Sets
 
@@ -524,9 +526,9 @@ SELECT ("re" prn) IF (0 ("<re>"ri)) (1C Toponim);
 
 # Interyecciones 
 # ma, mont a ran kuit
-REMOVE Interj IF (NOT 1 Coma);
+REMOVE Interj IF (NOT 1 Cm OR Excl);
 
-SELECT Interj IF (-1 BOS) (1 Coma);
+SELECT Interj IF (-1 BOS) (1 Cm OR Excl);
 
 # ar staj-se, an hini kentañ evel-se
 SELECT DetDef IF (1 ("hini"));
