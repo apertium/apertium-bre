@@ -158,7 +158,7 @@
 2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	kêr-benn	kêr-penn	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
 4	Bro-Saoz	bro-Saoz	PROPN	np	Number=Sing	3	nmod:gen	_	_
-5	.	.	PUNCT	sent	_	3	punct	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = apertium.vislcg.txt:19:230
 # text = Ret eo dit dont.

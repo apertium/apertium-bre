@@ -409,7 +409,7 @@
 "<Bro-Saoz>"
 	"bro-Saoz" np top sg @nmod:gen #4->3
 "<.>"
-	"." sent @punct #5->3
+	"." sent @punct #5->1
 
 # text = Pa vez anv a vont kuit.
 # text[fra] = Quand il est question de partir.
