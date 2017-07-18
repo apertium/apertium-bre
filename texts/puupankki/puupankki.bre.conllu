@@ -4316,6 +4316,118 @@
 5	.	.	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:9:111
+# text = Krouet e oa ar rannvro Breizh ez-ofisiel e 1943 gant gouarnamant Vichy, enni pevar departamant eus Breizh istorel hepken.
+# text[fra¹] = Il avait créé la région la Bretagne dans ta-officielle dans 1943 avec le gouvernement de Vichy, dans elle quatre départements de Bretagne historique seulement.
+1	Krouet	krouiñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	PART	vpart	_	1	aux	_	_
+3	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux:pass	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	rannvro	rannvro	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+6	Breizh	Breizh	PROPN	np	Number=Sing	5	nmod:gen	_	_
+7	ez-ofisiel	ez-ofisiel	ADJ	adj	_	5	amod	_	_
+8	e	e	ADP	pr	_	9	case	_	_
+9	1943	1943	NUM	num	Number=Plur	1	obl	_	_
+10	gant	gant	ADP	pr	_	11	case	_	_
+11	gouarnamant	gouarnamant	NOUN	n	Gender=Msc|Number=Sing	1	obl:agent	_	_
+12	Vichy	Vichy	PROPN	np	Number=Sing	11	nmod:gen	_	_
+13	,	,	PUNCT	cm	_	1	punct	_	_
+14-15	enni	_	_	_	_	_	_	_	_
+14	enni	e	ADP	pr	_	15	case	_	_
+15	nni	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	1	parataxis	_	_
+16	pevar	pevar	NUM	num	Gender=Msc|Number=Plur	17	nummod	_	_
+17	departamant	departamant	NOUN	n	Gender=Msc|Number=Sing	15	nsubj	_	_
+18	eus	eus	ADP	pr	_	19	case	_	_
+19	Breizh	Breizh	PROPN	np	Number=Sing	17	nmod	_	_
+20	istorel	istorel	ADJ	adj	_	19	amod	_	_
+21	hepken	hepken	ADV	adv	_	15	advmod	_	_
+22	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:10:157
+# text = Chaseal a raent kirvi, yourc'hed ha lern.
+# text[fra¹] = Ils chassaient des cerfs, chevreuils et renards.
+1	Chaseal	chaseal	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	raent	ober	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+4	kirvi	karv	NOUN	n	Gender=Msc|Number=Plur	1	obj	_	_
+5	,	,	PUNCT	cm	_	6	punct	_	_
+6	yourc'hed	yourc’h	NOUN	n	Gender=Msc|Number=Plur	4	conj	_	_
+7	ha	ha	CCONJ	cnjcoo	_	8	cc	_	_
+8	lern	louarn	NOUN	n	Gender=Msc|Number=Plur	4	conj	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:11:178
+# text = Stagañ a raent da c'hounit plant, ha da zoñvaat loened.
+# text[fra¹] = Ils attachaient à gagner des plantes, et à domestiquer des animaux.
+1	Stagañ	stagañ	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	raent	ober	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+4	da	da	ADP	pr	_	5	mark	_	_
+5	c'hounit	gounit	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+6	plant	plant	NOUN	n	Gender=Fem|Number=Plur	5	obj	_	_
+7	,	,	PUNCT	cm	_	10	punct	_	_
+8	ha	ha	CCONJ	cnjcoo	_	10	cc	_	_
+9	da	da	ADP	pr	_	10	mark	_	_
+10	zoñvaat	doñvaat	VERB	vblex	VerbForm=Inf	5	conj	_	_
+11	loened	loen	NOUN	n	Gender=Msc|Number=Plur	10	obj	_	_
+12	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:12:205
+# text = Ar Gelted ne implijent ket ar skritur da gustum.
+# text[fra¹] = Les Celtes n'employaient pas l'écriture à accoutumée.
+1	Ar	an	DET	det	_	2	det	_	_
+2	Gelted	Kelt	NOUN	n	Gender=Msc|Number=Plur	4	nsubj	_	_
+3	ne	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
+4	implijent	implijout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ket	ket	ADV	adv	_	4	advmod	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	skritur	skritur	NOUN	n	Gender=Msc|Number=Sing	4	obj	_	_
+8	da	da	ADP	pr	_	9	case	_	_
+9	gustum	kustum	ADJ	adj	_	4	obl	_	_
+10	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:13:228
+# text = Antreal a rae hor bro en istor.
+# text[fra¹] = Notre pays entrait dans l'histoire.
+1	Antreal	antreal	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	rae	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+4	hor	hon	DET	det	PronType=Pos	5	det	_	_
+5	bro	bro	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+6-7	en	_	_	_	_	_	_	_	_
+6	en	e	ADP	pr	_	8	case	_	_
+7	n	an	DET	det	_	8	det	_	_
+8	istor	istor	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:14:248
+# text = Lakaet e oa izili ar sened d'ar marv hag ar "peurrest" eus ar bobl a oa gwerzhet evel sklaved.
+# text[fra¹] = Il avait mis les membres du sénat à la morte et le "reste" du peuple avaient vendus comme esclaves.
+1	Lakaet	lakaat	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	PART	vpart	_	1	aux	_	_
+3	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+4	izili	ezel	NOUN	n	Gender=Msc|Number=Plur	1	obj	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	sened	sened	NOUN	n	Gender=Msc|Number=Sing	4	nmod:gen	_	_
+7-8	d'ar	_	_	_	_	_	_	_	_
+7	d	da	ADP	pr	_	8	case	_	_
+8	ar	an	DET	det	_	9	det	_	_
+9	marv	marv	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+10	hag	ha	CCONJ	cnjcoo	_	20	cc	_	_
+11	ar	an	DET	det	_	13	det	_	_
+12	"	"	_	quot	_	13	punct	_	_
+13	peurrest	peurrest	NOUN	n	Gender=Msc|Number=Sing	20	nsubj	_	_
+14	"	"	_	quot	_	13	punct	_	_
+15	eus	eus	ADP	pr	_	17	case	_	_
+16	ar	an	DET	det	_	17	det	_	_
+17	bobl	pobl	NOUN	n	Gender=Fem|Number=Sing	13	nmod	_	_
+18	a	a	PART	vpart	_	20	aux	_	_
+19	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	gwerzhet	gwerzhañ	VERB	vblex	Tense=Past|VerbForm=Part	1	conj	_	_
+21	evel	evel	ADP	pr	_	22	case	_	_
+22	sklaved	sklav	NOUN	n	Gender=Msc|Number=Plur	20	obl	_	_
+23	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:15:296
 # text = Hervez ar vonreizh eo lakaet da vezañ "Prezidant peurbadel" ar vro, goude e varv zoken.
 # text[fra¹] = Selon la constitution a mise à être le "Président éternel" du pays, même après sa morte.
 1	Hervez	hervez	ADP	pr	_	3	case	_	_
@@ -4338,7 +4450,7 @@
 18	zoken	zoken	ADV	adv	_	15	advmod	_	_
 19	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:10:152
+# sent_id = wikipedia.vislcg.txt:16:337
 # text = E gresianeg a-vremañ e vez skrivet μπ evit ober diouzh ar son .
 # text[fra¹] = Le e de grec désormais il est écrit μπ pour faire du son .
 1	E	e	ADP	pr	_	2	case	_	_
@@ -4355,7 +4467,7 @@
 12	son	son	NOUN	n	Gender=Msc|Number=Sing	9	obl	_	_
 13	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:11:181
+# sent_id = wikipedia.vislcg.txt:17:366
 # text = Bras e voe e levezon war al lennegezh italianek er XVIIvet kantved.
 # text[fra¹] = Grand fut son influence sur la littérature italienne dans le XVIIème siècle.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -4374,7 +4486,7 @@
 13	kantved	kantved	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
 14	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:12:211
+# sent_id = wikipedia.vislcg.txt:18:396
 # text = Tri bugel a zeuas d'ar priedoù.
 # text[fra¹] = Trois enfants vinent aux époux.
 1	Tri	tri	NUM	num	Gender=Msc|Number=Plur	2	nummod	_	_
