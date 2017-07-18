@@ -175,7 +175,7 @@
 "<c'hentañ>"
 	"kentañ" num ord mf sp @amod #3->4
 "<ploñjadenn>"
-	"ploñjadenn" n m sg @obl #4->7
+	"ploñjadenn" n f sg @obl #4->7
 "<,>"
 	"," cm @punct #5->7
 "<netra>"
@@ -198,7 +198,7 @@
 "<eilvet>"
 	"eil" adj mf sp @amod #3->4
 "<ploñjadenn>"
-	"ploñjadenn" n m sg @obl #4->8
+	"ploñjadenn" n f sg @obl #4->8
 "<,>"
 	"," cm @punct #5->8
 "<'r>"
@@ -223,7 +223,7 @@
 "<drede>"
 	"trede" num ord mf sp @amod #3->4
 "<ploñjadenn>"
-	"ploñjadenn" n m sg @obl #4->8
+	"ploñjadenn" n f sg @obl #4->8
 "<,>"
 	"," cm @punct #5->8
 "<ar>"
