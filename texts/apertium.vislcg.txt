@@ -399,15 +399,15 @@
 	"." sent @punct #5->1
 
 # text = Londrez eo kêr-benn Bro-Saoz.
-# text[fra] = Londres est la capitale de l'Angleterre.
+# text[fra] = La capitale de l'Angleterre est Londres.
 "<Londrez>"
-	"Londrez" np top sg @nsubj #1->3
+	"Londrez" np top sg @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg @cop #2->3
+	"bezañ" vblex pri p3 sg @cop #2->1
 "<kêr-benn>"
-	"kêr-penn" n f sg @root #3->0
+	"kêr-penn" n f sg @nsubj #3->1
 "<Bro-Saoz>"
-	"bro-Saoz" np top sg @nmod:gen #4->0
+	"bro-Saoz" np top sg @nmod:gen #4->3
 "<.>"
 	"." sent @punct #5->3
 
