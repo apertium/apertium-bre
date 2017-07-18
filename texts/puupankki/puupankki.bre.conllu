@@ -4240,7 +4240,53 @@
 11	.	.	PUNCT	sent	_	8	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:1:0
-# text = Stadoù all evel Italia hag SUA a heulias ar "GES" betek 1932-1933 tra ma chomas "Bloc'had an Aour" (Bro-C'hall, ha Polonia, Belgia, Suis d'he heul) ennañ betek 1935-1936.
-# text[fra¹] = Autres états comme Italie et SUA elle suivit le "GES" jusque 1932-1933 pendant que resta "le Bloc de l'Or" (la France, et la Pologne, la Belgique, la Suisse à sa suite) dans lui jusque 1935-1936.
-# text[fra¹] = Autres états comme Italie et SUA elle suivit le "GES" jusque 1932-1933 pendant que resta "le Bloc de l'Or" (la France, et la Pologne, la Belgique, la Suisse à sa suite) dans lui jusque 1935-1936.
+# text = Studiañ an Istor.
+# text[fra¹] = Étudier l'Histoire.
+1	Studiañ	studiañ	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	an	an	DET	det	_	3	det	_	_
+3	Istor	istor	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:2:10
+# text = Dre al lec'hioù.
+# text[fra¹] = Par les lieux.
+1	Dre	dre	ADP	pr	_	3	case	_	_
+2	al	an	DET	det	_	3	det	_	_
+3	lec'hioù	lec’h	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:3:21
+# text = Dre ar sevenadurioù.
+# text[fra¹] = Par les cultures.
+1	Dre	dre	ADP	pr	_	3	case	_	_
+2	ar	an	DET	det	_	3	det	_	_
+3	sevenadurioù	sevenadur	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:4:32
+# text = Dre an darvoudoù.
+# text[fra¹] = Par les événements.
+1	Dre	dre	ADP	pr	_	3	case	_	_
+2	an	an	DET	det	_	3	det	_	_
+3	darvoudoù	darvoud	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:5:43
+# text = Ar brezelioù hag o heuliadoù.
+# text[fra¹] = Les guerres et leur suites.
+1	Ar	an	DET	det	_	2	det	_	_
+2	brezelioù	brezel	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
+3	hag	ha	CCONJ	cnjcoo	_	5	cc	_	_
+4	o	o	DET	det	PronType=Pos	5	det	_	_
+5	heuliadoù	heuliad	NOUN	n	Gender=Msc|Number=Plur	2	conj	_	_
+6	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:6:58
+# text = Istor diavaez ar brezhoneg.
+# text[fra¹] = L'histoire externe du breton.
+1	Istor	istor	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+2	diavaez	diavaez	ADJ	adj	_	1	amod	_	_
+3	ar	an	DET	det	_	4	det	_	_
+4	brezhoneg	brezhoneg	NOUN	n	Gender=Msc|Number=Sing	1	nmod:gen	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
 
