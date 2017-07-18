@@ -9,6 +9,7 @@
 ^eur/bezañ<vblex><pri><impers><pl>$
 ^ket/ket<adv>$
 ^aet/mont<vblex><pp>$
+^war-raok/war-raok<adv>$
 ^./.<sent>$
 
 ^Ne/ne<adv><neg>$
@@ -66,8 +67,7 @@
 
 ^Bet/kaout<vblex><pp>$
 ^hon eus/kaout<vblex><pri><p1><pl>$
-^kalz/kalz<x>$
-^a/a<pr>$
+^kalz a/kalz a<pr>$
 ^draoù/tra<n><m><pl>$
 ^./.<sent>$
 
@@ -168,8 +168,7 @@
 ^C’hwitellat/c’hwitellat<vblex><inf>$
 ^a/a<vpart>$
 ^ra/ober<vblex><pri><p3><sg>$
-^en/en<x>$
-^ur/ur<vpart><ppres>$
+^en ur/en ur<vpart><ppres>$
 ^labourat/labourat<vblex><inf>$
 ^./.<sent>$
 
@@ -177,8 +176,7 @@
 ^em eus/kaout<vblex><pri><p1><sg>$
 ^ar/an<det><def><sp>$
 ^c’hi/ki<n><m><sg>$
-^en/en<x>$
-^ur/ur<vpart><ppres>$
+^en ur/en ur<vpart><ppres>$
 ^dreuziñ/treuziñ<vblex><inf>$
 ^an/an<det><def><sp>$
 ^hent/hent<n><m><sg>$
@@ -216,32 +214,28 @@
 ^lazhet/lazhañ<vblex><pp>$
 ^./.<sent>$
 
-^En/en<x>$
-^em/em<vpart><ref>$
+^En em/en em<vpart><ref>$
 ^gannet/kannañ<vblex><pp>$
 ^out/bezañ<vblex><pri><p2><sg>$
 ^c'hoazh/c’hoazh<adv>$
 ^?/?<sent>$
 
 ^Me/prpers<prn><subj><p1><mf><sg>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^walc'h/gwalc’hañ<vblex><pri><p3><sg>$
 ^./.<sent>$
 
 ^Er/e<pr>+an<det><def><sp>$
 ^sal/sal<n><f><sg>$
 ^dour/dour<n><m><sg>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^walc'han/gwalc’hañ<vblex><pri><p1><sg>$
 ^./.<sent>$
 
 ^Er/e<pr>+an<det><def><sp>$
 ^sal/sal<n><f><sg>$
 ^dour/dour<n><m><sg>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^walc'hen/gwalc’hañ<vblex><pii><p1><sg>$
 ^./.<sent>$
 
@@ -249,13 +243,11 @@
 ^sal/sal<n><f><sg>$
 ^dour/dour<n><m><sg>$
 ^on/bezañ<vblex><pri><p1><sg>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^walc'het/gwalc’hañ<vblex><pp>$
 ^./.<sent>$
 
-^En/en<x>$
-^em/em<vpart><ref>$
+^En em/en em<vpart><ref>$
 ^walc'het/gwalc’hañ<vblex><pp>$
 ^on/bezañ<vblex><pri><p1><sg>$
 ^er/e<pr>+an<det><def><sp>$
@@ -264,8 +256,7 @@
 ^./.<sent>$
 
 ^Perak/perak<adv><itg>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^walc'hez/gwalc’hañ<vblex><pri><p2><sg>$
 ^?/?<sent>$
 
@@ -297,8 +288,7 @@
 ^ivez/ivez<adv>$
 ^./.<sent>$
 
-^Kalz/kalz<x>$
-^re/re<adv>$
+^Kalz re/kalz re<adv>$
 ^hir/hir<adj><mf><sp>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^ar/an<det><def><sp>$
@@ -313,6 +303,7 @@
 ^./.<sent>$
 
 ^Gallout/gallout<vblex><inf>$
+^a/a<vpart>$
 ^rin/ober<vblex><fti><p1><sg>$
 ^ober/ober<vblex><inf>$
 ^kement-se/kement-se<prn><dem><mf><sg>$
@@ -352,6 +343,7 @@
 ^./.<sent>$
 
 ^Piv/piv<prn><itg><mf><sp>$
+^eo/bezañ<vblex><pri><p3><sg>$
 ^ar/an<det><def><sp>$
 ^pempvet/pempvet<adj><mf><sp>$
 ^?/?<sent>$
@@ -451,12 +443,10 @@
 ^Ober/ober<vblex><inf>$
 ^a/a<vpart>$
 ^reot/ober<vblex><fti><p2><pl>$
-^pep/pep<x>$
-^tra/tra<prn><def><mf><sg>$
+^pep tra/pep tra<prn><def><mf><sg>$
 ^evit/evit<pr>$
-^en/en<x>$
-^em/em<vpart><ref>$
-^ho/ho<det><pos><mf><sp>$
+^en em/en em<vpart><ref>$
+^staliañ/staliañ<vblex><inf>$
 ^da/da<det><pos><mf><sp>$
 ^vat/mat<adj><mf><sp>$
 ^,/,<cm>$
@@ -464,9 +454,9 @@
 ^ho/ho<det><pos><mf><sp>$
 ^puhez/buhez<n><f><sg>$
 ^personel/personel<adj><mf><sp>$
-^koulz/koulz<x>$
-^hag/hag<cnjcoo>$
+^koulz hag/koulz hag<cnjcoo>$
 ^en/e<pr>$
+^ho/ho<det><pos><mf><sp>$
 ^puhez/buhez<n><f><sg>$
 ^labour/labour<n><m><sg>$
 ^./.<sent>$
@@ -612,8 +602,7 @@
 
 ^Brudet/brudañ<vblex><pp>$
 ^eo/bezañ<vblex><pri><p3><sg>$
-^an/An<x>$
-^Arvor/Arvor<np><top><sg>$
+^an Arvor/An Arvor<np><top><sg>$
 ^dre/dre<pr>$
 ^ar/an<det><def><sp>$
 ^bed/bed<n><m><sg>$
@@ -650,8 +639,7 @@
 ^bro/bro<n><f><sg>$
 ^./.<sent>$
 
-^Tra/tra<x>$
-^ma/ma<cnjadv>$
+^Tra ma/tra ma<cnjadv>$
 ^vo/bezañ<vblex><fti><p3><sg>$
 ^mor/mor<n><m><sg>$
 ^'vel/evel<pr>$
@@ -804,6 +792,7 @@
 ^./.<sent>$
 
 ^Ul/un<det><ind><sp>$
+^levr/levr<n><m><sg>$
 ^zo/bezañ<vblex><pri><p3><sg>$
 ^ganin/gant<pr>+indirect<prn><obj><p1><mf><sg>$
 ^./.<sent>$
@@ -945,8 +934,7 @@
 ^an/an<det><def><sp>$
 ^Norzh/norzh<n><m><sg>$
 ^zo/bezañ<vblex><pri><p3><sg>$
-^kement/kement<x>$
-^hag/hag<cnjadv>$
+^kement hag/kement hag<cnjadv>$
 ^anavezout/anavezout<vblex><inf>$
 ^ledred/ledred<n><m><sg>$
 ^al/an<det><def><sp>$
@@ -962,15 +950,13 @@
 ^ra/ober<vblex><pri><p3><sg>$
 ^an/an<det><def><sp>$
 ^Douar/douar<n><m><sg>$
-^en-dro/en-dro<x>$
-^d'/da<pr>$
+^en-dro d'/en-dro da<pr>$
 ^an/an<det><def><sp>$
 ^Heol/heol<n><m><sg>$
 ^(/(<lpar>$
 ^360°/360°<num><mf><pl>$
 ^)/)<rpar>$
-^en/en<x>$
-^ur/ur<vpart><ppres>$
+^en ur/en ur<vpart><ppres>$
 ^ober/ober<vblex><inf>$
 ^365/365<num><mf><pl>$
 ^devezh/devezh<n><m><sg>$
@@ -1034,9 +1020,7 @@
 ^./.<sent>$
 
 ^Gant/gant<pr>$
-^Ofis/Ofis<x>$
-^ar/ar<x>$
-^Brezhoneg/Brezhoneg<np><al><mf><sg>$
+^Ofis ar Brezhoneg/Ofis ar Brezhoneg<np><al><mf><sg>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^bet/bezañ<vblex><pp>$
 ^troet/treiñ<vblex><pp>$
@@ -1085,8 +1069,7 @@
 ^ec’honder/ec’honder<n><m><sg>$
 ^./.<sent>$
 
-^En/en<x>$
-^em/em<vpart><ref>$
+^En em/en em<vpart><ref>$
 ^gavout/kavout<vblex><inf>$
 ^a/a<vpart>$
 ^ra/ober<vblex><pri><p3><sg>$
@@ -1100,8 +1083,7 @@
 ^a/a<vpart>$
 ^erbed/erbediñ<vblex><pri><p3><sg>$
 ^dezhañ/da<pr>+indirect<prn><obj><p3><m><sg>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^ouestlañ/gouestlañ<vblex><inf>$
 ^penn-da-benn/penn-da-benn<adv>$
 ^d'al/da<pr>+an<det><def><sp>$
@@ -1162,9 +1144,7 @@
 ^./.<sent>$
 
 ^Gant/gant<pr>$
-^Ofis/Ofis<x>$
-^ar/ar<x>$
-^Brezhoneg/Brezhoneg<np><al><mf><sg>$
+^Ofis ar Brezhoneg/Ofis ar Brezhoneg<np><al><mf><sg>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^bet/bezañ<vblex><pp>$
 ^troet/treiñ<vblex><pp>$
@@ -1179,8 +1159,7 @@
 ^Spered/spered<n><m><sg>$
 ^Kelt/kelt<adj><mf><sp>$
 
-^En/en<x>$
-^deroù/deroù<adv>$
+^En deroù/en deroù<adv>$
 ^e/e<vpart><obj>$
 ^talveze/talvezout<vblex><pii><p3><sg>$
 ^ar/an<det><def><sp>$
@@ -1224,13 +1203,11 @@
 ^ho/ho<det><pos><mf><sp>$
 ^nadoz/nadoz<n><f><sg>$
 ^er-maez/er-maez<adv>$
-^en/en<x>$
-^ur/ur<vpart><ppres>$
+^en ur/en ur<vpart><ppres>$
 ^zilec’hiañ/dilec’hiañ<vblex><inf>$
 ^anezhi/direct<prn><obj><p3><f><sg>$
 ^,/,<cm>$
-^hag/hag<x>$
-^all/all<adv>$
+^hag all/hag all<adv>$
 ^./.<sent>$
 
 ^Tennit/tennañ<vblex><imp><p2><pl>$
@@ -1241,8 +1218,7 @@
 ^ho/ho<det><pos><mf><sp>$
 ^neudenn/neudenn<n><f><sg>$
 ^gentañ/kentañ<adj><mf><sp>$
-^en/en<x>$
-^ur/ur<vpart><ppres>$
+^en ur/en ur<vpart><ppres>$
 ^lakaat/lakaat<vblex><inf>$
 ^an/an<det><def><sp>$
 ^nadoz/nadoz<n><f><sg>$
@@ -1262,12 +1238,10 @@
 ^ho/ho<det><pos><mf><sp>$
 ^nadoz/nadoz<n><f><sg>$
 ^er-maez/er-maez<adv>$
-^en/en<x>$
-^ur/ur<vpart><ppres>$
+^en ur/en ur<vpart><ppres>$
 ^zilec’hiañ/dilec’hiañ<vblex><inf>$
 ^,/,<cm>$
-^hag/hag<x>$
-^all/all<adv>$
+^hag all/hag all<adv>$
 ^./.<sent>$
 
 ^Evel-se/evel-se<adv>$
@@ -1341,8 +1315,7 @@
 ^kaout/kaout<vblex><inf>$
 ^ur/un<det><ind><sp>$
 ^c’hinnig/kinnig<n><m><sg>$
-^tost/tost<x>$
-^d’/da<pr>$
+^tost d’/tost da<pr>$
 ^o/o<det><pos><mf><sp>$
 ^lec’h/lec’h<n><m><sg>$
 ^annez/annez<n><m><sg>$
@@ -1357,8 +1330,7 @@
 ^all/all<adj><ind><mf><sp>$
 
 ^Skoaziadennoù/skoaziadenn<n><f><pl>$
-^mont/mont<x>$
-^en-dro/en-dro<n><m><sg>$
+^mont en-dro/mont en-dro<n><m><sg>$
 ^evit/evit<pr>$
 ^ar/an<det><def><sp>$
 ^c’hevredigezhioù/kevredigezh<n><f><pl>$
@@ -1376,8 +1348,7 @@
 ^an/an<det><def><sp>$
 ^19/19<num><mf><pl>$
 ^skipailh/skipailh<n><m><sg>$
-^d’an/d’an<x>$
-^holl/holl<adv>$
+^d’an holl/d’an holl<adv>$
 ^./.<sent>$
 
 ^Priziet/priziañ<vblex><pp>$
@@ -1387,9 +1358,7 @@
 ^gant/gant<pr>$
 ^ar/an<det><def><sp>$
 ^gevredigezh/kevredigezh<n><f><sg>$
-^hiziv/hiziv<x>$
-^an/an<x>$
-^deiz/deiz<adv>$
+^hiziv an deiz/hiziv an deiz<adv>$
 ^,/,<cm>$
 ^met/met<cnjcoo>$
 ^ezhomm/ezhomm<n><m><sg>$
@@ -1427,8 +1396,7 @@
 ^programm/programm<n><m><sg>$
 ^nevez/nevez<adj><mf><sp>$
 ^war/war<pr>$
-^meur/meur<x>$
-^a/a<det><ind><mf><pl>$
+^meur a/meur a<det><ind><mf><pl>$
 ^vloaz/bloaz<n><m><sg>$
 ^evit/evit<pr>$
 ^ar/an<det><def><sp>$
@@ -1501,8 +1469,7 @@
 ^e/e<pr>$
 ^Frañs/Frañs<np><top><sg>$
 
-^Nebeutoc'h/nebeutoc’h<x>$
-^a/a<pr>$
+^Nebeutoc'h a/nebeutoc’h a<pr>$
 ^venegoù/meneg<n><m><pl>$
 ^a/a<vpart>$
 ^vo/bezañ<vblex><fti><p3><sg>$
@@ -1521,9 +1488,7 @@
 ^frammoù/framm<n><m><pl>$
 ^dave/dave<n><m><sg>$
 ^(/(<lpar>$
-^Ofis/Ofis<x>$
-^ar/ar<x>$
-^Brezhoneg/Brezhoneg<np><al><mf><sg>$
+^Ofis ar Brezhoneg/Ofis ar Brezhoneg<np><al><mf><sg>$
 ^en o zouez/e-touez<pr>+indirect<prn><obj><p3><mf><pl>$
 ^)/)<rpar>$
 ^a/a<vpart>$
@@ -1668,8 +1633,7 @@
 ^ar/an<det><def><sp>$
 ^chadenn/chadenn<n><f><sg>$
 ^e/e<pr>$
-^miz/miz<x>$
-^Ebrel/Ebrel<n><m><sp>$
+^miz Ebrel/miz Ebrel<n><m><sp>$
 ^2006/2006<num><mf><pl>$
 ^./.<sent>$
 
@@ -1732,8 +1696,7 @@
 ^teuas/dont<vblex><past><p3><sg>$
 ^greantioù/greanti<n><m><pl>$
 ^d’/da<pr>$
-^en/en<x>$
-^em/em<vpart><ref>$
+^en em/en em<vpart><ref>$
 ^staliañ/staliañ<vblex><inf>$
 ^eno/eno<adv>$
 ^./.<sent>$
@@ -1766,8 +1729,7 @@
 ^Un/un<det><ind><sp>$
 ^torkad/torkad<n><m><sg>$
 ^bokedoù/boked<n><m><pl>$
-^mar/mar<x>$
-^plij/plij<adv>$
+^mar plij/mar plij<adv>$
 ^./.<sent>$
 
 ^Get/get<pr>$
@@ -1778,14 +1740,12 @@
 ^àr-hed/àr-hed<pr>$
 ^teir/tri<num><f><pl>$
 ^euriad/euriad<n><f><sg>$
-^d'ar/d’ar<x>$
-^muiañ/muiañ<adv>$
+^d'ar muiañ/d’ar muiañ<adv>$
 ^a/a<pr>$
 ^Bariz/Pariz<np><top><sg>$
 ^,/,<cm>$
 ^gant/gant<pr>$
-^meur/meur<x>$
-^a/a<det><ind><mf><pl>$
+^meur a/meur a<det><ind><mf><pl>$
 ^dren/tren<n><m><sg>$
 ^bemdez/bemdez<adv>$
 ^./.<sent>$
@@ -1853,9 +1813,7 @@
 ^ar/an<det><def><sp>$
 ^c'hevredigezhioù/kevredigezh<n><f><pl>$
 
-^Ofis/Ofis<x>$
-^ar/ar<x>$
-^Brezhoneg/Brezhoneg<np><al><mf><sg>$
+^Ofis ar Brezhoneg/Ofis ar Brezhoneg<np><al><mf><sg>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^aozadur/aozadur<n><m><sg>$
 ^dave/dave<n><m><sg>$
@@ -1931,16 +1889,16 @@
 ^lenn/lenn<vblex><inf>$
 ^ur/un<det><ind><sp>$
 ^perzh/perzh<n><m><sg>$
-^./.<sent>$
+^skrivañ/skrivañ<vblex><inf>$
 ^hepken/hepken<adv>$
+^./.<sent>$
 
 ^Unan/unan<num><mf><sg>$
 ^eus/eus<pr>$
 ^ho/ho<det><pos><mf><sp>$
 ^kontoù/kont<n><f><pl>$
 ^pe/pe<cnjcoo>$
-^meur/meur<x>$
-^a/a<det><ind><mf><pl>$
+^meur a/meur a<det><ind><mf><pl>$
 ^gont/kont<n><f><sg>$
 ^a/a<vpart>$
 ^gas/kas<vblex><pri><p3><sg>$
@@ -2546,8 +2504,7 @@
 ^Skoazellet/skoazellañ<vblex><pp>$
 ^e/e<vpart><obj>$
 ^vez/bezañ<vblex><prh><p3><sg>$
-^mont/mont<x>$
-^en-dro/en-dro<n><m><sg>$
+^mont en-dro/mont en-dro<n><m><sg>$
 ^ar/an<det><def><sp>$
 ^gevredigezh/kevredigezh<n><f><sg>$
 ^gant/gant<pr>$
@@ -2804,8 +2761,7 @@
 ^./.<sent>$
 
 ^Prezidant/prezidant<n><m><sg>$
-^Kuzul-rannvro/Kuzul-rannvro<x>$
-^Breizh/Breizh<np><al><mf><sg>$
+^Kuzul-rannvro Breizh/Kuzul-rannvro Breizh<np><al><mf><sg>$
 ^(/(<lpar>$
 ^PS/PS<n><acr><m><sg>$
 ^)/)<rpar>$
@@ -2842,8 +2798,7 @@
 ^ur/un<det><ind><sp>$
 ^c'hresk/kresk<n><m><sg>$
 ^a/a<pr>$
-^35/35<x>$
-^%/%<num><percent><mf><pl>$
+^35 %/35 %<num><percent><mf><pl>$
 ^eus/eus<pr>$
 ^ar/an<det><def><sp>$
 ^veajourien/beajour<n><m><pl>$
@@ -2909,16 +2864,12 @@
 ^Staliañ/staliañ<vblex><inf>$
 ^ar/an<det><def><sp>$
 ^brezhoneg/brezhoneg<n><m><sg>$
-^e/e<x>$
-^diabarzh/diabarzh<pr>$
-^mont/mont<x>$
-^en-dro/en-dro<n><m><sg>$
+^e diabarzh/e diabarzh<pr>$
+^mont en-dro/mont en-dro<n><m><sg>$
 ^ho/ho<det><pos><mf><sp>$
 ^framm/framm<n><m><sg>$
 
-^Ofis/Ofis<x>$
-^ar/ar<x>$
-^Brezhoneg/Brezhoneg<np><al><mf><sg>$
+^Ofis ar Brezhoneg/Ofis ar Brezhoneg<np><al><mf><sg>$
 ^a/a<vpart>$
 ^sav/sevel<vblex><tv><pri><p3><sg>$
 ^kontoù/kont<n><f><pl>$
@@ -2928,13 +2879,11 @@
 ^ar/an<det><def><sp>$
 ^1añ/1añ<num><ord><mf><sg>$
 ^a/a<pr>$
-^viz/miz<x>$
-^Genver/Genver<n><m><sp>$
+^viz Genver/miz Genver<n><m><sp>$
 ^d'ar/da<pr>+an<det><def><sp>$
 ^31añ/31<num><ord><mf><sg>$
 ^a/a<pr>$
-^viz/miz<x>$
-^Kerzu/Kerzu<n><m><sp>$
+^viz Kerzu/miz Kerzu<n><m><sp>$
 ^./.<sent>$
 
 ^War-dro/war-dro<adv>$
@@ -3014,8 +2963,7 @@
 ^Palez/palez<n><m><sg>$
 ^ar/an<det><def><sp>$
 ^C'hendalc'hioù/kendalc’h<n><m><pl>$
-^an/An<x>$
-^Oriant/Oriant<np><top><sg>$
+^an Oriant/An Oriant<np><top><sg>$
 ^./.<sent>$
 
 ^Ma'z/ma<cnjsub>$
@@ -3059,8 +3007,7 @@
 ^stourm/stourm<vblex><pri><p3><sg>$
 ^evit/evit<pr>$
 ^stummañ/stummañ<vblex><inf>$
-^ar/ar<x>$
-^re/re<prn><rel><mf><sg>$
+^ar re/ar re<prn><rel><mf><sg>$
 ^yaouank/yaouank<adj><mf><sp>$
 ^./.<sent>$
 
@@ -3307,8 +3254,7 @@
 ^,/,<cm>$
 ^e/e<vpart><obj>$
 ^vefe/bezañ<vblex><cni><p3><sg>$
-^295/295<x>$
-^000/000<num><mf><pl>$
+^295 000/295 000<num><mf><pl>$
 ^./.<sent>$
 
 ^Ur/un<det><ind><sp>$
@@ -3461,8 +3407,7 @@
 ^gant/gant<pr>$
 ^ar/an<det><def><sp>$
 ^Vikinged/Viking<n><m><pl>$
-^e/e<x>$
-^deroù/deroù<pr>$
+^e deroù/e deroù<pr>$
 ^an/an<det><def><sp>$
 ^X/X<num><ord><mf><sp>$
 ^kantved/kantved<n><m><sg>$
@@ -3579,11 +3524,13 @@
 ^war/war<pr>$
 ^ar/an<det><def><sp>$
 ^panelloù-hent/panell-hent<n><f><pl>$
+^gant/gant<pr>$
 ^ar/an<det><def><sp>$
 ^pal/pal<n><m><sg>$
 ^kenurzhiañ/kenurzhiañ<n><m><sg>$
-^./.<sent>$
+^an/an<det><def><sp>$
 ^troidigezhioù/troidigezh<n><f><pl>$
+^./.<sent>$
 
 ^Hervez/hervez<pr>$
 ^ar/an<det><def><sp>$

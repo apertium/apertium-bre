@@ -942,9 +942,12 @@ SUBSTITUTE (vblex) (vblex tv) ("sevel"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) O
 
 ## SYNTAX 
 #
-#SECTION
+SECTION
 #
-#LIST @X = @X ;
+LIST @punct = @punct ;
+
+MAP:synpunct @punct TARGET Cm ; 
+
 #LIST @SUBJ→ = @SUBJ→ ;
 #LIST @←SUBJ = @←SUBJ ;
 #LIST @+FMAINV = @+FMAINV ;

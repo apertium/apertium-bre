@@ -198,9 +198,7 @@
 "<c'halon>"
 	"kalon" n f sg
 "<zo>"
-	"teiñ" vblex imp p2 sg
-;	"teiñ" vblex pri p3 sg
-;	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg
 "<ker>"
 	"ken" adv
 	"ker" adj mf sp
@@ -216,7 +214,6 @@
 ;	"o" vpart ger
 "<kousk>"
 	"kousket" vblex pri p3 sg
-;	"kousk" n m sg
 "<meur a>"
 	"meur a" det ind mf pl
 "<Vreizhad>"

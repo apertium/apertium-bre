@@ -15693,7 +15693,7 @@
 "<DISKOULMOÙ>"
 	"diskoulm" n m pl @obj #4->1
 "<PERSONELAET>"
-	"personelaat" vblex pp @amod #5->4
+	"personelaat" vblex pp @acl #5->4
 
 # text = A-zehou emañ bodet an dastumadoù arz grafek, tra m'eo miret an trepas kreiz evit an diskouezadegoù berrbad.
 # text[fra] = L'espace droit réunit les collections d'art graphique, tandis que le passage central est réservé aux expositions temporaires.

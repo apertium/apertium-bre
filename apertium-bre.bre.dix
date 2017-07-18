@@ -116,7 +116,8 @@
     </pardef>
 
     <pardef n="anys">
-      <e><re>[MCDXLVI]*</re><p><l>vet</l><r>vet<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><re>[MCDXLVI]+</re><p><l></l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><re>[MCDXLVI]+</re><p><l>vet</l><r>vet<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><re>[I]+</re><p><l>añ</l><r>añ<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
@@ -124,6 +125,8 @@
       <e><p><l>1</l><r>1<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l>%</l><r><s n="num"/><s n="percent"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><re>[0-9]+( [0-9]+)+</re><p><l/><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><re>[0-9]+°</re><p><l/><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="acronimos">
@@ -141,6 +144,7 @@
 
     <pardef n="simbols">
       <e><re>[αβγδεζηθικλμνξοπρσςτυφχψω]</re><p><l></l><r><s n="sym"/></r></p></e>
+      <e><p><l>/</l><r>/<s n="sym"/></r></p></e>
     </pardef>
 
     <pardef n="barbarismes">
@@ -156,9 +160,9 @@
       <e><re>,</re><p><l/><r><s n="cm"/></r></p></e>
     </pardef>
 
-    <pardef n="quot">
+    <pardef n="quotes">
       <e><p><l>«</l><r>«<s n="lquot"/></r></p></e>
-      <e><p><l>»</l><r>«<s n="rquot"/></r></p></e>
+      <e><p><l>»</l><r>»<s n="rquot"/></r></p></e>
       <e><p><l>“</l><r>“<s n="lquot"/></r></p></e>
       <e><p><l>”</l><r>”<s n="rquot"/></r></p></e>
       <e><p><l>"</l><r>"<s n="quot"/></r></p></e>
@@ -169,7 +173,7 @@
     </pardef>
 
     <pardef n="separa">
-      <e><re>([.\?;:!]|[.\?;:!][.\?;:!][.\?;:!])</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>([.\?;:!■]|[.\?;:!][.\?;:!][.\?;:!])</re><p><l/><r><s n="sent"/></r></p></e>
       <e><p><l>(</l><r>(<s n="lpar"/></r></p></e>
       <e><p><l>)</l><r>)<s n="rpar"/></r></p></e>
     </pardef>
@@ -11322,6 +11326,7 @@
     <e lm="adskignadenn"><i>adskignadenn</i><par n="sae__n"/></e>
     <e lm="adverenn"><i>adverenn</i><par n="sae__n"/></e>
     <e lm="adweladenn"><i>adweladenn</i><par n="sae__n"/></e>
+    <e lm="ploñjadenn"><i>ploñjadenn</i><par n="sae__n"/></e>
     <e lm="aerluzell" r="LR"><i>aerluzell</i><par n="sae__n"/></e>
     <e lm="agatenn"><i>agatenn</i><par n="sae__n"/></e>
     <e lm="ailhenn"><i>ailhenn</i><par n="sae__n"/></e>	
@@ -11954,6 +11959,7 @@
     <e lm="panell-heñchañ"><par n="initial-p"/><i>anell</i><par n="sae__n"/><p><l>-heñchañ</l><r><g>-heñchañ</g></r></p></e>
     <e lm="panell heñchañ" r="LR"><par n="initial-p"/><i>anell</i><par n="sae__n"/><p><l><b/>heñchañ</l><r><g><b/>heñchañ</g></r></p></e>	
     <e lm="panell hent" r="LR"><par n="initial-p"/><i>anell</i><par n="sae__n"/><p><l><b/>hent</l><r><g><b/>hent</g></r></p></e>	
+    <e lm="panell-hent" r="LR"><par n="initial-p"/><i>anell</i><par n="sae__n"/><p><l>-hent</l><r><g>-hent</g></r></p></e>	
     <e lm="paner"><par n="initial-p"/><i>aner</i><par n="sae__n"/></e>
     <e lm="panerad"><par n="initial-p"/><i>anerad</i><par n="sae__n"/></e>
     <e lm="paperenn"><par n="initial-p"/><i>aperenn</i><par n="sae__n"/></e>
@@ -24658,6 +24664,7 @@
     <e lm="oadet"><i>oadet</i><par n="bras__adj"/></e>
     <e lm="oberiant"><i>oberiant</i><par n="bras__adj"/></e>
     <e lm="ofisiel"><i>ofisiel</i><par n="bras__adj"/></e>
+    <e lm="ez-ofisiel"><i>ez-ofisiel</i><par n="bras__adj"/></e>
     <e lm="kenofisiel"><i>kenofisiel</i><par n="bras__adj"/></e>
     <e lm="okeaniat"><i>Okeaniat</i><par n="bras__adj"/></e>
     <e lm="okitan"><i>okitan</i><par n="bras__adj"/></e>
@@ -29296,6 +29303,7 @@
     <e><par n="distàncies"/></e>
     <e><par n="personas"/></e>
     <e><par n="guionet"/></e>
+    <e><par n="quotes"/></e>
     <e><par n="coma"/></e>
     <e><par n="apos"/></e>
   </section>
