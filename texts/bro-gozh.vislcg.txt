@@ -137,24 +137,24 @@
 "<!>"
 	"!" sent @punct #15->5
 
-# text = Breizh, douar ar Sent kozh, douar ar Varzhed, n'eus bro all a garan kement 'barzh ar bed, pep menez, pep traonienn, d'am c'halon zo kaer, enne kousk meur a Vreizhad taer !
+# text = Breizh, douar ar sent kozh, douar ar Varzhed, n'eus bro all a garan kement 'barzh ar bed, pep menez, pep traonienn, d'am c'halon zo kaer, enne kousk meur a Vreizhad taer !
 # text[fra] = Bretagne, terre des vieux Saints, terre des Bardes, Il n'est d'autre pays au monde que j'aime autant; Chaque montagne, chaque vallée est chère dans mon coeur. En eux dorment plus d'un Breton héroïque!
 "<Breizh>"
-	"Breizh" np top sg @appos
+	"Breizh" np top sg @dislocated
 "<,>"
 	"," cm @punct
 "<douar>"
-	"douar" n m sg
+	"douar" n m sg @appos
 "<ar>"
 	"an" det def sp @det
-"<Sant>"
-	"sant" n m sg @nmod:gen
-"<Kozh>"
+"<sent>"
+	"sant" n m pl @nmod:gen
+"<kozh>"
 	"kozh" adj mf sp @amod
 "<,>"
 	"," cm @punct
 "<douar>"
-	"douar" n m sg 
+	"douar" n m sg @appos
 "<ar>"
 	"an" det def sp @det
 "<varzhed>"
@@ -162,51 +162,34 @@
 "<,>"
 	"," cm @punct
 "<n'eus>"
-	"ne" adv
-		"bezañ" vblex pri impers sp
-	"ne" adv
-		"kaout" vblex pri p1 pl
+	"ne" adv @advmod
+		"bezañ" vblex pri impers sp @cop
 "<bro>"
 	"bro" n f sg
 "<all>"
-	"all" adj ind mf sp
+	"all" adj ind mf sp @amod
 "<a>"
-	"a" pr @case
-	"a" vpart
-	"a" n m sp
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux
 "<garan>"
-	"garan" n f sg
-	"kariñ" vblex pri p1 sg
 	"karout" vblex pri p1 sg
-	"garanañ" vblex pri p3 sg
-;	"garanañ" vblex imp p2 sg
 "<kement>"
 	"kement" det ind mf sg
 "<'barzh>"
 	"e-barzh" pr @case
-	"e-barzh" adv
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det
 "<bed>"
 	"bed" n m sg
-;	"pediñ" vblex imp p2 sg
-;	"pediñ" vblex pri p3 sg
 "<,>"
 	"," cm
 "<pep>"
-	"pep" det ind mf sg
+	"pep" det ind mf sg @det
 "<menez>"
 	"menez" n m sg
 "<,>"
 	"," cm @punct
 "<pep>"
-	"pep" det ind mf sg
-;	"bep" det ind mf sg
+	"pep" det ind mf sg @det
 "<traoñienn>"
 	"traoñienn" n f sg
 "<d'am>"
@@ -244,7 +227,6 @@
 "<!>"
 	"!" sent
 
-
 # text = Ar Vretoned 'zo tud kalet ha kreñv.
 # text[fra] = Les Bretons sont des gens durs et forts;
 "<Ar>"
@@ -264,217 +246,132 @@
 "<.>"
 	"." sent @punct #8->4
 
-# text = N'eus pobl ken kaloneg a zindan an neñv, 
-# text[fra] = 
+# text = N'eus pobl ken kaloneg a zindan an neñv.
+# text[fra] =  Aucun peuple sous les cieux n'est aussi ardent.
 "<N'eus>"
-	"ne" adv
-		"bezañ" vblex pri impers sp
-	"ne" adv
-		"kaout" vblex pri p1 pl
+	"ne" adv @advmod #1->5
+		"bezañ" vblex pri impers sp @cop #2->5
 "<pobl>"
-	"pobl" n f sg
-;	"poblañ" vblex imp p2 sg
-;	"poblañ" vblex pri p3 sg
+	"pobl" n f sg @nsubj #3->5
 "<ken>"
-	"ken" preadv
-;	"gen" n f pl
-;	"ken" pr @case
-;	"ken" adv
+	"ken" preadv @advmod #4->5
 "<kalonek>"
-	"kalonek" adj mf sp
-"<a>"
-	"a" pr @case
-	"a" n m sp
-;	"a" vpart
-;	"monet" vblex imp p2 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"mont" vblex pri p3 sg
-"<->"
-	"-" guio
-"<zindan>"
-	"dindan" adv
+	"kalonek" adj mf sp @root #5->0
+"<a-zindan>"
+	"a-zindan" pr @case #6->8
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg
-;	"monet" vblex pri p1 sg
+	"an" det def sp @det #7->8
 "<neñv>"
-	"neñv" n m sg
+	"neñv" n m sg @obl #8->5
 "<.>"
-	"." sent
+	"." sent @punct #9->5
 
-
-
+# text = Gwerz trist, son dudius a ziwan eno.
+# text[fra] = Complainte triste ou chant plaisant s'éclosent en eux.
 "<Gwerz>"
-	"gwerz" n f sg
+	"gwerz" n f sg @nsubj #1->7
 "<trist>"
-	"trist" adj mf sp
+	"trist" adj mf sp @amod #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->4
 "<son>"
-	"son" n f sg
-	"son" n m sg
-;	"soniñ" vblex imp p2 sg
-;	"seniñ" vblex imp p2 sg
-;	"soniñ" vblex pri p3 sg
-;	"seniñ" vblex pri p3 sg
+	"son" n f sg @conj #4->1
 "<dudius>"
-	"dudius" adj mf sp
+	"dudius" adj mf sp @amod #5->4
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
-;	"a" pr @case
-;	"a" n m sp
+	"a" vpart @aux #6->7
 "<ziwan>"
-	"diwanañ" vblex pri p3 sg
-;	"diwanañ" vblex imp p2 sg
-;	"diwan" n m sg
+	"diwanañ" vblex pri p3 sg @root #7->0
 "<enno>"
-	"e" pr @case
-		"indirect" prn obj p3 mf pl
+	"e" pr @case  #8->9
+		"indirect" prn obj p3 mf pl @obl #9->7
 "<.>"
-	"." sent
+	"." sent @punct #10->7
 
-
-
+# text = O! pegen kaer ez out, ma Bro!
+# text[fra] = O! Combien tu es belle, ma patrie!
 "<O>"
-	"o" n m sp
-	"o" det pos mf sp
-;	"o" vpart ger
-;	"direct" prn obj p3 mf pl
-;	"o" ij
+	"o" ij @root #1->0
 "<!>"
-	"!" sent
-
+	"!" sent @punct #2->1
 "<pegen>"
-	"pegen" preadv
-	"pegen" adv itg
-;	"pegañ" vblex pii p1 sg
+	"pegen" preadv @advmod #3->4
 "<kaer>"
-	"kaer" adj mf sp
+	"kaer" adj mf sp @parataxis #4->1
 "<ez>"
-	"e" vpart obj
-;	"mont" vblex pri p2 sg
-;	"monet" vblex pri p2 sg
-;	"e" pr @case
-;		"da" det pos mf sp
+	"e" vpart obj @aux #5->4
 "<out>"
-	"bezañ" vblex pri p2 sg
+	"bezañ" vblex pri p2 sg @cop #6->4
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->4
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij
-;	"ma" cnjsub
+	"ma" det pos mf sp @det #8->9
 "<bro>"
-	"bro" n f sg
+	"bro" n f sg @dislocated #9->4
 "<!>"
-	"!" sent
+	"!" sent @punct #10->4
 
-
+# text = Mard eo bet trec'het Breizh er brezelioù braz, he yezh a zo bepred ken beo ha bizkoazh, he c'halon birvidik a lamm c'hoazh 'n he c'hreiz.
+# text[fra] = Si autrefois Bretagne, tu as fléchi durant les guerres, ta langue est restée vivante à jamais, son coeur ardent tressaille encore pour elle.
 "<Mard>"
-	"ma" cnjsub
+	"ma" cnjsub @mark #1->4
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->4
 "<bet>"
-	"bezañ" vblex pp
-;	"pet" prn itg mf sp
-;	"kaout" vblex pp
+	"bezañ" vblex pp @aux:pass #3->4
 "<trec'het>"
-	"trec’hiñ" vblex pp
-;	"trec’hiñ" vblex imp p3 sg
+	"trec’hiñ" vblex pp @root #4->0
 "<Breizh>"
-	"Breizh" np top sg
-;	"preizh" n m sg
+	"Breizh" np top sg @nsubj #5->4
 "<er>"
-	"e" pr @case
-		"an" det def sp
+	"e" pr @case #6->8
+		"an" det def sp @det #7->8
 "<brezelioù>"
-	"brezel" n m pl
+	"brezel" n m pl @obl #8->4
 "<bras>"
-	"bras" adj mf sp
+	"bras" adj mf sp @amod #9->8
 "<,>"
-	"," cm @punct
+	"," cm @punct #10->17
 "<he>"
-	"he" det pos f sp
-;	"direct" prn obj p3 f sg
+	"he" det pos f sp @det #11->12
 "<yezh>"
-	"yezh" n f sg
-;	"yezh" adj mf sp
+	"yezh" n f sg @nsubj #12->17
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"a" pr @case
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #13->17
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg
-;	"teiñ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @cop #14->17
 "<bepred>"
-	"bepred" adv
+	"bepred" adv @advmod #15->17
 "<ken>"
-	"ken" pr @case
-	"ken" adv
-	"ken" preadv
-;	"gen" n f pl
+	"ken" preadv @advmod #16->17
 "<bev>"
-	"bev" adj mf sp
-;	"beviñ" vblex imp p2 sg
-;	"bevañ" vblex imp p2 sg
-;	"beviñ" vblex pri p3 sg
-;	"bevañ" vblex pri p3 sg
+	"bev" adj mf sp @parataxis #17->4
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij
+	"ha" cnjcoo @cc #18->19
 "<biskoazh>"
-	"biskoazh" adv
+	"biskoazh" adv @conj #19->17
 "<,>"
-	"," cm @punct
+	"," cm @punct #20->25
 "<he>"
-	"he" det pos f sp
-;	"direct" prn obj p3 f sg
+	"he" det pos f sp @det #21->22
 "<c'halon>"
-	"kalon" n f sg
+	"kalon" n f sg @nsubj #22->25
 "<virvidik>"
-	"birvidik" adj mf sp
+	"birvidik" adj mf sp @amod #23->22
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
-;	"a" pr @case
-;	"a" n m sp
+	"a" vpart @aux #24->25
 "<lamm>"
-	"lammat" vblex pri p3 sg
-;	"lamm" n m sg
+	"lammat" vblex pri p3 sg @parataxis #25->4
 "<c'hoazh>"
-	"c’hoazh" adv
-;	"koazhañ" vblex imp p2 sg
-;	"koazhañ" vblex pri p3 sg
-"<'>"
-	"’" apos
-;	"a" vpart
-;	"e" vpart obj
-;	"o" vpart ger
-"<n>"
-	"n" n m sp
+	"c’hoazh" adv @advmod #26->25
+"<'n>"
+	"un" det ind sp @det #27->29
 "<he>"
-	"he" det pos f sp
-;	"direct" prn obj p3 f sg
+	"he" det pos f sp @det #28->29
 "<c'hreiz>"
-	"kreiz" n m sg
-;	"kreizañ" vblex imp p2 sg
-;	"kreizañ" vblex pri p3 sg
-;	"kreiz" adj mf sp
+	"kreiz" n m sg @obj #29->25
 "<.>"
-	"." sent
+	"." sent @punct #30->4
 
 # text = Dihunet out bremañ, ma Breizh !
 # text[fra] = Tu es réveillée maintenant ma Bretagne!

@@ -124,6 +124,16 @@
 7	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = apertium.vislcg.txt:15:176
+# text = Mont a ran da c'hoari.
+# text[fra] = Je vais jouer.
+1	Mont	mont	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	da	da	ADP	pr	_	5	mark	_	_
+5	c'hoari	c’hoari	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:16:191
 # text = Bras eo ar paotr.
 # text[fra] = Le garçon est grand.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -132,7 +142,7 @@
 4	paotr	paotr	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
 5	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:16:189
+# sent_id = apertium.vislcg.txt:17:204
 # text = Bras eo ti Herve.
 # text[fra] = La maison d'Herve est grande.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -141,7 +151,7 @@
 4	Herve	Herve	PROPN	np	Gender=Msc|Number=Sing	3	nmod:gen	_	_
 5	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:17:202
+# sent_id = apertium.vislcg.txt:18:217
 # text = Londrez eo kêr-benn Bro-Saoz.
 # text[fra] = Londres est la capitale de l'Angleterre.
 1	Londrez	Londrez	PROPN	np	Number=Sing	3	nsubj	_	_
@@ -150,7 +160,7 @@
 4	Bro-Saoz	bro-Saoz	PROPN	np	Number=Sing	0	nmod:gen	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = apertium.vislcg.txt:18:215
+# sent_id = apertium.vislcg.txt:19:230
 # text = Ret eo dit dont.
 # text[fra] = Il faut que tu viennes.
 1	Ret	ret	ADJ	adj	_	0	root	_	_
@@ -161,7 +171,7 @@
 5	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
 6	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:19:229
+# sent_id = apertium.vislcg.txt:20:244
 # text = Ret eo deomp dont.
 # text[fra] = Il faut que nous venions.
 1	Ret	ret	ADJ	adj	_	0	root	_	_
@@ -172,7 +182,105 @@
 5	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
 6	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:20:243
+# sent_id = apertium.vislcg.txt:21:258
+# text = Ret eo deoc'h dont.
+# text[fra] = Il faut que vous veniez.
+1	Ret	ret	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	deoc'h	_	_	_	_	_	_	_	_
+3	deoc	da	ADP	pr	_	4	case	_	_
+4	h	indirect	_	prn	Case=Acc|Number=Plur|Person=2|PronType=Pers	1	obl	_	_
+5	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:22:272
+# text = Ret eo dezhañ dont.
+# text[fra] = Il faut qu'il vienne.
+1	Ret	ret	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	dezhañ	_	_	_	_	_	_	_	_
+3	dezhañ	da	ADP	pr	_	4	case	_	_
+4	_	indirect	_	prn	Case=Acc|Gender=Msc|Number=Sing|Person=3|PronType=Pers	1	obl	_	_
+5	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:23:286
+# text = Ret eo dezhi dont.
+# text[fra] = Il faut qu'elle vienne.
+1	Ret	ret	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	dezhi	_	_	_	_	_	_	_	_
+3	dezhi	da	ADP	pr	_	4	case	_	_
+4	_	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	1	obl	_	_
+5	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:24:300
+# text = Ret eo dezho dont.
+# text[fra] = Il faut qu'ils viennent.
+1	Ret	ret	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	dezho	_	_	_	_	_	_	_	_
+3	dezho	da	ADP	pr	_	4	case	_	_
+4	_	indirect	_	prn	Case=Acc|Number=Plur|Person=3|PronType=Pers	1	obl	_	_
+5	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:25:314
+# text = Ret eo d'an dud dont.
+# text[fra] = Il faut que les gens viennent.
+1	Ret	ret	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	d'an	_	_	_	_	_	_	_	_
+3	d	da	ADP	pr	_	5	case	_	_
+4	an	an	DET	det	_	5	det	_	_
+5	dud	den	NOUN	n	Gender=Msc|Number=Plur	1	obl	_	_
+6	dont	dont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:26:330
+# text = Poent eo din mont.
+# text[fra] = Il est temps que j'y aille.
+1	Poent	poent	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	din	_	_	_	_	_	_	_	_
+3	din	da	ADP	pr	_	4	case	_	_
+4	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	1	obl	_	_
+5	mont	mont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:27:344
+# text = Poent eo mont d'ar gêr.
+# text[fra] = Il est temps d'aller à la maison.
+1	Poent	poent	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	mont	mont	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+4-5	d'ar	_	_	_	_	_	_	_	_
+4	d	da	ADP	pr	_	6	case	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:28:360
+# text = Poent eo debriñ.
+# text[fra] = Il est temps de manger.
+1	Poent	poent	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	debriñ	debriñ	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:29:371
+# text = C’hwitellat a ra en ur labourat.
+# text[fra] = Il siffle en travaillant.
+1	C’hwitellat	c’hwitellat	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	en	en	X	x	_	5	dep	_	_
+5	ur	ur	PART	vpart	_	6	aux	_	_
+6	labourat	labourat	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:30:388
 # text = Gwelet em eus ar c’hi en ur dreuziñ an hent.
 # text[fra] = J'ai vu le chien en traversant la route.
 1	Gwelet	gwelout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -186,7 +294,18 @@
 9	hent	hent	NOUN	n	Gender=Msc|Number=Sing	7	obj	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:21:266
+# sent_id = apertium.vislcg.txt:31:411
+# text = Emaon o paouez echuiñ ma levr.
+# text[fra] = Je viens de finir mon livre.
+1	Emaon	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	o	o	PART	vpart	_	3	aux	_	_
+3	paouez	paouez	VERB	vblex	VerbForm=Inf	0	root	_	_
+4	echuiñ	echuiñ	VERB	vblex	VerbForm=Inf	3	xcomp	_	_
+5	ma	ma	DET	det	PronType=Pos	6	det	_	_
+6	levr	levr	NOUN	n	Gender=Msc|Number=Sing	4	obj	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = apertium.vislcg.txt:32:428
 # text = Krog on da gompren.
 # text[fra] = Je commence à comprendre.
 1	Krog	krog	ADJ	adj	_	0	root	_	_
@@ -195,7 +314,34 @@
 4	gompren	kompren	VERB	vblex	VerbForm=Inf	1	advcl	_	_
 5	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:22:279
+# sent_id = apertium.vislcg.txt:33:441
+# text = Ne oar ket.
+# text[fra] = Il ne sait pas.
+1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	oar	gouzout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = apertium.vislcg.txt:34:452
+# text = Ne ra ket glav.
+# text[fra] = Il ne pleut pas.
+1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	glav	glav	NOUN	n	Gender=Msc|Number=Sing	2	obj	_	_
+5	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = apertium.vislcg.txt:35:465
+# text = N'eo ket bet lazhet.
+# text[fra] = Il n'a pas été tué.
+1	N'	ne	ADV	adv	Polarity=Neg	5	advmod	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ket	ket	ADV	adv	_	5	advmod	_	_
+4	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	lazhet	lazhañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = apertium.vislcg.txt:36:480
 # text = En em gannet out c'hoazh ?
 # text[fra] = Tu t'es encore battu ?
 1	En	en	X	x	_	2	dep	_	_
@@ -205,7 +351,7 @@
 5	c'hoazh	c’hoazh	ADV	adv	_	3	advmod	_	_
 6	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = apertium.vislcg.txt:23:294
+# sent_id = apertium.vislcg.txt:37:495
 # text = Me en em walc'h.
 # text[fra] = Je me lave.
 1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
@@ -214,7 +360,7 @@
 4	walc'h	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = apertium.vislcg.txt:24:307
+# sent_id = apertium.vislcg.txt:38:508
 # text = Er sal dour en em walc'han.
 # text[fra] = Je me lave dans la salle de bain.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -227,7 +373,7 @@
 7	walc'han	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = apertium.vislcg.txt:25:325
+# sent_id = apertium.vislcg.txt:39:526
 # text = Er sal dour en em walc'hen.
 # text[fra] = Je me lavais dans la salle de bain.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -240,7 +386,7 @@
 7	walc'hen	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = apertium.vislcg.txt:26:343
+# sent_id = apertium.vislcg.txt:40:544
 # text = Er sal dour on en em walc'het.
 # text[fra] = Je me suis lavé dans la salle de bain.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -254,7 +400,7 @@
 8	walc'het	gwalc’hañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = apertium.vislcg.txt:27:363
+# sent_id = apertium.vislcg.txt:41:564
 # text = En em walc'het on er sal dour.
 # text[fra] = Je me suis lavé dans la salle de bain.
 1	En	en	X	x	_	2	dep	_	_
@@ -268,7 +414,7 @@
 8	dour	dour	NOUN	n	Gender=Msc|Number=Sing	7	nmod:poss	_	_
 9	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = apertium.vislcg.txt:28:383
+# sent_id = apertium.vislcg.txt:42:584
 # text = Perak en em walc'hez ?
 # text[fra] = Pourquoi te laves tu ?
 1	Perak	perak	ADV	adv	PronType=Itg	4	advmod	_	_
@@ -277,7 +423,7 @@
 4	walc'hez	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = apertium.vislcg.txt:29:396
+# sent_id = apertium.vislcg.txt:43:597
 # text = Trizek sizhunvezh e oa padet kendivizoù ar prosez, etre C'hwevrer ha Mezheven 2007.
 # text[fra] = Les débats du procès avaient duré treize semaines, entre février et juin 2007.
 1	Trizek	trizek	NUM	num	Number=Plur	2	nummod	_	_
@@ -296,7 +442,7 @@
 14	2007	2007	NUM	num	Number=Plur	11	dep	_	_
 15	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = apertium.vislcg.txt:30:429
+# sent_id = apertium.vislcg.txt:44:630
 # text = Baleadennoù kontet hag heñchet er c’hoadoù a vo aozet ivez.
 # text[fra] = Des excursions contées et orientées dans les bois seront aussi organisées.
 1	Baleadennoù	baleadenn	NOUN	n	Gender=Fem|Number=Plur	10	nsubj	_	_
@@ -313,7 +459,7 @@
 11	ivez	ivez	ADV	adv	_	10	advmod	_	_
 12	.	.	PUNCT	sent	_	10	punct	_	_
 
-# sent_id = apertium.vislcg.txt:31:455
+# sent_id = apertium.vislcg.txt:45:656
 # text = Kalz re hir eo ar film.
 # text[fra] = Le film est beaucoup trop long.
 1	Kalz	kalz	X	x	_	2	dep	_	_
@@ -324,7 +470,17 @@
 6	film	film	NOUN	n	Gender=Msc|Number=Sing	3	nsubj	_	_
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = apertium.vislcg.txt:32:472
+# sent_id = apertium.vislcg.txt:46:673
+# text = Ret e vo dibab goude-se.
+# text[fra] = Il faudra choisir après ça.
+1	Ret	ret	ADJ	adj	_	0	root	_	_
+2	e	e	PART	vpart	_	1	aux	_	_
+3	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	dibab	dibab	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+5	goude-se	goude-se	ADV	adv	_	1	advmod	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:47:688
 # text = Gallout a rin ober kement-se.
 # text[fra] = Je pourrai faire tout cela.
 1	Gallout	gallout	VERB	vblex	VerbForm=Inf	4	aux	_	_
@@ -333,7 +489,7 @@
 4	kement-se	kement-se	_	prn	Case=Acc|Number=Sing|PronType=Dem|PronType=Pers	4	obj	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = apertium.vislcg.txt:33:485
+# sent_id = apertium.vislcg.txt:48:701
 # text = Goulenn a reont ma vo digoret an nor .
 # text[fra] = Ils demandent que soit ouvert la porte.
 1	Goulenn	goulenn	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -346,7 +502,7 @@
 8	nor	dor	NOUN	n	Gender=Fem|Number=Sing	6	obj	_	_
 9	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = apertium.vislcg.txt:34:506
+# sent_id = apertium.vislcg.txt:49:722
 # text = Soñjal a ran enni.
 # text[fra] = Je pense à elle.
 1	Soñjal	soñjal	VERB	vblex	VerbForm=Inf	0	root	_	_
@@ -357,7 +513,17 @@
 5	nni	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	1	obl	_	_
 6	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:35:520
+# sent_id = apertium.vislcg.txt:50:736
+# text = Degouezhet eo da gentañ.
+# text[fra] = Il est arrivé en premier.
+1	Degouezhet	degouezhout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3-4	da gentañ	_	_	_	_	_	_	_	_
+3	da	da	ADP	pr	_	4	case	_	_
+4	gentañ	kentañ	ADJ	adj	_	1	obl	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = apertium.vislcg.txt:51:748
 # text = Degouezhet eo da eil.
 # text[fra] = Il est arrivé en deuxième.
 1	Degouezhet	degouezhout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -366,7 +532,7 @@
 4	eil	eil	ADJ	adj	_	1	obl	_	_
 5	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:36:533
+# sent_id = apertium.vislcg.txt:52:761
 # text = Degouezhet eo da drede.
 # text[fra] = Il est arrivé en troisième.
 1	Degouezhet	degouezhout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -375,7 +541,7 @@
 4	drede	trede	ADJ	adj	_	1	obl	_	_
 5	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = apertium.vislcg.txt:37:546
+# sent_id = apertium.vislcg.txt:53:774
 # text = Piv eo ar pempvet?
 # text[fra] = Qui est le cinquième?
 1	Piv	piv	PRON	prn	PronType=Itg	4	nsubj	_	_
@@ -383,7 +549,7 @@
 3	pempvet	pempvet	ADJ	adj	_	0	root	_	_
 4	?	?	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = apertium.vislcg.txt:38:557
+# sent_id = apertium.vislcg.txt:54:785
 # text = Hi eo ar bempvet.
 # text[fra] = C'est elle la cinquième.
 1	Hi	prpers	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	4	nsubj	_	_
@@ -392,7 +558,7 @@
 4	bempvet	pempvet	ADJ	adj	_	0	root	_	_
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = apertium.vislcg.txt:39:570
+# sent_id = apertium.vislcg.txt:55:798
 # text = Hi zo pempvet.
 # text[fra] = Elle est cinquième.
 1	Hi	prpers	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
@@ -400,7 +566,7 @@
 3	pempvet	pempvet	ADJ	adj	_	0	root	_	_
 4	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = apertium.vislcg.txt:40:581
+# sent_id = apertium.vislcg.txt:56:809
 # text = Piv zo da bevare?
 # text[fra] = Qui est arrivé quatrième?
 1	Piv	piv	PRON	prn	PronType=Itg	4	nsubj	_	_
@@ -410,9 +576,160 @@
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = bremaik.vislcg.txt:1:0
-# text = Met un drugar eo da sellet.
-# text[fra] = Mais Elle est regarder un plaisir.
-# text[fra] = Mais Elle est regarder un plaisir.
+# text = Cheñchet o deus, met e gwirionez n'o deus ket cheñchet.
+# text[fra¹] = Ils ont changé, mais en vérité ils n'ont pas changé.
+1	Cheñchet	cheñch	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	o deus	kaout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	,	,	PUNCT	cm	_	10	punct	_	_
+4	met	met	CCONJ	cnjcoo	_	10	cc	_	_
+5	e	e	ADP	pr	_	6	case	_	_
+6	gwirionez	gwirionez	NOUN	n	Gender=Fem|Number=Sing	10	obl	_	_
+7	n'	ne	ADV	adv	Polarity=Neg	10	advmod	_	_
+8	o deus	kaout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	ket	ket	ADV	adv	_	10	advmod	_	_
+10	cheñchet	cheñch	VERB	vblex	Tense=Past|VerbForm=Part	1	conj	_	_
+11	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:2:24
+# text = Poazhit war an daou du. 
+# text[fra¹] = Vous cuisez sur les deux côtés. 
+1	Poazhit	poazhañ	VERB	vblex	Number=Plur|Person=2	0	root	_	_
+2	war	war	ADP	pr	_	5	case	_	_
+3	an	an	DET	det	_	5	det	_	_
+4	daou	daou	NUM	num	Gender=Msc|Number=Plur	5	nummod	_	_
+5	du	tu	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:3:39
+# text = Mirit a-gostez.
+# text[fra¹] = Vous gardez de côté.
+1	Mirit	mirout	VERB	vblex	Number=Plur|Person=2	0	root	_	_
+2	a-gostez	a-gostez	ADV	adv	_	1	advmod	_	_
+3	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:4:48
+# text = Meskit an daou zoare toaz.
+# text[fra¹] = Vous mélangez les deux manières pâte.
+1	Meskit	meskañ	VERB	vblex	Number=Plur|Person=2	0	root	_	_
+2	an	an	DET	det	_	4	det	_	_
+3	daou	daou	NUM	num	Gender=Msc|Number=Plur	4	nummod	_	_
+4	zoare	doare	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+5	toaz	toaz	NOUN	n	Gender=Msc|Number=Sing	4	nmod:gen	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:5:63
+# text = Gellout a reer gwelet skeudennoù eus al labourioù-se en diskouezadeg.
+# text[fra¹] = On peut voir des images de ces travaux dans l'exposition.
+1	Gellout	gellout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	reer	ober	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	gwelet	gwelet	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
+5	skeudennoù	skeudenn	NOUN	n	Gender=Fem|Number=Plur	4	obj	_	_
+6	eus	eus	ADP	pr	_	8	case	_	_
+7	al	an	DET	det	_	8	det	_	_
+8	labourioù	labour	NOUN	n	Gender=Msc|Number=Plur	4	obl	_	_
+9	-se	se	ADV	adv	_	8	advmod	_	_
+10-11	en	_	_	_	_	_	_	_	_
+10	en	e	ADP	pr	_	12	case	_	_
+11	n	an	DET	det	_	12	det	_	_
+12	diskouezadeg	diskouezadeg	NOUN	n	Gender=Fem|Number=Sing	4	obl	_	_
+13	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:6:91
+# text = Met ne oa nemet penn-kentañ an nozvezh, an traoù a c'helle cheñch buan.
+# text[fra¹] = Mais elle n'était pas seul le début de la soirée, les choses pouvait changer vite.
+1	Met	met	CCONJ	cnjcoo	_	4	cc	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
+3	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	nemet	nemet	ADJ	adj	_	0	root	_	_
+5	penn-kentañ	penn-kentañ	NOUN	n	Gender=Msc|Number=Sing	4	obl	_	_
+6	an	an	DET	det	_	7	det	_	_
+7	nozvezh	nozvezh	NOUN	n	Gender=Fem|Number=Sing	5	nmod:gen	_	_
+8	,	,	PUNCT	cm	_	12	punct	_	_
+9	an	an	DET	det	_	10	det	_	_
+10	traoù	tra	NOUN	n	Gender=Msc|Number=Plur	12	nsubj	_	_
+11	a	a	PART	vpart	_	12	aux	_	_
+12	c'helle	gellout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+13	cheñch	cheñch	VERB	vblex	VerbForm=Inf	12	xcomp	_	_
+14	buan	buan	ADV	adv	_	13	advmod	_	_
+15	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:7:124
+# text = E-pad 20 munutenn e oa Roazhon ar skipailh nemetañ war ar renk evit kib Europa ar Gampioned.
+# text[fra¹] = Pendant 20 minutes était Rennes la seule équipe sur les rangs pour la coupe de l'Europe les Champions.
+1	E-pad	e-pad	ADP	pr	_	3	case	_	_
+2	20	20	NUM	num	Number=Plur	3	nummod	_	_
+3	munutenn	munutenn	NOUN	n	Gender=Fem|Number=Sing	8	obl	_	_
+4	e	e	PART	vpart	_	8	aux	_	_
+5	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	Roazhon	Roazhon	PROPN	np	Number=Sing	8	nsubj	_	_
+7	ar	an	DET	det	_	8	det	_	_
+8	skipailh	skipailh	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+9-10	nemetañ	_	_	_	_	_	_	_	_
+9	nemetañ	nemet	ADP	pr	_	10	case	_	_
+10	añ	indirect	_	prn	Case=Acc|Gender=Msc|Number=Sing|Person=3|PronType=Pers	8	obl	_	_
+11	war	war	ADP	pr	_	13	case	_	_
+12	ar	an	DET	det	_	13	det	_	_
+13	renk	renk	NOUN	n	Gender=Fem|Number=Sing	8	obl	_	_
+14	evit	evit	ADP	pr	_	15	case	_	_
+15	kib	kib	NOUN	n	Gender=Fem|Number=Sing	8	obl	_	_
+16	Europa	Europa	PROPN	np	Number=Sing	15	nmod:gen	_	_
+17	ar	an	DET	det	_	18	det	_	_
+18	Gampioned	kampion	NOUN	n	Gender=Msc|Number=Plur	15	nmod:gen	_	_
+19	.	.	PUNCT	sent	_	8	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:8:164
+# text = An daou skipailh gant ar muiañ a boentoù a c'helle neuze pignat er Rummad 1.
+# text[fra¹] = Les deux équipes avec les augmenter à points Il pouvait alors monter dans la Catégorie 1.
+1	An	an	DET	det	_	3	det	_	_
+2	daou	daou	NUM	num	Gender=Msc|Number=Plur	3	nummod	_	_
+3	skipailh	skipailh	NOUN	n	Gender=Msc|Number=Sing	10	nsubj	_	_
+4	gant	gant	ADP	pr	_	6	case	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	muiañ	muiañ	VERB	vblex	VerbForm=Inf	10	dep	_	_
+7	a	a	ADP	pr	_	8	case	_	_
+8	boentoù	poent	NOUN	n	Gender=Msc|Number=Plur	6	obl	_	_
+9	a	a	PART	vpart	_	10	aux	_	_
+10	c'helle	gellout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	neuze	neuze	ADV	adv	_	10	advmod	_	_
+12	pignat	pignat	VERB	vblex	VerbForm=Inf	10	xcomp	_	_
+13-14	er	_	_	_	_	_	_	_	_
+13	er	e	ADP	pr	_	15	case	_	_
+14	r	an	DET	det	_	15	det	_	_
+15	Rummad	rummad	NOUN	n	Gender=Msc|Number=Sing	12	obl	_	_
+16	1	1	NUM	num	Number=Sing	15	flat:name	_	_
+17	.	.	PUNCT	sent	_	10	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:9:200
+# text = Ne oa bet skipailh Breizhadezed ebet o vont ken uhel er c'hampionad evit ar poent.
+# text[fra¹] = Il n'avait été pas l'équipe de Bretonnes en train d'aller si haute dans le championnat pour l’instant.
+1	Ne	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
+2	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	4	cop	_	_
+4	skipailh	skipailh	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+5	Breizhadezed	Breizhad	NOUN	n	Gender=Fem|Number=Plur	4	nmod:gen	_	_
+6	ebet	ebet	ADV	adv	_	4	advmod	_	_
+7	o	o	PART	vpart	_	8	aux	_	_
+8	vont	mont	VERB	vblex	VerbForm=Inf	4	advcl	_	_
+9	ken	ken	ADV	preadv	_	10	advmod	_	_
+10	uhel	uhel	ADJ	adj	_	8	obl	_	_
+11-12	er	_	_	_	_	_	_	_	_
+11	er	e	ADP	pr	_	13	case	_	_
+12	r	an	DET	det	_	13	det	_	_
+13	c'hampionad	kampionad	NOUN	n	Gender=Msc|Number=Sing	8	obl	_	_
+14	evit	evit	ADP	pr	_	16	case	_	_
+15	ar	an	DET	det	_	16	det	_	_
+16	poent	poent	NOUN	n	Gender=Msc|Number=Sing	8	obl	_	_
+17	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = bremaik.vislcg.txt:10:236
+# text = Gorrek eo al lusk.
+# text[fra¹] = Le rythme est lent
+1	Gorrek	gorrek	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	al	an	DET	det	_	4	det	_	_
+4	lusk	lusk	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = bro-gozh.vislcg.txt:1:0
 # text = Ni, Breizhiz a galon, karomp hon gwir vro!
@@ -514,6 +831,84 @@
 8	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = bro-gozh.vislcg.txt:7:161
+# text = N'eus pobl ken kaloneg a zindan an neñv.
+# text[fra] =  Aucun peuple sous les cieux n'est aussi ardent.
+1-2	N'eus	_	_	_	_	_	_	_	_
+1	N	ne	ADV	adv	_	5	advmod	_	_
+2	eus	bezañ	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	pobl	pobl	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ken	ken	ADV	preadv	_	5	advmod	_	_
+5	kalonek	kalonek	ADJ	adj	_	0	root	_	_
+6	a-zindan	a-zindan	ADP	pr	_	8	case	_	_
+7	an	an	DET	det	_	8	det	_	_
+8	neñv	neñv	NOUN	n	Gender=Msc|Number=Sing	5	obl	_	_
+9	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:8:181
+# text = Gwerz trist, son dudius a ziwan eno.
+# text[fra] = Complainte triste ou chant plaisant s'éclosent en eux.
+1	Gwerz	gwerz	NOUN	n	Gender=Fem|Number=Sing	7	nsubj	_	_
+2	trist	trist	ADJ	adj	_	1	amod	_	_
+3	,	,	PUNCT	cm	_	4	punct	_	_
+4	son	son	NOUN	n	Gender=Fem|Number=Sing	1	conj	_	_
+5	dudius	dudius	ADJ	adj	_	4	amod	_	_
+6	a	a	PART	vpart	_	7	aux	_	_
+7	ziwan	diwanañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	enno	_	_	_	_	_	_	_	_
+8	enno	e	ADP	pr	_	9	case	_	_
+9	nno	indirect	_	prn	Case=Acc|Number=Plur|Person=3|PronType=Pers	7	obl	_	_
+10	.	.	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:9:203
+# text = O! pegen kaer ez out, ma Bro!
+# text[fra] = O! Combien tu es belle, ma patrie!
+1	O	o	INTERJ	ij	_	0	root	_	_
+2	!	!	PUNCT	sent	_	1	punct	_	_
+3	pegen	pegen	ADV	preadv	_	4	advmod	_	_
+4	kaer	kaer	ADJ	adj	_	1	parataxis	_	_
+5	ez	e	PART	vpart	_	4	aux	_	_
+6	out	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+7	,	,	PUNCT	cm	_	4	punct	_	_
+8	ma	ma	DET	det	PronType=Pos	9	det	_	_
+9	bro	bro	NOUN	n	Gender=Fem|Number=Sing	4	dislocated	_	_
+10	!	!	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:10:226
+# text = Mard eo bet trec'het Breizh er brezelioù braz, he yezh a zo bepred ken beo ha bizkoazh, he c'halon birvidik a lamm c'hoazh 'n he c'hreiz.
+# text[fra] = Si autrefois Bretagne, tu as fléchi durant les guerres, ta langue est restée vivante à jamais, son coeur ardent tressaille encore pour elle.
+1	Mard	ma	SCONJ	cnjsub	_	4	mark	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	trec'het	trec’hiñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+5	Breizh	Breizh	PROPN	np	Number=Sing	4	nsubj	_	_
+6-7	er	_	_	_	_	_	_	_	_
+6	er	e	ADP	pr	_	8	case	_	_
+7	r	an	DET	det	_	8	det	_	_
+8	brezelioù	brezel	NOUN	n	Gender=Msc|Number=Plur	4	obl	_	_
+9	bras	bras	ADJ	adj	_	8	amod	_	_
+10	,	,	PUNCT	cm	_	17	punct	_	_
+11	he	he	DET	det	Gender=Fem|PronType=Pos	12	det	_	_
+12	yezh	yezh	NOUN	n	Gender=Fem|Number=Sing	17	nsubj	_	_
+13	a	a	PART	vpart	_	17	aux	_	_
+14	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	bepred	bepred	ADV	adv	_	17	advmod	_	_
+16	ken	ken	ADV	preadv	_	17	advmod	_	_
+17	bev	bev	ADJ	adj	_	4	parataxis	_	_
+18	ha	ha	CCONJ	cnjcoo	_	19	cc	_	_
+19	biskoazh	biskoazh	ADV	adv	_	17	conj	_	_
+20	,	,	PUNCT	cm	_	25	punct	_	_
+21	he	he	DET	det	Gender=Fem|PronType=Pos	22	det	_	_
+22	c'halon	kalon	NOUN	n	Gender=Fem|Number=Sing	25	nsubj	_	_
+23	virvidik	birvidik	ADJ	adj	_	22	amod	_	_
+24	a	a	PART	vpart	_	25	aux	_	_
+25	lamm	lammat	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+26	c'hoazh	c’hoazh	ADV	adv	_	25	advmod	_	_
+27	'n	un	DET	det	_	29	det	_	_
+28	he	he	DET	det	Gender=Fem|PronType=Pos	29	det	_	_
+29	c'hreiz	kreiz	NOUN	n	Gender=Msc|Number=Sing	25	obj	_	_
+30	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = bro-gozh.vislcg.txt:11:288
 # text = Dihunet out bremañ, ma Breizh !
 # text[fra] = Tu es réveillée maintenant ma Bretagne!
 1	Dihunet	dihuniñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
