@@ -16,7 +16,7 @@ LIST NP               = (np top) (np ant) (np cog) (np al);
 LIST Toponim          = (np top);
 LIST Acr              = (n acr);
 
-SET  N                = NC + NP;
+SET  N                = NC | NP;
 
 # Numerals
 LIST Num              = num ;
@@ -147,6 +147,8 @@ LIST Eur = ("<eur>"i n) ;
 LIST Bet = ("bezañ" vblex pp) ;
 LIST Pet = "<pet>"i ;
 LIST O = "<o>"i ; 
+LIST E = "<e>"i ;
+LIST Digit = "[0-9]+"r ;
 
 #
 #	Semantic lists
@@ -890,6 +892,8 @@ SELECT VerbFin IF (-1 ("ma"i)) (0 MixedMut);
 SELECT VerbFin IF (-1 ("ma"i) OR ("tra ma"i) OR ("mar")) (0 VerbFin);
 
 REMOVE Verb IF (0 N OR Verb) (-1 Guio LINK -1 N) ;
+
+REMOVE N IF (0 E) (1 Digit) ;
 
 
 ###############################################################################
