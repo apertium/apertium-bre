@@ -4428,6 +4428,30 @@
 23	.	.	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:15:296
+# text = Prezidanted an daou guzul-rannvro ha prezidant kuzul-departamant al Liger-Atlantel hepken a c’hall divizout reiñ lañs da adaozañ ar rannvro.
+# text[fra¹] = Présidents les deux conseils régionaux et le président de conseil général le Loire-Atlantique seulement il peut décider lancer réorganiser la région.
+1	Prezidanted	prezidant	NOUN	n	Gender=Msc|Number=Plur	12	nsubj	_	_
+2	an	an	DET	det	_	4	det	_	_
+3	daou	daou	NUM	num	Gender=Msc|Number=Plur	4	nummod	_	_
+4	guzul-rannvro	kuzul-rannvro	NOUN	n	Gender=Msc|Number=Sing	1	nmod:gen	_	_
+5	ha	ha	CCONJ	cnjcoo	_	6	cc	_	_
+6	prezidant	prezidant	NOUN	n	Gender=Msc|Number=Sing	1	conj	_	_
+7	kuzul-departamant	kuzul-departamant	NOUN	n	Gender=Msc|Number=Sing	6	nmod:gen	_	_
+8	al	an	DET	det	_	9	det	_	_
+9	Liger-Atlantel	Liger-Atlantel	PROPN	np	Number=Sing	7	nmod:gen	_	_
+10	hepken	hepken	ADV	adv	_	12	advmod	_	_
+11	a	a	PART	vpart	_	12	aux	_	_
+12	c’hall	gallout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	divizout	divizout	VERB	vblex	VerbForm=Inf	12	xcomp	_	_
+14	reiñ	reiñ	VERB	vblex	VerbForm=Inf	13	xcomp	_	_
+15	lañs	lañs	NOUN	n	Gender=Fem|Number=Sing	14	obj	_	_
+16	da	da	ADP	pr	_	17	mark	_	_
+17	adaozañ	adaozañ	VERB	vblex	VerbForm=Inf	14	advcl	_	_
+18	ar	an	DET	det	_	19	det	_	_
+19	rannvro	rannvro	NOUN	n	Gender=Fem|Number=Sing	17	obj	_	_
+20	.	.	PUNCT	sent	_	12	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:16:339
 # text = Hervez ar vonreizh eo lakaet da vezañ "Prezidant peurbadel" ar vro, goude e varv zoken.
 # text[fra¹] = Selon la constitution a mise à être le "Président éternel" du pays, même après sa morte.
 1	Hervez	hervez	ADP	pr	_	3	case	_	_
@@ -4450,7 +4474,7 @@
 18	zoken	zoken	ADV	adv	_	15	advmod	_	_
 19	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:16:337
+# sent_id = wikipedia.vislcg.txt:17:380
 # text = E gresianeg a-vremañ e vez skrivet μπ evit ober diouzh ar son .
 # text[fra¹] = Le e de grec désormais il est écrit μπ pour faire du son .
 1	E	e	ADP	pr	_	2	case	_	_
@@ -4467,7 +4491,7 @@
 12	son	son	NOUN	n	Gender=Msc|Number=Sing	9	obl	_	_
 13	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:17:366
+# sent_id = wikipedia.vislcg.txt:18:409
 # text = Bras e voe e levezon war al lennegezh italianek er XVIIvet kantved.
 # text[fra¹] = Grand fut son influence sur la littérature italienne dans le XVIIème siècle.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -4486,7 +4510,7 @@
 13	kantved	kantved	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
 14	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:18:396
+# sent_id = wikipedia.vislcg.txt:19:439
 # text = Tri bugel a zeuas d'ar priedoù.
 # text[fra¹] = Trois enfants vinent aux époux.
 1	Tri	tri	NUM	num	Gender=Msc|Number=Plur	2	nummod	_	_
