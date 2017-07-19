@@ -145,6 +145,7 @@
     <pardef n="simbols">
       <e><re>[αβγδεζηθικλμνξοπρσςτυφχψω]</re><p><l></l><r><s n="sym"/></r></p></e>
       <e><p><l>/</l><r>/<s n="sym"/></r></p></e>
+      <e><p><l>=</l><r>=<s n="sym"/></r></p></e>
     </pardef>
 
     <pardef n="barbarismes">

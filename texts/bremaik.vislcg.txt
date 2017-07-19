@@ -93,9 +93,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kontadennoù niverus en doa gellet dastum diwar komzoù Stéphanie Guillaume, eus Gavr.
 # text[fra¹] = Contes nombreux avaient pu ramasser des paroles de Stéphanie Guillaume, de Gâvres.
 "<Kontadennoù>"
@@ -133,9 +130,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur c'hi dezhañ galloudoù dreist-natur eo Volt.
 # text[fra¹] = Un chien à lui pouvoirs excellents-nature est Volt.
 "<Ur>"
@@ -160,9 +154,6 @@
 	"bezañ" vblex pri p3 sg
 "<Volt>"
 	"volt" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -216,9 +207,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel-se emañ kont en heuliad skinwel d'an nebeutañ.
 # text[fra¹] = comme ça il est comtesse dans la suite de télévision du moins.
 "<Evel-se>"
@@ -240,9 +228,6 @@
 	"skinwel" n m sg
 "<d'an nebeutañ>"
 	"d’an nebeutañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -295,9 +280,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar pezh a zo kudennek an deiz m'en em gav Volt kollet e-unan e penn all ar vro dre wallzarvoud.
 # text[fra¹] = Il y a ce que problématique le jour si trouve Volt perdu lui-même à la tête d'autre le pays par accident.
 "<Ar pezh a>"
@@ -342,9 +324,6 @@
 	"dre" pr
 "<wallzarvoud>"
 	"gwallzarvoud" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -393,9 +372,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un tammig berr an abadenn.
 # text[fra¹] = Un petit peu court l'émission.
 "<Un tammig>"
@@ -408,9 +384,6 @@
 ;	"monet" vblex pri p1 sg
 "<abadenn>"
 	"abadenn" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -438,9 +411,6 @@
 	"bro" n f sg
 "<Kerne>"
 	"Kerne" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -676,9 +646,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep miz, abaoe 1980, e kinnig ar gelaouenn Bremañ pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois, depuis 1980, dans il présente le magazine Bremañ articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
 "<Bep>"
@@ -762,9 +729,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -794,9 +758,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -852,9 +813,6 @@
 ;	"bremaik" adv
 "<2005>"
 	"2005" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -1228,9 +1186,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ranket em boa dilezel geriaoueg voutin ar rock evit sevel ur pennad diwar-benn ar bladenn-se.
 # text[fra¹] = J'avais dû délaisser le vocabulaire commun du rock pour lever un article au sujet de ce disque.
 "<Ranket>"
@@ -1504,9 +1459,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Teir sizhunvezh zo en doa bet kentañ ministr Israel kudennoù yec'hed a seurt-se c'hoazh.
 # text[fra¹] = Il y a trois semaines Elle avait eue le premier ministre d'Israël les problèmes de santé de la sorte encore.
 "<Teir>"
@@ -1537,9 +1489,6 @@
 	"c’hoazh" adv
 ;	"koazhañ" vblex imp p2 sg
 ;	"koazhañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -1606,9 +1555,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ho fent avat a chom unan eus ho perzhioù gwellañ.
 # text[fra¹] = Votre humour alors reste une de vos qualités les plus mieux.
 "<Ho>"
@@ -1647,9 +1593,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vezit dilezet gwezh ebet gantañ.
 # text[fra¹] = ne vous êtes délaissé jamais avec lui.
 "<Ne>"
@@ -1664,9 +1607,6 @@
 "<gantañ>"
 	"gant" pr
 		"indirect" prn obj p3 m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -1698,9 +1638,6 @@
 "<labour>"
 	"labour" n m sg
 ;	"labourat" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -1749,9 +1686,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = A-hed ar bloavezh, klaskit chom gant ur spered distan, ha derc'hel d'ho palioù.
 # text[fra¹] = Le long de l'année, Tu cherches rester avec un esprit calme, et tenir à vos avenues.
 "<A-hed>"
@@ -1790,9 +1724,6 @@
 ;	"bal" n m pl
 ;	"bali" n f pl
 ;	"pal" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -1944,9 +1875,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Labourit an toaz un tammig.
 # text[fra¹] = Vous travaillez la pâte un petit peu.
 "<Labourit>"
@@ -1959,9 +1887,6 @@
 	"toaz" n m sg
 "<un tammig>"
 	"un tammig" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2013,9 +1938,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Goloit gant an eil tamm toaz.
 # text[fra¹] = Vous couvrez avec second peu pâte.
 "<Goloit>"
@@ -2041,9 +1963,6 @@
 	"tamm" n m sg
 "<toaz>"
 	"toaz" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2080,9 +1999,6 @@
 ;	"arat" vblex pri p3 sg
 "<gorre>"
 	"gorre" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2130,9 +2046,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Poan ho po da badout hag en arvar emaoc'h da lakaat pep tra da vezañ c'hwitet dre re a vall.
 # text[fra¹] = Douleur Tu auras permanente et en danger vous êtes à mettre tout à être échoué par trop d'urgent.
 "<Poan>"
@@ -2171,9 +2084,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Klaskit chom e peoc'h.
 # text[fra¹] = Vous cherchez rester dans paix.
 "<Klaskit>"
@@ -2191,9 +2101,6 @@
 ;	"e" det pos m sp
 "<peoc'h>"
 	"peoc’h" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2217,9 +2124,6 @@
 "<deoc'h>"
 	"da" pr
 		"indirect" prn obj p2 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2253,9 +2157,6 @@
 	"kalz" n m sg
 "<gwelloc'h>"
 	"gwell" adj sint comp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2298,9 +2199,6 @@
 ;	"tennañ" vblex imp p2 sg
 ;	"tennañ" vblex pri p3 sg
 ;	"tenn" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2368,9 +2266,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwelout a reoc'h un tammig re vras kement evit ar garantez hag evit al labour.
 # text[fra¹] = Vous verrez un petit peu trop grand chaque pour l'amour et pour le travail.
 "<Gwelout>"
@@ -2418,9 +2313,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diwallit da vezañ dipitet a-benn ar fin.
 # text[fra¹] = Vous protégez être déçu en fin de compte.
 "<Diwallit>"
@@ -2435,9 +2327,6 @@
 	"dipitet" adj mf sp
 "<a-benn ar fin>"
 	"a-benn ar fin" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2495,9 +2384,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pep tra a yelo mat ma teuoc'h a-benn da gavout ho plas deoc'h ha gouzout ar pezh hoc'h eus c'hoant da gaout da vat.
 # text[fra¹] = Tout Il ira bien si vous réussirez trouver votre place à vous et savoir ce que vous avez envie de avoir pour de bon.
 "<Pep tra>"
@@ -2550,9 +2436,6 @@
 	"kaout" vblex inf
 "<da vat>"
 	"da vat" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2612,9 +2495,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar familh hag ar vicher a vo lakaet war-wel gant ahel an Aerouant.
 # text[fra¹] = La famille et le métier seront mis sur-vue avec l'axe du Dragon.
 "<Ar>"
@@ -2663,9 +2543,6 @@
 ;	"monet" vblex pri p1 sg
 "<Aerouant>"
 	"aerouant" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2767,9 +2644,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret e vo deoc'h kemer divizioù, en em zifenn, fiñval ha cheñch.
 # text[fra¹] = Il faudra que Vous preniez décisions, défend, bouger et changer.
 "<Ret>"
@@ -2816,9 +2690,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret e vo derc'hel mat.
 # text[fra¹] = Nécessaire sera tenir bien.
 "<Ret>"
@@ -2835,9 +2706,6 @@
 	"derc’hel" vblex inf
 "<mat>"
 	"mat" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2876,9 +2744,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Aesoc'h e vo an traoù deoc'h.
 # text[fra¹] = Plus facile sera les choses à vous.
 "<Aesoc'h>"
@@ -2900,9 +2765,6 @@
 "<deoc'h>"
 	"da" pr
 		"indirect" prn obj p2 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -2959,9 +2821,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Met ne c'hoarvezo netra grevus, bez' e vo un doare da vont war-raok.
 # text[fra¹] = Mais n'il arrivera rien grave, être il sera une manière à progresser.
 "<Met>"
@@ -3000,9 +2859,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Arabat deoc'h en em santout re gablus ma rit fazioù.
 # text[fra¹] = Interdit à vous sentir trop coupable si vous faites des erreurs.
 "<Arabat>"
@@ -3034,9 +2890,6 @@
 "<fazioù>"
 	"fazi" n m pl
 ;	"paz" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3079,9 +2932,6 @@
 "<digarezet>"
 	"digareziñ" vblex pp
 ;	"digareziñ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3152,9 +3002,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Met dre ma n'int ket enrollet eo maez lezenn gwerzhañ ar re-se.
 # text[fra¹] = Mais puisque elles n'ont pas enregistré il est la campagne de loi vendre celles-là.
 "<Met>"
@@ -3181,9 +3028,6 @@
 	"gwerzhañ" vblex inf
 "<ar re-se>"
 	"ar re-se" prn dem mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3308,9 +3152,6 @@
 "<kumun>"
 	"kumun" adj mf sp
 ;	"kumun" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3443,9 +3284,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da heul an darvoud e vo aozet abadennoù (dañs, c'hoariva, sonadegoù) war leurennoù bro Naoned, gant ur priz ispisial a 9 euro evit an dud a-vicher, ar peurrest o vezañ digor ha digoust.
 # text[fra¹] = Ensuite l'événement sera organisé les émissions (de danse, théâtre, concerts) sur les scènes de #le pays de Nantes, avec un prix spécial à 9 euros pour les professionnels, le reste en train d'être ouverture et gratuitement.
 "<Da heul>"
@@ -3563,9 +3401,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar pouez ne vo ket lakaet war ar skeudennoù, al lusk pe ar framm, war an istor hag ar preder ne lâran ket.
 # text[fra¹] = Le poids ne sera pas mis sur les images, le rythme quel le cadre, sur l'histoire et la réflexion Nous ne disons pas.
 "<Ar>"
@@ -3638,9 +3473,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur film heverk ouzhpenn e bed ar sinema saoz.
 # text[fra¹] = Un film remarquable en plus dans le domaine du cinéma anglais.
 "<Ur>"
@@ -3666,9 +3498,6 @@
 	"sinema" n m sg
 "<saoz>"
 	"saoz" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3703,9 +3532,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Arabat c'hoarzhin.
 # text[fra¹] = Il ne faut pas rire.
 "<Arabat>"
@@ -3715,9 +3541,6 @@
 "<c'hoarzhin>"
 	"c’hoarzhin" vblex inf
 ;	"c’hoarzhin" vblex fti p1 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3736,9 +3559,6 @@
 	"afer" n f sg
 "<-mañ>"
 	"mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3812,9 +3632,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaoz zo diwar-benn se ha leun a draoù all c'hoazh e-barzh kentañ niverenn Bremañ 2008.
 # text[fra¹] = Il y a conversation au sujet de ça et plein de choses encore autres à l’intérieur premières le numéro de Bremañ 2008.
 "<Kaoz>"
@@ -3855,9 +3672,6 @@
 ;	"bremañ" adv
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3902,9 +3716,6 @@
 	"-" guio
 "<Euskadi>"
 	"Euskadi" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -3991,9 +3802,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -4036,9 +3844,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pe er stalioù a ginnig danvez Breizh.
 # text[fra¹] = Quel dans les magasins présente la matière de la Bretagne.
 "<Pe>"
@@ -4068,9 +3873,6 @@
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4124,9 +3926,6 @@
 	"bro" n f sg
 "<Gemperle>"
 	"Kemperle" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4240,9 +4039,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait er yenerez.
 # text[fra¹] = Vous mettez dans le réfrigérateur.
 "<Lakait>"
@@ -4252,9 +4048,6 @@
 		"an" det def sp
 "<yenerez>"
 	"yenerez" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4283,9 +4076,6 @@
 	"4" num mf pl
 "<gwenn-vi>"
 	"gwenn#-vi" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4341,9 +4131,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaoz zo eus an holl draoù-se ha traoù all c'hoazh e-barzh niverenn Bremañ Genver 2009.
 # text[fra¹] = Il y a conversation de toutes ces choses et choses encore autres à l’intérieur le numéro de Bremañ janvier 2009.
 "<Kaoz>"
@@ -4392,9 +4179,6 @@
 	"Genver" n m sp
 "<2009>"
 	"2009" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4529,9 +4313,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep miz, abaoe 1980, e kinnig ar gelaouenn Bremañ pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois, depuis 1980, dans il présente le magazine Bremañ articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
 "<Bep>"
@@ -4615,9 +4396,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -4657,9 +4435,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4708,9 +4483,6 @@
 	"sistem" n m sg
 "<leveoù>"
 	"leve" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4781,9 +4553,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Trede e oa bet er redadeg-se (42 km) e 2002.
 # text[fra¹] = Troisième avait été dans cette course (42 km) dans 2002.
 "<Trede>"
@@ -4822,9 +4591,6 @@
 ;	"e" det pos m sp
 "<2002>"
 	"2002" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -4912,9 +4678,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Degouezhout a reoc'h goude en ur mil-hent-dall bras-tre, war daou estaj.
 # text[fra¹] = Vous arriverez après dans un animal-impasse très grande, sur deux étages.
 "<Degouezhout>"
@@ -4954,9 +4717,6 @@
 	"daou" num m pl
 "<estaj>"
 	"estaj" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5001,9 +4761,6 @@
 "<enebourien>"
 	"enebour" n m pl
 	"eneber" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5062,9 +4819,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Merket e vo poentoù ganeoc'h pa dizhoc'h harnez ar c'hoarierien all.
 # text[fra¹] = Il sera marqué des points avec vous quand vous atteindrez le harnais des autres joueurs.
 "<Merket>"
@@ -5096,9 +4850,6 @@
 	"c’hoarier" n m pl
 "<all>"
 	"all" adj ind mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5136,9 +4887,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kontet e vo ar poentoù er fin gant an urzhiataer.
 # text[fra¹] = Il sera compté les points à la fin avec l'ordinateur.
 "<Kontet>"
@@ -5169,9 +4917,6 @@
 ;	"monet" vblex pri p1 sg
 "<urzhiataer>"
 	"urzhiataer" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5318,9 +5063,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne c'houlenn ket kalz amzer, ne goust netra, ha diskouez a raio d'ar re en em ginnig evit bezañ prezidant e rank afer ar c'hresk gwrez bezañ unan eus danvezioù pennañ an tabutoù evit an dilennadegoù da zont.
 # text[fra¹] = Il ne demande pas beaucoup temps, n'il coûte rien, et il montrera à @ar re présente pour être président il doit l'affaire de la croissance chaleur être une des matières principales des disputes pour les élections à venir.
 "<Ne>"
@@ -5444,9 +5186,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Deuet brav eo ar film e-keñver skeudennoù.
 # text[fra¹] = Venu beau est le film par comparaison à images.
 "<Deuet>"
@@ -5466,9 +5205,6 @@
 	"e-keñver" pr
 "<skeudennoù>"
 	"skeudenn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5647,9 +5383,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpenn se e vint sikouret war veur a dachenn evit gellout lañsañ ar strollad da vat en un doare micherel.
 # text[fra¹] = En plus ça seront aidés sur grand à terrain pour pouvoir lancer le groupe pour de bon dans une manière professionnelle.
 "<Ouzhpenn>"
@@ -5710,9 +5443,6 @@
 ;	"doareañ" vblex pri p3 sg
 "<micherel>"
 	"micherel" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5780,9 +5510,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Alies-tre e teu er-maez levrioù enno listennadoù ar pladennoù a ranker selaou.
 # text[fra¹] = Souvent-très il sort livres dans eux les listes des disques que doit écouter.
 "<Alies>"
@@ -5829,9 +5556,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Peurliesañ ez eo ar memes kinnigoù a gaver, mod pe vod.
 # text[fra¹] = Généralement il est les mêmes propositions que trouve, d’une manière ou d’une autre.
 "<Peurliesañ>"
@@ -5869,9 +5593,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Disheñvel an traoù 'vat gant Philippe Robert.
 # text[fra¹] = Différent les choses alors avec Philippe Robert.
 "<Disheñvel>"
@@ -5894,9 +5615,6 @@
 	"Philippe" np ant m sg
 "<Robert>"
 	"Robert" np ant m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -5977,9 +5695,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Personel eo e zibaboù, hag evit kement pladenn dibabet gantañ e kinnig un tamm testenn, hag ul listennad pladennoù all damheñvel.
 # text[fra¹] = Personnel est ses choix, et pour chaque disque choisi avec lui présente un peu texte, et une liste d'autres disques similaire.
 "<Personel>"
@@ -6047,9 +5762,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da lavaret eo n'eo ket 140 pladenn a veneg, met kalz muioc'h e gwirionez.
 # text[fra¹] = C’est-à-dire Elle n'est pas 140 disques à mention, mais beaucoup plus en vérité.
 "<Da lavaret eo>"
@@ -6092,9 +5804,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Meskit an hanter eus ar c'heuz gant ar c'hraoñ-kelvez pilet hag an eoul.
 # text[fra¹] = Vous mélangez le à moitié du fromage avec les noisettes écrasées et l'huile.
 "<Meskit>"
@@ -6134,9 +5843,6 @@
 ;	"monet" vblex pri p1 sg
 "<eoul>"
 	"eoul" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6184,9 +5890,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Poan ho po da badout hag en arvar emaoc'h da lakaat pep tra da vezañ c'hwitet dre re a vall.
 # text[fra¹] = Douleur Tu auras permanente et en danger vous êtes à mettre tout à être échoué par trop d'urgent.
 "<Poan>"
@@ -6225,9 +5928,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Klaskit chom e peoc'h.
 # text[fra¹] = Vous cherchez rester dans paix.
 "<Klaskit>"
@@ -6245,9 +5945,6 @@
 ;	"e" det pos m sp
 "<peoc'h>"
 	"peoc’h" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6271,9 +5968,6 @@
 "<deoc'h>"
 	"da" pr
 		"indirect" prn obj p2 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6307,9 +6001,6 @@
 	"kalz" n m sg
 "<gwelloc'h>"
 	"gwell" adj sint comp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6352,9 +6043,6 @@
 ;	"tennañ" vblex imp p2 sg
 ;	"tennañ" vblex pri p3 sg
 ;	"tenn" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6422,9 +6110,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwelout a reoc'h un tammig re vras kement evit ar garantez hag evit al labour.
 # text[fra¹] = Vous verrez un petit peu trop grand chaque pour l'amour et pour le travail.
 "<Gwelout>"
@@ -6472,9 +6157,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diwallit da vezañ dipitet a-benn ar fin.
 # text[fra¹] = Vous protégez être déçu en fin de compte.
 "<Diwallit>"
@@ -6489,9 +6171,6 @@
 	"dipitet" adj mf sp
 "<a-benn ar fin>"
 	"a-benn ar fin" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6549,9 +6228,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pep tra a yelo mat ma teuoc'h a-benn da gavout ho plas deoc'h ha gouzout ar pezh hoc'h eus c'hoant da gaout da vat.
 # text[fra¹] = Tout Il ira bien si vous réussirez trouver votre place à vous et savoir ce que vous avez envie de avoir pour de bon.
 "<Pep tra>"
@@ -6604,9 +6280,6 @@
 	"kaout" vblex inf
 "<da vat>"
 	"da vat" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6666,9 +6339,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar familh hag ar vicher a vo lakaet war-wel gant ahel an Aerouant.
 # text[fra¹] = La famille et le métier seront mis sur-vue avec l'axe du Dragon.
 "<Ar>"
@@ -6717,9 +6387,6 @@
 ;	"monet" vblex pri p1 sg
 "<Aerouant>"
 	"aerouant" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6821,9 +6488,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret e vo deoc'h kemer divizioù, en em zifenn, fiñval ha cheñch.
 # text[fra¹] = Il faudra que Vous preniez décisions, défend, bouger et changer.
 "<Ret>"
@@ -6870,9 +6534,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret e vo derc'hel mat.
 # text[fra¹] = Nécessaire sera tenir bien.
 "<Ret>"
@@ -6889,9 +6550,6 @@
 	"derc’hel" vblex inf
 "<mat>"
 	"mat" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -6930,9 +6588,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Aesoc'h e vo an traoù deoc'h.
 # text[fra¹] = Plus facile sera les choses à vous.
 "<Aesoc'h>"
@@ -6954,9 +6609,6 @@
 "<deoc'h>"
 	"da" pr
 		"indirect" prn obj p2 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7013,9 +6665,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Met ne c'hoarvezo netra grevus, bez' e vo un doare da vont war-raok.
 # text[fra¹] = Mais n'il arrivera rien grave, être il sera une manière à progresser.
 "<Met>"
@@ -7054,9 +6703,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Arabat deoc'h en em santout re gablus ma rit fazioù.
 # text[fra¹] = Interdit à vous sentir trop coupable si vous faites des erreurs.
 "<Arabat>"
@@ -7088,9 +6734,6 @@
 "<fazioù>"
 	"fazi" n m pl
 ;	"paz" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7133,9 +6776,6 @@
 "<digarezet>"
 	"digareziñ" vblex pp
 ;	"digareziñ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7212,9 +6852,6 @@
 ;	"monet" vblex pri p1 sg
 "<danvez>"
 	"danvez" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7351,9 +6988,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En e levr diwezhañ e kinnig Jean-Jacques Monnier, a-hed 400 pajennad, poltridi tud liesseurt eus hor bro, tud o doa dibabet ur stourm start en ur mare trubuilhet-kenañ, an hini enep an nazied.
 # text[fra¹] = Dans e de dernier livre Il présente Jean-Jacques Monnier, le long de 400 pages, portraits de gens divers de notre pays, gens avaient choisis un combat difficile dans un moment troublé-très, l'aucun contraire les nazis.
 "<En>"
@@ -7465,9 +7099,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vern m'emañ an dud-se abaoe pell-tre er vro, ne vern eus peseurt bro e teuont.
 # text[fra¹] = n'il importe s'il est ces gens depuis longtemps-très dans le pays, n'importe de quel ils viennent pays.
 "<Ne>"
@@ -7523,9 +7154,6 @@
 ;	"direct" prn obj p3 m sg
 "<teuont>"
 	"dont" vblex pri p3 pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7612,9 +7240,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Abaoe miz Eost 2007 e c'hell un 60 den bennak bezañ bac'het eno (75 archer a vez bepred war al lec'h).
 # text[fra¹] = Depuis août 2007 sa cellule quelques 60 personnes quelconques être emprisonnées là-bas (75 gendarmes #le a de tombe toujours sur place).
 "<Abaoe>"
@@ -7681,9 +7306,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpenn 500 den zo bet bac'het d'ur mare bennak er greizenn-se.
 # text[fra¹] = En plus 500 personnes ont été emprisonnées à un moment quelconque dans ce centre.
 "<Ouzhpenn>"
@@ -7729,9 +7351,6 @@
 ;	"kreizennañ" vblex pri p3 sg
 "<-se>"
 	"se" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7814,9 +7433,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaoz zo diwar-benn se ha leun a draoù all c'hoazh e-barzh kentañ niverenn Bremañ 2008.
 # text[fra¹] = Il y a conversation au sujet de ça et plein de choses encore autres à l’intérieur premières le numéro de Bremañ 2008.
 "<Kaoz>"
@@ -7857,9 +7473,6 @@
 ;	"bremañ" adv
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7904,9 +7517,6 @@
 	"-" guio
 "<Euskadi>"
 	"Euskadi" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -7993,9 +7603,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -8038,9 +7645,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pe er stalioù a ginnig danvez Breizh.
 # text[fra¹] = Quel dans les magasins présente la matière de la Bretagne.
 "<Pe>"
@@ -8070,9 +7674,6 @@
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8147,9 +7748,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kanaouennoù brezhonek a vez skrivet gant an arzour abaoe dek vloaz bennak bremañ.
 # text[fra¹] = Il y a chansons bretonnes écrit avec l'artiste depuis environ dix ans maintenant.
 "<Kanaouennoù>"
@@ -8195,9 +7793,6 @@
 	"bennak" adj mf sp
 "<bremañ>"
 	"bremañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8344,9 +7939,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gant an albom "Straed an amann" e oa bet anavezet gant tud ar vro. E Ti Sked e kinnigo Dom Duff e bladenn nevez, "E-unan".
 # text[fra¹] = Avec l'album "de Rue le beurre" avaient été connu avec les gens du pays. Chez Sked Il présentera Tom Duff son nouveau disque, "Lui-même".
 "<Gant>"
@@ -8436,9 +8028,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Seniñ a ray un nebeud tonioù.
 # text[fra¹] = Il sonnera un peu d'airs.
 "<Seniñ>"
@@ -8462,9 +8051,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Abadenn digoust ha digor d'an holl.
 # text[fra¹] = Émission gratuitement et ouverte à tous.
 "<Abadenn>"
@@ -8484,9 +8070,6 @@
 ;	"digeriñ" vblex pri p3 sg
 "<d'an holl>"
 	"d’an holl" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8526,9 +8109,6 @@
 	"bezañ" vblex pri p3 sg
 "<hemañ>"
 	"hemañ" prn dem m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8580,9 +8160,6 @@
 	"Genver" n m sp
 "<2009>"
 	"2009" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8717,9 +8294,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep miz, abaoe 1980, e kinnig ar gelaouenn Bremañ pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois, depuis 1980, dans il présente le magazine Bremañ articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
 "<Bep>"
@@ -8803,9 +8377,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -8845,9 +8416,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8891,9 +8459,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit an dour.
 # text[fra¹] = Vous ajoutez l'eau.
 "<Ouzhpennit>"
@@ -8908,9 +8473,6 @@
 ;	"dourañ" vblex imp p2 sg
 ;	"tour" n m sg
 ;	"dourañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -8966,9 +8528,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bannit war ar c'hig.
 # text[fra¹] = Vous lancez sur la viande.
 "<Bannit>"
@@ -8982,9 +8541,6 @@
 ;	"arat" vblex pri p3 sg
 "<c'hig>"
 	"kig" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9022,9 +8578,6 @@
 	"tamm" n m pl
 "<kig>"
 	"kig" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9069,9 +8622,6 @@
 "<baour>"
 	"paour" n m sg
 	"paour" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9134,9 +8684,6 @@
 ;	"stourm" vblex imp p2 sg
 ;	"stourm" vblex inf
 ;	"stourm" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9220,9 +8767,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Betek ar7 aviz Gwengolo 2007, Egorenn ar skiantoù, Maezioù Frank, Roazhon.
 # text[fra¹] = Jusque les7 avis septembres 2007, l'Espace des sciences, Champs Libres, Rennes.
 "<Betek>"
@@ -9255,9 +8799,6 @@
 	"," cm
 "<Roazhon>"
 	"Roazhon" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9302,9 +8843,6 @@
 "<enskrivet>"
 	"enskrivañ" vblex pp
 ;	"enskrivañ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9367,9 +8905,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar genstrivadeg-veur a vo aozet e Pondi d'ar 1añ a viz Ebrel.
 # text[fra¹] = Le concours-grand Il sera organisé à Pontivy le 1ère avril.
 "<Ar>"
@@ -9422,9 +8957,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait an amann da vlotaat er skinforn, basit ar vioù.
 # text[fra¹] = Vous mettez le beurre à amollir dans le four à micro-ondes, vous passez les oeufs.
 "<Lakait>"
@@ -9458,9 +8990,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diskennit an toaz war ar per hag ar c'heuz.
 # text[fra¹] = Vous descendez la pâte sur les poires et le fromage.
 "<Diskennit>"
@@ -9488,9 +9017,6 @@
 ;	"arat" vblex pri p3 sg
 "<c'heuz>"
 	"keuz" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9584,9 +9110,6 @@
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9688,9 +9211,6 @@
 ;	"monet" vblex pri p1 sg
 "<deñved>"
 	"dañvad" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9815,9 +9335,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha kalz a zo! Plijus int koulskoude ma vezer kendrec'het gant aergelc'h an istor.
 # text[fra¹] = Et beaucoup d'Elle est! Agréable Ils pourtant si on est convaincu avec l'atmosphère de l'histoire.
 "<Ha>"
@@ -9860,9 +9377,6 @@
 ;	"monet" vblex pri p1 sg
 "<istor>"
 	"istor" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -9936,9 +9450,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaoz zo diwar-benn se ha leun a draoù all c'hoazh e-barzh kentañ niverenn Bremañ 2008.
 # text[fra¹] = Il y a conversation au sujet de ça et plein de choses encore autres à l’intérieur premières le numéro de Bremañ 2008.
 "<Kaoz>"
@@ -9979,9 +9490,6 @@
 ;	"bremañ" adv
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10026,9 +9534,6 @@
 	"-" guio
 "<Euskadi>"
 	"Euskadi" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10115,9 +9620,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -10160,9 +9662,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pe er stalioù a ginnig danvez Breizh.
 # text[fra¹] = Quel dans les magasins présente la matière de la Bretagne.
 "<Pe>"
@@ -10192,9 +9691,6 @@
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10343,9 +9839,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Peadra a vo.
 # text[fra¹] = Moyens sera.
 "<Peadra>"
@@ -10360,9 +9853,6 @@
 ;	"monet" vblex imp p2 sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10402,9 +9892,6 @@
 	"arzour" n m pl
 "<a bep seurt>"
 	"a bep seurt" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10456,9 +9943,6 @@
 ;	"monet" vblex pri p1 sg
 "<dibennoù-sizhun>"
 	"dibenn#-sizhun" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10534,9 +10018,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evit ar re a fellfe dezho, emañ al livadurioù e gwerzh ivez.
 # text[fra¹] = Pour ceux qui Il voudrait à eux, est les peintures en vente aussi.
 "<Evit>"
@@ -10573,9 +10054,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Skol Diwan Roazhon, 31 bali Portugal.
 # text[fra¹] = L'école Diwan de Rennes, 31 avenues le Portugal.
 "<Skol Diwan>"
@@ -10591,9 +10069,6 @@
 ;	"palat" vblex fti p2 sg
 "<Portugal>"
 	"Portugal" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10672,9 +10147,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Setu neuze ur film gwirheñvel a denn d'an dienez e pep keñver.
 # text[fra¹] = Voilà alors un film vraisemblable à coup à la misère d'e chaque comparaison.
 "<Setu>"
@@ -10718,9 +10190,6 @@
 ;	"bep" det ind mf sg
 "<keñver>"
 	"keñver" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10781,9 +10250,6 @@
 		"kenañ" adv
 "<a-benn ar fin>"
 	"a-benn ar fin" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10878,9 +10344,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Peadra da lenn ha da brederiañ eta.
 # text[fra¹] = Moyens à lecture et à réfléchir donc.
 "<Peadra>"
@@ -10907,9 +10370,6 @@
 "<eta>"
 	"eta" adv
 	"eta" cnjadv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -10961,9 +10421,6 @@
 	"Genver" n m sp
 "<2009>"
 	"2009" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -11098,9 +10555,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep miz, abaoe 1980, e kinnig ar gelaouenn Bremañ pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois, depuis 1980, dans il présente le magazine Bremañ articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
 "<Bep>"
@@ -11184,9 +10638,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -11229,9 +10680,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An tri-se o deus echuet an tournamant gant 278 taol.
 # text[fra¹] = Les trois ci ont finis le tournoi avec 278 coups.
 "<An>"
@@ -11266,9 +10714,6 @@
 ;	"teurel" vblex imp p2 sg
 ;	"teuler" vblex pri p3 sg
 ;	"teurel" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -11318,9 +10763,6 @@
 ;	"arat" vblex pri p3 sg
 "<skrid>"
 	"skrid" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -11386,9 +10828,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait ar riz da boazhañ, laoskit a-gostez e-pad 5 pe 6 eurvezh d'ar muiañ.
 # text[fra¹] = Vous mettez le riz à cuire, vous laissez de côté pendant 5 quels 6 heures au plus.
 "<Lakait>"
@@ -11424,9 +10863,6 @@
 	"eurvezh" n f sg
 "<d'ar muiañ>"
 	"d’ar muiañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -11514,9 +10950,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kavet zo bet meur a evn marvet mastaret gant an eoul-maen, lod all bev c'hoazh zo bet kaset da greizenn LPO an Enez-Veur.
 # text[fra¹] = Il a été trouvé plusieurs oiseaux morts barbouillés avec le pétrole, partie autre vivante encore elle a été envoyée au centre de LPO le Lillemer.
 "<Kavet>"
@@ -11596,9 +11029,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Etre ar Merc'her hag ar Sul, etre 2e ha 6e.
 # text[fra¹] = Entre le mercredi et le dimanche, entre 2h et 6h
 "<Etre>"
@@ -11663,9 +11093,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Du-hont en deus pep hini e zoare da lakaat an amzer da dremen.
 # text[fra¹] = chez lui elle a chacun sa manière à mettre le temps à dernier.
 "<Du-hont>"
@@ -11704,9 +11131,6 @@
 ;	"tremen" vblex imp p2 sg
 ;	"tremen" vblex pri p3 sg
 ;	"tremen" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -11819,9 +11243,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar pal a zo brudañ al levrioù war-zu danvez-lennerien liesdoare. 36 levraoueg-kêr, e Bro-Leon hag e Bro-Gerne, a gemer perzh er raktres.
 # text[fra¹] = Il y a l'objectif faire connaître les livres vers matière-lecteurs multiples. 36 bibliothèques-ville, dans l'et dans Cornouaille, elle participe dans le projet.
 "<Ar>"
@@ -11913,9 +11334,6 @@
 	"raktres" n m sg
 ;	"raktresañ" vblex imp p2 sg
 ;	"raktresañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12013,9 +11431,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Laoskit plas etre ar frouezh ha ribl ar moull.
 # text[fra¹] = Vous laissez place entre le fruit et le bord du moule.
 "<Laoskit>"
@@ -12049,9 +11464,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da zebriñ klouar gant un tamm dienn fresk.
 # text[fra¹] = À manger tiède avec un peu crème #frais.
 "<Da>"
@@ -12076,9 +11488,6 @@
 	"fresk" adj mf sp
 ;	"freskañ" vblex imp p2 sg
 ;	"freskañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12150,9 +11559,6 @@
 "<ganto>"
 	"gant" pr
 		"indirect" prn obj p3 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12249,9 +11655,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pe er stalioù a ginnig danvez Breizh.
 # text[fra¹] = Quel dans les magasins présente la matière de la Bretagne.
 "<Pe>"
@@ -12284,9 +11687,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar skeudennoù-se zo kozh.
 # text[fra¹] = Ces images est vieilles.
 "<Ar>"
@@ -12304,9 +11704,6 @@
 	"kozh" adj mf sp
 ;	"kozhañ" vblex imp p2 sg
 ;	"kozhañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12357,9 +11754,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kenderc'hel a raio an diskouezadeg-se betek fin miz Meurzh.
 # text[fra¹] = Il continuera cette exposition jusqu’à la fin de mars.
 "<Kenderc'hel>"
@@ -12386,9 +11780,6 @@
 	"betek fin" pr
 "<miz Meurzh>"
 	"miz Meurzh" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12463,9 +11854,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar pezh a vo klasket ober gant Yann ar Beskont hag e gamaladed en ur ginnig degemer ul lodenn eus Kib ar bed, er bloaz a zeu.
 # text[fra¹] = Ce que sera cherché faire avec Yann le Vicomte et ses camarades dans une proposition accueillir une partie de la Coupe du monde, l’année prochaine.
 "<Ar pezh a>"
@@ -12537,9 +11925,6 @@
 	"," cm
 "<er bloaz a zeu>"
 	"er bloaz a zeu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12659,9 +12044,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kalz filmaozourien zo bet awenet gant an disrann etre Israel ha Palestina.
 # text[fra¹] = Beaucoup cinéastes ont été inspirés avec la séparation entre Israël et la Palestine.
 "<Kalz>"
@@ -12702,9 +12084,6 @@
 ;	"ha" ij
 "<Palestina>"
 	"Palestina" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12751,9 +12130,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Div genstrivadeg a vo aozet.
 # text[fra¹] = Il Sera organisé deux concours.
 "<Div>"
@@ -12775,9 +12151,6 @@
 	"aoziñ" vblex pp
 ;	"aozañ" vblex imp p3 sg
 ;	"aoziñ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12875,9 +12248,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E miz C'hwevrer e vo kendalc'het gant gouelioù a lid sevenadur Breizh.
 # text[fra¹] = en février il sera continué avec voiles il célèbre culture bretonne.
 "<E miz C'hwevrer>"
@@ -12914,9 +12284,6 @@
 ;	"lid" n m sg
 "<sevenadur Breizh>"
 	"sevenadur# Breizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -12978,9 +12345,6 @@
 	"penn-kentañ" n m sg
 "<miz Meurzh>"
 	"miz Meurzh" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13074,9 +12438,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur staj diwar-benn sonerezh Breizh Uhel vo kinniget d'an dud dedennet.
 # text[fra¹] = Un stage au sujet de la musique de la Bretagne Haute seront présentées aux gens intéressés.
 "<Ur>"
@@ -13106,9 +12467,6 @@
 	"dedennañ" vblex pp
 	"dedennet" adj mf sp
 ;	"dedennañ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13145,9 +12503,6 @@
 	"kanañ" vblex inf
 "<ivez>"
 	"ivez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13204,9 +12559,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaoz zo eus an holl draoù-se ha traoù all c'hoazh e-barzh niverenn Bremañ Genver 2009.
 # text[fra¹] = Il y a conversation de toutes ces choses et choses encore autres à l’intérieur le numéro de Bremañ janvier 2009.
 "<Kaoz>"
@@ -13255,9 +12607,6 @@
 	"Genver" n m sp
 "<2009>"
 	"2009" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13392,9 +12741,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep miz, abaoe 1980, e kinnig ar gelaouenn Bremañ pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois, depuis 1980, dans il présente le magazine Bremañ articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
 "<Bep>"
@@ -13478,9 +12824,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -13520,9 +12863,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13608,9 +12948,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = War ar memes tro e c'halv meur a sindikad micherel, studierien pe liseidi da vont da vanifestiñ dimeurzh a-enep ar c'hevratoù nevez-se.
 # text[fra¹] = Sur même le tour de son appel plusieurs syndicats professionnels, les étudiants quels de lycéens à aller manifester mardi contre ces nouveaux contrats.
 "<War>"
@@ -13685,9 +13022,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er mare-mañ e vez komzet kalz eus ar virus H5 N1.
 # text[fra¹] = En ce moment elle est parlé beaucoup du virus d'H5 N1.
 "<Er mare-mañ>"
@@ -13722,9 +13056,6 @@
 	"H5" n acr m sg
 "<N1>"
 	"N1" n acr m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13788,9 +13119,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Padal ne seblant ket ken anat-se al liamm etre ar virus hag al laboused gouez.
 # text[fra¹] = pourtant il ne semble plus évident ci le lien entre le virus et les oiseaux de lessive.
 "<Padal>"
@@ -13830,9 +13158,6 @@
 "<gouez>"
 	"kouez" n m sg
 ;	"gouzout" vblex imp p2 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -13962,9 +13287,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lodennet eo an diskouezadeg en eizh tem (peñse, merdeerezh, kenwerzh, brezel, buhez pemdez...).
 # text[fra¹] = Il a partagé l'exposition dans les huit thèmes (naufrage, navigation, commerce, guerre, vie quotidienne...).
 "<Lodennet>"
@@ -14024,9 +13346,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Roet e oa bet lañs d'an diskouezadeg-se warlene e Douarnenez.
 # text[fra¹] = Elle avait été donné avance à cette exposition l’année dernière à Douarnenez.
 "<Roet>"
@@ -14067,9 +13386,6 @@
 ;	"e" n m sp
 "<Douarnenez>"
 	"Douarnenez" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14149,9 +13465,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An tri flas kentañ zo aet neuze gant Frañs, Spagn ha Danmark.
 # text[fra¹] = Les trois places premières est allée alors avec France, l'Espagne et le Danemark.
 "<An>"
@@ -14193,9 +13506,6 @@
 ;	"ha" ij
 "<Danmark>"
 	"Danmark" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14247,9 +13557,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Klasket ho poa kreskiñ ha stabilaat war un dro.
 # text[fra¹] = Vous aviez cherché augmenter et stabiliser à la fois.
 "<Klasket>"
@@ -14266,9 +13573,6 @@
 	"stabilaat" vblex inf
 "<war un dro>"
 	"war un dro" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14300,9 +13604,6 @@
 ;	"e" det pos m sp
 "<2006>"
 	"2006" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14375,9 +13676,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Neuze klaskit chom dinec'h.
 # text[fra¹] = alors vous cherchez rester tranquille.
 "<Neuze>"
@@ -14393,9 +13691,6 @@
 	"dinec’h" adj mf sp
 ;	"dinec’hiñ" vblex imp p2 sg
 ;	"dinec’hiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14425,9 +13720,6 @@
 	"re" prn ind mf pl
 "<bepred>"
 	"bepred" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14492,9 +13784,6 @@
 	"re" prn ind mf pl
 "<uhel>"
 	"uhel" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14568,9 +13857,6 @@
 "<ziorren>"
 	"diorren" vblex inf
 ;	"diorren" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14691,9 +13977,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha pa weler listenn an arzourien zo kinniget deomp evit poent, ez eus peadra da soñjal ez eus bet graet strivoù gant an aozerien a-benn lidañ 10vet deiz-ha-bloaz ar gouel, hag e vo diaes chom hep mont da Vontroulez e penn-kentañ miz Ebrel.
 # text[fra¹] = Et quand On voit la liste des artistes elle nous a présenté pour le moment, est des moyens à penser il a été faits efforts avec les auteurs pour célébrer 10ème anniversaire de la fête, et il sera difficile rester sans aller à Morlaix au début d'avril.
 "<Ha pa>"
@@ -14810,9 +14093,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Mont-tre etre 5 ha 10 euro.
 # text[fra¹] = Aller-très entre 5 et 10 euros.
 "<Mont>"
@@ -14833,9 +14113,6 @@
 	"10" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14883,9 +14160,6 @@
 "<live>"
 	"live" n m sg
 ;	"livañ" vblex pii p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -14958,9 +14232,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Blaz disterañ filmoù skinwel ar bloavezhioù 80 zo war ar film-se.
 # text[fra¹] = Le goût insignifiant de films la télévision des années 80 sont sur ce film.
 "<Blaz>"
@@ -14997,9 +14268,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Emañ Daoulagad Breizh o kregiñ gant ur 5vet troiad filmoù-bevaat.
 # text[fra¹] = Elle est Daoulagad Breizh en train de commencer avec quelques 5ème tournée films-animer.
 "<Emañ>"
@@ -15033,9 +14301,6 @@
 	"-" guio
 "<bevaat>"
 	"bevaat" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15136,9 +14401,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An droiad zo bet boulc'het er Gelveneg e miz Genver.
 # text[fra¹] = La tournée a été entamée à Guilvinec en janvier.
 "<An>"
@@ -15163,9 +14425,6 @@
 		"Ar Gelveneg" np top sg
 "<e miz Genver>"
 	"e miz Genver" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15205,9 +14464,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Fardit ar c'hrampouezh.
 # text[fra¹] = Vous chargez les crêpes.
 "<Fardit>"
@@ -15223,18 +14479,12 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait a-gostez.
 # text[fra¹] = Vous mettez de côté.
 "<Lakait>"
 	"lakaat" vblex pri p2 pl
 "<a-gostez>"
 	"a-gostez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15270,9 +14520,6 @@
 	"un" det ind sp
 "<asied>"
 	"asied" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15334,9 +14581,6 @@
 ;	"arat" vblex pri p3 sg
 "<flamboez>"
 	"flamboez" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15402,9 +14646,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Brezhoneg ar mor eo tem ar staj.
 # text[fra¹] = Le breton de la mer est le thème du stage.
 "<Brezhoneg>"
@@ -15432,9 +14673,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er porzh-mirdi e vo.
 # text[fra¹] = Dans le port-Il sera musée.
 "<Er>"
@@ -15454,9 +14692,6 @@
 ;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15533,9 +14768,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Etre 28 ha 30 euro.
 # text[fra¹] = Entre 28 et 30 euros.
 "<Etre>"
@@ -15550,9 +14782,6 @@
 	"30" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15595,9 +14824,6 @@
 	"miz C’hwevrer" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15644,9 +14870,6 @@
 	"an" det def sp
 "<lezioù-barn>"
 	"lez#-b#arn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15733,9 +14956,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -15775,9 +14995,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15832,9 +15049,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un emgav zo bet lakaet gant 44=Breizh da 1e goude-kreisteiz dirak al lez-varn.
 # text[fra¹] = Un rendez-vous a été mis avec 44=Breizh à 1h après-midi devant le tribunal.
 "<Un>"
@@ -15874,9 +15088,6 @@
 	"an" det def sp
 "<lez-varn>"
 	"lez#-b#arn" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -15927,9 +15138,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaset e vo da benn gant Strollad Plougin.
 # text[fra¹] = Il sera envoyé à tête avec le Groupe de Plouguin.
 "<Kaset>"
@@ -15958,9 +15166,6 @@
 	"strollad" n m sg
 "<Plougin>"
 	"Plougin" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16019,9 +15224,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = N'eo ket tremenet heñvel evit ar merc'hed.
 # text[fra¹] = Il n'est pas passé semblable pour les filles.
 "<N'>"
@@ -16044,9 +15246,6 @@
 ;	"arat" vblex pri p3 sg
 "<merc'hed>"
 	"merc’h" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16107,9 +15306,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kalz filmaozourien zo bet awenet gant an disrann etre Israel ha Palestina.
 # text[fra¹] = Beaucoup cinéastes ont été inspirés avec la séparation entre Israël et la Palestine.
 "<Kalz>"
@@ -16150,9 +15346,6 @@
 ;	"ha" ij
 "<Palestina>"
 	"Palestina" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16199,9 +15392,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Div genstrivadeg a vo aozet.
 # text[fra¹] = Il Sera organisé deux concours.
 "<Div>"
@@ -16223,9 +15413,6 @@
 	"aoziñ" vblex pp
 ;	"aozañ" vblex imp p3 sg
 ;	"aoziñ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16279,9 +15466,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evit tud eus Bro-Dreger ha Kerne-Uhel eo.
 # text[fra¹] = Pour gens de l'et il est Haute-Cornouaille.
 "<Evit>"
@@ -16302,9 +15486,6 @@
 	"Kerne-Uhel" np top sg
 "<eo>"
 	"bezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16381,9 +15562,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Sonerien eus Bro-Gwened a zo pedet da ganañ gant ar gevredigezh Petra Neue.
 # text[fra¹] = Musiciens de Pays Vannetais il est invité chanter avec la société Petra Neue.
 "<Sonerien>"
@@ -16420,9 +15598,6 @@
 	"kevredigezh" n f sg
 "<Petra Neue>"
 	"Petra Neue" np al mf sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16481,9 +15656,6 @@
 	"Meurzh" n m sp
 "<avat>"
 	"avat" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16567,9 +15739,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret eo goulenn ur fichenn enskrivañ digant ar gevredigezh a aoz ar gejadenn en ho pro.
 # text[fra¹] = Il faut demander une fiche d’inscription d’avec la société organise la rencontre dans votre pays.
 "<Ret>"
@@ -16623,9 +15792,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Digoust eo.
 # text[fra¹] = gratuitement il est.
 "<Digoust>"
@@ -16633,9 +15799,6 @@
 	"digoust" adj mf sp
 "<eo>"
 	"bezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16664,9 +15827,6 @@
 "<Kan ar Bobl>"
 	"Kan ar Bobl" np al m sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16764,9 +15924,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E miz C'hwevrer e vo kendalc'het gant gouelioù a lid sevenadur Breizh.
 # text[fra¹] = en février il sera continué avec voiles il célèbre culture bretonne.
 "<E miz C'hwevrer>"
@@ -16803,9 +15960,6 @@
 ;	"lid" n m sg
 "<sevenadur Breizh>"
 	"sevenadur# Breizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16867,9 +16021,6 @@
 	"penn-kentañ" n m sg
 "<miz Meurzh>"
 	"miz Meurzh" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -16963,9 +16114,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur staj diwar-benn sonerezh Breizh Uhel vo kinniget d'an dud dedennet.
 # text[fra¹] = Un stage au sujet de la musique de la Bretagne Haute seront présentées aux gens intéressés.
 "<Ur>"
@@ -16995,9 +16143,6 @@
 	"dedennañ" vblex pp
 	"dedennet" adj mf sp
 ;	"dedennañ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17034,9 +16179,6 @@
 	"kanañ" vblex inf
 "<ivez>"
 	"ivez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17090,9 +16232,6 @@
 	"13" num mf pl
 "<devezh>"
 	"devezh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17272,9 +16411,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En teuliad e vez kinniget ur pennad diwar-benn stad an dachenn douar, arouezius eus an dizemglev padus etre Israeliz ha Palestiniz.
 # text[fra¹] = Dans le dossier Elle est présenté un article au sujet de l'état du terrain terre, significative de la mésentente durable entre des Israéliens/Israéliens et des Palestiniens.
 "<En>"
@@ -17342,9 +16478,6 @@
 ;	"ha" ij
 "<Palestiniz>"
 	"Palestinad" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17431,9 +16564,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -17473,9 +16603,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17605,9 +16732,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lodennet eo an diskouezadeg en eizh tem (peñse, merdeerezh, kenwerzh, brezel, buhez pemdez...).
 # text[fra¹] = Il a partagé l'exposition dans les huit thèmes (naufrage, navigation, commerce, guerre, vie quotidienne...).
 "<Lodennet>"
@@ -17667,9 +16791,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Roet e oa bet lañs d'an diskouezadeg-se warlene e Douarnenez.
 # text[fra¹] = Elle avait été donné avance à cette exposition l’année dernière à Douarnenez.
 "<Roet>"
@@ -17710,9 +16831,6 @@
 ;	"e" n m sp
 "<Douarnenez>"
 	"Douarnenez" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17792,9 +16910,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Daoust da se en deus gellet ober an amzer gwellañ en diskenn ski mod an Alpoù, 1'48"80, ha tapout ar vedalenn aour.
 # text[fra¹] = Malgré ça a pu faire le temps le plus mieux dans la descente de ski le mode des Alpes, 1#’48"80, et attraper la médaille d’or.
 "<Daoust da>"
@@ -17868,9 +16983,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An hini gentañ evit sportourien ar C'hwec'hkorn.
 # text[fra¹] = L'aucun premier pour les sportifs de l'Hexagone.
 "<An>"
@@ -17894,9 +17006,6 @@
 ;	"arat" vblex pri p3 sg
 "<C'hwec'hkorn>"
 	"c’hwec’hkorn" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -17941,9 +17050,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait da dommañ betek ma vefe o virviñ.
 # text[fra¹] = Vous mettez ton chauffer jusqu’à ce qu'il serait en train de bouillir.
 "<Lakait>"
@@ -17966,9 +17072,6 @@
 ;	"direct" prn obj p3 mf pl
 "<virviñ>"
 	"birviñ" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18000,9 +17103,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Na baouezit ket da veskañ e-keit-se.
 # text[fra¹] = Vous cessez pas à mélanger pendant ce temps.
 "<Na>"
@@ -18021,9 +17121,6 @@
 	"meskañ" vblex inf
 "<e-keit-se>"
 	"e-keit-se" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18068,9 +17165,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tennit ar gastelodenn diwar an tan.
 # text[fra¹] = Vous tirez la casserole du feu.
 "<Tennit>"
@@ -18093,9 +17187,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait ar poultr kraoñ-kokoz en un asied don.
 # text[fra¹] = Vous mettez la poudre de noix de coco dans une assiette creuse.
 "<Lakait>"
@@ -18112,9 +17203,6 @@
 		"un" det ind sp
 "<asied don>"
 	"asied# don" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18175,9 +17263,6 @@
 	"egile" prn def mf pl
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18242,9 +17327,6 @@
 "<eur>"
 	"eur" n f sg
 ;	"bezañ" vblex pri impers pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18369,9 +17451,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tro ho po da zizoleiñ testenioù dianav betek bremañ war istor hag hêrezh ar brezhoneg etre al Liger hag ar Wilen.
 # text[fra¹] = Vous aurez l’occasion de découvrir témoignages jusqu’à maintenant inconnus sur histoire et l'héritage du breton à Loire et le Vilaine.
 "<Tro ho po da>"
@@ -18416,9 +17495,6 @@
 ;	"arat" vblex pri p3 sg
 "<Wilen>"
 	"Gwilen" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18514,9 +17590,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Betek ar 16vet eta eo liesyezhek ar pennoù-bras hag ar varc'hadourien, a implij ar brezhoneg en o buhez pemdez.
 # text[fra¹] = Jusque les 16ème donc il est multilingue les têtes-grandes et les marchands, a il emploie le breton dans il anime quotidien.
 "<Betek>"
@@ -18593,9 +17666,6 @@
 ;	"buhez" n f sg
 "<pemdez>"
 	"pemdez" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18676,9 +17746,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Sadorn ha Sul, etre 10e ha 12e hag etre 2e ha 6e.
 # text[fra¹] = Samedi et dimanche, entre 10h et 12h et entre 2h et 6h
 "<Sadorn>"
@@ -18726,9 +17793,6 @@
 	"vakañsoù" n m pl
 "<miz C'hwevrer>"
 	"miz C’hwevrer" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18801,9 +17865,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpenn ar gouel bras aozet bep bloaz e-pad an hañv o deus divizet aozerien an Erer Kozh ouzhpennañ ur gouel all.
 # text[fra¹] = En plus la fête grande organisée tous les ans pendant l'été ont décidé les auteurs du Vieux Aigle ajouter une autre fête.
 "<Ouzhpenn>"
@@ -18870,9 +17931,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Setu ma vo kinniget ar bloaz-mañ, evit ar wech kentañ, ur gouel Erer Kozh e miz Meurzh.
 # text[fra¹] = Voilà s'il sera présenté cette année, pour la première fois, une fête de Vieux Aigle en mars.
 "<Setu>"
@@ -18910,9 +17968,6 @@
 ;	"kozhañ" vblex pri p3 sg
 "<e miz Meurzh>"
 	"e miz Meurzh" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -18973,9 +18028,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bez e vo ivez abadennoù digoust e tavarnioù Karaez.
 # text[fra¹] = Tombe Il sera aussi les émissions gratuites d'e les bars de Carhaix.
 "<Bez>"
@@ -19010,9 +18062,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
 "<Servijit>"
@@ -19022,9 +18071,6 @@
 ;	"servijout" vblex imp p2 pl
 "<diouzhtu>"
 	"diouzhtu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19064,9 +18110,6 @@
 "<diganti>"
 	"digant" pr
 		"indirect" prn obj p3 f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19132,9 +18175,6 @@
 ;	"raktresañ" vblex pri p3 sg
 "<orin>"
 	"orin" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19317,9 +18357,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Advouezhiet int bet e brezhoneg gant ar gevredigezh Dizale, gant skoazell Kuzul-rannvro Breizh, ha kinniget da vugale ar skolioù divyezhek Dihun, Div Yezh ha Diwan.
 # text[fra¹] = Doublé Ils été en breton avec la société Dizale, avec l'aide de Conseil régional de Bretagne, et présentée aux enfants des écoles bilingues Dihun, Div Yezh et Diwan.
 "<Advouezhiet>"
@@ -19395,9 +18432,6 @@
 ;	"diwanañ" vblex imp p2 sg
 ;	"diwanañ" vblex pri p3 sg
 ;	"diwan" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19498,9 +18532,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An droiad zo bet boulc'het er Gelveneg e miz Genver.
 # text[fra¹] = La tournée a été entamée à Guilvinec en janvier.
 "<An>"
@@ -19525,9 +18556,6 @@
 		"Ar Gelveneg" np top sg
 "<e miz Genver>"
 	"e miz Genver" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19567,9 +18595,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit ha troc'hit an avaloù hag ar per.
 # text[fra¹] = Vous épluchez et vous coupez les pommes et les poires.
 "<Dibluskit>"
@@ -19595,9 +18620,6 @@
 "<per>"
 	"per" n f pl
 ;	"ber" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19648,9 +18670,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Drailhit gros ar c'hraoñ-kelvez.
 # text[fra¹] = Vous déchiquetez la crosse des noisettes.
 "<Drailhit>"
@@ -19664,9 +18683,6 @@
 ;	"arat" vblex pri p3 sg
 "<c'hraoñ-kelvez>"
 	"kraoñ#-k#elvez" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19690,9 +18706,6 @@
 		"an" det def sp
 "<skinforn>"
 	"skinforn" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19727,9 +18740,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diskargit war ar frouezh.
 # text[fra¹] = Vous déchargez sur le fruit.
 "<Diskargit>"
@@ -19747,9 +18757,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit klouar.
 # text[fra¹] = Vous servez tiède.
 "<Servijit>"
@@ -19759,9 +18766,6 @@
 ;	"servijout" vblex imp p2 pl
 "<klouar>"
 	"klouar" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19827,9 +18831,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Brezhoneg ar mor eo tem ar staj.
 # text[fra¹] = Le breton de la mer est le thème du stage.
 "<Brezhoneg>"
@@ -19857,9 +18858,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er porzh-mirdi e vo.
 # text[fra¹] = Dans le port-Il sera musée.
 "<Er>"
@@ -19879,9 +18877,6 @@
 ;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -19958,9 +18953,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Etre 28 ha 30 euro.
 # text[fra¹] = Entre 28 et 30 euros.
 "<Etre>"
@@ -19975,9 +18967,6 @@
 	"30" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20020,9 +19009,6 @@
 	"miz C’hwevrer" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20069,9 +19055,6 @@
 	"an" det def sp
 "<lezioù-barn>"
 	"lez#-b#arn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20158,9 +19141,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -20200,9 +19180,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20281,9 +19258,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un enklask a zo bet kaset da benn gant ar Bank Bedel evit sellet a dost ouzh 156 kontrad war ar c'hoadoù.
 # text[fra¹] = Une enquête a été réalisée avec la Banque Mondiale pour regarder de près contre 156 contrats sur les bois.
 "<Un>"
@@ -20351,9 +19325,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diwar ar re-se, n'eus bet asantet nemet 65 gantañ, nullet eo bet ar re all neuze.
 # text[fra¹] = De ceux-là, n'a eus acceptés sauf 65 avec lui, a été annulés les autres alors.
 "<Diwar>"
@@ -20397,9 +19368,6 @@
 	"egile" prn def mf pl
 "<neuze>"
 	"neuze" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20458,9 +19426,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar sevener a vo aze evit eskemm gant ar sellerien.
 # text[fra¹] = Le directeur Il sera là pour échanger avec les spectateurs.
 "<Ar>"
@@ -20502,9 +19467,6 @@
 ;	"arat" vblex pri p3 sg
 "<sellerien>"
 	"seller" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20590,9 +19552,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vez ket pouezet kalz war an anken na war ar gwask spontus a zlee bezañ war an dud-se.
 # text[fra¹] = Il n'est pas pesé beaucoup sur l'anxiété ni sur la pression effrayante elle devait être sur ces gens.
 "<Ne>"
@@ -20663,9 +19622,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar bleud, an dienn fresk, pebr hag holen.
 # text[fra¹] = Vous ajoutez la farine, la crème #frais, poivre et sel.
 "<Ouzhpennit>"
@@ -20699,9 +19655,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar c'heuz ha skuilhit war ar pesked.
 # text[fra¹] = Vous ajoutez le fromage et vous répandez sur les poissons.
 "<Ouzhpennit>"
@@ -20729,9 +19682,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit an avaloù.
 # text[fra¹] = Vous épluchez les pommes.
 "<Dibluskit>"
@@ -20743,9 +19693,6 @@
 ;	"monet" vblex pri p1 sg
 "<avaloù>"
 	"aval" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20771,9 +19718,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit tammoù amann.
 # text[fra¹] = Vous ajoutez morceaux en beurre.
 "<Ouzhpennit>"
@@ -20786,9 +19730,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
 "<Servijit>"
@@ -20798,9 +19739,6 @@
 ;	"servijout" vblex imp p2 pl
 "<diouzhtu>"
 	"diouzhtu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -20980,9 +19918,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En teuliad e vez kinniget ur pennad diwar-benn stad an dachenn douar, arouezius eus an dizemglev padus etre Israeliz ha Palestiniz.
 # text[fra¹] = Dans le dossier Elle est présenté un article au sujet de l'état du terrain terre, significative de la mésentente durable entre des Israéliens/Israéliens et des Palestiniens.
 "<En>"
@@ -21050,9 +19985,6 @@
 ;	"ha" ij
 "<Palestiniz>"
 	"Palestinad" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -21139,9 +20071,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -21181,9 +20110,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -21241,9 +20167,6 @@
 	"galloud" n m sg
 "<Palestina>"
 	"Palestina" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -21358,9 +20281,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En o zouez e vez kavet 33 bro "binvidik" (war bouez ar Stadoù-Unanet hag Aostralia) ha broioù eus an Trede Bed a vez dalc'het kont muioc'h-mui anezho e-giz Sina, India ha Brazil.
 # text[fra¹] = Parmi eux Il est trouvé 33 pays "riches" (sur #le poids des États-Unis et l'Australie) et pays de Troisième Monde il est tenu comtesse de plus en plus d'eux comme Chine, l'Inde et le Brésil.
 "<En o zouez>"
@@ -21468,9 +20388,6 @@
 ;	"ha" ij
 "<Brazil>"
 	"Brazil" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -21600,9 +20517,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha daoust m'eo uvel ar pezh zo goulennet pa weler ar strivoù a vefe ezhomm evit tapout ar pal-se e vo gwall start d'ar broioù doujañ d'ar pezh o deus prometet dija.
 # text[fra¹] = Et malgré s'il est humble ce que ont demandés quand on voit les efforts il serait besoin pour attraper cet objectif il sera mal difficile aux pays respecter à elles ont promises la pièce déjà.
 "<Ha>"
@@ -21700,9 +20614,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da skouer e 2004 e oa bet embannet gant Unvaniezh Europa un digresk a 1,6 % pa vo ret tizhout 8 % e 2010.
 # text[fra¹] = Par exemple dans 2004 avaient été édités avec Union Européenne une baisse à 1,6 % quand seront nécessaires atteindre 8 % dans 2010.
 "<Da skouer>"
@@ -21772,9 +20683,6 @@
 ;	"e" det pos m sp
 "<2010>"
 	"2010" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -21937,9 +20845,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Deuet eo a-benn en un doare simpl.
 # text[fra¹] = Il est venu pour dans une manière simple.
 "<Deuet>"
@@ -21957,9 +20862,6 @@
 ;	"doareañ" vblex pri p3 sg
 "<simpl>"
 	"simpl" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -22058,9 +20960,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep sizhun, abaoe tamm pe damm daou vloaz, ar memes sekred kegin, an anvioù a cheñch, ket ar sonerezh.
 # text[fra¹] = Toutes les semaines, depuis peu ou prou deux ans, le même secret cuisine, les noms elle change, pas la musique.
 "<Bep sizhun>"
@@ -22122,9 +21021,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ma ! Da nebeutañ eo sonerezh mat.
 # text[fra¹] = Mon ! au moins il est musique bien.
 "<Ma>"
@@ -22142,9 +21038,6 @@
 	"sonerezh" n m sg
 "<mat>"
 	"mat" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -22212,9 +21105,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep pevar devezh e varv ur plac'h dindan taolioù an den a vev ganti.
 # text[fra¹] = Tous les quatre journées ses barbes une fille dessous coups les personne il vit avec elle.
 "<Bep>"
@@ -22275,9 +21165,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur plac'h diwar dek a vez graet droug dezhi en he c'houblad e Frañs.
 # text[fra¹] = Une fille de dix est fait mal à elle dans son couple en France.
 "<Ur>"
@@ -22326,9 +21213,6 @@
 ;	"e" n m sp
 "<Frañs>"
 	"Frañs" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -22386,9 +21270,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Betek bremañ e veze graet "ar greizenn sevenadurel" pe "sal ar gouelioù" anezhi.
 # text[fra¹] = Jusqu’à maintenant il était fait "le centre culturel" quel "salle des fêtes" d'elle.
 "<Betek bremañ>"
@@ -22429,9 +21310,6 @@
 	"eus" pr
 		"indirect" prn obj p3 f sg
 ;	"direct" prn obj p3 f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -22562,9 +21440,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kerkent e oa bet divizet reiñ e anv d'ar greizenn, dezhi ur sal gouelioù, ur gegin, ur sal emvod, ur sal pleustriñ sonerezh, hag ul levraoueg.
 # text[fra¹] = aussitôt il avait été décidé donner dans nom au centre, à elle une salle de voiles, une cuisine, une salle de réunion, une salle exercer musique, et une bibliothèque.
 "<Kerkent>"
@@ -22655,9 +21530,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel evit e gamalad Glenmor ouzh sal Karaez, eo bet livet dremm Youenn Gwernig ouzh moger ar savadur.
 # text[fra¹] =  Evel pour son camarade Glenmor contre la salle de Carhaix, ont été peinte le visage de Youenn Gwernig contre le mur du bâtiment.
 "<Evel>"
@@ -22709,9 +21581,6 @@
 ;	"arat" vblex pri p3 sg
 "<savadur>"
 	"savadur" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -22794,9 +21663,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kendalc'het ez eus bet da broduiñ hennezh betek 1971 er Stadoù-Unanet, ha 1977 e Kembre.
 # text[fra¹] = Elle a été continué à produire celui-là jusque 1971 aux États-Unis, et 1977 au.
 "<Kendalc'het>"
@@ -22840,9 +21706,6 @@
 ;	"e" n m sp
 "<Kembre>"
 	"Kembre" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -22925,9 +21788,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Degemeret e vo ar c'hinnigoù betek an 30 a viz Meurzh ha kaset e vo an dibaboù dre lizher a-raok fin miz Ebrel.
 # text[fra¹] = Il sera accueilli les propositions jusque le 30 mars et il sera envoyé les choix par courrier avant fins avril.
 "<Degemeret>"
@@ -22999,9 +21859,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = N'eo ket an doare seveniñ pe filmañ a zo dedennus er film-mañ, an danvez ne lavaran ket.
 # text[fra¹] = Elle n'est pas la manière réaliser quelle filmer il est intéressant dans ce film, ne dis pas la matière.
 "<N'>"
@@ -23067,9 +21924,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Spontus, souezhus.
 # text[fra¹] = Effrayant, étonnant.
 "<Spontus>"
@@ -23078,9 +21932,6 @@
 	"," cm
 "<souezhus>"
 	"souezhus" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23117,9 +21968,6 @@
 	"preder" n m sg
 "<speredek>"
 	"speredek" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23249,9 +22097,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Emañ ar C'huzul Stad o paouez embann e kave dezhañ e oa talvoudus ar raktres.
 # text[fra¹] = Le Conseil d'État est en train de cesser l'éditer pensait lui Il était utile le projet.
 "<Emañ>"
@@ -23309,9 +22154,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Maer Naoned (PS), hag ar c'hentañ ministr, o deus labouret evit ma vefe kaset da benn.
 # text[fra¹] = Le maire de Nantes (PS), et le premier ministre, ont travaillés pour qu'il ait réalisé.
 "<Maer>"
@@ -23348,9 +22190,6 @@
 "<kaset da benn>"
 	"kas# da benn" vblex pp
 ;	"kas# da benn" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23405,9 +22244,6 @@
 	"raktres" n m sg
 ;	"raktresañ" vblex imp p2 sg
 ;	"raktresañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23475,9 +22311,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Anat eo n'eo ket ur bladenn aes da selaou ha ne blijo ket d'an holl.
 # text[fra¹] = Évident est Il n'est pas un disque facile à écouter et il ne plaira pas à tous.
 "<Anat>"
@@ -23516,9 +22349,6 @@
 	"ket" adv
 "<d'an holl>"
 	"d’an holl" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23610,9 +22440,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Aozet e vo d'ar Gwener 30 a viz Mae, e Karaez, asambles gant darvoudoù all a bep seurt evit lidañ 30 vloaz Diwan.
 # text[fra¹] = Il sera organisé le vendredi 30 mai, à Carhaix, ensemble avec événements de toute sorte autres pour célébrer 30 ans Diwan.
 "<Aozet>"
@@ -23684,9 +22511,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dazont ar yezh, Taol-lañs, Ti ar vro, 6 plasenn Gwirioù mab-den, 29 270 Karaez.
 # text[fra¹] = Le futur de la langue, Coup-avance, la Maison du pays, 6 places les Droits d'homme, 29 270 Carhaix.
 "<Dazont>"
@@ -23742,9 +22566,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit an tammoù plusk suraval.
 # text[fra¹] = Vous ajoutez les morceaux d'épluchures citron.
 "<Ouzhpennit>"
@@ -23763,9 +22584,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait ar vioù unan hag unan.
 # text[fra¹] = Vous mettez les oeufs un par un.
 "<Lakait>"
@@ -23777,9 +22595,6 @@
 	"vi" n m pl
 "<unan hag unan>"
 	"unan-hag-unan" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23795,9 +22610,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Meskit mat.
 # text[fra¹] = Vous mélangez bien.
 "<Meskit>"
@@ -23805,9 +22617,6 @@
 ;	"meskañ" vblex imp p2 pl
 "<mat>"
 	"mat" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -23873,9 +22682,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Brezhoneg ar mor eo tem ar staj.
 # text[fra¹] = Le breton de la mer est le thème du stage.
 "<Brezhoneg>"
@@ -23903,9 +22709,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er porzh-mirdi e vo.
 # text[fra¹] = Dans le port-Il sera musée.
 "<Er>"
@@ -23925,9 +22728,6 @@
 ;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24004,9 +22804,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Etre 28 ha 30 euro.
 # text[fra¹] = Entre 28 et 30 euros.
 "<Etre>"
@@ -24021,9 +22818,6 @@
 	"30" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24066,9 +22860,6 @@
 	"miz C’hwevrer" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24115,9 +22906,6 @@
 	"an" det def sp
 "<lezioù-barn>"
 	"lez#-b#arn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24204,9 +22992,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -24246,9 +23031,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24316,9 +23098,6 @@
 ;	"arat" vblex pri p3 sg
 "<velestradurezh>"
 	"melestradurezh" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24397,9 +23176,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un enklask a zo bet kaset da benn gant ar Bank Bedel evit sellet a dost ouzh 156 kontrad war ar c'hoadoù.
 # text[fra¹] = Une enquête a été réalisée avec la Banque Mondiale pour regarder de près contre 156 contrats sur les bois.
 "<Un>"
@@ -24467,9 +23243,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diwar ar re-se, n'eus bet asantet nemet 65 gantañ, nullet eo bet ar re all neuze.
 # text[fra¹] = De ceux-là, n'a eus acceptés sauf 65 avec lui, a été annulés les autres alors.
 "<Diwar>"
@@ -24513,9 +23286,6 @@
 	"egile" prn def mf pl
 "<neuze>"
 	"neuze" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24574,9 +23344,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pemzektez a chom evit mont da welet un diskouezadeg kinniget e Mirdi ar moullañ, e Naoned.
 # text[fra¹] = Quinze jours Il reste pour aller à voir une exposition présentée dans Musée l'imprimer, à Nantes.
 "<Pemzektez>"
@@ -24631,9 +23398,6 @@
 ;	"e" n m sp
 "<Naoned>"
 	"Naoned" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24722,9 +23486,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un tammig a-gostez atav met karet gant un toullad tud memes tra e tizolo red ar vuhez, evel pep hini pe dost.
 # text[fra¹] = Un petit peu de côté toujours mais aimé avec un tas de gens quand même il découvre le courant de la vie, comme chacun ou presque.
 "<Un tammig>"
@@ -24788,9 +23549,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Penaos degemer e kosha an dud tro-dro deomp.
 # text[fra¹] = Comment Accueillir Il vieillit les gens autour de nous.
 "<Penaos>"
@@ -24817,9 +23575,6 @@
 "<tro-dro deomp>"
 	"tro-dro da" pr
 		"indirect" prn obj p1 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24851,9 +23606,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur blijadur e pep keñver.
 # text[fra¹] = Un plaisir d'e chaque comparaison.
 "<Ur>"
@@ -24871,9 +23623,6 @@
 ;	"bep" det ind mf sg
 "<keñver>"
 	"keñver" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -24913,9 +23662,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar bleud, an dienn fresk, pebr hag holen.
 # text[fra¹] = Vous ajoutez la farine, la crème #frais, poivre et sel.
 "<Ouzhpennit>"
@@ -24949,9 +23695,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar c'heuz ha skuilhit war ar pesked.
 # text[fra¹] = Vous ajoutez le fromage et vous répandez sur les poissons.
 "<Ouzhpennit>"
@@ -24979,9 +23722,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit an avaloù.
 # text[fra¹] = Vous épluchez les pommes.
 "<Dibluskit>"
@@ -24993,9 +23733,6 @@
 ;	"monet" vblex pri p1 sg
 "<avaloù>"
 	"aval" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25021,9 +23758,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit tammoù amann.
 # text[fra¹] = Vous ajoutez morceaux en beurre.
 "<Ouzhpennit>"
@@ -25036,9 +23770,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
 "<Servijit>"
@@ -25048,9 +23779,6 @@
 ;	"servijout" vblex imp p2 pl
 "<diouzhtu>"
 	"diouzhtu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25230,9 +23958,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En teuliad e vez kinniget ur pennad diwar-benn stad an dachenn douar, arouezius eus an dizemglev padus etre Israeliz ha Palestiniz.
 # text[fra¹] = Dans le dossier Elle est présenté un article au sujet de l'état du terrain terre, significative de la mésentente durable entre des Israéliens/Israéliens et des Palestiniens.
 "<En>"
@@ -25300,9 +24025,6 @@
 ;	"ha" ij
 "<Palestiniz>"
 	"Palestinad" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25389,9 +24111,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -25431,9 +24150,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25488,9 +24204,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Souezhadennoù a vez alies avat er gib.
 # text[fra¹] = Les surprises d'a tombe souvent alors dans la coupe.
 "<Souezhadennoù>"
@@ -25518,9 +24231,6 @@
 		"an" det def sp
 "<gib>"
 	"kib" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25573,9 +24283,6 @@
 	"un" det ind sp
 "<sinadeg>"
 	"sinadeg" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25644,9 +24351,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Rediet ar vugale da vont d'ar skol pell eus ar gêr...
 # text[fra¹] = Obligé les enfants à aller à l'école loin de la ville...
 "<Rediet>"
@@ -25700,9 +24404,6 @@
 ;	"arat" vblex pri p3 sg
 "<familhoù>"
 	"familh" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -25789,9 +24490,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Goulenn a ra groñs Div Yezh e vefe kinniget hentadoù divyezhek en un dek skolaj bennak d'an nebeutañ e Gwengolo 2006, a-benn respont da c'hoantoù ar familhoù.
 # text[fra¹] = Il demande formel Div Yezh aurait présenté des filières bilingues dans quelques dix collèges quelconques du moins en septembre 2006, pour répondre aux envies des familles.
 "<Goulenn>"
@@ -25865,9 +24563,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Mont a ra da heul mouezhiadeg Kuzul Akademiezh ar Yezhoù Rannvroel an 8 a viz C'hwevrer evit "skolajoù brezhonek evit an holl".
 # text[fra¹] = Elle va ensuite le vote de Conseil l'Académie des Langues Régionales le 8 février pour "collèges pour tous bretons".
 "<Mont a ra>"
@@ -25917,9 +24612,6 @@
 "<evit an holl>"
 	"evit an holl" adv
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26014,9 +24706,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Filmoù seder hag ekologour a oar ober, hag evit gwir eo brav eston skeudennoù an natur ha sioul lusk e film nevez.
 # text[fra¹] = Films sereins et écologiste Il sait faire, et en vérité il est beau étonnant les images de la nature et tranquilles rythme dans nouveau film.
 "<Filmoù>"
@@ -26086,9 +24775,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ken sioul ma'z eus riskl e vanfe kousket tud zo.
 # text[fra¹] = Si tranquille s'il est risque il resterait dormir des gens il est.
 "<Ken>"
@@ -26125,9 +24811,6 @@
 	"bezañ" vblex pri p3 sg
 ;	"teiñ" vblex imp p2 sg
 ;	"teiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26215,9 +24898,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Skeudennoù brav an natur zo bepred.
 # text[fra¹] = Il y a les belles images de la nature toujours.
 "<Skeudennoù>"
@@ -26236,9 +24916,6 @@
 ;	"teiñ" vblex pri p3 sg
 "<bepred>"
 	"bepred" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26359,9 +25036,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Emañ Kuzul Sevenadurel Breizh e soñj aozañ ur c'harr-boutin evit kas Bretoned da vanifestiñ asambles gant an Okitaned.
 # text[fra¹] = Il est Conseil Culturel de Bretagne il pense organiser un autocar pour envoyer des Bretons à manifester ensemble avec les Occitans/Occitans.
 "<Emañ>"
@@ -26413,9 +25087,6 @@
 ;	"monet" vblex pri p1 sg
 "<Okitaned>"
 	"Okitan" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26520,9 +25191,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar priz a vefe e-tro 30 euro.
 # text[fra¹] = Le prix Il serait autour de 30 euros.
 "<Ar>"
@@ -26546,9 +25214,6 @@
 	"30" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26578,9 +25243,6 @@
 	"sokiosevenadurel" adj mf sp
 "<ar Forest-Fouenant>"
 	"Ar Forest-Fouenant" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26669,9 +25331,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dilezet e oa bet gant he mamm, c'hoant ganti mont da ganerez a-vicher.
 # text[fra¹] = Elle avait été délaissé avec sa mère, envie avec elle aller à chanteuse professionnelle.
 "<Dilezet>"
@@ -26717,9 +25376,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit an ognon.
 # text[fra¹] = Vous épluchez les oignons.
 "<Dibluskit>"
@@ -26731,9 +25387,6 @@
 ;	"monet" vblex pri p1 sg
 "<ognon>"
 	"ognon" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26775,9 +25428,6 @@
 ;	"mont" vblex pri p3 sg
 "<asied>"
 	"asied" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26831,9 +25481,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bet eo bet eñ o labourat e-pad meur a vloaz er Stadoù-Unanet war binvioù an Internet.
 # text[fra¹] = Il a été été en train de travailler pendant plusieurs années aux États-Unis sur les outils de l'Internet.
 "<Bet>"
@@ -26876,9 +25523,6 @@
 ;	"monet" vblex pri p1 sg
 "<Internet>"
 	"Internet" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -26943,9 +25587,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur benveg efedus eo.
 # text[fra¹] = Il y a un outil efficace.
 "<Ur>"
@@ -26956,9 +25597,6 @@
 	"efedus" adj mf sp
 "<eo>"
 	"bezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27032,9 +25670,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Keleier galleg, brezhoneg, gallaoueg ha saozneg, a c'heller kavout.
 # text[fra¹] = le Keleier de français, breton, gallo et anglais, On peut trouver.
 "<Keleier>"
@@ -27073,9 +25708,6 @@
 	"gellout" vblex pri impers sp
 "<kavout>"
 	"kavout" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27120,9 +25752,6 @@
 ;	"mont" vblex pri p3 sg
 "<dud>"
 	"den" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27173,9 +25802,6 @@
 ;	"monet" vblex pri p1 sg
 "<embregerezh>"
 	"embregerezh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27256,9 +25882,6 @@
 	"Drian" np ant m sg
 "<Bernier>"
 	"berniañ" vblex pri impers sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27400,9 +26023,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Santet e vez eo un tresour ar sevener pa tenn skeudennoù e film da wir livadurioù.
 # text[fra¹] = Senti est est un dessinateur le directeur quand Il tire des images dans film au droit de peintures.
 "<Santet>"
@@ -27461,9 +26081,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur film brav-kenañ da welet eo, sur, ha pa vefe ennañ gwanderioù bihan a-hend-all.
 # text[fra¹] = Un très beau film à voir est, sûr, quand bien même serait dans lui faiblesses par ailleurs petites.
 "<Ur>"
@@ -27500,9 +26117,6 @@
 	"bihan" adj mf sp
 "<a-hend-all>"
 	"a-hend-all" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27552,9 +26166,6 @@
 	"kirin" n f sg
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27609,9 +26220,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait an 2 benn-ognon hag echuit gant peurrest an avaloù-douar.
 # text[fra¹] = Vous mettez les 2 têtes-oignons et vous finissez avec le reste des pommes de terre.
 "<Lakait>"
@@ -27650,9 +26258,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diskarit kostezioù an toaz.
 # text[fra¹] = Vous abattez les côtés de la pâte.
 "<Diskarit>"
@@ -27666,9 +26271,6 @@
 ;	"monet" vblex pri p1 sg
 "<toaz>"
 	"toaz" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27700,9 +26302,6 @@
 ;	"monet" vblex pri p1 sg
 "<toaz>"
 	"toaz" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27738,9 +26337,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit ar girin ouzh taol evel m'emañ.
 # text[fra¹] = Vous servez la terrine contre table comme si elle est.
 "<Servijit>"
@@ -27768,9 +26364,6 @@
 	"ma" cnjsub
 "<emañ>"
 	"bezañ" vbloc pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27847,9 +26440,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Priz ar staj etre 45 ha 65 euro.
 # text[fra¹] = Le prix du stage entre 45 et 65 euros.
 "<Priz>"
@@ -27874,9 +26464,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bod ha boued kinniget.
 # text[fra¹] = Hébergement et nourriture présentée.
 "<Bod>"
@@ -27892,9 +26479,6 @@
 "<kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -27938,9 +26522,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kaoz zo diwar-benn se ha leun a draoù all c'hoazh e-barzh niverenn Bremañ miz C'hwevrer 2008.
 # text[fra¹] = Il y a conversation au sujet de ça et plein de choses encore autres à l’intérieur le numéro de Bremañ février 2008.
 "<Kaoz>"
@@ -27980,9 +26561,6 @@
 	"miz C’hwevrer" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28029,9 +26607,6 @@
 	"an" det def sp
 "<lezioù-barn>"
 	"lez#-b#arn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28118,9 +26693,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -28160,9 +26732,6 @@
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28284,9 +26853,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Setu ur pezh istor romantel filmet brav (daoust m'eo klasel a-walc'h an doare) ha kinniget gant aktored a-feson.
 # text[fra¹] = Voilà une pièce d'histoire romantique filmée belle (malgré si sont assez classique la manière) et présentée avec acteurs comme il faut.
 "<Setu>"
@@ -28343,9 +26909,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur film da welet ma vezit plijet gant ar meurzanevelloù fromus.
 # text[fra¹] = Un film à voir si vous aimez les épopées émouvantes.
 "<Ur>"
@@ -28370,9 +26933,6 @@
 	"meurzanevell" n f pl
 "<fromus>"
 	"fromus" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28437,9 +26997,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pezhioù-c'hoari a bep seurt a vo kinniget e Konk-Kerne, Pont-Aven, Sant-Ivi, Tregon.
 # text[fra¹] = @Pezh de toute sorte il sera présenté à Concarneau, Pont-Aven, Saint-Yvi, Trégunc.
 "<Pezhioù-c'hoari>"
@@ -28482,9 +27039,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = C'hoariva e Kerne, etre an 3 hag an30 aviz Meurzh.
 # text[fra¹] = Théâtre en Cornouaille, entre les 3 et les30 avis mardis.
 "<C'hoariva>"
@@ -28523,9 +27077,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel e pep korn eus ar bed.
 # text[fra¹] =  Evel #le e de chaque angle du monde.
 "<Evel>"
@@ -28552,9 +27103,6 @@
 	"bed" n m sg
 ;	"pediñ" vblex imp p2 sg
 ;	"pediñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28599,9 +27147,6 @@
 	"Suis" np top sg
 	"Suis" n m sg
 	"suis" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28761,9 +27306,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar re o deus ezhomm groñs eus ur c'harr-saout (4x4) evit o micher (labour-douar, labour er c'hoadoù) a vefe aotreet da gaout unan.
 # text[fra¹] = Ceux qui ont besoin formel d'une voiture-vaches (4x4) pour #le o de métier (agriculture, travail dans les bois) aient autorisés à avoir un.
 "<Ar re>"
@@ -28845,9 +27387,6 @@
 	"unan" num mf sg
 ;	"unaniñ" vblex imp p2 sg
 ;	"unaniñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -28948,9 +27487,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evit ar c'hirri all e vefe bevennet an tizh da 100 km/e.
 # text[fra¹] = Pour les autres voitures Elle aurait limitée la vitesse à 100 km/#e.
 "<Evit>"
@@ -28995,9 +27531,6 @@
 ;	"e" vpart obj
 ;	"direct" prn obj p3 m sg
 ;	"e" pr
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29064,9 +27597,6 @@
 	"den" n m pl
 "<d'an nebeutañ>"
 	"d’an nebeutañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29152,9 +27682,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur weladenn vrezhonek a vo d'ar Sadorn 24 a viz Meurzh.
 # text[fra¹] = Une visite bretonne Elle sera le samedi 24 mars.
 "<Ur>"
@@ -29192,9 +27719,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Eus tu soudarded Bro-Japan ar wech-mañ.
 # text[fra¹] = Du côté de soldats Pays-le Japon cette fois.
 "<Eus>"
@@ -29223,9 +27747,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Brav-spontus ar skeudennoù, dedennus an tudennoù.
 # text[fra¹] = Beau-effrayant les images, intéressantes les personnages.
 "<Brav>"
@@ -29249,9 +27770,6 @@
 ;	"monet" vblex pri p1 sg
 "<tudennoù>"
 	"tudenn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29293,9 +27811,6 @@
 	"bezañ" vblex pri p3 sg
 "<ivez>"
 	"ivez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29351,9 +27866,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tennit ar greun.
 # text[fra¹] = Vous tirez les grains.
 "<Tennit>"
@@ -29365,9 +27877,6 @@
 "<greun>"
 	"greun" n f pl
 ;	"kreun" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29385,9 +27894,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Plegit ar ribloù.
 # text[fra¹] = Vous pliez les bords.
 "<Plegit>"
@@ -29398,9 +27904,6 @@
 ;	"arat" vblex pri p3 sg
 "<ribloù>"
 	"ribl" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29422,9 +27925,6 @@
 	"meskaj" n m sg
 "<legumaj>"
 	"legumaj" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29460,9 +27960,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kemper (jiminas Ti ar Vro).
 # text[fra¹] =  Quimper (la gymnastique de Ti ar Vro).
 "<Kemper>"
@@ -29478,9 +27975,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lannarstêr (Sal ar Gouelioù).
 # text[fra¹] =  Lanester (Salle des fêtes).
 "<Lannarstêr>"
@@ -29491,9 +27985,6 @@
 	"sal# ar gouelioù" n f sg
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29517,9 +28008,6 @@
 	"La Harpe" np top sg
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29607,9 +28095,6 @@
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un doare evito da gaout levezon war an divizoù a vez kemeret eo.
 # text[fra¹] = Une manière pour eux à avoir influence sur les décisions Elle est a pris.
 "<Un>"
@@ -29659,9 +28144,6 @@
 ;	"kemerout" vblex imp p3 sg
 "<eo>"
 	"bezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29749,9 +28231,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dec'h e kroge en-dro mare ar redadegoù evit ar rederien war varc'h-houarn amatour.
 # text[fra¹] = Hier elle saisissait-le tour du moment des courses pour les coureurs à vélo amateur.
 "<Dec'h>"
@@ -29797,9 +28276,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bremañ miz Meurzh, niv.317).
 # text[fra¹] = Maintenant mars, N°317).
 "<Bremañ>"
@@ -29815,9 +28291,6 @@ _
 	"317" num mf pl
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29839,9 +28312,6 @@ _
 	"en-dro" adv
 "<memes tra>"
 	"memes tra" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29900,9 +28370,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit ha drailhit ar c'hignen.
 # text[fra¹] = Vous épluchez et vous déchiquetez les ails.
 "<Dibluskit>"
@@ -29920,9 +28387,6 @@ _
 "<c'hignen>"
 	"kignen" n f pl
 ;	"kignat" vblex pii p1 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -29951,9 +28415,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
 "<Servijit>"
@@ -29963,9 +28424,6 @@ _
 ;	"servijout" vblex imp p2 pl
 "<diouzhtu>"
 	"diouzhtu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30042,9 +28500,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Priz ar staj etre 45 ha 65 euro.
 # text[fra¹] = Le prix du stage entre 45 et 65 euros.
 "<Priz>"
@@ -30069,9 +28524,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bod ha boued kinniget.
 # text[fra¹] = Hébergement et nourriture présentée.
 "<Bod>"
@@ -30087,9 +28539,6 @@ _
 "<kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30130,9 +28579,6 @@ _
 ;	"a" n m sp
 "<viz Meurzh>"
 	"miz Meurzh" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30219,9 +28665,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -30261,9 +28704,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30312,9 +28752,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<maouezed>"
 	"maouez" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30386,9 +28823,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Hervez Burev Etrebroadel al Labour, 40 % eus an dud gopret er bed a zo merc'hed.
 # text[fra¹] = Selon le Bureau International du Travail, 40 % de #le #salarié dans le monde est filles.
 "<Hervez>"
@@ -30437,9 +28871,6 @@ _
 ;	"teiñ" vblex pri p3 sg
 "<merc'hed>"
 	"merc’h" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30606,9 +29037,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un dregantad uheloc'h a verc'hed dilabour eget a baotred dilabour a zo etre 25 ha 49 bloaz.
 # text[fra¹] = Un pourcentage plus haut à filles au chômage que à garçons au chômage elle est entre 25 et 49 ans.
 "<Un>"
@@ -30670,9 +29098,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Klaseloc'h e oa ar pezh kinniget e Kemper d'ar mare-mañ.
 # text[fra¹] = Plus classique était ce que présenté à Quimper à ce moment.
 "<Klaseloc'h>"
@@ -30705,9 +29130,6 @@ _
 	"mare" n m sg
 "<-mañ>"
 	"mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30796,9 +29218,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En dibenn-sizhun-mañ paseet e oa bet kroget kampionad ar bed an F1.
 # text[fra¹] = Dans ce week-end avait été passé commencé le championnat du monde le F1.
 "<En>"
@@ -30847,9 +29266,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Peurrest ar skipailhoù a seblant pell a-walc'h eus al live avat.
 # text[fra¹] = Le reste des équipes Elle semble loin assez du niveau alors.
 "<Peurrest>"
@@ -30886,9 +29302,6 @@ _
 ;	"livañ" vblex pii p3 sg
 "<avat>"
 	"avat" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -30933,9 +29346,6 @@ _
 ;	"direct" prn obj p3 mf pl
 "<c'hounit>"
 	"gounit" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31013,9 +29423,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<skrivagner>"
 	"skrivagner" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31102,9 +29509,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lidet e vo gouel Sant-Padrig da vat antronoz e Sal Gouelioù Kawan adalek 9e noz.
 # text[fra¹] = Il sera célébré la voile de Saint-Padrig pour de bon le lendemain à Sal les Fêtes de Cavan à partir de 9h nuit.
 "<Lidet>"
@@ -31155,9 +29559,6 @@ _
 	"9e" num mf sg
 "<noz>"
 	"noz" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31213,9 +29614,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur fest-deiz a vo kinniget goude an droiad er maezioù.
 # text[fra¹] = Un fest-deiz sera présenté après la tournée dans les campagnes.
 "<Ur>"
@@ -31248,9 +29646,6 @@ _
 		"an" det def sp
 "<maezioù>"
 	"maez" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31335,9 +29730,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Aktourezed a-feson zo lakaet war an talbenn gantañ evit un abadenn savet kaer met goullo un tamm a-benn ar fin.
 # text[fra¹] = Actrices comme il faut elle a mis sur la façade avec lui pour une émission #lever belle mais vide un peu en fin de compte.
 "<Aktourezed>"
@@ -31387,9 +29779,6 @@ _
 	"tamm" n m sg
 "<a-benn ar fin>"
 	"a-benn ar fin" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31459,9 +29848,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit ar c'harotez ha troc'hit anezho a dammoù.
 # text[fra¹] = Vous épluchez les carottes et vous coupez d'eux à morceaux.
 "<Dibluskit>"
@@ -31495,9 +29881,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar c'harotez ha meskit mat pep tra.
 # text[fra¹] = Vous ajoutez les carottes et vous mélangez bien tout.
 "<Ouzhpennit>"
@@ -31518,9 +29901,6 @@ _
 	"mat" adj mf sp
 "<pep tra>"
 	"pep tra" prn def mf sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31548,9 +29928,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ar c'harotez a zle dont da vezañ tener-kenañ.
 # text[fra¹] = Les carottes à doivent devenir très tendres.
 "<Ar>"
@@ -31575,9 +29952,6 @@ _
 "<tener-kenañ>"
 	"tener" adj mf sp
 		"kenañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31630,9 +30004,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit an dienn flour.
 # text[fra¹] = Vous ajoutez la crème fine.
 "<Ouzhpennit>"
@@ -31648,9 +30019,6 @@ _
 	"flour" adj mf sp
 ;	"flourañ" vblex imp p2 sg
 ;	"flourañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -31830,9 +30198,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Savet ez eus bet ur c'houlennaoueg gant tud Divskouarn eta, a-benn gouzout "piv, petra ha penaos" e-keñver ar c'hinnig brezhoneg d'ar bugaligoù er vro.
 # text[fra¹] = Il a été #lever un questionnaire avec les gens de Divskouarn donc, pour savoir "qui, quoi et comment" par comparaison à la proposition de breton aux petits enfants dans le pays.
 "<Savet>"
@@ -31906,9 +30271,6 @@ _
 		"an" det def sp
 "<vro>"
 	"bro" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32065,9 +30427,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Rak pal Divskouarn zo dont a-benn da gas an traoù war-raok e Breizh a-bezh.
 # text[fra¹] = Devant l'objectif de Divskouarn est réussir à envoyer les choses en avant en Bretagne entièrement.
 "<Rak>"
@@ -32115,9 +30474,6 @@ _
 ;	"preizh" n m sg
 "<a-bezh>"
 	"a-bezh" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32183,9 +30539,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Koulskoude, n'eo ket ken dister-se perzh ar produiñ paper e mont-da-get ar c'hoadoù.
 # text[fra¹] = Pourtant, il n'est plus insignifiant ci la qualité de la production papier dans aller-à-avec les bois.
 "<Koulskoude>"
@@ -32235,9 +30588,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<c'hoadoù>"
 	"koad" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32360,9 +30710,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pal kentañ an taol-lañs-mañ a zo brudañ skridoù e brezhoneg dre ar c'han hag ar sonerezh.
 # text[fra¹] = La première pelle du coup-avance ci elle est faire connaître des écrits en breton par le chant et la musique.
 "<Pal>"
@@ -32432,9 +30779,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<sonerezh>"
 	"sonerezh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32517,9 +30861,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret e vo kinnig 2 ganaouenn da nebeutañ hag an hollad ne ranko ket padout ouzhpenn 20 munutenn.
 # text[fra¹] = Nécessaire sera proposition 2 chansons au moins et le total ne devront pas durer plus de 20 minutes.
 "<Ret>"
@@ -32569,9 +30910,6 @@ _
 	"20" num mf pl
 "<munutenn>"
 	"munutenn" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32678,9 +31016,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ret eo lakaat e anv a-raok ar 1añ a viz Ebrel.
 # text[fra¹] = Il faut mettre dans nom avant le 1ère avril.
 "<Ret>"
@@ -32720,9 +31055,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tennit diouzh ar forn.
 # text[fra¹] = Vous tirez du four.
 "<Tennit>"
@@ -32735,9 +31067,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<forn>"
 	"forn" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32805,9 +31134,6 @@ _
 "<lugan>"
 	"lugan" n m sg
 ;	"lugañ" vblex pri p1 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32885,9 +31211,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<banne kafe>"
 	"banne# kafe" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -32985,9 +31308,6 @@ _
 "<eur>"
 	"eur" n f sg
 ;	"bezañ" vblex pri impers pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33093,9 +31413,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un abadenn gelaouiñ doare "magazin" eo "Mil dremm".
 # text[fra¹] = Une émission informer la manière "de magazine" Elle est "l'Animal de visage".
 "<Un>"
@@ -33121,9 +31438,6 @@ _
 "<dremm>"
 	"dremm" n f sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33178,9 +31492,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<vro>"
 	"bro" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33267,9 +31578,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -33309,9 +31617,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33422,9 +31727,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Roet e vez al label-se gant un testeniekaer dizalc'h a warant e teu ar c'hoad diwar ur gounid reizh.
 # text[fra¹] = Donné est ce label avec un #attester indépendant à garant vient le bois d'un gain juste.
 "<Roet>"
@@ -33495,9 +31797,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpenn-se e saotr kalz an dezougen koad dre ar blanedenn.
 # text[fra¹] = Il en plus souille beaucoup le transporter bois par la planète.
 "<Ouzhpenn-se>"
@@ -33535,9 +31834,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Klaseloc'h e oa ar pezh kinniget e Kemper d'ar mare-mañ.
 # text[fra¹] = Plus classique était ce que présenté à Quimper à ce moment.
 "<Klaseloc'h>"
@@ -33570,9 +31866,6 @@ _
 	"mare" n m sg
 "<-mañ>"
 	"mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33661,9 +31954,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evit ar wech kentañ en he istor e kaso Frañs daou skipailh e kardgourfennoù kib kampioned Europa.
 # text[fra¹] = Pour la première fois dans son histoire elle enverra la France deux équipes dans les quarts de finale de la coupe des champions d'Europe.
 "<Evit ar wech kentañ>"
@@ -33708,18 +31998,12 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Chañs vat d'an holl.
 # text[fra¹] = Bonne chance À tous.
 "<Chañs vat>"
 	"chañs vat" ij
 "<d'an holl>"
 	"d’an holl" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33807,9 +32091,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ultimatom nac'het gant ar bolitikourien dre vras.
 # text[fra¹] = Ultimatum refusé avec les politiciens en général.
 "<Ultimatom>"
@@ -33828,9 +32109,6 @@ _
 	"politiker" n m pl
 "<dre vras>"
 	"dre-vras" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33887,9 +32165,6 @@ _
 ;	"stourm" vblex pri p3 sg
 "<war-raok>"
 	"war-raok" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -33988,9 +32263,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kantikoù ha sonennoù a vo kanet er bloaz-mañ, en o zouez kantikoù gouestlet d'ar Werc'hez ha da Santez Anna.
 # text[fra¹] = Cantiques et chansons Elle sera chantée cette année, parmi eux cantiques engagés à la Vierge et à la Sainte d'Anna.
 "<Kantikoù>"
@@ -34047,9 +32319,6 @@ _
 ;	"santout" vblex pri p2 sg
 "<Anna>"
 	"Anna" np ant f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34143,9 +32412,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Digoust eo an abadenn, met da ziwall zo, n'eo ket bras-tre ar sal ! Ur c'haier gant komzoù ar c'hanaouennoù a vo da werzhañ, 2 EUR.
 # text[fra¹] = gratuitement il est l'émission, mais à protéger il est, il n'est pas très grande la salle ! Un cahier avec les paroles des chansons sera vendre, 2 HEURES.
 "<Digoust>"
@@ -34234,9 +32500,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Cheñch a raio spontus e vuhez abalamour d'an enklask-se.
 # text[fra¹] = Il changera effrayant sa vie à cause de cette enquête.
 "<Cheñch>"
@@ -34283,9 +32546,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel ar sonerezh a vez klevet ennañ.
 # text[fra¹] =  Evel la musique est entendu dans lui.
 "<Evel>"
@@ -34317,9 +32577,6 @@ _
 "<ennañ>"
 	"e" pr
 		"indirect" prn obj p3 m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34363,9 +32620,6 @@ _
 ;	"e" n m sp
 "<donkad>"
 	"tonkad" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34445,9 +32699,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ijinit 'ta.
 # text[fra¹] = Vous inventez donc.
 "<Ijinit>"
@@ -34456,9 +32707,6 @@ _
 "<'ta>"
 	"eta" adv
 	"eta" cnjadv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34492,9 +32740,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar vioù, ar sukr hag ar c'hraoñ-kokoz.
 # text[fra¹] = Vous ajoutez les oeufs, le sucre et les noix de coco.
 "<Ouzhpennit>"
@@ -34524,9 +32769,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Meskit mat pep tra.
 # text[fra¹] = Vous mélangez bien tout.
 "<Meskit>"
@@ -34536,9 +32778,6 @@ _
 	"mat" adj mf sp
 "<pep tra>"
 	"pep tra" prn def mf sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34566,9 +32805,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Adlakait er forn e-pad ur c'hardeur.
 # text[fra¹] = Vous remettez dans le four pendant un quart d’heure.
 "<Adlakait>"
@@ -34587,9 +32823,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait ar sivi.
 # text[fra¹] = Vous mettez les fraises.
 "<Lakait>"
@@ -34599,9 +32832,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<sivi>"
 	"sivi" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34625,9 +32855,6 @@ _
 	"ouzhpennañ" vblex inf
 "<ivez>"
 	"ivez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34688,9 +32915,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwelomp un nebeud abegoù da sevel a-enep ar produioù OGK, hag hiziv, resisoc'h, hini ar brevedoù.
 # text[fra¹] = Nous voyons un peu de causes à être contre les produits d'OGK, et aujourd’hui, plus précis, aucun les brevets.
 "<Gwelomp>"
@@ -34738,9 +32962,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E Londrez ar bloavezhioù 20 e krog an istor.
 # text[fra¹] = À Londres les années 20 dans le croc de l'histoire.
 "<E>"
@@ -34777,9 +32998,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<istor>"
 	"istor" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34826,9 +33044,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<c'houblad>"
 	"koublad" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -34901,9 +33116,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel boaz e vo kinniget neuze a bep seurt traoù (sonerezh, c'hoariva, filmoù, arzoù a-vremañ).
 # text[fra¹] =  Evel habitude Elle sera présentée alors de toute sorte les choses (de musique, théâtre, films, arts désormais).
 "<Evel>"
@@ -34950,9 +33162,6 @@ _
 	"a-vremañ" adv
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35014,9 +33223,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tennit ar c'hig-lapin ha lamit an eskern.
 # text[fra¹] = Vous tirez la viande-lapin et vous ôtez les os.
 "<Tennit>"
@@ -35046,9 +33252,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diskargit e-barzh ur girin.
 # text[fra¹] = Vous déchargez à l’intérieur une terrine.
 "<Diskargit>"
@@ -35064,9 +33267,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait er yenerez.
 # text[fra¹] = Vous mettez dans le réfrigérateur.
 "<Lakait>"
@@ -35076,9 +33276,6 @@ _
 		"an" det def sp
 "<yenerez>"
 	"yenerez" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35110,9 +33307,6 @@ _
 ;	"ha" ij
 "<tomatez>"
 	"tomatez" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35152,9 +33346,6 @@ _
 	"Frañs" np top sg
 "<a-bezh>"
 	"a-bezh" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35270,9 +33461,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur film a ro c'hoant adwelet an holl filmoù a garer ha dizoloiñ reoù all ha krouiñ filmoù zoken.
 # text[fra¹] = Un film Il donne envie revoir tous les films on aime et découvrir des autres paires et créer des films même.
 "<Ur>"
@@ -35346,9 +33534,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Plasoù etre 5 ha ha 29 euro.
 # text[fra¹] = Places entre 5 et et 29 euros.
 "<Plasoù>"
@@ -35368,9 +33553,6 @@ _
 	"29" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35397,9 +33579,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait da yenañ.
 # text[fra¹] = Vous mettez au plus froid.
 "<Lakait>"
@@ -35412,9 +33591,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait er yenerez.
 # text[fra¹] = Vous mettez dans le réfrigérateur.
 "<Lakait>"
@@ -35424,9 +33600,6 @@ _
 		"an" det def sp
 "<yenerez>"
 	"yenerez" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35524,9 +33697,6 @@ _
 "<eur>"
 	"eur" n f sg
 ;	"bezañ" vblex pri impers pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35632,9 +33802,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un abadenn gelaouiñ doare "magazin" eo "Mil dremm".
 # text[fra¹] = Une émission informer la manière "de magazine" Elle est "l'Animal de visage".
 "<Un>"
@@ -35660,9 +33827,6 @@ _
 "<dremm>"
 	"dremm" n f sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35717,9 +33881,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<vro>"
 	"bro" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35806,9 +33967,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -35848,9 +34006,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -35914,9 +34069,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Breizh, o c'hoari gwell pe welloc'h eus ur match d'un all.
 # text[fra¹] = la Bretagne, en train de jouer mieux ou plus mieux d'un match à autre.
 "<Breizh>"
@@ -35958,9 +34110,6 @@ _
 	"un" det ind sp
 "<all>"
 	"all" adj ind mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36012,9 +34161,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tamm-ha-tamm e tostaio Griet ouzh mestr livouriezh an Izelvroioù.
 # text[fra¹] = Peu à peu il rapprochera Crié contre le maître de peinture le Pays-Bas.
 "<Tamm-ha-tamm>"
@@ -36042,9 +34188,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<Izelvroioù>"
 	"Izelvroioù" np top pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36081,9 +34224,6 @@ _
 	"istor" n m sg
 "<-mañ>"
 	"mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36142,9 +34282,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kroget eo gant kenstrivadeg sonerezh ar re yaouank, aozet gant Gouel an Erer Kozh.
 # text[fra¹] = Il a commencé avec le concours de musique ceux qui jeune, organisé avec la Voile du Vieux Aigle.
 "<Kroget>"
@@ -36193,9 +34330,6 @@ _
 	"kozh" adj mf sp
 ;	"kozhañ" vblex imp p2 sg
 ;	"kozhañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36270,9 +34404,6 @@ _
 		"an" det def sp
 "<selaouerien>"
 	"selaouer" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36359,9 +34490,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ma fell deoc'h kemer perzh en Erer Yaouank e c'hellit lakaat hoc'h anv e-pad ur pennadig c'hoazh.
 # text[fra¹] = Si vous voulez participer dans le Jeune Aigle pouvez mettre votre nom pendant un petit moment encore.
 "<Ma>"
@@ -36416,9 +34544,6 @@ _
 	"c’hoazh" adv
 ;	"koazhañ" vblex imp p2 sg
 ;	"koazhañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36507,9 +34632,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur pred krampouezh a vo kinniget war al lec'h.
 # text[fra¹] = Il Sera présenté un repas de crêpes sur place.
 "<Ur>"
@@ -36533,9 +34655,6 @@ _
 ;	"kinnig" vblex imp p3 sg
 "<war al lec'h>"
 	"war al lec’h" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36565,9 +34684,6 @@ _
 	"kevredigezh" n f pl
 "<lec'hel>"
 	"lec’hel" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36644,9 +34760,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lemm ha speredek ivez.
 # text[fra¹] = Aigu et intelligent Aussi.
 "<Lemm>"
@@ -36660,9 +34773,6 @@ _
 	"speredek" adj mf sp
 "<ivez>"
 	"ivez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36724,9 +34834,6 @@ _
 ;	"evañ" vblex pri p2 pl
 "<2006>"
 	"2006" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -36851,9 +34958,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwelomp er sizhun-mañ peseurt strategiezhioù a vez lakaet e-pleustr gant an embregerezhioù bras-se evit mirout al labourerien-douar en o dalc'h.
 # text[fra¹] = Nous voyons cette semaine quel stratégies est mis le-pratique avec ces grandes entreprises pour garder les fermiers dans #le o de maintien.
 "<Gwelomp>"
@@ -36934,9 +35038,6 @@ _
 ;	"derc’hel" vblex imp p2 sg
 ;	"delc’her" vblex pri p3 sg
 ;	"derc’hel" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37057,9 +35158,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Distro eo an eil mab eus an talbenn.
 # text[fra¹] = de retour il est second fils de la façade.
 "<Distro>"
@@ -37090,9 +35188,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<talbenn>"
 	"talbenn" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37134,9 +35229,6 @@ _
 ;	"monet" vblex imp p2 sg
 "<zeu>"
 	"dont" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37215,9 +35307,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er strollad-se eo bodet an holl re a fell dezho e vefe sikouret muioc'h an dud nammet n'int ket evit labourat.
 # text[fra¹] = Dans ce groupe a regroupé le tous trop de loin à eux aurait aidé plus les gens handicapés ils ne sont pas pour travailler.
 "<Er>"
@@ -37284,9 +35373,6 @@ _
 ;	"evañ" vblex pri p2 pl
 "<labourat>"
 	"labourat" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37373,9 +35459,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha kas neuze an dud da Roazhon pe Naoned.
 # text[fra¹] = Et envoyer alors les gens à Rennes quels Nantes.
 "<Ha>"
@@ -37405,9 +35488,6 @@ _
 ;	"bezañ" vblex cni p3 sg
 "<Naoned>"
 	"Naoned" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37453,9 +35533,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<ti-gar>"
 	"ti#-gar" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37514,9 +35591,6 @@ _
 		"an" det def sp
 "<jeu>"
 	"jeu" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37588,9 +35662,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Rankout a reont bewech stourm ha stourm adarre evit rediañ Renerezh-eskopti ar c'helenn katolik da zigeriñ klasoù divyezhek nevez.
 # text[fra¹] = Ils doivent chaque fois combattre et combattre de nouveau pour obliger Direction-l'évêché de l'enseignement catholique à ouvrir des nouvelles classes bilingues.
 "<Rankout>"
@@ -37659,9 +35730,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Goulennet e oa bet gant Dihun sevel ur bodad kenemglev gant ar pemp renerezh-eskopti.
 # text[fra¹] = Elle avait été demandé avec Dihun lever une commission de convention avec les cinq directions-évêché.
 "<Goulennet>"
@@ -37715,9 +35783,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Respont ebet ganto.
 # text[fra¹] = Répondre pas avec eux.
 "<Respont>"
@@ -37730,9 +35795,6 @@ _
 "<ganto>"
 	"gant" pr
 		"indirect" prn obj p3 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37808,9 +35870,6 @@ _
 ;	"ha" ij
 "<Palestina>"
 	"Palestina" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -37906,9 +35965,6 @@ _
 		"an" det def sp
 "<vro>"
 	"bro" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -38027,9 +36083,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kroget e oa gant an troioù-dibab e Frañs diwar seizh poull a dri skipailh enno e 2006/07.
 # text[fra¹] = Il avait saisi avec les tours-choisir en France de sept mares à trois équipes dans eux dans 2006/07.
 "<Kroget e>"
@@ -38101,9 +36154,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pep Kevre football amatour a zo e karg eus dibab ar c'hoarierien betek ar rummad DH hepken.
 # text[fra¹] = Chaque Ligue de football amateur est en charge de choisir les joueurs jusque la catégorie SURTOUT seulement.
 "<Pep>"
@@ -38156,9 +36206,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Hegaset eo ar mab henañ pa glev e vamm o komz diwar-benn he marv.
 # text[fra¹] = Il a agacé le fils aîné quand sa mère entend en train de parler de sa mort/morte.
 "<Hegaset>"
@@ -38206,9 +36253,6 @@ _
 ;	"mervel" vblex imp p2 sg
 ;	"mervel" vblex pri p3 sg
 ;	"marv" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -38322,9 +36366,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bep miz e kinnig ar gelaouenn Bremañ, abaoe 1980, pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois dans Il présente le magazine Bremañ, depuis 1980, articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
 "<Bep>"
@@ -38408,9 +36449,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -38450,9 +36488,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -38552,9 +36587,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ganet eo bet e 1958 e Naoned ha marv e Pariz e 1993.
 # text[fra¹] = Elle a été né dans 1958 à Nantes et morts à Paris dans 1993.
 "<Ganet>"
@@ -38615,9 +36647,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Echuet eo bet tournamant ar 6 broad en dibenn-sizhun-mañ.
 # text[fra¹] = Il a été fini tournoi les 6 nations dans ce week-end.
 "<Echuet>"
@@ -38646,9 +36675,6 @@ _
 	"dibenn#-sizhun" n m sg
 "<-mañ>"
 	"mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -38724,9 +36750,6 @@ _
 	"21" num mf pl
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -38820,9 +36843,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = War-lerc'h bezañ kollet ur wech kentañ a-enep Iwerzhon (13-19), o chañsoù a oa deuet da vezañ bihanoc'h en un taol.
 # text[fra¹] = ensuite être perdu une contre première fois l'Irlande (13-19), #le o de chances étaient devenus plus petit dans un coup.
 "<War-lerc'h>"
@@ -38892,9 +36912,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er c'hontrol, Bro-C'hall gant kement a grogadoù gounezet hag a vatchoù c'hoariet he deus diskouezet d'an holl e oa ret kontañ ganti bremañ.
 # text[fra¹] = Au contraire, la France avec autant de combats gagnés et à matchs joués il a montré à tous était nécessaire compter avec elle maintenant.
 "<Er c'hontrol>"
@@ -38953,9 +36970,6 @@ _
 		"indirect" prn obj p3 f sg
 "<bremañ>"
 	"bremañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39035,9 +37049,6 @@ _
 ;	"filmañ" vblex pri p3 sg
 "<-mañ>"
 	"mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39137,9 +37148,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Koustañ a ra daou euro mui ar frejoù post.
 # text[fra¹] = Il coûte deux euros plus les frais de poste.
 "<Koustañ>"
@@ -39173,9 +37181,6 @@ _
 	"post" n m sg
 ;	"postañ" vblex imp p2 sg
 ;	"postañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39227,9 +37232,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Met chom a ra bresk-tre an traoù memes tra.
 # text[fra¹] = Mais Elle reste très fragile les choses quand même.
 "<Met>"
@@ -39264,9 +37266,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pariz, 2054.
 # text[fra¹] =  Paris, 2054.
 "<Pariz>"
@@ -39275,9 +37274,6 @@ _
 	"," cm
 "<2054>"
 	"2054" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39327,9 +37323,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evit an 23e gwech e vo aozet ar gouel-se e Sant-Brieg.
 # text[fra¹] = Pour la 23h fois sera organisée cette fête à Saint-Brieuc.
 "<Evit>"
@@ -39375,9 +37368,6 @@ _
 ;	"e" n m sp
 "<Sant-Brieg>"
 	"Sant-Brieg" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39466,9 +37456,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lod all a soñj dezho ne oa ket skouerius a-walc'h an dud a oa bet dalc'het evit ar genstrivadeg.
 # text[fra¹] = Autre partie Il pense à eux n'était pas assez exemplaire les gens avaient été tenus pour le concours.
 "<Lod>"
@@ -39532,9 +37519,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<genstrivadeg>"
 	"kenstrivadeg" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39620,9 +37604,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Goude gerioù fromus ar ganerez Nolwenn Korbell e oa bet kaset an dibunadeg war-raok gant startijenn liseidi ha skolajidi an hentad kelenn dre soubidigezh.
 # text[fra¹] = Après les mots émouvants de la chanteuse Nolwenn Korbell avaient été envoyés la manifestation en avant avec le dynamisme de lycéens et les collégiens du circuit enseigner par immersion.
 "<Goude>"
@@ -39695,9 +37676,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dilennidi a oa ivez.
 # text[fra¹] = Élus Elle était aussi.
 "<Dilennidi>"
@@ -39714,9 +37692,6 @@ _
 	"bezañ" vblex pii p3 sg
 "<ivez>"
 	"ivez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -39845,9 +37820,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Eizhvet Skol-veur Yaouankiz Breizh, aozet gant Kuzul Sevenadurel Breizh a vo aozet e Karaez, e Ti Degemer Kerampuilh, etre ar 5 hag an 8 a viz Ebrel. "Gwrizioù evit an dazont" eo tem ar bloaz-mañ.
 # text[fra¹] = Huitième l'Université de la Jeunesse de Bretagne, organisée avec Conseil Culturel de Bretagne sera organisé à Carhaix, chez l'Accueil de Kerampuilh, entre les 5 et le 8 avril. "Racines pour le futur" Il est thème cette année.
 "<Eizhvet>"
@@ -39957,9 +37929,6 @@ _
 	"tem" n m sg
 "<ar bloaz-mañ>"
 	"ar bloaz-mañ" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40095,9 +38064,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwelomp bremañ ar pezh a c'hoarvez pa 'n em led ar greun-se e lec'h all.
 # text[fra¹] = Nous voyons maintenant ce que il arrive quand #’n dans ma largeur ces grains e d'autre lieu.
 "<Gwelomp>"
@@ -40148,9 +38114,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da eil e vez erlec'hiet genoù liesseurt-kenañ gant un doare gen hepken.
 # text[fra¹] = Deuxièmement il est remplacé bouche très diverse avec une manière de gènes seulement.
 "<Da eil>"
@@ -40188,9 +38151,6 @@ _
 	"gen" n f pl
 "<hepken>"
 	"hepken" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40281,9 +38241,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Etre arzourien vrudet ha lod all zo o kregiñ e vo 200 anezho o kinnig 80 abadenn e-pad 8 devezh.
 # text[fra¹] = Entre des artistes célèbres et autre partie est Il sera en train de saisir 200 d'eux en train de présenter 80 émissions pendant 8 journées.
 "<Etre>"
@@ -40345,9 +38302,6 @@ _
 	"8" num mf pl
 "<devezh>"
 	"devezh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40441,9 +38395,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Badaouet e seblante Naonediz bezañ dec'h goude disoc'hoù krogadoù an dibenn-sizhun.
 # text[fra¹] = Étourdi semblait Nantais être hier après les résultats des combats du week-end.
 "<Badaouet>"
@@ -40478,9 +38429,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<dibenn-sizhun>"
 	"dibenn#-sizhun" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40519,9 +38467,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dimerc'her e c'hoario skipailh Roazhon a-enep Lyon.
 # text[fra¹] = Mercredi il jouera l'équipe de Rennes contre Lyon.
 "<Dimerc'her>"
@@ -40543,9 +38488,6 @@ _
 	"a-enep" adv
 "<Lyon>"
 	"Lyon" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40589,9 +38531,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vern.
 # text[fra¹] = n'il importe.
 "<Ne>"
@@ -40600,9 +38539,6 @@ _
 	"bernout" vblex pri p3 sg
 ;	"bern" n m sg
 ;	"bernout" vblex imp p2 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40705,9 +38641,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Troc'hit bouedenn pep frouezhenn a-dammoù.
 # text[fra¹] = Vous coupez la substance de chaque fruit en morceaux.
 "<Troc'hit>"
@@ -40722,9 +38655,6 @@ _
 	"frouezh" n f sg
 "<a-dammoù>"
 	"a-dammoù" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40757,9 +38687,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakit er yenerez a-raok servijout.
 # text[fra¹] = Vous mettez dans le réfrigérateur avant servir.
 "<Lakit>"
@@ -40774,9 +38701,6 @@ _
 	"a-raok" adv
 "<servijout>"
 	"servijout" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40811,9 +38735,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Familhoù a oa kalz, met ivez labourerien-douar hag enklaskerien.
 # text[fra¹] = Familles Il était beaucoup, mais aussi fermiers et enquêteurs.
 "<Familhoù>"
@@ -40844,9 +38765,6 @@ _
 	"ha" cnjcoo
 "<enklaskerien>"
 	"enklasker" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -40951,9 +38869,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Disklêriet en deus Kristian Troadeg, maer Karaez ha prezidant kuzul-verañ an ospital, e oa ret derc'hel gant ar stourm.
 # text[fra¹] = Il a déclaré Kristian Troadec, le maire de Carhaix et le président de conseil-gérer l'hôpital, il était nécessaire tenir avec le combat.
 "<Disklêriet>"
@@ -41016,9 +38931,6 @@ _
 ;	"stourm" vblex imp p2 sg
 ;	"stourm" vblex inf
 ;	"stourm" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -41123,9 +39035,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E miz Meurzh 2003 e oa bet furchet en e di ha kavet an teuliad-mañ dija.
 # text[fra¹] = En mars 2003 avaient été fouillés dans sa maison et trouvée ce dossier déjà.
 "<E miz Meurzh>"
@@ -41176,9 +39085,6 @@ _
 	"mañ" adv
 "<dija>"
 	"dija" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -41276,9 +39182,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gourdrouz a zo warnañ kaout 75000EUR da baeañ, ha bezañ kaset e-pad 5 bloaz d'an toull-bac'h, evit bezañ bet an teuliad-mañ.
 # text[fra¹] = Il y a menace sur lui avoir 75000HEURES à payer, et être envoyées pendant 5 ans à la prison, pour être été ce dossier.
 "<Gourdrouz>"
@@ -41355,9 +39258,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vo neuze skipailh breizhat ebet o loc'hañ gant an dro e Brest d'ar 5 a viz Gouere.
 # text[fra¹] = Équipe pas bretonne ne sera alors en train de démarrer avec le tour son Prêt le 5 juillet.
 "<Ne>"
@@ -41424,9 +39324,6 @@ _
 ;	"a" n m sp
 "<viz Gouere>"
 	"miz Gouere" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -41513,9 +39410,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un digarez kaer e vo evit ober anaoudegezh gant ur sport a chom divrudet.
 # text[fra¹] = Une belle excuse Il sera pour faire connaissance avec un sport il reste décrié.
 "<Un>"
@@ -41563,9 +39457,6 @@ _
 "<divrudet>"
 	"divrudañ" vblex pp
 ;	"divrudañ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -41630,9 +39521,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel-just e c'hoarvezo ganto ur bern traoù iskis ha dic'hortoz o do pouez ha levezon war o darempredoù.
 # text[fra¹] = Naturellement il arrivera avec eux un tas de choses étranges et inattendu auront poids et influence sur #le o de relations.
 "<Evel-just>"
@@ -41690,9 +39578,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da c'houde e troio ar film e salioù sinema zo eus ar vro.
 # text[fra¹] = Ensuite il tournera le film d'e les salles de cinéma sont du pays.
 "<Da c'houde>"
@@ -41734,9 +39619,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<vro>"
 	"bro" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -41834,9 +39716,6 @@ _
 "<eur>"
 	"eur" n f sg
 ;	"bezañ" vblex pri impers pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -41942,9 +39821,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un abadenn gelaouiñ doare "magazin" eo "Mil dremm".
 # text[fra¹] = Une émission informer la manière "de magazine" Elle est "l'Animal de visage".
 "<Un>"
@@ -41970,9 +39846,6 @@ _
 "<dremm>"
 	"dremm" n f sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42027,9 +39900,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<vro>"
 	"bro" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42116,9 +39986,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -42158,9 +40025,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42307,9 +40171,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Peadra d'en em rentañ kont eus kreñvder ar mor. "Dav deomp mont kuit buan".
 # text[fra¹] = Moyens à rendre compte de la force de la mer. "Nécessaire à nous partir vite".
 "<Peadra>"
@@ -42354,9 +40215,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Avel vat dezho eta.
 # text[fra¹] = Vent bien à eux donc.
 "<Avel>"
@@ -42369,9 +40227,6 @@ _
 "<eta>"
 	"eta" adv
 	"eta" cnjadv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42439,9 +40294,6 @@ _
 ;	"da" det pos mf sp
 "<zont>"
 	"dont" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42521,9 +40373,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tu vo da welet labourioù luc'hskeudennerien gentañ ar vro koulz hag ur rummad skeudennoù "touristel" brudet-tre e fin an 19vet kantved.
 # text[fra¹] = Elle soit possible de voir les travaux de photographes premiers du pays ainsi qu'une catégorie d'images touristiques" très célèbre à la fin des 19ème siècle.
 "<Tu vo da>"
@@ -42576,9 +40425,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Displegañ a reer en diskouezadeg diaesterioù teknikel al luc'hskeudennerien hag o freder arzel ivez.
 # text[fra¹] = On déplie dans l'exposition de difficultés techniques les photographes et leur réflexion artistique aussi.
 "<Displegañ>"
@@ -42624,9 +40470,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Mont a raio hep dale skipailh Lyon da vezañ Kampion mell-droad Frañs evit ar pempvet gwech da heul.
 # text[fra¹] = Il ira sans le retard de l'équipe de Lyon à être le Champion du football de France pour cinquième fois ensuite.
 "<Mont a raio>"
@@ -42668,9 +40511,6 @@ _
 "<da heul>"
 	"da-heul" adv
 ;	"da-heul" pr
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42758,9 +40598,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ho puhez karantez a vo disheñvel.
 # text[fra¹] = Votre vie d'amour Il sera différent.
 "<Ho>"
@@ -42788,9 +40625,6 @@ _
 	"disheñvel" adj mf sp
 ;	"disheñvelout" vblex imp p2 sg
 ;	"disheñvelout" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42838,9 +40672,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da eil e c'helloc'h stabilaat an traoù da vat ha diskuizhañ un tamm.
 # text[fra¹] = Deuxièmement vous pourrez stabiliser les choses pour de bon et reposer quelques peu.
 "<Da eil>"
@@ -42877,9 +40708,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Marteze e vo tenn an traoù er penn kentañ.
 # text[fra¹] = Peut-être elle sera le coup des choses au début.
 "<Marteze>"
@@ -42909,9 +40737,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dalc'hit mat, n'ho po ket keuz.
 # text[fra¹] = Vous tenez bien, vous n'aurez pas fromage.
 "<Dalc'hit>"
@@ -42931,9 +40756,6 @@ _
 	"ket" adv
 "<keuz>"
 	"keuz" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -42977,9 +40799,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vo ket kalz skoilhoù war ho hent.
 # text[fra¹] = Il ne sera pas beaucoup des obstacles sur votre route.
 "<Ne>"
@@ -43004,9 +40823,6 @@ _
 	"hent" n m sg
 ;	"hentañ" vblex imp p2 sg
 ;	"hentañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43064,9 +40880,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An dud a labour ganeoc'h a vo souezhet ha plijet gant hoc'h emzalc'h.
 # text[fra¹] = Les gens Elle travaille avec vous sera étonné et plu avec votre comportement.
 "<An>"
@@ -43117,9 +40930,6 @@ _
 ;	"direct" prn obj p2 mf pl
 "<emzalc'h>"
 	"emzalc’h" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43199,9 +41009,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = D'ar 14 ha d'ar 15 a viz Ebrel e vo aozet Gouel ar Bannoù-treset e Perroz-Gireg.
 # text[fra¹] = Aux 14 et le 15 avril sera organisé la Voile des @Bann à Perros-Guirec.
 "<D'ar>"
@@ -43258,9 +41065,6 @@ _
 ;	"e" n m sp
 "<Perroz-Gireg>"
 	"Perroz-Gireg" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43329,9 +41133,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Troc'hit bouedenn pep frouezhenn a-dammoù.
 # text[fra¹] = Vous coupez la substance de chaque fruit en morceaux.
 "<Troc'hit>"
@@ -43346,9 +41147,6 @@ _
 	"frouezh" n f sg
 "<a-dammoù>"
 	"a-dammoù" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43381,9 +41179,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakit er yenerez a-raok servijout.
 # text[fra¹] = Vous mettez dans le réfrigérateur avant servir.
 "<Lakit>"
@@ -43398,9 +41193,6 @@ _
 	"a-raok" adv
 "<servijout>"
 	"servijout" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43452,9 +41244,6 @@ _
 	"c’hoari" n m pl
 "<Olimpek>"
 	"olimpek" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43526,9 +41315,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Miliadoù a dud a oa deuet da vanifestiñ dec'h er gêr-benn saoz evit skoazellañ tud Tibet gwasket gant gouarnamant Sina.
 # text[fra¹] = Milliers à gens avaient venus en manifester hier à la maison-tête anglaise pour aider les gens de Tibet pressés avec le gouvernement de la Chine.
 "<Miliadoù>"
@@ -43596,9 +41382,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Boazet omp bremañ da welet milinoù-tredan a ya en-dro gant an avel e Breizh.
 # text[fra¹] = Nous avons habitué maintenant à voir moulins-électricité fonctionne avec le vent en Bretagne.
 "<Boazet>"
@@ -43645,9 +41428,6 @@ _
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43708,9 +41488,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gant redoù an dour pe gant al lanvioù e c'hellont bezañ lakaet da dreiñ.
 # text[fra¹] = Avec les courants de l'eau quelle avec les marées peuvent être mis à tourner.
 "<Gant>"
@@ -43761,9 +41538,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E miz Even 1998 e oa aet diwar wel Eric Tabarly war vor.
 # text[fra¹] = En juin 1998 il avait disparu Eric Tabarly en mer.
 "<E miz Even>"
@@ -43787,9 +41561,6 @@ _
 	"*Tabarly"
 "<war vor>"
 	"war vor" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43855,9 +41626,6 @@ _
 	"-" guio
 "<lien>"
 	"lien" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -43985,9 +41753,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da c'hortoz mont betek an Oriant e kavoc'h peadra war al lec'hienn gant luc'hskeudennoù eus bigi, c'hoarioù hag un dibab testenioù ha taolioù-fent war ar bageal, kavet war genrouedad.
 # text[fra¹] = en attendant aller jusque Lorient vous trouverez moyens sur le site avec photographies de bateaux, jeux et un choix de témoignages et coups-humour sur le naviguer, trouvé sur Internet.
 "<Da c'hortoz>"
@@ -44072,9 +41837,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Da venegiñ ivez ez eo bet troet koulz an testennoù da lenn hag ar re da selaou e brezhoneg.
 # text[fra¹] = À mentionner aussi a été tourné le moment des textes à lire et ceux qui à écouter en breton.
 "<Da>"
@@ -44133,9 +41895,6 @@ _
 ;	"selaou" vblex pri p3 sg
 "<e brezhoneg>"
 	"e brezhoneg" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44211,9 +41970,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel ar re o deus savet e-kreiz ar bloavezhioù 1980, pa ne oant ket brudet-tre.
 # text[fra¹] =  Evel ceux qui ont #lever au milieu les années 1980, quand n'étaient pas très célèbres.
 "<Evel>"
@@ -44252,9 +42008,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An abadenn nemeti er c'hwec'hkorn e vo.
 # text[fra¹] = La seule émission dans sera l'hexagone.
 "<An>"
@@ -44279,9 +42032,6 @@ _
 ;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44323,9 +42073,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tennit diwar dan ha lakait a-gostez.
 # text[fra¹] = Vous tirez de feu et vous mettez de côté.
 "<Tennit>"
@@ -44343,9 +42090,6 @@ _
 	"lakaat" vblex pri p2 pl
 "<a-gostez>"
 	"a-gostez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44367,9 +42111,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit gant riz gouez.
 # text[fra¹] = Vous servez avec le riz de lessive.
 "<Servijit>"
@@ -44386,9 +42127,6 @@ _
 "<gouez>"
 	"kouez" n m sg
 ;	"gouzout" vblex imp p2 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44442,9 +42180,6 @@ _
 	"miz Ebrel" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44503,9 +42238,6 @@ _
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44592,9 +42324,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -44634,9 +42363,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44720,9 +42446,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Abaoe ur sizhun bennak ez eo krog an traoù da vezañ startoc'h-startañ evit an Amerikaned.
 # text[fra¹] = Depuis une semaine quelconque elle est le croc des choses à être plus difficile-le plus difficile pour les Américains.
 "<Abaoe>"
@@ -44776,9 +42499,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<Amerikaned>"
 	"Amerikan" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44836,9 +42556,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Muioc'h-mui a Japaniz a c'houlenn e kuitafe soudarded Japan Irak ar c'hentañ ar gwellañ da skouer.
 # text[fra¹] = De plus en plus de Japonais/Japonais à Il demande il quitterait les soldats du Japon l'Irak dès que possible par exemple.
 "<Muioc'h-mui a>"
@@ -44876,9 +42593,6 @@ _
 	"ar c’hentañ ar gwellañ" adv
 "<da skouer>"
 	"da skouer" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -44991,9 +42705,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Nac'hit ez afe war greskiñ implij ar plastik ha kasit ur baner pe ur sac'h ganeoc'h pa z'it d'ober prenadennoù kuit d'implijout seier plastik.
 # text[fra¹] = Vous refusez il irait sur augmenter l'emploi du plastique et vous envoyez un panier quel un sac avec vous quand zvous allez faire achats quittes à employer les sacs de plastique.
 "<Nac'hit>"
@@ -45079,9 +42790,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Start a-walc'h eo buhez an dud er gêriadenn-se.
 # text[fra¹] = Assez difficile est la vie des gens dans ce village.
 "<Start>"
@@ -45109,9 +42817,6 @@ _
 	"kêriadenn" n f sg
 "<-se>"
 	"se" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45164,9 +42869,6 @@ _
 "<fred>"
 	"fred" n m sg
 ;	"pred" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45226,9 +42928,6 @@ _
 	"bevañ" vblex inf
 "<memes tra>"
 	"memes tra" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45295,9 +42994,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur film a roio levenez d'an holl en desped da bep tra.
 # text[fra¹] = Un film Il donnera bonheur à tous malgré tous les choses.
 "<Ur>"
@@ -45330,9 +43026,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = FICHAUT (André), Sur le pont.
 # text[fra¹] = le FICHAUT (d'André), Sûr le serment de pont.
 "<FICHAUT>"
@@ -45351,9 +43044,6 @@ _
 	"le" n m sg
 "<pont>"
 	"pont" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45379,9 +43069,6 @@ _
 	"George" np ant m sg
 "<W>"
 	"w" n m sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45427,9 +43114,6 @@ _
 ;	"e" n m sp
 "<Perroz-Gireg>"
 	"Perroz-Gireg" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45518,9 +43202,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un nozvezh a rankfe bezañ plijus, ha leun a sonioù dic'hortoz.
 # text[fra¹] = Une soirée Elle devrait être agréable, et plein de chansons inattendues.
 "<Un>"
@@ -45556,9 +43237,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Basit ar yaourt.
 # text[fra¹] = Vous passez l'yaourt.
 "<Basit>"
@@ -45572,9 +43250,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar mel.
 # text[fra¹] = Vous ajoutez le miel.
 "<Ouzhpennit>"
@@ -45585,9 +43260,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<mel>"
 	"mel" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45637,9 +43309,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Meskit ar yaourt hag ar mel.
 # text[fra¹] = Vous mélangez l'yaourt et le miel.
 "<Meskit>"
@@ -45657,9 +43326,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<mel>"
 	"mel" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45708,9 +43374,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit ar c'hraoñ gant ur gontell lemm.
 # text[fra¹] = Vous épluchez les noix avec un couteau aigu.
 "<Dibluskit>"
@@ -45733,9 +43396,6 @@ _
 	"lemm" adj mf sp
 ;	"lemmañ" vblex imp p2 sg
 ;	"lemmañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -45830,9 +43490,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<c'hinklañ>"
 	"kinklañ" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46111,9 +43768,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Respontoù zo bet dastumet hag embannet. E niverenn miz Ebrel ar gelaouenn Bremañ e c'hellit lenn soñjoù ar strolladoù dilennet e Kuzul-rannvro Breizh war an danvezioù-se.
 # text[fra¹] = Réponses ont été ramassés et édités. Il numérote l'avril du magazine Bremañ pouvez lire les pensées des groupes élus le Conseil régional de Bretagne sur ces matières.
 "<Respontoù>"
@@ -46208,9 +43862,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tro Bro Leon, savet e 1984, a oa da gentañ ur redadeg mirc'hi-houarn evit an dud na oant ket a-vicher.
 # text[fra¹] = Le tour du Leon, levé dans 1984, Il était en premier premier une course de chevaux-fer pour les gens étaient pas professionnel.
 "<Tro>"
@@ -46283,9 +43934,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tro-dro da vourk Lanniliz e vez aozet Tro Bro Leon bewech.
 # text[fra¹] = Autour du bourg de Lannilis Elle est organisé Tour de Leon chaque fois.
 "<Tro-dro da>"
@@ -46323,9 +43971,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Disul e vo aozet Tro Bro Leon 2007.
 # text[fra¹] = dimanche il sera organisé le Tour du Leon 2007.
 "<Disul>"
@@ -46353,9 +43998,6 @@ _
 	"bro-Leon" np top sg
 "<2007>"
 	"2007" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46409,9 +44051,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Troc'hit an 2 gourjetezenn e daou, lamit ar vouedenn (mirit a-gostez).
 # text[fra¹] = Vous coupez les 2 courgettes dans deux, vous ôtez la substance (vous gardez de côté).
 "<Troc'hit>"
@@ -46455,9 +44094,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Grit flastrenn gant ar c'haol-feur ha bouedenn ar c'hourjetez.
 # text[fra¹] = Vous faites purée avec l'entrejambe-taux et la substance des courgettes.
 "<Grit>"
@@ -46492,9 +44128,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<c'hourjetez>"
 	"kourjetez" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46555,9 +44188,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Betek an 8 Even e vo kinniget "Chanterioù" er C'harter e Kemper.
 # text[fra¹] = Jusque le 8 juin sera présenté "des Chantiers" dans le Quartier à Quimper.
 "<Betek>"
@@ -46600,9 +44230,6 @@ _
 ;	"e" n m sp
 "<Kemper>"
 	"Kemper" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46666,9 +44293,6 @@ _
 		"an" det def sp
 "<arzourien>"
 	"arzour" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46739,9 +44363,6 @@ _
 	"enor" n m sg
 ;	"enoriñ" vblex imp p2 sg
 ;	"enoriñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46818,9 +44439,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur serr-lagad fentus en deus graet an tonkadur d'an daou gentañ er renkadur a-vremañ, TA Roazhon hag US Sant-Maloù.
 # text[fra¹] = Fermée-oeil comique Il a fait le destin aux deux premiers dans le classement désormais, le TA de Rennes et l'US de Saint-Malo.
 "<Ur>"
@@ -46876,9 +44494,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kalz risklusoc'h e vo beaj FK Lannuon e gourenez Kraozon.
 # text[fra¹] = Tas plus dangereux Il sera le voyage du FK de Lannion #le e de la presqu’île de Crozon.
 "<Kalz>"
@@ -46914,9 +44529,6 @@ _
 ;	"gouren" vblex pri p2 sg
 "<Kraozon>"
 	"Kraozon" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -46973,9 +44585,6 @@ _
 	"e hini" prn pos m pl
 "<hepken>"
 	"hepken" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47056,9 +44665,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dalc'hit a-gostez.
 # text[fra¹] = Vous tenez de côté.
 "<Dalc'hit>"
@@ -47068,9 +44674,6 @@ _
 ;	"derc’hel" vblex imp p2 pl
 "<a-gostez>"
 	"a-gostez" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47123,9 +44726,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Adlakait ar c'hig e-barzh just a-raok servijout.
 # text[fra¹] = Vous remettez la viande à l’intérieur juste avant servir.
 "<Adlakait>"
@@ -47148,9 +44748,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
 "<Servijit>"
@@ -47160,9 +44757,6 @@ _
 ;	"servijout" vblex imp p2 pl
 "<diouzhtu>"
 	"diouzhtu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47260,9 +44854,6 @@ _
 "<eur>"
 	"eur" n f sg
 ;	"bezañ" vblex pri impers pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47368,9 +44959,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un abadenn gelaouiñ doare "magazin" eo "Mil dremm".
 # text[fra¹] = Une émission informer la manière "de magazine" Elle est "l'Animal de visage".
 "<Un>"
@@ -47396,9 +44984,6 @@ _
 "<dremm>"
 	"dremm" n f sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47456,9 +45041,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Anv zo eus an holl draoù-se ha traoù all c'hoazh e-barzh niverenn Bremañ miz Ebrel 2008.
 # text[fra¹] = Il y a nom de toutes ces choses et choses encore autres à l’intérieur le numéro de Bremañ avril 2008.
 "<Anv>"
@@ -47509,9 +45091,6 @@ _
 	"miz Ebrel" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47570,9 +45149,6 @@ _
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47659,9 +45235,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -47701,9 +45274,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47755,9 +45325,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha goude-se eo e krogas ar c'hoari stanket a bep tu.
 # text[fra¹] = Et ensuite il est il commença le jeu bloqué à tous les côtés.
 "<Ha>"
@@ -47804,9 +45371,6 @@ _
 ;	"duañ" vblex imp p2 sg
 ;	"duañ" vblex pri p3 sg
 ;	"du" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -47898,9 +45462,6 @@ _
 ;	"trec’hiñ" vblex imp p2 sg
 ;	"trec’hiñ" vblex pri p3 sg
 ;	"drec’h" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48016,9 +45577,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ken tanav ha ne dalv ket ar boan komz re diwar e benn.
 # text[fra¹] = Si fin et il ne vaut pas la douleur parler trop au sujet de lui.
 "<Ken>"
@@ -48056,9 +45614,6 @@ _
 "<diwar e benn>"
 	"diwar-benn" pr
 		"indirect" prn obj p3 m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48110,9 +45665,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un droidigezh c'hallek a vo dav kas gant al lizher.
 # text[fra¹] = Une traduction française Il sera nécessaire envoyer avec la lettre.
 "<Un>"
@@ -48148,9 +45700,6 @@ _
 	"an" det def sp
 "<lizher>"
 	"lizher" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48192,9 +45741,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Anat e oa e vefe un heuliad dezhañ neuze.
 # text[fra¹] = Évident était serait une suite à lui alors.
 "<Anat>"
@@ -48227,9 +45773,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait ar c'hig-yar en ur plad.
 # text[fra¹] = Vous mettez la viande-poule dans un plat.
 "<Lakait>"
@@ -48249,9 +45792,6 @@ _
 ;	"en ur" vpart ppres
 "<plad>"
 	"plad" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48291,9 +45831,6 @@ _
 	"chom" vblex pri p3 sg
 ;	"chom" vblex imp p2 sg
 ;	"chom" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48344,9 +45881,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Troc'hit ar c'hig-yar.
 # text[fra¹] = Vous coupez la viande-poule.
 "<Troc'hit>"
@@ -48361,9 +45895,6 @@ _
 	"-" guio
 "<yar>"
 	"yar" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48430,9 +45961,6 @@ _
 	"envel" vblex pp
 "<GIEC>"
 	"GIEC" n acr m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48534,9 +46062,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur gwir veaj e bed ar vugaleaj eta.
 # text[fra¹] = Un droit de voyage dans le domaine de l'enfance donc.
 "<Ur>"
@@ -48558,9 +46083,6 @@ _
 "<eta>"
 	"eta" adv
 	"eta" cnjadv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48659,9 +46181,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwelet hon eus pegen bras e oa an dislavar etre diskleriadennoù ar gouarnamant diwar-benn an endro hag ar pezh a veze graet gantañ.
 # text[fra¹] = Nous avons vu comme grand était la contradiction entre les déclarations du gouvernement au sujet de l'environnement et ce que étaient fait avec lui.
 "<Gwelet>"
@@ -48724,9 +46243,6 @@ _
 "<gantañ>"
 	"gant" pr
 		"indirect" prn obj p3 m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48814,9 +46330,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bemdez e Gwened etre 9e ha 7e, digoust.
 # text[fra¹] = Tous les jours à Vannes entre 9h et 7h, gratuitement.
 "<Bemdez>"
@@ -48845,9 +46358,6 @@ _
 "<digoust>"
 	"digoust" adv
 	"digoust" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -48957,9 +46467,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lezit da devaat war dan bihan.
 # text[fra¹] = Vous laissez grossir sur petit feu.
 "<Lezit>"
@@ -48977,9 +46484,6 @@ _
 ;	"dan" n m sg
 "<bihan>"
 	"bihan" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49033,9 +46537,6 @@ _
 	"miz Ebrel" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49094,9 +46595,6 @@ _
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49183,9 +46681,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -49225,9 +46720,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49309,9 +46801,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Sellit ouzh an tikedennoù eta da c'houzout petra zo e-barzh ar pezh a brenit.
 # text[fra¹] = Vous regardez les étiquettes donc à savoir quoi il est à l’intérieur ce que vous achetez.
 "<Sellit ouzh>"
@@ -49347,9 +46836,6 @@ _
 "<brenit>"
 	"prenañ" vblex pri p2 pl
 ;	"prenañ" vblex imp p2 pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49410,9 +46896,6 @@ _
 	"eizhvet" adj mf sp
 "<gourfenn>"
 	"gourfenn" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49504,9 +46987,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit ar ganell hag ar mel.
 # text[fra¹] = Vous ajoutez la bobine et le miel.
 "<Ouzhpennit>"
@@ -49524,9 +47004,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<mel>"
 	"mel" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49588,9 +47065,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Niverus eo ar c'hevredigezhioù hag an aozadurioù breizhek o deus embannet o skoazell da brezidant Dihun.
 # text[fra¹] = Nombreux est les sociétés et les organisations bretonnes Elles ont éditées #le o d'aide au président de Dihun.
 "<Niverus>"
@@ -49640,9 +47114,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En aner betek-henn.
 # text[fra¹] = Dans inutile jusqu’à présent.
 "<En>"
@@ -49653,9 +47124,6 @@ _
 	"aner" adj mf sp
 "<betek-henn>"
 	"betek-henn" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49706,9 +47174,6 @@ _
 	"kaout" vblex inf
 "<respontoù>"
 	"respont" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49786,9 +47251,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Adarre a c'houlenner a wir galon, hag a vo graet moarvat.
 # text[fra¹] = De nouveau à on demande de tout coeur, et il sera fait certainement.
 "<Adarre>"
@@ -49825,9 +47287,6 @@ _
 ;	"ober" vblex imp p3 sg
 "<moarvat>"
 	"moarvat" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49872,9 +47331,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Fest-noz da 7 euro, abadennoù rock etre 16 ha 17 euro.
 # text[fra¹] = Fest-noz à 7 euros, les émissions de rock entre 16 et 17 euros.
 "<Fest-noz>"
@@ -49904,9 +47360,6 @@ _
 	"17" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -49998,9 +47451,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ma vez dilennet Ségolène Royal e lako savidigezh ar greizenn nukleel EPR da baouez, amzer da c'houlenn o ali digant ar bobl.
 # text[fra¹] = Ma tombe élue Ségolène Royal mettra la construction du centre nucléaire EPR à cesser, temps à demander #le o d'avis d’avec le peuple.
 "<Ma>"
@@ -50078,9 +47528,6 @@ _
 	"pobl" n f sg
 ;	"poblañ" vblex imp p2 sg
 ;	"poblañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -50210,9 +47657,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ma vez dilennet e kaso ivez tabutoù da benn, evit gwelet asambles penaos espern energiezh, penaos kas war-raok ar mammennoù energiezh n'int ket saotrus, ha petra e vo dazont an nukleel.
 # text[fra¹] = Ma tombe élue Elle enverra aussi disputes à tête, pour voir ensemble comment épargner énergie, comment promouvoir les sources d'énergie elles ne sont pas polluantes, et quoi elle sera futur nucléaire.
 "<Ma>"
@@ -50317,9 +47761,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tu a vo da bep hini dizoleiñ pe kaout soñj, a-drugarez da labour skeudennaouerien a bep seurt, eus ar santimantoù hag ar from liammet gant istorioù ar skrivagner.
 # text[fra¹] = Il y aura moyen À tous les aucun découvrir quels souvenir, grâce au travail d'illustrateurs de toute sorte, des sentiments et l'émotion liée avec les histoires de l'écrivain.
 "<Tu>"
@@ -50400,9 +47841,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<skrivagner>"
 	"skrivagner" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -50501,9 +47939,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er bloavezh 2057, emañ heol hon c'hoskoriad o vervel.
 # text[fra¹] = Dans l'année 2057, le soleil de notre cortège est en train de mourir.
 "<Er>"
@@ -50532,9 +47967,6 @@ _
 ;	"direct" prn obj p3 mf pl
 "<vervel>"
 	"mervel" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -50573,9 +48005,6 @@ _
 	"mervel" vblex inf
 "<tamm-ha-tamm>"
 	"tamm-ha-tamm" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -50676,9 +48105,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ne vo ket aes an traoù evito siwazh...
 # text[fra¹] = Elle ne sera pas facile les choses pour eux hélas...
 "<Ne>"
@@ -50739,9 +48165,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Menegomp neuze a re a dalvez ar boan, ha chomomp hep kaozeal re diwar-benn ar re all.
 # text[fra¹] = Nous mentionnons alors à trop de vaut la peine, et nous restons sans causer trop au sujet de les autres.
 "<Menegomp>"
@@ -50782,9 +48205,6 @@ _
 	"diwar-benn" pr
 "<ar re all>"
 	"egile" prn def mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -50833,9 +48253,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Soubañ an abrikez, ar rezin hag ar fiez en ur banne dour klouar gant ur banne chug orañjez.
 # text[fra¹] = Tremper les abricots, les raisins et les figues dans un verre d’eau tiède avec un coup de jus d’orange.
 "<Soubañ>"
@@ -50879,9 +48296,6 @@ _
 ;	"bannañ" vblex pii p3 sg
 "<chug orañjez>"
 	"chug# orañjez" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -51072,9 +48486,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Peadra a vo kinniget war tachenn Leurenn Glenmor Karaez evit reiñ tro d'an holl da lenn, da redek, da c'hoari, da zañsal, da ganañ, da dridal dirak filmoù, skeudennoù Loeiz Bloñs, ha me 'oar-me.
 # text[fra¹] = Moyens seront présentés sur le terrain de la Scène de Glenmor Carhaix pour donner tour à tous à lire, à courir, à jouer, à danser, à chanter, à tressaillir devant films, les images de Loeiz Bleu, et je sait-je.
 "<Peadra>"
@@ -51192,9 +48603,6 @@ _
 	"-" guio
 "<me>"
 	"prpers" prn subj p1 mf sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -51405,9 +48813,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pevare "Nozvezh ar mirdioù" a vo aozet en Europa a-bezh d'ar 17 a viz Mae gant ar pal desachañ tud nevez en ur ginnig, ouzhpenn an diskouezadegoù padus, abadennoù ispisial, liesdoare ha digoust.
 # text[fra¹] = Quatrième "la Soirée des musées" sera organisée en Europe entièrement le 17 mai avec l'objectif attirer des nouveaux gens dans une proposition, en plus les expositions durables, émissions spécialement, multiples et gratuitement.
 "<Pevare>"
@@ -51525,9 +48930,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = En Euskadi, Okitania, Korsika ... e vo kinniget obererezhioù tro-dro d'an darvoud-mañ en holl yezhoù.
 # text[fra¹] = au Pays Basque, Occitanie, la Corse ... Il sera présenté des activités autour de cet événement en tout langues.
 "<En>"
@@ -51577,9 +48979,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Bloaz zo e oa diskennet an FC Naoned er C'hevre 1.
 # text[fra¹] = Il y a an était descendu le FC Nantes dans la Ligue 1.
 "<Bloaz>"
@@ -51620,9 +49019,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Fellout a ra dezhañ war a seblant, adframmañ an dispignoù.
 # text[fra¹] = Il Veut À ce qu’on dirait, restructurer les dépenses.
 "<Fellout>"
@@ -51654,9 +49050,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<dispignoù>"
 	"dispign" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -51763,9 +49156,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha kalz muioc'h a zarvoudoù, dister pe bouezus, a c'hall c'hoarvezout enno. N'eo ket disheñvel an 23 a viz Ebrel diwar-benn an danvez-se.
 # text[fra¹] = Et beaucoup plus d'événements, insignifiants ou importants, il peut arriver dans eux. Il n'est pas différent le 23 avril au sujet de cette matière.
 "<Ha>"
@@ -51850,9 +49240,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit ha troc'hit ar bananez a-ruilhennoù tev.
 # text[fra¹] = Vous épluchez et vous coupez les bananes à-gros anneaux.
 "<Dibluskit>"
@@ -51888,9 +49275,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit e-barzh bolennoù.
 # text[fra¹] = Vous servez à l’intérieur des bols.
 "<Servijit>"
@@ -51903,9 +49287,6 @@ _
 	"e-barzh" adv
 "<bolennoù>"
 	"bolenn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -51959,9 +49340,6 @@ _
 	"miz Ebrel" n m sp
 "<2008>"
 	"2008" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52020,9 +49398,6 @@ _
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52109,9 +49484,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -52151,9 +49523,6 @@ _
 	"koumanant" n m sg
 ;	"koumanantiñ" vblex imp p2 sg
 ;	"koumanantiñ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52201,9 +49570,6 @@ _
 	"-" guio
 "<kaer>"
 	"kaer" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52258,9 +49624,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tri fezh-c'hoari e brezhoneg a vo kinniget d'an 10, 19 ha 24.
 # text[fra¹] = Trois @pezh en breton il sera présenté aux 10, 19 et 24.
 "<Tri>"
@@ -52296,9 +49659,6 @@ _
 ;	"ha" ij
 "<24>"
 	"24" num mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52362,9 +49722,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ma ! Setu, deuet eo er-maez programm an Erer Kozh.
 # text[fra¹] = Mon ! Voilà, il est venu dehors le programme du Vieux Aigle.
 "<Ma>"
@@ -52399,9 +49756,6 @@ _
 	"kozh" adj mf sp
 ;	"kozhañ" vblex imp p2 sg
 ;	"kozhañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52482,9 +49836,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel boaz e vo leurennoù disheñvel gouestlet da seurtoù sonerezh disheñvel.
 # text[fra¹] =  Evel habitude sera scènes différentes engagées à sortes de musique différente.
 "<Evel>"
@@ -52522,9 +49873,6 @@ _
 	"disheñvel" adj mf sp
 ;	"disheñvelout" vblex imp p2 sg
 ;	"disheñvelout" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52581,9 +49929,6 @@ _
 	"-" guio
 "<barzh>"
 	"barzh" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52678,9 +50023,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = War tachenn al labour e vo mat-kenañ lodenn gentañ 2006.
 # text[fra¹] = Sur le terrain du travail Il sera très bien première partie 2006.
 "<War>"
@@ -52718,9 +50060,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Sirius ha kempenn, gounit a reoc'h fiziañs ar re all.
 # text[fra¹] = Sérieux et ordonné, Vous gagnerez confiance les autres.
 "<Sirius>"
@@ -52751,9 +50090,6 @@ _
 	"fiziañs" n f sg
 "<ar re all>"
 	"egile" prn def mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52801,9 +50137,6 @@ _
 "<ganto>"
 	"gant" pr
 		"indirect" prn obj p3 mf pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52861,9 +50194,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E-pad an hañv e kinnigo Kamp Etrekeltiek Ar Vrezhonegerion e 60vet staj.
 # text[fra¹] = Pendant l'été Il présentera Kamp Etrekeltiek ar Vrezhonegerion dans 60ème stage.
 "<E-pad>"
@@ -52897,9 +50227,6 @@ _
 ;	"bezañ" vblex pp
 "<staj>"
 	"staj" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -52990,9 +50317,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Nevezinti a vo, gant rummadoù kentelioù war ar c'hoariva hag ar video.
 # text[fra¹] = Nouveauté Il sera, avec les catégories de leçons sur le théâtre et la vidéo.
 "<Nevezinti>"
@@ -53032,9 +50356,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<video>"
 	"video" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53083,9 +50404,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un doare da studiañ hag ober gant ar brezhoneg dre zeskiñ teknikoù diazez.
 # text[fra¹] = Une manière à étudier et faire avec le breton par apprendre les techniques de base.
 "<Un>"
@@ -53127,9 +50445,6 @@ _
 	"diazez" n m sg
 ;	"diazezañ" vblex imp p2 sg
 ;	"diazezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53177,9 +50492,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E diavaez ar c'hentelioù e vez bevet e brezhoneg a-hed ar sizhun.
 # text[fra¹] = L'e externe des leçons Il est vécu en breton tout au long de la semaine.
 "<E>"
@@ -53216,9 +50528,6 @@ _
 	"e brezhoneg" adv
 "<a-hed ar sizhun>"
 	"a-hed ar sizhun" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53267,9 +50576,6 @@ _
 ;	"brezhonegañ" vblex pri p3 sg
 "<a-hed an amzer>"
 	"a-hed an amzer" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53341,9 +50647,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Abaoe un nebeud bloavezhioù e teu war wel strolladoù a embann bezañ bet levezonet gant ar sonerezh post-punk (1978-82).
 # text[fra¹] = Depuis quelques années il apparaît les groupes d'a éditent être été influencés avec la musique de poste-punk (1978-82).
 "<Abaoe>"
@@ -53410,9 +50713,6 @@ _
 	"82" num mf pl
 "<)>"
 	")" rpar
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53490,9 +50790,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un digarez evit splujañ da vat e sonerezh penn-kentañ ar bloavezhioù 1980.
 # text[fra¹] = Une excuse pour plonger pour de bon #le e de musique le début des années 1980.
 "<Un>"
@@ -53529,9 +50826,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dibluskit an avaloù ha troc'hit anezho a-dammoù.
 # text[fra¹] = Vous épluchez les pommes et vous les coupez en morceaux.
 "<Dibluskit>"
@@ -53555,9 +50849,6 @@ _
 ;		"indirect" prn obj p3 mf pl
 "<a-dammoù>"
 	"a-dammoù" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53592,9 +50883,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Silit ar chug.
 # text[fra¹] = Vous filtrez le jus.
 "<Silit>"
@@ -53608,9 +50896,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
 "<Servijit>"
@@ -53620,9 +50905,6 @@ _
 ;	"servijout" vblex imp p2 pl
 "<diouzhtu>"
 	"diouzhtu" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53666,9 +50948,6 @@ _
 "<Lun>"
 	"Lun" n m sp
 	"lun" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -53811,9 +51090,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un afer etre tud eus ar c'hornaoueg, bet merzet e-kerzh an dro diaraok dija abalamour da vezañs Kevre Breizh (hag Elzas ivez evel-just).
 # text[fra¹] = Une affaire entre gens de l'ouest, été remarqué pendant le tour précédemment déjà à cause de la présence de la Ligue de Bretagne (et l'Alsace aussi naturellement).
 "<Un>"
@@ -53884,9 +51160,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Rannit e-barzh gwerennoù ha servijit evit un digor-pred.
 # text[fra¹] = Vous partagez à l’intérieur des verres et vous servez pour une ouverture-repas.
 "<Rannit>"
@@ -53922,9 +51195,6 @@ _
 	"-" guio
 "<pred>"
 	"pred" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54075,9 +51345,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An teuliad peder fajennad zo gouestlet en niverenn-mañ d'an dud nammet.
 # text[fra¹] = Le dossier quatre pages ont engagées dans ce numéro aux gens handicapés.
 "<An>"
@@ -54115,9 +51382,6 @@ _
 	"den" n m pl
 "<nammet>"
 	"nammet" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54204,9 +51468,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -54249,9 +51510,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur arzour e-touez ar re vrasañ en arz a-vremañ eo hemañ.
 # text[fra¹] = Un artiste parmi ceux qui le plus grand dans l'art désormais il est celui-ci.
 "<Ur>"
@@ -54276,9 +51534,6 @@ _
 	"bezañ" vblex pri p3 sg
 "<hemañ>"
 	"hemañ" prn dem m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54326,9 +51581,6 @@ _
 	"anat" adj mf sp
 "<eo>"
 	"bezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54381,9 +51633,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er stalioù bras e vez kinniget estreget danvezioù diazez.
 # text[fra¹] = Dans les grands magasins Elle est présenté d’autres que les matières de base.
 "<Er>"
@@ -54416,9 +51665,6 @@ _
 	"diazez" n m sg
 ;	"diazezañ" vblex imp p2 sg
 ;	"diazezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54523,9 +51769,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Hervez kont eo bet kresket ar c'heitad-mañ a 50 % en daou vloaz diwezhañ, ar pezh a gas betek tost ur c'hard eus ar marc'had.
 # text[fra¹] = À ce qu’il parait Elle a été augmenté cette moyenne à 50 % dans les deux ans derniers, ce que envoient jusque près un quart du marché.
 "<Hervez kont>"
@@ -54596,9 +51839,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Er bloavezhioù 80, e Sina.
 # text[fra¹] = Dans les années 80, en Chine.
 "<Er>"
@@ -54619,9 +51859,6 @@ _
 "<Sina>"
 	"Sina" np top sg
 ;	"sinañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54682,9 +51919,6 @@ _
 	"disoc’h" n m sg
 ;	"disoc’hañ" vblex imp p2 sg
 ;	"disoc’hañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54750,9 +51984,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Poanius, trist ha tener.
 # text[fra¹] = Pénible, triste et tendre.
 "<Poanius>"
@@ -54767,9 +51998,6 @@ _
 "<tener>"
 	"tener" adj mf sp
 ;	"denañ" vblex pri impers sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54819,9 +52047,6 @@ _
 		"indirect" prn obj p3 mf pl
 "<e-korf un nebeud mizioù>"
 	"e-korf un nebeud mizioù" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -54914,9 +52139,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Met ned a ar c'henwerzh reizh d'ober nemet 0,02 % eus kenwerzh ar bed.
 # text[fra¹] = Mais ne à le commerce juste à faire sauf 0,02 % du commerce du monde.
 "<Met>"
@@ -54966,9 +52188,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Dimeurzh tremenet eo aet an traoù war-raok en Iwerzhon an Hanternoz.
 # text[fra¹] = Il mardi dernier est allé en avant les choses en Irlande le Nord.
 "<Dimeurzh tremenet>"
@@ -55000,9 +52219,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<Hanternoz>"
 	"hanternoz" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55064,9 +52280,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E-pad an hañv e kinnigo Kamp Etrekeltiek Ar Vrezhonegerion e 60vet staj.
 # text[fra¹] = Pendant l'été Il présentera Kamp Etrekeltiek ar Vrezhonegerion dans 60ème stage.
 "<E-pad>"
@@ -55100,9 +52313,6 @@ _
 ;	"bezañ" vblex pp
 "<staj>"
 	"staj" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55193,9 +52403,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Nevezinti a vo, gant rummadoù kentelioù war ar c'hoariva hag ar video.
 # text[fra¹] = Nouveauté Il sera, avec les catégories de leçons sur le théâtre et la vidéo.
 "<Nevezinti>"
@@ -55235,9 +52442,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<video>"
 	"video" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55286,9 +52490,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un doare da studiañ hag ober gant ar brezhoneg dre zeskiñ teknikoù diazez.
 # text[fra¹] = Une manière à étudier et faire avec le breton par apprendre les techniques de base.
 "<Un>"
@@ -55330,9 +52531,6 @@ _
 	"diazez" n m sg
 ;	"diazezañ" vblex imp p2 sg
 ;	"diazezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55410,9 +52608,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un doare da vont war-raok buan-tre ha d'en em voazañ d'ober gant ar brezhoneg a-hed an amzer.
 # text[fra¹] = Une manière à progresser très vite et à habituer à faire avec le breton tout le temps.
 "<Un>"
@@ -55458,9 +52653,6 @@ _
 ;	"brezhonegañ" vblex pri p3 sg
 "<a-hed an amzer>"
 	"a-hed an amzer" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55532,9 +52724,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ouzhpennit, ma fell deoc'h, poultr kanell pe pevar zemz.
 # text[fra¹] = Vous ajoutez, s'il veut à vous, poudre de bobine quelle quatre épices.
 "<Ouzhpennit>"
@@ -55570,9 +52759,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha leun a vo.
 # text[fra¹] = Et plein d'Elle sera.
 "<Ha>"
@@ -55582,9 +52768,6 @@ _
 	"leun a" pr
 "<vo>"
 	"bezañ" vblex fti p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55699,9 +52882,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Distro d'ar gêr e klask gwellaat e ijinadenn nevez a-benn cheñch penn d'ar vazh.
 # text[fra¹] = De retour à la maison elle cherche améliorer e de nouvelle invention pour renverser la situation.
 "<Distro>"
@@ -55743,9 +52923,6 @@ _
 	"cheñch# penn d’ar vazh" vblex inf
 ;	"cheñch# penn d’ar vazh" vblex imp p2 sg
 ;	"cheñch# penn d’ar vazh" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55792,9 +52969,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Etre digoust ha 7 euro.
 # text[fra¹] = Entre gratuit et 7 euros.
 "<Etre>"
@@ -55810,9 +52984,6 @@ _
 	"7" num mf pl
 "<euro>"
 	"euro" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55838,9 +53009,6 @@ _
 	"-" guio
 "<chalotez>"
 	"chalotez" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -55877,9 +53045,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Tommit ar bouilhoñs.
 # text[fra¹] = Vous chauffez le bouillon.
 "<Tommit>"
@@ -55893,17 +53058,11 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Meskit.
 # text[fra¹] = Vous mélangez.
 "<Meskit>"
 	"meskañ" vblex pri p2 pl
 ;	"meskañ" vblex imp p2 pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56054,9 +53213,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An teuliad peder fajennad zo gouestlet en niverenn-mañ d'an dud nammet.
 # text[fra¹] = Le dossier quatre pages ont engagées dans ce numéro aux gens handicapés.
 "<An>"
@@ -56094,9 +53250,6 @@ _
 	"den" n m pl
 "<nammet>"
 	"nammet" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56183,9 +53336,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -56228,9 +53378,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur arzour e-touez ar re vrasañ en arz a-vremañ eo hemañ.
 # text[fra¹] = Un artiste parmi ceux qui le plus grand dans l'art désormais il est celui-ci.
 "<Ur>"
@@ -56255,9 +53402,6 @@ _
 	"bezañ" vblex pri p3 sg
 "<hemañ>"
 	"hemañ" prn dem m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56314,9 +53458,6 @@ _
 	"c’hoari" n m pl
 "<olimpek>"
 	"olimpek" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56381,9 +53522,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Droug ebet evito avat p'en deus servijet ar c'hampionad-se da brientiñ ar c'hoarioù olimpek dreist-holl.
 # text[fra¹] = Mal pas pour eux alors quand il a servi ce championnat à préparer les jeux olympiques surtout.
 "<Droug>"
@@ -56425,9 +53563,6 @@ _
 	"olimpek" adj mf sp
 "<dreist-holl>"
 	"dreist-holl" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56473,9 +53608,6 @@ _
 	"un" det ind sp
 "<gwallzarvoud>"
 	"gwallzarvoud" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56535,9 +53667,6 @@ _
 	"mod" n m sg
 ;	"bodañ" vblex imp p2 sg
 ;	"bodañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -56749,9 +53878,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Mirit a-gostez.
 # text[fra¹] = Vous gardez de côté.
 "<Mirit>"
@@ -56897,9 +54023,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Diouzh tu Naonediz eo luziet an afer.
 # text[fra¹] = Du côté de Nantais a emmêlé l'affaire.
 "<Diouzh>"
@@ -56922,9 +54045,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<afer>"
 	"afer" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -57021,9 +54141,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Petra nevez gant lezenn an OGK, he deus graet kement a drouz nebeut 'zo? Emañ war-nes bezañ degemeret da vat.
 # text[fra¹] = Quoi nouvel avec la loi de l'OGK, ont faites autant de bruit peu est? Il est sur le point d'être accueilli pour de bon.
 "<Petra>"
@@ -57074,9 +54191,6 @@ _
 ;	"degemer" vblex imp p3 sg
 "<da vat>"
 	"da vat" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -57188,9 +54302,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E penn-kentañ ar sizhun dremenet ez eus tremenet un destenn evit ma vefe paouezet da dabutal diwar-benn al lezenn.
 # text[fra¹] = Au début de la semaine passée est passée un texte pour qu'il ait cessé à débattre au sujet de la loi.
 "<E penn-kentañ>"
@@ -57232,9 +54343,6 @@ _
 	"an" det def sp
 "<lezenn>"
 	"lezenn" n f sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -57325,9 +54433,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Emañ ar PS o vont da sevel klemm dirak al lezenn, hervezañ n'eo ket diouzh al lezenn ober seurt traoù.
 # text[fra¹] = Le PS est en train d'aller à lever plaindre devant la loi, selon lui n'est pas de la loi faire la sorte de choses.
 "<Emañ>"
@@ -57390,9 +54495,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Brasañ bodadenn bet biskoazh da labourat war digeriñ ar marc'hadoù e oa.
 # text[fra¹] = Le plus grand assemblée jamais été à travailler sur ouvrir les marchés Il était.
 "<Brasañ>"
@@ -57432,9 +54534,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Gwell a se ma teu a-benn dre-se da dizhout ar Stadunaniz da gentañ.
 # text[fra¹] = Tant mieux si elle réussit par ci à atteindre les États-uniens en premier premiers.
 "<Gwell a se>"
@@ -57463,9 +54562,6 @@ _
 	"da gentañ" adv
 ;	"da" pr
 ;		"kentañ" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -57545,9 +54641,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Evel-se e vo aesoc'h lakaat hon evezh war ar c'hanaouennoù.
 # text[fra¹] = Comme ça il sera plus facile mettre notre attention sur les chansons.
 "<Evel-se>"
@@ -57580,9 +54673,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Degasit d'ar berv ar banne laezh.
 # text[fra¹] = Vous apportez à bouillant le coup de lait.
 "<Degasit>"
@@ -57606,9 +54696,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lezit da yenañ a-raok servijout.
 # text[fra¹] = Vous laissez au plus froid avant servir.
 "<Lezit>"
@@ -57623,9 +54710,6 @@ _
 	"a-raok" adv
 "<servijout>"
 	"servijout" vblex inf
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -57776,9 +54860,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = An teuliad peder fajennad zo gouestlet en niverenn-mañ d'an dud nammet.
 # text[fra¹] = Le dossier quatre pages ont engagées dans ce numéro aux gens handicapés.
 "<An>"
@@ -57816,9 +54897,6 @@ _
 	"den" n m pl
 "<nammet>"
 	"nammet" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -57905,9 +54983,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies elle présente la matière de la Bretagne, quelle par abonnement.
 "<E gwerzh>"
@@ -57950,9 +55025,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kavet ez eus bet 4 den marv ha d'an nebeutañ 3 den gloazet.
 # text[fra¹] = Il a été trouvé 4 personnes mortes et du moins 3 personnes blessées.
 "<Kavet>"
@@ -57991,9 +55063,6 @@ _
 "<gloazet>"
 	"gloazañ" vblex pp
 ;	"gloazañ" vblex imp p3 sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58096,9 +55165,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ur seurt produ èl ar re arall get e zanvez diazez treuzfurmet e meur a dra eo e oberennoù.
 # text[fra¹] = Une sorte de produit comme ceux qui autre avec sa matière de base transformée le plusieurs choses est #le e d'oeuvres.
 "<Ur>"
@@ -58152,9 +55218,6 @@ _
 ;	"direct" prn obj p3 m sg
 "<oberennoù>"
 	"oberenn" n f pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58212,9 +55275,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait 40 gramm a amann da deuziñ en ur gastelodenn.
 # text[fra¹] = Vous mettez 40 grammes à beurre à fondre dans une casserole.
 "<Lakait>"
@@ -58247,9 +55307,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Soubit ar pesked er bleud.
 # text[fra¹] = Vous trempez les poissons dans la farine.
 "<Soubit>"
@@ -58268,9 +55325,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Lakait holen ha pebr.
 # text[fra¹] = Vous mettez du sel et du poivre.
 "<Lakait>"
@@ -58282,9 +55336,6 @@ _
 ;	"ha" ij
 "<pebr>"
 	"pebr" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58320,9 +55371,6 @@ _
 ;	"monet" vblex pri p1 sg
 "<asiedadoù>"
 	"asiedad" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58379,9 +55427,6 @@ _
 ;	"kant" n m sg
 "<Kuzul Sevenadurel Breizh>"
 	"Kuzul Sevenadurel Breizh" np al mf sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58513,9 +55558,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Pouezañ ivez en-dro war unaniezh velestradurel Breizh ha kresk an demokratelezh lec'hel.
 # text[fra¹] = Peser aussi de nouveau sur l'union administrative de Bretagne et la croissance de la démocratie locale.
 "<Pouezañ>"
@@ -58552,9 +55594,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Al lugan zo "lakaomp hor sevenadur da vleuniañ er vro".
 # text[fra¹] = Il y a le slogan "mettons notre culture à fleurir dans le pays".
 "<Al>"
@@ -58585,9 +55624,6 @@ _
 "<vro>"
 	"bro" n f sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58628,9 +55664,6 @@ _
 ;	"e" n m sp
 "<Karaez>"
 	"Karaez" np top sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58742,9 +55775,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Ha d'ar 4 a viz Even e vo aozet ul leurenn-digor e Kastellin.
 # text[fra¹] = Et le 4 juin sera organisé une scène-ouverte à Châteaulin.
 "<Ha>"
@@ -58802,9 +55832,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Kalz a drouz evit netra a lavarfen-me.
 # text[fra¹] = Beaucoup de bruit pour rien Je dirais-je.
 "<Kalz a>"
@@ -58832,9 +55859,6 @@ _
 	"-" guio
 "<me>"
 	"prpers" prn subj p1 mf sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58903,9 +55927,6 @@ _
 ;	"arat" vblex pri p3 sg
 "<sinema>"
 	"sinema" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -58995,9 +56016,6 @@ _
 "<yezh>"
 	"yezh" n f sg
 	"yezh" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -59096,9 +56114,6 @@ _
 ;	"lañsañ" vblex imp p2 sg
 ;	"lañsañ" vblex pri p3 sg
 "
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -59205,9 +56220,6 @@ _
 	"re" prn ind mf pl
 "<bio>"
 	"bio" adj mf sp
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -59334,9 +56346,6 @@ _
 "<.>"
 	"." sent
 
-"<.>"
-	"." sent
-
 # text = Un tañva eus he labour abaoe miz Meurzh 2005 a zo lakaet war wel aze, gant skeudennoù ha skritelloù arouezius eus al liammoù bet skoulmet dre he obererezhioù.
 # text[fra¹] = Une initiation de son travail depuis mars 2005 il a mis en évidence là, avec des images et des affiches significatives des liens été conclus par ses activités.
 "<Un>"
@@ -59415,9 +56424,6 @@ _
 ;	"direct" prn obj p3 f sg
 "<obererezhioù>"
 	"obererezh" n m pl
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -59575,9 +56581,6 @@ _
 	"pevar" num m pl
 "<-se>"
 	"se" adv
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -59754,9 +56757,6 @@ _
 	"kentañ" num ord mf sp
 "<hanter-amzer>"
 	"hanter amzer" n m sg
-"<.>"
-	"." sent
-
 "<.>"
 	"." sent
 
@@ -59970,4 +56970,5 @@ _
 	"enklask" n m sg
 "<.>"
 	"." sent
+
 
