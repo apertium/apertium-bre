@@ -30,9 +30,10 @@
 # text[fra] = Je vis une bergère qui pleurait sur le pont 
 "<Me>"
 	"prpers" prn subj p1 mf sg @nsubj #1->3
-"<'welas>"
+"<'>"
 	"a" vpart @aux #2->3
-		"gwelet" vblex past p3 sg @root #3->0
+"<welas>"
+	"gwelet" vblex past p3 sg @root #3->0
 "<ur>" 
 	"un" det ind sp @det #4->5
 "<verjelenn>"
@@ -53,17 +54,19 @@
 # text = Petra 'peus 'ta plac'h yaouank?
 # text[fra] = Qu'as-tu donc jeune fille? 
 "<Petra>"
-	"petra" prn itg mf sp @advmod #1->2
+	"petra" prn itg mf sp @advmod #1->3
+"<'>"
+	"a" vpart @aux #2->3
 "<'peus>"
-	"kaout" vblex pri p2 pl @root #2->0
+	"kaout" vblex pri p2 pl @root #3->0
 "<'ta>"
-	"eta" adv @advmod #3->2
+	"eta" adv @advmod #4->3
 "<plac'h>"
-	"plac’h" n f sg @vocative #4->2
+	"plac’h" n f sg @vocative #5->3
 "<yaouank>"
-	"yaouank" adj mf sp @amod #5->4
+	"yaouank" adj mf sp @amod #6->5
 "<?>"
-	"?" sent @punct #6->2
+	"?" sent @punct #7->3
 
 # text = Petra 'ra dit gouelañ ?
 # text[fra] = Qu'est-ce qui te fait pleurer ? 
@@ -114,9 +117,10 @@
 # text[fra] = Que me donnes-tu, jeune fille, si je vais le chercher ? 
 "<Petra>"
 	"petra" prn itg mf sp @obj #1->3
-"<'roi>"
+"<'>"
 	"a" vpart @aux #2->3
-		"reiñ" vblex fti p2 sg @root #3->0
+"<roi>"
+	"reiñ" vblex fti p2 sg @root #3->0
 "<din>"
 	"da" pr @case #4->5
 		"indirect" prn obj p1 mf sg @obl #5->3
