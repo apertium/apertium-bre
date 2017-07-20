@@ -5573,6 +5573,20 @@
 14	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:74:2242
+# text = Bras eo bet e levezon war an emsav sevenadurel.
+# text[fra¹] = Grand a été il influence sur l'avantage culturel.
+1	Bras	bras	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	1	cop	_	_
+4	e	e	DET	det	Gender=Msc|PronType=Pos	5	det	_	_
+5	levezon	levezon	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+6	war	war	ADP	pr	_	8	case	_	_
+7	an	an	DET	det	_	8	det	_	_
+8	emsav	emsav	NOUN	n	Gender=Msc|Number=Sing	5	nmod	_	_
+9	sevenadurel	sevenadurel	ADJ	adj	_	8	amod	_	_
+10	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:75:2265
 # text = War-dro 300.000 annezad zo enni.
 # text[fra¹] = Environ 300.000 habitants sont dans elle.
 1	War-dro	war-dro	ADV	adv	_	2	advmod	_	_
@@ -5584,7 +5598,7 @@
 6	nni	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:75:2258
+# sent_id = wikipedia.vislcg.txt:76:2281
 # text = E vamm-gozh a oa keginerez.
 # text[fra¹] = Son grand-mère était cuisinière.
 1	E	e	DET	det	Gender=Msc|PronType=Pos	2	det	_	_
@@ -5594,7 +5608,7 @@
 5	keginerez	keginer	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:76:2273
+# sent_id = wikipedia.vislcg.txt:77:2296
 # text = Met skrivañ eo e oberiantiz pennañ.
 # text[fra¹] = Mais écrire Il est e d'activité principale.
 1	Met	met	CCONJ	cnjcoo	_	2	cc	_	_
@@ -5605,7 +5619,7 @@
 6	pennañ	pennañ	ADJ	adj	_	5	amod	_	_
 7	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:77:2290
+# sent_id = wikipedia.vislcg.txt:78:2313
 # text = Skrivet en deus un tregont bennak a levrioù, war ar c’heginañ pe al liorzhañ.
 # text[fra¹] = Il a écrit un trente quelconques à livres, sur la cuisine quelle le jardinage.
 1	Skrivet	skrivañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -5624,14 +5638,14 @@
 14	liorzhañ	liorzhañ	NOUN	n	Gender=Msc|Number=Sing	11	conj	_	_
 15	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:78:2323
+# sent_id = wikipedia.vislcg.txt:79:2346
 # text = Gwelet ivez.
 # text[fra¹] = Voir aussi.
 1	Gwelet	gwelet	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	ivez	ivez	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:79:2332
+# sent_id = wikipedia.vislcg.txt:80:2355
 # text = E dad, Olier Iañ Klison, a reas brezel da Yann Iañ, dug Breizh.
 # text[fra¹] = Son père, Olier Iañ Clisson, Il fit guerre à Yann Iañ, le duc de la Bretagne.
 1	E	e	DET	det	Gender=Msc|PronType=Pos	2	det	_	_
@@ -5652,7 +5666,7 @@
 16	Breizh	Breizh	PROPN	np	Number=Sing	15	nmod:gen	_	_
 17	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:80:2369
+# sent_id = wikipedia.vislcg.txt:81:2392
 # text = Un den a-bouez eo bet en istor ha sevenadur portugalek.
 # text[fra¹] = Une personne importante a été dans l'histoire et culture portugaise.
 1	Un	un	DET	det	_	2	det	_	_
@@ -5669,7 +5683,7 @@
 11	portugalek	portugalek	ADJ	adj	_	10	amod	_	_
 12	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:81:2395
+# sent_id = wikipedia.vislcg.txt:82:2418
 # text = Sebastian zo un anv-badez brezhonek a orin gresianek.
 # text[fra¹] = Sebastian est un nom-baptisent breton à origine grecque.
 1	Sebastian	Sebastian	PROPN	np	Gender=Msc|Number=Sing	4	nsubj	_	_
@@ -5682,7 +5696,7 @@
 8	gresianek	gresianek	ADJ	adj	_	7	amod	_	_
 9	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:82:2416
+# sent_id = wikipedia.vislcg.txt:83:2439
 # text = Sébastien zo un anv-badez gallek.
 # text[fra¹] = Sébastien est un nom-baptisent français.
 1	Sébastien	Sébastien	PROPN	np	Gender=Msc|Number=Sing	4	nsubj	_	_
@@ -5692,7 +5706,7 @@
 5	gallek	gallek	ADJ	adj	_	4	amod	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:83:2431
+# sent_id = wikipedia.vislcg.txt:84:2454
 # text = Er bloavezh 2001 e voe ar GSI anzavet evel dizoloer an elfenn 110.
 # text[fra¹] = Dans l'année 2001 fut le GSI reconnu comme le découvreur de l'élément 110.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -5712,7 +5726,7 @@
 14	110	110	NUM	num	Number=Plur	13	nmod	_	_
 15	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:84:2463
+# sent_id = wikipedia.vislcg.txt:85:2486
 # text = Honnezh he devoa barradoù follentez ha mervel a reas e 1615.
 # text[fra¹] = Celle-là avait les accès de folie et Il mourut dans 1615.
 1	Honnezh	honnezh	PRON	prn	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -5727,7 +5741,7 @@
 10	1615	1615	NUM	num	Number=Plur	6	obl	_	_
 11	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:85:2488
+# sent_id = wikipedia.vislcg.txt:86:2511
 # text = Bez' e oa 180 719 a annezidi e 2010.
 # text[fra¹] = Il était 180 719 à habitants dans 2010.
 1	Bez'	bezañ	VERB	vblex	VerbForm=Inf	9	cop	_	_
@@ -5741,7 +5755,7 @@
 9	2010	2010	NUM	num	Number=Plur	0	root	_	_
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:86:2511
+# sent_id = wikipedia.vislcg.txt:87:2534
 # text = Un elfenn genaozet gant mab-den eo, n'he c'haver ket en natur.
 # text[fra¹] = Un élément coorganisé par homme sont, on ne le trouve pas dans la nature.
 1	Un	un	DET	det	_	2	det	_	_
@@ -5761,7 +5775,7 @@
 14	natur	natur	NOUN	n	Gender=Msc|Number=Sing	10	obl	_	_
 15	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:87:2543
+# sent_id = wikipedia.vislcg.txt:88:2566
 # text = Er bloavezh 2003 e voe ar GSI anzavet evel dizoloer an elfenn 111.
 # text[fra¹] = Dans l'année 2003 fut le GSI reconnu comme le découvreur de l'élément 111.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -5781,14 +5795,14 @@
 14	111	111	NUM	num	Number=Plur	13	nmod	_	_
 15	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:88:2575
+# sent_id = wikipedia.vislcg.txt:89:2598
 # text = Liamm diavaez.
 # text[fra¹] = Lien externe.
 1	Liamm	liamm	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	diavaez	diavaez	ADJ	adj	_	1	amod	_	_
 3	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:89:2584
+# sent_id = wikipedia.vislcg.txt:90:2607
 # text = Brudet eo bet ar ganaouenn gant ur film bruderezh evit Citroën.
 # text[fra¹] = Il a été fait connaître la chanson avec un film de publicité pour Citroën.
 1	Brudet	brudañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -5804,7 +5818,7 @@
 11	Citroën	Citroën	PROPN	np	Number=Sing	8	nmod	_	_
 12	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:90:2611
+# sent_id = wikipedia.vislcg.txt:91:2634
 # text = Bras e voe e levezon war al lennegezh italianek er XVIIvet kantved.
 # text[fra¹] = Grand fut son influence sur la littérature italienne dans le XVIIème siècle.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -5823,7 +5837,7 @@
 13	kantved	kantved	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
 14	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:91:2641
+# sent_id = wikipedia.vislcg.txt:92:2664
 # text = Tri bugel a zeuas d'ar priedoù.
 # text[fra¹] = Trois enfants vinent aux époux.
 1	Tri	tri	NUM	num	Gender=Msc|Number=Plur	2	nummod	_	_
