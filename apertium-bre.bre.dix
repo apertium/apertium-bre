@@ -9868,6 +9868,7 @@
 	<e lm="kuzulva"><par n="initial-k"/><i>uzulva</i><par n="si__n"/></e>
 	<e lm="kwiz"><par n="initial-k"/><i>wiz</i><par n="si__n"/></e>
     <e lm="lamm-dour"><i>lamm</i><par n="si__n"/><p><l>-dour</l><r><g>-dour</g></r></p></e>
+    <e lm="lamm-kalon"><i>lamm</i><par n="si__n"/><p><l>-kalon</l><r><g>-kalon</g></r></p></e>
     <e lm="lammgresk"><i>lammgresk</i><par n="si__n"/></e>
     <e lm="lamp"><i>lamp</i><par n="si__n"/></e>
     <e lm="lampr"><i>lampr</i><par n="si__n"/></e>
@@ -12464,6 +12465,7 @@
     <e lm="skol-vamm"><i>skol</i><par n="kentel__n"/><p><l>-</l><r><g>-</g></r></p><par n="initial-m"/><p><l>amm</l><r><g>amm</g></r></p></e>
     <e lm="skol-veur"><i>skol</i><par n="kentel__n"/><p><l>-</l><r><g>-</g></r></p><par n="initial-m"/><p><l>eur</l><r><g>eur</g></r></p></e>
     <e lm="skol-veur an amzer vak"><i>skol</i><par n="kentel__n"/><p><l>-</l><r><g>-</g></r></p><par n="initial-m"/><p><l>eur<b/>an<b/>amzer<b/>vak</l><r><g>eur<b/>an<b/>amzer<b/>vak</g></r></p></e>
+    <e lm="skol-uhel"><i>skol</i><par n="kentel__n"/><p><l>-uhel</l><r><g>-uhel</g></r></p></e>
     <e lm="skouer"><i>skouer</i><par n="kentel__n"/></e>
     <e lm="skrafennerez"><i>skrafennerez</i><par n="kentel__n"/></e>
     <e lm="skwer" r="LR"><i>skwer</i><par n="kentel__n"/></e>
