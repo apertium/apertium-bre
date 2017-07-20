@@ -944,16 +944,16 @@ SELECT (n acr m sg) IF (0 (n acr m sg)) (0 (n acr sg)) ;
 ## TRANSITIVE / INTRANSITIVE VERBS
 ##
 
-SUBSTITUTE (vblex) (vblex tv) ("pediñ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
-
-SUBSTITUTE (vblex) (vblex tv) ("gouzañv"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
-
-SUBSTITUTE (vblex) (vblex tv) ("toullañ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
-
-SUBSTITUTE (vblex) (vblex tv) ("koumanantiñ"i vblex) (NOT 1C* Pr BARRIER S-BOUNDARY) (NOT 1* ("<d'ar>"i)) ;
-
-SUBSTITUTE (vblex) (vblex tv) ("sevel"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
-
+#SUBSTITUTE (vblex) (vblex tv) ("pediñ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
+#
+#SUBSTITUTE (vblex) (vblex tv) ("gouzañv"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
+#
+#SUBSTITUTE (vblex) (vblex tv) ("toullañ"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
+#
+#SUBSTITUTE (vblex) (vblex tv) ("koumanantiñ"i vblex) (NOT 1C* Pr BARRIER S-BOUNDARY) (NOT 1* ("<d'ar>"i)) ;
+#
+#SUBSTITUTE (vblex) (vblex tv) ("sevel"i vblex) ((1C* PRE-N BARRIER S-BOUNDARY) OR (1C* PrnDObj BARRIER S-BOUNDARY)) ;
+#
 ## SYNTAX 
 #
 SECTION

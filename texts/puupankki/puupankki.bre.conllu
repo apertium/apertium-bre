@@ -5452,6 +5452,355 @@
 19	.	.	PUNCT	sent	_	5	punct	_	_
 
 # sent_id = wikipedia.vislcg.txt:67:2038
+# text = Komzet e vez bemdez gant miliadoù ha miliadoù a dud ha gwelet e vez e pep lec’h e Kembre.
+# text[fra¹] = Il est parlé tous les jours par milliers et milliers de gens et voir il est partout au Pays de Galles.
+1	Komzet	komz	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	PART	vpart	_	1	aux	_	_
+3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	bemdez	bemdez	ADV	adv	_	1	advmod	_	_
+5	gant	gant	ADP	pr	_	6	case	_	_
+6	miliadoù	miliad	NOUN	n	Gender=Msc|Number=Plur	1	obl:agent	_	_
+7	ha	ha	CCONJ	cnjcoo	_	8	cc	_	_
+8	miliadoù	miliad	NOUN	n	Gender=Msc|Number=Plur	6	conj	_	_
+9	a	a	ADP	pr	_	10	case	_	_
+10	dud	den	NOUN	n	Gender=Msc|Number=Plur	6	nmod	_	_
+11	ha	ha	CCONJ	cnjcoo	_	12	cc	_	_
+12	gwelet	gwelet	VERB	vblex	Tense=Past|VerbForm=Part	1	conj	_	_
+13	e	e	PART	vpart	_	12	aux	_	_
+14	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+15	e	e	ADP	pr	_	17	case	_	_
+16	pep	pep	DET	det	Number=Sing	17	det	_	_
+17	lec'h	lec’h	NOUN	n	Gender=Msc|Number=Sing	12	obl	_	_
+18	e	e	ADP	pr	_	19	case	_	_
+19	Kembre	Kembre	PROPN	np	Number=Sing	12	obl	_	_
+20	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:68:2081
+# text = Rankout a ra an aozadurioù foran prientiñ ha kas da benn ur steuñv yezh.
+# text[fra¹] = les organisations publiques doit préparer et réaliser un plan linguistique.
+1	Rankout	rankout	VERB	vblex	VerbForm=Inf	7	aux	_	_
+2	a	a	PART	vpart	_	7	aux	_	_
+3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	an	an	DET	det	_	5	det	_	_
+5	aozadurioù	aozadur	NOUN	n	Gender=Msc|Number=Plur	7	nsubj	_	_
+6	foran	foran	ADJ	adj	_	5	amod	_	_
+7	prientiñ	prientiñ	VERB	vblex	VerbForm=Inf	0	root	_	_
+8	ha	ha	CCONJ	cnjcoo	_	9	cc	_	_
+9	kas	kas	VERB	vblex	VerbForm=Inf	7	conj	_	_
+10	da	da	ADP	pr	_	11	case	_	_
+11	benn	penn	NOUN	n	Gender=Msc|Number=Sing	9	obl	_	_
+12	ur	un	DET	det	_	13	det	_	_
+13	steuñv	steuñv	NOUN	n	Gender=Msc|Number=Sing	7	obj	_	_
+14	yezh	yezh	ADJ	adj	_	13	amod	_	_
+15	.	.	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:69:2114
+# text = Gant strollegezhioù lec’hel ha gant Bodadenn Kembre e vez implijet ar c’hembraeg evel ur yezh ofisiel, oc’h embann skridoù er yezh-se ha dleout a rafe an holl banelloù hent e Kembre bezañ e kembraeg hag e saozneg.
+# text[fra¹] = Par collectivités locales et avec l'Assemblée du Pays de Galles le gallois est employé comme une langue officielle, en train d'éditer écrits dans cette langue et elle devrait tous les panneaux à l'être en gallois et en anglais.
+1	Gant	gant	ADP	pr	_	2	case	_	_
+2	strollegezhioù	strollegezh	NOUN	n	Gender=Fem|Number=Plur	10	obl:agent	_	_
+3	lec’hel	lec’hel	ADJ	adj	_	2	amod	_	_
+4	ha	ha	CCONJ	cnjcoo	_	6	cc	_	_
+5	gant	gant	ADP	pr	_	6	case	_	_
+6	Bodadenn	bodadenn	NOUN	n	Gender=Fem|Number=Sing	2	conj	_	_
+7	Kembre	Kembre	PROPN	np	Number=Sing	6	nmod:gen	_	_
+8	e	e	PART	vpart	_	10	aux	_	_
+9	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+11	ar	an	DET	det	_	12	det	_	_
+12	c’hembraeg	kembraeg	NOUN	n	Gender=Msc|Number=Sing	10	nsubj	_	_
+13	evel	evel	ADP	pr	_	15	case	_	_
+14	ur	un	DET	det	_	15	det	_	_
+15	yezh	yezh	NOUN	n	Gender=Fem|Number=Sing	10	obl	_	_
+16	ofisiel	ofisiel	ADJ	adj	_	15	amod	_	_
+17	,	,	PUNCT	cm	_	19	punct	_	_
+18	oc’h	o	PART	vpart	_	19	aux	_	_
+19	embann	embann	VERB	vblex	VerbForm=Inf	10	advcl	_	_
+20	skridoù	skrid	NOUN	n	Gender=Msc|Number=Plur	19	obj	_	_
+21-22	er	_	_	_	_	_	_	_	_
+21	er	e	ADP	pr	_	23	case	_	_
+22	r	an	DET	det	_	23	det	_	_
+23	yezh	yezh	NOUN	n	Gender=Fem|Number=Sing	20	nmod	_	_
+24	-se	se	ADV	adv	_	23	advmod	_	_
+25	ha	ha	CCONJ	cnjcoo	_	36	cc	_	_
+26	dleout	dleout	VERB	vblex	VerbForm=Inf	36	aux	_	_
+27	a	a	PART	vpart	_	36	aux	_	_
+28	rafe	ober	VERB	vblex	Mood=Cond|Number=Sing|Person=3	36	aux	_	_
+29	an	an	DET	det	_	31	det	_	_
+30	holl	holl	DET	predet	_	31	det	_	_
+31	banelloù hent	panell-hent	NOUN	n	Gender=Fem|Number=Plur	36	nsubj	_	_
+32	e	e	ADP	pr	_	33	case	_	_
+33	Kembre	Kembre	PROPN	np	Number=Sing	31	nmod	_	_
+34	bezañ	bezañ	VERB	vblex	VerbForm=Inf	36	cop	_	_
+35	e	e	ADP	pr	_	36	case	_	_
+36	kembraeg	kembraeg	NOUN	n	Gender=Msc|Number=Sing	19	conj	_	_
+37	hag	ha	CCONJ	cnjcoo	_	39	cc	_	_
+38	e	e	ADP	pr	_	39	case	_	_
+39	saozneg	saozneg	NOUN	n	Gender=Msc|Number=Sing	36	conj	_	_
+40	.	.	PUNCT	sent	_	10	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:70:2196
+# text = Kavout a reer kembraeg war ar Genrouedad ivez.
+# text[fra¹] = On trouve gallois sur l'Internet aussi.
+1	Kavout	kavout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	reer	ober	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	kembraeg	kembraeg	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	war	war	ADP	pr	_	7	case	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	Genrouedad	kenrouedad	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
+8	ivez	ivez	ADV	adv	_	1	advmod	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:71:2217
+# text = Gwechall e oa kembraegerien unyezhek eus an holl Gembreiz, koulz lavaret. 
+# text[fra¹] = Autrefois il était galloisants monolingues de tous les Gallois, pour ainsi dire. 
+1	Gwechall	gwezhall	ADV	adv	_	9	advmod	_	_
+2	e	e	PART	vpart	_	9	aux	_	_
+3	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+4	kembraegerien	kembraeger	NOUN	n	Gender=Msc|Number=Plur	9	nsubj	_	_
+5	unyezhek	unyezhek	ADJ	adj	_	4	amod	_	_
+6	eus	eus	ADP	pr	_	9	case	_	_
+7	an	an	DET	det	_	9	det	_	_
+8	holl	holl	DET	predet	_	9	det	_	_
+9	Gembreiz	Kembread	NOUN	n	Gender=Msc|Number=Plur	0	root	_	_
+10	,	,	PUNCT	cm	_	12	punct	_	_
+11	koulz	koulz	X	x	_	12	dep	_	_
+12	lavaret	lavaret	ADV	adv	_	9	advmod	_	_
+13	.	.	PUNCT	sent	_	9	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:72:2246
+# text = E deroù an naontekvet kantved e oa, d’an nebeutañ, 80% eus an dud o komz kembraeg.
+# text[fra¹] = Au début de dix-neuvième siècle était, du moins, 80% des gens en train de parler gallois.
+1	E	e	ADP	pr	_	2	case	_	_
+2	deroù	deroù	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+3	an	an	DET	det	_	5	det	_	_
+4	naontekvet	naontekvet	ADJ	adj	_	5	amod	_	_
+5	kantved	kantved	NOUN	n	Gender=Msc|Number=Sing	2	nmod:gen	_	_
+6	e	e	PART	vpart	_	7	aux	_	_
+7	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+8	,	,	PUNCT	cm	_	10	punct	_	_
+9	d’an	d’an	X	x	_	10	dep	_	_
+10	nebeutañ	nebeutañ	ADV	adv	_	2	advmod	_	_
+11	,	,	PUNCT	cm	_	10	punct	_	_
+12	80%	80	NUM	num	Number=Plur	2	nsubj	_	_
+13	eus	eus	ADP	pr	_	15	case	_	_
+14	an	an	DET	det	_	15	det	_	_
+15	dud	den	NOUN	n	Gender=Msc|Number=Plur	12	nmod	_	_
+16	o	o	PART	vpart	_	17	aux	_	_
+17	komz	komz	VERB	vblex	VerbForm=Inf	2	advcl	_	_
+18	kembraeg	kembraeg	NOUN	n	Gender=Msc|Number=Sing	17	obj	_	_
+19	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:73:2287
+# text = Met gant an dispac’h greantel e voe desachet ur bern tud eus an diavaez da Su Kembre.
+# text[fra¹] = Mais par la révolution industrielle Il fut attiré un tas de gens de l'extérieur au Sud du Pays de Galles.
+1	Met	met	CCONJ	cnjcoo	_	8	cc	_	_
+2	gant	gant	ADP	pr	_	4	case	_	_
+3	an	an	DET	det	_	4	det	_	_
+4	dispac’h	dispac’h	NOUN	n	Gender=Msc|Number=Sing	8	dep	_	_
+5	greantel	greantel	ADJ	adj	_	4	amod	_	_
+6	e	e	PART	vpart	_	8	aux	_	_
+7	voe	bezañ	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	desachet	desachañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+9	ur	un	DET	det	_	10	det	_	_
+10	bern	bern	NOUN	n	Gender=Msc|Number=Sing	8	dep	_	_
+11	tud	den	NOUN	n	Gender=Msc|Number=Plur	10	nmod:gen	_	_
+12	eus	eus	ADP	pr	_	14	case	_	_
+13	an	an	DET	det	_	14	det	_	_
+14	diavaez	diavaez	NOUN	n	Gender=Msc|Number=Sing	8	obl	_	_
+15	da	da	ADP	pr	_	17	case	_	_
+16	Su	su	NOUN	n	Gender=Msc|Number=Sing	17	obl	_	_
+17	Kembre	Kembre	PROPN	np	Number=Sing	8	nmod:gen	_	_
+18	.	.	PUNCT	sent	_	8	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:74:2326
+# text = Kement-se a zegasas un diskar en dregantad a gembraegerien er rannvroioù-se, dre ma oa kresket ar boblañs eno en un taol. 
+# text[fra¹] = Cela apporta un déclin dans le pourcentage de galloisants dans ces régions, puisque elle avait augmentée la population là-bas dans un coup. 
+1	Kement-se	kement-se	PRON	prn	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	zegasas	degas	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	un	un	DET	det	_	5	det	_	_
+5	diskar	diskar	NOUN	n	Gender=Msc|Number=Sing	3	obj	_	_
+6-7	en	_	_	_	_	_	_	_	_
+6	en	e	ADP	pr	_	8	case	_	_
+7	n	an	DET	det	_	8	det	_	_
+8	dregantad	dregantad	NOUN	n	Gender=Msc|Number=Sing	3	nmod	_	_
+9	a	a	ADP	pr	_	10	case	_	_
+10	gembraegerien	kembraeger	NOUN	n	Gender=Msc|Number=Plur	8	nmod	_	_
+11-12	er	_	_	_	_	_	_	_	_
+11	er	e	ADP	pr	_	13	case	_	_
+12	r	an	DET	det	_	13	det	_	_
+13	rannvroioù	rannvro	NOUN	n	Gender=Fem|Number=Plur	10	nmod	_	_
+14	-se	se	ADV	adv	_	13	advmod	_	_
+15	,	,	PUNCT	cm	_	19	punct	_	_
+16	dre	dre	X	x	_	17	dep	_	_
+17	ma	ma	SCONJ	cnjsub	_	19	mark	_	_
+18	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	kresket	kreskiñ	VERB	vblex	Tense=Past|VerbForm=Part	3	advcl	_	_
+20	ar	an	DET	det	_	21	det	_	_
+21	boblañs	poblañs	NOUN	n	Gender=Fem|Number=Sing	19	nsubj	_	_
+22	eno	eno	ADV	adv	_	19	advmod	_	_
+23-24	en un	_	_	_	_	_	_	_	_
+23	en	e	ADP	pr	_	25	case	_	_
+24	un	un	DET	det	_	25	det	_	_
+25	taol	taol	NOUN	n	Gender=Msc|Number=Sing	19	obl	_	_
+26	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:75:2378
+# text = E niveradeg 1911 e voe embannet sifroù resis da live ar parrezioù.
+# text[fra¹] = Dans le recensement 1911 Il fut édité chiffres précis au niveau des paroisses.
+1	E	e	ADP	pr	_	2	case	_	_
+2	niveradeg	niveradeg	NOUN	n	Gender=Fem|Number=Sing	6	obl	_	_
+3	1911	1911	NUM	num	Number=Plur	2	nmod	_	_
+4	e	e	PART	vpart	_	6	aux	_	_
+5	voe	bezañ	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	embannet	embann	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+7	sifroù	sifr	NOUN	n	Gender=Msc|Number=Plur	6	nsubj	_	_
+8	resis	resis	ADJ	adj	_	7	amod	_	_
+9	da	da	ADP	pr	_	10	case	_	_
+10	live	live	NOUN	n	Gender=Msc|Number=Sing	7	nmod	_	_
+11	ar	an	DET	det	_	12	det	_	_
+12	parrezioù	parrez	NOUN	n	Gender=Fem|Number=Plur	10	nmod:gen	_	_
+13	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:76:2407
+# text = Da gentañ e ranker menegiñ levezon al lezennoù evit unvaniñ Kembre ha Bro-Saoz e 1536 ha 1542.
+# text[fra¹] = En premier on doit mentionner l'influence des lois pour unifier le Pays de Galles et l'Angleterre dans 1536 et 1542.
+1	Da	da	ADP	pr	_	2	case	_	_
+2	gentañ	kentañ	ADJ	adj	_	5	obl	_	_
+3	e	e	PART	vpart	_	5	aux	_	_
+4	ranker	rankout	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	menegiñ	menegiñ	VERB	vblex	VerbForm=Inf	0	root	_	_
+6	levezon	levezon	NOUN	n	Gender=Fem|Number=Sing	5	dep	_	_
+7	al	an	DET	det	_	8	det	_	_
+8	lezennoù	lezenn	NOUN	n	Gender=Fem|Number=Plur	6	nmod:gen	_	_
+9	evit	evit	ADP	pr	_	10	mark	_	_
+10	unvaniñ	unvaniñ	VERB	vblex	VerbForm=Inf	8	acl	_	_
+11	Kembre	Kembre	PROPN	np	Number=Sing	10	obj	_	_
+12	ha	ha	CCONJ	cnjcoo	_	13	cc	_	_
+13	Bro-Saoz	bro-Saoz	PROPN	np	Number=Sing	11	conj	_	_
+14	e	e	ADP	pr	_	15	case	_	_
+15	1536	1536	NUM	num	Number=Plur	10	obl	_	_
+16	ha	ha	CCONJ	cnjcoo	_	17	cc	_	_
+17	1542	1542	NUM	num	Number=Plur	15	conj	_	_
+18	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:77:2446
+# text = Ar saozneg e oa ar yezh ofisiel nemeti e Kembre. 
+# text[fra¹] = L'anglais Il était la seule langue officielle au Pays de Galles. 
+1	Ar	an	DET	det	_	2	det	_	_
+2	saozneg	saozneg	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+3	e	e	PART	vpart	_	2	aux	_	_
+4	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	yezh	yezh	NOUN	n	Gender=Fem|Number=Sing	2	nsubj	_	_
+7	ofisiel	ofisiel	ADJ	adj	_	6	amod	_	_
+8-9	nemeti	_	_	_	_	_	_	_	_
+8	nemeti	nemet	ADP	pr	_	9	case	_	_
+9	i	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	2	obl	_	_
+10	e	e	ADP	pr	_	11	case	_	_
+11	Kembre	Kembre	PROPN	np	Number=Sing	2	obl	_	_
+12	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:78:2472
+# text = Ha bremañ e ra Jañ-Mari war-dro an deñved eno.
+# text[fra¹] = Et maintenant il fait Jañ-Mari environ les moutons là-bas.
+1	Ha	ha	CCONJ	cnjcoo	_	4	cc	_	_
+2	bremañ	bremañ	ADV	adv	_	4	advmod	_	_
+3	e	e	PART	vpart	_	4	aux	_	_
+4	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Jañ	Jañ	PROPN	np	Gender=Msc|Number=Sing	4	nsubj	_	_
+6	-	-	PUNCT	guio	_	5	punct	_	_
+7	Mari	Mari	PROPN	np	Gender=Fem|Number=Sing	5	flat:name	_	_
+8	war-dro	war-dro	ADV	adv	_	4	advmod	_	_
+9	an	an	DET	det	_	10	det	_	_
+10	deñved	dañvad	NOUN	n	Gender=Msc|Number=Plur	4	obj	_	_
+11	eno	eno	ADV	adv	_	4	advmod	_	_
+12	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:79:2499
+# text = E gwirionez e vez implijet ar skeul-se gant ur bern muzikoù er bed.
+# text[fra¹] = En vérité il est employé cette échelle avec un tas de musiques dans le monde.
+1	E	e	ADP	pr	_	2	case	_	_
+2	gwirionez	gwirionez	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
+3	e	e	PART	vpart	_	5	aux	_	_
+4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	skeul	skeul	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	-se	se	ADV	adv	_	7	advmod	_	_
+9	gant	gant	ADP	pr	_	11	case	_	_
+10	ur	un	DET	det	_	11	det	_	_
+11	bern	bern	NOUN	n	Gender=Msc|Number=Sing	5	obl:agent	_	_
+12	muzikoù	muzik	NOUN	n	Gender=Msc|Number=Plur	11	nmod:gen	_	_
+13-14	er	_	_	_	_	_	_	_	_
+13	er	e	ADP	pr	_	15	case	_	_
+14	r	an	DET	det	_	15	det	_	_
+15	bed	bed	NOUN	n	Gender=Msc|Number=Sing	5	obl	_	_
+16	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:80:2533
+# text = Implijet eo ar japaneg gant 130 milion a dud, tout ar re zo bar vro.
+# text[fra¹] = Il a employé le japonais par 130 millions à gens, touts ceux qui sont égaux pays.
+1	Implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	1	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	ar	an	DET	det	_	4	det	_	_
+4	japaneg	japaneg	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	gant	gant	ADP	pr	_	7	case	_	_
+6	130	130	NUM	num	Number=Plur	7	nummod	_	_
+7	milion	milion	NOUN	n	Gender=Msc|Number=Sing	1	obl:agent	_	_
+8	a	a	ADP	pr	_	9	case	_	_
+9	dud	den	NOUN	n	Gender=Msc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	cm	_	16	punct	_	_
+11	tout	tout	ADJ	adj	_	13	amod	_	_
+12	ar	ar	X	x	_	13	dep	_	_
+13	re	re	PRON	prn	Number=Sing|PronType=Rel	16	nsubj	_	_
+14	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	bar	par	ADJ	adj	_	16	amod	_	_
+16	vro	bro	NOUN	n	Gender=Fem|Number=Sing	1	parataxis	_	_
+17	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:81:2570
+# text = Ar voudaegezh a vez kemeret a-wechoù evel prederouriezh pe evel ur relijion.
+# text[fra¹] = le bouddhisme a été pris parfois comme philosophie quelle comme une religion.
+1	Ar	an	DET	det	_	2	det	_	_
+2	voudaegezh	boudaegezh	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	a	a	PART	vpart	_	5	aux	_	_
+4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	kemeret	kemer	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+6	a-wechoù	a-wezhioù	ADV	adv	_	5	advmod	_	_
+7	evel	evel	ADP	pr	_	8	case	_	_
+8	prederouriezh	prederouriezh	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
+9	pe	pe	CCONJ	cnjcoo	_	12	cc	_	_
+10	evel	evel	ADP	pr	_	12	case	_	_
+11	ur	un	DET	det	_	12	det	_	_
+12	relijion	relijion	NOUN	n	Gender=Fem|Number=Sing	8	conj	_	_
+13	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:82:2599
+# text = Kontet e vez 6 milion a Dibetaned ha 7,5 milion a Sinaiz ouzhpenn, deuet nevez 'zo.
+# text[fra¹] = Compté est 6 millions à des Tibétains et 7,5 millions à Chinois en plus, il est venus nouveaux.
+1	Kontet	kontañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	e	e	PART	vpart	_	1	aux	_	_
+3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+4	6	6	NUM	num	Number=Plur	5	nummod	_	_
+5	milion	milion	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+6	a	a	ADP	pr	_	7	case	_	_
+7	Dibetaned	Tibetan	NOUN	n	Gender=Msc|Number=Plur	5	nmod	_	_
+8	ha	ha	CCONJ	cnjcoo	_	10	cc	_	_
+9	7,5	7,5	NUM	num	Number=Plur	10	nummod	_	_
+10	milion	milion	NOUN	n	Gender=Msc|Number=Sing	5	conj	_	_
+11	a	a	ADP	pr	_	12	case	_	_
+12	Sinaiz	Sinaad	NOUN	n	Gender=Msc|Number=Plur	10	nmod	_	_
+13	ouzhpenn	ouzhpenn	ADV	adv	_	10	advmod	_	_
+14	,	,	PUNCT	cm	_	15	punct	_	_
+15	deuet	dont	VERB	vblex	Tense=Past|VerbForm=Part	1	parataxis	_	_
+16	nevez	nevez	ADJ	adj	_	15	advmod	_	_
+17	'zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+18	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = wikipedia.vislcg.txt:83:2638
 # text = War un dro e voe diazezet roll an termenoù pennañ kavet war ar panelloù-hent gant ar pal kenurzhiañ an troidigezhioù.
 # text[fra¹] = À la fois il fut établi la liste des termes principaux trouvée sur les panneaux-route avec l'objectif coordonner les traductions.
 1	War	war	ADP	pr	_	3	case	_	_
@@ -5474,7 +5823,7 @@
 18	.	.	PUNCT	sent	_	6	punct	_	_
 19	troidigezhioù	troidigezh	NOUN	n	Gender=Fem|Number=Plur	17	nmod:gen	_	_
 
-# sent_id = wikipedia.vislcg.txt:68:2079
+# sent_id = wikipedia.vislcg.txt:84:2679
 # text = Hervez ar vonreizh eo lakaet da vezañ "Prezidant peurbadel" ar vro, goude e varv zoken.
 # text[fra¹] = Selon la constitution a mise à être le "Président éternel" du pays, même après sa morte.
 1	Hervez	hervez	ADP	pr	_	3	case	_	_
@@ -5497,7 +5846,7 @@
 18	zoken	zoken	ADV	adv	_	15	advmod	_	_
 19	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:69:2120
+# sent_id = wikipedia.vislcg.txt:85:2720
 # text = Un deiz ha tregont zo ennañ, unan eus ar mizioù hirañ eo eta.
 # text[fra¹] = Un jour et trente sont dans lui, un des mois les plus longs Il est donc.
 1	Un	un	DET	det	_	2	det	_	_
@@ -5518,14 +5867,14 @@
 15	eta	eta	ADV	adv	_	14	advmod	_	_
 16	.	.	PUNCT	sent	_	7	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:70:2154
+# sent_id = wikipedia.vislcg.txt:86:2754
 # text = An anv.
 # text[fra¹] = Le nom.
 1	An	an	DET	det	_	2	det	_	_
 2	anv	anv	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 3	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:71:2163
+# sent_id = wikipedia.vislcg.txt:87:2763
 # text = Un anv-tiegezh eo Genver ivez.
 # text[fra¹] = Un nom-famille est janvier aussi.
 1	Un	un	DET	det	_	2	det	_	_
@@ -5537,7 +5886,7 @@
 7	ivez	ivez	ADV	adv	_	2	advmod	_	_
 8	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:72:2182
+# sent_id = wikipedia.vislcg.txt:88:2782
 # text = E gresianeg a-vremañ e vez skrivet μπ evit ober diouzh ar son .
 # text[fra¹] = Le e de grec désormais il est écrit μπ pour faire du son .
 1	E	e	ADP	pr	_	2	case	_	_
@@ -5554,7 +5903,7 @@
 12	son	son	NOUN	n	Gender=Msc|Number=Sing	9	obl	_	_
 13	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:73:2211
+# sent_id = wikipedia.vislcg.txt:89:2811
 # text = Ar Gurded o doa ivez da zilenn ar 111 kannad eus ar vodadenn emren.
 # text[fra¹] = Les Kurdes avaient aussi à élire les 111 ambassadeurs de l'assemblée autonome.
 1	Ar	an	DET	det	_	2	det	_	_
@@ -5572,7 +5921,7 @@
 13	emren	emren	ADJ	adj	_	12	amod	_	_
 14	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:74:2242
+# sent_id = wikipedia.vislcg.txt:90:2842
 # text = Bras eo bet e levezon war an emsav sevenadurel.
 # text[fra¹] = Grand a été il influence sur l'avantage culturel.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -5586,7 +5935,7 @@
 9	sevenadurel	sevenadurel	ADJ	adj	_	8	amod	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:75:2265
+# sent_id = wikipedia.vislcg.txt:91:2865
 # text = War-dro 300.000 annezad zo enni.
 # text[fra¹] = Environ 300.000 habitants sont dans elle.
 1	War-dro	war-dro	ADV	adv	_	2	advmod	_	_
@@ -5598,7 +5947,7 @@
 6	nni	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:76:2281
+# sent_id = wikipedia.vislcg.txt:92:2881
 # text = E vamm-gozh a oa keginerez.
 # text[fra¹] = Son grand-mère était cuisinière.
 1	E	e	DET	det	Gender=Msc|PronType=Pos	2	det	_	_
@@ -5608,7 +5957,7 @@
 5	keginerez	keginer	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:77:2296
+# sent_id = wikipedia.vislcg.txt:93:2896
 # text = Met skrivañ eo e oberiantiz pennañ.
 # text[fra¹] = Mais écrire Il est e d'activité principale.
 1	Met	met	CCONJ	cnjcoo	_	2	cc	_	_
@@ -5619,7 +5968,7 @@
 6	pennañ	pennañ	ADJ	adj	_	5	amod	_	_
 7	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:78:2313
+# sent_id = wikipedia.vislcg.txt:94:2913
 # text = Skrivet en deus un tregont bennak a levrioù, war ar c’heginañ pe al liorzhañ.
 # text[fra¹] = Il a écrit un trente quelconques à livres, sur la cuisine quelle le jardinage.
 1	Skrivet	skrivañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -5638,14 +5987,14 @@
 14	liorzhañ	liorzhañ	NOUN	n	Gender=Msc|Number=Sing	11	conj	_	_
 15	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:79:2346
+# sent_id = wikipedia.vislcg.txt:95:2946
 # text = Gwelet ivez.
 # text[fra¹] = Voir aussi.
 1	Gwelet	gwelet	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	ivez	ivez	ADV	adv	_	1	advmod	_	_
 3	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:80:2355
+# sent_id = wikipedia.vislcg.txt:96:2955
 # text = E dad, Olier Iañ Klison, a reas brezel da Yann Iañ, dug Breizh.
 # text[fra¹] = Son père, Olier Iañ Clisson, Il fit guerre à Yann Iañ, le duc de la Bretagne.
 1	E	e	DET	det	Gender=Msc|PronType=Pos	2	det	_	_
@@ -5666,7 +6015,7 @@
 16	Breizh	Breizh	PROPN	np	Number=Sing	15	nmod:gen	_	_
 17	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:81:2392
+# sent_id = wikipedia.vislcg.txt:97:2992
 # text = Un den a-bouez eo bet en istor ha sevenadur portugalek.
 # text[fra¹] = Une personne importante a été dans l'histoire et culture portugaise.
 1	Un	un	DET	det	_	2	det	_	_
@@ -5683,7 +6032,7 @@
 11	portugalek	portugalek	ADJ	adj	_	10	amod	_	_
 12	.	.	PUNCT	sent	_	8	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:82:2418
+# sent_id = wikipedia.vislcg.txt:98:3018
 # text = Sebastian zo un anv-badez brezhonek a orin gresianek.
 # text[fra¹] = Sebastian est un nom-baptisent breton à origine grecque.
 1	Sebastian	Sebastian	PROPN	np	Gender=Msc|Number=Sing	4	nsubj	_	_
@@ -5696,7 +6045,7 @@
 8	gresianek	gresianek	ADJ	adj	_	7	amod	_	_
 9	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:83:2439
+# sent_id = wikipedia.vislcg.txt:99:3039
 # text = Sébastien zo un anv-badez gallek.
 # text[fra¹] = Sébastien est un nom-baptisent français.
 1	Sébastien	Sébastien	PROPN	np	Gender=Msc|Number=Sing	4	nsubj	_	_
@@ -5706,7 +6055,7 @@
 5	gallek	gallek	ADJ	adj	_	4	amod	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:84:2454
+# sent_id = wikipedia.vislcg.txt:100:3054
 # text = Er bloavezh 2001 e voe ar GSI anzavet evel dizoloer an elfenn 110.
 # text[fra¹] = Dans l'année 2001 fut le GSI reconnu comme le découvreur de l'élément 110.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -5726,7 +6075,7 @@
 14	110	110	NUM	num	Number=Plur	13	nmod	_	_
 15	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:85:2486
+# sent_id = wikipedia.vislcg.txt:101:3086
 # text = Honnezh he devoa barradoù follentez ha mervel a reas e 1615.
 # text[fra¹] = Celle-là avait les accès de folie et Il mourut dans 1615.
 1	Honnezh	honnezh	PRON	prn	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -5741,7 +6090,7 @@
 10	1615	1615	NUM	num	Number=Plur	6	obl	_	_
 11	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:86:2511
+# sent_id = wikipedia.vislcg.txt:102:3111
 # text = Bez' e oa 180 719 a annezidi e 2010.
 # text[fra¹] = Il était 180 719 à habitants dans 2010.
 1	Bez'	bezañ	VERB	vblex	VerbForm=Inf	9	cop	_	_
@@ -5755,7 +6104,7 @@
 9	2010	2010	NUM	num	Number=Plur	0	root	_	_
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:87:2534
+# sent_id = wikipedia.vislcg.txt:103:3134
 # text = Un elfenn genaozet gant mab-den eo, n'he c'haver ket en natur.
 # text[fra¹] = Un élément coorganisé par homme sont, on ne le trouve pas dans la nature.
 1	Un	un	DET	det	_	2	det	_	_
@@ -5775,7 +6124,7 @@
 14	natur	natur	NOUN	n	Gender=Msc|Number=Sing	10	obl	_	_
 15	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:88:2566
+# sent_id = wikipedia.vislcg.txt:104:3166
 # text = Er bloavezh 2003 e voe ar GSI anzavet evel dizoloer an elfenn 111.
 # text[fra¹] = Dans l'année 2003 fut le GSI reconnu comme le découvreur de l'élément 111.
 1-2	Er	_	_	_	_	_	_	_	_
@@ -5795,14 +6144,14 @@
 14	111	111	NUM	num	Number=Plur	13	nmod	_	_
 15	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:89:2598
+# sent_id = wikipedia.vislcg.txt:105:3198
 # text = Liamm diavaez.
 # text[fra¹] = Lien externe.
 1	Liamm	liamm	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	diavaez	diavaez	ADJ	adj	_	1	amod	_	_
 3	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:90:2607
+# sent_id = wikipedia.vislcg.txt:106:3207
 # text = Brudet eo bet ar ganaouenn gant ur film bruderezh evit Citroën.
 # text[fra¹] = Il a été fait connaître la chanson avec un film de publicité pour Citroën.
 1	Brudet	brudañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -5818,7 +6167,7 @@
 11	Citroën	Citroën	PROPN	np	Number=Sing	8	nmod	_	_
 12	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:91:2634
+# sent_id = wikipedia.vislcg.txt:107:3234
 # text = Bras e voe e levezon war al lennegezh italianek er XVIIvet kantved.
 # text[fra¹] = Grand fut son influence sur la littérature italienne dans le XVIIème siècle.
 1	Bras	bras	ADJ	adj	_	0	root	_	_
@@ -5837,7 +6186,7 @@
 13	kantved	kantved	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
 14	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = wikipedia.vislcg.txt:92:2664
+# sent_id = wikipedia.vislcg.txt:108:3264
 # text = Tri bugel a zeuas d'ar priedoù.
 # text[fra¹] = Trois enfants vinent aux époux.
 1	Tri	tri	NUM	num	Gender=Msc|Number=Plur	2	nummod	_	_
