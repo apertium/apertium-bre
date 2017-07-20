@@ -7,6 +7,8 @@ LIST EOS              = (<<<) (sent) ;
 LIST Cm               = cm ;
 LIST Guio             = guio ;
 LIST Excl             = "!" ;
+LIST Lpar             = ")" ;
+LIST Rpar             = "(" ;
 
 # Nouns
 LIST NC               = n ;
@@ -138,7 +140,9 @@ LIST MixedMutTrigger  = ("e"i vpart) ;
 # Orthography
 LIST DroppedG         = ("<[aeiou].*>"r "g[aeiou].*"ri) ;
 
-LIST UPPER = ("<[ABCDEFGHIJKLMNOPQRSTUVWXYZ].*>"r) ;
+LIST UPPER = "<[ABCDEFGHIJKLMNOPQRSTUVWXYZ].*>"r ;
+
+LIST Letter = "<[a-z]>"r ;
 
 # Specific words
 
@@ -172,6 +176,12 @@ SET NOT-ADV = WORDMARK - Adv ;
 SET NOT-ADJ = WORDMARK - Adj ;
 
 SET S-BOUNDARY = CS | (sent) ; 
+
+SECTION
+
+LIST @punct = @punct ;
+
+MAP:synpunct @punct TARGET Cm ; 
 
 #
 # Main section
@@ -897,6 +907,9 @@ REMOVE Verb IF (0 N OR Verb) (-1 Guio LINK -1 N) ;
 
 REMOVE N IF (0 E) (1 Digit) ;
 
+REMOVE Letter IF (0 Letter OR Pr) (NOT 1 Lpar) ;
+
+REMOVE Letter IF (0 Letter OR DetPos) (NOT 1 Lpar) ;
 
 ###############################################################################
 ## Lexical selection 

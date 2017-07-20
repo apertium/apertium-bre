@@ -118,6 +118,7 @@
     <pardef n="anys">
       <e><re>[MCDXLVI]+</re><p><l></l><r><s n="num"/><s n="ord"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><re>[MCDXLVI]+</re><p><l>vet</l><r>vet<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><re>[MCDXLVI]+</re><p><l>de</l><r>de<s n="num"/><s n="mf"/><s n="sg"/></r></p></e> <!-- COMPROVAR IIIde kantved -->
       <e><re>[I]+</re><p><l>añ</l><r>añ<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
@@ -8327,6 +8328,7 @@
 	<e lm="anv boutin"><i>anv</i><par n="priz__n"/><p><l><b/>boutin</l><r><g><b/>boutin</g></r></p></e>
 	<e lm="anv divoutin"><i>anv</i><par n="priz__n"/><p><l><b/>divoutin</l><r><g><b/>divoutin</g></r></p></e>
     <e lm="anv-familh"><i>anv</i><par n="priz__n"/><p><l>-familh</l><r><g>-familh</g></r></p></e>
+    <e lm="anv-badez"><i>anv</i><par n="priz__n"/><p><l>-badez</l><r><g>-badez</g></r></p></e> <!-- COMPROVAR -->
     <e lm="anv-gwan"><i>anv</i><par n="priz__n"/><p><l>-gwan</l><r><g>-gwan</g></r></p></e>
     <e lm="anv-gwan doareañ"><i>anv</i><par n="priz__n"/><p><l>-gwan<b/>doareañ</l><r><g>-gwan<b/>doareañ</g></r></p></e>
     <e lm="anv-gwan verv"><i>anv</i><par n="priz__n"/><p><l>-gwan<b/>verb</l><r><g>-gwan<b/>verb</g></r></p></e>
@@ -19507,6 +19509,7 @@
     <e lm="Hubert"><i>Hubert</i><par n="Yann__np"/></e>
     <e lm="Hugues"><i>Hugues</i><par n="Yann__np"/></e>
     <e lm="Iannik"><i>Iannik</i><par n="Yann__np"/></e>
+    <e lm="Iañ"><i>Iañ</i><par n="Yann__np"/></e>
     <e lm="Ifig"><i>Ifig</i><par n="Yann__np"/></e>
     <e lm="Iudicael"><i>Iudicael</i><par n="Yann__np"/></e>
     <e lm="Ivon"><i>Ivon</i><par n="Yann__np"/></e>
