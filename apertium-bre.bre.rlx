@@ -457,7 +457,7 @@ SELECT CS IF (1 VerbFin) (NOT 1 NC) (0 DetPos) ;
 SELECT N IF (-1 Pr) (0 N) (0 Adv) ;
 
 # REGLA (B    ): "Meur a viz"
-SELECT N IF (-1 Det) (0 N) (0 Verb) ;
+SELECT N IF (-1C Det) (0 N) (0 Verb) ;
 
 # REGLA (B    ): "kuit da gomz e galleg"
 SELECT Verb IF (-1 ("kuit da")) ;

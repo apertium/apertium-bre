@@ -1833,46 +1833,31 @@
 # text[eng] = The children do not read now.
 # labels = stephens_1993 to_check
 "<Bremañ>"
-	"bremañ" adv
-	"Bremañ" np al mf sg
+	"bremañ" adv @advmod #1->2
 "<ne>"
-	"ne" adv neg
+	"ne" adv neg @advmod #2->3
 "<lenn>"
-	"lenn" vblex pri p3 sg
-	"lennañ" vblex pri p3 sg
-;	"lenn" vblex inf
-;	"lenn" n f sg
-;	"lenn" n m sg
-;	"lenn" vblex imp p2 sg
-;	"lennañ" vblex imp p2 sg
+	"lenn" vblex pri p3 sg @root #3->0
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #4->3
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
+	"an" det def sp @det #5->6
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # text = Bremañ e lennont ar vugale.
 # text[eng] = The children read now.
 # labels = stephens_1993 to_check
 "<Bremañ>"
 	"bremañ" adv
-	"Bremañ" np al mf sg
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<lennont>"
 	"lenn" vblex pri p3 pl
-	"lennañ" vblex pri p3 pl
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<.>"
@@ -1883,17 +1868,14 @@
 # labels = stephens_1993 to_check
 "<Bremañ>"
 	"bremañ" adv
-	"Bremañ" np al mf sg
 "<ne>"
 	"ne" adv neg
 "<lennont>"
 	"lenn" vblex pri p3 pl
-	"lennañ" vblex pri p3 pl
 "<ket>"
 	"ket" adv
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<.>"
@@ -1904,16 +1886,10 @@
 # labels = stephens_1993 to_check
 "<Bremañ>"
 	"bremañ" adv
-	"Bremañ" np al mf sg
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<lennont>"
 	"lenn" vblex pri p3 pl
-	"lennañ" vblex pri p3 pl
 "<.>"
 	"." sent
 
@@ -1922,12 +1898,10 @@
 # labels = stephens_1993 to_check
 "<Bremañ>"
 	"bremañ" adv
-	"Bremañ" np al mf sg
 "<ne>"
 	"ne" adv neg
 "<lennont>"
 	"lenn" vblex pri p3 pl
-	"lennañ" vblex pri p3 pl
 "<ket>"
 	"ket" adv
 "<.>"
@@ -1938,19 +1912,12 @@
 # labels = stephens_1993 to_check
 "<Bremañ>"
 	"bremañ" adv
-	"Bremañ" np al mf sg
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<lennont>"
 	"lenn" vblex pri p3 pl
-	"lennañ" vblex pri p3 pl
 "<int>"
 	"prpers" prn subj p3 mf pl
-;	"bezañ" vblex pri p3 pl REMOVE:560
 "<.>"
 	"." sent
 
@@ -1959,17 +1926,14 @@
 # labels = stephens_1993 to_check
 "<Bremañ>"
 	"bremañ" adv
-	"Bremañ" np al mf sg
 "<ne>"
 	"ne" adv neg
 "<lennont>"
 	"lenn" vblex pri p3 pl
-	"lennañ" vblex pri p3 pl
 "<ket>"
 	"ket" adv
 "<int>"
 	"prpers" prn subj p3 mf pl
-;	"bezañ" vblex pri p3 pl REMOVE:560
 "<.>"
 	"." sent
 
@@ -1978,32 +1942,14 @@
 # labels = stephens_1993 to_check
 "<Lenn>"
 	"lenn" vblex inf
-	"lenn" n f sg
-	"lenn" n m sg
-;	"lenn" vblex imp p2 sg REMOVE:240
-;	"lennañ" vblex imp p2 sg REMOVE:240
-;	"lenn" vblex pri p3 sg REMOVE:534:Remove_VerbFin_BOS
-;	"lennañ" vblex pri p3 sg REMOVE:534:Remove_VerbFin_BOS
 "<al>"
 	"an" det def sp
 "<levr>"
 	"levr" n m sg
 "<a>"
 	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"a" pr REMOVE:312
-;	"monet" vblex pri p3 sg
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
 "<ra>"
 	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg REMOVE:240
-;	"ra" vpart opt REMOVE:231
-
-	"l" n m sp
-	"L" num ord mf sp
-;	"lavaret" vblex pri p3 sg REMOVE:698
 "<Lenaig>"
 	"Lenaig" np ant f sg
 "<.>"
@@ -2014,32 +1960,18 @@
 # labels = stephens_1993 to_check
 "<Ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<a>"
 	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"mont" vblex pri p3 sg REMOVE:560
-;	"monet" vblex pri p3 sg REMOVE:560
-;	"a" pr
-;	"a" n m sp
 "<ziskenn>"
 	"diskenn" vblex pri p3 sg
-;	"diskenn" vblex imp p2 sg REMOVE:240
-;	"diskenn" vblex inf REMOVE:447
-;	"diskenn" n m sg
 "<betek>"
 	"betek" pr
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<hent>"
 	"hent" n m sg
-;	"hentañ" vblex imp p2 sg REMOVE:240
-;	"hentañ" vblex pri p3 sg
 "<.>"
 	"." sent
 
@@ -2047,33 +1979,21 @@
 # text[eng] = The children go down to the road.
 # labels = stephens_1993 to_check
 "<Betek>"
-	"betek" pr
+	"betek" pr @case #1->3
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #2->3
 "<hent>"
-	"hent" n m sg
-;	"hentañ" vblex imp p2 sg REMOVE:240
-;	"hentañ" vblex pri p3 sg
+	"hent" n m sg @obl #3->5
 "<e>"
-	"e" n m sp
-;	"direct" prn obj p3 m sg REMOVE:396
-;	"e" det pos m sp REMOVE:470
-;	"e" pr REMOVE:734
-;	"e" vpart obj REMOVE:197
+	"e" vpart obj @aux #4->5
 "<tiskenn>"
-	"diskenn" n m sg
-;	"diskenn" vblex imp p2 sg REMOVE:240
-;	"diskenn" vblex inf REMOVE:447
-;	"diskenn" vblex pri p3 sg
+	"diskenn" vblex pri p3 sg @root #5->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
+	"an" det def sp @det #6->7
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->5
 
 # text = Ne ziskenn ket ar vugale betek an hent.
 # text[eng] = The children don't go down to the road.
@@ -2082,47 +2002,34 @@
 	"ne" adv neg
 "<ziskenn>"
 	"diskenn" vblex pri p3 sg
-;	"diskenn" vblex inf
-;	"diskenn" n m sg
-;	"diskenn" vblex imp p2 sg
 "<ket>"
 	"ket" adv
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<betek>"
 	"betek" pr
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<hent>"
 	"hent" n m sg
-;	"hentañ" vblex imp p2 sg REMOVE:240
-;	"hentañ" vblex pri p3 sg
 "<.>"
 	"." sent
 
-# text = Emañ ar vugale o tisken.
+# text = Emañ ar vugale o tiskenn.
 # text[eng] = The children are going down.
 # labels = stephens_1993 to_check
 "<Emañ>"
 	"bezañ" vbloc pri p3 sg
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<o>"
-	"o" det pos mf sp
-;	"o" vpart ger REMOVE:197
-;	"direct" prn obj p3 mf pl REMOVE:413
-;	"o" ij REMOVE:545
-;	"o" n m sp REMOVE:912
-"<tisken>"
-	"*tisken"
+	"o" vpart ger
+"<tiskenn>"
+	"diskenn" vblex inf
 "<.>"
 	"." sent
 
@@ -2131,7 +2038,6 @@
 # labels = stephens_1993 to_check
 "<Ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<'z>"
@@ -2142,12 +2048,8 @@
 	"betek" pr
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<hent>"
 	"hent" n m sg
-;	"hentañ" vblex imp p2 sg REMOVE:240
-;	"hentañ" vblex pri p3 sg
 "<.>"
 	"." sent
 
@@ -2158,25 +2060,16 @@
 	"betek" pr
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<hent>"
 	"hent" n m sg
-;	"hentañ" vblex imp p2 sg REMOVE:240
-;	"hentañ" vblex pri p3 sg
 "<'>"
-	"o" vpart ger
-;	"’" apos
 ;	"a" vpart
 ;	"e" vpart obj
 "<tiskenn>"
 	"diskenn" vblex inf
-;	"diskenn" vblex imp p2 sg REMOVE:240
-;	"diskenn" n m sg
 ;	"diskenn" vblex pri p3 sg
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
 "<vugale>"
 	"bugel" n m pl
 "<.>"
@@ -2213,110 +2106,74 @@
 # text[eng] = The children are going down.
 # labels = stephens_1993 to_check
 "<Emañ>"
-	"bezañ" vbloc pri p3 sg
+	"bezañ" vbloc pri p3 sg @aux #1->5
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
+	"an" det def sp @det #2->3
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #3->5
 "<'>"
-	"o" vpart ger
-;	"’" apos
-;	"a" vpart
-;	"e" vpart obj
+	"o" vpart ger @aux #4->5
 "<tiskenn>"
-	"diskenn" vblex inf
-;	"diskenn" vblex imp p2 sg REMOVE:240
-;	"diskenn" n m sg
-;	"diskenn" vblex pri p3 sg
+	"diskenn" vblex inf @root #5->0
 "<.>"
-	"." sent
+	"." sent @punct #6->5
 
 # text = Gwelout a rae e oa sklaer an oabl.
 # text[eng] = He saw that the sky was clear.
 # labels = stephens_1993 to_check
 "<Gwelout>"
-	"gwelout" vblex inf
+	"gwelout" vblex inf @root #1->0
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #->1
 "<rae>"
-	"ober" vblex pii p3 sg
+	"ober" vblex pii p3 sg @aux #3->1
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #4->6
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #5->6
 "<sklaer>"
-	"sklaer" adj mf sp
+	"sklaer" adj mf sp @ccomp #6->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #7->8
 "<oabl>"
-	"oabl" n m sg
+	"oabl" n m sg @nsubj #8->1
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # text = Setu al levr a blij din.
 # text[eng] = Here is the book i like.
 # labels = stephens_1993 to_check
 "<Setu>"
-	"setu" adv
+	"setu" adv @root #1->0
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #2->3
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @nsubj #3->1
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #4->5
 "<blij>"
-	"plijout" vblex pri p3 sg
-;	"plijout" vblex imp p2 sg REMOVE:240
+	"plijout" vblex pri p3 sg @acl #5->3
 "<din>"
-	"da" pr
-		"indirect" prn obj p1 mf sg
-;	"tin" n m sg REMOVE:282:Remove_SoftMut
+	"da" pr @case #6->7
+		"indirect" prn obj p1 mf sg @obl #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # text = Ar vugale a zo kreñv.
 # text[eng] = The children are strong.
 # labels = stephens_1993 to_check
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
+	"an" det def sp @det #1->2
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #2->5
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #3->5
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:240
-;	"teiñ" vblex pri p3 sg REMOVE:800
+	"bezañ" vblex pri p3 sg @cop #4->5
 "<kreñv>"
-	"kreñv" adj mf sp
+	"kreñv" adj mf sp @root #5->0
 "<.>"
-	"." sent
+	"." sent @punct #6->5
 
 # text = Setu an den a gontas an istor dimp.
 # text[eng] = Here is the man who told us the story.
@@ -2325,27 +2182,14 @@
 	"setu" adv
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<den>"
 	"den" n m sg
-;	"denañ" vblex imp p2 sg REMOVE:240
-;	"den" adv
-;	"denañ" vblex pri p3 sg
 "<a>"
 	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
 "<gontas>"
 	"kontañ" vblex past p3 sg
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<istor>"
 	"istor" n m sg
 "<dimp>"

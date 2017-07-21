@@ -1661,6 +1661,67 @@
 5	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	3	nsubj	_	_
 6	.	.	PUNCT	sent	_	3	punct	_	_
 
+# sent_id = grammar.vislcg.txt:48:896
+# text = Bremañ ne lenn ket ar vugale.
+# text[eng] = The children do not read now.
+# labels = stephens_1993 to_check
+1	Bremañ	bremañ	ADV	adv	_	2	advmod	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	3	advmod	_	_
+3	lenn	lenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ket	ket	ADV	adv	_	3	advmod	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	3	nsubj	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:49:914
+# text = Betek an hent e tiskenn ar vugale.
+# text[eng] = The children go down to the road.
+# labels = stephens_1993 to_check
+1	Betek	betek	ADP	pr	_	3	case	_	_
+2	an	an	DET	det	_	3	det	_	_
+3	hent	hent	NOUN	n	Gender=Msc|Number=Sing	5	obl	_	_
+4	e	e	PART	vpart	_	5	aux	_	_
+5	tiskenn	diskenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	5	nsubj	_	_
+8	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:50:934
+# text = Emañ ar vugale 'tiskenn.
+# text[eng] = The children are going down.
+# labels = stephens_1993 to_check
+1	Emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	ar	an	DET	det	_	3	det	_	_
+3	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	5	nsubj	_	_
+4	'	o	PART	vpart	_	5	aux	_	_
+5	tiskenn	diskenn	VERB	vblex	VerbForm=Inf	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:51:950
+# text = Setu al levr a blij din.
+# text[eng] = Here is the book i like.
+# labels = stephens_1993 to_check
+1	Setu	setu	ADV	adv	_	0	root	_	_
+2	al	an	DET	det	_	3	det	_	_
+3	levr	levr	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+4	a	a	PART	vpart	_	5	aux	_	_
+5	blij	plijout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+6-7	din	_	_	_	_	_	_	_	_
+6	din	da	ADP	pr	_	7	case	_	_
+7	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	5	obl	_	_
+8	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:52:969
+# text = Ar vugale a zo kreñv.
+# text[eng] = The children are strong.
+# labels = stephens_1993 to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	5	nsubj	_	_
+3	a	a	PART	vpart	_	5	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	kreñv	kreñv	ADJ	adj	_	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
 # sent_id = miscellaneous.vislcg.txt:1:0
 # text = Me zo o komz gant ma amezeg.
 1	Me	me	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
