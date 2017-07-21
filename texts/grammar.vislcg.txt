@@ -9,7 +9,7 @@
 "<m'>"
 	"ma" cnjsub
 "<emaon>"
-	"bezañ" vbloc pri p1 sg @+FMAINV MAP:939
+	"bezañ" vbloc pri p1 sg @+FMAINV 
 "<o>"
 	"o" vpart ger
 ;	"o" ij
@@ -41,7 +41,7 @@
 "<savas>"
 	"sevel" vblex tv tv past p3 sg @+FMAINV
 "<-hi>"
-	"prpers" prn subj p3 f sg @X MAP:943
+	"prpers" prn subj p3 f sg @X 
 "<he>"
 	"he" det pos f sp
 ;	"direct" prn obj p3 f sg
@@ -130,7 +130,7 @@
 ;	"monet" vblex pri p3 sg
 ;	"a" n m sp
 "<zibab>"
-	"dibab" vblex pri p3 sg @+FMAINV MAP:939
+	"dibab" vblex pri p3 sg @+FMAINV 
 	"dibab" n m sg
 ;	"dibab" vblex imp p2 sg
 ;	"dibab" vblex inf
@@ -171,8 +171,8 @@
 ;	"a" n m sp
 "<wel>"
 	"gwel" n m sg
-	"gwelout" vblex pri p3 sg @+FMAINV MAP:939
-	"gwelout" vblex pri p3 sg @+FMAINV MAP:939
+	"gwelout" vblex pri p3 sg @+FMAINV 
+	"gwelout" vblex pri p3 sg @+FMAINV 
 ;	"gwelout" vblex imp p2 sg
 "<Yann>"
 	"Yann" np ant m sg
@@ -214,7 +214,7 @@
 ;	"e" vpart obj
 ;	"o" vpart ger
 "<ni>"
-	"prpers" prn subj p1 mf pl @X MAP:943
+	"prpers" prn subj p1 mf pl @X 
 "<c'hortoz>"
 	"gortoz" vblex inf
 ;	"gortoz" vblex imp p2 sg
@@ -295,7 +295,7 @@
 	"!" sent @punct #8->2
 
 "<Selaouit>"
-	"selaou" vblex pri p2 pl @+FMAINV MAP:939
+	"selaou" vblex pri p2 pl @+FMAINV 
 ;	"selaou" vblex imp p2 pl
 "<ac'hanon>"
 	"direct" prn obj p1 mf sg
@@ -309,7 +309,7 @@
 ;	"ma" det pos mf sp
 ;	"ma" cnjsub
 "<selaouit>"
-	"selaou" vblex pri p2 pl @+FMAINV MAP:939
+	"selaou" vblex pri p2 pl @+FMAINV 
 ;	"selaou" vblex imp p2 pl
 "<!>"
 	"!" sent
@@ -319,7 +319,7 @@
 ;	"na" cnjcoo
 ;	"na" preadv
 "<selaouit>"
-	"selaou" vblex pri p2 pl @+FMAINV MAP:939
+	"selaou" vblex pri p2 pl @+FMAINV 
 ;	"selaou" vblex imp p2 pl
 "<ket>"
 	"ket" adv
@@ -340,7 +340,7 @@
 ;	"e" det pos m sp
 ;	"direct" prn obj p3 m sg
 "<vo>"
-	"bezañ" vblex fti p3 sg @+FMAINV MAP:939
+	"bezañ" vblex fti p3 sg @+FMAINV 
 "<Yannig>"
 	"Yannig" np ant m sg
 "<a-hed>"
@@ -363,7 +363,7 @@
 "<Ne>"
 	"ne" adv neg
 "<gavo>"
-	"kavout" vblex fti p3 sg @+FMAINV MAP:939
+	"kavout" vblex fti p3 sg @+FMAINV 
 "<ket>"
 	"ket" adv
 "<ho>"
@@ -396,7 +396,7 @@
 "<N'>"
 	"ne" adv neg
 "<o deus>"
-	"kaout" vblex pri p3 pl @+FMAINV MAP:939
+	"kaout" vblex pri p3 pl @+FMAINV 
 "<ket>"
 	"ket" adv
 "<gwelet>"
@@ -975,140 +975,104 @@
 	"." sent @punct #23->1
 
 # text = Glac'harus e oa planedenn ar baotred yaouank-se a veze ret dezho kuitaat o zud.
-# text[eng] = It was a painful fate for those men for whom it was necessary to leave their families and parishes.
+# text[eng] = It was a painful fate for those men for whom it was necessary to leave their people.
 # labels = timm_1988 to_check
-"<Glac>"
-	"*Glac"
-"<'>"
-	"’" apos
-;	"a" vpart
-;	"e" vpart obj
-;	"o" vpart ger
-"<harus>"
-	"*harus"
+"<Glac'harus>"
+	"glac'harus" adj mf sp @root #1->0
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #2->1
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #3->1
 "<planedenn>"
-	"planedenn" n f sg
+	"planedenn" n f sg @nsubj #4->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #5->6
 "<baotred>"
-	"paotr" n m pl
+	"paotr" n m pl @nmod:gen #6->4
 "<yaouank>"
-	"yaouank" adj mf sp
+	"yaouank" adj mf sp @amod #7->6
 "<-se>"
-	"se" adv
+	"se" adv @advmod #8->6
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #9->11
 "<veze>"
-	"bezañ" vblex pih p3 sg
+	"bezañ" vblex pih p3 sg @cop #10->11
 "<ret>"
-	"ret" adj mf sp
+	"ret" adj mf sp @acl #11->6
 "<dezho>"
-	"da" pr
-		"indirect" prn obj p3 mf pl
+	"da" pr @case #12->13
+		"indirect" prn obj p3 mf pl @obl #13->11
 "<kuitaat>"
-	"kuitaat" vblex inf
+	"kuitaat" vblex inf @xcomp #14->11
 "<o>"
-	"o" det pos mf sp
-;	"o" vpart ger
-;	"direct" prn obj p3 mf pl
-;	"o" ij
-;	"o" n m sp
+	"o" det pos mf sp @det #15->16
 "<zud>"
-	"den" n m pl
+	"den" n m pl @obj #16->14
 "<.>"
-	"." sent
+	"." sent @punct #17->1
 
 # text = Tud 'zo n'o devo biken skiant ar reizhded.
-# text[eng] = There are people who are never conscious of justice.
+# text[eng] = There are people who have no knowledge of justice.
 # labels = timm_1988 to_check
 "<Tud>"
-	"den" n m pl
+	"den" n m pl @nsubj
 "<'zo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @root
 "<n'>"
-	"ne" adv neg
+	"ne" adv neg @advmod
 "<o devo>"
-	"kaout" vblex fti p3 pl
+	"kaout" vblex fti p3 pl @dep
 "<biken>"
-	"biken" adv
-;	"pikat" vblex pii p1 sg
-;	"pikañ" vblex pii p1 sg
+	"biken" adv @advmod
 "<skiant>"
-	"skiant" n f sg
+	"skiant" n f sg @obj
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det
 "<reizhded>"
-	"reizhded" n f sg
+	"reizhded" n f sg @nmod:gen
 "<.>"
-	"." sent
+	"." sent @punct
 
 # text = Tud am eus anavezet, oadet dija, hag a veze o komuniañ bep bloaz en oferenn gentañ.
 # text[eng] = I have known people, who were already old, who went to take communion every year at the first mass.
 # labels = timm_1988 to_check
 "<Tud>"
-	"den" n m pl
+	"den" n m pl @obj
 "<am eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux
 "<anavezet>"
-	"anavezout" vblex pp
-;	"anavezout" vblex imp p3 sg
+	"anavezout" vblex pp @root
 "<,>"
-	"," cm @punct MAP:185:synpunct
+	"," cm @punct 
 "<oadet>"
-	"oadet" adj mf sp
+	"oadet" adj mf sp @
 "<dija>"
-	"dija" adv
+	"dija" adv @
 "<,>"
-	"," cm @punct MAP:185:synpunct
+	"," cm @punct 
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux
 "<veze>"
-	"bezañ" vblex pih p3 sg
+	"bezañ" vblex pih p3 sg @
 "<o>"
-	"direct" prn obj p3 mf pl
-;	"o" vpart ger
-;	"o" ij
-;	"o" n m sp
-;	"o" det pos mf sp
+	"o" det pos mf sp @
 "<komuniañ>"
-	"*komuniañ"
-"<bep bloaz>"
-	"bep bloaz" adv
+	"komuniañ" n m sg @
+"<bep>"
+	"bep" det ind sp @
+"<bloaz>"
+	"bloaz" n m sg 
 "<en>"
-	"e" pr
-	"e" pr
-		"an" det def sp
+	"e" pr @
+		"an" det def sp @
 "<oferenn>"
-	"oferenn" n f sg
+	"oferenn" n f sg @
 "<gentañ>"
-	"kentañ" adj mf sp
-;	"kentañ" num ord mf sp
+	"kentañ" adj mf sp @
 "<.>"
-	"." sent
+	"." sent @
 
 # text = Ur gernevadez e oa anezhi.
 # text[eng] = She was a Cornouaillaise.
@@ -1136,32 +1100,32 @@
 # text[eng] = He was a man of his word and he always accomplished what he had promised.
 # labels = timm_1988 to_check
 "<Den>"
-	"den" n m sg
+	"den" n m sg @nsubj #1->
 "<e>"
-	"e" vpart obj
+	"e" vpart obj @aux #2->
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #3->
 "<d'e>"
-	"da" pr
-		"e" det pos m sp
+	"da" pr @case #4->
+		"e" det pos m sp @det #5->
 "<c'her>"
-	"ger" n m sg
+	"ger" n m sg @root #6->
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #7->
 "<atao>"
-	"atav" adv
+	"atav" adv @advmod #8->
 "<e>"
-	"e" vpart obj
+	"e" vpart obj @aux #9->
 "<sevene>"
-	"seveniñ" vblex pii p3 sg
+	"seveniñ" vblex pii p3 sg @conj #10->
 "<ar pezh>"
-	"ar pezh a" prn rel mf sg
+	"ar pezh a" prn rel mf sg @obj #11->
 "<en deveze>"
-	"kaout" vblex pih p3 m sg
+	"kaout" vblex pih p3 m sg @aux #12->
 "<prometet>"
-	"prometiñ" vblex pp
+	"prometiñ" vblex pp @acl #13->
 "<.>"
-	"." sent
+	"." sent @punct #14->6
 
 # text = Ur spered kurius a zen e oa ivez ma zad.
 # text[eng] = My father was also a curious sort of person.
@@ -1299,7 +1263,7 @@
 	"." sent
 
 # text = Piv bennak a yelo di a gavo trawalc'h d'ober.
-# text[eng] = Whoever goes there will fidn enough to do.
+# text[eng] = Whoever goes there will find enough to do.
 # labels = timm_1988 to_check
 "<Piv bennak>"
 	"piv bennak" prn ind mf sg
@@ -1314,27 +1278,15 @@
 "<yelo di>"
 	"mont# di" vblex fti p3 sg
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux
 "<gavo>"
-	"kavout" vblex fti p3 sg
+	"kavout" vblex fti p3 sg @root
 "<trawalc'h>"
-	"trawalc’h" adv
-;	"trawalc’h" ij
+	"trawalc’h" adv @obj
 "<d'>"
 	"da" pr
 "<ober>"
-	"ober" vblex inf
-;	"ober" n m sg
+	"ober" vblex inf @xcomp
 "<.>"
 	"." sent
-
-"<.>"
-	"." sent
-
 

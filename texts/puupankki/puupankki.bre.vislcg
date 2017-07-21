@@ -1881,6 +1881,43 @@
 "<.>"
 	"." sent @punct #23->1
 
+# text = Glac'harus e oa planedenn ar baotred yaouank-se a veze ret dezho kuitaat o zud.
+# text[eng] = It was a painful fate for those men for whom it was necessary to leave their people.
+# labels = timm_1988 to_check
+"<Glac'harus>"
+	"glac'harus" adj mf sp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<oa>"
+	"bezañ" vblex pii p3 sg @cop #3->1
+"<planedenn>"
+	"planedenn" n f sg @nsubj #4->1
+"<ar>"
+	"an" det def sp @det #5->6
+"<baotred>"
+	"paotr" n m pl @nmod:gen #6->4
+"<yaouank>"
+	"yaouank" adj mf sp @amod #7->6
+"<-se>"
+	"se" adv @advmod #8->6
+"<a>"
+	"a" vpart @aux #9->11
+"<veze>"
+	"bezañ" vblex pih p3 sg @cop #10->11
+"<ret>"
+	"ret" adj mf sp @acl #11->6
+"<dezho>"
+	"da" pr @case #12->13
+		"indirect" prn obj p3 mf pl @obl #13->11
+"<kuitaat>"
+	"kuitaat" vblex inf @xcomp #14->11
+"<o>"
+	"o" det pos mf sp @det #15->16
+"<zud>"
+	"den" n m pl @obj #16->14
+"<.>"
+	"." sent @punct #17->1
+
 # text = Ur spered kurius a zen e oa ivez ma zad.
 # text[eng] = My father was also a curious sort of person.
 # labels = timm_1988 
