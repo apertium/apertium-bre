@@ -608,126 +608,88 @@
 
 # text = Ar plac'h yaouank a weles dec'h a ya d'ar pardon.
 # text[eng] = The young woman you saw yesterday is going to the dance.
-# labels = timm_1988 to_check
+# labels = timm_1988
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #1->2
 "<plac'h>"
-	"plac’h" n f sg
+	"plac’h" n f sg @nsubj #2->8
 "<yaouank>"
-	"yaouank" adj mf sp
+	"yaouank" adj mf sp @amod #3->2
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #4->5
 "<weles>"
-	"gwelet" vblex pii p2 sg
-	"gwelout" vblex pii p2 sg
+	"gwelout" vblex pii p2 sg @acl #5->2
 "<dec'h>"
-	"dec’h" adv
-;	"tec’hout" vblex imp p2 sg
-;	"tec’hout" vblex pri p3 sg
+	"dec’h" adv @advmod #6->5
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #7->8
 "<ya>"
-	"mont" vblex pri p3 sg
-	"monet" vblex pri p3 sg
-;	"ya" adv
+	"mont" vblex pri p3 sg @root #8->12
 "<d'ar>"
-	"da" pr
-		"an" det def sp
+	"da" pr @case #9->10
+		"an" det def sp @det #10->11
 "<pardon>"
-	"pardon" n m sg
-;	"pardoniñ" vblex imp p2 sg
-;	"pardoniñ" vblex pri p3 sg
+	"pardon" n m sg @obl #11->8
 "<.>"
-	"." sent
+	"." sent @punct #12->8
 
 # text = Me a yelo d'ar pardon.
 # text[eng] = I'll be going to the dance.
-# labels = timm_1988 to_check
+# labels = timm_1988 
 "<Me>"
-	"prpers" prn subj p1 mf sg
+	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
-"<yelo>"
-	"mont" vblex fti p3 sg
-	"monet" vblex fti p3 sg
+	"a" vpart @aux #2->3
+"<yelo>" 
+	"mont" vblex fti p3 sg @root #3->0
 "<d'ar>"
-	"da" pr
-		"an" det def sp
+	"da" pr @case #4->6
+		"an" det def sp @det #5->6
 "<pardon>"
-	"pardon" n m sg
-;	"pardoniñ" vblex imp p2 sg
-;	"pardoniñ" vblex pri p3 sg
+	"pardon" n m sg @obl #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # text = Mont a rin d'ar pardon.
 # text[eng] = I'll be going to the dance.
-# labels = timm_1988 to_check
-"<Mont a rin>"
-	"mont a ober" vblex fti p1 sg
+# labels = timm_1988
+"<Mont>"
+	"mont" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<rin>"
+	"ober" vblex fti p1 sg @aux #3->1
 "<d'ar>"
-	"da" pr
-		"an" det def sp
+	"da" pr @case #4->6
+		"an" det def sp @det #5->6
 "<pardon>"
-	"pardon" n m sg
-;	"pardoniñ" vblex imp p2 sg
-;	"pardoniñ" vblex pri p3 sg
+	"pardon" n m sg @obl #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
-# text = Araok ma kroge ar foar e c'hwezhe Fañch daou dan.
+# text = A-raok ma kroge ar foar e c'hwezhe Fañch daou dan.
 # text[eng] = Before the fair started Fañch lit two fires.
 # labels = timm_1988 to_check
-"<Araok>"
-	"*Araok"
-"<ma>"
-	"ma" cnjsub
-;	"ma" det pos mf sp
-;	"ma" ij
+"<A-raok ma>"
+	"A-raok ma" cnjadv @mark #1->2
 "<kroge>"
-	"krogiñ" vblex pii p3 sg
-	"kregiñ" vblex pii p3 sg
+	"krogiñ" vblex pii p3 sg @advcl #2->6
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #3->4
 "<foar>"
-	"foar" n f sg
+	"foar" n f sg @nsubj #4->2
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #5->6
 "<c'hwezhe>"
-	"c’hwezhañ" vblex pii p3 sg
+	"c’hwezhañ" vblex pii p3 sg @root #6->0
 "<Fañch>"
-	"Fañch" np ant m sg
+	"Fañch" np ant m sg @nsubj #7->6
 "<daou>"
-	"daou" num m pl
+	"daou" num m pl @nummod #8->9
 "<dan>"
-	"tan" n m sg
-;	"dan" n m sg
+	"tan" n m sg @obj #9->6
 "<.>"
-	"." sent
+	"." sent @punct #10->6
 
 # text = A c'hezeg a harpas krenn war an taol hag a chomas hep fichal.
 # text[eng] = The horses stopped completely on the spot and stayed without moving.

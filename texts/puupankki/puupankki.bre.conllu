@@ -1153,6 +1153,66 @@
 12	laborat	labourat	VERB	vblex	VerbForm=Inf	10	advcl	_	_
 13	.	.	PUNCT	sent	_	10	punct	_	_
 
+# sent_id = grammar.vislcg.txt:9:141
+# text = Ar plac'h yaouank a weles dec'h a ya d'ar pardon.
+# text[eng] = The young woman you saw yesterday is going to the dance.
+# labels = timm_1988
+1	Ar	an	DET	det	_	2	det	_	_
+2	plac'h	plac’h	NOUN	n	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	yaouank	yaouank	ADJ	adj	_	2	amod	_	_
+4	a	a	PART	vpart	_	5	aux	_	_
+5	weles	gwelout	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	acl	_	_
+6	dec'h	dec’h	ADV	adv	_	5	advmod	_	_
+7	a	a	PART	vpart	_	8	aux	_	_
+8	ya	mont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	root	_	_
+9-10	d'ar	_	_	_	_	_	_	_	_
+9	d	da	ADP	pr	_	10	case	_	_
+10	ar	an	DET	det	_	11	det	_	_
+11	pardon	pardon	NOUN	n	Gender=Msc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	sent	_	8	punct	_	_
+
+# sent_id = grammar.vislcg.txt:10:168
+# text = Me a yelo d'ar pardon.
+# text[eng] = I'll be going to the dance.
+# labels = timm_1988 
+1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	yelo	mont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	d'ar	_	_	_	_	_	_	_	_
+4	d	da	ADP	pr	_	6	case	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	pardon	pardon	NOUN	n	Gender=Msc|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:11:185
+# text = Mont a rin d'ar pardon.
+# text[eng] = I'll be going to the dance.
+# labels = timm_1988
+1	Mont	mont	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	rin	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4-5	d'ar	_	_	_	_	_	_	_	_
+4	d	da	ADP	pr	_	6	case	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	pardon	pardon	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:12:202
+# text = A-raok ma kroge ar foar e c'hwezhe Fañch daou dan.
+# text[eng] = Before the fair started Fañch lit two fires.
+# labels = timm_1988 to_check
+1	A-raok	A-raok	X	x	_	2	dep	_	_
+2	ma	ma	SCONJ	cnjadv	_	3	mark	_	_
+3	kroge	krogiñ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	foar	foar	NOUN	n	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	e	e	PART	vpart	_	7	aux	_	_
+7	c'hwezhe	c’hwezhañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Fañch	Fañch	PROPN	np	Gender=Msc|Number=Sing	7	nsubj	_	_
+9	daou	daou	NUM	num	Gender=Msc|Number=Plur	10	nummod	_	_
+10	dan	tan	NOUN	n	Gender=Msc|Number=Sing	7	obj	_	_
+11	.	.	PUNCT	sent	_	7	punct	_	_
+
 # sent_id = miscellaneous.vislcg.txt:1:0
 # text = Me zo o komz gant ma amezeg.
 1	Me	me	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
