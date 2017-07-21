@@ -1216,7 +1216,7 @@
 # sent_id = grammar.vislcg.txt:13:228
 # text = Hennezh a oa un den mat a zifenne ar vrol.
 # text[eng] = He was a good man who defended the country.
-# labels = timm_1988 to_check
+# labels = timm_1988 
 1	Hennezh	hennezh	PRON	prn	Gender=Msc|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	a	a	PART	vpart	_	5	aux	_	_
 3	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
@@ -4456,11 +4456,11 @@
 7	mui	mui	ADV	adv	_	6	advmod	_	_
 8	nemet	nemet	ADV	adv	_	10	advmod	_	_
 9	100	100	X	x	_	10	dep	_	_
-10	000	000	NUM	num	Number=Plur	6	obj	_	_
+10	000	000	NUM	num	Number=Plur	6	nsubj	_	_
 11	a	a	ADP	pr	_	12	case	_	_
 12	dud	den	NOUN	n	Gender=Msc|Number=Plur	10	nmod	_	_
 13	na	na	PART	vpart	Polarity=Neg	14	advmod	_	_
-14	ouient	gouzout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	dep	_	_
+14	ouient	gouzout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	_
 15	nemet	nemet	ADV	adv	_	16	advmod	_	_
 16	brezhoneg	brezhoneg	NOUN	n	Gender=Msc|Number=Sing	14	obj	_	_
 17	.	.	PUNCT	sent	_	6	punct	_	_
