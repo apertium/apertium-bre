@@ -2179,158 +2179,127 @@
 # text[eng] = Here is the man who told us the story.
 # labels = stephens_1993 to_check
 "<Setu>"
-	"setu" adv
+	"setu" adv @root #1->0
 "<an>"
-	"an" det def sp
+	"an" det def sp @det #2->3
 "<den>"
-	"den" n m sg
+	"den" n m sg @nsubj #3->1
 "<a>"
-	"a" vpart
+	"a" vpart @aux #4->5
 "<gontas>"
-	"kontañ" vblex past p3 sg
+	"kontañ" vblex past p3 sg @acl #5->3
 "<an>"
-	"an" det def sp
+	"an" det def sp @det #6->7
 "<istor>"
-	"istor" n m sg
+	"istor" n m sg @obj #7->5
 "<dimp>"
-	"da" pr
-		"indirect" prn obj p1 mf pl
+	"da" pr @case #8->9
+		"indirect" prn obj p1 mf pl @obl #9->5
 "<.>"
-	"." sent
+	"." sent @punct #10->1
 
-# text = Setu an den na gontas key an istor dimp.
+# text = Setu an den na gontas ket an istor dimp.
 # text[eng] = Here is the man who did not tell us the story.
 # labels = stephens_1993 to_check
 "<Setu>"
-	"setu" adv
+	"setu" adv @root #1->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #2->3
 "<den>"
-	"den" n m sg
-;	"denañ" vblex imp p2 sg REMOVE:240
-;	"den" adv
-;	"denañ" vblex pri p3 sg
+	"den" n m sg @nsubj #3->1
 "<na>"
-	"na" vpart neg
-;	"na" cnjcoo
-;	"na" preadv
+	"na" vpart neg @aux #4->5
 "<gontas>"
-	"kontañ" vblex past p3 sg
+	"kontañ" vblex past p3 sg @acl #5->3
 "<key>"
-	"*key"
+	"ket" adv @advmod #6->5
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #7->8
 "<istor>"
-	"istor" n m sg
+	"istor" n m sg @obj #8->5
 "<dimp>"
-	"da" pr
-		"indirect" prn obj p1 mf pl
+	"da" pr @case #9->10
+		"indirect" prn obj p1 mf pl @obl #10->5
 "<.>"
-	"." sent
+	"." sent @punct #11->1
 
-# text = Ne lavaras key an den pelec'h e klevas an istor.
+# text = Ne lavaras ket an den pelec'h e klevas an istor.
 # text[eng] = The man did not say where he heard the story.
 # labels = stephens_1993 to_check
 "<Ne>"
-	"ne" adv neg
+	"ne" adv neg @advmod #1->2
 "<lavaras>"
-	"lavaret" vblex past p3 sg
-	"lavarout" vblex past p3 sg
-"<key>"
-	"*key"
+	"lavarout" vblex past p3 sg @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #4->5
 "<den>"
-	"den" n m sg
-;	"denañ" vblex imp p2 sg REMOVE:240
-;	"den" adv
-;	"denañ" vblex pri p3 sg
+	"den" n m sg @nsubj #5->2
 "<pelec'h>"
-	"pelec’h" adv itg
+	"pelec’h" adv itg @advmod #6->8
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #7->8
 "<klevas>"
-	"klevet" vblex past p3 sg
-	"klevout" vblex past p3 sg
+	"klevet" vblex past p3 sg @ccomp #8->2
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #9->10
 "<istor>"
-	"istor" n m sg
+	"istor" n m sg @obj #10->8
 "<.>"
-	"." sent
+	"." sent @punct #11->2
 
 # text = Kollet eo al levr er skol.
 # text[eng] = The book is lost in the school.
 # labels = stephens_1993 to_check
 "<Kollet>"
-	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:240
+	"koll" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #3->4
 "<levr>"
-	"levr" n m sg
-"<er skol>"
-	"er skol" adv
+	"levr" n m sg @nsubj #4->1
+"<er>"
+	"er" pr @case #5->6
+"<skol>"
+	"skol" n f sg @obl #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Kollet en deus Yann al levr.
 # text[eng] = Yann has lost the book.
 # labels = stephens_1993 to_check
 "<Kollet>"
-	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:240
+	"koll" vblex pp @root
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj
 "<al>"
-	"an" det def sp
+	"an" det def sp @det
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj
 "<.>"
-	"." sent
+	"." sent @punct
 
 # text = Koll a reas Yann al levr.
 # text[eng] = Yann lost the book.
 # labels = stephens_1993 to_check
 "<Koll>"
-	"koll" vblex inf
-	"koll" n m sg
-;	"koll" vblex imp p2 sg REMOVE:240
-;	"koll" vblex pri p3 sg REMOVE:534:Remove_VerbFin_BOS
+	"koll" vblex inf @root #1->0
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #2->1
 "<reas>"
-	"ober" vblex past p3 sg
+	"ober" vblex past p3 sg @aux #3->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->1
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #5->6
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = N'eo ket kollet al levr.
 # text[eng] = The book is not lost.
@@ -2343,9 +2312,8 @@
 	"ket" adv
 "<kollet>"
 	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:240
 "<al>"
-	"an" det def sp
+	"an" det def sp @det
 "<levr>"
 	"levr" n m sg
 "<.>"
@@ -2355,32 +2323,31 @@
 # text[eng] = Yann has not lost the book.
 # labels = stephens_1993 to_check
 "<N'>"
-	"ne" adv neg
+	"ne" adv neg @advmod #1->4
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->4
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #3->4
 "<kollet>"
-	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:240
+	"koll" vblex pp @root #4->0
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #5->4
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #6->7
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #7->4
 "<.>"
-	"." sent
+	"." sent @root #8->4
 
-# text = Ne gollas key Yann al levr.
+# text = Ne gollas ket Yann al levr.
 # text[eng] = Yann did not lose the book.
 # labels = stephens_1993 to_check
 "<Ne>"
 	"ne" adv neg
 "<gollas>"
 	"koll" vblex past p3 sg
-"<key>"
-	"*key"
+"<ket>"
+	"ket" adv
 "<Yann>"
 	"Yann" np ant m sg
 "<al>"
@@ -2394,96 +2361,69 @@
 # text[eng] = Who has bought the red house?
 # labels = stephens_1993 to_check
 "<Piv>"
-	"piv" prn itg mf sp
+	"piv" prn itg mf sp @nsubj #1->3
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->3
 "<prenet>"
-	"prenañ" vblex pp
-;	"prenañ" vblex imp p3 sg REMOVE:240
+	"prenañ" vblex pp @root #3->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #4->5
 "<ti>"
-	"ti" n m sg
+	"ti" n m sg @obj #5->3
 "<ruz>"
-	"ruz" adj mf sp
-;	"ruzañ" vblex imp p2 sg REMOVE:240
-;	"ruzañ" vblex pri p3 sg REMOVE:698
+	"ruz" adj mf sp @amod #6->5
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #7->3
 
 # text = Yann en deus prenet anezhañ.
 # text[eng] = Yann has bought it.
 # labels = stephens_1993 to_check
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #1->3
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->3
 "<prenet>"
-	"prenañ" vblex pp
-;	"prenañ" vblex imp p3 sg REMOVE:240
+	"prenañ" vblex pp @root #3->0
 "<anezhañ>"
-	"direct" prn obj p3 m sg
-;	"eus" pr
-;		"indirect" prn obj p3 m sg
+	"direct" prn obj p3 m sg @obj #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 # text = Petra en deus prenet Yann?
-# text[eng] = An ti ruz en deus prenet.
+# text[eng] = What has Yann bought ?
 # labels = stephens_1993 to_check
 "<Petra>"
-	"petra" prn itg mf sp
+	"petra" prn itg mf sp @obj #1->3
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->3
 "<prenet>"
-	"prenañ" vblex pp
-;	"prenañ" vblex imp p3 sg REMOVE:240
+	"prenañ" vblex pp @root  #3->0
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->3
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #5->3
 
 # text = Gant piv eo bet prenet an ti ruz?
-# text[eng] = Gant Yann eo bet prenet.
+# text[eng] = By whom was the red house bought?
 # labels = stephens_1993 to_check
 "<Gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:282:Remove_SoftMut
-;	"kant" n m sg REMOVE:282:Remove_SoftMut
+	"gant" pr @case #1->2
 "<piv>"
-	"piv" prn itg mf sp
+	"piv" prn itg mf sp @obl:agent #2->5
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #3->5
 "<bet>"
-	"bezañ" vblex pp
-;	"pet" prn itg mf sp REMOVE:282:Remove_SoftMut
-;	"kaout" vblex pp
+	"bezañ" vblex pp @aux:pass #4->5
 "<prenet>"
-	"prenañ" vblex pp
-;	"prenañ" vblex imp p3 sg REMOVE:240
+	"prenañ" vblex pp @root #5->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #6->7
 "<ti>"
-	"ti" n m sg
+	"ti" n m sg @nsubj #7->5
 "<ruz>"
-	"ruz" adj mf sp
-;	"ruzañ" vblex imp p2 sg REMOVE:240
-;	"ruzañ" vblex pri p3 sg REMOVE:698
+	"ruz" adj mf sp @amod #8->7
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #9->5
 
 # text = Petra 'neus graet Yann?
 # text[eng] = Prenañ an ti ruz 'neus graet.
@@ -2491,50 +2431,31 @@
 "<Petra>"
 	"petra" prn itg mf sp
 "<'>"
-	"’" apos
 ;	"a" vpart REMOVE:197
 ;	"e" vpart obj REMOVE:197
-;	"o" vpart ger REMOVE:197
 "<neus>"
 	"ne" adv
 		"kaout" vblex pri p3 sg
 "<graet>"
 	"ober" vblex pp
-;	"ober" vblex imp p3 sg REMOVE:240
 "<Yann>"
 	"Yann" np ant m sg
 "<?>"
 	"?" sent
-
-"<.>"
-	"." sent
 
 # text = Gouzout a ran ... e preno Yann ur wetur nevez.
 # text[eng] = I know that ... Yann will buy a new car.
 # labels = stephens_1993 to_check
 "<Gouzout>"
 	"gouzout" vblex inf
-;	"gouzout" vblex pri p2 sg REMOVE:534:Remove_VerbFin_BOS
 "<a>"
 	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"mont" vblex pri p3 sg REMOVE:560
-;	"monet" vblex pri p3 sg REMOVE:560
-;	"a" pr
-;	"a" n m sp
 "<ran>"
 	"ober" vblex pri p1 sg
-;	"ran" n f sg
 "<...>"
 	"..." sent
-
 "<e>"
 	"e" vpart obj
-;	"e" det pos m sp REMOVE:204
-;	"e" pr
-;	"e" n m sp
-;	"direct" prn obj p3 m sg
 "<preno>"
 	"prenañ" vblex fti p3 sg
 "<Yann>"
@@ -2545,8 +2466,6 @@
 	"gwetur" n f sg
 "<nevez>"
 	"nevez" adj mf sp
-;	"neveziñ" vblex imp p2 sg REMOVE:240
-;	"neveziñ" vblex pri p3 sg REMOVE:698
 "<.>"
 	"." sent
 
@@ -2554,75 +2473,57 @@
 # text[eng] = What has she bought?
 # labels = stephens_1993 to_check
 "<Petra>"
-	"petra" prn itg mf sp
+	"petra" prn itg mf sp @obj #1->3
 "<he deus>"
-	"kaout" vblex pri p3 f sg
+	"kaout" vblex pri p3 f sg @aux #2->3
 "<prenet>"
-	"prenañ" vblex pp
-;	"prenañ" vblex imp p3 sg REMOVE:240
+	"prenañ" vblex pp @root #3->0
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #4->3
 
 # text = Pelec'h emañ ar vugale?
 # text[eng] = Where are the children?
 # labels = stephens_1993 to_check
 "<Pelec'h>"
-	"pelec’h" adv itg
+	"pelec’h" adv itg @root #1->0
 "<emañ>"
-	"bezañ" vbloc pri p3 sg
+	"bezañ" vbloc pri p3 sg @cop #2->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:367
+	"an" det def sp @det #3->4
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #4->1
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #5->1
 
 # text = Pegoulz e teuio da gêr?
 # text[eng] = When will he come home?
 # labels = stephens_1993 to_check
 "<Pegoulz>"
-	"pegoulz" adv itg
+	"pegoulz" adv itg @advmod #1->3
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
-"<teuio da>"
-	"dont# da" vblex fti p3 sg
+	"e" vpart obj @aux #2->3
+"<teuio>"
+	"dont" vblex fti p3 sg @root #3->0
+"<da>"
+	"da" pr @case #4->5
 "<gêr>"
-	"kêr" n f sg
+	"kêr" n f sg @obl #5->3
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #6->3
 
 # text = Gant piv emañ Yann?
 # text[eng] = With whom is Yann?
 # labels = stephens_1993 to_check
 "<Gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:282:Remove_SoftMut
-;	"kant" n m sg REMOVE:282:Remove_SoftMut
+	"gant" pr @case #1->2
 "<piv>"
-	"piv" prn itg mf sp
+	"piv" prn itg mf sp @root #2->0
 "<emañ>"
-	"bezañ" vbloc pri p3 sg
+	"bezañ" vbloc pri p3 sg @cop #3->2
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->2
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #5->2
 
 # text = Hag o tont out?
 # text[eng] = Are you coming?
@@ -2641,9 +2542,6 @@
 	"bezañ" vblex pri p2 sg
 "<?>"
 	"?" sent
-
-"<.>"
-	"." sent
 
 # text = N'out ket o tont?
 # text[eng] = Aren't you coming?
@@ -2664,9 +2562,6 @@
 	"dont" vblex inf
 "<?>"
 	"?" sent
-
-"<.>"
-	"." sent
 
 # text = Daoust hag-eñ e teio da gêr?
 # text[eng] = Will he come home?
@@ -2689,96 +2584,61 @@
 "<?>"
 	"?" sent
 
-"<.>"
-	"." sent
-
 # text = N'ouzon ket piv a zo aze.
 # text[eng] = I don't know who is there.
 # labels = stephens_1993 to_check
 "<N'>"
-	"ne" adv neg
+	"ne" adv neg @advmod #1->2
 "<ouzon>"
-	"gouzout" vblex pri p1 sg
+	"gouzout" vblex pri p1 sg @root #2->0
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #3->2
 "<piv>"
-	"piv" prn itg mf sp
+	"piv" prn itg mf sp @nsubj #4->7
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #5->7
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:240
-;	"teiñ" vblex pri p3 sg REMOVE:800
+	"bezañ" vblex pri p3 sg @cop #6->7
 "<aze>"
-	"aze" adv
-;	"mont" vblex cip p3 sg REMOVE:560
+	"aze" adv @ccomp #7->2
 "<.>"
-	"." sent
+	"." sent @punct #8->2
 
 # text = Gouzout a rez pelec'h emañ.
 # text[eng] = You know where it is.
 # labels = stephens_1993 to_check
 "<Gouzout>"
-	"gouzout" vblex inf
-;	"gouzout" vblex pri p2 sg REMOVE:534:Remove_VerbFin_BOS
+	"gouzout" vblex inf @root #1->0
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"mont" vblex pri p3 sg REMOVE:560
-;	"monet" vblex pri p3 sg REMOVE:560
-;	"a" pr
-;	"a" n m sp
+	"a" vpart @aux #2->1
 "<rez>"
-	"ober" vblex pri p2 sg
-;	"rez" n f sg
-;	"rez" adj mf sp
+	"ober" vblex pri p2 sg @aux #3->1
 "<pelec'h>"
-	"pelec’h" adv itg
+	"pelec’h" adv itg @ccomp #4->1
 "<emañ>"
-	"bezañ" vbloc pri p3 sg
+	"bezañ" vbloc pri p3 sg @cop #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->4
 
 # text = Gwelet e vo ha brav e vo an amzer.
 # text[eng] = We shall see whether the weather is nice.
 # labels = stephens_1993 to_check
 "<Gwelet>"
-	"gwelet" vblex inf
 	"gwelet" vblex pp
-	"gwelout" vblex pp
-;	"gwelout" vblex imp p3 sg REMOVE:240
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
 "<ha>"
 	"ha" cnjcoo
-;	"ha" ij REMOVE:545
 "<brav>"
 	"brav" adj mf sp
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
 "<an>"
 	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
 "<amzer>"
 	"amzer" n f sg
 "<.>"
@@ -2825,20 +2685,19 @@
 # text[eng] = This is the book I have found.
 # labels = stephens_1993 to_check
 "<Al>"
-	"an" det def sp
+	"an" det def sp @
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @
 "<-mañ>"
-	"mañ" adv
+	"mañ" adv @
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @
 "<am eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @
 "<kavet>"
-	"kavout" vblex pp
-;	"kavout" vblex imp p3 sg REMOVE:240
+	"kavout" vblex pp @
 "<.>"
-	"." sent
+	"." sent @
 
 # text = Al levr-mañ eo an hini am eus kavet.
 # text[eng] = This book is the one I have found.
@@ -2894,23 +2753,23 @@
 # text[eng] = The weather is bad and it is raining.
 # labels = stephens_1993 to_check
 "<Fall>"
-	"fall" adj mf sp
+	"fall" adj mf sp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @cop #2->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:367
-;	"monet" vblex pri p1 sg REMOVE:367
+	"an" det def sp @det #3->4
 "<amzer>"
-	"amzer" n f sg
+	"amzer" n f sg @nsubj #4->1
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij REMOVE:545
-"<glav a ra>"
-	"glav a ober" vblex pri p3 sg
-;	"glav a ober" vblex imp p2 sg REMOVE:240
+	"ha" cnjcoo @cc #5->8
+"<glav>"
+	"glav" n m sg @dep #6->8
+"<a>"
+	"a" vpart @aux #7->8
+"<ra>"
+	"ober" vblex pri p3 sg @conj #8->1
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # text = Brav e vo an amzer pe glav a vo.
 # text[eng] = The weather will be nice or it will rain.

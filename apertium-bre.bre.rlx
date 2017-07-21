@@ -5,6 +5,7 @@ LIST BOS              = (>>>) (sent) ;
 LIST EOS              = (<<<) (sent) ;
 
 LIST Cm               = cm ;
+LIST Apos             = apos ;
 LIST Guio             = guio ;
 LIST Excl             = "!" ;
 LIST Lpar             = ")" ;
@@ -194,7 +195,7 @@ SELECT VpartIDO IF (1C Vez) ;
 
 REMOVE DetPos IF (0 DetPos) (0 Pr) (1C Toponim) ;
 
-REMOVE Vpart (NOT 1 Verb) ;
+REMOVE Vpart (NOT 1 Verb) (NOT 1/* Verb);
 	# en ur gambr.
 
 SELECT VerbFin (-1 VpartIDO OR VpartSDO) (0 Vez) (1 VerbPP) ;
@@ -900,7 +901,7 @@ SELECT (np ant) IF (0 (np ant)) (1 (np cog)) (0 UPPER) (1 UPPER) ;
 SELECT (np cog) IF (-1 (np ant)) (0 (np cog)) (-1 UPPER) (0 UPPER) ;
 
 # 'Francis'
-SELECT (apos) IF (0 (apos)) (0 Vpart) ;
+SELECT Apos IF (0 Apos) (0 Vpart) (NOT 1 Verb) (NOT 1/* Verb) ;
 
 # ma vez roet.
 SELECT VerbFin IF (-1 ("ma"i)) (0 MixedMut) ;
