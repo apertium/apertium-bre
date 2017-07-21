@@ -442,3 +442,1025 @@
 "<.>"
 	"." sent @punct #10->6
 
+# text = Ar mab a welas ar plac'h yaouank.
+# text[eng] = The boy saw the young woman.
+# labels = timm_1988 
+"<Ar>"
+	"an" det def sp @det #1->2
+"<mab>"
+	"mab" n m sg @nsubj #2->4
+"<a>"
+	"a" vpart @aux #3->4
+"<welas>"
+	"gwelet" vblex past p3 sg @root #4->0
+"<ar>"
+	"an" det def sp @det #5->6
+"<plac'h>"
+	"plac’h" n f sg @obj #6->4
+"<yaouank>"
+	"yaouank" adj mf sp @amod #7->6
+"<.>"
+	"." sent @punct #8->4
+
+# text = Ar mab a welas ar plac'h yaouank anezhañ.
+# text[eng] = The young woman saw the boy of-him.
+# labels = timm_1988 to_check
+"<Ar>"
+	"an" det def sp
+"<mab>"
+	"mab" n m sg
+"<a>"
+	"a" vpart 
+"<welas>"
+	"gwelout" vblex past p3 sg
+"<ar>"
+	"an" det def sp
+"<plac'h>"
+	"plac’h" n f sg
+"<yaouank>"
+	"yaouank" adj mf sp
+"<anezhañ>"
+	"eus" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent
+
+# text = Ar mab a welas ar plac'h yaouank a oa deuet da labourat.
+# text[eng] = The boy who saw the girl had come to work.
+# labels = timm_1988
+"<Ar>"
+	"an" det def sp @det #1->2
+"<mab>"
+	"mab" n m sg @nsubj #2->10
+"<a>"
+	"a" vpart @aux #3->4
+"<welas>"
+	"gwelout" vblex past p3 sg @acl #4->2
+"<ar>"
+	"an" det def sp @det #5->6
+"<plac'h>"
+	"plac’h" n f sg @obj #6->4
+"<yaouank>"
+	"yaouank" adj mf sp @amod #7->6
+"<a>"
+	"a" vpart @aux #8->10
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #9->10
+"<deuet>"
+	"dont" vblex pp @root #10->0
+"<da>"
+	"da" pr @mark #11->12
+"<laborat>"
+	"labourat" vblex inf @advcl #12->10
+"<.>"
+	"." sent @punct #13->10
+
+# text = Ar mab a welas ar plac'h yaouank anezhañ a oa deuet da laborat.
+# text[eng] = The boy whom the girl saw had come to work.
+# labels = timm_1988 to_check
+"<Ar>"
+	"an" det def sp
+"<mab>"
+	"mab" n m sg
+"<a>"
+	"a" vpart
+"<welas>"
+	"gwelout" vblex past p3 sg
+"<ar>"
+	"an" det def sp
+"<plac'h>"
+	"plac’h" n f sg
+"<yaouank>"
+	"yaouank" adj mf sp
+"<anezhañ>"
+	"eus" pr
+		"indirect" prn obj p3 m sg
+"<a>"
+	"a" vpart
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<deuet da>"
+	"dont# da" vblex pp
+"<laborat>"
+	"*laborat"
+"<.>"
+	"." sent
+
+# text = Lavaret em eus deoc'h e oa Janed.
+# text[eng] = I told you it was Janed.
+# labels = timm_1988 to_check
+"<Lavaret>"
+	"lavaret" vblex pp
+"<em eus>"
+	"kaout" vblex pri p1 sg
+"<deoc'h>"
+	"da" pr
+		"indirect" prn obj p2 mf pl
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<Janed>"
+	"Janed" np ant f sg
+"<.>"
+	"." sent
+
+# text = Marteze e kredas e oa an holl dud-se oc'h ober goap anezhañ.
+# text[eng] = Perhaps he believed all the people there were making fun of him.
+# labels = timm_1988 to_check
+"<Marteze>"
+	"marteze" adv
+"<e>"
+	"e" vpart obj
+"<kredas>"
+	"krediñ" vblex past p3 sg
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<an>"
+	"an" det def sp
+"<holl>"
+	"holl" predet mf sp
+"<dud>"
+	"den" n m pl
+"<-se>"
+	"se" adv
+"<oc'h>"
+	"o" vpart ger
+"<ober>"
+	"ober" vblex inf
+"<goap>"
+	"goap" n m sg
+"<anezhañ>"
+	"eus" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent
+
+# text = Ar plac'h yaouank a weles dec'h a ya d'ar pardon.
+# text[eng] = The young woman you saw yesterday is going to the dance.
+# labels = timm_1988 to_check
+"<Ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<plac'h>"
+	"plac’h" n f sg
+"<yaouank>"
+	"yaouank" adj mf sp
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<weles>"
+	"gwelet" vblex pii p2 sg
+	"gwelout" vblex pii p2 sg
+"<dec'h>"
+	"dec’h" adv
+;	"tec’hout" vblex imp p2 sg
+;	"tec’hout" vblex pri p3 sg
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+"<ya>"
+	"mont" vblex pri p3 sg
+	"monet" vblex pri p3 sg
+;	"ya" adv
+"<d'ar>"
+	"da" pr
+		"an" det def sp
+"<pardon>"
+	"pardon" n m sg
+;	"pardoniñ" vblex imp p2 sg
+;	"pardoniñ" vblex pri p3 sg
+"<.>"
+	"." sent
+
+# text = Me a yelo d'ar pardon.
+# text[eng] = I'll be going to the dance.
+# labels = timm_1988 to_check
+"<Me>"
+	"prpers" prn subj p1 mf sg
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<yelo>"
+	"mont" vblex fti p3 sg
+	"monet" vblex fti p3 sg
+"<d'ar>"
+	"da" pr
+		"an" det def sp
+"<pardon>"
+	"pardon" n m sg
+;	"pardoniñ" vblex imp p2 sg
+;	"pardoniñ" vblex pri p3 sg
+"<.>"
+	"." sent
+
+# text = Mont a rin d'ar pardon.
+# text[eng] = I'll be going to the dance.
+# labels = timm_1988 to_check
+"<Mont a rin>"
+	"mont a ober" vblex fti p1 sg
+"<d'ar>"
+	"da" pr
+		"an" det def sp
+"<pardon>"
+	"pardon" n m sg
+;	"pardoniñ" vblex imp p2 sg
+;	"pardoniñ" vblex pri p3 sg
+"<.>"
+	"." sent
+
+# text = Araok ma kroge ar foar e c'hwezhe Fañch daou dan.
+# text[eng] = Before the fair started Fañch lit two fires.
+# labels = timm_1988 to_check
+"<Araok>"
+	"*Araok"
+"<ma>"
+	"ma" cnjsub
+;	"ma" det pos mf sp
+;	"ma" ij
+"<kroge>"
+	"krogiñ" vblex pii p3 sg
+	"kregiñ" vblex pii p3 sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<foar>"
+	"foar" n f sg
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<c'hwezhe>"
+	"c’hwezhañ" vblex pii p3 sg
+"<Fañch>"
+	"Fañch" np ant m sg
+"<daou>"
+	"daou" num m pl
+"<dan>"
+	"tan" n m sg
+;	"dan" n m sg
+"<.>"
+	"." sent
+
+# text = A c'hezeg a harpas krenn war an taol hag a chomas hep fichal.
+# text[eng] = The horses stopped completely on the spot and stayed without moving.
+# labels = timm_1988 to_check
+"<A>"
+	"a" pr
+	"a" n m sp
+;	"a" vpart
+;	"monet" vblex imp p2 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"mont" vblex pri p3 sg
+"<c'hezeg>"
+	"marc’h" n m pl
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<harpas>"
+	"harpañ" vblex past p3 sg
+	"harpiñ" vblex past p3 sg
+"<krenn>"
+	"krenn" adj mf sp
+;	"krennañ" vblex imp p2 sg
+;	"krennañ" vblex pri p3 sg
+;	"grenn" n f sg
+"<war>"
+	"war" pr
+;	"gwar" n m sg
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
+"<taol>"
+	"taol" n m sg
+;	"teuler" vblex imp p2 sg
+;	"teurel" vblex imp p2 sg
+;	"teuler" vblex pri p3 sg
+;	"teurel" vblex pri p3 sg
+;	"taol" n f sg
+"<hag>"
+	"ha" cnjcoo
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<chomas>"
+	"chom" vblex past p3 sg
+"<hep>"
+	"hep" pr
+"<fichal>"
+	"*fichal"
+"<.>"
+	"." sent
+
+# text = Stlepel a reas e liñsel pell dioutañ hag e frotas e elgez.
+# text[eng] = He threw the sheet away from him and rubbed his chin.
+# labels = timm_1988 to_check
+"<Stlepel>"
+	"stlepel" vblex inf
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<reas>"
+	"ober" vblex past p3 sg
+"<e>"
+	"e" pr
+	"e" det pos m sp
+;	"e" vpart obj
+;	"direct" prn obj p3 m sg
+;	"e" n m sp
+"<liñsel>"
+	"liñsel" n f sg
+"<pell>"
+	"pell" adj mf sp
+;	"pell" adv
+"<dioutañ>"
+	"diouzh" pr
+		"indirect" prn obj p3 m sg
+"<hag>"
+	"ha" cnjcoo
+"<e>"
+	"e" pr
+	"e" det pos m sp
+;	"e" vpart obj
+;	"direct" prn obj p3 m sg
+;	"e" n m sp
+"<frotas>"
+	"*frotas"
+"<e>"
+	"e" pr
+	"e" det pos m sp
+;	"e" vpart obj
+;	"direct" prn obj p3 m sg
+;	"e" n m sp
+"<elgez>"
+	"elgez" n f sg
+"<.>"
+	"." sent
+
+# text = Emaout o vont da sachañ ar c'harr war da gein.
+# text[eng] = You are going to pull the cart on your back.
+# labels = timm_1988 to_check
+"<Emaout>"
+	"bezañ" vbloc pri p2 sg
+"<o>"
+	"o" vpart ger
+;	"o" ij
+;	"o" n m sp
+;	"o" det pos mf sp
+;	"direct" prn obj p3 mf pl
+"<vont>"
+	"mont" vblex inf
+"<da>"
+	"da" pr
+;	"da" det pos mf sp
+"<sachañ>"
+	"sachañ" vblex inf
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<c'harr>"
+	"karr" n m sg
+"<war>"
+	"war" pr
+;	"gwar" n m sg
+"<da>"
+	"da" det pos mf sp
+;	"da" pr
+"<gein>"
+	"kein" n m sg
+;	"keinañ" vblex imp p2 sg
+;	"keinañ" vblex pri p3 sg
+"<.>"
+	"." sent
+
+# text = Ne douin ket ne oa netra da damall d'am distagadur.
+# text[eng] = I won't swear that there was nothing to complaint about in my pronunciation.
+# labels = timm_1988 to_check
+"<Ne>"
+	"ne" adv neg
+"<douin>"
+	"touiñ" vblex fti p1 sg
+"<ket>"
+	"ket" adv
+"<ne>"
+	"ne" adv neg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<netra>"
+	"netra" prn def mf sg
+"<da>"
+	"da" pr
+	"da" det pos mf sp
+"<damall>"
+	"tamall" n m sg
+;	"tamall" vblex imp p2 sg
+;	"tamall" vblex inf
+;	"tamall" vblex pri p3 sg
+"<d'am>"
+	"da" pr
+		"ma" det pos mf sp
+"<distagadur>"
+	"distagadur" n m sg
+"<.>"
+	"." sent
+
+# text = Gwech ebet n'in da skeiñ war unan n'anavezan ket.
+# text[eng] = I will never hit one who I don't know.
+# labels = timm_1988 to_check
+"<Gwech ebet>"
+	"gwech ebet" adv
+"<n'>"
+	"ne" adv neg
+"<in>"
+	"mont" vblex fti p1 sg
+	"monet" vblex fti p1 sg
+"<da>"
+	"da" pr
+;	"da" det pos mf sp
+"<skeiñ>"
+	"skeiñ" vblex inf
+"<war>"
+	"war" pr
+;	"gwar" n m sg
+"<unan>"
+	"unan" num mf sg
+;	"unaniñ" vblex imp p2 sg
+;	"unaniñ" vblex pri p3 sg
+"<n'>"
+	"ne" adv neg
+"<anavezan>"
+	"anavezout" vblex pri p1 sg
+"<ket>"
+	"ket" adv
+"<.>"
+	"." sent
+
+# text = Hennezh a oa un den mat a zifenne ar vrol.
+# text[eng] = He was a good man who defended the country.
+# labels = timm_1988 to_check
+"<Hennezh>"
+	"hennezh" prn dem m sg
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<un>"
+	"un" det ind sp
+"<den>"
+	"den" n m sg
+;	"denañ" vblex imp p2 sg
+;	"denañ" vblex pri p3 sg
+;	"den" adv
+"<mat>"
+	"mat" adj mf sp
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<zifenne>"
+	"difenn" vblex pii p3 sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<vrol>"
+	"*vrol"
+"<.>"
+	"." sent
+
+# text = Dont a ra soñj din, a-hend-all, eus ar c'homzoù a gane ma mamm d'am breuder ha din.
+# text[eng] = I remember above all the words that my mother sang to my brothers and me.
+# labels = timm_1988 to_check
+"<Dont>"
+	"dont" vblex inf
+"<a>"
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"a" pr
+;	"monet" vblex pri p3 sg
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+"<ra>"
+	"ober" vblex pri p3 sg
+;	"ober" vblex imp p2 sg
+;	"ra" vpart opt
+"<soñj>"
+	"soñj" n m sg
+;	"soñjal" vblex imp p2 sg
+;	"soñjal" vblex pri p3 sg
+"<din>"
+	"da" pr
+		"indirect" prn obj p1 mf sg
+;	"tin" n m sg
+"<,>"
+	"," cm @punct MAP:185:synpunct
+"<a-hend-all>"
+	"a-hend-all" adv
+"<,>"
+	"," cm @punct MAP:185:synpunct
+"<eus>"
+	"eus" pr
+;	"bezañ" vblex pri p3 sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<c'homzoù>"
+	"komz" n f pl
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<gane>"
+	"kanal" vblex pii p3 sg
+	"kanañ" vblex pii p3 sg
+	"kaniñ" vblex pii p3 sg
+;	"genel" vblex pii p3 sg
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij
+;	"ma" cnjsub
+"<mamm>"
+	"mamm" n f sg
+"<d'am>"
+	"da" pr
+		"ma" det pos mf sp
+"<breuder>"
+	"*breuder"
+"<ha>"
+	"ha" cnjcoo
+;	"ha" ij
+"<din>"
+	"da" pr
+		"indirect" prn obj p1 mf sg
+;	"tin" n m sg
+"<.>"
+	"." sent
+
+# text = Glac'harus e oa planedenn ar baotred yaouank-se a veze ret dezho kuitaat o zud.
+# text[eng] = It was a painful fate for those men for whom it was necessary to leave their families and parishes.
+# labels = timm_1988 to_check
+"<Glac>"
+	"*Glac"
+"<'>"
+	"’" apos
+;	"a" vpart
+;	"e" vpart obj
+;	"o" vpart ger
+"<harus>"
+	"*harus"
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<planedenn>"
+	"planedenn" n f sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<baotred>"
+	"paotr" n m pl
+"<yaouank>"
+	"yaouank" adj mf sp
+"<-se>"
+	"se" adv
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<veze>"
+	"bezañ" vblex pih p3 sg
+"<ret>"
+	"ret" adj mf sp
+"<dezho>"
+	"da" pr
+		"indirect" prn obj p3 mf pl
+"<kuitaat>"
+	"kuitaat" vblex inf
+"<o>"
+	"o" det pos mf sp
+;	"o" vpart ger
+;	"direct" prn obj p3 mf pl
+;	"o" ij
+;	"o" n m sp
+"<zud>"
+	"den" n m pl
+"<.>"
+	"." sent
+
+# text = Tud 'zo n'o devo biken skiant ar reizhded.
+# text[eng] = There are people who are never conscious of justice.
+# labels = timm_1988 to_check
+"<Tud>"
+	"den" n m pl
+"<'zo>"
+	"bezañ" vblex pri p3 sg
+"<n'>"
+	"ne" adv neg
+"<o devo>"
+	"kaout" vblex fti p3 pl
+"<biken>"
+	"biken" adv
+;	"pikat" vblex pii p1 sg
+;	"pikañ" vblex pii p1 sg
+"<skiant>"
+	"skiant" n f sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<reizhded>"
+	"reizhded" n f sg
+"<.>"
+	"." sent
+
+# text = Tud am eus anavezet, oadet dija, hag a veze o komuniañ bep bloaz en oferenn gentañ.
+# text[eng] = I have known people, who were already old, who went to take communion every year at the first mass.
+# labels = timm_1988 to_check
+"<Tud>"
+	"den" n m pl
+"<am eus>"
+	"kaout" vblex pri p1 sg
+"<anavezet>"
+	"anavezout" vblex pp
+;	"anavezout" vblex imp p3 sg
+"<,>"
+	"," cm @punct MAP:185:synpunct
+"<oadet>"
+	"oadet" adj mf sp
+"<dija>"
+	"dija" adv
+"<,>"
+	"," cm @punct MAP:185:synpunct
+"<hag>"
+	"ha" cnjcoo
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<veze>"
+	"bezañ" vblex pih p3 sg
+"<o>"
+	"direct" prn obj p3 mf pl
+;	"o" vpart ger
+;	"o" ij
+;	"o" n m sp
+;	"o" det pos mf sp
+"<komuniañ>"
+	"*komuniañ"
+"<bep bloaz>"
+	"bep bloaz" adv
+"<en>"
+	"e" pr
+	"e" pr
+		"an" det def sp
+"<oferenn>"
+	"oferenn" n f sg
+"<gentañ>"
+	"kentañ" adj mf sp
+;	"kentañ" num ord mf sp
+"<.>"
+	"." sent
+
+# text = Ur gernevadez e oa anezhi.
+# text[eng] = She was a Cornouaillaise.
+# labels = timm_1988 to_check
+"<Ur>"
+	"un" det ind sp
+"<gernevadez>"
+	"*gernevadez"
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<anezhi>"
+	"direct" prn obj p3 f sg
+;	"eus" pr
+;		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent
+
+# text = Den e oa d'e c'her hag atao e sevene ar pezh en deveze prometet.
+# text[eng] = He was a man of his word and he always accomplished what he had promised.
+# labels = timm_1988 to_check
+"<Den>"
+	"den" adv
+	"den" n m sg
+;	"denañ" vblex imp p2 sg
+;	"denañ" vblex pri p3 sg
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<d'e>"
+	"da" pr
+		"e" det pos m sp
+"<c'her>"
+	"ger" n m sg
+;	"ker" adj mf sp
+"<hag>"
+	"ha" cnjcoo
+"<atao>"
+	"*atao"
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<sevene>"
+	"seveniñ" vblex pii p3 sg
+"<ar pezh>"
+	"ar pezh a" prn rel mf sg
+"<en deveze>"
+	"kaout" vblex pih p3 m sg
+"<prometet>"
+	"prometiñ" vblex pp
+;	"prometiñ" vblex imp p3 sg
+"<.>"
+	"." sent
+
+# text = Ur spered kurius a zen e oa ivez ma zad.
+# text[eng] = My father was also a curious sort of person.
+# labels = timm_1988 to_check
+"<Ur>"
+	"un" det ind sp
+"<spered>"
+	"spered" n m sg
+"<kurius>"
+	"kurius" adj mf sp
+"<a>"
+	"a" pr
+	"a" vpart
+;	"mont" vblex imp p2 sg
+;	"monet" vblex imp p2 sg
+;	"mont" vblex pri p3 sg
+;	"monet" vblex pri p3 sg
+;	"a" n m sp
+"<zen>"
+	"den" n m sg
+	"denañ" vblex pri p3 sg
+;	"denañ" vblex imp p2 sg
+"<e>"
+	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+;	"direct" prn obj p3 m sg
+"<oa>"
+	"bezañ" vblex pii p3 sg
+"<ivez>"
+	"ivez" adv
+"<ma>"
+	"ma" det pos mf sp
+;	"ma" ij
+;	"ma" cnjsub
+"<zad>"
+	"tad" n m sg
+"<.>"
+	"." sent
+
+# text = Neb n'en deus ket bevet e holl vuhez el labour-douar n'eo ket gouest da intent ar pezh a laran.
+# text[eng] = Whoever has not lived his whole life in agriculture is not able to understand what I say.
+# labels = timm_1988 to_check
+"<Neb>"
+	"neb" prn ind mf sg
+"<n'>"
+	"ne" adv neg
+"<en deus>"
+	"kaout" vblex pri p3 m sg
+"<ket>"
+	"ket" adv
+"<bevet>"
+	"bevañ" vblex pp
+	"beviñ" vblex pp
+;	"bevañ" vblex imp p3 sg
+;	"beviñ" vblex imp p3 sg
+"<e>"
+	"direct" prn obj p3 m sg
+;	"e" vpart obj
+;	"e" pr
+;	"e" n m sp
+;	"e" det pos m sp
+"<holl>"
+	"holl" adv
+	"holl" predet mf sp
+	"holl" prn ind mf pl
+"<vuhez>"
+	"buhez" n f sg
+;	"buheziñ" vblex imp p2 sg
+;	"buhezañ" vblex imp p2 sg
+;	"buheziñ" vblex pri p3 sg
+;	"buhezañ" vblex pri p3 sg
+"<el labour>"
+	"el labour" adv
+"<->"
+	"-" guio
+"<douar>"
+	"douar" n m sg
+;	"douarañ" vblex imp p2 sg
+;	"douarañ" vblex pri p3 sg
+"<n'>"
+	"ne" adv neg
+"<eo>"
+	"bezañ" vblex pri p3 sg
+"<ket>"
+	"ket" adv
+"<gouest>"
+	"gouest" adj mf sp
+"<da>"
+	"da" pr
+;	"da" det pos mf sp
+"<intent>"
+	"intent" vblex inf
+;	"intent" vblex imp p2 sg
+;	"intent" vblex pri p3 sg
+"<ar pezh a>"
+	"ar pezh a" prn rel mf sg
+"<laran>"
+	"*laran"
+"<.>"
+	"." sent
+
+# text = An hini a gonte ar c'haerañ hag a baee ar muiaña voeson a veze an tu kreñv gantañ.
+# text[eng] = The one who did the prettiest storytelling and paid the most for drinks came off the best.
+# labels = timm_1988 to_check
+"<An>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
+"<hini>"
+	"hini" adv
+	"hini" prn ind mf sg
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<gonte>"
+	"kontañ" vblex pii p3 sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<c'haerañ>"
+	"kaer" adj sint sup
+"<hag>"
+	"ha" cnjcoo
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<baee>"
+	"paeañ" vblex pii p3 sg
+"<ar>"
+	"an" det def sp
+;	"arat" vblex pri p3 sg
+"<muiaña>"
+	"*muiaña"
+"<voeson>"
+	"boeson" n m sg
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<veze>"
+	"bezañ" vblex pih p3 sg
+"<an>"
+	"an" det def sp
+;	"mont" vblex pri p1 sg
+;	"monet" vblex pri p1 sg
+"<tu kreñv>"
+	"tu# kreñv" n m sg
+"<gantañ>"
+	"gant" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent
+
+# text = Piv bennak a yelo di a gavo trawalc'h d'ober.
+# text[eng] = Whoever goes there will fidn enough to do.
+# labels = timm_1988 to_check
+"<Piv bennak>"
+	"piv bennak" prn ind mf sg
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<yelo di>"
+	"mont# di" vblex fti p3 sg
+"<a>"
+	"a" vpart
+;	"a" pr
+;	"a" n m sp
+;	"mont" vblex pri p3 sg
+;	"mont" vblex imp p2 sg
+;	"monet" vblex pri p3 sg
+;	"monet" vblex imp p2 sg
+"<gavo>"
+	"kavout" vblex fti p3 sg
+"<trawalc'h>"
+	"trawalc’h" adv
+;	"trawalc’h" ij
+"<d'>"
+	"da" pr
+"<ober>"
+	"ober" vblex inf
+;	"ober" n m sg
+"<.>"
+	"." sent
+
+"<.>"
+	"." sent
+
+

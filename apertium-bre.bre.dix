@@ -6996,7 +6996,7 @@
     <e lm="parez"><par n="initial-p"/><i>arez</i><par n="muenn__n"/></e>
     <e lm="pig"><par n="initial-p"/><i>ig</i><par n="muenn__n"/></e>
     <e lm="plac’h"><par n="initial-p"/><i>lac’h</i><par n="muenn__n"/></e>
-    <e lm="plac’h yaouank"><par n="initial-p"/><i>lac’h</i><par n="muenn__n"/><p><l><b/>yaouank</l><r><g><b/>yaouank</g></r></p></e>	
+<!--    <e lm="plac’h yaouank"><par n="initial-p"/><i>lac’h</i><par n="muenn__n"/><p><l><b/>yaouank</l><r><g><b/>yaouank</g></r></p></e>	-->
     <e lm="ran"><i>ran</i><par n="muenn__n"/></e>
     <e lm="rozenn"><i>rozenn</i><par n="muenn__n"/></e>
     <e lm="skrilh"><i>skrilh</i><par n="muenn__n"/></e>
