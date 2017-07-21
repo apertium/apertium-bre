@@ -165,7 +165,7 @@ LIST Language	= ("alamaneg" n) ("brezhoneg" n) ("euskareg" n) ("gallaoueg" n) ("
 
 # Sets
 
-SET PRE-N =  Adj | Det | Dem | NC | Num ; 
+SET PRE-N =  Adj | PreDet | Det | Dem | NC | Num ; 
 
 SET WORD = NC | Verb | Adj | Pr | Prn | Adv | CC | CS | Num | ("\?") ;
 SET MARK =  ("\,") | ("\:") | ("\;") ;
@@ -406,7 +406,8 @@ REMOVE DetPos IF (1C VerbFin) ;
 
 # Roet em eus anezhi dezhañ. An hanter anezhi .
 # Ne welin ket ac'hanoc'h
-SELECT PrnDObj IF ((-1 Verb) OR (-1 ("ket" adv))) ;
+# Neb n'en deus ket bevet e holl vuhez el labour-douar n'eo ket gouest da intent ar pezh a laran.
+SELECT PrnDObj IF ((-1 Verb) OR (-1 ("ket" adv))) (NOT 1 PRE-N OR NC) ;
 
 # REGLA (B0011): "Stad da lod"
 REMOVE PrnDObj IF (NOT -1 VerbFin) (NOT 1 VerbFin) ;

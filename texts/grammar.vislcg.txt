@@ -947,74 +947,48 @@
 # text[eng] = I remember above all the words that my mother sang to my brothers and me.
 # labels = timm_1988 to_check
 "<Dont>"
-	"dont" vblex inf
+	"dont" vblex inf @root #1->0
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"a" pr
-;	"monet" vblex pri p3 sg
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
+	"a" vpart @aux #2->1
 "<ra>"
-	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg
-;	"ra" vpart opt
+	"ober" vblex pri p3 sg @aux #3->1
 "<soñj>"
-	"soñj" n m sg
-;	"soñjal" vblex imp p2 sg
-;	"soñjal" vblex pri p3 sg
+	"soñj" n m sg @nsubj #4->1
 "<din>"
-	"da" pr
-		"indirect" prn obj p1 mf sg
-;	"tin" n m sg
+	"da" pr @case #5->6
+		"indirect" prn obj p1 mf sg @obl #6->1
 "<,>"
-	"," cm @punct MAP:185:synpunct
+	"," cm @punct #7->8
 "<a-hend-all>"
-	"a-hend-all" adv
+	"a-hend-all" adv @advmod #8->1
 "<,>"
-	"," cm @punct MAP:185:synpunct
+	"," cm @punct #9->8
 "<eus>"
-	"eus" pr
-;	"bezañ" vblex pri p3 sg
+	"eus" pr @case #10->12
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #11->12
 "<c'homzoù>"
-	"komz" n f pl
+	"komz" n f pl @obl #12->1
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #13->14
 "<gane>"
-	"kanal" vblex pii p3 sg
-	"kanañ" vblex pii p3 sg
-	"kaniñ" vblex pii p3 sg
-;	"genel" vblex pii p3 sg
+	"kanañ" vblex pii p3 sg @acl #14->12
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij
-;	"ma" cnjsub
+	"ma" det pos mf sp @det #15->16
 "<mamm>"
-	"mamm" n f sg
+	"mamm" n f sg @nsubj #16->14
 "<d'am>"
-	"da" pr
-		"ma" det pos mf sp
-"<breuder>"
-	"*breuder"
+	"da" pr @case #17->19
+		"ma" det pos mf sp @det #18->19
+"<breudeur>"
+	"breur" n m pl @obl #19->14
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij
+	"ha" cnjcoo @cc #20->22
 "<din>"
-	"da" pr
-		"indirect" prn obj p1 mf sg
-;	"tin" n m sg
+	"da" pr @case #21->22
+		"indirect" prn obj p1 mf sg @conj #22->19
 "<.>"
-	"." sent
+	"." sent @punct #23->1
 
 # text = Glac'harus e oa planedenn ar baotred yaouank-se a veze ret dezho kuitaat o zud.
 # text[eng] = It was a painful fate for those men for whom it was necessary to leave their families and parishes.
@@ -1178,16 +1152,9 @@
 # text[eng] = He was a man of his word and he always accomplished what he had promised.
 # labels = timm_1988 to_check
 "<Den>"
-	"den" adv
 	"den" n m sg
-;	"denañ" vblex imp p2 sg
-;	"denañ" vblex pri p3 sg
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<oa>"
 	"bezañ" vblex pii p3 sg
 "<d'e>"
@@ -1195,17 +1162,12 @@
 		"e" det pos m sp
 "<c'her>"
 	"ger" n m sg
-;	"ker" adj mf sp
 "<hag>"
 	"ha" cnjcoo
 "<atao>"
-	"*atao"
+	"atav" adv
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<sevene>"
 	"seveniñ" vblex pii p3 sg
 "<ar pezh>"
@@ -1214,90 +1176,59 @@
 	"kaout" vblex pih p3 m sg
 "<prometet>"
 	"prometiñ" vblex pp
-;	"prometiñ" vblex imp p3 sg
 "<.>"
 	"." sent
 
 # text = Ur spered kurius a zen e oa ivez ma zad.
 # text[eng] = My father was also a curious sort of person.
-# labels = timm_1988 to_check
+# labels = timm_1988 
 "<Ur>"
-	"un" det ind sp
+	"un" det ind sp @det #1->2
 "<spered>"
-	"spered" n m sg
+	"spered" n m sg @root #2->0
 "<kurius>"
-	"kurius" adj mf sp
+	"kurius" adj mf sp @amod #3->2
 "<a>"
-	"a" pr
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
-;	"a" n m sp
+	"a" pr @case #4->5
 "<zen>"
-	"den" n m sg
-	"denañ" vblex pri p3 sg
-;	"denañ" vblex imp p2 sg
+	"den" n m sg @nmod #5->4
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #6->2
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #7->2
 "<ivez>"
-	"ivez" adv
+	"ivez" adv @advmod #8->2
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij
-;	"ma" cnjsub
+	"ma" det pos mf sp @det #9->10
 "<zad>"
-	"tad" n m sg
+	"tad" n m sg @nsubj #10->2
 "<.>"
-	"." sent
+	"." sent @punct #11->2
 
 # text = Neb n'en deus ket bevet e holl vuhez el labour-douar n'eo ket gouest da intent ar pezh a laran.
 # text[eng] = Whoever has not lived his whole life in agriculture is not able to understand what I say.
 # labels = timm_1988 to_check
 "<Neb>"
-	"neb" prn ind mf sg
+	"neb" prn ind mf sg @nsubj
 "<n'>"
-	"ne" adv neg
+	"ne" adv neg @advmod
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod
 "<bevet>"
-	"bevañ" vblex pp
-	"beviñ" vblex pp
-;	"bevañ" vblex imp p3 sg
-;	"beviñ" vblex imp p3 sg
+	"bevañ" vblex pp @root
 "<e>"
-	"direct" prn obj p3 m sg
-;	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-"<holl>"
-	"holl" adv
-	"holl" predet mf sp
-	"holl" prn ind mf pl
+	"e" det pos m sp @det
+"<holl>" 
+	"holl" predet mf sp @det
 "<vuhez>"
-	"buhez" n f sg
-;	"buheziñ" vblex imp p2 sg
-;	"buhezañ" vblex imp p2 sg
-;	"buheziñ" vblex pri p3 sg
-;	"buhezañ" vblex pri p3 sg
-"<el labour>"
-	"el labour" adv
-"<->"
-	"-" guio
-"<douar>"
-	"douar" n m sg
-;	"douarañ" vblex imp p2 sg
-;	"douarañ" vblex pri p3 sg
+	"buhez" n f sg @obj
+"<el>"
+	"e" pr @case
+		"an" det def sp @det
+"<labour-douar>"
+	"labour-douar" n m sg @obl
 "<n'>"
 	"ne" adv neg
 "<eo>"
@@ -1308,11 +1239,8 @@
 	"gouest" adj mf sp
 "<da>"
 	"da" pr
-;	"da" det pos mf sp
 "<intent>"
 	"intent" vblex inf
-;	"intent" vblex imp p2 sg
-;	"intent" vblex pri p3 sg
 "<ar pezh a>"
 	"ar pezh a" prn rel mf sg
 "<laran>"

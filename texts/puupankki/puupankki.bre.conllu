@@ -1213,6 +1213,53 @@
 10	dan	tan	NOUN	n	Gender=Msc|Number=Sing	7	obj	_	_
 11	.	.	PUNCT	sent	_	7	punct	_	_
 
+# sent_id = grammar.vislcg.txt:13:228
+# text = Dont a ra soñj din, a-hend-all, eus ar c'homzoù a gane ma mamm d'am breuder ha din.
+# text[eng] = I remember above all the words that my mother sang to my brothers and me.
+# labels = timm_1988 to_check
+1	Dont	dont	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	soñj	soñj	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5-6	din	_	_	_	_	_	_	_	_
+5	din	da	ADP	pr	_	6	case	_	_
+6	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	1	obl	_	_
+7	,	,	PUNCT	cm	_	8	punct	_	_
+8	a-hend-all	a-hend-all	ADV	adv	_	1	advmod	_	_
+9	,	,	PUNCT	cm	_	8	punct	_	_
+10	eus	eus	ADP	pr	_	12	case	_	_
+11	ar	an	DET	det	_	12	det	_	_
+12	c'homzoù	komz	NOUN	n	Gender=Fem|Number=Plur	1	obl	_	_
+13	a	a	PART	vpart	_	14	aux	_	_
+14	gane	kanañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	_
+15	ma	ma	DET	det	PronType=Pos	16	det	_	_
+16	mamm	mamm	NOUN	n	Gender=Fem|Number=Sing	14	nsubj	_	_
+17-18	d'am	_	_	_	_	_	_	_	_
+17	d	da	ADP	pr	_	19	case	_	_
+18	am	ma	DET	det	PronType=Pos	19	det	_	_
+19	breudeur	breur	NOUN	n	Gender=Msc|Number=Plur	14	obl	_	_
+20	ha	ha	CCONJ	cnjcoo	_	22	cc	_	_
+21-22	din	_	_	_	_	_	_	_	_
+21	din	da	ADP	pr	_	22	case	_	_
+22	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	19	conj	_	_
+23	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:14:275
+# text = Ur spered kurius a zen e oa ivez ma zad.
+# text[eng] = My father was also a curious sort of person.
+# labels = timm_1988 
+1	Ur	un	DET	det	_	2	det	_	_
+2	spered	spered	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+3	kurius	kurius	ADJ	adj	_	2	amod	_	_
+4	a	a	ADP	pr	_	5	case	_	_
+5	zen	den	NOUN	n	Gender=Msc|Number=Sing	4	nmod	_	_
+6	e	e	PART	vpart	_	2	aux	_	_
+7	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+8	ivez	ivez	ADV	adv	_	2	advmod	_	_
+9	ma	ma	DET	det	PronType=Pos	10	det	_	_
+10	zad	tad	NOUN	n	Gender=Msc|Number=Sing	2	nsubj	_	_
+11	.	.	PUNCT	sent	_	2	punct	_	_
+
 # sent_id = miscellaneous.vislcg.txt:1:0
 # text = Me zo o komz gant ma amezeg.
 1	Me	me	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_
