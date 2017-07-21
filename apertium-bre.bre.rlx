@@ -225,7 +225,7 @@ REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (1 Adv) ;
 REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (NOT 1 VerbInf) ;
 
 # ne'z a ket mat. ne ya ket mat. 
-SELECT VerbFin IF (-1C ("ne"ri adv)) (0 VerbFin) (1C ("ket" adv)) ;
+SELECT VerbFin IF (-1C ("ne" adv)) (0 VerbFin) (1C ("ket" adv)) ;
 
 # "pell ez a an dud"
 REMOVE Vpart IF (-1C Vpart) ;
@@ -233,11 +233,12 @@ REMOVE Vpart IF (-1C Vpart) ;
 # "pell ez a an dud"
 SELECT Verb IF (-1C Vpart) ;
 
-# "dav e vije"
-SELECT:Vpart_if_only_Vfin Vpart IF (1C VerbFin) ;
+# Dav e vije.
+# Bremañ o gwelan.
+SELECT:Vpart_if_only_Vfin Vpart IF (1C VerbFin) (NOT 0 VpartGer) ;
 
 # Remove imperatives for now
-REMOVE VerbImp IF (0 VerbImp) (NOT 1* ("!")) ;
+REMOVE VerbImp IF (0 VerbImp) (NOT 1* Excl) ;
 
 # tri ober
 SELECT NC IF (-1 Num) (0 NC) (0 VerbInf) ;
@@ -245,16 +246,16 @@ SELECT NC IF (-1 Num) (0 NC) (0 VerbInf) ;
 #an treiñ emgefre
 SELECT NC IF (-1 ("an"ri det def)) (0 NC) (0 VerbInf) ;
 
-REMOVE ("ober"ri n) IF (NOT -1 Det) ;
+REMOVE ("ober" n) IF (NOT -1 Det) ;
 
 #ar bed
 REMOVE VerbFin IF (-1 ("<ar>"ri det def)) ;
 
 #c'hoari a reont.
-REMOVE NC IF (0 NC) (0 VerbInf) (1 ("a"ri pr)) (2 ("ober" vblex pri)) ;
+REMOVE NC IF (0 NC) (0 VerbInf) (1 ("a" pr)) (2 ("ober" vblex pri)) ;
 
 # REGLA (B    ): "Ur perzh 20€ zo bet goulennet evit kaout e anv engravet war unan eus karrezennigoù ar murlivadur. "
-REMOVE Vpart IF (-1 ("kaout"ri vblex inf)) ; 
+REMOVE Vpart IF (-1 ("kaout" vblex inf)) ; 
 
 # implijout ar brezhoneg war ar panelloù kelaouiñ elektronek, prenañ ingal levrioù e brezhoneg evit ar vediaoueg, aozañ abadennoù e brezhoneg, stankaat ar c’hentelioù tañva brezhoneg er skolioù, komz brezhoneg e-pad al lidoù ofisiel.
 REMOVE ("komz" n) IF (1 NC) ;
@@ -423,7 +424,8 @@ SELECT PreDet IF (-1 Det) (1 NC) ;
 REMOVE VerbImp IF (-1 VerbFin) ;
 
 # REGLA (B0014): "Yann a zeuy" / "tud zo e Brest" / "e buhez ur yezh"
-SELECT:Vpart_if_Vfin Vpart IF (1 VerbFin) (NOT 1 Prop) (NOT 1 NC) ;
+#              : "Bremañ o gwelan."
+SELECT:Vpart_if_Vfin Vpart IF (1 VerbFin) (NOT 1 Prop) (NOT 1 NC) (NOT 0 VpartGer) ;
 
 # REGLA (B0016): >The particle is omitted before every form of 'kaout' and the locative forms of 'bezañ'
 REMOVE Vpart IF (1 ("kaout" vblex)) ;
@@ -912,6 +914,8 @@ REMOVE N IF (0 E) (1 Digit) ;
 REMOVE Letter IF (0 Letter OR Pr OR DetPos) (NOT 1 Lpar) ;
 
 REMOVE Adv IF (0 Den) (-1 Det) ;
+
+REMOVE VpartGer IF (NOT 1 VerbInf) ;
 
 ###############################################################################
 ## Lexical selection 

@@ -1808,6 +1808,89 @@
 "<.>"
 	"." sent @punct #10->6
 
+# text = Stlepel a reas e liñsel pell dioutañ hag e frotas e elgez.
+# text[eng] = He threw the sheet away from him and rubbed his chin.
+# labels = timm_1988
+"<Stlepel>"
+	"stlepel" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<reas>"
+	"ober" vblex past p3 sg @aux #3->1
+"<e>"
+	"e" det pos m sp @det #4->5
+"<liñsel>"
+	"liñsel" n f sg @obj #5->1
+"<pell>"
+	"pell" adj mf sp @amod #6->5
+"<dioutañ>"
+	"diouzh" pr @case #7->8
+		"indirect" prn obj p3 m sg @obl #8->1
+"<hag>"
+	"ha" cnjcoo @cc #9->11
+"<e>"
+	"e" vpart obj @aux #10->11
+"<frotas>"
+	"frotañ" vblex past p3 sg @conj #11->1
+"<e>"
+	"e" det pos m sp @det #12->13
+"<elgez>"
+	"elgez" n f sg @obj #13->11
+"<.>"
+	"." sent @punct #14->1
+
+# text = Emaout o vont da sachañ ar c'harr war da gein.
+# text[eng] = You are going to pull the cart on your back.
+# labels = timm_1988 to_check
+"<Emaout>"
+	"bezañ" vbloc pri p2 sg @aux #1->3
+"<o>"
+	"o" vpart ger @aux #2->3
+"<vont>"
+	"mont" vblex inf @root #3->0
+"<da>"
+	"da" pr @mark  #4->5
+"<sachañ>"
+	"sachañ" vblex inf @xcomp #5->3
+"<ar>"
+	"an" det def sp @det #6->7
+"<c'harr>"
+	"karr" n m sg @obj #7->5
+"<war>"
+	"war" pr @case #8->10
+"<da>"
+	"da" det pos mf sp @det #9->10
+"<gein>"
+	"kein" n m sg @obl #10->5
+"<.>"
+	"." sent @punct #11->3
+
+# text = Gwech ebet n'in da skeiñ war unan n'anavezan ket.
+# text[eng] = I will never hit one who I don't know.
+# labels = timm_1988 to_check
+"<Gwech ebet>"
+	"gwech ebet" adv @advmod #1->3
+"<n'>"
+	"ne" adv neg @advmod #2->3
+"<in>"
+	"mont" vblex fti p1 sg @root #3->0
+"<da>"
+	"da" pr @mark #4->5
+"<skeiñ>"
+	"skeiñ" vblex inf @xcomp #5->3
+"<war>"
+	"war" pr @case #6->7
+"<unan>"
+	"unan" num mf sg @obl #7->3
+"<n'>"
+	"ne" adv neg @advmod #8->9
+"<anavezan>"
+	"anavezout" vblex pri p1 sg @acl #9->7
+"<ket>"
+	"ket" adv @advmod #10->9
+"<.>"
+	"." sent @punct #11->3
+
 # text = Hennezh a oa un den mat a zifenne ar vrol.
 # text[eng] = He was a good man who defended the country.
 # labels = timm_1988 
@@ -1943,6 +2026,453 @@
 	"tad" n m sg @nsubj #10->2
 "<.>"
 	"." sent @punct #11->2
+
+# text = Int a baeas tour ar bannac'hoù.
+# text[eng] = They paid for all the drinks.
+# labels = stephens_1993 to_check
+"<Int>"
+	"prpers" prn subj p3 mf pl @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<baeas>"
+	"paeañ" vblex past p3 sg @root #3->0
+"<tour>"
+	"tour" n m sg @obj #4->3
+"<ar>"
+	"an" det def sp @det #5->6
+"<bannac'hoù>"
+	"bannac’h" n m pl @nmod:gen #6->4
+"<.>"
+	"." sent @punct #7->3
+
+# text = Hi a welan alies.
+# text[eng] = I often see her.
+# labels = stephens_1993 to_check
+"<Hi>"
+	"prpers" prn subj p3 f sg @obj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<welan>"
+	"gwelout" vblex pri p1 sg @root #3->0
+"<alies>"
+	"alies" adv @advmod #4->3
+"<.>"
+	"." sent @punct #5->3
+
+# text = Bremañ e lennan-me al lizher.
+# text[eng] = I read the letter now.
+# labels = stephens_1993 to_check
+"<Bremañ>"
+	"bremañ" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<lennan>"
+	"lenn" vblex pri p1 sg @root #3->0
+"<-me>"
+	"prpers" prn subj p1 mf sg @nsubj #4->3
+"<al>"
+	"an" det def sp @det #5->6
+"<lizher>"
+	"lizher" n m sg @obj #6->3
+"<.>"
+	"." sent @punct #7->3
+
+# text = Ne lennan-me ket al lizher.
+# text[eng] = I don't read the letter.
+# labels = stephens_1993 to_check
+"<Ne>"
+	"ne" adv neg @advmod #1->2
+"<lennan>"
+	"lenn" vblex pri p1 sg @root #2->0
+"<-me>"
+	"prpers" prn subj p1 mf sg @nsubj #3->2
+"<ket>"
+	"ket" adv @advmod #4->2
+"<al>"
+	"an" det def sp @det #5->6
+"<lizher>"
+	"lizher" n m sg @obj #6->2
+"<.>"
+	"." sent @punct #7->2
+
+# text = Bremañ o gwelan.
+# text[eng] = I see them now.
+# labels = stephens_1993 to_check
+"<Bremañ>"
+	"bremañ" adv @advmod #1->3
+"<o>"
+	"direct" prn obj p3 mf pl @obj #2->3
+"<gwelan>"
+	"gwelout" vblex pri p1 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = O gwelout a ran bremañ.
+# text[eng] = I see them now.
+# labels = stephens_1993 to_check
+"<O>"
+	"direct" prn obj p3 mf pl @obj #1->2
+"<gwelout>"
+	"gwelout" vblex inf @root #2->0
+"<a>"
+	"a" vpart @aux #3->2
+"<ran>"
+	"ober" vblex pri p1 sg @aux #4->2
+"<bremañ>"
+	"bremañ" adv @advmod #5->2
+"<.>"
+	"." sent @punct #6->2
+
+# text = E kêr e welas Yannig anezho.
+# text[eng] = Yannig saw them in town.
+# labels = stephens_1993 to_check
+"<E>"
+	"e" pr @case #1->2
+"<kêr>"
+	"kêr" n f sg @obl #2->4
+"<e>"
+	"e" vpart obj @aux #3->4
+"<welas>"
+	"gwelout" vblex past p3 sg @root #4->0
+"<Yannig>"
+	"Yannig" np ant m sg @nsubj #5->4
+"<anezho>"
+	"direct" prn obj p3 mf pl @obj #6->4
+"<.>"
+	"." sent @punct #7->4
+
+# text = N'eo ket gwezet an ti.
+# text[eng] = The house is not sold.
+# labels = stephens_1993 to_check
+"<N'>"
+	"ne" adv neg @advmod #1->4
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux:pass #2->4
+"<ket>"
+	"ket" adv @advmod #3->4
+"<gwezet>"
+	"gwerzhañ" vblex pp @root #4->0
+"<an>"
+	"an" det def sp @det #5->6
+"<ti>"
+	"ti" n m sg @nsubj #6->4
+"<.>"
+	"." sent @punct #7->4
+
+# text = Lenn a reas Lenaig al levr.
+# text[eng] = Lenaig read the book.
+# labels = stephens_1993 to_check
+"<Lenn>"
+	"lenn" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<reas>"
+	"ober" vblex past p3 sg @aux #3->1
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #4->1
+"<al>"
+	"an" det def sp @det #5->6
+"<levr>"
+	"levr" n m sg @obj #6->1
+"<.>"
+	"." sent @punct #7->1
+
+# text = Lennet e oa al levr gant Lenaig.
+# text[eng] = The book was read by Lenaig.
+# labels = stephens_1993 to_check
+"<Lennet>"
+	"lenn" vblex pp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #3->1
+"<al>"
+	"an" det def sp @det #4->5
+"<levr>"
+	"levr" n m sg @nsubj #5->1
+"<gant>"
+	"gant" pr @case #6->7
+"<Lenaig>"
+	"Lenaig" np ant f sg @obl:agent #7->1
+"<.>" 
+	"." sent @punct #8->1
+
+# text = An ti a zo bihan.
+# text[eng] = The house is small.
+# labels = stephens_1993 to_check
+"<An>"
+	"an" det def sp @det #1->2
+"<ti>"
+	"ti" n m sg @nsubj #2->5
+"<a>"
+	"a" vpart @aux #3->5
+"<zo>"
+	"bezañ" vblex pri p3 sg @cop #4->5
+"<bihan>"
+	"bihan" adj mf sp @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# text = Bihan eo an ti.
+# text[eng] = The house is small.
+# labels = stephens_1993 to_check
+"<Bihan>"
+	"bihan" adj mf sp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->1
+"<an>"
+	"an" det def sp @det #3->4
+"<ti>"
+	"ti" n m sg @nsubj #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# text = Bremañ eo bravoc'h.
+# text[eng] = It's nicer now.
+# labels = stephens_1993 to_check
+"<Bremañ>"
+	"bremañ" adv @advmod #1->3
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->3
+"<bravoc'h>"
+	"brav" adj sint comp @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Bravoc'h eo bremañ.
+# text[eng] = It's nicer now.
+# labels = stephens_1993 to_check
+"<Bravoc'h>"
+	"brav" adj sint comp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->1
+"<bremañ>"
+	"bremañ" adv @advmod #3->1
+"<.>"
+	"." sent @punct #4->1
+
+# text = Ur milion a oa koustet dezho.
+# text[eng] = It had cost them one million.
+# labels = stephens_1993 to_check
+"<Ur>"
+	"un" det ind sp @det #1->2
+"<milion>"
+	"milion" n m sg @obj #2->5
+"<a>"
+	"a" vpart @aux #3->5
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #4->5
+"<koustet>"
+	"koustañ" vblex pp @root #5->0
+"<dezho>"
+	"da" pr @case #6->7
+		"indirect" prn obj p3 mf pl @obl #7->5
+"<.>"
+	"." sent @punct #8->5
+
+# text = Galvet e oa pep den.
+# text[eng] = Each one was called.
+# labels = stephens_1993 to_check
+"<Galvet>"
+	"gelver" vblex pp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux:pass #3->1
+"<pep>"
+	"pep" det ind mf sg @det #4->5
+"<den>"
+	"den" n m sg @nsubj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Galvet e oa kement den a oa war dro.
+# text[eng] = Each person who was around was called.
+# labels = stephens_1993 to_check
+"<Galvet>"
+	"gelver" vblex pp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux:pass #3->1
+"<kement>"
+	"kement" det ind mf sg @det #4->5
+"<den>"
+	"den" n m sg @nsubj #5->1
+"<a>"
+	"a" vpart @aux #6->9
+"<oa>"
+	"bezañ" vblex pii p3 sg @cop #7->9
+"<war>"
+	"war" pr @case #8->9
+"<dro>"
+	"tro" n f sg @acl #9->5
+"<.>"
+	"." sent @punct #10->1
+
+# text = Arruet eo.
+# text[eng] = She has arrived
+# labels = stephens_1993 to_check
+"<Arruet>"
+	"arruout" vblex pp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Chomet eo.
+# text[eng] = She has stayed.
+# labels = stephens_1993 to_check
+"<Chomet>"
+	"chom" vblex pp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Savet eo.
+# text[eng] = She has got up.
+# labels = stephens_1993 to_check
+"<Savet>"
+	"sevel" vblex pp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Kousket on.
+# text[eng] = I am asleep.
+# labels = stephens_1993 to_check
+"<Kousket>"
+	"kousket" vblex pp @root #1->0
+"<on>"
+	"bezañ" vblex pri p1 sg @aux #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Kousket am eus.
+# text[eng] = I have slept.
+# labels = stephens_1993 to_check
+"<Kousket>"
+	"kousket" vblex pp @root #1->0
+"<am eus>"
+	"kaout" vblex pri p1 sg @aux #2->1
+"<.>" 
+	"." sent @punct #3->1
+
+# text = Lenn a ra Lenaig al levr.
+# text[eng] = Lenaig reads the book.
+# labels = stephens_1993 to_check
+"<Lenn>"
+	"lenn" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ra>"
+	"ober" vblex pri p3 sg @aux #3->1
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #4->1
+"<al>"
+	"an" det def sp @det #5->6
+"<levr>"
+	"levr" n m sg @root #6->1
+"<.>"
+	"." sent @punct #7->1
+
+# text = Lennet he deus Lenaig al levr.
+# text[eng] = Lenaig has read the book.
+# labels = stephens_1993 to_check
+"<Lennet>"
+	"lenn" vblex pp @root #1->0
+"<he deus>"
+	"kaout" vblex pri p3 f sg @aux #2->1
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #3->1
+"<al>"
+	"an" det def sp @det #4->5
+"<levr>"
+	"levr" n m sg @obj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Lennet eo al levr gant Lenaig.
+# text[eng] = The book is read by Lenaig.
+# labels = stephens_1993 to_check
+"<Lennet>"
+	"lenn" vblex pp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux:pass #2->1
+"<al>"
+	"an" det def sp @det #3->4
+"<levr>"
+	"levr" n m sg @nsubj #4->1
+"<gant>"
+	"gant" pr @det #5->6
+"<Lenaig>"
+	"Lenaig" np ant f sg @obl:agent #6->1
+"<.>"
+	"." sent @punct #7->1
+
+# text = Bremañ e welan he deus lennet Lenaig al levr.
+# text[eng] = I see now that Lenaig has read the book.
+# labels = stephens_1993 to_check
+"<Bremañ>"
+	"bremañ" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<welan>"
+	"gwelout" vblex pri p1 sg @root #3->0
+"<he deus>"
+	"kaout" vblex pri p3 f sg @aux #4->5
+"<lennet>"
+	"lenn" vblex pp @ccomp #5->3
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #6->5
+"<al>"
+	"an" det def sp @det #7->8
+"<levr>"
+	"levr" n m sg @obj #8->5
+"<.>"
+	"." sent @punct #9->3
+
+# text = Bremañ e welan eo lennet al levr gant Lenaig.
+# text[eng] = I see now that the book is read by Lenaig.
+# labels = stephens_1993 to_check
+"<Bremañ>"
+	"bremañ" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<welan>"
+	"gwelout" vblex pri p1 sg @root #3->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux:pass #4->5
+"<lennet>"
+	"lenn" vblex pp @ccomp #5->3
+"<al>"
+	"an" det def sp @det #6->7
+"<levr>"
+	"levr" n m sg @nsubj #7->5
+"<gant>"
+	"gant" pr @case #8->9
+"<Lenaig>"
+	"Lenaig" np ant f sg @obl:agent #9->5
+"<.>"
+	"." sent @punct #10->3
+
+# text = Bremañ e lenn ar vugale.
+# text[eng] = The children read now.
+# labels = stephens_1993 to_check
+"<Bremañ>"
+	"bremañ" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<lenn>"
+	"lenn" vblex pri p3 sg @root #3->0
+"<ar>"
+	"an" det def sp @det #4->5
+"<vugale>"
+	"bugel" n m pl @nsubj #5->3
+"<.>"
+	"." sent @punct #6->3
 
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->4
