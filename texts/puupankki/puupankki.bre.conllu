@@ -1214,9 +1214,25 @@
 11	.	.	PUNCT	sent	_	7	punct	_	_
 
 # sent_id = grammar.vislcg.txt:13:228
+# text = Hennezh a oa un den mat a zifenne ar vrol.
+# text[eng] = He was a good man who defended the country.
+# labels = timm_1988 to_check
+1	Hennezh	hennezh	PRON	prn	Gender=Msc|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	a	a	PART	vpart	_	5	aux	_	_
+3	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	un	un	DET	det	_	5	det	_	_
+5	den	den	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+6	mat	mat	ADJ	adj	_	5	amod	_	_
+7	a	a	PART	vpart	_	8	aux	_	_
+8	zifenne	difenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+9	ar	an	DET	det	_	10	det	_	_
+10	vro	bro	NOUN	n	Gender=Fem|Number=Sing	8	obj	_	_
+11	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:14:254
 # text = Dont a ra soñj din, a-hend-all, eus ar c'homzoù a gane ma mamm d'am breuder ha din.
 # text[eng] = I remember above all the words that my mother sang to my brothers and me.
-# labels = timm_1988 to_check
+# labels = timm_1988
 1	Dont	dont	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	a	a	PART	vpart	_	1	aux	_	_
 3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
@@ -1244,7 +1260,7 @@
 22	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	19	conj	_	_
 23	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:14:275
+# sent_id = grammar.vislcg.txt:15:301
 # text = Ur spered kurius a zen e oa ivez ma zad.
 # text[eng] = My father was also a curious sort of person.
 # labels = timm_1988 

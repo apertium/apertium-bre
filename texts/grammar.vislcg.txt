@@ -903,49 +903,33 @@
 
 # text = Hennezh a oa un den mat a zifenne ar vrol.
 # text[eng] = He was a good man who defended the country.
-# labels = timm_1988 to_check
+# labels = timm_1988 
 "<Hennezh>"
-	"hennezh" prn dem m sg
+	"hennezh" prn dem m sg @nsubj #1->5
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #2->5
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #3->5
 "<un>"
-	"un" det ind sp
+	"un" det ind sp @det #4->5
 "<den>"
-	"den" n m sg
-;	"denañ" vblex imp p2 sg
-;	"denañ" vblex pri p3 sg
-;	"den" adv
+	"den" n m sg @root #5->0
 "<mat>"
-	"mat" adj mf sp
+	"mat" adj mf sp @amod #6->5
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #7->8
 "<zifenne>"
-	"difenn" vblex pii p3 sg
+	"difenn" vblex pii p3 sg @acl #8->5
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
-"<vrol>"
-	"*vrol"
+	"an" det def sp @det #9->10
+"<vro>"
+	"bro" n f sg @obj #10->8
 "<.>"
-	"." sent
+	"." sent @punct #11->5
 
 # text = Dont a ra soñj din, a-hend-all, eus ar c'homzoù a gane ma mamm d'am breuder ha din.
 # text[eng] = I remember above all the words that my mother sang to my brothers and me.
-# labels = timm_1988 to_check
+# labels = timm_1988
 "<Dont>"
 	"dont" vblex inf @root #1->0
 "<a>"
