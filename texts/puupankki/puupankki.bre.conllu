@@ -1674,6 +1674,60 @@
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:49:914
+# text = Bremañ ne lennont ket ar vugale.
+# text[eng] = The children do not read now.
+# labels = stephens_1993 to_check
+1	Bremañ	bremañ	ADV	adv	_	3	advmod	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	3	advmod	_	_
+3	lennont	lenn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ket	ket	ADV	adv	_	3	advmod	_	_
+5	ar	an	DET	det	_	6	det	_	_
+6	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	3	nsubj	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:50:932
+# text = Bremañ e lennont.
+# text[eng] = They read now.
+# labels = stephens_1993 to_check
+1	Bremañ	bremañ	ADV	adv	_	3	advmod	_	_
+2	e	e	PART	vpart	_	3	aux	_	_
+3	lennont	lenn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:51:944
+# text = Bremañ ne lennont ket.
+# text[eng] = They do not read now.
+# labels = stephens_1993 to_check
+1	Bremañ	bremañ	ADV	adv	_	3	advmod	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	3	advmod	_	_
+3	lennont	lenn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ket	ket	ADV	adv	_	3	advmod	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:52:958
+# text = Bremañ e lennont int.
+# text[eng] = They read now.
+# labels = stephens_1993 to_check
+1	Bremañ	bremañ	ADV	adv	_	3	advmod	_	_
+2	e	e	PART	vpart	_	3	aux	_	_
+3	lennont	lenn	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	int	prpers	_	prn	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	nsubj	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:53:972
+# text = Ar vugale a ziskenn betek an hent.
+# text[eng] = The children go down to the road.
+# labels = stephens_1993 to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	4	nsubj	_	_
+3	a	a	PART	vpart	_	4	aux	_	_
+4	ziskenn	diskenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	betek	betek	ADP	pr	_	7	case	_	_
+6	an	an	DET	det	_	7	det	_	_
+7	hent	hent	NOUN	n	Gender=Msc|Number=Sing	4	obl	_	_
+8	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:54:992
 # text = Betek an hent e tiskenn ar vugale.
 # text[eng] = The children go down to the road.
 # labels = stephens_1993 to_check
@@ -1686,7 +1740,32 @@
 7	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	5	nsubj	_	_
 8	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = grammar.vislcg.txt:50:934
+# sent_id = grammar.vislcg.txt:55:1012
+# text = Ne ziskenn ket ar vugale betek an hent.
+# text[eng] = The children don't go down to the road.
+# labels = stephens_1993 to_check
+1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	ziskenn	diskenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	2	nsubj	_	_
+6	betek	betek	ADP	pr	_	8	case	_	_
+7	an	an	DET	det	_	8	det	_	_
+8	hent	hent	NOUN	n	Gender=Msc|Number=Sing	2	obl	_	_
+9	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:56:1034
+# text = Emañ ar vugale o tiskenn.
+# text[eng] = The children are going down.
+# labels = stephens_1993 to_check
+1	Emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	ar	an	DET	det	_	3	det	_	_
+3	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	5	nsubj	_	_
+4	o	o	PART	vpart	_	5	aux	_	_
+5	tiskenn	diskenn	VERB	vblex	VerbForm=Inf	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:57:1050
 # text = Emañ ar vugale 'tiskenn.
 # text[eng] = The children are going down.
 # labels = stephens_1993 to_check
@@ -1697,7 +1776,7 @@
 5	tiskenn	diskenn	VERB	vblex	VerbForm=Inf	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = grammar.vislcg.txt:51:950
+# sent_id = grammar.vislcg.txt:58:1066
 # text = Setu al levr a blij din.
 # text[eng] = Here is the book i like.
 # labels = stephens_1993 to_check
@@ -1711,7 +1790,7 @@
 7	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	5	obl	_	_
 8	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:52:969
+# sent_id = grammar.vislcg.txt:59:1085
 # text = Ar vugale a zo kreñv.
 # text[eng] = The children are strong.
 # labels = stephens_1993 to_check
@@ -1722,7 +1801,7 @@
 5	kreñv	kreñv	ADJ	adj	_	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = grammar.vislcg.txt:53:985
+# sent_id = grammar.vislcg.txt:60:1101
 # text = Setu an den a gontas an istor dimp.
 # text[eng] = Here is the man who told us the story.
 # labels = stephens_1993 to_check
@@ -1738,7 +1817,7 @@
 9	_	indirect	_	prn	Case=Acc|Number=Plur|Person=1|PronType=Pers	5	obl	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:54:1008
+# sent_id = grammar.vislcg.txt:61:1124
 # text = Setu an den na gontas ket an istor dimp.
 # text[eng] = Here is the man who did not tell us the story.
 # labels = stephens_1993 to_check
@@ -1755,7 +1834,7 @@
 10	_	indirect	_	prn	Case=Acc|Number=Plur|Person=1|PronType=Pers	5	obl	_	_
 11	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:55:1033
+# sent_id = grammar.vislcg.txt:62:1149
 # text = Ne lavaras ket an den pelec'h e klevas an istor.
 # text[eng] = The man did not say where he heard the story.
 # labels = stephens_1993 to_check
@@ -1771,7 +1850,7 @@
 10	istor	istor	NOUN	n	Gender=Msc|Number=Sing	8	obj	_	_
 11	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = grammar.vislcg.txt:56:1059
+# sent_id = grammar.vislcg.txt:63:1175
 # text = Kollet eo al levr er skol.
 # text[eng] = The book is lost in the school.
 # labels = stephens_1993 to_check
@@ -1783,7 +1862,7 @@
 6	skol	skol	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
 7	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:57:1077
+# sent_id = grammar.vislcg.txt:64:1193
 # text = Koll a reas Yann al levr.
 # text[eng] = Yann lost the book.
 # labels = stephens_1993 to_check
@@ -1795,7 +1874,7 @@
 6	levr	levr	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
 7	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:58:1095
+# sent_id = grammar.vislcg.txt:65:1211
 # text = N'en deus ket kollet Yann al levr.
 # text[eng] = Yann has not lost the book.
 # labels = stephens_1993 to_check
@@ -1808,7 +1887,7 @@
 7	levr	levr	NOUN	n	Gender=Msc|Number=Sing	4	obj	_	_
 8	.	.	PUNCT	sent	_	4	root	_	_
 
-# sent_id = grammar.vislcg.txt:59:1115
+# sent_id = grammar.vislcg.txt:66:1231
 # text = Piv en deus prenet an ti ruz?
 # text[eng] = Who has bought the red house?
 # labels = stephens_1993 to_check
@@ -1820,7 +1899,7 @@
 6	ruz	ruz	ADJ	adj	_	5	amod	_	_
 7	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = grammar.vislcg.txt:60:1133
+# sent_id = grammar.vislcg.txt:67:1249
 # text = Yann en deus prenet anezhañ.
 # text[eng] = Yann has bought it.
 # labels = stephens_1993 to_check
@@ -1830,7 +1909,7 @@
 4	anezhañ	direct	_	prn	Case=Acc|Gender=Msc|Number=Sing|Person=3|PronType=Pers	3	obj	_	_
 5	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = grammar.vislcg.txt:61:1147
+# sent_id = grammar.vislcg.txt:68:1263
 # text = Petra en deus prenet Yann?
 # text[eng] = What has Yann bought ?
 # labels = stephens_1993 to_check
@@ -1840,7 +1919,7 @@
 4	Yann	Yann	PROPN	np	Gender=Msc|Number=Sing	3	nsubj	_	_
 5	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = grammar.vislcg.txt:62:1161
+# sent_id = grammar.vislcg.txt:69:1277
 # text = Gant piv eo bet prenet an ti ruz?
 # text[eng] = By whom was the red house bought?
 # labels = stephens_1993 to_check
@@ -1854,7 +1933,7 @@
 8	ruz	ruz	ADJ	adj	_	7	amod	_	_
 9	?	?	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = grammar.vislcg.txt:63:1183
+# sent_id = grammar.vislcg.txt:70:1299
 # text = Petra he deus prenet ?
 # text[eng] = What has she bought?
 # labels = stephens_1993 to_check
@@ -1863,7 +1942,7 @@
 3	prenet	prenañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = grammar.vislcg.txt:64:1195
+# sent_id = grammar.vislcg.txt:71:1311
 # text = Pelec'h emañ ar vugale?
 # text[eng] = Where are the children?
 # labels = stephens_1993 to_check
@@ -1873,7 +1952,7 @@
 4	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	1	nsubj	_	_
 5	?	?	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:65:1209
+# sent_id = grammar.vislcg.txt:72:1325
 # text = Pegoulz e teuio da gêr?
 # text[eng] = When will he come home?
 # labels = stephens_1993 to_check
@@ -1884,7 +1963,7 @@
 5	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	3	obl	_	_
 6	?	?	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = grammar.vislcg.txt:66:1225
+# sent_id = grammar.vislcg.txt:73:1341
 # text = Gant piv emañ Yann?
 # text[eng] = With whom is Yann?
 # labels = stephens_1993 to_check
@@ -1894,7 +1973,7 @@
 4	Yann	Yann	PROPN	np	Gender=Msc|Number=Sing	2	nsubj	_	_
 5	?	?	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = grammar.vislcg.txt:67:1239
+# sent_id = grammar.vislcg.txt:74:1355
 # text = N'ouzon ket piv a zo aze.
 # text[eng] = I don't know who is there.
 # labels = stephens_1993 to_check
@@ -1907,7 +1986,7 @@
 7	aze	aze	ADV	adv	_	2	ccomp	_	_
 8	.	.	PUNCT	sent	_	2	punct	_	_
 
-# sent_id = grammar.vislcg.txt:68:1259
+# sent_id = grammar.vislcg.txt:75:1375
 # text = Gouzout a rez pelec'h emañ.
 # text[eng] = You know where it is.
 # labels = stephens_1993 to_check
@@ -1918,7 +1997,7 @@
 5	emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
-# sent_id = grammar.vislcg.txt:69:1275
+# sent_id = grammar.vislcg.txt:76:1391
 # text = Al levr-mañ eo an hini am eus kavet.
 # text[eng] = This book is the one I have found.
 # labels = stephens_1993 to_check
@@ -1932,7 +2011,7 @@
 8	kavet	kavout	VERB	vblex	Tense=Past|VerbForm=Part	6	acl	_	_
 9	.	.	PUNCT	sent	_	6	punct	_	_
 
-# sent_id = grammar.vislcg.txt:70:1297
+# sent_id = grammar.vislcg.txt:77:1413
 # text = Fall eo an amzer ha glav a ra.
 # text[eng] = The weather is bad and it is raining.
 # labels = stephens_1993 to_check
@@ -1946,7 +2025,7 @@
 8	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:71:1319
+# sent_id = grammar.vislcg.txt:78:1435
 # text = Brav e vo an amzer pe glav a vo.
 # text[eng] = The weather will be nice or it will rain.
 # labels = stephens_1993 to_check
@@ -1961,7 +2040,7 @@
 9	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:72:1343
+# sent_id = grammar.vislcg.txt:79:1459
 # text = Tomm eo an amzer met glav a vo.
 # text[eng] = The weather is warm but it will rain.
 # labels = stephens_1993 to_check
@@ -1975,7 +2054,7 @@
 8	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:73:1365
+# sent_id = grammar.vislcg.txt:80:1481
 # text = Yann a chomo er ger rak fall eo an amzer.
 # text[eng] = Yann will stay at home because the weather is bad.
 # labels = stephens_1993 to_check
@@ -1993,7 +2072,7 @@
 11	amzer	amzer	NOUN	n	Gender=Fem|Number=Sing	8	nsubj	_	_
 12	.	.	PUNCT	sent	_	3	punct	_	_
 
-# sent_id = grammar.vislcg.txt:74:1392
+# sent_id = grammar.vislcg.txt:81:1508
 # text = Krediñ a ran e teuio Lenaig da gêr.
 # text[eng] = I believe that Lenaig will come home.
 # labels = stephens_1993 to_check
@@ -2007,7 +2086,7 @@
 8	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:75:1414
+# sent_id = grammar.vislcg.txt:82:1530
 # text = Dont a raio Lenaig da gêr ma ve prest.
 # text[eng] = Lenaig will come home if she is ready.
 # labels = stephens_1993 to_check
@@ -2022,7 +2101,7 @@
 9	prest	prest	ADJ	adj	_	1	advcl	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:76:1438
+# sent_id = grammar.vislcg.txt:83:1554
 # text = Ma ve prest e teuio Lenaig da gêr.
 # text[eng] = If she is ready Lenaig will come home.
 # labels = stephens_1993 to_check
@@ -2036,7 +2115,7 @@
 8	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
 9	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = grammar.vislcg.txt:77:1460
+# sent_id = grammar.vislcg.txt:84:1576
 # text = Dont a raio Lenaig da gêr pa vo prest.
 # text[eng] = Lenaig will come home when she is ready.
 # labels = stephens_1993 to_check
@@ -2051,7 +2130,7 @@
 9	prest	prest	ADJ	adj	_	1	advcl	_	_
 10	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:78:1484
+# sent_id = grammar.vislcg.txt:85:1600
 # text = Pa vo prest e teuio Lenaig da gêr.
 # text[eng] = When he is ready Lenaig will come home.
 # labels = stephens_1993 to_check
@@ -2065,7 +2144,7 @@
 8	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
 9	.	.	PUNCT	sent	_	5	punct	_	_
 
-# sent_id = grammar.vislcg.txt:79:1506
+# sent_id = grammar.vislcg.txt:86:1622
 # text = Kavet am eus ul levr a blij din.
 # text[eng] = I found found a book I like.
 # labels = stephens_1993 to_check
@@ -2080,7 +2159,7 @@
 8	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	6	obl	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:80:1527
+# sent_id = grammar.vislcg.txt:87:1643
 # text = Setu ul levr na blij ket din.
 # text[eng] = Here is a book I don't like.
 # labels = stephens_1993 to_check
@@ -2095,7 +2174,7 @@
 8	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	5	obl	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
-# sent_id = grammar.vislcg.txt:81:1548
+# sent_id = grammar.vislcg.txt:88:1664
 # text = An den ma gomzer dioutañ a zo amañ.
 # text[eng] = The man we are talking about is here.
 # labels = stephens_1993 to_check
@@ -2111,7 +2190,7 @@
 9	amañ	amañ	ADV	adv	_	0	root	_	_
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
-# sent_id = grammar.vislcg.txt:82:1571
+# sent_id = grammar.vislcg.txt:89:1687
 # text = An hini ma lennan e levr a zo aze.
 # text[eng] = The one whose book I am reading is there.
 # labels = stephens_1993 to_check
