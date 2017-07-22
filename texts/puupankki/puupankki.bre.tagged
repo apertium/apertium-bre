@@ -1298,6 +1298,16 @@
 ^emañ/bezañ<vbloc><pri><p3><sg>$
 ^./.<sent>$
 
+^Al/an<det><def><sp>$
+^levr/levr<n><m><sg>$
+^-mañ/mañ<adv>$
+^eo/bezañ<vblex><pri><p3><sg>$
+^an/an<det><def><sp>$
+^hini/hini<prn><ind><mf><sg>$
+^am eus/kaout<vblex><pri><p1><sg>$
+^kavet/kavout<vblex><pp>$
+^./.<sent>$
+
 ^Fall/fall<adj><mf><sp>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^an/an<det><def><sp>$
@@ -1409,6 +1419,27 @@
 ^blij/plijout<vblex><pri><p3><sg>$
 ^ket/ket<adv>$
 ^din/da<pr>+indirect<prn><obj><p1><mf><sg>$
+^./.<sent>$
+
+^An/an<det><def><sp>$
+^den/den<n><m><sg>$
+^ma/ma<cnjsub>$
+^gomzer/komz<vblex><pri><impers><sp>$
+^dioutañ/diouzh<pr>+indirect<prn><obj><p3><m><sg>$
+^a/a<vpart>$
+^zo/bezañ<vblex><pri><p3><sg>$
+^amañ/amañ<adv>$
+^./.<sent>$
+
+^An/an<det><def><sp>$
+^hini/hini<prn><ind><mf><sg>$
+^ma/ma<cnjsub>$
+^lennan/lenn<vblex><pri><p1><sg>$
+^e/e<det><pos><m><sp>$
+^levr/levr<n><m><sg>$
+^a/a<vpart>$
+^zo/bezañ<vblex><pri><p3><sg>$
+^aze/aze<adv>$
 ^./.<sent>$
 
 ^Me/me<prn><subj><p1><mf><sg>$

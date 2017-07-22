@@ -2703,27 +2703,23 @@
 # text[eng] = This book is the one I have found.
 # labels = stephens_1993 to_check
 "<Al>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @nsubj #2->6
 "<-mañ>"
-	"mañ" adv
+	"mañ" adv @advmod #3->2
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @cop #4->6
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg
-;	"monet" vblex pri p1 sg
+	"an" det def sp @det #5->6
 "<hini>"
-	"hini" adv
-	"hini" prn ind mf sg
+	"hini" prn ind mf sg @root #6->0
 "<am eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #7->8
 "<kavet>"
-	"kavout" vblex pp
-;	"kavout" vblex imp p3 sg REMOVE:240
+	"kavout" vblex pp @acl #8->6
 "<.>"
-	"." sent
+	"." sent @punct #9->6
 
 # text = Al levr-mañ 'ni am eus kavet.
 # text[eng] = This is the book I have found.
@@ -3004,73 +3000,46 @@
 # text[eng] = The man we are talking about is here.
 # labels = stephens_1993 to_check
 "<An>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<den>"
-	"den" n m sg
+	"den" n m sg @nsubj #2->9
 "<ma>"
-	"ma" det pos mf sp
-;	"ma" ij REMOVE:545
-;	"ma" cnjsub REMOVE:611
+	"ma" cnjsub @mark #3->4
 "<gomzer>"
-	"komzer" n m sg
-;	"komz" vblex pri impers sp
+	"komz" vblex pri impers sp @acl #4->2
 "<dioutañ>"
-	"diouzh" pr
-		"indirect" prn obj p3 m sg
+	"diouzh" pr @case #5->6
+		"indirect" prn obj p3 m sg @obl #6->4
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #7->9
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:240
-;	"teiñ" vblex pri p3 sg REMOVE:800
+	"bezañ" vblex pri p3 sg @cop #8->9
 "<amañ>"
-	"amañ" adv
+	"amañ" adv @root #9->0
 "<.>"
-	"." sent
+	"." sent @punct #10->9
 
 # text = An hini ma lennan e levr a zo aze.
 # text[eng] = The one whose book I am reading is there.
 # labels = stephens_1993 to_check
 "<An>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<hini>"
-	"hini" prn ind mf sg
+	"hini" prn ind mf sg @nsubj #2->9
 "<ma>"
-	"ma" cnjsub
-;	"ma" det pos mf sp REMOVE:405
-;	"ma" ij REMOVE:545
+	"ma" cnjsub @mark #3->4
 "<lennan>"
-	"lenn" vblex pri p1 sg
-	"lennañ" vblex pri p1 sg
+	"lenn" vblex pri p1 sg @acl #4->2
 "<e>"
-	"e" pr
-	"e" det pos m sp
-;	"e" vpart obj REMOVE:197
-;	"direct" prn obj p3 m sg REMOVE:396
-;	"e" n m sp REMOVE:912
+	"e" det pos m sp @det #5->6
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #6->4
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:240
-;	"monet" vblex imp p2 sg REMOVE:240
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #7->9
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:240
-;	"teiñ" vblex pri p3 sg REMOVE:800
+	"bezañ" vblex pri p3 sg @cop #8->9
 "<aze>"
-	"aze" adv
-;	"mont" vblex cip p3 sg REMOVE:560
+	"aze" adv @root #9->0
 "<.>"
-	"." sent
+	"." sent @punct #10->9
 

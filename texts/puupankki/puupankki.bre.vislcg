@@ -2853,6 +2853,28 @@
 "<.>"
 	"." sent @punct #6->4
 
+# text = Al levr-mañ eo an hini am eus kavet.
+# text[eng] = This book is the one I have found.
+# labels = stephens_1993 to_check
+"<Al>"
+	"an" det def sp @det #1->2
+"<levr>"
+	"levr" n m sg @nsubj #2->6
+"<-mañ>"
+	"mañ" adv @advmod #3->2
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #4->6
+"<an>"
+	"an" det def sp @det #5->6
+"<hini>"
+	"hini" prn ind mf sg @root #6->0
+"<am eus>"
+	"kaout" vblex pri p1 sg @aux #7->8
+"<kavet>"
+	"kavout" vblex pp @acl #8->6
+"<.>"
+	"." sent @punct #9->6
+
 # text = Fall eo an amzer ha glav a ra.
 # text[eng] = The weather is bad and it is raining.
 # labels = stephens_1993 to_check
@@ -3103,6 +3125,53 @@
 		"indirect" prn obj p1 mf sg @obl #8->5
 "<.>"
 	"." sent @punct #9->1
+
+# text = An den ma gomzer dioutañ a zo amañ.
+# text[eng] = The man we are talking about is here.
+# labels = stephens_1993 to_check
+"<An>"
+	"an" det def sp @det #1->2
+"<den>"
+	"den" n m sg @nsubj #2->9
+"<ma>"
+	"ma" cnjsub @mark #3->4
+"<gomzer>"
+	"komz" vblex pri impers sp @acl #4->2
+"<dioutañ>"
+	"diouzh" pr @case #5->6
+		"indirect" prn obj p3 m sg @obl #6->4
+"<a>"
+	"a" vpart @aux #7->9
+"<zo>"
+	"bezañ" vblex pri p3 sg @cop #8->9
+"<amañ>"
+	"amañ" adv @root #9->0
+"<.>"
+	"." sent @punct #10->9
+
+# text = An hini ma lennan e levr a zo aze.
+# text[eng] = The one whose book I am reading is there.
+# labels = stephens_1993 to_check
+"<An>"
+	"an" det def sp @det #1->2
+"<hini>"
+	"hini" prn ind mf sg @nsubj #2->9
+"<ma>"
+	"ma" cnjsub @mark #3->4
+"<lennan>"
+	"lenn" vblex pri p1 sg @acl #4->2
+"<e>"
+	"e" det pos m sp @det #5->6
+"<levr>"
+	"levr" n m sg @obj #6->4
+"<a>"
+	"a" vpart @aux #7->9
+"<zo>"
+	"bezañ" vblex pri p3 sg @cop #8->9
+"<aze>"
+	"aze" adv @root #9->0
+"<.>"
+	"." sent @punct #10->9
 
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->4
