@@ -1932,6 +1932,155 @@
 8	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 9	.	.	PUNCT	sent	_	1	punct	_	_
 
+# sent_id = grammar.vislcg.txt:70:1297
+# text = Brav e vo an amzer pe glav a vo.
+# text[eng] = The weather will be nice or it will rain.
+# labels = stephens_1993 to_check
+1	Brav	brav	ADJ	adj	_	0	root	_	_
+2	e	e	PART	vpart	_	1	aux	_	_
+3	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	cop	_	_
+4	an	an	DET	det	_	5	det	_	_
+5	amzer	amzer	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+6	pe	pe	CCONJ	cnjcoo	_	9	cc	_	_
+7	glav	glav	NOUN	n	Gender=Msc|Number=Sing	9	nsubj	_	_
+8	a	a	PART	vpart	_	9	aux	_	_
+9	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+10	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:71:1321
+# text = Tomm eo an amzer met glav a vo.
+# text[eng] = The weather is warm but it will rain.
+# labels = stephens_1993 to_check
+1	Tomm	tomm	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	an	an	DET	det	_	4	det	_	_
+4	amzer	amzer	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+5	met	met	CCONJ	cnjcoo	_	8	cc	_	_
+6	glav	glav	NOUN	n	Gender=Msc|Number=Sing	8	nsubj	_	_
+7	a	a	PART	vpart	_	8	aux	_	_
+8	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:72:1343
+# text = Yann a chomo er ger rak fall eo an amzer.
+# text[eng] = Yann will stay at home because the weather is bad.
+# labels = stephens_1993 to_check
+1	Yann	Yann	PROPN	np	Gender=Msc|Number=Sing	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	chomo	chom	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4-5	er	_	_	_	_	_	_	_	_
+4	er	e	ADP	pr	_	6	case	_	_
+5	r	an	DET	det	_	6	det	_	_
+6	ger	ger	NOUN	n	Gender=Msc|Number=Sing	3	obl	_	_
+7	rak	rak	SCONJ	cnjsub	_	8	mark	_	_
+8	fall	fall	ADJ	adj	_	3	advcl	_	_
+9	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	an	an	DET	det	_	11	det	_	_
+11	amzer	amzer	NOUN	n	Gender=Fem|Number=Sing	8	nsubj	_	_
+12	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:73:1370
+# text = Krediñ a ran e teuio Lenaig da gêr.
+# text[eng] = I believe that Lenaig will come home.
+# labels = stephens_1993 to_check
+1	Krediñ	krediñ	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	e	e	PART	vpart	_	5	aux	_	_
+5	teuio	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+6	Lenaig	Lenaig	PROPN	np	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	da	da	ADP	pr	_	8	case	_	_
+8	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:74:1392
+# text = Dont a raio Lenaig da gêr ma ve prest.
+# text[eng] = Lenaig will come home if she is ready.
+# labels = stephens_1993 to_check
+1	Dont	dont	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	raio	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	Lenaig	Lenaig	PROPN	np	Gender=Fem|Number=Sing	1	nsubj	_	_
+5	da	da	ADP	pr	_	6	case	_	_
+6	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
+7	ma	ma	SCONJ	cnjsub	_	9	mark	_	_
+8	ve	bezañ	VERB	vblex	Mood=Cond|Number=Sing|Person=3	9	cop	_	_
+9	prest	prest	ADJ	adj	_	1	advcl	_	_
+10	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:75:1416
+# text = Ma ve prest e teuio Lenaig da gêr.
+# text[eng] = If she is ready Lenaig will come home.
+# labels = stephens_1993 to_check
+1	Ma	ma	SCONJ	cnjsub	_	3	mark	_	_
+2	ve	bezañ	VERB	vblex	Mood=Cond|Number=Sing|Person=3	3	cop	_	_
+3	prest	prest	ADJ	adj	_	5	advcl	_	_
+4	e	e	PART	vpart	_	5	aux	_	_
+5	teuio	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	Lenaig	Lenaig	PROPN	np	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	da	da	ADP	pr	_	8	case	_	_
+8	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
+9	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:76:1438
+# text = Dont a raio Lenaig da gêr pa vo prest.
+# text[eng] = Lenaig will come home when she is ready.
+# labels = stephens_1993 to_check
+1	Dont	dont	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	raio	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	Lenaig	Lenaig	PROPN	np	Gender=Fem|Number=Sing	1	nsubj	_	_
+5	da	da	ADP	pr	_	6	case	_	_
+6	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
+7	pa	pa	SCONJ	cnjsub	_	9	mark	_	_
+8	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	cop	_	_
+9	prest	prest	ADJ	adj	_	1	advcl	_	_
+10	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:77:1462
+# text = Pa vo prest e teuio Lenaig da gêr.
+# text[eng] = When he is ready Lenaig will come home.
+# labels = stephens_1993 to_check
+1	Pa	pa	SCONJ	cnjsub	_	3	mark	_	_
+2	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	prest	prest	ADJ	adj	_	5	advcl	_	_
+4	e	e	PART	vpart	_	5	aux	_	_
+5	teuio	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	Lenaig	Lenaig	PROPN	np	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	da	da	ADP	pr	_	8	case	_	_
+8	gêr	kêr	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
+9	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:78:1484
+# text = Kavet am eus ul levr a blij din.
+# text[eng] = I found found a book I like.
+# labels = stephens_1993 to_check
+1	Kavet	kavout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	am eus	kaout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	ul	un	DET	det	_	4	det	_	_
+4	levr	levr	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+5	a	a	PART	vpart	_	6	aux	_	_
+6	blij	plijout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+7-8	din	_	_	_	_	_	_	_	_
+7	din	da	ADP	pr	_	8	case	_	_
+8	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	6	obl	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:79:1505
+# text = Setu ul levr na blij ket din.
+# text[eng] = Here is a book I don't like.
+# labels = stephens_1993 to_check
+1	Setu	setu	ADV	adv	_	0	root	_	_
+2	ul	un	DET	det	_	3	det	_	_
+3	levr	levr	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+4	na	na	PART	vpart	Polarity=Neg	5	aux	_	_
+5	blij	plijout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+6	ket	ket	ADV	adv	_	5	advmod	_	_
+7-8	din	_	_	_	_	_	_	_	_
+7	din	da	ADP	pr	_	8	case	_	_
+8	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	5	obl	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
 # sent_id = miscellaneous.vislcg.txt:1:0
 # text = Me zo o komz gant ma amezeg.
 1	Me	me	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_

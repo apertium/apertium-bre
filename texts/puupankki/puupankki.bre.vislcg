@@ -2875,6 +2875,235 @@
 "<.>"
 	"." sent @punct #9->1
 
+# text = Brav e vo an amzer pe glav a vo.
+# text[eng] = The weather will be nice or it will rain.
+# labels = stephens_1993 to_check
+"<Brav>"
+	"brav" adj mf sp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #3->1
+"<an>"
+	"an" det def sp @det #4->5
+"<amzer>"
+	"amzer" n f sg @nsubj #5->1
+"<pe>"
+	"pe" cnjcoo @cc #6->9
+"<glav>"
+	"glav" n m sg @nsubj #7->9
+"<a>"
+	"a" vpart @aux #8->9
+"<vo>"
+	"bezañ" vblex fti p3 sg @conj #9->1
+"<.>"
+	"." sent @punct #10->1
+
+# text = Tomm eo an amzer met glav a vo.
+# text[eng] = The weather is warm but it will rain.
+# labels = stephens_1993 to_check
+"<Tomm>"
+	"tomm" adj mf sp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->1
+"<an>"
+	"an" det def sp @det #3->4
+"<amzer>"
+	"amzer" n f sg @nsubj #4->1
+"<met>"
+	"met" cnjcoo @cc #5->8
+"<glav>"
+	"glav" n m sg @nsubj #6->8
+"<a>"
+	"a" vpart @aux #7->8
+"<vo>"
+	"bezañ" vblex fti p3 sg @conj #8->1
+"<.>"
+	"." sent @punct #9->1
+
+# text = Yann a chomo er ger rak fall eo an amzer.
+# text[eng] = Yann will stay at home because the weather is bad.
+# labels = stephens_1993 to_check
+"<Yann>"
+	"Yann" np ant m sg @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<chomo>"
+	"chom" vblex fti p3 sg @root #3->0
+"<er>"
+	"e" pr @case #4->6
+		"an" det def sp @det #5->6
+"<ger>"
+	"ger" n m sg @obl #6->3
+"<rak>"
+	"rak" cnjsub @mark #7->8
+"<fall>"
+	"fall" adj mf sp @advcl #8->3
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #9->8
+"<an>"
+	"an" det def sp @det #10->11
+"<amzer>"
+	"amzer" n f sg @nsubj #11->8
+"<.>"
+	"." sent @punct #12->3
+
+# text = Krediñ a ran e teuio Lenaig da gêr.
+# text[eng] = I believe that Lenaig will come home.
+# labels = stephens_1993 to_check
+"<Krediñ>"
+	"krediñ" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ran>"
+	"ober" vblex pri p1 sg @aux #3->1
+"<e>"
+	"e" vpart obj @aux #4->5
+"<teuio>"
+	"dont" vblex fti p3 sg @ccomp #5->1
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #6->5
+"<da>"
+	"da" pr @case #7->8
+"<gêr>"
+	"kêr" n f sg @obl #8->5
+"<.>"
+	"." sent @punct #9->1
+
+# text = Dont a raio Lenaig da gêr ma ve prest.
+# text[eng] = Lenaig will come home if she is ready.
+# labels = stephens_1993 to_check
+"<Dont>"
+	"dont" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<raio>"
+	"ober" vblex fti p3 sg @aux #3->1
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #4->1
+"<da>"
+	"da" pr @case #5->6
+"<gêr>"
+	"kêr" n f sg @obl #6->1
+"<ma>"
+	"ma" cnjsub @mark #7->9
+"<ve>"
+	"bezañ" vblex cni p3 sg @cop #8->9
+"<prest>"
+	"prest" adj mf sp @advcl #9->1
+"<.>"
+	"." sent @punct #10->1
+
+# text = Ma ve prest e teuio Lenaig da gêr.
+# text[eng] = If she is ready Lenaig will come home.
+# labels = stephens_1993 to_check
+"<Ma>"
+	"ma" cnjsub @mark #1->3
+"<ve>"
+	"bezañ" vblex cni p3 sg @cop #2->3
+"<prest>"
+	"prest" adj mf sp @advcl #3->5
+"<e>"
+	"e" vpart @aux #4->5
+"<teuio>"
+	"dont" vblex fti p3 sg @root #5->0
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #6->5
+"<da>"
+	"da" pr @case #7->8
+"<gêr>"
+	"kêr" n f sg @obl #8->5
+"<.>"
+	"." sent @punct #9->5
+
+# text = Dont a raio Lenaig da gêr pa vo prest.
+# text[eng] = Lenaig will come home when she is ready.
+# labels = stephens_1993 to_check
+"<Dont>"
+	"dont" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<raio>"
+	"ober" vblex fti p3 sg @aux #3->1
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #4->1
+"<da>"
+	"da" pr @case #5->6
+"<gêr>"
+	"kêr" n f sg @obl #6->1
+"<pa>"
+	"pa" cnjsub @mark #7->9
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #8->9
+"<prest>"
+	"prest" adj mf sp @advcl #9->1
+"<.>"
+	"." sent @punct #10->1
+
+# text = Pa vo prest e teuio Lenaig da gêr.
+# text[eng] = When he is ready Lenaig will come home.
+# labels = stephens_1993 to_check
+"<Pa>"
+	"pa" cnjsub @mark #1->3
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #2->3
+"<prest>"
+	"prest" adj mf sp @advcl #3->5
+"<e>"
+	"e" vpart obj @aux #4->5
+"<teuio>"
+	"dont" vblex fti p3 sg @root #5->0
+"<Lenaig>"
+	"Lenaig" np ant f sg @nsubj #6->5
+"<da>"
+	"da" pr @case #7->8
+"<gêr>"
+	"kêr" n f sg @obl #8->5
+"<.>"
+	"." sent @punct #9->5
+
+# text = Kavet am eus ul levr a blij din.
+# text[eng] = I found found a book I like.
+# labels = stephens_1993 to_check
+"<Kavet>"
+	"kavout" vblex pp @root #1->0
+"<am eus>"
+	"kaout" vblex pri p1 sg @aux #2->1
+"<ul>"
+	"un" det ind sp @det #3->4
+"<levr>"
+	"levr" n m sg @obj #4->1
+"<a>"
+	"a" vpart @aux #5->6
+"<blij>"
+	"plijout" vblex pri p3 sg @acl #6->4
+"<din>"
+	"da" pr @case #7->8
+		"indirect" prn obj p1 mf sg @obl #8->6
+"<.>"
+	"." sent @punct #9->1
+
+# text = Setu ul levr na blij ket din.
+# text[eng] = Here is a book I don't like.
+# labels = stephens_1993 to_check
+"<Setu>"
+	"setu" adv @root #1->0
+"<ul>"
+	"un" det ind sp @det #2->3
+"<levr>"
+	"levr" n m sg @nsubj #3->1
+"<na>"
+	"na" vpart neg @aux #4->5
+"<blij>"
+	"plijout" vblex pri p3 sg @acl #5->3
+"<ket>"
+	"ket" adv @advmod #6->5
+"<din>"
+	"da" pr @case #7->8
+		"indirect" prn obj p1 mf sg @obl #8->5
+"<.>"
+	"." sent @punct #9->1
+
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->4
 "<zo>"
