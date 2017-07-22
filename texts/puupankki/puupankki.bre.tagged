@@ -1493,6 +1493,18 @@
 ^aze/aze<adv>$
 ^./.<sent>$
 
+^Me/prpers<prn><subj><p1><mf><sg>$
+^a/a<vpart>$
+^ganas/kanañ<vblex><past><p3><sg>$
+^./.<sent>$
+
+^Me/prpers<prn><subj><p1><mf><sg>$
+^a/a<vpart>$
+^zo/bezañ<vblex><pri><p3><sg>$
+^o/o<vpart><ger>$
+^kanañ/kanañ<vblex><inf>$
+^./.<sent>$
+
 ^Me/me<prn><subj><p1><mf><sg>$
 ^zo/bezañ<vblex><pri><p3><sg>$
 ^o/o<vpart><ger>$

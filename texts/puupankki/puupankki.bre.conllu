@@ -2205,6 +2205,26 @@
 9	aze	aze	ADV	adv	_	0	root	_	_
 10	.	.	PUNCT	sent	_	9	punct	_	_
 
+# sent_id = grammar.vislcg.txt:90:1711
+# text = Me a ganas.
+# text[eng] = I sang.
+# labels = press_1986 ch_morphology
+1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	ganas	kanañ	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:91:1723
+# text = Me a zo o kanañ.
+# text[eng] = I am singing.
+# labels = press_1986 ch_morphology to_check
+1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
+2	a	a	PART	vpart	_	5	aux	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	o	o	PART	vpart	_	5	aux	_	_
+5	kanañ	kanañ	VERB	vblex	VerbForm=Inf	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
 # sent_id = miscellaneous.vislcg.txt:1:0
 # text = Me zo o komz gant ma amezeg.
 1	Me	me	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	4	nsubj	_	_

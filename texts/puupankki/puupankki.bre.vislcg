@@ -3289,6 +3289,34 @@
 "<.>"
 	"." sent @punct #10->9
 
+# text = Me a ganas.
+# text[eng] = I sang.
+# labels = press_1986 ch_morphology
+"<Me>"
+	"prpers" prn subj p1 mf sg @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<ganas>"
+	"kanañ" vblex past p3 sg @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Me a zo o kanañ.
+# text[eng] = I am singing.
+# labels = press_1986 ch_morphology to_check
+"<Me>"
+	"prpers" prn subj p1 mf sg @nsubj #1->5
+"<a>"
+	"a" vpart @aux #2->5
+"<zo>"
+	"bezañ" vblex pri p3 sg @aux #3->5
+"<o>"
+	"o" vpart ger @aux #4->5
+"<kanañ>"
+	"kanañ" vblex inf @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->4
 "<zo>"

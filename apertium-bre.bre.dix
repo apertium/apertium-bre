@@ -796,7 +796,8 @@
 
     <pardef n="war/-lerc’h__pr">
       <e><p><l>-lerc’h</l><r>-lerc’h<s n="pr"/></r></p></e>
-      <e><p><l><b/>ma<b/>lerc’h</l><r>-lerc’h<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><b/>ma<b/>lerc’h</l><r>-lerc’h<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l><b/>va<b/>lerc’h</l><r>-lerc’h<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l><b/>da<b/>lerc’h</l><r>-lerc’h<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l><b/>e<b/>lerc’h</l><r>-lerc’h<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l><b/>he<b/>lerc’h</l><r>-lerc’h<s n="pr"/><j/>indirect<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
