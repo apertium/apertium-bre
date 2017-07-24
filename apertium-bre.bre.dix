@@ -28975,23 +28975,22 @@
     <e lm="d’o">
       <p>
         <l>d’o</l>
+        <r>da<s n="pr"/><j/>direct<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+      </p>
+    </e>
+
+    <e lm="d’o">
+      <p>
+        <l>d’o</l>
         <r>da<s n="pr"/><j/>o<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
       </p>
     </e>
 
-    <e lm="da’m">
-      <p>
-        <l>da’m</l>
-        <r>da<s n="pr"/><j/>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
-    </e>
+    <e lm="da’m"><p><l>da’m</l><r>da<s n="pr"/><j/>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 
-    <e lm="d’am">
-      <p>
-        <l>d’am</l>
-        <r>da<s n="pr"/><j/>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r>
-      </p>
-    </e>
+    <e lm="d’am"><p><l>d’am</l><r>da<s n="pr"/><j/>ma<s n="det"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    <e lm="d’am"><p><l>d’am</l><r>da<s n="pr"/><j/>direct<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e lm="da’z">
       <p>

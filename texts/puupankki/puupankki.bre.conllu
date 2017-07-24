@@ -2665,6 +2665,285 @@
 13	.	.	PUNCT	sent	_	9	punct	_	_
 
 # sent_id = grammar.vislcg.txt:131:2362
+# text = Ur velo c'hlas am eus.
+# text[eng] = I have a blue bicycle.
+# labels = press_1986 ch_morphology to_check
+1	Ur	un	DET	det	_	2	det	_	_
+2	velo	belo	NOUN	n	Gender=Fem|Number=Sing	4	obj	_	_
+3	c'hlas	glas	ADJ	adj	_	2	amod	_	_
+4	am eus	kaout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:132:2376
+# text = An ti-mañ a zo din.
+# text[eng] = This house is mine.
+# labels = press_1986 ch_morphology to_check
+1	An	an	DET	det	_	2	det	_	_
+2	ti	ti	NOUN	n	Gender=Msc|Number=Sing	7	nsubj	_	_
+3	-mañ	mañ	ADV	adv	_	2	advmod	_	_
+4	a	a	PART	vpart	_	7	aux	_	_
+5	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6-7	din	_	_	_	_	_	_	_	_
+6	din	da	ADP	pr	_	7	case	_	_
+7	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = grammar.vislcg.txt:133:2395
+# text = Ganti e oa teir yar.
+# text[eng] = She had three hens.
+# labels = press_1986 ch_morphology to_check
+1-2	Ganti	_	_	_	_	_	_	_	_
+1	Ganti	gant	ADP	pr	_	2	case	_	_
+2	_	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	0	root	_	_
+3	e	e	PART	vpart	_	2	aux	_	_
+4	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+5	teir	tri	NUM	num	Gender=Fem|Number=Plur	6	nummod	_	_
+6	yar	yar	NOUN	n	Gender=Fem|Number=Sing	2	nsubj	_	_
+7	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:134:2412
+# text = N'hon eus ket soñj.
+# text[eng] = We don't remember.
+# labels = press_1986 ch_morphology to_check
+1	N'	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	hon eus	kaout	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	soñj	soñj	NOUN	n	Gender=Msc|Number=Sing	2	obj	_	_
+5	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:135:2426
+# text = Mall a zo ganin.
+# text[eng] = I'm in a hurry.
+# labels = press_1986 ch_morphology to_check
+1	Mall	mall	ADJ	adj	_	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4-5	ganin	_	_	_	_	_	_	_	_
+4	ganin	gant	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	1	obl	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:136:2441
+# text = Daou zor a zo war an ti-se.
+# text[eng] = That house has two doors.
+# labels = press_1986 ch_morphology to_check
+1	Daou	daou	NUM	num	Gender=Msc|Number=Plur	2	nummod	_	_
+2	zor	dor	NOUN	n	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	a	a	PART	vpart	_	7	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	war	war	ADP	pr	_	7	case	_	_
+6	an	an	DET	det	_	7	det	_	_
+7	ti	ti	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+8	-se	se	ADV	adv	_	7	advmod	_	_
+9	.	.	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = grammar.vislcg.txt:137:2463
+# text = Setu an nor.
+# text[eng] = Here is the door.
+# labels = press_1986 ch_morphology to_check
+1	Setu	setu	ADV	adv	_	0	root	_	_
+2	an	an	DET	det	_	3	det	_	_
+3	nor	dor	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:138:2475
+# text = Er vag emaint.
+# text[eng] = They're in the boat.
+# labels = press_1986 ch_morphology to_check
+1-2	Er	_	_	_	_	_	_	_	_
+1	Er	e	ADP	pr	_	3	case	_	_
+2	_	an	DET	det	_	3	det	_	_
+3	vag	bag	NOUN	n	Gender=Fem|Number=Sing	0	root	_	_
+4	emaint	bezañ	VERB	vbloc	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:139:2488
+# text = Redek a ra en ur c'hoarzhin.
+# text[eng] = He runs along laughing.
+# labels = press_1986 ch_morphology p_149 to_check
+1	Redek	redek	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	en	en	X	x	_	5	dep	_	_
+5	ur	ur	PART	vpart	_	6	aux	_	_
+6	c'hoarzhin	c’hoarzhin	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:140:2506
+# text = Emaint o sellout ouzh an dud o labourat er parkeier.
+# text[eng] = They're looking at the people who are working in the fields.
+# labels = press_1986 ch_morphology to_check
+1	Emaint	bezañ	VERB	vbloc	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	o	o	PART	vpart	_	3	aux	_	_
+3	sellout	sellout	VERB	vblex	VerbForm=Inf	0	root	_	_
+4	ouzh	ouzh	ADP	pr	_	6	case	_	_
+5	an	an	DET	det	_	6	det	_	_
+6	dud	den	NOUN	n	Gender=Msc|Number=Plur	3	obl	_	_
+7	o	o	PART	vpart	_	8	X	_	_
+8	labourat	labourat	VERB	vblex	VerbForm=Inf	6	acl	_	_
+9-10	er	_	_	_	_	_	_	_	_
+9	er	e	ADP	pr	_	11	case	_	_
+10	r	an	DET	det	_	11	det	_	_
+11	parkeier	park	NOUN	n	Gender=Msc|Number=Plur	8	obl	_	_
+12	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:141:2533
+# text = Emaint o sellout ouzh an dud en ur labourat er parkeier.
+# text[eng] = They're looking at the people while they are working in the fields.
+# labels = press_1986 ch_morphology to_check
+1	Emaint	bezañ	VERB	vbloc	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	o	o	PART	vpart	_	3	aux	_	_
+3	sellout	sellout	VERB	vblex	VerbForm=Inf	0	root	_	_
+4	ouzh	ouzh	ADP	pr	_	6	case	_	_
+5	an	an	DET	det	_	6	det	_	_
+6	dud	den	NOUN	n	Gender=Msc|Number=Plur	3	obl	_	_
+7	en	en	X	x	_	8	dep	_	_
+8	ur	ur	PART	vpart	_	9	aux	_	_
+9	labourat	labourat	VERB	vblex	VerbForm=Inf	3	advcl	_	_
+10-11	er	_	_	_	_	_	_	_	_
+10	er	e	ADP	pr	_	12	case	_	_
+11	r	an	DET	det	_	12	det	_	_
+12	parkeier	park	NOUN	n	Gender=Msc|Number=Plur	9	obl	_	_
+13	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:142:2562
+# text = E Lesneven e veze bemdez.
+# text[eng] = He used to be in Lesneven every day.
+# labels = press_1986 ch_morphology to_check
+1	E	e	ADP	pr	_	2	case	_	_
+2	Lesneven	Lesneven	PROPN	np	Number=Sing	0	root	_	_
+3	e	e	PART	vpart	_	2	aux	_	_
+4	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+5	bemdez	bemdez	ADV	adv	_	2	advmod	_	_
+6	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:143:2578
+# text = En ti e viot?
+# text[eng] = Will you be in the house?
+# labels = press_1986 ch_morphology to_check
+1-2	En	_	_	_	_	_	_	_	_
+1	En	e	ADP	pr	_	3	case	_	_
+2	_	an	DET	det	_	3	det	_	_
+3	ti	ti	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+4	e	e	PART	vpart	_	3	aux	_	_
+5	viot	bezañ	VERB	vblex	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	cop	_	_
+6	?	?	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:144:2593
+# text = Va breur a zo fur.
+# text[eng] = My brother is good.
+# labels = press_1986 ch_morphology to_check
+1	Ma	ma	DET	det	PronType=Pos	2	det	_	_
+2	breur	breur	NOUN	n	Gender=Msc|Number=Sing	5	nsubj	_	_
+3	a	a	PART	vpart	_	5	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	fur	fur	ADJ	adj	_	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:145:2609
+# text = Fur eo va breur.
+# text[eng] = My brother is good.
+# labels = press_1986 ch_morphology to_check
+1	Fur	fur	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ma	ma	DET	det	PronType=Pos	4	det	_	_
+4	breur	breur	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:146:2623
+# text = Ar merc'hed a zo fur.
+# text[eng] = The girls are good.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	merc'hed	merc’h	NOUN	n	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	a	a	PART	vpart	_	5	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	fur	fur	ADJ	adj	_	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:147:2639
+# text = Fur eo ar merc'hed.
+# text[eng] = The girls are good.
+# labels = press_1986 ch_morphology to_check
+1	Fur	fur	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ar	an	DET	det	_	4	det	_	_
+4	merc'hed	merc’h	NOUN	n	Gender=Fem|Number=Plur	1	nsubj	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:148:2653
+# text = Ma breur a zo kemener.
+# text[eng] = My brother is a tailor.
+# labels = press_1986 ch_morphology to_check
+1	Ma	ma	DET	det	PronType=Pos	2	det	_	_
+2	breur	breur	NOUN	n	Gender=Msc|Number=Sing	5	nsubj	_	_
+3	a	a	PART	vpart	_	5	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	kemener	kemener	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:149:2669
+# text = Kemener eo va breur.
+# text[eng] = My brother is a tailor.
+# labels = press_1986 ch_morphology to_check
+1	Kemener	kemener	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	va	ma	DET	det	PronType=Pos	4	det	_	_
+4	breur	breur	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:150:2683
+# text = Ma breur a zo en ti.
+# text[eng] = My brother is in the house.
+# labels = press_1986 ch_morphology to_check
+1	Ma	ma	DET	det	PronType=Pos	2	det	_	_
+2	breur	breur	NOUN	n	Gender=Msc|Number=Sing	7	nsubj	_	_
+3	a	a	PART	vpart	_	7	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	en	_	_	_	_	_	_	_	_
+5	en	e	ADP	pr	_	7	case	_	_
+6	n	an	DET	det	_	7	det	_	_
+7	ti	ti	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
+
+# sent_id = grammar.vislcg.txt:151:2702
+# text = Emañ ma breur en ti.
+# text[eng] = My brother is in the house.
+# labels = press_1986 ch_morphology to_check
+1	Emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	ma	ma	DET	det	PronType=Pos	2	det	_	_
+3	breur	breur	NOUN	n	Gender=Msc|Number=Sing	6	nsubj	_	_
+4-5	en	_	_	_	_	_	_	_	_
+4	en	e	ADP	pr	_	6	case	_	_
+5	n	an	DET	det	_	6	det	_	_
+6	ti	ti	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:152:2719
+# text = En ti emañ ma breur.
+# text[eng] = My brother is in the house.
+# labels = press_1986 ch_morphology to_check
+1-2	En	_	_	_	_	_	_	_	_
+1	En	e	ADP	pr	_	3	case	_	_
+2	_	an	DET	det	_	3	det	_	_
+3	ti	ti	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
+4	emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	ma	ma	DET	det	PronType=Pos	6	det	_	_
+6	breur	breur	NOUN	n	Gender=Msc|Number=Sing	3	nsubj	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:153:2736
+# text = Piv eo an den-se?
+# text[eng] = Who is that man?
+# labels = press_1986 ch_morphology to_check
+1	Piv	piv	PRON	prn	PronType=Itg	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	an	an	DET	det	_	4	det	_	_
+4	den	den	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	-se	se	ADV	adv	_	4	advmod	_	_
+6	?	?	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:154:2752
 # text = N'he deus klasket zoken gwalc'hiñ he belo
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check
