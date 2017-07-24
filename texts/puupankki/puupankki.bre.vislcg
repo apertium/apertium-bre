@@ -3545,6 +3545,399 @@
 "<.>"
 	"." sent @punct #6->1
 
+# text = E welet em eus.
+# text[eng] = I've seen him.
+# labels = press_1986 ch_morphology to_check
+"<E>"
+	"direct" prn obj p3 m sg @obj #1->2
+"<welet>"
+	"gwelout" vblex pp @root #2->0
+"<em eus>"
+	"kaout" vblex pri p1 sg @aux #3->2
+"<.>"
+	"." sent @punct #4->2
+
+# text = Deuet eo d'am c'has gantañ.
+# text[eng] = He's come to take me with him.
+# labels = press_1986 ch_morphology to_check
+"<Deuet>"
+	"dont" vblex pp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<d'am>"
+	"da" pr @case #3->4
+		"direct" prn obj p1 mf sg @obl #4->5
+"<c'has>"
+	"kas" vblex inf @advcl #5->1
+"<gantañ>"
+	"gant" pr @case #6->7
+		"indirect" prn obj p3 m sg @obl #7->5
+"<.>"
+	"." sent @punct #8->1
+
+# text = N'he deus ket labouret a-walc'h se.
+# text[eng] = She hasn't worked enough at that.
+# labels = press_1986 ch_morphology to_check
+"<N'>"
+	"ne" adv neg @advmod #1->4
+"<he deus>"
+	"kaout" vblex pri p3 f sg @aux #2->4
+"<ket>"
+	"ket" adv @advmod #3->4
+"<labouret>"
+	"labourat" vblex pp @root #4->0
+"<a-walc'h>"
+	"a-walc’h" adv @advmod #5->4
+"<se>"
+	"se" prn dem mf sg @obj #6->4
+"<.>"
+	"." sent @punct #7->4
+
+# text = Yaouank eo da c'hoar?
+# text[eng] = Is your sister young?
+# labels = press_1986 ch_morphology to_check
+"<Yaouank>"
+	"yaouank" adj mf sp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->1
+"<da>"
+	"da" det pos mf sp @det #3->4
+"<c'hoar>"
+	"c’hoar" n f sg @nsubj #4->1
+"<?>"
+	"?" sent @punct #5->1
+
+# text = Yaouank eo.
+# text[eng] = She is young. [yes]
+# labels = press_1986 ch_morphology to_check
+"<Yaouank>"
+	"yaouank" adj mf sp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Dont a rin.
+# text[eng] = I will come. [yes]
+# labels = press_1986 ch_morphology to_check
+"<Dont>"
+	"dont" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<rin>"
+	"ober" vblex fti p1 sg @aux #3->1
+"<.>"
+	"." sent @punct #4->1
+
+# text = War-lerc'h eo chomet va yalc'h.
+# text[eng] = I've forgotten my purse.
+# labels = press_1986 ch_morphology to_check
+"<War-lerc'h>"
+	"war-lerc’h" adv @advmod #1->3
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #2->3
+"<chomet>"
+	"chom" vblex pp @root #3->0
+"<ma>"
+	"ma" det pos mf sp @det #4->5
+"<yalc'h>"
+	"yalc’h" n f sg @obj #5->3
+"<.>"
+	"." sent @punct #6->3
+
+# text = An den a lavaras an dra-se a oa eno.
+# text[eng] = The man who said that was there.
+# labels = press_1986 ch_morphology to_check
+"<An>"
+	"an" det def sp @det #1->2
+"<den>"
+	"den" n m sg  @nsubj #2->10
+"<a>"
+	"a" vpart @aux #3->4
+"<lavaras>"
+	"lavarout" vblex past p3 sg @acl #4->2
+"<an>"
+	"an" det def sp @det #5->6
+"<dra>"
+	"tra" n m sg @obj #6->4
+"<-se>"
+	"se" adv @advmod #7->6
+"<a>"
+	"a" vpart  @aux #8->10
+"<oa>"
+	"bezañ" vblex pii p3 sg @cop #9->10
+"<eno>"
+	"eno" adv @root #10->0
+"<.>"
+	"." sent @punct #11->10
+
+# text = Yann a zeuy hag a ray ur brezegenn.
+# text[eng] = Yann will come and give a talk.
+# labels = press_1986 ch_morphology to_check
+"<Yann>"
+	"Yann" np ant m sg @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<zeuy>"
+	"dont" vblex fti p3 sg @root #3->0
+"<hag>"
+	"ha" cnjcoo @cc #4->6
+"<a>"
+	"a" vpart  @aux #5->6
+"<ray>"
+	"ober" vblex fti p3 sg @conj #6->3
+"<ur>"
+	"un" det ind sp @det #7->8
+"<brezegenn>"
+	"prezegenn" n f sg @obj #8->6
+"<.>"
+	"." sent @punct #9->3
+
+# text = Debriñ a reomp hor boued.
+# text[eng] = We eat our food.
+# labels = press_1986 ch_morphology to_check
+"<Debriñ>"
+	"debriñ" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<reomp>"
+	"ober" vblex pri p1 pl @aux #3->1
+"<hor>"
+	"hon" det pos mf sp @det #4->5
+"<boued>"
+	"boued" n m sg @obj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Klask a raint o mignoned.
+# text[eng] = They'll look for their friends.
+# labels = press_1986 ch_morphology to_check
+"<Klask>"
+	"klask" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<raint>"
+	"ober" vblex fti p3 pl @aux #3->1
+"<o>"
+	"o" det pos mf sp @det #4->5
+"<mignoned>" 
+	"mignon" n m pl @obj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Gwelout a ran al loar.
+# text[eng] = I see the moon.
+# labels = press_1986 ch_morphology to_check
+"<Gwelout>"
+	"gwelout" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ran>"
+	"ober" vblex pri p1 sg @aux #3->1
+"<al>"
+	"an" det def sp @det #4->5
+"<loar>"
+	"loar" n f sg @obj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Selaou a rit an avel.
+# text[eng] = You listen to the wind.
+# labels = press_1986 ch_morphology to_check
+"<Selaou>"
+	"selaou" vblex inf @root #1->0
+"<a>" 
+	"a" vpart @aux #2->1
+"<rit>"
+	"ober" vblex pri p2 pl @aux #3->1
+"<an>"
+	"an" det def sp @det #4->5
+"<avel>" 
+	"avel" n m sg @obj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Kousket ne rin ket.
+# text[eng] = I will not sleep.
+# labels = press_1986 ch_morphology to_check
+"<Kousket>"
+	"kousket" vblex inf @root #1->0
+"<ne>"
+	"ne" adv neg @advmod #2->1
+"<rin>"
+	"ober" vblex fti p1 sg @aux #3->1
+"<ket>"
+	"ket" adv @aux #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# text = Al laboused a nijo.
+# text[eng] = The birds will fly.
+# labels = press_1986 ch_morphology to_check
+"<Al>"
+	"an" det def sp @det #1->2
+"<laboused>"
+	"labous" n m pl @nsubj #2->4
+"<a>"
+	"a" vpart @aux #3->4
+"<nijo>"
+	"nijal" vblex fti p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# text = Al levr a brenan.
+# text[eng] = I buy the book.
+# labels = press_1986 ch_morphology to_check
+"<Al>"
+	"an" det def sp @det #1->2
+"<levr>"
+	"levr" n m sg @obj #2->4
+"<a>"
+	"a" vpart @aux #3->4
+"<brenan>"
+	"prenañ" vblex pri p1 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+# text = Ouzh ar skeudenn e sellan.
+# text[eng] = It's the picture I look at.
+# labels = press_1986 ch_morphology to_check
+"<Ouzh>"
+	"ouzh" pr @case #1->3
+"<ar>"
+	"an" det def sp @det #2->3
+"<skeudenn>"
+	"skeudenn" n f sg @obl #3->5
+"<e>"
+	"e" vpart obj @aux #4->5
+"<sellan>"
+	"sellout" vblex pri p1 sg @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+# text = Yannig a welit.
+# text[eng] = You see Yannig.
+# labels = press_1986 ch_morphology to_check
+"<Yannig>"
+	"Yannig" np ant m sg @obj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<welit>"
+	"gwelout" vblex pri p2 pl @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Warc'hoazh e kouskint.
+# text[eng] = Tomorrow they'll sleep.
+# labels = press_1986 ch_morphology to_check
+"<Warc'hoazh>"
+	"warc’hoazh" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<kouskint>"
+	"kousket" vblex fti p3 pl @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Ne zeuint ket.
+# text[eng] = They won't come.
+# labels = press_1986 ch_morphology to_check
+"<Ne>"
+	"ne" adv neg @advmod #1->2
+"<zeuint>"
+	"dont" vblex fti p3 pl @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<.>"
+	"." sent @punct #4->2
+
+# text = An dud-se ne lennont ket.
+# text[eng] = Those people do not read.
+# labels = press_1986 ch_morphology to_check
+"<An>"
+	"an" det def sp @det #1->2
+"<dud>"
+	"den" n m pl @nsubj #2->5
+"<-se>"
+	"se" adv @advmod #3->2
+"<ne>"
+	"ne" adv neg @advmod #4->5
+"<lennont>"
+	"lenn" vblex pri p3 pl @root #5->0
+"<ket>"
+	"ket" adv @advmod #6->5
+"<.>"
+	"." sent @punct #7->5
+
+# text = Ne lenn ket an dud-se. 
+# text[eng] = Those people do not read.
+# labels = press_1986 ch_morphology to_check
+"<Ne>"
+	"ne" adv neg @advmod #1->2
+"<lenn>"
+	"lenn" vblex pri p3 sg @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<an>"
+	"an" det def sp @det #4->5
+"<dud>"
+	"den" n m pl @nsubj #5->2
+"<-se>"
+	"se" adv @advmod #6->5
+"<.>"
+	"." sent @punct #7->2
+
+# text = Anavezout a ran tud na ouzont ket ar brezhoneg.
+# text[eng] = I know people who don't know Breton.
+# labels = press_1986 ch_morphology to_check
+"<Anavezout>"
+	"anavezout" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ran>"
+	"ober" vblex pri p1 sg @aux #3->1
+"<tud>"
+	"den" n m pl @obj #4->1
+"<na>"
+	"na" vpart neg @aux #5->6
+"<ouzont>"
+	"gouzout" vblex pri p3 pl @acl #6->4
+"<ket>"
+	"ket" adv @advmod #7->6
+"<ar>"
+	"an" det def sp @det #8->9
+"<brezhoneg>"
+	"brezhoneg" n m sg @obj #9->6
+"<.>"
+	"." sent @punct #10->1
+
+# text = Ar re na zebront ket o boued a yelo d'ar gwele.
+# text[eng] = Those who do not eat their food will go to bed.
+# labels = press_1986 ch_morphology to_check
+"<Ar re>"
+	"ar re" prn rel mf sg @nsubj #1->8
+"<na>"
+	"na" vpart neg @aux #2->3
+"<zebront>"
+	"debriñ" vblex pri p3 pl @acl #3->1
+"<ket>"
+	"ket" adv @advmod #4->3
+"<o>"
+	"o" det pos mf sp @det #5->6
+"<boued>"
+	"boued" n m sg @obj #6->3
+"<a>"
+	"a" vpart @aux #7->8
+"<yelo>"
+	"mont" vblex fti p3 sg @root #8->0
+"<d'ar>"
+	"da" pr @case #9->11
+		"an" det def sp @det #10->11
+"<gwele>"
+	"gwele" n m sg @obl #11->8
+"<.>"
+	"." sent @punct #12->8
+
 # text = N'he deus klasket zoken gwalc'hiñ he belo
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check
