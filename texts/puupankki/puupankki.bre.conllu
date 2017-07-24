@@ -3470,6 +3470,122 @@
 7	.	.	PUNCT	sent	_	3	punct	_	_
 
 # sent_id = grammar.vislcg.txt:197:3513
+# text = Kousket ne rin ket.
+# text[eng] = I'll not sleep.
+# labels = press_1986 ch_morphology to_check
+1	Kousket	kousket	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	1	advmod	_	_
+3	rin	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	ket	ket	ADV	adv	_	1	advmod	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:198:3527
+# text = Ne'z ajen ket.
+# text[eng] = I wouldn't go.
+# labels = press_1986 ch_morphology to_check
+1	Ne'z	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	ajen	monet	VERB	vblex	Number=Sing|Person=1	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:199:3539
+# text = Me ne brenin ket an dra-se.
+# text[eng] = I'll not buy that.
+# labels = press_1986 ch_morphology to_check
+1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	3	advmod	_	_
+3	brenin	prenañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	ket	ket	ADV	adv	_	3	advmod	_	_
+5	an	an	DET	det	_	6	det	_	_
+6	dra	tra	NOUN	n	Gender=Msc|Number=Sing	3	obj	_	_
+7	-se	se	ADV	adv	_	6	advmod	_	_
+8	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:200:3559
+# text = Ne daolimp ket ar bili war ar geot.
+# text[eng] = We won't throw pebbles onto the grass.
+# labels = press_1986 ch_morphology to_check
+1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	daolimp	teuler	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	bili	bili	NOUN	n	Gender=Fem|Number=Plur	2	obj	_	_
+6	war	war	ADP	pr	_	8	case	_	_
+7	ar	an	DET	det	_	8	det	_	_
+8	geot	geot	NOUN	n	Gender=Fem|Number=Plur	2	obl	_	_
+9	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:201:3581
+# text = Va zud ne ouzont ket.
+# text[eng] = My family don't know.
+# labels = press_1986 ch_morphology to_check
+1	Ma	ma	DET	det	PronType=Pos	2	det	_	_
+2	zud	den	NOUN	n	Gender=Msc|Number=Plur	4	nsubj	_	_
+3	ne	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
+4	ouzont	gouzout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ket	ket	ADV	adv	_	4	advmod	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:202:3597
+# text = Ne oar ket va zud.
+# text[eng] = My family don't know.
+# labels = press_1986 ch_morphology to_check
+1	Ne	ne	ADV	adv	Polarity=Neg	2	advmod	_	_
+2	oar	gouzout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ket	ket	ADV	adv	_	2	advmod	_	_
+4	ma	ma	DET	det	PronType=Pos	5	det	_	_
+5	zud	den	NOUN	n	Gender=Msc|Number=Plur	2	nsubj	_	_
+6	.	.	PUNCT	sent	_	2	punct	_	_
+
+# sent_id = grammar.vislcg.txt:203:3613
+# text = Brav he deus lammet.
+# text[eng] = She jumped well.
+# labels = press_1986 ch_morphology to_check
+1	Brav	brav	ADJ	adj	_	3	advmod	_	_
+2	he deus	kaout	VERB	vblex	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lammet	lammat	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:204:3625
+# text = Skuizh-bras eo hi.
+# text[eng] = She's really tired.
+# labels = press_1986 ch_morphology to_check
+1-2	Skuizh-bras	_	_	_	_	_	_	_	_
+1	Skuizh-bras	skuizh	ADJ	adj	_	0	root	_	_
+2	_	bras	ADV	adv	_	1	advmod	_	_
+3	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	hi	prpers	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	1	nsubj	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:205:3638
+# text = Va gwreg ne vo ket eno kennebeut.
+# text[eng] = My wife will not be there either.
+# labels = press_1986 ch_morphology to_check
+1	Ma	ma	DET	det	PronType=Pos	2	det	_	_
+2	gwreg	gwreg	NOUN	n	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	ne	ne	ADV	adv	Polarity=Neg	6	advmod	_	_
+4	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+5	ket	ket	ADV	adv	_	6	advmod	_	_
+6	eno	eno	ADV	adv	_	0	root	_	_
+7	kennebeut	kennebeut	ADV	adv	_	6	advmod	_	_
+8	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:206:3658
+# text = Ar merc'hed hepken a zeuy d'ar c'hendalc'h.
+# text[eng] = Only the girls will come to the congress.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	merc'hed	merc’h	NOUN	n	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	hepken	hepken	ADV	adv	_	5	advmod	_	_
+4	a	a	PART	vpart	_	5	aux	_	_
+5	zeuy	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6-7	d'ar	_	_	_	_	_	_	_	_
+6	d	da	ADP	pr	_	7	case	_	_
+7	ar	an	DET	det	_	8	det	_	_
+8	c'hendalc'h	kendalc’h	NOUN	n	Gender=Msc|Number=Sing	5	obl	_	_
+9	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:207:3679
 # text = N'he deus klasket zoken gwalc'hiñ he belo
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check

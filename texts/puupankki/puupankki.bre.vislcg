@@ -5071,6 +5071,172 @@
 "<.>"
 	"." sent @punct #7->3
 
+# text = Kousket ne rin ket.
+# text[eng] = I'll not sleep.
+# labels = press_1986 ch_morphology to_check
+"<Kousket>"
+	"kousket" vblex inf @root #1->0
+"<ne>"
+	"ne" adv neg @advmod #2->1
+"<rin>"
+	"ober" vblex fti p1 sg @aux #3->1
+"<ket>"
+	"ket" adv @advmod #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# text = Ne'z ajen ket.
+# text[eng] = I wouldn't go.
+# labels = press_1986 ch_morphology to_check
+"<Ne'z>"
+	"ne" adv neg @advmod #1->2
+"<ajen>"
+	"monet" vblex cip p1 sg @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<.>"
+	"." sent @punct #4->2
+
+# text = Me ne brenin ket an dra-se.
+# text[eng] = I'll not buy that.
+# labels = press_1986 ch_morphology to_check
+"<Me>"
+	"prpers" prn subj p1 mf sg @nsubj #1->3
+"<ne>"
+	"ne" adv neg @advmod #2->3
+"<brenin>"
+	"prenañ" vblex fti p1 sg @root #3->0
+"<ket>"
+	"ket" adv @advmod #4->3
+"<an>"
+	"an" det def sp @det #5->6
+"<dra>"
+	"tra" n m sg @obj #6->3
+"<-se>"
+	"se" adv @advmod #7->6
+"<.>"
+	"." sent @punct #8->3
+
+# text = Ne daolimp ket ar bili war ar geot.
+# text[eng] = We won't throw pebbles onto the grass.
+# labels = press_1986 ch_morphology to_check
+"<Ne>"
+	"ne" adv neg @advmod #1->2
+"<daolimp>"
+	"teuler" vblex fti p1 pl @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<ar>"
+	"an" det def sp @det #4->5
+"<bili>"
+	"bili" n f pl @obj #5->2
+"<war>"
+	"war" pr @case #6->8
+"<ar>"
+	"an" det def sp @det #7->8
+"<geot>"
+	"geot" n f pl @obl #8->2
+"<.>"
+	"." sent @punct #9->2
+
+# text = Va zud ne ouzont ket.
+# text[eng] = My family don't know.
+# labels = press_1986 ch_morphology to_check
+"<Ma>"
+	"ma" det pos mf sp @det #1->2
+"<zud>"
+	"den" n m pl @nsubj #2->4
+"<ne>"
+	"ne" adv neg @advmod #3->4
+"<ouzont>"
+	"gouzout" vblex pri p3 pl @root #4->0
+"<ket>"
+	"ket" adv @advmod #5->4
+"<.>"
+	"." sent @punct #6->4
+
+# text = Ne oar ket va zud.
+# text[eng] = My family don't know.
+# labels = press_1986 ch_morphology to_check
+"<Ne>"
+	"ne" adv neg @advmod #1->2
+"<oar>"
+	"gouzout" vblex pri p3 sg @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<ma>"
+	"ma" det pos mf sp @det #4->5
+"<zud>"
+	"den" n m pl @nsubj #5->2
+"<.>"
+	"." sent @punct #6->2
+
+# text = Brav he deus lammet.
+# text[eng] = She jumped well.
+# labels = press_1986 ch_morphology to_check
+"<Brav>"
+	"brav" adj mf sp @advmod #1->3
+"<he deus>" 
+	"kaout" vblex pri p3 f sg @aux #2->3
+"<lammet>"
+	"lammat" vblex pp @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+# text = Skuizh-bras eo hi.
+# text[eng] = She's really tired.
+# labels = press_1986 ch_morphology to_check
+"<Skuizh-bras>"
+	"skuizh" adj mf sp @root #1->0
+		"bras" adv @advmod #2->1
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #3->1
+"<hi>"
+	"prpers" prn subj p3 f sg @nsubj #4->1
+"<.>"
+	"." sent @punct #5->1
+
+# text = Va gwreg ne vo ket eno kennebeut.
+# text[eng] = My wife will not be there either.
+# labels = press_1986 ch_morphology to_check
+"<Ma>"
+	"ma" det pos mf sp @det #1->2
+"<gwreg>"
+	"gwreg" n f sg @nsubj #2->6
+"<ne>"
+	"ne" adv neg @advmod #3->6
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #4->6
+"<ket>"
+	"ket" adv @advmod #5->6
+"<eno>"
+	"eno" adv @root #6->0
+"<kennebeut>"
+	"kennebeut" adv @advmod #7->6
+"<.>"
+	"." sent @punct #8->6
+
+# text = Ar merc'hed hepken a zeuy d'ar c'hendalc'h.
+# text[eng] = Only the girls will come to the congress.
+# labels = press_1986 ch_morphology to_check
+"<Ar>"
+	"an" det def sp @det #1->2
+"<merc'hed>"
+	"merc’h" n f pl @nsubj #2->5
+"<hepken>"
+	"hepken" adv @advmod #3->5
+"<a>"
+	"a" vpart @aux #4->5
+"<zeuy>"
+	"dont" vblex fti p3 sg @root #5->0
+"<d'ar>"
+	"da" pr @case #6->7
+		"an" det def sp @det #7->8
+"<c'hendalc'h>"
+	"kendalc’h" n m sg @obl #8->5
+"<.>"
+	"." sent @punct #9->5
+
 # text = N'he deus klasket zoken gwalc'hiñ he belo
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check

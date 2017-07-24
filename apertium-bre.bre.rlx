@@ -181,7 +181,9 @@ LIST Reiñ = "reiñ" ;
 LIST Lavarout = "lavarout" ;
 LIST Sellout = "sellout" ; 
 LIST Karout = "karout" ; 
+LIST Teuler = "teuler" ;
 
+LIST Lancer = "teurel" "teuler" ;
 LIST Aimer = "kariñ" "karout" ;
 LIST Donner = "reiñ" "roiñ" ;
 LIST Regarder = "sellout" "sellet" ; 
@@ -229,10 +231,12 @@ SELECT VpartIDO IF (1C Vez) ;
 
 REMOVE:x-nodetpos_top DetPos IF (0 DetPos) (0 Pr) (1C Toponim) ;
 
-REMOVE:x-Vpart_no_verb Vpart (NOT 1 Verb) (NOT 1/* Verb) (NOT 1 Unknown) ;
+REMOVE:x-Vpart_no_verb Vpart IF (NOT 1 Verb) (NOT 1/* Verb) (NOT 1 Unknown) ;
 	# en ur gambr.
 
-SELECT VerbFin (-1 VpartIDO OR VpartSDO) (0 Vez) (1 PrfPrc) ;
+REMOVE:x-remove-vpart-nc Vpart IF (1C NC) ;
+
+SELECT VerbFin IF (-1 VpartIDO OR VpartSDO) (0 Vez) (1 PrfPrc) ;
 	# Setu petra a vez graet.
 
 #Ma vez klasket sevel abadennoù
@@ -296,7 +300,7 @@ REMOVE Vpart IF (-1 ("kaout" vblex inf)) ;
 REMOVE:l-remove_komz_nc ("komz" n) IF (1 NC) ;
 
 # REGLA (B    ): "Ur bed nevez."
-REMOVE:x-noverb_detind Verb IF (-1 DetInd) ;
+REMOVE:x-noverb_detind Verb IF (-1C DetInd) ;
 
 # REGLA (B    ): "Ar pezh a fell deomp ober eo liammañ anezho"
 REMOVE NC IF (-3 ("ar pezh a"ri rel)) (-2 VerbFin) (0 VerbInf) (0 NC) ;
@@ -971,7 +975,9 @@ SELECT:l-sellout_if_regar Sellout IF (0C Regarder) (0C Verb) ;
 
 SELECT:l-reiñ_if_donner Reiñ IF (0C Donner) (0C Verb) ; 
 
-SELECT:l-karoud_if_aimer Karout (0C Aimer) (0C Verb) ; 
+SELECT:l-karout_if_aimer Karout (0C Aimer) (0C Verb) ; 
+
+SELECT:l-teuler_if_lance Teuler (0C Lancer) (0C Verb) ; 
 
 ###############################################################################
 ## Lexical selection 
