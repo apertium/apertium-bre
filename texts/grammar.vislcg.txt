@@ -4870,407 +4870,307 @@
 "<?>"
 	"?" sent @punct #6->1
 
-# text = Va zad-kozh eo.
+# text = Ma zad-kozh eo.
 # text[eng] = He is my grandfather.
 # labels = press_1986 ch_morphology to_check
 "<Va>"
-	"direct" prn obj p1 mf sg
-;	"ma" cnjsub REMOVE:288:m-Remove_SoftMut
-;	"ma" det pos mf sp REMOVE:288:m-Remove_SoftMut
+	"ma" det pos mf sp 
 "<zad-kozh>"
-	"tad#-kozh" n m sg
+	"tad-kozh" n m sg
 "<eo>"
 	"bezañ" vblex pri p3 sg
 "<.>"
 	"." sent
 
-# text = Labourat a raen gant va mamm er parkeier.
+# text = Labourat a raen gant ma mamm er parkeier.
 # text[eng] = I used to work with my mother in the fields.
 # labels = press_1986 ch_morphology to_check
 "<Labourat>"
-	"labourat" vblex inf
+	"labourat" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:243:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->1
 "<raen>"
-	"ober" vblex pii p1 sg
+	"ober" vblex pii p1 sg @aux #3->1
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:288:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:288:m-Remove_SoftMut
-"<va>"
-	"direct" prn obj p1 mf sg
-;	"ma" cnjsub REMOVE:288:m-Remove_SoftMut
-;	"ma" det pos mf sp REMOVE:288:m-Remove_SoftMut
+	"gant" pr @case #4->6
+"<ma>"
+	"ma" det pos mf sp @det #5->6
 "<mamm>"
-	"mamm" n f sg
+	"mamm" n f sg @obl #6->1
 "<er>"
-	"e" pr
-		"an" det def sp
+	"e" pr @case #7->9
+		"an" det def sp @det #8->9
 "<parkeier>"
-	"park" n m pl
+	"park" n m pl @obl #9->1
 "<.>"
-	"." sent
+	"." sent @punct #10->1
 
 # text = Labourat ne rin biken ganeoc'h.
 # text[eng] = I shall never work with you.
 # labels = press_1986 ch_morphology to_check
 "<Labourat>"
-	"labourat" vblex inf
+	"labourat" vblex inf @root #1->0
 "<ne>"
-	"ne" adv neg
+	"ne" adv neg @advmod #2->1
 "<rin>"
-	"ober" vblex fti p1 sg
+	"ober" vblex fti p1 sg @aux #3->1
 "<biken>"
-	"biken" adv
-;	"pikat" vblex pii p1 sg REMOVE:288:m-Remove_SoftMut
-;	"pikañ" vblex pii p1 sg REMOVE:288:m-Remove_SoftMut
+	"biken" adv @advmod #4->1
 "<ganeoc'h>"
-	"gant" pr
-		"indirect" prn obj p2 mf pl
+	"gant" pr @case #5->6
+		"indirect" prn obj p2 mf pl @obl #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Nijet eo al labous kuit.
 # text[eng] = They have flown away.
 # labels = press_1986 ch_morphology to_check
 "<Nijet>"
-	"nijal" vblex pp
-;	"nijal" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"nijal" vblex pp @root
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux
 "<al>"
-	"an" det def sp
+	"an" det def sp @det
 "<labous>"
-	"labous" n m sg
+	"labous" n m sg @nsubj
 "<kuit>"
-	"kuit" adv
-	"kuit" adj mf sp
+	"kuit" adv @
 "<.>"
-	"." sent
+	"." sent @
 
 # text = Nijet int diwar o neizh.
 # text[eng] = They have left their nest.
 # labels = press_1986 ch_morphology to_check
 "<Nijet>"
-	"nijal" vblex pp
-;	"nijal" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"nijal" vblex pp @root #1->0
 "<int>"
-	"prpers" prn subj p3 mf pl
-;	"bezañ" vblex pri p3 pl REMOVE:567
+	"prpers" prn subj p3 mf pl @nsubj
 "<diwar>"
-	"diwar" pr
+	"diwar" pr @case
 "<o>"
-	"o" det pos mf sp
-;	"direct" prn obj p3 mf pl REMOVE:419
-;	"o" ij REMOVE:552:x-noInterj_cm
-;	"o" n m sp REMOVE:919
-;	"o" vpart ger REMOVE:923
+	"o" det pos mf sp @det
 "<neizh>"
-	"neizh" n m sg
+	"neizh" n m sg @obl
 "<.>"
-	"." sent
+	"." sent @punct
 
 # text = Kouezhet en deus en ur zont.
 # text[eng] = He fell while coming.
 # labels = press_1986 ch_morphology to_check
 "<Kouezhet>"
-	"kouezhañ" vblex pp
-;	"kouezhañ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"kouezhañ" vblex pp @root #1->0
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->1
 "<en ur>"
-	"en ur" vpart ppres SELECT:726
-;	"e" pr SELECT:726
-;		"un" det ind sp
+	"en ur" vpart ppres @aux #3->4
 "<zont>"
-	"dont" vblex inf
+	"dont" vblex inf @advcl #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # text = Marvet en deus al leue bihan.
 # text[eng] = The little calf has died.
 # labels = press_1986 ch_morphology to_check
 "<Marvet>"
-	"mervel" vblex pp
+	"mervel" vblex pp @root #1->0
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->1
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #3->4
 "<leue>"
-	"leue" n m sg
+	"leue" n m sg @nsubj #4->1
 "<bihan>"
-	"bihan" adj mf sp
+	"bihan" adj mf sp @amod #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # text = Kerzhout a ran.
 # text[eng] = I walk.
 # labels = press_1986 ch_morphology to_check
 "<Kerzhout>"
-	"kerzhout" vblex inf
+	"kerzhout" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:596
-;	"mont" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:567
-;	"monet" vblex pri p3 sg REMOVE:567
-;	"a" pr SELECT:596
-;	"a" n m sp SELECT:596
+	"a" vpart @aux #2->1
 "<ran>"
-	"ober" vblex pri p1 sg SELECT:703
-;	"ran" n f sg SELECT:703
+	"ober" vblex pri p1 sg @aux #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # text = Kerzhout a rin.
 # text[eng] = I will walk.
 # labels = press_1986 ch_morphology to_check
 "<Kerzhout>"
-	"kerzhout" vblex inf
+	"kerzhout" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:243:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->1
 "<rin>"
-	"ober" vblex fti p1 sg
+	"ober" vblex fti p1 sg @aux #3->1 
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # text = Kerzhout a raen.
 # text[eng] = I used to walk.
 # labels = press_1986 ch_morphology to_check
 "<Kerzhout>"
-	"kerzhout" vblex inf
+	"kerzhout" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:243:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->1
 "<raen>"
-	"ober" vblex pii p1 sg
+	"ober" vblex pii p1 sg @aux #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # text = Kerzhout a rafen.
 # text[eng] = I would walk.
 # labels = press_1986 ch_morphology to_check
 "<Kerzhout>"
-	"kerzhout" vblex inf
+	"kerzhout" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:243:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->1
 "<rafen>"
-	"ober" vblex cni p1 sg
+	"ober" vblex cni p1 sg @aux #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # text = Kerzhout a rajen.
 # text[eng] = I would walk.
 # labels = press_1986 ch_morphology to_check
 "<Kerzhout>"
-	"kerzhout" vblex inf
+	"kerzhout" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:243:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:243:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:243:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->1
 "<rajen>"
-	"ober" vblex cip p1 sg
+	"ober" vblex cip p1 sg @aux #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # text = Kerzhout am eus graet.
 # text[eng] = I have walked.
 # labels = press_1986 ch_morphology to_check
 "<Kerzhout>"
-	"kerzhout" vblex inf
+	"kerzhout" vblex inf @root #1->0
 "<am eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #2->1
 "<graet>"
-	"ober" vblex pp
-;	"ober" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"ober" vblex pp @aux #3->1
 "<.>"
-	"." sent
+	"." sent @punct #4->1
 
 # text = Da Gemper emaon o vont.
 # text[eng] = I am going to Quimper.
 # labels = press_1986 ch_morphology to_check
 "<Da>"
-	"da" pr
-;	"da" det pos mf sp REMOVE:200
+	"da" pr @case #1->2
 "<Gemper>"
-	"Kemper" np top sg
+	"Kemper" np top sg @obl #2->5
 "<emaon>"
-	"bezañ" vbloc pri p1 sg
+	"bezañ" vbloc pri p1 sg @aux #3->5
 "<o>"
-	"o" vpart ger SELECT:338
-;	"o" ij SELECT:338
-;	"o" n m sp SELECT:338
-;	"o" det pos mf sp SELECT:338
-;	"direct" prn obj p3 mf pl SELECT:338
+	"o" vpart ger @aux #4->5
 "<vont>"
-	"mont" vblex inf
+	"mont" vblex inf @root #5->0
 "<.>"
-	"." sent
+	"." sent @punct #6->5
 
 # text = Da Gemper e vin o vont.
 # text[eng] = I will be going to Quimper.
 # labels = press_1986 ch_morphology to_check
 "<Da>"
-	"da" pr
-;	"da" det pos mf sp REMOVE:200
+	"da" pr @case #1->2
 "<Gemper>"
-	"Kemper" np top sg
+	"Kemper" np top sg @obl #2->6
 "<e>"
-	"e" vpart obj SELECT:433:x-Vpart_if_Vfin
-;	"e" det pos m sp REMOVE:411
-;	"e" pr SELECT:433:x-Vpart_if_Vfin
-;	"e" n m sp SELECT:433:x-Vpart_if_Vfin
-;	"direct" prn obj p3 m sg SELECT:433:x-Vpart_if_Vfin
+	"e" vpart obj @aux #3->6
 "<vin>"
-	"bezañ" vblex fti p1 sg SELECT:312
-;	"min" n m sg SELECT:312
+	"bezañ" vblex fti p1 sg @aux #4->6
 "<o>"
-	"o" vpart ger SELECT:338
-;	"o" ij SELECT:338
-;	"o" n m sp SELECT:338
-;	"o" det pos mf sp SELECT:338
-;	"direct" prn obj p3 mf pl SELECT:338
+	"o" vpart ger @aux #5->6
 "<vont>"
-	"mont" vblex inf
+	"mont" vblex inf @root #6->0
 "<.>"
-	"." sent
+	"." sent @punct #7->6
 
 # text = Da Gemper e oan o vont.
 # text[eng] = I was going to Quimper.
 # labels = press_1986 ch_morphology to_check
 "<Da>"
-	"da" pr
-;	"da" det pos mf sp REMOVE:200
+	"da" pr @case #1->2
 "<Gemper>"
-	"Kemper" np top sg
+	"Kemper" np top sg @obl #2->6
 "<e>"
-	"e" vpart obj SELECT:433:x-Vpart_if_Vfin
-;	"e" det pos m sp REMOVE:411
-;	"e" pr SELECT:433:x-Vpart_if_Vfin
-;	"e" n m sp SELECT:433:x-Vpart_if_Vfin
-;	"direct" prn obj p3 m sg SELECT:433:x-Vpart_if_Vfin
+	"e" vpart obj @aux #3->6
 "<oan>"
-	"bezañ" vblex pii p1 sg SELECT:312
-;	"oan" n m sg SELECT:312
+	"bezañ" vblex pii p1 sg @aux #4->6
 "<o>"
-	"o" vpart ger SELECT:338
-;	"o" ij SELECT:338
-;	"o" n m sp SELECT:338
-;	"o" det pos mf sp SELECT:338
-;	"direct" prn obj p3 mf pl SELECT:338
+	"o" vpart ger @aux #5->6
 "<vont>"
-	"mont" vblex inf
+	"mont" vblex inf @root #6->0
 "<.>"
-	"." sent
+	"." sent @punct #7->6
 
 # text = Da Gemper e vefen o vont.
 # text[eng] = I would be going to Quimper.
 # labels = press_1986 ch_morphology to_check
 "<Da>"
-	"da" pr
-;	"da" det pos mf sp REMOVE:200
-"<Gemper>"
-	"Kemper" np top sg
+	"da" pr @case #1->2
+"<Gemper>" 
+	"Kemper" np top sg @obl #2->6
 "<e>"
-	"e" vpart obj SELECT:243:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:243:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #3->6
 "<vefen>"
-	"bezañ" vblex cni p1 sg
+	"bezañ" vblex cni p1 sg @aux #4->6
 "<o>"
-	"o" vpart ger SELECT:338
-;	"o" ij SELECT:338
-;	"o" n m sp SELECT:338
-;	"o" det pos mf sp SELECT:338
-;	"direct" prn obj p3 mf pl SELECT:338
+	"o" vpart ger @aux #5->6
 "<vont>"
-	"mont" vblex inf
-"<.>"
-	"." sent
+	"mont" vblex inf @root #6->0
+"<.>" 
+	"." sent @punct #7->6
 
 # text = Lennet en deus Yann al levr.
 # text[eng] = Yann has read the book.
 # labels = press_1986 ch_morphology to_check
 "<Lennet>"
-	"lenn" vblex pp
-	"lennañ" vblex pp
-;	"lenn" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
-;	"lennañ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"lenn" vblex pp @root #1->0
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #3->1
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #4->5
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # text = Yann en deus lennet al levr.
 # text[eng] = Yann has read the book.
 # labels = press_1986 ch_morphology to_check
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #1->3
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->3
 "<lennet>"
-	"lenn" vblex pp
-	"lennañ" vblex pp
-;	"lenn" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
-;	"lennañ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"lenn" vblex pp @root #3->0
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #4->5
 "<levr>"
-	"levr" n m sg
-"<.>"
-	"." sent
+	"levr" n m sg @obj #5->3
+"<.>" 
+	"." sent @punct #6->3
 
 # text = Al levr en deus Yann lennet anezhañ.
 # text[eng] = Yann has read the book.
 # labels = press_1986 ch_morphology to_check
 "<Al>"
-	"an" det def sp
+	"an" det def sp @det
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj
 "<lennet>"
-	"lenn" vblex pp
-	"lennañ" vblex pp
-;	"lenn" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
-;	"lennañ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"lenn" vblex pp @root
 "<anezhañ>"
 	"direct" prn obj p3 m sg SELECT:416
 ;	"eus" pr SELECT:416
@@ -5282,48 +5182,41 @@
 # text[eng] = Mari will have chosen that scythe.
 # labels = press_1986 ch_morphology to_check
 "<Dibabet>"
-	"dibab" vblex pp
-;	"dibab" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"dibab" vblex pp @root #1->0
 "<he do>"
-	"kaout" vblex fti p3 f sg
+	"kaout" vblex fti p3 f sg @aux #2->1
 "<Mari>"
-	"Mari" np ant f sg SELECT:900
-;	"Mari" n m sg SELECT:900
+	"Mari" np ant f sg @nsubj #3->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:705
+	"an" det def sp @det #4->5
 "<falc'h>"
-	"falc’hat" vblex pri p3 sg
+	"falc’h" n m sg @obj #5->1
 "<-se>"
-	"se" adv
+	"se" adv @advmod #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Kavet o doa ar soudarded c'hazh dindan ar gador.
 # text[eng] = The soldiers had found the cat under the chair.
 # labels = press_1986 ch_morphology to_check
 "<Kavet>"
-	"kavout" vblex pp
-;	"kavout" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"kavout" vblex pp @root #1->0
 "<o doa>"
-	"kaout" vblex pii p3 pl
+	"kaout" vblex pii p3 pl @aux #2->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #3->4
 "<soudarded>"
-	"soudard" n m pl
+	"soudard" n m pl @nsubj #4->1
 "<c'hazh>"
-	"kazh" n m sg
+	"kazh" n m sg @obj #5->1
 "<dindan>"
-	"dindan" pr
-	"dindan" adv
+	"dindan" pr @case #6->8
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #7->8
 "<gador>"
-	"kador" n f sg
+	"kador" n f sg @obl #8->1
 "<.>"
-	"." sent
+	"." sent @punct #9->1
 
 # text = Va zud o devefe diskouezet din ar voest-se.
 # text[eng] = My family would have shown me that big box.
@@ -5363,11 +5256,7 @@
 # text[eng] = His nephew would have opened the house door for us.
 # labels = press_1986 ch_morphology to_check
 "<E>"
-	"e" pr
-	"e" vpart obj
-	"e" n m sp
 	"e" det pos m sp
-;	"direct" prn obj p3 m sg REMOVE:419
 "<niz>"
 	"niz" n m sg
 "<en>"
@@ -5402,56 +5291,48 @@
 # text[eng] = I've found the book.
 # labels = press_1986 ch_morphology to_check
 "<Kavet>"
-	"kavout" vblex pp
-;	"kavout" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"kavout" vblex pp @root #1->0
 "<em eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #2->1
 "<bet>"
-	"kaout" vblex pp SELECT:492
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"bezañ" vblex pp SELECT:492
-"<al>"
-	"an" det def sp
+	"kaout" vblex pp @aux #3->1
+"<al>" 
+	"an" det def sp @det #4->1
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # text = Savet eo bet dija.
 # text[eng] = He's already got up.
 # labels = press_1986 ch_morphology to_check
 "<Savet>"
-	"sevel" vblex pp
-;	"sevel" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"sevel" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<bet>"
-	"bezañ" vblex pp SELECT:494
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:494
+	"bezañ" vblex pp @aux #3->1
 "<dija>"
-	"dija" adv
+	"dija" adv @advmod #4->1
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # text = Bet em eus tri lur diganti.
 # text[eng] = I've had three francs off her.
 # labels = press_1986 ch_morphology to_check
 "<Bet>"
-	"kaout" vblex pp SELECT:491
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"bezañ" vblex pp SELECT:491
+	"kaout" vblex pp @root #1->0
 "<em eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #2->1
 "<tri>"
-	"tri" num m pl
+	"tri" num m pl @nummod #3->4
 "<lur>"
-	"lur" n m sg
+	"lur" n m sg @obj #4->1
 "<diganti>"
-	"digant" pr
-		"indirect" prn obj p3 f sg
+	"digant" pr @case #5->6
+		"indirect" prn obj p3 f sg @obl #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Bet on teir gwech e Pariz.
 # text[eng] = I've been to Paris three times.
@@ -5481,154 +5362,104 @@
 # text[eng] = The bottle has been lost by Lan.
 # labels = press_1986 ch_morphology to_check
 "<Kollet>"
-	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"koll" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<bet>"
-	"bezañ" vblex pp SELECT:494
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:494
+	"bezañ" vblex pp @aux:pass #3->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #4->5
 "<voutailh>"
-	"boutailh" n f sg
+	"boutailh" n f sg @nsubj #5->1
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:288:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:288:m-Remove_SoftMut
+	"gant" pr @case #6->7
 "<Lan>"
-	"Lan" np ant m sg
+	"Lan" np ant m sg @obl:agent #7->1
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # text = Gant Lan eo bet kollet ar voutailh.
 # text[eng] = The bottle has been lost by Lan.
 # labels = press_1986 ch_morphology to_check
 "<Gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:288:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:288:m-Remove_SoftMut
+	"gant" pr @case #1->2
 "<Lan>"
-	"Lan" np ant m sg
+	"Lan" np ant m sg @obl:agent #2->5
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #3->5
 "<bet>"
-	"bezañ" vblex pp SELECT:494
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:494
+	"bezañ" vblex pp @aux:pass #4->5
 "<kollet>"
-	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"koll" vblex pp @root #5->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #6->7
 "<voutailh>"
-	"boutailh" n f sg
+	"boutailh" n f sg @nsubj #7->5
 "<.>"
-	"." sent
+	"." sent @punct #8->5
 
 # text = Ar voutailh a zo bet kollet gant Lan.
 # text[eng] = The bottle has been lost by Lan.
 # labels = press_1986 ch_morphology to_check
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #1->2
 "<voutailh>"
-	"boutailh" n f sg
+	"boutailh" n f sg @nsubj #2->6
 "<a>"
-	"a" vpart SELECT:433:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"a" pr SELECT:433:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:433:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:433:x-Vpart_if_Vfin
-;	"monet" vblex pri p3 sg SELECT:433:x-Vpart_if_Vfin
+	"a" vpart @aux #3->6
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"teiñ" vblex pri p3 sg REMOVE:807
+	"bezañ" vblex pri p3 sg @aux #4->6
 "<bet>"
-	"bezañ" vblex pp SELECT:494
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:494
+	"bezañ" vblex pp @aux:pass #5->6
 "<kollet>"
-	"koll" vblex pp
-;	"koll" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"koll" vblex pp @root #6->0
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:288:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:288:m-Remove_SoftMut
+	"gant" pr @case #7->8
 "<Lan>"
-	"Lan" np ant m sg
+	"Lan" np ant m sg @obl:agent #8->6
 "<.>"
-	"." sent
+	"." sent @punct #9->6
 
 # text = Me a zo bet roet ul levr din gant Yannig.
 # text[eng] = I have been given a book by Yannig.
 # labels = press_1986 ch_morphology to_check
 "<Me>"
-	"prpers" prn subj p1 mf sg
+	"prpers" prn subj p1 mf sg @nsubj #1->5
 "<a>"
-	"a" vpart SELECT:294
-;	"mont" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"a" pr SELECT:294
-;	"a" n m sp SELECT:294
-;	"mont" vblex pri p3 sg SELECT:294
-;	"monet" vblex pri p3 sg SELECT:294
+	"a" vpart @aux #2->5
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"teiñ" vblex pri p3 sg REMOVE:807
+	"bezañ" vblex pri p3 sg @aux #3->5
 "<bet>"
-	"bezañ" vblex pp SELECT:494
-;	"pet" prn itg mf sp REMOVE:288:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:494
+	"bezañ" vblex pp @aux:pass #4->5
 "<roet>"
-	"roiñ" vblex pp
-	"reiñ" vblex pp
-;	"roiñ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
-;	"reiñ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"reiñ" vblex pp @root #5->0
 "<ul>"
-	"un" det ind sp
+	"un" det ind sp @det #6->7
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #7->5
 "<din>"
-	"da" pr
-		"indirect" prn obj p1 mf sg
-;	"tin" n m sg REMOVE:288:m-Remove_SoftMut
+	"da" pr @case #8->9
+		"indirect" prn obj p1 mf sg @obl #9->5
 "<gant>"
-	"gant" pr
-	"kant" num mf pl
-	"kant" n m sg
+	"gant" pr @case #10->11
 "<Yannig>"
-	"Yannig" np ant m sg
+	"Yannig" np ant m sg @obl:agent #11->5
 "<.>"
-	"." sent
+	"." sent @punct #12->5
 
 # text = Al levr a lenner.
 # text[eng] = The book is read.
 # labels = press_1986 ch_morphology to_check
 "<Al>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @dep #2->4
 "<a>"
-	"a" pr
-	"a" vpart
-;	"mont" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:567
-;	"monet" vblex pri p3 sg REMOVE:567
-;	"a" n m sp REMOVE:919
+	"a" vpart @aux #3->4
 "<lenner>"
-	"lenn" vblex pri impers sp
-	"lenner" n m sg
-	"lennañ" vblex pri impers sp
+	"lenn" vblex pri impers sp @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
 # text = Er stal e welor kalz levrioù.
 # text[eng] = Many books will be seen in the shop.
@@ -5640,12 +5471,7 @@
 	"stal" n f sg
 "<e>"
 	"e" vpart obj SELECT:243:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:243:x-Vpart_if_only_Vfin
 "<welor>"
-	"gwelet" vblex fti impers sp
 	"gwelout" vblex fti impers sp
 "<kalz>"
 	"kalz" pr
@@ -5660,134 +5486,106 @@
 # text[eng] = I've got your letter.
 # labels = press_1986 ch_morphology to_check
 "<Degouezhet>"
-	"degouezhout" vblex pp
-;	"degouezhout" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"degouezhout" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<ganin>"
-	"gant" pr
-		"indirect" prn obj p1 mf sg
-;	"kanal" vblex fti p1 sg REMOVE:288:m-Remove_SoftMut
-;	"kaniñ" vblex fti p1 sg REMOVE:288:m-Remove_SoftMut
-;	"kanañ" vblex fti p1 sg REMOVE:288:m-Remove_SoftMut
-;	"genel" vblex fti p1 sg REMOVE:567
+	"gant" pr @case #3->4
+		"indirect" prn obj p1 mf sg @obl #4->1
 "<ho>"
-	"ho" det pos mf sp
-;	"direct" prn obj p2 mf pl REMOVE:402
+	"ho" det pos mf sp @det #5->6
 "<lizher>"
-	"lizher" n m sg
+	"lizher" n m sg @nsubj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Kresket eo an dud en hon ti.
 # text[eng] = There's been an addition to the family.
 # labels = press_1986 ch_morphology to_check
 "<Kresket>"
-	"kreskiñ" vblex pp
-;	"kreskiñ" vblex imp p3 sg REMOVE:246:x-Imper_no_Excl
+	"kreskiñ" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:373
-;	"monet" vblex pri p1 sg REMOVE:373
+	"an" det def sp @det #3->4
 "<dud>"
-	"den" n m pl
+	"den" n m pl @nsubj #4->1
 "<en>"
-	"e" pr
-;	"e" pr
-;		"an" det def sp REMOVE:860:x-en_detPos
+	"e" pr @case #5->7
 "<hon>"
-	"hon" det pos mf sp
-;	"direct" prn obj p1 mf pl REMOVE:393
+	"hon" det pos mf sp @det #6->7
 "<ti>"
-	"ti" n m sg
+	"ti" n m sg @obl #7->1
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # text = Ar vugale en em vag.
 # text[eng] = The children feed themselves.
 # labels = press_1986 ch_morphology to_check
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #1->2
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #2->4
 "<en em>"
-	"en em" vpart ref
+	"en em" vpart ref @aux #3->4
 "<vag>"
-	"magañ" vblex pri p3 sg SELECT:239:x-only_vpart_verb
-;	"bag" n f sg SELECT:239:x-only_vpart_verb
-;	"magañ" vblex imp p2 sg SELECT:239:x-only_vpart_verb REMOVE:246:x-Imper_no_Excl
+	"magañ" vblex pri p3 sg @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
 # text = En em vagañ a ra ar vugale.
 # text[eng] = The children feed themselves.
 # labels = press_1986 ch_morphology to_check
 "<En em>"
-	"en em" vpart ref
+	"en em" vpart ref @aux #1->2
 "<vagañ>"
-	"magañ" vblex inf
+	"magañ" vblex inf @root #2->0
 "<a>"
-	"a" vpart SELECT:433:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"a" pr REMOVE:318
-;	"monet" vblex pri p3 sg SELECT:433:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:433:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:433:x-Vpart_if_Vfin
+	"a" vpart @aux #3->2
 "<ra>"
-	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg REMOVE:246:x-Imper_no_Excl
-;	"ra" vpart opt REMOVE:236:x-no_2_vpart
+	"ober" vblex pri p3 sg @aux #4->2
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
-"<vugale>"
-	"bugel" n m pl
+	"an" det def sp @det #5->6
+"<vugale>" 
+	"bugel" n m pl @nsubj #6->2
 "<.>"
-	"." sent
+	"." sent @punct #7->2
 
 # text = Ar vugale n'en em vagont ket.
 # text[eng] = The children do not feed themselves.
 # labels = press_1986 ch_morphology to_check
 "<Ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #1->2
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #2->5
 "<n'>"
-	"ne" adv neg
+	"ne" adv neg @advmod #3->5
 "<en em>"
-	"en em" vpart ref
+	"en em" vpart ref @aux #4->5
 "<vagont>"
-	"magañ" vblex pri p3 pl
+	"magañ" vblex pri p3 pl @root #5->0
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->5
 
 # text = N'en em vag ket ar vugale.
 # text[eng] = The children do not feed themselves.
 # labels = press_1986 ch_morphology to_check
 "<N'>"
-	"ne" adv neg
+	"ne" adv neg @advmod #2->3
 "<en em>"
-	"en em" vpart ref
+	"en em" vpart ref @aux #2->3
 "<vag>"
-	"magañ" vblex pri p3 sg SELECT:239:x-only_vpart_verb
-;	"bag" n f sg SELECT:239:x-only_vpart_verb
-;	"magañ" vblex imp p2 sg SELECT:239:x-only_vpart_verb REMOVE:246:x-Imper_no_Excl
+	"magañ" vblex pri p3 sg @root #3->0
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #4->3
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #5->6
 "<vugale>"
-	"bugel" n m pl
+	"bugel" n m pl @nsubj #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # text = En em c'houlenn a ran hag-eñ e teuy pe ne zeuy ket.
 # text[eng] = I wonder if he will come or not.

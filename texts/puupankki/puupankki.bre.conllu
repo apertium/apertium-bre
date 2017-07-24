@@ -2944,6 +2944,383 @@
 6	?	?	PUNCT	sent	_	1	punct	_	_
 
 # sent_id = grammar.vislcg.txt:154:2752
+# text = Labourat a raen gant ma mamm er parkeier.
+# text[eng] = I used to work with my mother in the fields.
+# labels = press_1986 ch_morphology to_check
+1	Labourat	labourat	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	raen	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	_
+4	gant	gant	ADP	pr	_	6	case	_	_
+5	ma	ma	DET	det	PronType=Pos	6	det	_	_
+6	mamm	mamm	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
+7-8	er	_	_	_	_	_	_	_	_
+7	er	e	ADP	pr	_	9	case	_	_
+8	r	an	DET	det	_	9	det	_	_
+9	parkeier	park	NOUN	n	Gender=Msc|Number=Plur	1	obl	_	_
+10	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:155:2775
+# text = Labourat ne rin biken ganeoc'h.
+# text[eng] = I shall never work with you.
+# labels = press_1986 ch_morphology to_check
+1	Labourat	labourat	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	ne	ne	ADV	adv	Polarity=Neg	1	advmod	_	_
+3	rin	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	biken	biken	ADV	adv	_	1	advmod	_	_
+5-6	ganeoc'h	_	_	_	_	_	_	_	_
+5	ganeoc	gant	ADP	pr	_	6	case	_	_
+6	h	indirect	_	prn	Case=Acc|Number=Plur|Person=2|PronType=Pers	1	obl	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:156:2792
+# text = Kouezhet en deus en ur zont.
+# text[eng] = He fell while coming.
+# labels = press_1986 ch_morphology to_check
+1	Kouezhet	kouezhañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	en deus	kaout	VERB	vblex	Gender=Msc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	en	en	X	x	_	4	dep	_	_
+4	ur	ur	PART	vpart	_	5	aux	_	_
+5	zont	dont	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:157:2808
+# text = Marvet en deus al leue bihan.
+# text[eng] = The little calf has died.
+# labels = press_1986 ch_morphology to_check
+1	Marvet	mervel	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	en deus	kaout	VERB	vblex	Gender=Msc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	al	an	DET	det	_	4	det	_	_
+4	leue	leue	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+5	bihan	bihan	ADJ	adj	_	4	amod	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:158:2824
+# text = Kerzhout a ran.
+# text[eng] = I walk.
+# labels = press_1986 ch_morphology to_check
+1	Kerzhout	kerzhout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:159:2836
+# text = Kerzhout a rin.
+# text[eng] = I will walk.
+# labels = press_1986 ch_morphology to_check
+1	Kerzhout	kerzhout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	rin	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	aux	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:160:2848
+# text = Kerzhout a raen.
+# text[eng] = I used to walk.
+# labels = press_1986 ch_morphology to_check
+1	Kerzhout	kerzhout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	raen	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:161:2860
+# text = Kerzhout a rafen.
+# text[eng] = I would walk.
+# labels = press_1986 ch_morphology to_check
+1	Kerzhout	kerzhout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	rafen	ober	VERB	vblex	Mood=Cond|Number=Sing|Person=1	1	aux	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:162:2872
+# text = Kerzhout a rajen.
+# text[eng] = I would walk.
+# labels = press_1986 ch_morphology to_check
+1	Kerzhout	kerzhout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	rajen	ober	VERB	vblex	Number=Sing|Person=1	1	aux	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:163:2884
+# text = Kerzhout am eus graet.
+# text[eng] = I have walked.
+# labels = press_1986 ch_morphology to_check
+1	Kerzhout	kerzhout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	am eus	kaout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	graet	ober	VERB	vblex	Tense=Past|VerbForm=Part	1	aux	_	_
+4	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:164:2896
+# text = Da Gemper emaon o vont.
+# text[eng] = I am going to Quimper.
+# labels = press_1986 ch_morphology to_check
+1	Da	da	ADP	pr	_	2	case	_	_
+2	Gemper	Kemper	PROPN	np	Number=Sing	5	obl	_	_
+3	emaon	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	o	o	PART	vpart	_	5	aux	_	_
+5	vont	mont	VERB	vblex	VerbForm=Inf	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:165:2912
+# text = Da Gemper e vin o vont.
+# text[eng] = I will be going to Quimper.
+# labels = press_1986 ch_morphology to_check
+1	Da	da	ADP	pr	_	2	case	_	_
+2	Gemper	Kemper	PROPN	np	Number=Sing	6	obl	_	_
+3	e	e	PART	vpart	_	6	aux	_	_
+4	vin	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	6	aux	_	_
+5	o	o	PART	vpart	_	6	aux	_	_
+6	vont	mont	VERB	vblex	VerbForm=Inf	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:166:2930
+# text = Da Gemper e oan o vont.
+# text[eng] = I was going to Quimper.
+# labels = press_1986 ch_morphology to_check
+1	Da	da	ADP	pr	_	2	case	_	_
+2	Gemper	Kemper	PROPN	np	Number=Sing	6	obl	_	_
+3	e	e	PART	vpart	_	6	aux	_	_
+4	oan	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	o	o	PART	vpart	_	6	aux	_	_
+6	vont	mont	VERB	vblex	VerbForm=Inf	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:167:2948
+# text = Da Gemper e vefen o vont.
+# text[eng] = I would be going to Quimper.
+# labels = press_1986 ch_morphology to_check
+1	Da	da	ADP	pr	_	2	case	_	_
+2	Gemper	Kemper	PROPN	np	Number=Sing	6	obl	_	_
+3	e	e	PART	vpart	_	6	aux	_	_
+4	vefen	bezañ	VERB	vblex	Mood=Cond|Number=Sing|Person=1	6	aux	_	_
+5	o	o	PART	vpart	_	6	aux	_	_
+6	vont	mont	VERB	vblex	VerbForm=Inf	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:168:2966
+# text = Lennet en deus Yann al levr.
+# text[eng] = Yann has read the book.
+# labels = press_1986 ch_morphology to_check
+1	Lennet	lenn	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	en deus	kaout	VERB	vblex	Gender=Msc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	Yann	Yann	PROPN	np	Gender=Msc|Number=Sing	1	nsubj	_	_
+4	al	an	DET	det	_	5	det	_	_
+5	levr	levr	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:169:2982
+# text = Yann en deus lennet al levr.
+# text[eng] = Yann has read the book.
+# labels = press_1986 ch_morphology to_check
+1	Yann	Yann	PROPN	np	Gender=Msc|Number=Sing	3	nsubj	_	_
+2	en deus	kaout	VERB	vblex	Gender=Msc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lennet	lenn	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+4	al	an	DET	det	_	5	det	_	_
+5	levr	levr	NOUN	n	Gender=Msc|Number=Sing	3	obj	_	_
+6	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:170:2998
+# text = Dibabet he do Mari ar falc'h-se.
+# text[eng] = Mari will have chosen that scythe.
+# labels = press_1986 ch_morphology to_check
+1	Dibabet	dibab	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	he do	kaout	VERB	vblex	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	aux	_	_
+3	Mari	Mari	PROPN	np	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	falc'h	falc’h	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+6	-se	se	ADV	adv	_	5	advmod	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:171:3016
+# text = Kavet o doa ar soudarded c'hazh dindan ar gador.
+# text[eng] = The soldiers had found the cat under the chair.
+# labels = press_1986 ch_morphology to_check
+1	Kavet	kavout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	o doa	kaout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+3	ar	an	DET	det	_	4	det	_	_
+4	soudarded	soudard	NOUN	n	Gender=Msc|Number=Plur	1	nsubj	_	_
+5	c'hazh	kazh	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+6	dindan	dindan	ADP	pr	_	8	case	_	_
+7	ar	an	DET	det	_	8	det	_	_
+8	gador	kador	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:172:3038
+# text = Kavet em eus bet al levr.
+# text[eng] = I've found the book.
+# labels = press_1986 ch_morphology to_check
+1	Kavet	kavout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	em eus	kaout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	bet	kaout	VERB	vblex	Tense=Past|VerbForm=Part	1	aux	_	_
+4	al	an	DET	det	_	1	det	_	_
+5	levr	levr	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+6	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:173:3054
+# text = Savet eo bet dija.
+# text[eng] = He's already got up.
+# labels = press_1986 ch_morphology to_check
+1	Savet	sevel	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	1	aux	_	_
+4	dija	dija	ADV	adv	_	1	advmod	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:174:3068
+# text = Bet em eus tri lur diganti.
+# text[eng] = I've had three francs off her.
+# labels = press_1986 ch_morphology to_check
+1	Bet	kaout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	em eus	kaout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	tri	tri	NUM	num	Gender=Msc|Number=Plur	4	nummod	_	_
+4	lur	lur	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+5-6	diganti	_	_	_	_	_	_	_	_
+5	diganti	digant	ADP	pr	_	6	case	_	_
+6	i	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	1	obl	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:175:3085
+# text = Kollet eo bet ar voutailh gant Lan.
+# text[eng] = The bottle has been lost by Lan.
+# labels = press_1986 ch_morphology to_check
+1	Kollet	koll	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	1	aux:pass	_	_
+4	ar	an	DET	det	_	5	det	_	_
+5	voutailh	boutailh	NOUN	n	Gender=Fem|Number=Sing	1	nsubj	_	_
+6	gant	gant	ADP	pr	_	7	case	_	_
+7	Lan	Lan	PROPN	np	Gender=Msc|Number=Sing	1	obl:agent	_	_
+8	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:176:3105
+# text = Gant Lan eo bet kollet ar voutailh.
+# text[eng] = The bottle has been lost by Lan.
+# labels = press_1986 ch_morphology to_check
+1	Gant	gant	ADP	pr	_	2	case	_	_
+2	Lan	Lan	PROPN	np	Gender=Msc|Number=Sing	5	obl:agent	_	_
+3	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	kollet	koll	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	voutailh	boutailh	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:177:3125
+# text = Ar voutailh a zo bet kollet gant Lan.
+# text[eng] = The bottle has been lost by Lan.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	voutailh	boutailh	NOUN	n	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	a	a	PART	vpart	_	6	aux	_	_
+4	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	kollet	koll	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+7	gant	gant	ADP	pr	_	8	case	_	_
+8	Lan	Lan	PROPN	np	Gender=Msc|Number=Sing	6	obl:agent	_	_
+9	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:178:3147
+# text = Me a zo bet roet ul levr din gant Yannig.
+# text[eng] = I have been given a book by Yannig.
+# labels = press_1986 ch_morphology to_check
+1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	5	nsubj	_	_
+2	a	a	PART	vpart	_	5	aux	_	_
+3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	roet	reiñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+6	ul	un	DET	det	_	7	det	_	_
+7	levr	levr	NOUN	n	Gender=Msc|Number=Sing	5	obj	_	_
+8-9	din	_	_	_	_	_	_	_	_
+8	din	da	ADP	pr	_	9	case	_	_
+9	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	5	obl	_	_
+10	gant	gant	ADP	pr	_	11	case	_	_
+11	Yannig	Yannig	PROPN	np	Gender=Msc|Number=Sing	5	obl:agent	_	_
+12	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:179:3174
+# text = Al levr a lenner.
+# text[eng] = The book is read.
+# labels = press_1986 ch_morphology to_check
+1	Al	an	DET	det	_	2	det	_	_
+2	levr	levr	NOUN	n	Gender=Msc|Number=Sing	4	dep	_	_
+3	a	a	PART	vpart	_	4	aux	_	_
+4	lenner	lenn	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:180:3188
+# text = Degouezhet eo ganin ho lizher.
+# text[eng] = I've got your letter.
+# labels = press_1986 ch_morphology to_check
+1	Degouezhet	degouezhout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3-4	ganin	_	_	_	_	_	_	_	_
+3	ganin	gant	ADP	pr	_	4	case	_	_
+4	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	1	obl	_	_
+5	ho	ho	DET	det	PronType=Pos	6	det	_	_
+6	lizher	lizher	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_
+7	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:181:3205
+# text = Kresket eo an dud en hon ti.
+# text[eng] = There's been an addition to the family.
+# labels = press_1986 ch_morphology to_check
+1	Kresket	kreskiñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	an	an	DET	det	_	4	det	_	_
+4	dud	den	NOUN	n	Gender=Msc|Number=Plur	1	nsubj	_	_
+5	en	e	ADP	pr	_	7	case	_	_
+6	hon	hon	DET	det	PronType=Pos	7	det	_	_
+7	ti	ti	NOUN	n	Gender=Msc|Number=Sing	1	obl	_	_
+8	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:182:3225
+# text = Ar vugale en em vag.
+# text[eng] = The children feed themselves.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	5	nsubj	_	_
+3	en	en	X	x	_	4	dep	_	_
+4	em	em	PART	vpart	_	5	aux	_	_
+5	vag	magañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:183:3241
+# text = En em vagañ a ra ar vugale.
+# text[eng] = The children feed themselves.
+# labels = press_1986 ch_morphology to_check
+1	En	en	X	x	_	2	dep	_	_
+2	em	em	PART	vpart	_	3	aux	_	_
+3	vagañ	magañ	VERB	vblex	VerbForm=Inf	0	root	_	_
+4	a	a	PART	vpart	_	3	aux	_	_
+5	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+6	ar	an	DET	det	_	7	det	_	_
+7	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	3	nsubj	_	_
+8	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:184:3261
+# text = Ar vugale n'en em vagont ket.
+# text[eng] = The children do not feed themselves.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	6	nsubj	_	_
+3	n'	ne	ADV	adv	Polarity=Neg	6	advmod	_	_
+4	en	en	X	x	_	5	dep	_	_
+5	em	em	PART	vpart	_	6	aux	_	_
+6	vagont	magañ	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ket	ket	ADV	adv	_	6	advmod	_	_
+8	.	.	PUNCT	sent	_	6	punct	_	_
+
+# sent_id = grammar.vislcg.txt:185:3281
+# text = N'en em vag ket ar vugale.
+# text[eng] = The children do not feed themselves.
+# labels = press_1986 ch_morphology to_check
+1	en	en	X	x	_	3	dep	_	_
+2	em	em	PART	vpart	_	4	aux	_	_
+3	vag	magañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ket	ket	ADV	adv	_	4	advmod	_	_
+5	ar	an	DET	det	_	7	det	_	_
+6	vugale	bugel	NOUN	n	Gender=Msc|Number=Plur	4	nsubj	_	_
+7	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:186:3299
 # text = N'he deus klasket zoken gwalc'hiñ he belo
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check

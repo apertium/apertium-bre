@@ -177,9 +177,11 @@ LIST Lenn = "lenn" ;
 LIST Mont = "mont" ;
 LIST Ouzhpenn = "ouzhpenn" ; 
 LIST Gwelout = "gwelout" ;
+LIST Reiñ = "reiñ" ; 
 LIST Lavarout = "lavarout" ;
 LIST Sellout = "sellout" ; 
 
+LIST Donner = "reiñ" "roiñ" ;
 LIST Regarder = "sellout" "sellet" ; 
 LIST Chanter = "kanañ" "kanal" "kaniñ" ;
 LIST Lire = "lenn" "lennout" ;
@@ -965,6 +967,8 @@ SELECT:l-gwelout_if_voir Gwelout IF (0C Voir) (0C Verb) ;
 SELECT:l-lavarout_if_dire Lavarout IF (0C Dire) (0C Verb) ; 
 
 SELECT:l-sellout_if_regar Sellout IF (0C Regarder) (0C Verb) ; 
+
+SELECT:l-reiñ_if_donner Reiñ IF (0C Donner) (0C Verb) ; 
 
 ###############################################################################
 ## Lexical selection 
