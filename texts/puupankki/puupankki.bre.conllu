@@ -3321,6 +3321,155 @@
 7	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:186:3299
+# text = En em c'houlenn a ran hag-eñ e teuy pe ne zeuy ket.
+# text[eng] = I wonder if he will come or not.
+# labels = press_1986 ch_morphology to_check
+1	En	en	X	x	_	2	dep	_	_
+2	em	em	PART	vpart	_	3	aux	_	_
+3	c'houlenn	goulenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	PART	vpart	_	3	aux	_	_
+5	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+6	hag-eñ	hag-eñ	PRON	prn	PronType=Itg	8	nsubj	_	_
+7	e	e	PART	vpart	_	8	aux	_	_
+8	teuy	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
+9	pe	pe	CCONJ	cnjcoo	_	11	cc	_	_
+10	ne	ne	ADV	adv	Polarity=Neg	11	advmod	_	_
+11	zeuy	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	_
+12	ket	ket	ADV	adv	_	11	advmod	_	_
+13	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:187:3329
+# text = Ar armeoù en em gann.
+# text[eng] = The armies fight.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	armeoù	arme	NOUN	n	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	en	en	X	x	_	4	dep	_	_
+4	em	em	PART	vpart	_	5	aux	_	_
+5	gann	kannañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
+
+# sent_id = grammar.vislcg.txt:188:3345
+# text = N'en em garont ket an eil egile.
+# text[eng] = They don't like each other.
+# labels = press_1986 ch_morphology to_check
+1	N'	ne	ADV	adv	Polarity=Neg	4	advmod	_	_
+2	en	en	X	x	_	3	dep	_	_
+3	em	em	PART	vpart	_	4	aux	_	_
+4	garont	karout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ket	ket	ADV	adv	_	4	advmod	_	_
+6	an	an	DET	det	_	8	det	_	_
+7	eil	eil	ADJ	adj	_	8	amod	_	_
+8	egile	egile	_	prn	Case=Acc|Gender=Msc|Number=Sing|PronType=Pers	4	obj	_	_
+9	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:189:3367
+# text = Fall eo ganti.
+# text[eng] = She's not well.
+# labels = press_1986 ch_morphology to_check
+1	Fall	fall	ADJ	adj	_	0	root	_	_
+2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	ganti	_	_	_	_	_	_	_	_
+3	ganti	gant	ADP	pr	_	4	case	_	_
+4	i	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	1	obl	_	_
+5	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:190:3380
+# text = Int a fell dezho c'hoari ganin.
+# text[eng] = They want to play with me.
+# labels = press_1986 ch_morphology to_check
+1	Int	prpers	_	prn	Case=Nom|Number=Plur|Person=3|PronType=Pers	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	fell	fellout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	dezho	_	_	_	_	_	_	_	_
+4	dezho	da	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Number=Plur|Person=3|PronType=Pers	3	obl	_	_
+6	c'hoari	c’hoari	VERB	vblex	VerbForm=Inf	3	xcomp	_	_
+7-8	ganin	_	_	_	_	_	_	_	_
+7	ganin	gant	ADP	pr	_	8	case	_	_
+8	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	3	obl	_	_
+9	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:191:3400
+# text = Fellout a reas din kavout ma breur.
+# text[eng] = I wanted to find my brother.
+# labels = press_1986 ch_morphology to_check
+1	Fellout	fellout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	reas	ober	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+4-5	din	_	_	_	_	_	_	_	_
+4	din	da	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Number=Sing|Person=1|PronType=Pers	1	obl	_	_
+6	kavout	kavout	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
+7	ma	ma	DET	det	PronType=Pos	8	det	_	_
+8	breur	breur	NOUN	n	Gender=Msc|Number=Sing	1	obj	_	_
+9	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:192:3421
+# text = Hi a blijfe dezhi debriñ ur grampouezhenn vras.
+# text[eng] = She'd like to eat a big crêpe.
+# labels = press_1986 ch_morphology to_check
+1	Hi	prpers	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	blijfe	plijout	VERB	vblex	Mood=Cond|Number=Sing|Person=3	0	root	_	_
+4-5	dezhi	_	_	_	_	_	_	_	_
+4	dezhi	da	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Pers	3	obl	_	_
+6	debriñ	debriñ	VERB	vblex	VerbForm=Inf	3	dep	_	_
+7	ur	un	DET	det	_	8	det	_	_
+8	grampouezhenn	krampouezh	NOUN	n	Gender=Fem|Number=Sing	6	obj	_	_
+9	vras	bras	ADJ	adj	_	8	amod	_	_
+10	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:193:3444
+# text = Plijout a rafe deomp ober un dro e Montroulez.
+# text[eng] = We'd like to go for a walk in Morlaix.
+# labels = press_1986 ch_morphology to_check
+1	Plijout	plijout	VERB	vblex	VerbForm=Inf	0	root	_	_
+2	a	a	PART	vpart	_	1	aux	_	_
+3	rafe	ober	VERB	vblex	Mood=Cond|Number=Sing|Person=3	1	aux	_	_
+4-5	deomp	_	_	_	_	_	_	_	_
+4	deomp	da	ADP	pr	_	5	case	_	_
+5	_	indirect	_	prn	Case=Acc|Number=Plur|Person=1|PronType=Pers	1	obl	_	_
+6	ober	ober	VERB	vblex	VerbForm=Inf	1	dep	_	_
+7	un	un	DET	det	_	8	det	_	_
+8	dro	tro	NOUN	n	Gender=Fem|Number=Sing	6	obj	_	_
+9	e	e	ADP	pr	_	10	case	_	_
+10	Montroulez	Montroulez	PROPN	np	Number=Sing	6	obl	_	_
+11	.	.	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.vislcg.txt:194:3469
+# text = Ar sae a brenan.
+# text[eng] = I buy the dress.
+# labels = press_1986 ch_morphology to_check
+1	Ar	an	DET	det	_	2	det	_	_
+2	sae	sae	NOUN	n	Gender=Fem|Number=Sing	4	obj	_	_
+3	a	a	PART	vpart	_	4	aux	_	_
+4	brenan	prenañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
+
+# sent_id = grammar.vislcg.txt:195:3483
+# text = Yannig a welez.
+# text[eng] = You see Yannig.
+# labels = press_1986 ch_morphology to_check
+1	Yannig	Yannig	PROPN	np	Gender=Msc|Number=Sing	3	nsubj	_	_
+2	a	a	PART	vpart	_	3	aux	_	_
+3	welez	gwelout	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:196:3495
+# text = Amañ e kavo-hi ur wetur.
+# text[eng] = She'll find a car here.
+# labels = press_1986 ch_morphology to_check
+1	Amañ	amañ	ADV	adv	_	3	advmod	_	_
+2	e	e	PART	vpart	_	3	aux	_	_
+3	kavo	kavout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	-hi	prpers	_	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Pers	3	nsubj	_	_
+5	ur	un	DET	det	_	6	det	_	_
+6	wetur	gwetur	NOUN	n	Gender=Fem|Number=Sing	3	obj	_	_
+7	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.vislcg.txt:197:3513
 # text = N'he deus klasket zoken gwalc'hiñ he belo
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check

@@ -180,7 +180,9 @@ LIST Gwelout = "gwelout" ;
 LIST Reiñ = "reiñ" ; 
 LIST Lavarout = "lavarout" ;
 LIST Sellout = "sellout" ; 
+LIST Karout = "karout" ; 
 
+LIST Aimer = "kariñ" "karout" ;
 LIST Donner = "reiñ" "roiñ" ;
 LIST Regarder = "sellout" "sellet" ; 
 LIST Chanter = "kanañ" "kanal" "kaniñ" ;
@@ -258,7 +260,7 @@ REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (1 Adv) ;
 REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (NOT 1 VerbInf) ;
 
 # ne'z a ket mat. ne ya ket mat. 
-SELECT VerbFin IF (-1C ("ne" adv)) (0 VerbFin) (1C ("ket" adv)) ;
+SELECT VerbFin IF (-1C Ne) (0 VerbFin) (1C Ket) ;
 
 # "pell ez a an dud"
 REMOVE:x-no_2_vpart Vpart IF (-1C Vpart) ;
@@ -302,9 +304,8 @@ REMOVE NC IF (-3 ("ar pezh a"ri rel)) (-2 VerbFin) (0 VerbInf) (0 NC) ;
 #REGLA "Ar pezh a c’hall an treiñ emgefre ober "
 REMOVE Adj IF (-1 ("ar pezh a"ri)) (0 Verb) (0 Adj) ;
 
-
 # REGLA (B    ): "Ne garan ket ac’hanout"
-REMOVE NC IF (-1 ("ne"ri adv)) (1 ("ket"ri adv)) ;
+REMOVE:x-ne_nc_ket NC IF (-1 Ne) (1 Ket) ;
 
 # REGLA (B    ): "Al labour a vo kinniget deoc’h."
 SELECT NC IF (-1 ("<al>"ri det def)) ;
@@ -331,7 +332,7 @@ SELECT VpartNegImp IF (1 VerbImp) ;
 SELECT:x-vfin_if_pneg VerbFin IF (-1 VpartNeg) ;
 
 # Rankout a ran en em ginnig
-SELECT VerbFin IF (-1 VpartRef) ;
+SELECT:x-fin_if_vpart_ref VerbFin IF (-1 VpartRef) ;
 
 # REGLA (B0004): "a had"
 #SELECT Verb IF (-1 Vpart) ;
@@ -969,6 +970,8 @@ SELECT:l-lavarout_if_dire Lavarout IF (0C Dire) (0C Verb) ;
 SELECT:l-sellout_if_regar Sellout IF (0C Regarder) (0C Verb) ; 
 
 SELECT:l-reiñ_if_donner Reiñ IF (0C Donner) (0C Verb) ; 
+
+SELECT:l-karoud_if_aimer Karout (0C Aimer) (0C Verb) ; 
 
 ###############################################################################
 ## Lexical selection 

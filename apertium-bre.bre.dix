@@ -29216,12 +29216,7 @@
     </e>
 
     <!-- These forms come attached after the verb -->
-<!--    <e r="LR">
-      <p>
-        <l>-me</l>
-        <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
-      </p>
-    </e> -->
+    <e r="LR"><p><l>-me</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e> 
     <e r="LR">
       <p>
         <l>-mañ</l>
@@ -29248,12 +29243,7 @@
         <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
-    <e r="LR">
-      <p>
-        <l>-hi</l>
-        <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-      </p>
-    </e>
+    <e r="LR"><p><l>-hi</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <!--
     <e r="LR">
       <p>
