@@ -8635,35 +8635,19 @@
 # text[eng] = They will come or go.
 # labels = press_1986 ch_syntax p_210 to_check
 "<Int>"
-	"prpers" prn subj p3 mf pl SELECT:324
-;	"bezañ" vblex pri p3 pl SELECT:324
+	"prpers" prn subj p3 mf pl @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->3
 "<zeuy>"
-	"dont" vblex fti p3 sg
+	"dont" vblex fti p3 sg @root #3->0
 "<pe>"
-	"pe" cnjcoo
-	"pe" adj itg mf sp
-;	"bezañ" vblex cni p3 sg REMOVE:600:m-novFin_sftM_ma
+	"pe" cnjcoo @cc #4->6
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #5->6
 "<yay>"
-	"mont" vblex fti p3 sg SELECT:968:l-mont_if_aller
-;	"monet" vblex fti p3 sg SELECT:968:l-mont_if_aller
+	"mont" vblex fti p3 sg @conj #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # text = Me 'lavar deoc'h ar marc'h-se a oa re gozh.
 # text[eng] = I tell you that horse was too old.
@@ -8715,30 +8699,25 @@
 # text[eng] = I haven't found that friend of Per's
 # labels = press_1986 ch_syntax p_212 to_check
 "<N'>"
-	"ne" adv neg
+	"ne" adv neg @advmod #1->4
 "<em eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #2->4
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #3->4
 "<kavet>"
-	"kavout" vblex pp
-;	"kavout" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
+	"kavout" vblex pp @root #4->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #5->6
 "<mignon>"
-	"mignon" n m sg
+	"mignon" n m sg @obj #6->4
 "<-se>"
-	"se" adv
+	"se" adv @advmod #7->6
 "<da>"
-	"da" pr
-	"da" det pos mf sp
+	"da" pr @case #8->9
 "<Ber>"
-	"ber" n m sg SELECT:824:x-nc_pos_nc_adj
-	"per" n f pl SELECT:824:x-nc_pos_nc_adj
-;	"Per" np ant m sg SELECT:824:x-nc_pos_nc_adj
+	"Per" np ant m sg @nmod #9->4
 "<.>"
-	"." sent
+	"." sent @punct #10->4
 
 # text = Ne c'hellan ket gwelout ar prenestroù eus e di.
 # text[eng] = I can't see the windows of his house.

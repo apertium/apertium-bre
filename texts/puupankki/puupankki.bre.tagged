@@ -2584,6 +2584,25 @@
 ^evezh/evezh<n><m><sg>$
 ^./.<sent>$
 
+^Int/prpers<prn><subj><p3><mf><pl>$
+^a/a<vpart>$
+^zeuy/dont<vblex><fti><p3><sg>$
+^pe/pe<cnjcoo>$
+^a/a<vpart>$
+^yay/mont<vblex><fti><p3><sg>$
+^./.<sent>$
+
+^N'/ne<adv><neg>$
+^em eus/kaout<vblex><pri><p1><sg>$
+^ket/ket<adv>$
+^kavet/kavout<vblex><pp>$
+^ar/an<det><def><sp>$
+^mignon/mignon<n><m><sg>$
+^-se/se<adv>$
+^da/da<pr>$
+^Ber/Per<np><ant><m><sg>$
+^./.<sent>$
+
 ^Ne/ne<adv><neg>$
 ^c'hellan/gellout<vblex><pri><p1><sg>$
 ^ket/ket<adv>$

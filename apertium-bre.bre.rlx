@@ -821,7 +821,7 @@ REMOVE SoftMut IF (NOT -1 SoftMutTrigger) ;
 SELECT SoftMutTrigger IF (1C SoftMut) (1C SoftMutCons) (NOT 1 ("<vez>"i)) (NOT 0 ("<e>"i)) ;
     ## Perc'hennet eo an tour gant an ti-kêr abaoe 1975 ; digor e vez da an den evit gweladenn bleinañ.
 
-SELECT:x-nc_pos_nc_adj NC IF (0 NC OR Adj) (-1 DetPos) ;
+SELECT:x-nc_pos_nc_adj NC IF (0C NC OR Adj) (-1 DetPos) ;
     ## Ar groaz savet a vez flastret tamm-ha-tamm ma echu ho tres gant ur vegenn.
 
 # REGLA (A0005): "ez ti"
