@@ -403,13 +403,13 @@ SELECT VerbInf IF (-1 ("ket" adv)) (-2 VerbFin) (NOT -2 ("kaout"ri)) ;
 SELECT PrfPrc IF (-1 ("ket" adv)) (-2 VerbFin) (-2 ("kaout"ri)) ;
 
 # REGLA (B0012): "An dud a zeu da Roazhon"
-REMOVE VerbFin IF (0 Det) (1 NC) ;
+REMOVE:x-novfin_det_nc VerbFin IF (0 Det) (1 NC) ;
 
 #Meur a bal zo gant an dud a fell dezho deskiÃ± ar yezh
-REMOVE Adj IF (-1 ("a")) (0 VerbFin) (0 Adj) (1C (prn obj)) ;
+REMOVE:x-noadj_vfin_obj Adj IF (-1 A) (0 VerbFin) (0 Adj) (1C (prn obj)) ;
 
 # REGLA (B0010): 
-REMOVE:Rem_Vfin VerbFin IF (*-1C VerbFin BARRIER S-BOUNDARY) (NOT -1* CC LINK -1* VerbFin) ;
+REMOVE:x-Rem_Vfin VerbFin IF (*-1C VerbFin BARRIER S-BOUNDARY) (NOT -1* CC LINK -1* VerbFin) ;
     ## Er mod m'eo savet an ti, gant ur savadur kreiz hag div gazel a-skouer a bep tu, e c'hell bout tri lec'h da labourat.
     ## Ar stad zo unan eus stummoù aozadur politikel ur vro.
 
@@ -417,7 +417,7 @@ REMOVE:Rem_Vfin VerbFin IF (*-1C VerbFin BARRIER S-BOUNDARY) (NOT -1* CC LINK -1
 REMOVE:x-nodobj_top PrnDObj IF (1 Toponim) ;
 
 # REGLA (    ): "ganet e oa bet e 1975" 
-REMOVE PrnDObj IF (1 Num) ;
+REMOVE:x-nodobj_num PrnDObj IF (1 Num) ;
 
 #Mont a ran da ginnig anezhi dezhe
 SELECT Pr IF (-1 ("mont a ober"ri)) (1 VerbInf) ;
