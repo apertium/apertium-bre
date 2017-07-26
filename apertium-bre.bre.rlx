@@ -148,6 +148,7 @@ LIST MixedMutTrigger  = ("e"i vpart) ;
 LIST DroppedG         = ("<[aeiou].*>"r "g[aeiou].*"ri) ;
 
 LIST UPPER = "<[ABCDEFGHIJKLMNOPQRSTUVWXYZ].*>"r ;
+LIST LOWER = "<[a-z].*>"r ;
 
 LIST Letter = ("<[a-z]>"ri n) ;
 
@@ -182,10 +183,12 @@ LIST Lavarout = "lavarout" ;
 LIST Sellout = "sellout" ; 
 LIST Karout = "karout" ; 
 LIST Teuler = "teuler" ;
+LIST Treiñ = "treiñ" ;
 
 LIST Lancer = "teurel" "teuler" ;
 LIST Aimer = "kariñ" "karout" ;
 LIST Donner = "reiñ" "roiñ" ;
+LIST Tourner = "treiñ" "troiñ" ;
 LIST Regarder = "sellout" "sellet" ; 
 LIST Chanter = "kanañ" "kanal" "kaniñ" ;
 LIST Lire = "lenn" "lennout" ;
@@ -446,7 +449,7 @@ REMOVE:x-nopos_vfin DetPos IF (1C VerbFin) ;
 # Roet em eus anezhi dezhañ. An hanter anezhi .
 # Ne welin ket ac'hanoc'h
 # Neb n'en deus ket bevet e holl vuhez el labour-douar n'eo ket gouest da intent ar pezh a laran.
-SELECT PrnDObj IF ((-1 Verb) OR (-1 ("ket" adv))) (NOT 1 PRE-N OR NC) ;
+SELECT:x-dobj_ifverb_ket PrnDObj IF (-1 Verb OR Ket) (NOT 1 PRE-N OR NC) ;
 
 # REGLA (B0011): "Stad da lod"
 REMOVE:x-nodobj_novfin PrnDObj IF (NOT -1 VerbFin) (NOT 1 VerbFin) (NOT 1 PrfPrc LINK 1 VerbFin) ;
@@ -907,6 +910,8 @@ SELECT:x-num_pr_nc Pr IF (-1 Num) (1 NC) ;
 
 # select proper names if they are in caps
 
+SELECT:x-prop_lower_upper Prop IF (-1 LOWER) (0 Prop) (0 UPPER) (1 LOWER) ;
+
 SELECT Prop IF (0 ("Alan" np)) (NOT -1 BOS) ;
 SELECT Prop IF (0 ("Al Lanv" np)) ;
 SELECT Prop IF (0 ("Al Levrig" np)) ;
@@ -940,6 +945,7 @@ SELECT:x-ant_if_cog Ant IF (0 Ant) (1 Cog) (0 UPPER) (1 UPPER) ;
 
 # Alan Stivell
 SELECT:x-cog_if_ant Cog IF (-1 Ant) (0 Cog) (-1 UPPER) (0 UPPER) ;
+
 
 # 'Francis'
 SELECT:m-apos_not_vpart Apos IF (0 Apos) (0 Vpart) (NOT 1 Verb) (NOT 1/* Verb) ;
@@ -978,6 +984,8 @@ SELECT:l-reiñ_if_donner Reiñ IF (0C Donner) (0C Verb) ;
 SELECT:l-karout_if_aimer Karout (0C Aimer) (0C Verb) ; 
 
 SELECT:l-teuler_if_lance Teuler (0C Lancer) (0C Verb) ; 
+
+SELECT:l-treiñ_if_donner Treiñ IF (0C Tourner) (0C Verb) ; 
 
 ###############################################################################
 ## Lexical selection 

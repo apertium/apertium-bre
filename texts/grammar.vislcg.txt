@@ -3379,7 +3379,7 @@
 "<An>"
 	"an" det def sp @det #1->2
 "<den>"
-	"den" n m sg  @nsubj #2->10
+	"den" n m sg @nsubj #2->10
 "<a>"
 	"a" vpart @aux #3->4
 "<lavaras>"
@@ -3391,7 +3391,7 @@
 "<-se>"
 	"se" adv @advmod #7->6
 "<a>"
-	"a" vpart  @aux #8->10
+	"a" vpart @aux #8->10
 "<oa>"
 	"bezañ" vblex pii p3 sg @cop #9->10
 "<eno>"
@@ -3441,7 +3441,7 @@
 "<hag>"
 	"ha" cnjcoo @cc #4->6
 "<a>"
-	"a" vpart  @aux #5->6
+	"a" vpart @aux #5->6
 "<ray>"
 	"ober" vblex fti p3 sg @conj #6->3
 "<ur>"
@@ -5978,20 +5978,21 @@
 # text[eng] = How much does she work during the day?
 # labels = press_1986 ch_morphology to_check
 "<Pegement>"
-	"pegement" adv itg
+	"pegement" adv itg @advmod #1->3
 "<e>"
-	"e" vpart obj SELECT:298
+	"e" vpart obj @aux #2->3
 "<labour>"
-	"labourat" vblex pri p3 sg SELECT:239:x-only_vpart_verb
+	"labourat" vblex pri p3 sg @root #3->0
 "<-hi>"
-	"prpers" prn subj p3 f sg
-"<e-pad an devezh>"
-	"e-pad an devezh" adv
+	"prpers" prn subj p3 f sg @nsubj #4->3
+"<e-pad>"
+	"e-pad" pr @case #5->7
+"<an>"
+	"an" det def sp @det #6->7
+"<devezh>"
+	"devezh" n m sg @obl #7->3
 "<?>"
-	"?" sent
-
-"<.>"
-	"." sent
+	"?" sent @punct #8->3
 
 # text = Pegement a vugale a c'hoari aze?
 # text[eng] = How many children play there?
@@ -6026,9 +6027,6 @@
 ;	"kaout" vblex pp SELECT:494
 "<?>"
 	"?" sent
-
-"<.>"
-	"." sent
 
 # text = Ken buan hag ur c'had eo e red-eñ.
 # text[eng] = He runs as quickly as a hare.
@@ -6263,69 +6261,45 @@
 # text[eng] = Yann knitted, Mari worked.
 # labels = press_1986 ch_syntax p_185 to_check
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-"<rae stamm>"
-	"ober# stamm" vblex pii p3 sg
+	"a" vpart @aux #2->3
+"<rae>"
+	"ober" vblex pii p3 sg @root #3->0
+"<stamm>"
+	"stamm" n m sg @obj #4->3
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #5->8
 "<Mari>"
-	"Mari" np ant f sg SELECT:936:x-prop_if_upper
-;	"Mari" n m sg SELECT:936:x-prop_if_upper
+	"Mari" np ant f sg @nsubj #6->8
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #7->8
 "<laboure>"
-	"labourat" vblex pii p3 sg
+	"labourat" vblex pii p3 sg @parataxis #8->3
 "<.>"
-	"." sent
+	"." sent @punct #9->3
 
 # text = Yann a davas, Mari e oa skuizh.
 # text[eng] = Yann became silent because Mari was tired.
 # labels = press_1986 ch_syntax p_185 to_check
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->3
 "<davas>"
-	"tevel" vblex past p3 sg
+	"tevel" vblex past p3 sg @root #3->0
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #4->8
 "<Mari>"
-	"Mari" np ant f sg SELECT:936:x-prop_if_upper
-;	"Mari" n m sg SELECT:936:x-prop_if_upper
+	"Mari" np ant f sg @nsubj #5->8
 "<e>"
-	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:277:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #6->8
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #7->8
 "<skuizh>"
-	"skuizh" adj mf sp
-;	"skuizhañ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"skuizhañ" vblex pri p3 sg REMOVE:738:x-novfin_stuff
+	"skuizh" adj mf sp @parataxis #8->3
 "<.>"
-	"." sent
+	"." sent @punct #9->3
 
 # text = Setu an ti m' emaon o chom ennañ.
 # text[eng] = Here is the house where I live.
@@ -6352,31 +6326,26 @@
 # text[eng] = Here is the hill where she built her house.
 # labels = press_1986 ch_syntax p_186 to_check
 "<Setu>"
-	"setu" adv
+	"setu" adv @root #1->0
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:406:x-novfin_det_nc
-;	"monet" vblex pri p1 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #2->3
 "<dorgenn>"
-	"torgenn" n f sg
+	"torgenn" n f sg @nsubj #3->1
 "<ma>"
-	"ma" cnjsub
-;	"ma" det pos mf sp REMOVE:444:x-nopos_vfin
-;	"ma" ij REMOVE:585:x-noInterj_cm
+	"ma" cnjsub @mark #4->5
 "<savas>"
-	"sevel" vblex past p3 sg
+	"sevel" vblex past p3 sg @dep #5->3
 "<-hi>"
-	"prpers" prn subj p3 f sg
+	"prpers" prn subj p3 f sg @nsubj #6->5
 "<he>"
-	"he" det pos f sp SELECT:840:m-trig_aspmut
-;	"direct" prn obj p3 f sg SELECT:840:m-trig_aspmut
+	"he" det pos f sp @det #7->8
 "<zi>"
-	"ti" n m sg
+	"ti" n m sg @obj #8->5
 "<warni>"
-	"war" pr
-		"indirect" prn obj p3 f sg
+	"war" pr @case #9->10
+		"indirect" prn obj p3 f sg @obl #10->5
 "<.>"
-	"." sent
+	"." sent @punct #11->1
 
 # text = Per a zo tomm e gof.
 # text[eng] = Per's stomach is hot.
@@ -6563,17 +6532,9 @@
 "<eo>"
 	"bezañ" vblex pri p3 sg
 "<a>"
-	"a" vpart SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"a" pr REMOVE:351
-;	"monet" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
+	"a" vpart
 "<ra>"
 	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"ra" vpart opt REMOVE:270:x-no_2_vpart
 "<Yann>"
 	"Yann" np ant m sg
 "<.>"
@@ -6583,132 +6544,89 @@
 # text[eng] = Yann sees his girlfriend.
 # labels = press_1986 ch_syntax p_190 to_check
 "<Gwelout>"
-	"gwelout" vblex inf
+	"gwelout" vblex inf @root #1->0
 "<e>"
-	"e" det pos m sp SELECT:864:m-detpos_softM
-;	"e" vpart obj REMOVE:237:x-remove-vpart-nc
-;	"direct" prn obj p3 m sg REMOVE:435:x-nodobj_v_nc
-;	"e" pr REMOVE:776:m-e_rmpr_mixedMut
-;	"e" n m sp SELECT:864:m-detpos_softM
+	"e" det pos m sp @det #2->3
 "<vignonez>"
-	"mignon" n f sg
+	"mignon" n f sg @obj #3->1
 "<a>"
-	"a" vpart SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"a" pr REMOVE:351
-;	"monet" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
+	"a" vpart @aux #4->1
 "<ra>"
-	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"ra" vpart opt REMOVE:270:x-no_2_vpart
+	"ober" vblex pri p3 sg @aux #5->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Gwelout e vignonez en deus graet Yann.
 # text[eng] = Yann sees his girlfriend.
 # labels = press_1986 ch_syntax p_191 to_check
 "<Gwelout>"
-	"gwelout" vblex inf
+	"gwelout" vblex inf @root #1->0
 "<e>"
-	"e" det pos m sp SELECT:864:m-detpos_softM
-;	"e" vpart obj REMOVE:237:x-remove-vpart-nc
-;	"direct" prn obj p3 m sg REMOVE:435:x-nodobj_v_nc
-;	"e" pr REMOVE:776:m-e_rmpr_mixedMut
-;	"e" n m sp SELECT:864:m-detpos_softM
+	"e" det pos m sp @det #2->3
 "<vignonez>"
-	"mignon" n f sg
+	"mignon" n f sg @obj #3->1
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #4->1
 "<graet>"
-	"ober" vblex pp
-;	"ober" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
+	"ober" vblex pp @aux #5->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Gwelout en deus Yann e vignonez.
 # text[eng] = Yann sees his girlfriend.
 # labels = press_1986 ch_syntax p_191 to_check
 "<Gwelout>"
-	"gwelout" vblex inf
+	"gwelout" vblex inf @root #1->0
 "<en deus>"
-	"kaout" vblex pri p3 m sg
+	"kaout" vblex pri p3 m sg @aux #2->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #3->1
 "<e>"
-	"e" det pos m sp SELECT:864:m-detpos_softM
-;	"e" vpart obj REMOVE:237:x-remove-vpart-nc
-;	"e" pr REMOVE:776:m-e_rmpr_mixedMut
-;	"direct" prn obj p3 m sg SELECT:864:m-detpos_softM
-;	"e" n m sp SELECT:864:m-detpos_softM
+	"e" det pos m sp @det #4->5
 "<vignonez>"
-	"mignon" n f sg
+	"mignon" n f sg @obj #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # text = Klask a ra Yann ul levr.
 # text[eng] = Yann seeks a book.
 # labels = press_1986 ch_syntax p_191 to_check
 "<Klask>"
-	"klask" vblex inf
-;	"klask" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"klask" n m sg REMOVE:294:x-inf_nc_a_ober
-;	"klask" vblex pri p3 sg REMOVE:574:x-Remove_VerbFin_BOS
+	"klask" vblex inf @root #1->0
 "<a>"
-	"a" vpart SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"a" pr REMOVE:351
-;	"monet" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
+	"a" vpart @aux #2->1
 "<ra>"
-	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"ra" vpart opt REMOVE:270:x-no_2_vpart
+	"ober" vblex pri p3 sg @aux #3->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->1
 "<ul>"
-	"un" det ind sp
+	"un" det ind sp @det #5->6
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Klask ul levr a ra Yann.
 # text[eng] = Yann seeks a book.
 # labels = press_1986 ch_syntax p_191 to_check
 "<Klask>"
-	"klask" vblex inf
-	"klask" n m sg
-;	"klask" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"klask" vblex pri p3 sg REMOVE:574:x-Remove_VerbFin_BOS
+	"klask" vblex inf @root #1->0
 "<ul>"
-	"un" det ind sp
+	"un" det ind sp @det #2->3
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #3->1
 "<a>"
-	"a" vpart SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"a" pr REMOVE:351
-;	"monet" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
+	"a" vpart @aux #4->1
 "<ra>"
-	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"ra" vpart opt REMOVE:270:x-no_2_vpart
+	"ober" vblex pri p3 sg @aux #5->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Bez' e klask Yann ul levr.
 # text[eng] = Yann seeks a book.
@@ -6739,143 +6657,92 @@
 # text[eng] = Yann chooses a book.
 # labels = press_1986 ch_syntax p_192 to_check
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->3
 "<zibab>"
-	"dibab" vblex pri p3 sg SELECT:641
-;	"dibab" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"dibab" vblex inf SELECT:641
-;	"dibab" n m sg SELECT:641
+	"dibab" vblex pri p3 sg @root #3->0
 "<ul>"
-	"un" det ind sp
+	"un" det ind sp @det #4->5
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #5->3
 "<.>"
-	"." sent
+	"." sent @punct #6->3
 
 # text = Ul levr a zibab Yann.
 # text[eng] = Yann chooses a book.
 # labels = press_1986 ch_syntax p_192 to_check
 "<Ul>"
-	"un" det ind sp
+	"un" det ind sp @det #1->2
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @obj #2->4
 "<a>"
-	"a" pr SELECT:821
-	"a" vpart SELECT:821
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"a" n m sp SELECT:821
+	"a" vpart @aux #3->4
 "<zibab>"
-	"dibab" vblex inf
-	"dibab" n m sg
-	"dibab" vblex pri p3 sg
-;	"dibab" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
+	"dibab" vblex inf @root #4->0
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #5->4
 "<.>"
-	"." sent
+	"." sent @punct #6->4
 
 # text = Yann a wel Morwenna.
 # text[eng] = Yann sees Morwenna.
 # labels = press_1986 ch_syntax p_192 to_check
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->3
 "<wel>"
-	"gwelout" vblex pri p3 sg SELECT:641 SELECT:970:l-gwelout_if_voir
-;	"gwelout" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"gwel" n m sg SELECT:641
-;	"gwelet" vblex pri p3 sg SELECT:641 SELECT:970:l-gwelout_if_voir
+	"gwelout" vblex pri p3 sg @root #3->0
 "<Morwenna>"
-	"*Morwenna"
+	"Morwenna" np ant f sg @obj #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 # text = Morwenna a wel Yann.
 # text[eng] = Yann sees Morwenna.
 # labels = press_1986 ch_syntax p_192 to_check
 "<Morwenna>"
-	"*Morwenna"
-"<a>"
-	"a" pr SELECT:821
-	"a" vpart SELECT:821
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"a" n m sp SELECT:821
+	"Morwenna" np ant f sg @nsubj #1->3
+"<a>" 
+	"a" vpart @aux #2->3
 "<wel>"
-	"gwel" n m sg
-	"gwelet" vblex pri p3 sg
-	"gwelout" vblex pri p3 sg
-;	"gwelout" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
+	"gwelout" vblex pri p3 sg @root #3->0
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 # text = Morwenna e wel Yann.
 # text[eng] = Yann sees Morwenna.
 # labels = press_1986 ch_syntax p_192 to_check
 "<Morwenna>"
-	"*Morwenna"
+	"Morwenna" np ant f sg @obj #1->3
 "<e>"
-	"e" det pos m sp SELECT:864:m-detpos_softM
-;	"e" pr REMOVE:776:m-e_rmpr_mixedMut
-;	"e" n m sp REMOVE:778:x-e_rmnc_vfin
-;	"direct" prn obj p3 m sg SELECT:864:m-detpos_softM
-;	"e" vpart obj SELECT:864:m-detpos_softM
+	"e" vpart obj @aux #2->3
 "<wel>"
-	"gwel" n m sg SELECT:824:x-nc_pos_nc_adj
-;	"gwelout" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"gwelet" vblex pri p3 sg SELECT:824:x-nc_pos_nc_adj
-;	"gwelout" vblex pri p3 sg SELECT:824:x-nc_pos_nc_adj
+	"gwelout" vblex pri p3 sg @root #3->0
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->3
 "<.>"
-	"." sent
+	"." sent @punct #5->3
 
 # text = El liorzh e c'hortoz Yann.
 # text[eng] = Yann waits in the garden.
 # labels = press_1986 ch_syntax p_192 to_check
 "<El>"
-	"e" pr
-		"an" det def sp
+	"e" pr @case #1->3
+		"an" det def sp @det #2->3
 "<liorzh>"
-	"liorzh" n f sg
-;	"liorzhañ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"liorzhañ" vblex pri p3 sg REMOVE:738:x-novfin_stuff
+	"liorzh" n f sg @obl #3->5
 "<e>"
-	"direct" prn obj p3 m sg SELECT:449
-;	"e" pr SELECT:449
-;	"e" vpart obj SELECT:449
-;	"e" n m sp SELECT:449
-;	"e" det pos m sp SELECT:449
+	"e" vpart obj @aux #4->3
 "<c'hortoz>"
-	"gortoz" vblex inf
-;	"gortoz" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"gortoz" vblex pri p3 sg REMOVE:738:x-novfin_stuff
+	"gortoz" vblex pri p3 sg @root #5->0
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #6->5
 "<.>"
-	"." sent
+	"." sent @punct #7->5
 
 # text = El liorzh 'ni c'hortoz Yann.
 # text[eng] = Yann waits in the garden.
@@ -6937,20 +6804,11 @@
 "<eo>"
 	"bezañ" vblex pri p3 sg
 "<a>"
-	"a" pr SELECT:821
-	"a" vpart SELECT:821
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"a" n m sp SELECT:821
+	"a" vpart
 "<glask>"
-	"klask" vblex inf
-	"klask" n m sg
-	"klask" vblex pri p3 sg
-;	"klask" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
+	"klask" vblex inf 
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj
 "<.>"
 	"." sent
 
@@ -7084,91 +6942,6 @@
 ;	"buhezañ" vblex pri p3 sg
 "<.>"
 	"." sent
-
-# labels = press_1986 ch_syntax to_check
-"<Ne>"
-	"ne" adv neg
-"<gavo>"
-	"kavout" vblex fti p3 sg @+FMAINV 
-"<ket>"
-	"ket" adv
-"<ho>"
-	"direct" prn obj p2 mf pl
-;	"ho" det pos mf sp
-"<preudeur>"
-	"breur" n m pl
-"<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
-"<labour>"
-	"labourat" vblex pri p3 sg @+FMAINV
-;	"labour" n m sg
-"<e>"
-	"e" pr
-;	"e" det pos m sp
-;	"e" vpart obj
-;	"direct" prn obj p3 m sg
-;	"e" n m sp
-"<Pariz>"
-	"Pariz" np top sg
-"<.>"
-	"." sent
-
-# labels = press_1986 ch_syntax to_check
-"<N'>"
-	"ne" adv neg
-"<o deus>"
-	"kaout" vblex pri p3 pl @+FMAINV 
-"<ket>"
-	"ket" adv
-"<gwelet>"
-	"gwelout" vblex pp
-	"gwelout" vblex pp
-;	"gwelout" vblex imp p3 sg
-;	"gwelout" vblex inf
-"<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
-"<wazed>"
-	"gwaz" n m pl
-"<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg
-;	"monet" vblex pri p1 sg
-"<ti>"
-	"ti" n m sg
-"<-se>"
-	"se" adv
-"<.>"
-	"." sent
-
-# text = Ar wazed n'o deus ket gwelet an ti-se.
-# labels = press_1986 ch_syntax to_check
-"<Ar>"
-	"an" det def sp @det #1->2
-"<wazed>"
-	"gwaz" n m pl @nsubj #2->6
-"<n'>"
-	"ne" adv neg @advmod #3->6
-"<o deus>"
-	"kaout" vblex pri p3 pl @aux #4->6
-"<ket>"
-	"ket" adv @advmod #5->6
-"<gwelet>"
-	"gwelout" vblex pp @root #6->0
-"<an>"
-	"an" det def sp @det #7->8
-"<ti>"
-	"ti" n m sg @obj #8->6
-"<-se>"
-	"se" adv @advmod #9->8
-"<.>"
-	"." sent @punct #10->6
 
 # text = Selaouit ac'hanon!
 # text[eng] = Listen to me!
@@ -7554,48 +7327,43 @@
 # text[eng] = Your brothers will not find work in Paris.
 # labels = press_1986 ch_syntax p_198 to_check
 "<E>"
-	"e" pr SELECT:769:x-pr_if_ncpr_top
-;	"e" det pos m sp REMOVE:232:x-nodetpos_top
-;	"direct" prn obj p3 m sg REMOVE:417:x-nodobj_top
-;	"e" vpart obj SELECT:769:x-pr_if_ncpr_top
-;	"e" n m sp SELECT:769:x-pr_if_ncpr_top
+	"e" pr @case #1->2
 "<Pariz>"
-	"Pariz" np top sg
+	"Pariz" np top sg @obl #2->6
 "<ho>"
-	"ho" det pos mf sp SELECT:831:m-hardtrig_mut
-;	"direct" prn obj p2 mf pl SELECT:831:m-hardtrig_mut
+	"ho" det pos mf sp @det #3->4
 "<preudeur>"
-	"breur" n m pl
+	"breur" n m pl @nsubj #4->6
 "<ne>"
-	"ne" adv neg
-"<gavint labour>"
-	"kavout# labour" vblex fti p3 pl
+	"ne" adv neg @advmod #5->6
+"<gavint>"
+	"kavout" vblex fti p3 pl @root #6->0
+"<labour>"
+	"labour" n m sg @obj #7->6
 "<ebet>"
-	"ebet" adv
+	"ebet" adv @advmod #8->7
 "<.>"
-	"." sent
+	"." sent @punct #9->6
 
 # text = Labourer-douar eo bet Yannig e-pad daou vloaz.
 # text[eng] = Yannig has been a farm worker for two years.
 # labels = press_1986 ch_syntax p_199 to_check
 "<Labourer-douar>"
-	"labourer#-douar" n m sg
+	"labourer-douar" n m sg @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<bet>"
-	"bezañ" vblex pp SELECT:528
-;	"pet" prn itg mf sp REMOVE:321:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:528
+	"bezañ" vblex pp @cop #3->1
 "<Yannig>"
-	"Yannig" np ant m sg
+	"Yannig" np ant m sg @nsubj #4->1
 "<e-pad>"
-	"e-pad" pr
+	"e-pad" pr @case #5->7
 "<daou>"
-	"daou" num m pl
+	"daou" num m pl @nummod #6->7
 "<vloaz>"
-	"bloaz" n m sg
+	"bloaz" n m sg @obl #7->1
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # text = Yannig a zo bet labourer-douar e-pad daou vloaz.
 # text[eng] = Yannig has been a farm worker for two years.
@@ -7704,32 +7472,28 @@
 "<.>"
 	"." sent @punct #7->1
 
-# text = Debriñ en eus graet Yann voued er wetur.
+# text = Debriñ en deus graet Yann e voued er wetur.
 # text[eng] = Yann has eaten his food in the car.
 # labels = press_1986 ch_syntax p_200 to_check
 "<Debriñ>"
-	"debriñ" vblex inf
-"<en>"
-	"e" pr
-	"e" pr
-		"an" det def sp
-"<eus>"
-	"eus" pr
-;	"bezañ" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
+	"debriñ" vblex inf @root #1->0
+"<en deus>"
+	"kaout" vblex pri p3 m sg @aux #2->1
 "<graet>"
-	"ober" vblex pp
-;	"ober" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
+	"ober" vblex pp @aux #3->1
 "<Yann>"
-	"Yann" np ant m sg
+	"Yann" np ant m sg @nsubj #4->1
+"<e>"
+	"e" det pos m sp @det #5->6
 "<voued>"
-	"boued" n m sg
+	"boued" n m sg @obj #6->1
 "<er>"
-	"e" pr
-		"an" det def sp
+	"e" pr @case #7->9
+		"an" det def sp @det #8->9
 "<wetur>"
-	"gwetur" n f sg
+	"gwetur" n f sg @obl #9->1
 "<.>"
-	"." sent
+	"." sent @punct #10->1
 
 # text = Yann en deus debret e voued er wetur.
 # text[eng] = Yann has eaten his food in the car.
@@ -7912,27 +7676,27 @@
 # text[eng] = The men haven't seen that house.
 # labels = press_1986 ch_syntax p_201 to_check
 "<An>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<ti>"
-	"ti" n m sg
+	"ti" n m sg @obj #2->10
 "<-se>"
-	"se" adv
+	"se" adv @advmod #3->2
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #4->5
 "<wazed>"
-	"gwaz" n m pl
+	"gwaz" n m pl @nsubj #5->10
 "<n'>"
-	"ne" adv neg
+	"ne" adv neg @advmod #6->10
 "<o deus>"
-	"kaout" vblex pri p3 pl
+	"kaout" vblex pri p3 pl @aux #7->10
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #8->10
 "<e>"
-	"e" vpart obj
+	"e" vpart obj @aux #9->10
 "<welet>"
-	"gwelout" vblex pp
+	"gwelout" vblex pp @root #10->0
 "<.>"
-	"." sent
+	"." sent @punct #11->10
 
 # text = Evit yac'h n'eo bet biskoazh ma mamm-gozh.
 # text[eng] = My grandmother has never been healthy.
@@ -7990,81 +7754,49 @@
 # text[eng] = Divi was carefully cleaning his bedroom.
 # labels = press_1986 ch_syntax p_202 to_check
 "<Divi>"
-	"divi" adj mf sp
-	"Divi" np ant m sg
+	"Divi" np ant m sg @nsubj #1->5
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->5
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @aux #3->5
 "<o>"
-	"o" vpart ger SELECT:371:x-vpart_ger_inf
-;	"o" ij SELECT:371:x-vpart_ger_inf
-;	"o" n m sp SELECT:371:x-vpart_ger_inf
-;	"o" det pos mf sp SELECT:371:x-vpart_ger_inf
-;	"direct" prn obj p3 mf pl SELECT:371:x-vpart_ger_inf
+	"o" vpart ger @aux #4->5
 "<naetaat>"
-	"naetaat" vblex inf
+	"naetaat" vblex inf @root #5->0
 "<e>"
-	"direct" prn obj p3 m sg SELECT:449
-;	"e" pr SELECT:449
-;	"e" vpart obj SELECT:449
-;	"e" n m sp SELECT:449
-;	"e" det pos m sp SELECT:449
+	"e" det pos m sp @det #6->7
 "<gambrig-kousket>"
-	"kambrig-kousket" n f sg
+	"kambrig-kousket" n f sg @obj #7->5
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:321:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:321:m-Remove_SoftMut
+	"gant" pr @case #8->9
 "<evezh>"
-	"evezh" n m sg
+	"evezh" n m sg @obl #9->5
 "<.>"
-	"." sent
+	"." sent @punct #10->5
 
 # text = E gambrig-kousket e oa Divi o naetaat gant evezh.
 # text[eng] = Divi was carefully cleaning his bedroom.
 # labels = press_1986 ch_syntax p_202 to_check
 "<E>"
-	"e" pr
-	"e" vpart obj
-	"e" det pos m sp
-;	"direct" prn obj p3 m sg REMOVE:884:x-objPron_BOS
-;	"e" n m sp REMOVE:956:x-noletter_det
+	"e" det pos m sp @det #1->2
 "<gambrig-kousket>"
-	"kambrig-kousket" n f sg
+	"kambrig-kousket" n f sg @obj #2->7
 "<e>"
-	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:277:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #3->7
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @aux #4->7
 "<Divi>"
-	"divi" adj mf sp
-	"Divi" np ant m sg
+	"Divi" np ant m sg @nsubj #5->7
 "<o>"
-	"o" vpart ger SELECT:371:x-vpart_ger_inf
-;	"o" ij SELECT:371:x-vpart_ger_inf
-;	"o" n m sp SELECT:371:x-vpart_ger_inf
-;	"o" det pos mf sp SELECT:371:x-vpart_ger_inf
-;	"direct" prn obj p3 mf pl SELECT:371:x-vpart_ger_inf
+	"o" vpart ger @aux #6->7
 "<naetaat>"
-	"naetaat" vblex inf
+	"naetaat" vblex inf @root #7->0
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:321:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:321:m-Remove_SoftMut
+	"gant" pr @case #8->9
 "<evezh>"
-	"evezh" n m sg
+	"evezh" n m sg @obl #9->7
 "<.>"
-	"." sent
+	"." sent @punct #10->7
 
 # text = Bez' e a oa Divi o naetaat e gambrig-kousket gant evezh.
 # text[eng] = Divi was carefully cleaning his bedroom.
@@ -8119,38 +7851,25 @@
 # text[eng] = Divi has been carefully cleaning his bedroom.
 # labels = press_1986 ch_syntax p_203 to_check
 "<Bet>"
-	"bezañ" vblex pp SELECT:527
-;	"pet" prn itg mf sp REMOVE:321:m-Remove_SoftMut
-;	"kaout" vblex pp SELECT:527
+	"bezañ" vblex pp @aux #1->5
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->5
 "<Divi>"
-	"divi" adj mf sp
-	"Divi" np ant m sg
+	"Divi" np ant m sg @ #3->5
 "<o>"
-	"o" vpart ger SELECT:371:x-vpart_ger_inf
-;	"o" ij SELECT:371:x-vpart_ger_inf
-;	"o" n m sp SELECT:371:x-vpart_ger_inf
-;	"o" det pos mf sp SELECT:371:x-vpart_ger_inf
-;	"direct" prn obj p3 mf pl SELECT:371:x-vpart_ger_inf
+	"o" vpart ger @aux #4->5
 "<naetaat>"
-	"naetaat" vblex inf
+	"naetaat" vblex inf @root #5->0
 "<e>"
-	"direct" prn obj p3 m sg SELECT:449
-;	"e" pr SELECT:449
-;	"e" vpart obj SELECT:449
-;	"e" n m sp SELECT:449
-;	"e" det pos m sp SELECT:449
+	"e" det pos m sp @det #6->7
 "<gambrig-kousket>"
-	"kambrig-kousket" n f sg
+	"kambrig-kousket" n f sg @obj #7->5
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:321:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:321:m-Remove_SoftMut
+	"gant" pr @case #8->9
 "<evezh>"
-	"evezh" n m sg
+	"evezh" n m sg @obl #9->5
 "<.>"
-	"." sent
+	"." sent @punct #10->5
 
 # text = Ouzh e naetaat e oa Divi gant evezh.
 # text[eng] = Divi was cleaning it carefully.
@@ -8189,57 +7908,37 @@
 # text[eng] = Divi was cleaning it carefully.
 # labels = press_1986 ch_syntax p_203 to_check
 "<O>"
-	"o" vpart ger SELECT:371:x-vpart_ger_inf
-;	"o" det pos mf sp REMOVE:243:x-no_DetPos_verb
-;	"o" ij SELECT:371:x-vpart_ger_inf
-;	"o" n m sp SELECT:371:x-vpart_ger_inf
-;	"direct" prn obj p3 mf pl SELECT:371:x-vpart_ger_inf
+	"o" vpart ger @aux #1->2
 "<naetaat>"
-	"naetaat" vblex inf
+	"naetaat" vblex inf @root #2->0
 "<anezhi>"
-	"direct" prn obj p3 f sg SELECT:449
-;	"eus" pr SELECT:449
-;		"indirect" prn obj p3 f sg
+	"direct" prn obj p3 f sg @obj #3->2
 "<e>"
-	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:277:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #4->2
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @aux #5->2
 "<Divi>"
-	"divi" adj mf sp
-	"Divi" np ant m sg
+	"Divi" np ant m sg @nsubj #6->2
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl REMOVE:321:m-Remove_SoftMut
-;	"kant" n m sg REMOVE:321:m-Remove_SoftMut
+	"gant" pr @case #7->8
 "<evezh>"
-	"evezh" n m sg
+	"evezh" n m sg @obl #8->2
 "<.>"
-	"." sent
+	"." sent @punct #9->2
 
 # text = Ar bara e oa Mari ouzh e droc'hañ.
 # text[eng] = Mari was cutting the bread.
 # labels = press_1986 ch_syntax p_203 to_check
 "<Ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
 "<bara>"
 	"bara" n m sg
-;	"parañ" vblex pri p3 sg REMOVE:291:x-noverbFin_if_ar
 "<e>"
 	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:277:x-Vpart_if_only_Vfin
 "<oa>"
 	"bezañ" vblex pii p3 sg
 "<Mari>"
 	"Mari" np ant f sg SELECT:936:x-prop_if_upper
-;	"Mari" n m sg SELECT:936:x-prop_if_upper
 "<ouzh>"
 	"ouzh" pr
 "<e>"
@@ -8257,283 +7956,183 @@
 # text[eng] = Last Sunday, after mass, the priest went to play cards.
 # labels = press_1986 ch_syntax p_204 to_check
 "<Disul>"
-	"disul" adv
+	"disul" adv @advmod #1->11
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #2->1
 "<goude>"
-	"goude" pr
+	"goude" pr @case #3->5
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:406:x-novfin_det_nc
-;	"monet" vblex pri p1 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #4->5
 "<oferenn>"
-	"oferenn" n f sg
+	"oferenn" n f sg @obl #5->11
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #6->5
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #7->8
 "<beleg>"
-	"beleg" n m sg
-;	"belegiñ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"belegiñ" vblex pri p3 sg REMOVE:291:x-noverbFin_if_ar
+	"beleg" n m sg @nsubj #8->11
 "<a>"
-	"a" vpart SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"a" pr SELECT:466:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
-;	"monet" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
+	"a" vpart @aux #9->11
 "<zo>"
-	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"teiñ" vblex pri p3 sg REMOVE:843:m-noasp_notrig
+	"bezañ" vblex pri p3 sg @aux #10->11
 "<aet>"
-	"mont" vblex pp SELECT:968:l-mont_if_aller
-;	"mont" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex pp SELECT:968:l-mont_if_aller
+	"mont" vblex pp @root #11->0
 "<da>"
-	"da" pr SELECT:519:x-Pr_for_poss_if_verb
-;	"da" det pos mf sp SELECT:519:x-Pr_for_poss_if_verb
+	"da" pr @mark #12->13
 "<c'hoari>"
-	"c’hoari" vblex inf
-;	"c’hoari" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"c’hoari" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"koarañ" vblex fti p2 sg REMOVE:600:m-novFin_sftM_ma
-;	"c’hoari" n m sg REMOVE:763:x-nonc_verbfin_da
+	"c’hoari" vblex inf @xcomp #13->11
 "<c'hartoù>"
-	"kartenn" n f pl
+	"kartenn" n f pl @obj #14->13
 "<.>"
-	"." sent
+	"." sent @punct #15->11
 
 # text = Disul, goude an oferenn, ez eo aet ar beleg c'hoari c'hartoù.
 # text[eng] = Last Sunday, after mass, the priest went to play cards.
 # labels = press_1986 ch_syntax p_204 to_check
 "<Disul>"
-	"disul" adv
+	"disul" adv @advmod #1->9
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #2->1
 "<goude>"
-	"goude" pr
+	"goude" pr @case #3->5
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:406:x-novfin_det_nc
-;	"monet" vblex pri p1 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #4->5
 "<oferenn>"
-	"oferenn" n f sg
+	"oferenn" n f sg @obl #5->9
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #6->5
 "<ez>"
-	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;		"da" det pos mf sp
+	"e" vpart obj @aux #7->9
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #8->9
 "<aet>"
-	"mont" vblex pp SELECT:968:l-mont_if_aller
-;	"mont" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p3 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex pp SELECT:968:l-mont_if_aller
+	"mont" vblex pp @root #9->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #10->11
 "<beleg>"
-	"beleg" n m sg
-;	"belegiñ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"belegiñ" vblex pri p3 sg REMOVE:291:x-noverbFin_if_ar
+	"beleg" n m sg @nsubj #11->9
 "<c'hoari>"
-	"c’hoari" vblex inf
-	"c’hoari" n m sg
-;	"c’hoari" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"c’hoari" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"koarañ" vblex fti p2 sg REMOVE:600:m-novFin_sftM_ma
+	"c’hoari" vblex inf @dep #12->9
 "<c'hartoù>"
-	"kartenn" n f pl
+	"kartenn" n f pl @obj #13->12
 "<.>"
-	"." sent
+	"." sent @punct #14->9
 
-# text = Me a yelo di hag a gavo an treñzor.
+# text = Me a yelo di hag a gavo an teñzor.
 # text[eng] = I will go there and find the treasure.
 # labels = press_1986 ch_syntax p_204 to_check
 "<Me>"
-	"prpers" prn subj p1 mf sg
+	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-"<yelo di>"
-	"mont# di" vblex fti p3 sg
+	"a" vpart @aux #2->3
+"<yelo>"
+	"mont" vblex fti p3 sg @root #3->0
+"<di>"
+	"di" adv @advmod #4->3
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #5->7
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #6->7
 "<gavo>"
-	"kavout" vblex fti p3 sg
+	"kavout" vblex fti p3 sg @conj #7->3
 "<an>"
-	"an" det def sp
-;	"mont" vblex pri p1 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p1 sg REMOVE:600:m-novFin_sftM_ma
-"<treñzor>"
-	"*treñzor"
+	"an" det def sp @det #8->9
+"<teñzor>"
+	"teñzor" n m sg @obj #9->7
 "<.>"
-	"." sent
+	"." sent @punct #10->3
 
 # text = C'hwi a yelo, pe e kavo Lan hoc'h arc'hant.
 # text[eng] = You'll go or Lan will find your money.
 # labels = press_1986 ch_syntax p_205 to_check
 "<C'hwi>"
-	"prpers" prn subj p2 mf pl
+	"prpers" prn subj p2 mf pl @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->3
 "<yelo>"
-	"mont" vblex fti p3 sg SELECT:968:l-mont_if_aller
-;	"monet" vblex fti p3 sg SELECT:968:l-mont_if_aller
+	"mont" vblex fti p3 sg @root #3->0
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #4->7
 "<pe>"
-	"pe" cnjcoo
-	"pe" adj itg mf sp
-;	"bezañ" vblex cni p3 sg REMOVE:600:m-novFin_sftM_ma
+	"pe" cnjcoo @cc #5->7
 "<e>"
-	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:277:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #6->7
 "<kavo>"
-	"kavout" vblex fti p3 sg
+	"kavout" vblex fti p3 sg @conj #7->3
 "<Lan>"
-	"Lan" np ant m sg
+	"Lan" np ant m sg @nsubj #8->7
 "<hoc'h>"
-	"ho" det pos mf sp
-	"direct" prn obj p2 mf pl
+	"ho" det pos mf sp @det #9->10
 "<arc'hant>"
-	"arc’hant" n m sg
-;	"arc’hantañ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"arc’hantañ" vblex pri p3 sg REMOVE:738:x-novfin_stuff
+	"arc’hant" n m sg @obj #10->7
 "<.>"
-	"." sent
+	"." sent @punct #11->3
 
 # text = Me a breno ar sae, hogen c'hwi a wisko anezhi.
 # text[eng] = I'll buy the dress but you'll wear it.
 # labels = press_1986 ch_syntax p_205 to_check
 "<Me>"
-	"prpers" prn subj p1 mf sg
+	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #2->3
 "<breno>"
-	"prenañ" vblex fti p3 sg
+	"prenañ" vblex fti p3 sg @root #3->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #4->5
 "<sae>"
-	"sae" n f sg
+	"sae" n f sg @obj #5->3
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #6->10
 "<hogen>"
-	"hogen" cnjcoo
+	"hogen" cnjcoo @cc #7->10
 "<c'hwi>"
-	"prpers" prn subj p2 mf pl
+	"prpers" prn subj p2 mf pl @nsubj #8->10
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #9->10
 "<wisko>"
-	"gwiskañ" vblex fti p3 sg
+	"gwiskañ" vblex fti p3 sg @conj #10->1
 "<anezhi>"
-	"direct" prn obj p3 f sg SELECT:449
-;	"eus" pr SELECT:449
-;		"indirect" prn obj p3 f sg
+	"direct" prn obj p3 f sg @obj #11->10
 "<.>"
-	"." sent
+	"." sent @punct #12->1
 
 # text = Ar marc'hadour roñseed, hag a oar e vicher koulskoude, a chomas berr da laerezh anezhañ.
 # text[eng] = The horse dealer, though he knows his trade well, failed to steal it.
 # labels = press_1986 ch_syntax p_208 to_check
 "<Ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
 "<marc'hadour>"
 	"marc’hadour" n m sg
 "<roñseed>"
 	"roñse" n m pl
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct
 "<hag>"
 	"ha" cnjcoo
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart
 "<oar>"
 	"gouzout" vblex pri p3 sg
 "<e>"
-	"e" det pos m sp SELECT:864:m-detpos_softM
-;	"e" vpart obj REMOVE:237:x-remove-vpart-nc
-;	"direct" prn obj p3 m sg REMOVE:435:x-nodobj_v_nc
-;	"e" pr REMOVE:776:m-e_rmpr_mixedMut
-;	"e" n m sp SELECT:864:m-detpos_softM
+	"e" det pos m sp
 "<vicher>"
 	"micher" n f sg
 "<koulskoude>"
 	"koulskoude" adv
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart
 "<chomas>"
 	"chom" vblex past p3 sg
 "<berr>"
 	"berr" adj mf sp
 "<da>"
-	"da" pr SELECT:519:x-Pr_for_poss_if_verb
-;	"da" det pos mf sp SELECT:519:x-Pr_for_poss_if_verb
+	"da" pr
 "<laerezh>"
 	"laerezh" vblex inf
 "<anezhañ>"
-	"direct" prn obj p3 m sg SELECT:449
-;	"eus" pr SELECT:449
-;		"indirect" prn obj p3 m sg
+	"direct" prn obj p3 m sg
 "<.>"
 	"." sent
 
@@ -8541,95 +8140,64 @@
 # text[eng] = A wheel that turns, travels.
 # labels = press_1986 ch_syntax p_208 to_check
 "<Rodig>"
-	"*Rodig"
+	"rodig" n m sg @nsubj #1->7
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @aux #2->4
 "<a>"
-	"a" pr SELECT:821
-	"a" vpart SELECT:821
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"mont" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"monet" vblex pri p3 sg REMOVE:600:m-novFin_sftM_ma
-;	"a" n m sp SELECT:821
+	"a" vpart @fixed #3->4
 "<dro>"
-	"tro" n f sg
-	"troiñ" vblex pri p3 sg
-	"treiñ" vblex pri p3 sg
-;	"troiñ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"treiñ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
+	"treiñ" vblex pri p3 sg @acl #4->1
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #5->4
 "<a>"
-	"a" vpart SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"monet" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"a" pr SELECT:466:x-Vpart_if_Vfin
-;	"a" n m sp SELECT:466:x-Vpart_if_Vfin
-;	"mont" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
-;	"monet" vblex pri p3 sg SELECT:466:x-Vpart_if_Vfin
+	"a" vpart @aux #6->7
 "<ra>"
-	"ober" vblex pri p3 sg
-;	"ra" vpart opt REMOVE:237:x-remove-vpart-nc
-;	"ober" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
+	"ober" vblex pri p3 sg @root #7->0
 "<bro>"
-	"bro" n f sg
+	"bro" n f sg @obj #8->7
 "<.>"
-	"." sent
+	"." sent @punct #9->7
 
 # text = Pa c'hellin dont, e teuin.
 # text[eng] = If I can come, I will come.
 # labels = press_1986 ch_syntax p_209 to_check
 "<Pa>"
-	"pa" cnjsub
+	"pa" cnjsub @mark #1->3
 "<c'hellin>"
-	"gellout" vblex fti p1 sg
+	"gellout" vblex fti p1 sg @aux #2->3
 "<dont>"
-	"dont" vblex inf
+	"dont" vblex inf @advcl #3->6
 "<,>"
-	"," cm @punct MAP:222:synpunct
+	"," cm @punct #4->3
 "<e>"
-	"e" vpart obj SELECT:277:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:277:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #5->6
 "<teuin>"
-	"dont" vblex fti p1 sg
+	"dont" vblex fti p1 sg @root #6->0
 "<.>"
-	"." sent
+	"." sent @punct #7->6
 
 # text = Int a zeuy pa roy mammig dezho arc'hant.
 # text[eng] = They'll come when mum gives them money.
 # labels = press_1986 ch_syntax p_210 to_check
 "<Int>"
-	"prpers" prn subj p3 mf pl SELECT:324
-;	"bezañ" vblex pri p3 pl SELECT:324
-"<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"prpers" prn subj p3 mf pl @nsubj #1->3
+"<a>" 
+	"a" vpart @aux #2->3
 "<zeuy>"
-	"dont" vblex fti p3 sg
+	"dont" vblex fti p3 sg @root #3->0
 "<pa>"
-	"pa" cnjsub
+	"pa" cnjsub @mark #4->5
 "<roy>"
-	"reiñ" vblex fti p3 sg
+	"reiñ" vblex fti p3 sg @advcl #5->3
 "<mammig>"
-	"mammig" n f sg
+	"mammig" n f sg @nsubj #6->5
 "<dezho>"
-	"da" pr
-		"indirect" prn obj p3 mf pl
+	"da" pr @case #7->8
+		"indirect" prn obj p3 mf pl @obl #8->5
 "<arc'hant>"
-	"arc’hant" n m sg
-;	"arc’hantañ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"arc’hantañ" vblex pri p3 sg REMOVE:568:m-nc_not_fin
+	"arc’hant" n m sg @obj #9->5
 "<.>"
-	"." sent
+	"." sent @punct #10->3
 
 # text = Int a zeuy pe a yay.
 # text[eng] = They will come or go.
@@ -8653,47 +8221,30 @@
 # text[eng] = I tell you that horse was too old.
 # labels = press_1986 ch_syntax p_210 to_check
 "<Me>"
-	"prpers" prn subj p1 mf sg
+	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<'>"
-	"a" vpart SELECT:327
-;	"’" apos SELECT:327
-;	"e" vpart obj SELECT:327
-;	"o" vpart ger SELECT:327
+	"a" vpart @aux #2->3
 "<lavar>"
-	"lavarout" vblex pri p3 sg SELECT:480 SELECT:972:l-lavarout_if_dire
-;	"lavarout" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"lavar" n m sg SELECT:480
-;	"lavaret" vblex pri p3 sg SELECT:480 SELECT:972:l-lavarout_if_dire
+	"lavarout" vblex pri p3 sg @root #3->0
 "<deoc'h>"
-	"da" pr
-		"indirect" prn obj p2 mf pl
+	"da" pr @case #4->5
+		"indirect" prn obj p2 mf pl @obl #5->3
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:406:x-novfin_det_nc
+	"an" det def sp @det #6->7
 "<marc'h>"
-	"marc’h" n m sg
+	"marc’h" n m sg @nsubj #7->12
 "<-se>"
-	"se" adv
+	"se" adv @advmod #8->7
 "<a>"
-	"a" vpart SELECT:277:x-Vpart_if_only_Vfin
-;	"a" pr SELECT:277:x-Vpart_if_only_Vfin
-;	"a" n m sp SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"mont" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex pri p3 sg SELECT:277:x-Vpart_if_only_Vfin
-;	"monet" vblex imp p2 sg SELECT:277:x-Vpart_if_only_Vfin
+	"a" vpart @aux #9->12
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @cop #10->12
 "<re>"
-	"re" adv SELECT:821
-	"re" prn ind mf pl SELECT:821
-;	"re" n m sg SELECT:821
+	"re" adv @advmod #11->12
 "<gozh>"
-	"kozh" adj mf sp
-;	"kozhañ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
-;	"kozhañ" vblex pri p3 sg REMOVE:738:x-novfin_stuff
+	"kozh" adj mf sp @ccomp #12->3
 "<.>"
-	"." sent
+	"." sent @punct #13->3
 
 # text = N'em eus ket kavet ar mignon-se da Ber.
 # text[eng] = I haven't found that friend of Per's
