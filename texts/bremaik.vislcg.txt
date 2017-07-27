@@ -55310,34 +55310,31 @@ _
 # text = Soubit ar pesked er bleud.
 # text[fra¹] = Vous trempez les poissons dans la farine.
 "<Soubit>"
-	"soubañ" vblex pri p2 pl
-;	"soubañ" vblex imp p2 pl
+	"soubañ" vblex imp p2 pl @root #1->0
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #2->3
 "<pesked>"
-	"pesk" n m pl
+	"pesk" n m pl @obj #3->1
 "<er>"
-	"e" pr
-		"an" det def sp
+	"e" pr @case #4->6
+		"an" det def sp @det #5->5
 "<bleud>"
-	"bleud" n m sg
+	"bleud" n m sg @obl #6->1
 "<.>"
-	"." sent
+	"." sent @punct #7->1
 
 # text = Lakait holen ha pebr.
 # text[fra¹] = Vous mettez du sel et du poivre.
 "<Lakait>"
-	"lakaat" vblex pri p2 pl
+	"lakaat" vblex pri p2 pl @root #1->0
 "<holen>"
-	"holen" n m sg
+	"holen" n m sg @obj #2->1
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij
+	"ha" cnjcoo @cc #3->4
 "<pebr>"
-	"pebr" n m sg
+	"pebr" n m sg @conj #4->2
 "<.>"
-	"." sent
+	"." sent @punct #5->1
 
 # text = Servijit gant sivolez troc'het munut war-c'horre an asiedadoù.
 # text[fra¹] = Vous servez avec ciboulettes coupées menues sur-la surface des assiettes.
@@ -55668,112 +55665,67 @@ _
 	"." sent
 
 # text = Emgavioù departamant ar c'hoariva a vo aozet gant Ti ar c'hoariva e Brest, etre ar 1añ hag ar 4 a viz Even, war pevarzek kumun disheñvel e Penn-ar-bed.
-# text[fra¹] = Les rendez-vous du département du théâtre seront organisés avec la Maison du théâtre son Prêt, entre le 1ère et le 4 juin, sur quatorze communes différentes à la tête de-les-monde.
+# text[fra¹] = Les rendez-vous du département du théâtre seront organisés par la Maison du théâtre à Brest, entre le 1ère et le 4 juin, sur quatorze communes différentes à Finistere.
 "<Emgavioù>"
-	"emgav" n m pl
+	"emgav" n m pl @nsubj #1->7
 "<departamant>"
-	"departamant" n m sg
+	"departamant" n m sg @nmod:gen #2->1
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #3->4
 "<c'hoariva>"
-	"c’hoariva" n m sg
+	"c’hoariva" n m sg @nmod:gen #4->2
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #5->7
 "<vo>"
-	"bezañ" vblex fti p3 sg
+	"bezañ" vblex fti p3 sg @aux:pass #6->7
 "<aozet>"
-	"aozañ" vblex pp
-	"aoziñ" vblex pp
-;	"aozañ" vblex imp p3 sg
-;	"aoziñ" vblex imp p3 sg
+	"aozañ" vblex pp @root #7->0
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl
-;	"kant" n m sg
+	"gant" pr @case #8->9
 "<Ti>"
-	"ti" n m sg
+	"ti" n m sg @obl:agent #9->7
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #10->11
 "<c'hoariva>"
-	"c’hoariva" n m sg
+	"c’hoariva" n m sg @nmod:gen #11->9
 "<e>"
-	"e" det pos m sp
-;	"e" pr
-;	"direct" prn obj p3 m sg
-;	"e" n m sp
-;	"e" vpart obj
+	"e" pr @case #12->13
 "<Brest>"
-	"prest" n m sg
-;	"prestiñ" vblex imp p2 sg
-;	"prestañ" vblex imp p2 sg
-;	"Brest" np top sg
-;	"prest" adj mf sp
-;	"prestiñ" vblex pri p3 sg
-;	"prestañ" vblex pri p3 sg
+	"Brest" np top sg @nmod #13->9
 "<,>"
-	"," cm
+	"," cm @punct #14->17
 "<etre>"
-	"etre" pr
-	"etre" adj mf sp
+	"etre" pr @case #15->17
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #16->17
 "<1añ>"
-	"1añ" num mf sg
+	"1añ" num mf sg @obl #17->7
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @conj #18->20
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #19->20
 "<4>"
-	"4" num mf pl
+	"4" num mf pl @conj #20->17
 "<a>"
-	"a" pr
-;	"a" vpart
-;	"monet" vblex imp p2 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"mont" vblex pri p3 sg
-;	"a" n m sp
+	"a" pr @case #21->22
 "<viz Even>"
-	"miz Even" n m sp
+	"miz Even" n m sp @nmod #22->17
 "<,>"
-	"," cm
+	"," cm @ #23->26
 "<war>"
-	"war" pr
-;	"gwar" n m sg
+	"war" pr @case #24->26
 "<pevarzek>"
-	"pevarzek" num mf pl
+	"pevarzek" num mf pl @nummod #25->26
 "<kumun>"
-	"kumun" n f sg
-;	"kumun" adj mf sp
+	"kumun" n f sg @obl #26->7
 "<disheñvel>"
-	"disheñvel" adj mf sp
-;	"disheñvelout" vblex imp p2 sg
-;	"disheñvelout" vblex pri p3 sg
-"<e Penn>"
-	"e penn" pr
-"<->"
-	"-" guio
-"<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
-"<->"
-	"-" guio
-"<bed>"
-	"bed" n m sg
-;	"pediñ" vblex imp p2 sg
-;	"pediñ" vblex pri p3 sg
+	"disheñvel" adj mf sp @amod #27->26
+"<e>"
+	"e" pr @case #28->29
+"<Penn-ar-bed>"
+	"Penn-ar-Bed" np top sg @nmod #29->26
 "<.>"
-	"." sent
+	"." sent @punct #30->7
 
 # text = Ha d'ar 4 a viz Even e vo aozet ul leurenn-digor e Kastellin.
 # text[fra¹] = Et le 4 juin sera organisé une scène-ouverte à Châteaulin.
@@ -56099,9 +56051,6 @@ _
 	"," cm
 "<an>"
 	"an" det def sp
-	"
-;	"mont" vblex pri p1 sg
-;	"monet" vblex pri p1 sg
 "<Taol>"
 	"taol" n m sg
 ;	"teuler" vblex imp p2 sg
@@ -56113,115 +56062,76 @@ _
 	"lañs" n f sg
 ;	"lañsañ" vblex imp p2 sg
 ;	"lañsañ" vblex pri p3 sg
-"
+"<
 "<.>"
 	"." sent
 
 # text = Ma ouifemp penaos e vev ar yer a brenomp er gourmarc'hadoù, moarvat e kollfemp hon c'hoant da zebriñ anezho, pe e teufe c'hoant deomp da brenañ re bio.
 # text[fra¹] = Si nous saurions comment il vit les poules achetons dans les supermarchés, certainement perdrions notre envie à les manger, quelle viendrait envie à nous à acheter paire bio.
 "<Ma>"
-	"ma" cnjsub
-;	"ma" det pos mf sp
-;	"ma" ij
+	"ma" cnjsub @mark #1->2
 "<ouifemp>"
-	"gouzout" vblex cni p1 pl
+	"gouzout" vblex cni p1 pl @advcl #2->16
 "<penaos>"
-	"penaos" adv itg
+	"penaos" adv itg @advmod #3->5
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #4->5
 "<vev>"
-	"beviñ" vblex pri p3 sg
-	"bevañ" vblex pri p3 sg
-;	"beviñ" vblex imp p2 sg
-;	"bevañ" vblex imp p2 sg
-;	"bev" adj mf sp
+	"bevañ" vblex pri p3 sg @ccomp #5->2
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #6->7
 "<yer>"
-	"yar" n f pl
+	"yar" n f pl @nsubj #7->5
 "<a>"
-	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"monet" vblex pri p3 sg
+	"a" vpart @aux #8->9
 "<brenomp>"
-	"prenañ" vblex pri p1 pl
-;	"prenañ" vblex imp p1 pl
+	"prenañ" vblex pri p1 pl @acl #9->7
 "<er>"
-	"e" pr
-		"an" det def sp
+	"e" pr @case #10->12
+		"an" det def sp @det #11->12
 "<gourmarc'hadoù>"
-	"gourmarc’had" n m pl
+	"gourmarc’had" n m pl @obl #12->9
 "<,>"
-	"," cm
+	"," cm @punct #13->2
 "<moarvat>"
-	"moarvat" adv
+	"moarvat" adv @advmod #14->16
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #15->16
 "<kollfemp>"
-	"koll" vblex cni p1 pl
+	"koll" vblex cni p1 pl @root #16->0
 "<hon>"
-	"hon" det pos mf sp
-;	"direct" prn obj p1 mf pl
+	"hon" det pos mf sp @det #17->18
 "<c'hoant>"
-	"c’hoant" n m sg
-;	"koant" adj mf sp
+	"c’hoant" n m sg @obj #18->16
 "<da>"
-	"da" pr
-;	"da" det pos mf sp
+	"da" pr @mark #19->20
 "<zebriñ>"
-	"debriñ" vblex inf
+	"debriñ" vblex inf @acl #20->18
 "<anezho>"
-	"direct" prn obj p3 mf pl
-;	"eus" pr
-;		"indirect" prn obj p3 mf pl
+	"direct" prn obj p3 mf pl @obj #21->20
 "<,>"
-	"," cm
+	"," cm @punct #22->25
 "<pe>"
-	"pe" cnjcoo
-	"pe" adj itg mf sp
-;	"bezañ" vblex cni p3 sg
+	"pe" cnjcoo @cc #23->25
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #24->25
 "<teufe>"
-	"dont" vblex cni p3 sg
+	"dont" vblex cni p3 sg @conj #25->16
 "<c'hoant>"
-	"c’hoant" n m sg
-;	"koant" adj mf sp
+	"c’hoant" n m sg @nsubj #26->25
 "<deomp>"
-	"da" pr
-		"indirect" prn obj p1 mf pl
-;	"mont" vblex imp p1 pl
-;	"monet" vblex imp p1 pl
+	"da" pr @case #27->28
+		"indirect" prn obj p1 mf pl @obl #28->25
 "<da>"
-	"da" pr
-;	"da" det pos mf sp
+	"da" pr @mark #29->30
 "<brenañ>"
-	"prenañ" vblex inf
+	"prenañ" vblex inf @acl #30->26
 "<re>"
-	"re" adv
-	"re" n m sg
-	"re" prn ind mf pl
+	"re" prn ind mf pl @obj #31->30
 "<bio>"
-	"bio" adj mf sp
+	"bio" adj mf sp @amod #32->31
 "<.>"
-	"." sent
+	"." sent @punct #33->16
 
 # text = Goude ma vefe gwasket gant ar c'hevredigezhioù a stourm evit gwirioù al loened ez eus bet degemeret un destenn gant Parlamant Europa, a ra ma ne vo ket aotreet da verniañ ouzhpenn 17 pe 22 yar/m² hervez al lec'hioù.
 # text[fra¹] = Après qu'Il aurait pressé avec les sociétés il combat pour les droits des animaux ont été accueillis un texte avec le Parlement de l'Europe, elle fait s'il ne sera pas autorisé à amasser plus de 17 quels 22 poules/m² selon les lieux.
@@ -56333,10 +56243,10 @@ _
 	"22" num mf pl
 "<yar>"
 	"yar" n f sg
-/
-"<m>"
-	"m" n m sp
-² 
+"</>"
+	"/" sym
+"<m²>"
+	"m²" n m sp
 "<hervez>"
 	"hervez" pr
 "<al>"

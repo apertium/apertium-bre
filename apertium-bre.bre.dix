@@ -16200,6 +16200,7 @@
       <e lm="Paris"><par n="initial-P"/><p><l>aris</l><r>ariz</r></p><par n="Roazhon__np"/></e>	
     <e lm="Powys"><par n="initial-P"/><i>owys</i><par n="Roazhon__np"/></e>
     <e lm="Penn-ar-Bed"><par n="initial-P"/><i>enn-ar-Bed</i><par n="Roazhon__np"/></e>
+    <e lm="Penn-ar-bed" r="LR"><par n="initial-P"/><p><l>enn-ar-bed</l><r>enn-ar-Bed</r></p><par n="Roazhon__np"/></e>
     <e lm="e Penn-ar-Bed"><p><l>e<b/></l><r>e<s n="pr"/><j/></r></p><par n="initial-P"/><i>enn-ar-Bed</i><par n="Roazhon__np"/></e>
     <e lm="Prad Maria"><par n="initial-P"/><i>rad<b/>Maria</i><par n="Roazhon__np"/></e>
     <e lm="Pretoria"><par n="initial-P"/><i>retoria</i><par n="Roazhon__np"/></e>

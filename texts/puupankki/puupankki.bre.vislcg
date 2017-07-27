@@ -1072,6 +1072,98 @@
 "<.>"
 	"." sent @punct #6->1
 
+# text = Soubit ar pesked er bleud.
+# text[fra¹] = Vous trempez les poissons dans la farine.
+"<Soubit>"
+	"soubañ" vblex imp p2 pl @root #1->0
+"<ar>"
+	"an" det def sp @det #2->3
+"<pesked>"
+	"pesk" n m pl @obj #3->1
+"<er>"
+	"e" pr @case #4->6
+		"an" det def sp @det #5->5
+"<bleud>"
+	"bleud" n m sg @obl #6->1
+"<.>"
+	"." sent @punct #7->1
+
+# text = Lakait holen ha pebr.
+# text[fra¹] = Vous mettez du sel et du poivre.
+"<Lakait>"
+	"lakaat" vblex pri p2 pl @root #1->0
+"<holen>"
+	"holen" n m sg @obj #2->1
+"<ha>"
+	"ha" cnjcoo @cc #3->4
+"<pebr>"
+	"pebr" n m sg @conj #4->2
+"<.>"
+	"." sent @punct #5->1
+
+# text = Emgavioù departamant ar c'hoariva a vo aozet gant Ti ar c'hoariva e Brest, etre ar 1añ hag ar 4 a viz Even, war pevarzek kumun disheñvel e Penn-ar-bed.
+# text[fra¹] = Les rendez-vous du département du théâtre seront organisés par la Maison du théâtre à Brest, entre le 1ère et le 4 juin, sur quatorze communes différentes à Finistere.
+"<Emgavioù>"
+	"emgav" n m pl @nsubj #1->7
+"<departamant>"
+	"departamant" n m sg @nmod:gen #2->1
+"<ar>"
+	"an" det def sp @det #3->4
+"<c'hoariva>"
+	"c’hoariva" n m sg @nmod:gen #4->2
+"<a>"
+	"a" vpart @aux #5->7
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux:pass #6->7
+"<aozet>"
+	"aozañ" vblex pp @root #7->0
+"<gant>"
+	"gant" pr @case #8->9
+"<Ti>"
+	"ti" n m sg @obl:agent #9->7
+"<ar>"
+	"an" det def sp @det #10->11
+"<c'hoariva>"
+	"c’hoariva" n m sg @nmod:gen #11->9
+"<e>"
+	"e" pr @case #12->13
+"<Brest>"
+	"Brest" np top sg @nmod #13->9
+"<,>"
+	"," cm @punct #14->17
+"<etre>"
+	"etre" pr @case #15->17
+"<ar>"
+	"an" det def sp @det #16->17
+"<1añ>"
+	"1añ" num mf sg @obl #17->7
+"<hag>"
+	"ha" cnjcoo @conj #18->20
+"<ar>"
+	"an" det def sp @det #19->20
+"<4>"
+	"4" num mf pl @conj #20->17
+"<a>"
+	"a" pr @case #21->22
+"<viz Even>"
+	"miz Even" n m sp @nmod #22->17
+"<,>"
+	"," cm @ #23->26
+"<war>"
+	"war" pr @case #24->26
+"<pevarzek>"
+	"pevarzek" num mf pl @nummod #25->26
+"<kumun>"
+	"kumun" n f sg @obl #26->7
+"<disheñvel>"
+	"disheñvel" adj mf sp @amod #27->26
+"<e>"
+	"e" pr @case #28->29
+"<Penn-ar-bed>"
+	"Penn-ar-Bed" np top sg @nmod #29->26
+"<.>"
+	"." sent @punct #30->7
+
 # text = War tachenn Kerampuilh e vo graet evel boaz. 
 # text[fra¹] = Sur le terrain de Kerampuilh sera fait comme habitude. 
 "<War>"
@@ -1092,6 +1184,73 @@
 	"boaz" n m sg @obl #8->6
 "<.>"
 	"." sent @punct #9->6
+
+# text = Ma ouifemp penaos e vev ar yer a brenomp er gourmarc'hadoù, moarvat e kollfemp hon c'hoant da zebriñ anezho, pe e teufe c'hoant deomp da brenañ re bio.
+# text[fra¹] = Si nous saurions comment il vit les poules achetons dans les supermarchés, certainement perdrions notre envie à les manger, quelle viendrait envie à nous à acheter paire bio.
+"<Ma>"
+	"ma" cnjsub @mark #1->2
+"<ouifemp>"
+	"gouzout" vblex cni p1 pl @advcl #2->16
+"<penaos>"
+	"penaos" adv itg @advmod #3->5
+"<e>"
+	"e" vpart obj @aux #4->5
+"<vev>"
+	"bevañ" vblex pri p3 sg @ccomp #5->2
+"<ar>"
+	"an" det def sp @det #6->7
+"<yer>"
+	"yar" n f pl @nsubj #7->5
+"<a>"
+	"a" vpart @aux #8->9
+"<brenomp>"
+	"prenañ" vblex pri p1 pl @acl #9->7
+"<er>"
+	"e" pr @case #10->12
+		"an" det def sp @det #11->12
+"<gourmarc'hadoù>"
+	"gourmarc’had" n m pl @obl #12->9
+"<,>"
+	"," cm @punct #13->2
+"<moarvat>"
+	"moarvat" adv @advmod #14->16
+"<e>"
+	"e" vpart obj @aux #15->16
+"<kollfemp>"
+	"koll" vblex cni p1 pl @root #16->0
+"<hon>"
+	"hon" det pos mf sp @det #17->18
+"<c'hoant>"
+	"c’hoant" n m sg @obj #18->16
+"<da>"
+	"da" pr @mark #19->20
+"<zebriñ>"
+	"debriñ" vblex inf @acl #20->18
+"<anezho>"
+	"direct" prn obj p3 mf pl @obj #21->20
+"<,>"
+	"," cm @punct #22->25
+"<pe>"
+	"pe" cnjcoo @cc #23->25
+"<e>"
+	"e" vpart obj @aux #24->25
+"<teufe>"
+	"dont" vblex cni p3 sg @conj #25->16
+"<c'hoant>"
+	"c’hoant" n m sg @nsubj #26->25
+"<deomp>"
+	"da" pr @case #27->28
+		"indirect" prn obj p1 mf pl @obl #28->25
+"<da>"
+	"da" pr @mark #29->30
+"<brenañ>"
+	"prenañ" vblex inf @acl #30->26
+"<re>"
+	"re" prn ind mf pl @obj #31->30
+"<bio>"
+	"bio" adj mf sp @amod #32->31
+"<.>"
+	"." sent @punct #33->16
 
 # text = Gellout a reer gwelet skeudennoù eus al labourioù-se en diskouezadeg.
 # text[fra¹] = On peut voir des images de ces travaux dans l'exposition.
@@ -1631,6 +1790,58 @@
 "<.>"
 	"." sent @punct #13->10
 
+# text = Lavaret em eus deoc'h e oa Janed.
+# text[eng] = I told you it was Janed.
+# labels = timm_1988 to_check
+"<Lavaret>"
+	"lavaret" vblex pp @root #1->0
+"<em eus>"
+	"kaout" vblex pri p1 sg @aux #2->1
+"<deoc'h>"
+	"da" pr @case #3->4
+		"indirect" prn obj p2 mf pl @obl #4->1
+"<e>"
+	"e" vpart obj @aux #5->6
+"<oa>"
+	"bezañ" vblex pii p3 sg @ccomp #6->1
+"<Janed>"
+	"Janed" np ant f sg @nsubj #7->6
+"<.>"
+	"." sent @punct #8->1
+
+# text = Marteze e kredas e oa an holl dud-se oc'h ober goap anezhañ.
+# text[eng] = Perhaps he believed all the people there were making fun of him.
+# labels = timm_1988 to_check
+"<Marteze>"
+	"marteze" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<kredas>"
+	"krediñ" vblex past p3 sg @root #3->0
+"<e>"
+	"e" vpart obj @aux #4->11
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #5->11
+"<an>"
+	"an" det def sp @det #6->8
+"<holl>"
+	"holl" predet mf sp @det #7->8
+"<dud>"
+	"den" n m pl @nsubj #8->11
+"<-se>"
+	"se" adv @advmod #9->8
+"<oc'h>"
+	"o" vpart ger @aux #10->11
+"<ober>"
+	"ober" vblex inf @ccomp #11->3
+"<goap>"
+	"goap" n m sg @obj #12->11
+"<anezhañ>"
+	"eus" pr @case #13->14
+		"indirect" prn obj p3 m sg @obl #14->11
+"<.>"
+	"." sent @punct #15->3
+
 # text = Ar plac'h yaouank a weles dec'h a ya d'ar pardon.
 # text[eng] = The young woman you saw yesterday is going to the dance.
 # labels = timm_1988
@@ -1715,6 +1926,38 @@
 	"tan" n m sg @obj #9->6
 "<.>"
 	"." sent @punct #10->6
+
+# text = Ar c'hezeg a harpas krenn war an taol hag a chomas hep fichal.
+# text[eng] = The horses stopped completely on the spot and stayed without moving.
+# labels = timm_1988 to_check
+"<Ar>"
+	"an" det def sp @det #1->2
+"<c'hezeg>"
+	"marc’h" n m pl @nsubj #2->4
+"<a>"
+	"a" vpart @aux #3->4
+"<harpas>"
+	"harpañ" vblex past p3 sg @root #4->0
+"<krenn>"
+	"krenn" adj mf sp @advmod #5->4
+"<war>"
+	"war" pr @case #6->8
+"<an>"
+	"an" det def sp @det #7->8
+"<taol>"
+	"taol" n m sg @obl #8->4
+"<hag>"
+	"ha" cnjcoo @cc #9->11
+"<a>"
+	"a" vpart @aux #10->11
+"<chomas>"
+	"chom" vblex past p3 sg @conj #11->4
+"<hep>"
+	"hep" pr @mark #12->13
+"<fichal>"
+	"fichal" vblex inf @advcl #13->11
+"<.>"
+	"." sent @punct #14->4
 
 # text = Stlepel a reas e liñsel pell dioutañ hag e frotas e elgez.
 # text[eng] = He threw the sheet away from him and rubbed his chin.
@@ -5501,6 +5744,20 @@
 	"selaou" vblex imp p2 pl @root #2->0
 "<!>"
 	"!" sent @punct #3->2
+
+# text = Na selaouit ket ac'hanon!
+# text[eng] = Don't listen to me!
+# labels = press_1986 ch_syntax p_195 to_check
+"<Na>"
+	"na" vpart neg @aux #1->2
+"<selaouit>"
+	"selaou" vblex pri p2 pl @root #2->0
+"<ket>"
+	"ket" adv @advmod #3->2
+"<ac'hanon>"
+	"direct" prn obj p1 mf sg @obj #4->2
+"<!>"
+	"!" sent @punct #5->2
 
 # text = Pesketaer e vo Yannig a-hed e vuhez.
 # text[eng] = Yannig will be a fisherman all his life.

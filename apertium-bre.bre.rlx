@@ -173,6 +173,7 @@ LIST Da = "da" ;
 LIST Hini = "hini" ;
 LIST Digit = "[0-9]+"r ;
 LIST Pa = "pa" ;
+
 LIST Kanañ = "kanañ" ;
 LIST Lenn = "lenn" ;
 LIST Mont = "mont" ;
@@ -184,6 +185,7 @@ LIST Sellout = "sellout" ;
 LIST Karout = "karout" ; 
 LIST Teuler = "teuler" ;
 LIST Treiñ = "treiñ" ;
+LIST Bevañ = "bevañ" ;
 
 LIST Lancer = "teurel" "teuler" ;
 LIST Aimer = "kariñ" "karout" ;
@@ -195,6 +197,7 @@ LIST Lire = "lenn" "lennout" ;
 LIST Aller = "mont" "monet" ;
 LIST Voir = "gwelet" "gwelout" ;
 LIST Dire = "lavaret" "lavarout" ;
+LIST Vivre = "beviñ" "bevañ" ;
 
 #
 #	Semantic lists
@@ -986,6 +989,8 @@ SELECT:l-karout_if_aimer Karout (0C Aimer) (0C Verb) ;
 SELECT:l-teuler_if_lance Teuler (0C Lancer) (0C Verb) ; 
 
 SELECT:l-treiñ_if_donner Treiñ IF (0C Tourner) (0C Verb) ; 
+
+SELECT:l-bevãn_if_vivre Bevañ IF (0C Vivre) (0C Verb) ;
 
 ###############################################################################
 ## Lexical selection 

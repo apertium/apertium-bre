@@ -71,7 +71,7 @@
 "<.>"
 	"." sent @punct #13->10
 
-# text = Ar mab a welas ar plac'h yaouank anezhañ a oa deuet da laborat.
+# text = Ar mab a welas ar plac'h yaouank anezhañ a oa deuet da labourat.
 # text[eng] = The boy whom the girl saw had come to work.
 # labels = timm_1988 to_check
 "<Ar>"
@@ -97,8 +97,8 @@
 	"bezañ" vblex pii p3 sg
 "<deuet da>"
 	"dont# da" vblex pp
-"<laborat>"
-	"*laborat"
+"<labourat>"
+	"labourat" vblex inf
 "<.>"
 	"." sent
 
@@ -106,61 +106,53 @@
 # text[eng] = I told you it was Janed.
 # labels = timm_1988 to_check
 "<Lavaret>"
-	"lavaret" vblex pp
+	"lavaret" vblex pp @root #1->0
 "<em eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #2->1
 "<deoc'h>"
-	"da" pr
-		"indirect" prn obj p2 mf pl
+	"da" pr @case #3->4
+		"indirect" prn obj p2 mf pl @obl #4->1
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #5->6
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @ccomp #6->1
 "<Janed>"
-	"Janed" np ant f sg
+	"Janed" np ant f sg @nsubj #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->1
 
 # text = Marteze e kredas e oa an holl dud-se oc'h ober goap anezhañ.
 # text[eng] = Perhaps he believed all the people there were making fun of him.
 # labels = timm_1988 to_check
 "<Marteze>"
-	"marteze" adv
+	"marteze" adv @advmod #1->3
 "<e>"
-	"e" vpart obj
+	"e" vpart obj @aux #2->3
 "<kredas>"
-	"krediñ" vblex past p3 sg
+	"krediñ" vblex past p3 sg @root #3->0
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #4->11
 "<oa>"
-	"bezañ" vblex pii p3 sg
+	"bezañ" vblex pii p3 sg @aux #5->11
 "<an>"
-	"an" det def sp
+	"an" det def sp @det #6->8
 "<holl>"
-	"holl" predet mf sp
+	"holl" predet mf sp @det #7->8
 "<dud>"
-	"den" n m pl
+	"den" n m pl @nsubj #8->11
 "<-se>"
-	"se" adv
+	"se" adv @advmod #9->8
 "<oc'h>"
-	"o" vpart ger
+	"o" vpart ger @aux #10->11
 "<ober>"
-	"ober" vblex inf
+	"ober" vblex inf @ccomp #11->3
 "<goap>"
-	"goap" n m sg
+	"goap" n m sg @obj #12->11
 "<anezhañ>"
-	"eus" pr
-		"indirect" prn obj p3 m sg
+	"eus" pr @case #13->14
+		"indirect" prn obj p3 m sg @obl #14->11
 "<.>"
-	"." sent
+	"." sent @punct #15->3
 
 # text = Ar plac'h yaouank a weles dec'h a ya d'ar pardon.
 # text[eng] = The young woman you saw yesterday is going to the dance.
@@ -251,33 +243,33 @@
 # text[eng] = The horses stopped completely on the spot and stayed without moving.
 # labels = timm_1988 to_check
 "<Ar>"
-	"an" det def sp @det
+	"an" det def sp @det #1->2
 "<c'hezeg>"
-	"marc’h" n m pl @nsubj
+	"marc’h" n m pl @nsubj #2->4
 "<a>"
-	"a" vpart @aux
+	"a" vpart @aux #3->4
 "<harpas>"
-	"harpañ" vblex past p3 sg @root
+	"harpañ" vblex past p3 sg @root #4->0
 "<krenn>"
-	"krenn" adj mf sp @acl
+	"krenn" adj mf sp @advmod #5->4
 "<war>"
-	"war" pr @case
+	"war" pr @case #6->8
 "<an>"
-	"an" det def sp @det
+	"an" det def sp @det #7->8
 "<taol>"
-	"taol" n m sg
+	"taol" n m sg @obl #8->4
 "<hag>"
-	"ha" cnjcoo @cc
+	"ha" cnjcoo @cc #9->11
 "<a>"
-	"a" vpart @aux
+	"a" vpart @aux #10->11
 "<chomas>"
-	"chom" vblex past p3 sg @conj
+	"chom" vblex past p3 sg @conj #11->4
 "<hep>"
-	"hep" pr
+	"hep" pr @mark #12->13
 "<fichal>"
-	"*fichal"
+	"fichal" vblex inf @advcl #13->11
 "<.>"
-	"." sent
+	"." sent @punct #14->4
 
 # text = Stlepel a reas e liñsel pell dioutañ hag e frotas e elgez.
 # text[eng] = He threw the sheet away from him and rubbed his chin.
@@ -6890,59 +6882,6 @@
 "<!>"
 	"!" sent @punct #8->2
 
-# text = Va selaouit!
-# text[eng] = Listen to me!
-# labels = press_1986 ch_syntax to_check
-"<Va>"
-	"direct" prn obj p1 mf sg
-"<selaouit>"
-	"selaou" vblex imp p2 pl
-"<!>"
-	"!" sent
-
-# labels = press_1986 ch_syntax to_check
-"<Na>"
-	"na" vpart neg
-"<selaouit>"
-	"selaou" vblex imp p2 pl
-"<ket>"
-	"ket" adv
-"<ac'hanon>"
-	"direct" prn obj p1 mf sg
-"<!>"
-	"!" sent
-
-# labels = press_1986 ch_syntax to_check
-"<Pesketaer>"
-	"pesketaer" n m sg
-;	"pesketa" vblex pri impers sp
-"<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
-"<vo>"
-	"bezañ" vblex fti p3 sg @+FMAINV 
-"<Yannig>"
-	"Yannig" np ant m sg
-"<a-hed>"
-	"a-hed" pr
-"<e>"
-	"e" det pos m sp
-;	"e" pr
-;	"e" n m sp
-;	"direct" prn obj p3 m sg
-;	"e" vpart obj
-"<vuhez>"
-	"buhez" n f sg
-;	"buheziñ" vblex imp p2 sg
-;	"buhezañ" vblex imp p2 sg
-;	"buheziñ" vblex pri p3 sg
-;	"buhezañ" vblex pri p3 sg
-"<.>"
-	"." sent
-
 # text = Selaouit ac'hanon!
 # text[eng] = Listen to me!
 # labels = press_1986 ch_syntax p_195 to_check
@@ -6967,23 +6906,15 @@
 # text[eng] = Don't listen to me!
 # labels = press_1986 ch_syntax p_195 to_check
 "<Na>"
-	"na" vpart neg SELECT:334
-;	"na" cnjcoo SELECT:334
-;	"na" preadv SELECT:334
+	"na" vpart neg @aux #1->2
 "<selaouit>"
-	"selaou" vblex pri p2 pl SELECT:336:x-vfin_if_pneg
-;	"selaou" vblex imp p2 pl SELECT:336:x-vfin_if_pneg
+	"selaou" vblex pri p2 pl @root #2->0
 "<ket>"
-	"ket" adv
+	"ket" adv @advmod #3->2
 "<ac'hanon>"
-	"direct" prn obj p1 mf sg SELECT:449
-;	"eus" pr SELECT:449
-;		"indirect" prn obj p1 mf sg
+	"direct" prn obj p1 mf sg @obj #4->2
 "<!>"
-	"!" sent
-
-"<.>"
-	"." sent
+	"!" sent @punct #5->2
 
 # text = Pesketaer e vo Yannig a-hed e vuhez.
 # text[eng] = Yannig will be a fisherman all his life.
