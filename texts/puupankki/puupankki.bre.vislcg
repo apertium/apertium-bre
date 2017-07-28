@@ -805,6 +805,56 @@
 "<?>"
 	"?" sent @punct #5->4
 
+# text = En teuliad e vez kinniget ur pennad diwar-benn stad an dachenn douar, arouezius eus an dizemglev padus etre Israeliz ha Palestiniz.
+# text[fra¹] = Dans le dossier est présenté un article au sujet de l'état du terrain terre, significative de la mésentente durable entre des Israéliens/Israéliens et des Palestiniens.
+"<En>"
+	"e" pr @case #1->2
+		"an" det def sp @det #2->3
+"<teuliad>"
+	"teuliad" n m sg @obl #3->6
+"<e>"
+	"e" vpart obj @aux #4->6
+"<vez>"
+	"bezañ" vblex prh p3 sg @aux:pass #5->6
+"<kinniget>"
+	"kinnig" vblex pp @root #6->0
+"<ur>"
+	"un" det ind sp @det #7->8
+"<pennad>"
+	"pennad" n m sg @nsubj #8->6
+"<diwar-benn>"
+	"diwar-benn" pr @case #9->11
+"<stad>"
+	"stad" n f sg @nmod #11->8
+"<an>"
+	"an" det def sp @det #12->13
+"<dachenn>"
+	"tachenn" n f sg @nmod #13->11
+"<douar>"
+	"douar" n m sg @nmod:gen #14->13
+"<,>"
+	"," cm @punct #15->16
+"<arouezius>"
+	"arouezius" adj mf sp @dep #16->11
+"<eus>"
+	"eus" pr @case #17->19
+"<an>"
+	"an" det def sp @det #18->19
+"<dizemglev>"
+	"dizemglev" n m sg @dep #19->16
+"<padus>"
+	"padus" adj mf sp @amod #20->19
+"<etre>"
+	"etre" pr @case #21->22
+"<Israeliz>"
+	"Israelad" n m pl @nmod #22->19
+"<ha>"
+	"ha" cnjcoo @cc #23->24
+"<Palestiniz>"
+	"Palestinad" n m pl @conj #24->22
+"<.>"
+	"." sent @punct #25->6
+
 # text = En India eo bet kemeret ar skeudennoù.
 # text[fra¹] = en Inde a été prise les images.
 "<En>"
@@ -1072,8 +1122,217 @@
 "<.>"
 	"." sent @punct #6->1
 
+# text = Emañ ar PS o vont da sevel klemm dirak al lezenn, hervezañ n'eo ket diouzh al lezenn ober seurt traoù.
+# text[fra¹] = Le PS est en train d'aller à lever plaindre devant la loi, selon lui n'est pas de la loi faire la sorte de choses.
+"<Emañ>"
+	"bezañ" vbloc pri p3 sg @aux #1->5
+"<ar>"
+	"an" det def sp @det #2->3
+"<PS>"
+	"PS" n acr m sg @nsubj #3->5
+"<o>"
+	"o" vpart ger @aux #4->5
+"<vont>"
+	"mont" vblex inf @root #5->0
+"<da>"
+	"da" pr @mark #6->7
+"<sevel>"
+	"sevel" vblex inf @advcl #7->5
+"<klemm>"
+	"klemm" n m sg @obj #8->7
+"<dirak>"
+	"dirak" pr @case #9->11
+"<al>"
+	"an" det def sp @det #10->11
+"<lezenn>"
+	"lezenn" n f sg @obl #11->7
+"<,>"
+	"," cm @punct #12->20
+"<hervezañ>"
+	"hervez" pr @case #13->14
+		"indirect" prn obj p3 m sg @obl #14->20
+"<n'>"
+	"ne" adv neg @advmod #15->20
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #16->20
+"<ket>"
+	"ket" adv @advmod #17->20
+"<diouzh>"
+	"diouzh" pr @case #18->20
+"<al>"
+	"an" det def sp @det #19->20
+"<lezenn>"
+	"lezenn" n f sg @parataxis #20->5
+"<ober>"
+	"ober" vblex inf @csubj #21->20
+"<seurt>"
+	"seurt" n m sg @obj #22->21
+"<traoù>"
+	"tra" n m pl @nmod:gen #23->22
+"<.>"
+	"." sent @punct #24->5
+
+# text = Evel-se e vo aesoc'h lakaat hon evezh war ar c'hanaouennoù.
+# text[fra¹] = Comme ça il sera plus facile mettre notre attention sur les chansons.
+"<Evel-se>"
+	"evel-se" adv @advmod #1->4
+"<e>"
+	"e" vpart obj @aux #2->4
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #3->4
+"<aesoc'h>"
+	"aes" adj sint comp @root #4->0
+"<lakaat>"
+	"lakaat" vblex inf @csubj #5->4
+"<hon>"
+	"hon" det pos mf sp @det #6->7
+"<evezh>"
+	"evezh" n m sg @obj #7->5
+"<war>"
+	"war" pr @case #8->10
+"<ar>"
+	"an" det def sp @det #9->10
+"<c'hanaouennoù>"
+	"kanaouenn" n f pl @obl #10->5
+"<.>"
+	"." sent @punct #11->4
+
+# text = Degasit d'ar berv ar banne laezh.
+# text[fra¹] = Vous apportez à bouillant le coup de lait.
+"<Degasit>"
+	"degas" vblex imp p2 pl @root #1->0
+"<d'ar>"
+	"da" pr @case #2->4
+		"an" det def sp @det #3->4
+"<berv>"
+	"berv" n m sg @obl #4->1
+"<ar>"
+	"an" det def sp @det #5->6
+"<banne>"
+	"banne" n m sg @obj #6->1
+"<laezh>"
+	"laezh" n m sg @nmod:gen #7->6
+"<.>"
+	"." sent @punct #8->1
+
+# text = Bep miz e kinnig ar gelaouenn Bremañ, abaoe 1980, pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
+# text[fra¹] = Tous les mois dans le magazine Bremañ présente, depuis 1980, articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
+"<Bep>"
+	"bep" det ind mf sg @det #1->2
+"<miz>"
+	"miz" n m sg @obl #2->4
+"<e>"
+	"e" vpart obj @aux #3->4
+"<kinnig>"
+	"kinnig" vblex pri p3 sg @root #4->0
+"<ar>"
+	"an" det def sp @det #5->6
+"<gelaouenn>"
+	"kelaouenn" n f sg @nsubj #6->4
+"<Bremañ>"
+	"Bremañ" np al mf sg @appos #7->6
+"<,>"
+	"," cm @punct #8->10
+"<abaoe>"
+	"abaoe" pr @case #9->10
+"<1980>"
+	"1980" num mf pl @obl #10->4
+"<,>"
+	"," cm @punct #11->10
+"<pennadoù>"
+	"pennad" n m pl @obj #12->4
+"<brezhonek>"
+	"brezhonek" adj mf sp @amod #13->12
+"<a>"
+	"a" pr @case #14->16
+"<bep>"
+	"bep" det ind mf sg @det #15->16
+"<seurt>"
+	"seurt" n m sg @nmod #16->12
+"<,>"
+	"," cm @punct #17->19
+"<diwar-benn>"
+	"diwar-benn" pr @case #18->19
+"<Breizh>"
+	"Breizh" np top sg @nmod #19->12
+"<hag>"
+	"ha" cnjcoo @cc #20->22
+"<ar>"
+	"an" det def sp @det #21->22
+"<bed>"
+	"bed" n m sg @conj #22->19
+"<,>"
+	"," cm @punct #23->19
+"<kinniget>"
+	"kinnig" vblex pp @dep #24->12
+"<brav>"
+	"brav" adj mf sp @advmod #25->24
+"<,>"
+	"," cm @punct #26->24
+"<e>"
+	"e" pr @case #27->28
+"<doare>"
+	"doare" n m sg @obl #28->24
+"<ur>"
+	"un" det ind sp @det #29->30
+"<magazin>"
+	"magazin" n m sg @nmod:gen #30->28
+"<.>"
+	"." sent @punct #31->4
+
+# text = Kavet ez eus bet 4 den marv ha d'an nebeutañ 3 den gloazet.
+# text[fra¹] = Il a été trouvé 4 personnes mortes et du moins 3 personnes blessées.
+"<Kavet>"
+	"kavout" vblex pp @root #1->0
+"<ez eus>"
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<bet>"
+	"bezañ" vblex pp @aux:pass #3->1
+"<4>"
+	"4" num mf pl @nummod #4->5
+"<den>"
+	"den" n m sg @nsubj #5->1
+"<marv>"
+	"marv" adj mf sp @amod #6->5
+"<ha>"
+	"ha" cnjcoo @cc #7->10
+"<d'an nebeutañ>"
+	"d’an nebeutañ" adv @dep #8->9
+"<3>"
+	"3" num mf pl @nummod #9->10
+"<den>"
+	"den" n m sg @conj #10->5
+"<gloazet>"
+	"gloazañ" vblex pp @acl #11->10
+"<.>"
+	"." sent @punct #12->1
+
+# text = Lakait 40 gramm a amann da deuziñ en ur gastelodenn.
+# text[fra¹] = Mettez 40 grammes à beurre à fondre dans une casserole.
+"<Lakait>"
+	"lakaat" vblex imp p2 pl @root #1->0
+"<40>"
+	"40" num mf pl @nummod #2->3
+"<gramm>"
+	"gramm" n m sg @obj #3->1
+"<a>"
+	"a" pr @case #4->5
+"<amann>"
+	"amann" n m sg @nmod #5->3
+"<da>"
+	"da" pr @mark #6->7
+"<deuziñ>"
+	"teuziñ" vblex inf @advcl #7->1
+"<en ur>"
+	"e" pr @case #8->10
+		"un" det ind sp @det #9->10
+"<gastelodenn>"
+	"kastelodenn" n f sg @obl #10->7
+"<.>"
+	"." sent @punct #11->1
+
 # text = Soubit ar pesked er bleud.
-# text[fra¹] = Vous trempez les poissons dans la farine.
+# text[fra¹] = Trempez les poissons dans la farine.
 "<Soubit>"
 	"soubañ" vblex imp p2 pl @root #1->0
 "<ar>"
@@ -1089,7 +1348,7 @@
 	"." sent @punct #7->1
 
 # text = Lakait holen ha pebr.
-# text[fra¹] = Vous mettez du sel et du poivre.
+# text[fra¹] = Mettez du sel et du poivre.
 "<Lakait>"
 	"lakaat" vblex pri p2 pl @root #1->0
 "<holen>"
