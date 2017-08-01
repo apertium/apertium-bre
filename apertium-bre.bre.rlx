@@ -165,6 +165,7 @@ LIST Eur = ("<eur>"i n) ;
 LIST Bet = ("bezañ" vblex pp) ;
 LIST Den = "<den>"i ;
 LIST Pet = "<pet>"i ;
+LIST Pe = "<pe>"i ;
 LIST O = "<o>"i ; 
 LIST En = "<en>"i ;
 LIST E = "<e>"i ;
@@ -982,6 +983,8 @@ REMOVE:x-noletter_det Letter IF (0 Letter OR Pr OR DetPos) (NOT 1 Rpar) ;
 REMOVE:x-noadv_den_det Adv IF (0 Den) (-1 Det) ;
 
 REMOVE:x-noaprtger_notinf VpartGer IF (NOT 1 VerbInf) ;
+
+SELECT:x-pe_cm_cc CC IF (0C Pe) (-1 Cm) (NOT 1 NC) ;
 
 SECTION
 
