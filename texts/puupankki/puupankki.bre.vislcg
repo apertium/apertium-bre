@@ -2919,6 +2919,271 @@
 "<.>"
 	"." sent @punct #11->1
 
+# text = Dre veskañ ar meteier sokial ha diskouez heñvelderioù mab-den e sav ar film goulennoù dedennus-tre.
+# text[fra¹] = Par mélanger les milieux sociaux et montrer les conformités d'homme le film monte questions très intéressantes.
+"<Dre>"
+	"dre" pr @mark #1->2
+"<veskañ>"
+	"meskañ" vblex inf @advcl #2->11
+"<ar>"
+	"an" det def sp @det #3->4
+"<meteier>"
+	"metoù" n m pl @obj #4->2
+"<sokial>"
+	"sokial" adj mf sp @amod #5->4
+"<ha>"
+	"ha" cnjcoo @cc #6->7
+"<diskouez>"
+	"diskouez" vblex inf @conj #7->2
+"<heñvelderioù>"
+	"heñvelder" n m pl @obj #8->7
+"<mab-den>"
+	"mab-den" n m sg @nmod:gen #9->8
+"<e>"
+	"e" vpart obj @aux #10->11
+"<sav>"
+	"sevel" vblex pri p3 sg @root #11->0
+"<ar>"
+	"an" det def sp @det #12->13
+"<film>"
+	"film" n m sg @nsubj #13->11
+"<goulennoù>"
+	"goulenn" n m pl @obj #14->11
+"<dedennus-tre>"
+	"dedennus" adj mf sp @amod #15->14
+		"tre" adv @advmod #16->15
+"<.>"
+	"." sent @punct #17->11
+
+# text = Ijinit 'ta.
+# text[fra¹] = Inventez donc.
+"<Ijinit>"
+	"ijinañ" vblex imp p2 pl @root #1->0
+"<'ta>"
+	"eta" adv @advmod #2->1
+"<.>"
+	"." sent @punct #3->1
+
+# text = Meskit mat pep tra.
+# text[fra¹] = Mélangez bien tout.
+"<Meskit>"
+	"meskañ" vblex imp p2 pl @root #1->0
+"<mat>"
+	"mat" adj mf sp @advmod #2->1
+"<pep tra>"
+	"pep tra" prn def mf sg @obj #3->1
+"<.>"
+	"." sent @punct #4->1
+
+# text = Ledit ar meskaj-se war an toaz.
+# text[fra¹] = Vous étalez ce mélange sur la pâte.
+"<Ledit>"
+	"ledañ" vblex imp p2 pl @root #1->0
+"<ar>"
+	"an" det def sp @det #2->3
+"<meskaj>"
+	"meskaj" n m sg @obj #3->1
+"<-se>"
+	"se" adv @advmod #4->3
+"<war>"
+	"war" pr @case #5->7
+"<an>"
+	"an" det def sp @det #6->7
+"<toaz>"
+	"toaz" n m sg @obl #7->1
+"<.>"
+	"." sent @punct #8->1
+
+# text = Evel boaz e vo kinniget neuze a bep seurt traoù (sonerezh, c'hoariva, filmoù, arzoù a-vremañ).
+# text[fra¹] =  Evel habitude Elle sera présentée alors de toute sorte les choses (de musique, théâtre, films, arts désormais).
+"<Evel>"
+	"evel" pr @case #1->2
+"<boaz>"
+	"boaz" n m sg @obl #2->5
+"<e>"
+	"e" vpart obj @aux #3->5
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux #4->5
+"<kinniget>"
+	"kinnig" vblex pp @root #5->0
+"<neuze>"
+	"neuze" adv @advmod #6->5
+"<a>"
+	"a" pr @case #7->9
+"<bep>"
+	"bep" det ind mf sp @det #8->9
+"<seurt>"
+	"seurt" n m sg @obl #9->5
+"<traoù>"
+	"tra" n m pl @nmod:gen #10->9
+"<(>"
+	"(" lpar @punct #11->12
+"<sonerezh>"
+	"sonerezh" n m sg @appos #12->10
+"<,>"
+	"," cm @punct #13->14
+"<c'hoariva>"
+	"c’hoariva" n m sg @conj #14->12
+"<,>"
+	"," cm @punct #15->16
+"<filmoù>"
+	"film" n m pl @conj #16->12
+"<,>"
+	"," cm @punct #17->18
+"<arzoù>"
+	"arz" n m pl @conj #18->12
+"<a-vremañ>"
+	"a-vremañ" adv @dep #19->12
+"<)>"
+	")" rpar @punct #20->12
+"<.>"
+	"." sent @punct #21->5
+
+# text = Un nebeud strolladoù a vank c'hoazh er programm, kit neuze da welout al liammoù kinniget amañ dindan evit gouzout hiroc'h.
+# text[fra¹] = Un peu de groupes manque encore dans le programme, allez alors à voir les liens présentés ci-dessous pour en savoir plus.
+"<Un>"
+	"un" det ind sp @det #1->2
+"<nebeud>"
+	"nebeud" n m sg @nsubj #2->5
+"<strolladoù>"
+	"strollad" n m pl @nmod:gen #3->2
+"<a>"
+	"a" vpart @aux #4->5
+"<vank>"
+	"mankout" vblex pri p3 sg @root #5->0
+"<c'hoazh>"
+	"c’hoazh" adv @advmod #6->5
+"<er>"
+	"e" pr @case #7->9
+		"an" det def sp @det #8->9
+"<programm>"
+	"programm" n m sg @obl #9->5
+"<,>"
+	"," cm @punct #10->11
+"<kit>"
+	"mont" vblex imp p2 pl @parataxis #11->5
+"<neuze>"
+	"neuze" adv @advmod #12->11
+"<da>"
+	"da" pr @mark #13->14
+"<welout>"
+	"gwelout" vblex inf @advcl #14->11
+"<al>"
+	"an" det def sp @det #15->16
+"<liammoù>"
+	"liamm" n m pl @obj #16->14
+"<kinniget>"
+	"kinnig" vblex pp @acl #17->16
+"<amañ dindan>"
+	"amañ dindan" adv @advmod #18->17
+"<evit>"
+	"evit" pr @mark #19->20
+"<gouzout>"
+	"gouzout" vblex inf @advcl #20->14
+"<hiroc'h>"
+	"hir" adj sint comp @obj #21->20
+"<.>"
+	"." sent @punct #22->5
+
+# text = Ouzhpenn 200 darvoud liesseurt a vo kinniget war dachenn Frañs a-bezh.
+# text[fra¹] = Plus de 200 événements divers seront présentés sur le terrain de la France entièrement.
+"<Ouzhpenn>"
+	"ouzhpenn" pr @dep #1->2
+"<200>"
+	"200" num mf pl @nummod #2->3
+"<darvoud>"
+	"darvoud" n m sg @nsubj #3->7
+"<liesseurt>"
+	"liesseurt" adj mf sp @amod #4->3
+"<a>"
+	"a" vpart @aux #5->7
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux:pass #6->7
+"<kinniget>"
+	"kinnig" vblex pp @root #7->0
+"<war>"
+	"war" pr @case #8->9
+"<dachenn>"
+	"tachenn" n f sg @obl #9->7
+"<Frañs>"
+	"Frañs" np top sg @nmod:gen #10->9
+"<a-bezh>"
+	"a-bezh" adv @advmod #11->9
+"<.>"
+	"." sent @punct #12->7
+
+# text = Hag anavezout a rit an abadenn "Mil dremm" a vez kinniget bep sizhun war TV Breizh? 
+# text[fra¹] = Et connaissez-vous l'émission "d'Animal visage" qui est présenté toutes les semaines sur TV Breizh? 
+"<Hag>"
+	"ha" cnjcoo @cc #1->2
+"<anavezout>"
+	"anavezout" vblex inf @root #2->0
+"<a>"
+	"a" vpart @aux #3->2
+"<rit>"
+	"ober" vblex pri p2 pl @aux #4->2
+"<an>"
+	"an" det def sp @det #5->6
+"<abadenn>"
+	"abadenn" n f sg @obj #6->2
+"<">" 
+	""" quot @punct #7->8
+"<Mil>"
+	"mil" n m sg @appos #8->6
+"<dremm>"
+	"dremm" n f sg @nmod:gen #9->8
+"<">" 
+	""" quot @punct #10->8
+"<a>"
+	"a" vpart @aux #11->13
+"<vez>"
+	"bezañ" vblex prh p3 sg @aux:pass #12->13
+"<kinniget>"
+	"kinnig" vblex pp @acl #13->6
+"<bep>"
+	"bep" det ind mf sg @det #14->15
+"<sizhun>"
+	"sizhun" n f sg @obl #15->13
+"<war>"
+	"war" pr @case #16->17
+"<TV Breizh>"
+	"TV Breizh" np al mf sg @obl #17->13
+"<?>"
+	"?" sent @punct #18->2
+
+# text = War an tele e tremen abred-tre d'ar Sadorn neuze, e-tro 7 eur.
+# text[fra¹] = Sur la télé dans passage très tôt le samedi alors, autour de 7 heures.
+"<War>"
+	"war" pr @case #1->3
+"<an>"
+	"an" det def sp @det #2->3
+"<tele>"
+	"tele" n m sg @obl #3->5
+"<e>"
+	"e" vpart obj @aux #4->5
+"<tremen>"
+	"tremen" vblex pri p3 sg @root #5->0
+"<abred-tre>"
+	"abred" adj mf sp @advmod #6->5
+		"tre" adv @advmod #7->6
+"<d'ar>"
+	"da" pr @case #8->10
+		"an" det def sp @det #9->10
+"<Sadorn>"
+	"Sadorn" n m sp @obl #10->5
+"<neuze>"
+	"neuze" adv @advmod #11->5
+"<,>"
+	"," cm @punct #12->15
+"<e-tro>"
+	"e-tro" pr @case #13->15
+"<7>"
+	"7" num mf pl @nummod #14->15
+"<eur>"
+	"eur" n f sg @obl #15->5
+"<.>"
+	"." sent @punct #16->5
+
 # text = Cheñchet o deus, met e gwirionez n'o deus ket cheñchet.
 # text[fra¹] = Ils ont changé, mais en vérité ils n'ont pas changé.
 "<Cheñchet>"

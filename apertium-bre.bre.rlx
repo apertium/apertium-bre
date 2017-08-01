@@ -88,6 +88,8 @@ LIST Cond             = cni cip ;
 
 LIST VerbAux          = ("bezañ" vblex) ("kaout" vblex) ;
 
+LIST Pl2              = (p2 pl) ;
+
 SET Verb              = Vbloc | Vblex | Vbser;
 SET VerbFin           = Verb + TempsFin;
 
@@ -287,6 +289,10 @@ SELECT:x-only_vpart_verb Verb IF (-1C Vpart) ;
 # Dav e vije.
 # Bremañ o gwelan.
 SELECT:x-Vpart_if_only_Vfin Vpart IF (1C VerbFin) (NOT 0 VpartGer) ;
+
+# Lakait ar sivi.
+SELECT:x-imper_if_bos VerbImp IF (0C Verb) (0C Pl2) (-1 BOS) ;
+# @@@NEW
 
 # Remove imperatives for now
 REMOVE:x-Imper_no_Excl VerbImp IF (0 VerbImp) (NOT 1* Excl) ;
