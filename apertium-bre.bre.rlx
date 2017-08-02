@@ -153,6 +153,8 @@ LIST DroppedG         = ("<[aeiou].*>"r "g[aeiou].*"ri) ;
 LIST UPPER = "<[ABCDEFGHIJKLMNOPQRSTUVWXYZ].*>"r ;
 LIST LOWER = "<[a-z].*>"r ;
 
+LIST Vow = "<[aeiouù].*>"ri ;
+
 LIST Letter = ("<[a-z]>"ri n) ;
 
 LIST Unknown = "\*.*"r ; 
@@ -193,6 +195,7 @@ LIST Treiñ = "treiñ" ;
 LIST Bevañ = "bevañ" ;
 LIST Kregiñ = "kregiñ" ;
 LIST Klevet = "klevet" ;
+LIST Aozañ = "aozañ" ;
 
 LIST Lancer = "teurel" "teuler" ;
 LIST Aimer = "kariñ" "karout" ;
@@ -200,6 +203,7 @@ LIST Donner = "reiñ" "roiñ" ;
 LIST Tourner = "treiñ" "troiñ" ;
 LIST Commencer = "kregiñ" krogiñ" ;
 LIST Regarder = "sellout" "sellet" ; 
+LIST Organiser = "aozañ" "aoziñ" ; 
 LIST Entendre = "klevet" "klevout" ;
 LIST Chanter = "kanañ" "kanal" "kaniñ" ;
 LIST Lire = "lenn" "lennout" ;
@@ -737,7 +741,7 @@ REMOVE VerbInf IF (0 VerbInf) (0 NC) (1 Adj OR Ord) ;
 REMOVE PrnDObj IF (-1C NC) (0 Pr) (0 PrnDObj) ; 
 
 #Skuizh e oan c'hoazh
-REMOVE Vpart + ("e") IF (1 MixedMutCons) (NOT 1 MixedMut) (NOT 1 ("<[aeiou].*>"ri)) ;
+REMOVE:m-no_e_nomixed Vpart + E IF (1 MixedMutCons) (NOT 1 MixedMut) (NOT 1 Vow) ;
 
 #Skuizh e oan c'hoazh
 REMOVE NC IF (0 ("<oan>" n)) (0 ("<oan>" vblex)) (-1 ("e")) ;
@@ -986,6 +990,8 @@ REMOVE:x-noaprtger_notinf VpartGer IF (NOT 1 VerbInf) ;
 
 SELECT:x-pe_cm_cc CC IF (0C Pe) (-1 Cm) (NOT 1 NC) ;
 
+SELECT:x-pe_cm_notpren CC IF (0C Pe) (NOT 1 PRE-N) ;
+
 SECTION
 
 SELECT:l-kanañ_if_chanter Kanañ IF (0C Chanter) (0C Verb) ;
@@ -1000,7 +1006,7 @@ SELECT:l-lavarout_if_dir Lavarout IF (0C Dire) (0C Verb) ;
 
 SELECT:l-sellout_if_regar Sellout IF (0C Regarder) (0C Verb) ; 
 
-SELECT:l-reiñ_if_donner Reiñ IF (0C Donner) (0C Verb) ; 
+SELECT:l-reiñ_if_donne Reiñ IF (0C Donner) (0C Verb) ; 
 
 SELECT:l-karout_if_aimer Karout (0C Aimer) (0C Verb) ; 
 
@@ -1013,6 +1019,8 @@ SELECT:l-bevãn_if_vivre Bevañ IF (0C Vivre) (0C Verb) ;
 SELECT:l-kregiñ_if_comm Kregiñ IF (0C Commencer) (0C Verb) ;
 
 SELECT:l-klevet_if_enten Klevet IF (0C Entendre) (0C Verb) ; 
+
+SELECT:l-aozañ_if_organ Aozañ IF (0C Organiser) (0C Verb) ;
 
 ###############################################################################
 ## Lexical selection 

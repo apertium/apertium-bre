@@ -125,6 +125,8 @@
     </pardef>
 
     <pardef n="numeros">
+      <e><re>[½¼⅛]+</re><p><l></l><r><s n="num"/><s n="mf"/><s n="sg"/></r></p></e> 
+      <e><re>[¾⅝⅜⅞]+</re><p><l></l><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e> 
       <e><p><l>1</l><r>1<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><re>[0-9]+</re><p><l>vet</l><r>vet<s n="num"/><s n="ord"/><s n="mf"/><s n="sg"/></r></p></e> 
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
