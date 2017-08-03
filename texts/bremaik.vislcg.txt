@@ -208,18 +208,14 @@
 	"." sent
 
 # text = Evel-se emañ kont en heuliad skinwel d'an nebeutañ.
-# text[fra¹] = comme ça il est comtesse dans la suite de télévision du moins.
+# text[fra¹] = comme ça est comtesse dans la suite de télévision du moins.
 "<Evel-se>"
 	"evel-se" adv
 "<emañ>"
 	"bezañ" vbloc pri p3 sg
 "<kont>"
 	"kont" n f sg
-	"kont" n m sg
-;	"kontañ" vblex imp p2 sg
-;	"kontañ" vblex pri p3 sg
 "<en>"
-	"e" pr
 	"e" pr
 		"an" det def sp
 "<heuliad>"
@@ -1433,21 +1429,20 @@
 	"." sent @punct #11->5
 
 # text = Ne vezit dilezet gwezh ebet gantañ.
-# text[fra¹] = ne vous êtes délaissé jamais avec lui.
+# text[fra¹] = vous n'êtes délaissé jamais avec lui.
 "<Ne>"
-	"ne" adv neg
+	"ne" adv neg @advmod #1->3
 "<vezit>"
-	"bezañ" vblex prh p2 pl
-;	"bezañ" vblex imp p2 pl
+	"bezañ" vblex prh p2 pl @aux:pass #2->3
 "<dilezet>"
-	"dilezel" vblex pp
+	"dilezel" vblex pp @root #3->0
 "<gwezh ebet>"
-	"gwezh ebet" adv
+	"gwezh ebet" adv @advmod #4->3
 "<gantañ>"
-	"gant" pr
-		"indirect" prn obj p3 m sg
+	"gant" pr @case #5->6
+		"indirect" prn obj p3 m sg @obl:agent #6->3
 "<.>"
-	"." sent
+	"." sent @punct #7->3
 
 # text = Beajoù a c'hellfe bezañ mat evit ho labour.
 # text[fra¹] = Voyages pourraient être bien pour votre travail.
@@ -47387,9 +47382,6 @@
 	"diouzh" pr
 "<tu>"
 	"tu" n m sg
-;	"duañ" vblex imp p2 sg
-;	"duañ" vblex pri p3 sg
-;	"du" adj mf sp
 "<Naonediz>"
 	"Naonedad" n m pl
 "<eo>"
@@ -47499,8 +47491,8 @@
 "<.>"
 	"." sent
 
-# text = Petra nevez gant lezenn an OGK, he deus graet kement a drouz nebeut 'zo? Emañ war-nes bezañ degemeret da vat.
-# text[fra¹] = Quoi nouvel avec la loi de l'OGK, ont faites autant de bruit peu est? Il est sur le point d'être accueilli pour de bon.
+# text = Petra nevez gant lezenn an OGK, he deus graet kement a drouz nebeut 'zo? 
+# text[fra¹] = Quoi nouvel avec la loi de l'OGK, ont faites autant de bruit peu est? 
 "<Petra>"
 	"petra" prn itg mf sp
 "<nevez>"
@@ -47538,6 +47530,8 @@
 "<?>"
 	"?" sent
 
+# text = Emañ war-nes bezañ degemeret da vat.
+# text[fra¹] = Il est sur le point d'être accueilli pour de bon.
 "<Emañ>"
 	"bezañ" vbloc pri p3 sg
 "<war-nes>"
@@ -47546,7 +47540,6 @@
 	"bezañ" vblex inf
 "<degemeret>"
 	"degemer" vblex pp
-;	"degemer" vblex imp p3 sg
 "<da vat>"
 	"da vat" adv
 "<.>"
@@ -47662,134 +47655,103 @@
 
 # text = E penn-kentañ ar sizhun dremenet ez eus tremenet un destenn evit ma vefe paouezet da dabutal diwar-benn al lezenn.
 # text[fra¹] = Au début de la semaine passée est passée un texte pour qu'il ait cessé à débattre au sujet de la loi.
-"<E penn-kentañ>"
-	"e penn-kentañ" pr
+"<E>"
+	"e" pr @case #1->2
+"<penn-kentañ>"
+	"penn-kentañ" n m sg @obl #2->7
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #3->4
 "<sizhun>"
-	"sizhun" n f sg
+	"sizhun" n f sg @nmod:gen #4->2
 "<dremenet>"
-	"tremen" vblex pp
-;	"tremen" vblex imp p3 sg
+	"tremen" vblex pp @acl #5->4
 "<ez eus>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux:pass #6->7
 "<tremenet>"
-	"tremen" vblex pp
-;	"tremen" vblex imp p3 sg
+	"tremen" vblex pp @root #7->0
 "<un>"
-	"un" det ind sp
+	"un" det ind sp @det #8->9
 "<destenn>"
-	"testenn" n f sg
+	"testenn" n f sg @nsubj #9->7
 "<evit ma>"
-	"evit ma" cnjadv
-	"evit" pr
-		"ma" det pos mf sp
+	"evit ma" cnjadv @mark #10->12
 "<vefe>"
-	"bezañ" vblex cni p3 sg
+	"bezañ" vblex cni p3 sg @aux #11->12
 "<paouezet>"
-	"paouez" vblex pp
-;	"paouez" vblex imp p3 sg
+	"paouez" vblex pp @advcl #12->7
 "<da>"
-	"da" pr
-;	"da" det pos mf sp
+	"da" pr @mark #13->14
 "<dabutal>"
-	"tabutal" vblex inf
+	"tabutal" vblex inf @advcl #14->12
 "<diwar-benn>"
-	"diwar-benn" pr
+	"diwar-benn" pr @case #15->17
 "<al>"
-	"an" det def sp
+	"an" det def sp @det #16->17
 "<lezenn>"
-	"lezenn" n f sg
+	"lezenn" n f sg @obl #17->14
 "<.>"
-	"." sent
+	"." sent @punct #18->7
 
 # text = Adwelet eo bet hounnezh, met n'eus bet cheñchet netra enni, hag evel-se ne savo tabut ebet war ar 56 testenn-kemm a vez kinniget.
-# text[fra¹] = Elle a été revu celle-là, mais n'on a eu changée rien dans elle, et comme ça elle ne lèvera pas dispute sur les 56 textes-changement il est présenté.
+# text[fra¹] = Celle-là a été revu, mais n'on a eu changée rien dans elle, et comme ça elle ne lèvera pas dispute sur les 56 textes-changement il est présenté.
 "<Adwelet>"
-	"adwelet" vblex pp
-	"adwelout" vblex pp
-;	"adwelout" vblex imp p3 sg
-;	"adwelet" vblex inf
+	"adwelet" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @aux #2->1
 "<bet>"
-	"bezañ" vblex pp
-;	"pet" prn itg mf sp
-;	"kaout" vblex pp
+	"bezañ" vblex pp @aux:pass #3->1
 "<hounnezh>"
-	"hounnezh" prn dem f sg
+	"hounnezh" prn dem f sg @nsubj #4->1
 "<,>"
-	"," cm
+	"," cm @punct #5->10
 "<met>"
-	"met" cnjcoo
+	"met" cnjcoo @cc #6->10
 "<n'eus>"
-	"ne" adv
-		"bezañ" vblex pri impers sp
-	"ne" adv
-		"kaout" vblex pri p1 pl
+	"ne" adv @advmod #7->10
+		"bezañ" vblex pri impers sp @aux #8->10
 "<bet>"
-	"bezañ" vblex pp
-	"kaout" vblex pp
-;	"pet" prn itg mf sp
+	"bezañ" vblex pp @aux:pass #9->10
 "<cheñchet>"
-	"cheñch" vblex pp
-;	"cheñch" vblex imp p3 sg
+	"cheñch" vblex pp @conj #10->1
 "<netra>"
-	"netra" prn def mf sg
+	"netra" prn def mf sg @nsubj #11->10
 "<enni>"
-	"e" pr
-		"indirect" prn obj p3 f sg
+	"e" pr @case #12->13
+		"indirect" prn obj p3 f sg @obl #13->11
 "<,>"
-	"," cm
+	"," cm @punct #14->18
 "<hag>"
-	"ha" cnjcoo
+	"ha" cnjcoo @cc #15->18
 "<evel-se>"
-	"evel-se" adv
+	"evel-se" adv @advmod #16->18
 "<ne>"
-	"ne" adv neg
+	"ne" adv neg @advmod #17->18
 "<savo>"
-	"sevel" vblex tv fti p3 sg SUBSTITUTE:929
+	"sevel" vblex tv fti p3 sg @conj #18->1
 "<tabut>"
-	"tabut" n m sg
-;	"tabutal" vblex imp p2 sg
-;	"tabutal" vblex pri p3 sg
+	"tabut" n m sg @obj #19->18
 "<ebet>"
-	"ebet" adv
+	"ebet" adv @advmod #20->18
 "<war>"
-	"war" pr
-;	"gwar" n m sg
+	"war" pr @case #21->24
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #22->24
 "<56>"
-	"56" num mf pl
+	"56" num mf pl @nummod #23->24
 "<testenn>"
-	"testenn" n f sg
+	"testenn" n f sg @obl #24->18
 "<->"
-	"-" guio
+	"-" guio @punct #25->26
 "<kemm>"
-	"kemm" n m sg
-;	"kemmañ" vblex imp p2 sg
-;	"kemmañ" vblex pri p3 sg
+	"kemm" n m sg @compound #26->24
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #27->29
 "<vez>"
-	"bezañ" vblex prh p3 sg
-;	"bez" n m sg
-;	"mez" n f pl
-;	"bezañ" vblex imp p2 sg
+	"bezañ" vblex prh p3 sg @aux:pass #28->29
 "<kinniget>"
-	"kinnig" vblex pp
-;	"kinnig" vblex imp p3 sg
+	"kinnig" vblex pp @acl #29->24
 "<.>"
-	"." sent
+	"." sent @punct #30->1
 
 # text = Emañ ar PS o vont da sevel klemm dirak al lezenn, hervezañ n'eo ket diouzh al lezenn ober seurt traoù.
 # text[fra¹] = Le PS est en train d'aller à lever plaindre devant la loi, selon lui n'est pas de la loi faire la sorte de choses.
@@ -47849,8 +47811,6 @@
 	"bodadenn" n f sg
 "<bet>"
 	"bezañ" vblex pp
-	"kaout" vblex pp
-;	"pet" prn itg mf sp
 "<biskoazh>"
 	"biskoazh" adv
 "<da>"
@@ -48031,19 +47991,19 @@
 	"." sent @punct #8->1
 
 # text = Lezit da yenañ a-raok servijout.
-# text[fra¹] = Vous laissez au plus froid avant servir.
+# text[fra¹] = Laissez au plus froid avant servir.
 "<Lezit>"
-	"lezel" vblex imp p2 pl
+	"lezel" vblex imp p2 pl @root #1->0
 "<da>"
-	"da" pr
+	"da" pr @case #2->3
 "<yenañ>"
-	"yen" adj sint sup
+	"yen" adj sint sup @obl #3->1
 "<a-raok>"
-	"a-raok" pr
+	"a-raok" pr @mark #4->5
 "<servijout>"
-	"servijout" vblex inf
+	"servijout" vblex inf @advcl #5->1
 "<.>"
-	"." sent
+	"." sent @punct #6->1
 
 # text = Tibet ha Sina, enkadenn ar feulster en Euskadi, milinoù-tredan e strad an Oded, stourm tud Kreiz Breizh evit mirout holl servijoù ospital Karaez, skipailh mell-droad Kerc'hfaou...
 # text[fra¹] =  Tibet et la Chine, la crise de la violence au Pays Basque, moulins-l'électricité d'e le fond d'Odet, combattre les gens Centraux de Bretagne pour garder tous les services de l'hôpital de Carhaix, l'équipe du football de Carquefou...
@@ -48286,23 +48246,15 @@
 # text = Galvet e oa bet ar polis un nebeud amzer a-raok ar gwallzarvoud, dre ma oa bet merzet gant tud zo e kouezhe poultr diouzh an doenn hag e veze klevet strakadennoù metal.
 # text[fra¹] = Elle avait été appelé la police un peu de temps avant l'accident, puisque avaient été remarqué par gens qui sont tombait poudre du toit et il était entendu craquements en métal.
 "<Galvet>"
-	"gelver" vblex pp
 	"gervel" vblex pp
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<oa>"
 	"bezañ" vblex pii p3 sg
 "<bet>"
 	"bezañ" vblex pp
-;	"pet" prn itg mf sp
-;	"kaout" vblex pp
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg
 "<polis>"
 	"polis" n m sg
 "<un>"
@@ -48313,10 +48265,8 @@
 	"amzer" n f sg
 "<a-raok>"
 	"a-raok" pr
-	"a-raok" adv
 "<ar>"
 	"an" det def sp
-;	"arat" vblex pri p3 sg
 "<gwallzarvoud>"
 	"gwallzarvoud" n m sg
 "<,>"
@@ -48327,27 +48277,16 @@
 	"bezañ" vblex pii p3 sg
 "<bet>"
 	"bezañ" vblex pp
-;	"pet" prn itg mf sp
-;	"kaout" vblex pp
 "<merzet>"
 	"merzout" vblex pp
-;	"merzout" vblex imp p3 sg
 "<gant>"
 	"gant" pr
-;	"kant" num mf pl
-;	"kant" n m sg
 "<tud>"
 	"den" n m pl
 "<zo>"
 	"bezañ" vblex pri p3 sg
-;	"teiñ" vblex imp p2 sg
-;	"teiñ" vblex pri p3 sg
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<kouezhe>"
 	"kouezhañ" vblex pii p3 sg
 "<poultr>"
@@ -48442,24 +48381,10 @@
 # text[fra¹] = Il reçoit aider les lutins, un peuple pressé avec on Bêchera aussi.
 "<Resev>"
 	"resev" vblex inf
-;	"resev" vblex imp p2 sg
-;	"reseviñ" vblex imp p2 sg
-;	"resevout" vblex imp p2 sg
-;	"resev" vblex pri p3 sg
-;	"resevout" vblex pri p3 sg
-;	"reseviñ" vblex pri p3 sg
 "<a>"
 	"a" vpart
-;	"mont" vblex imp p2 sg
-;	"monet" vblex imp p2 sg
-;	"a" pr
-;	"monet" vblex pri p3 sg
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
 "<ra>"
 	"ober" vblex pri p3 sg
-;	"ober" vblex imp p2 sg
-;	"ra" vpart opt
 "<sikour>"
 	"sikour" vblex inf
 ;	"sikour" vblex imp p2 sg
@@ -48593,25 +48518,14 @@
 	"3" num mf pl
 "<a>"
 	"a" pr
-;	"a" vpart
-;	"monet" vblex imp p2 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"mont" vblex pri p3 sg
-;	"a" n m sp
 "<viz Even>"
 	"miz Even" n m sp
 "<ez eus>"
 	"bezañ" vblex pri p3 sg
 "<bet>"
 	"bezañ" vblex pp
-;	"pet" prn itg mf sp
-;	"kaout" vblex pp
 "<roet>"
-	"roiñ" vblex pp
 	"reiñ" vblex pp
-;	"roiñ" vblex imp p3 sg
-;	"reiñ" vblex imp p3 sg
 "<emgav>"
 	"emgav" n m sg
 "<d'ar>"
@@ -48621,16 +48535,10 @@
 	"Breton" n m pl
 "<e>"
 	"e" pr
-;	"e" det pos m sp
-;	"e" vpart obj
-;	"direct" prn obj p3 m sg
-;	"e" n m sp
 "<Roazhon>"
 	"Roazhon" np top sg
 "<gant>"
 	"gant" pr
-;	"kant" num mf pl
-;	"kant" n m sg
 "<Kuzul Sevenadurel Breizh>"
 	"Kuzul Sevenadurel Breizh" np al mf sg
 "<.>"
@@ -48801,77 +48709,59 @@
 	"." sent
 
 # text = Al lugan zo "lakaomp hor sevenadur da vleuniañ er vro".
-# text[fra¹] = Il y a le slogan "mettons notre culture à fleurir dans le pays".
+# text[fra¹] = Le slogan est "mettons notre culture à fleurir dans le pays".
 "<Al>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<lugan>"
-	"lugan" n m sg
-;	"lugañ" vblex pri p1 sg
+	"lugan" n m sg @nsubj:cop #2->5
 "<zo>"
-	"
-;	"teiñ" vblex imp p2 sg
-;	"teiñ" vblex pri p3 sg
-;	"bezañ" vblex pri p3 sg
+	"bezañ" vblex pri p3 sg @cop #3->5
+"<">"
+	""" quot @punct #4->5
 "<lakaomp>"
-	"lakaat" vblex pri p1 pl
+	"lakaat" vblex pri p1 pl @root #5->0
 "<hor>"
-	"hon" det pos mf sp
-;	"direct" prn obj p1 mf pl
+	"hon" det pos mf sp @det #6->7
 "<sevenadur>"
-	"sevenadur" n m sg
+	"sevenadur" n m sg @obj #7->5
 "<da>"
-	"da" pr
-;	"da" det pos mf sp
+	"da" pr @mark #8->9
 "<vleuniañ>"
-	"bleuniañ" vblex inf
+	"bleuniañ" vblex inf @advcl #9->5
 "<er>"
-	"e" pr
-		"an" det def sp
+	"e" pr @case #10->12
+		"an" det def sp @det #11->12
 "<vro>"
-	"bro" n f sg
-"
+	"bro" n f sg @obl #12->9
+"<">"
+	""" quot @punct #13->5
 "<.>"
-	"." sent
+	"." sent @punct #14->5
 
 # text = Disadorn e krogo ivez trede Devezh ar brezhoneg e Karaez.
-# text[fra¹] = Il samedi commencera aussi troisième la Journée du breton à Carhaix.
+# text[fra¹] = Le samedi troisième la Journée du breton à Carhaix commencera aussi.
 "<Disadorn>"
-	"disadorn" adv
+	"disadorn" adv @advmod #1->3
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #2->3
 "<krogo>"
-	"krogiñ" vblex fti p3 sg
-	"kregiñ" vblex fti p3 sg
+	"kregiñ" vblex fti p3 sg @root #3->0
 "<ivez>"
-	"ivez" adv
+	"ivez" adv @advmod #4->3
 "<trede>"
-	"trede" adj mf sp
-	"trede" num ord mf sp
+	"trede" num ord mf sp @det #5->6
 "<Devezh>"
-	"devezh" n m sg
+	"devezh" n m sg @nsubj #6->3
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #7->8
 "<brezhoneg>"
-	"brezhoneg" n m sg
-;	"brezhonegiñ" vblex imp p2 sg
-;	"brezhonegañ" vblex imp p2 sg
-;	"brezhonegiñ" vblex pri p3 sg
-;	"brezhonegañ" vblex pri p3 sg
+	"brezhoneg" n m sg @nmod:gen #8->6
 "<e>"
-	"e" pr
-;	"e" det pos m sp
-;	"e" vpart obj
-;	"direct" prn obj p3 m sg
-;	"e" n m sp
+	"e" pr @case #9->10
 "<Karaez>"
-	"Karaez" np top sg
+	"Karaez" np top sg @obl #10->3
 "<.>"
-	"." sent
+	"." sent @punct #11->3
 
 # text = Emgavioù departamant ar c'hoariva a vo aozet gant Ti ar c'hoariva e Brest, etre ar 1añ hag ar 4 a viz Even, war pevarzek kumun disheñvel e Penn-ar-bed.
 # text[fra¹] = Les rendez-vous du département du théâtre seront organisés par la Maison du théâtre à Brest, entre le 1ère et le 4 juin, sur quatorze communes différentes à Finistere.
@@ -48940,7 +48830,6 @@
 # text[fra¹] = Et le 4 juin sera organisé une scène-ouverte à Châteaulin.
 "<Ha>"
 	"ha" cnjcoo
-;	"ha" ij
 "<d'ar>"
 	"da" pr
 		"an" det def sp
@@ -48948,27 +48837,14 @@
 	"4" num mf pl
 "<a>"
 	"a" pr
-;	"a" vpart
-;	"monet" vblex imp p2 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"mont" vblex pri p3 sg
-;	"a" n m sp
 "<viz Even>"
 	"miz Even" n m sp
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<vo>"
 	"bezañ" vblex fti p3 sg
 "<aozet>"
 	"aozañ" vblex pp
-	"aoziñ" vblex pp
-;	"aozañ" vblex imp p3 sg
-;	"aoziñ" vblex imp p3 sg
 "<ul>"
 	"un" det ind sp
 "<leurenn>"
@@ -48976,18 +48852,9 @@
 "<->"
 	"-" guio
 "<digor>"
-	"digor" n m sg
 	"digor" adj mf sp
-;	"digoriñ" vblex imp p2 sg
-;	"digeriñ" vblex imp p2 sg
-;	"digoriñ" vblex pri p3 sg
-;	"digeriñ" vblex pri p3 sg
 "<e>"
 	"e" pr
-;	"e" det pos m sp
-;	"e" vpart obj
-;	"direct" prn obj p3 m sg
-;	"e" n m sp
 "<Kastellin>"
 	"Kastellin" np top sg
 "<.>"
@@ -48996,32 +48863,21 @@
 # text = Kalz a drouz evit netra a lavarfen-me.
 # text[fra¹] = Beaucoup de bruit pour rien Je dirais-je.
 "<Kalz a>"
-	"kalz a" pr
+	"kalz a" pr @case #1->2
 "<drouz>"
-	"trouz" n m sg
+	"trouz" n m sg @obj #2->6
 "<evit>"
-	"evit" pr
-;	"evañ" vblex imp p2 pl
-;	"evañ" vblex pri p2 pl
+	"evit" pr @case #3->4
 "<netra>"
-	"netra" prn def mf sg
+	"netra" prn def mf sg @nmod #4->2
 "<a>"
-	"a" vpart
-;	"a" pr
-;	"a" n m sp
-;	"mont" vblex pri p3 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"monet" vblex imp p2 sg
+	"a" vpart @aux #5->6
 "<lavarfen>"
-	"lavaret" vblex cni p1 sg
-	"lavarout" vblex cni p1 sg
-"<->"
-	"-" guio
-"<me>"
-	"prpers" prn subj p1 mf sg
+	"lavarout" vblex cni p1 sg @root #6->0
+"<-me>"
+	"prpers" prn subj p1 mf sg @nsubj #7->6
 "<.>"
-	"." sent
+	"." sent @punct #8->6
 
 # text = Ur c'hoari klask ar roudenn a ya dreist ar roudenn sañset met ne laosko roud ebet e danevelloù ar sinema.
 # text[fra¹] = Un jeu chercher la piste Elle va énormément la piste censément mais elle ne laissera pas trace #le e des nouvelles du cinéma.
@@ -49092,93 +48948,66 @@
 	"." sent
 
 # text = D'ar Sadorn 2 ha Sul 3 a viz Even e vo aozet evit ar pevare gwech "Devezh ar Brezhoneg" e Karaez gant ar gevredigezh Dazont ar yezh.
-# text[fra¹] = Le samedi 2 et dimanche 3 juin seront organisés pour quatrième la "fois de la Journée du Breton" à Carhaix avec la société de Futur la langue.
-"<D'ar Sadorn>"
-	"d’ar Sadorn" adv
+# text[fra¹] = Le samedi 2 et dimanche 3 juin seront organisés pour la quatrième fois "Journée du Breton" à Carhaix avec la société de Futur de la langue.
+"<D'ar>"
+	"da" pr @case #1->3
+		"an" det def sp @det #2->3
+"<Sadorn>"
+	"Sadorn" n m sp @obl #3->12
 "<2>"
-	"2" num mf pl
+	"2" num mf pl @nmod #4->3
 "<ha>"
-	"ha" cnjcoo
-;	"ha" ij
+	"ha" cnjcoo @cc #5->6
 "<Sul>"
-	"Sul" n m sp
+	"Sul" n m sp @conj #6->3
 "<3>"
-	"3" num mf pl
+	"3" num mf pl @nmod #7->6
 "<a>"
-	"a" pr
-;	"a" vpart
-;	"monet" vblex imp p2 sg
-;	"mont" vblex imp p2 sg
-;	"monet" vblex pri p3 sg
-;	"mont" vblex pri p3 sg
-;	"a" n m sp
+	"a" pr @case #8->9
 "<viz Even>"
-	"miz Even" n m sp
+	"miz Even" n m sp @nmod #9->4
 "<e>"
-	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
+	"e" vpart obj @aux #10->12
 "<vo>"
-	"bezañ" vblex fti p3 sg
+	"bezañ" vblex fti p3 sg @aux:pass #11->12
 "<aozet>"
-	"aozañ" vblex pp
-	"aoziñ" vblex pp
-;	"aozañ" vblex imp p3 sg
-;	"aoziñ" vblex imp p3 sg
+	"aozañ" vblex pp @root #12->0
 "<evit>"
-	"evit" pr
-;	"evañ" vblex imp p2 pl
-;	"evañ" vblex pri p2 pl
+	"evit" pr @case #13->16
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #14->16
 "<pevare>"
-	"pevare" adv itg
-	"pevare" adj mf sp
+	"pevare" adj ord mf sp @amod #15->16
 "<gwech>"
-	"gwech" n f sg
-	"
+	"gwech" n f sg @obl #16->12
+"<">"
+	""" quot @punct #17->18
 "<Devezh>"
-	"devezh" n m sg
+	"devezh" n m sg @nsubj #18->12
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #19->20
 "<Brezhoneg>"
-	"brezhoneg" n m sg
-;	"brezhonegiñ" vblex imp p2 sg
-;	"brezhonegañ" vblex imp p2 sg
-;	"brezhonegiñ" vblex pri p3 sg
-;	"brezhonegañ" vblex pri p3 sg
-" 
+	"brezhoneg" n m sg @nmod:gen #20->18
+"<">"
+	""" quot @punct #21->18
 "<e>"
-	"e" pr
-;	"e" det pos m sp
-;	"e" vpart obj
-;	"direct" prn obj p3 m sg
-;	"e" n m sp
+	"e" pr @case #22->23
 "<Karaez>"
-	"Karaez" np top sg
+	"Karaez" np top sg @obl #23->12
 "<gant>"
-	"gant" pr
-;	"kant" num mf pl
-;	"kant" n m sg
+	"gant" pr @case #24->26
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #25->26
 "<gevredigezh>"
-	"kevredigezh" n f sg
+	"kevredigezh" n f sg @obl:agent #26->12
 "<Dazont>"
-	"dazont" n m sg
+	"dazont" n m sg @appos #27->26
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg
+	"an" det def sp @det #28->29
 "<yezh>"
-	"yezh" n f sg
-	"yezh" adj mf sp
+	"yezh" n f sg @nmod:gen #29->27
 "<.>"
-	"." sent
+	"." sent @punct #30->12
 
 # text = War tachenn Kerampuilh e vo graet evel boaz. 
 # text[fra¹] = Sur le terrain de Kerampuilh sera fait comme habitude. 

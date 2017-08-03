@@ -1103,6 +1103,22 @@
 "<.>"
 	"." sent @punct #11->5
 
+# text = Ne vezit dilezet gwezh ebet gantañ.
+# text[fra¹] = vous n'êtes délaissé jamais avec lui.
+"<Ne>"
+	"ne" adv neg @advmod #1->3
+"<vezit>"
+	"bezañ" vblex prh p2 pl @aux:pass #2->3
+"<dilezet>"
+	"dilezel" vblex pp @root #3->0
+"<gwezh ebet>"
+	"gwezh ebet" adv @advmod #4->3
+"<gantañ>"
+	"gant" pr @case #5->6
+		"indirect" prn obj p3 m sg @obl:agent #6->3
+"<.>"
+	"." sent @punct #7->3
+
 # text = Beajoù a c'hellfe bezañ mat evit ho labour.
 # text[fra¹] = Voyages pourraient être bien pour votre travail.
 "<Beajoù>"
@@ -6909,6 +6925,106 @@
 "<.>"
 	"." sent @punct #29->11
 
+# text = E penn-kentañ ar sizhun dremenet ez eus tremenet un destenn evit ma vefe paouezet da dabutal diwar-benn al lezenn.
+# text[fra¹] = Au début de la semaine passée est passée un texte pour qu'il ait cessé à débattre au sujet de la loi.
+"<E>"
+	"e" pr @case #1->2
+"<penn-kentañ>"
+	"penn-kentañ" n m sg @obl #2->7
+"<ar>"
+	"an" det def sp @det #3->4
+"<sizhun>"
+	"sizhun" n f sg @nmod:gen #4->2
+"<dremenet>"
+	"tremen" vblex pp @acl #5->4
+"<ez eus>"
+	"bezañ" vblex pri p3 sg @aux:pass #6->7
+"<tremenet>"
+	"tremen" vblex pp @root #7->0
+"<un>"
+	"un" det ind sp @det #8->9
+"<destenn>"
+	"testenn" n f sg @nsubj #9->7
+"<evit ma>"
+	"evit ma" cnjadv @mark #10->12
+"<vefe>"
+	"bezañ" vblex cni p3 sg @aux #11->12
+"<paouezet>"
+	"paouez" vblex pp @advcl #12->7
+"<da>"
+	"da" pr @mark #13->14
+"<dabutal>"
+	"tabutal" vblex inf @advcl #14->12
+"<diwar-benn>"
+	"diwar-benn" pr @case #15->17
+"<al>"
+	"an" det def sp @det #16->17
+"<lezenn>"
+	"lezenn" n f sg @obl #17->14
+"<.>"
+	"." sent @punct #18->7
+
+# text = Adwelet eo bet hounnezh, met n'eus bet cheñchet netra enni, hag evel-se ne savo tabut ebet war ar 56 testenn-kemm a vez kinniget.
+# text[fra¹] = Celle-là a été revu, mais n'on a eu changée rien dans elle, et comme ça elle ne lèvera pas dispute sur les 56 textes-changement il est présenté.
+"<Adwelet>"
+	"adwelet" vblex pp @root #1->0
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #2->1
+"<bet>"
+	"bezañ" vblex pp @aux:pass #3->1
+"<hounnezh>"
+	"hounnezh" prn dem f sg @nsubj #4->1
+"<,>"
+	"," cm @punct #5->10
+"<met>"
+	"met" cnjcoo @cc #6->10
+"<n'eus>"
+	"ne" adv @advmod #7->10
+		"bezañ" vblex pri impers sp @aux #8->10
+"<bet>"
+	"bezañ" vblex pp @aux:pass #9->10
+"<cheñchet>"
+	"cheñch" vblex pp @conj #10->1
+"<netra>"
+	"netra" prn def mf sg @nsubj #11->10
+"<enni>"
+	"e" pr @case #12->13
+		"indirect" prn obj p3 f sg @obl #13->11
+"<,>"
+	"," cm @punct #14->18
+"<hag>"
+	"ha" cnjcoo @cc #15->18
+"<evel-se>"
+	"evel-se" adv @advmod #16->18
+"<ne>"
+	"ne" adv neg @advmod #17->18
+"<savo>"
+	"sevel" vblex tv fti p3 sg @conj #18->1
+"<tabut>"
+	"tabut" n m sg @obj #19->18
+"<ebet>"
+	"ebet" adv @advmod #20->18
+"<war>"
+	"war" pr @case #21->24
+"<ar>"
+	"an" det def sp @det #22->24
+"<56>"
+	"56" num mf pl @nummod #23->24
+"<testenn>"
+	"testenn" n f sg @obl #24->18
+"<->"
+	"-" guio @punct #25->26
+"<kemm>"
+	"kemm" n m sg @compound #26->24
+"<a>"
+	"a" vpart @aux #27->29
+"<vez>"
+	"bezañ" vblex prh p3 sg @aux:pass #28->29
+"<kinniget>"
+	"kinnig" vblex pp @acl #29->24
+"<.>"
+	"." sent @punct #30->1
+
 # text = Emañ ar PS o vont da sevel klemm dirak al lezenn, hervezañ n'eo ket diouzh al lezenn ober seurt traoù.
 # text[fra¹] = Le PS est en train d'aller à lever plaindre devant la loi, selon lui n'est pas de la loi faire la sorte de choses.
 "<Emañ>"
@@ -7001,6 +7117,21 @@
 	"laezh" n m sg @nmod:gen #7->6
 "<.>"
 	"." sent @punct #8->1
+
+# text = Lezit da yenañ a-raok servijout.
+# text[fra¹] = Laissez au plus froid avant servir.
+"<Lezit>"
+	"lezel" vblex imp p2 pl @root #1->0
+"<da>"
+	"da" pr @case #2->3
+"<yenañ>"
+	"yen" adj sint sup @obl #3->1
+"<a-raok>"
+	"a-raok" pr @mark #4->5
+"<servijout>"
+	"servijout" vblex inf @advcl #5->1
+"<.>"
+	"." sent @punct #6->1
 
 # text = Bep miz e kinnig ar gelaouenn Bremañ, abaoe 1980, pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois dans le magazine Bremañ présente, depuis 1980, articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
@@ -7147,6 +7278,61 @@
 "<.>"
 	"." sent @punct #5->1
 
+# text = Al lugan zo "lakaomp hor sevenadur da vleuniañ er vro".
+# text[fra¹] = Le slogan est "mettons notre culture à fleurir dans le pays".
+"<Al>"
+	"an" det def sp @det #1->2
+"<lugan>"
+	"lugan" n m sg @nsubj:cop #2->5
+"<zo>"
+	"bezañ" vblex pri p3 sg @cop #3->5
+"<">"
+	""" quot @punct #4->5
+"<lakaomp>"
+	"lakaat" vblex pri p1 pl @root #5->0
+"<hor>"
+	"hon" det pos mf sp @det #6->7
+"<sevenadur>"
+	"sevenadur" n m sg @obj #7->5
+"<da>"
+	"da" pr @mark #8->9
+"<vleuniañ>"
+	"bleuniañ" vblex inf @advcl #9->5
+"<er>"
+	"e" pr @case #10->12
+		"an" det def sp @det #11->12
+"<vro>"
+	"bro" n f sg @obl #12->9
+"<">"
+	""" quot @punct #13->5
+"<.>"
+	"." sent @punct #14->5
+
+# text = Disadorn e krogo ivez trede Devezh ar brezhoneg e Karaez.
+# text[fra¹] = Le samedi troisième la Journée du breton à Carhaix commencera aussi.
+"<Disadorn>"
+	"disadorn" adv @advmod #1->3
+"<e>"
+	"e" vpart obj @aux #2->3
+"<krogo>"
+	"kregiñ" vblex fti p3 sg @root #3->0
+"<ivez>"
+	"ivez" adv @advmod #4->3
+"<trede>"
+	"trede" num ord mf sp @det #5->6
+"<Devezh>"
+	"devezh" n m sg @nsubj #6->3
+"<ar>"
+	"an" det def sp @det #7->8
+"<brezhoneg>"
+	"brezhoneg" n m sg @nmod:gen #8->6
+"<e>"
+	"e" pr @case #9->10
+"<Karaez>"
+	"Karaez" np top sg @obl #10->3
+"<.>"
+	"." sent @punct #11->3
+
 # text = Emgavioù departamant ar c'hoariva a vo aozet gant Ti ar c'hoariva e Brest, etre ar 1añ hag ar 4 a viz Even, war pevarzek kumun disheñvel e Penn-ar-bed.
 # text[fra¹] = Les rendez-vous du département du théâtre seront organisés par la Maison du théâtre à Brest, entre le 1ère et le 4 juin, sur quatorze communes différentes à Finistere.
 "<Emgavioù>"
@@ -7209,6 +7395,87 @@
 	"Penn-ar-Bed" np top sg @nmod #29->26
 "<.>"
 	"." sent @punct #30->7
+
+# text = Kalz a drouz evit netra a lavarfen-me.
+# text[fra¹] = Beaucoup de bruit pour rien Je dirais-je.
+"<Kalz a>"
+	"kalz a" pr @case #1->2
+"<drouz>"
+	"trouz" n m sg @obj #2->6
+"<evit>"
+	"evit" pr @case #3->4
+"<netra>"
+	"netra" prn def mf sg @nmod #4->2
+"<a>"
+	"a" vpart @aux #5->6
+"<lavarfen>"
+	"lavarout" vblex cni p1 sg @root #6->0
+"<-me>"
+	"prpers" prn subj p1 mf sg @nsubj #7->6
+"<.>"
+	"." sent @punct #8->6
+
+# text = D'ar Sadorn 2 ha Sul 3 a viz Even e vo aozet evit ar pevare gwech "Devezh ar Brezhoneg" e Karaez gant ar gevredigezh Dazont ar yezh.
+# text[fra¹] = Le samedi 2 et dimanche 3 juin seront organisés pour la quatrième fois "Journée du Breton" à Carhaix avec la société de Futur de la langue.
+"<D'ar>"
+	"da" pr @case #1->3
+		"an" det def sp @det #2->3
+"<Sadorn>"
+	"Sadorn" n m sp @obl #3->12
+"<2>"
+	"2" num mf pl @nmod #4->3
+"<ha>"
+	"ha" cnjcoo @cc #5->6
+"<Sul>"
+	"Sul" n m sp @conj #6->3
+"<3>"
+	"3" num mf pl @nmod #7->6
+"<a>"
+	"a" pr @case #8->9
+"<viz Even>"
+	"miz Even" n m sp @nmod #9->4
+"<e>"
+	"e" vpart obj @aux #10->12
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux:pass #11->12
+"<aozet>"
+	"aozañ" vblex pp @root #12->0
+"<evit>"
+	"evit" pr @case #13->16
+"<ar>"
+	"an" det def sp @det #14->16
+"<pevare>"
+	"pevare" adj ord mf sp @amod #15->16
+"<gwech>"
+	"gwech" n f sg @obl #16->12
+"<">"
+	""" quot @punct #17->18
+"<Devezh>"
+	"devezh" n m sg @nsubj #18->12
+"<ar>"
+	"an" det def sp @det #19->20
+"<Brezhoneg>"
+	"brezhoneg" n m sg @nmod:gen #20->18
+"<">"
+	""" quot @punct #21->18
+"<e>"
+	"e" pr @case #22->23
+"<Karaez>"
+	"Karaez" np top sg @obl #23->12
+"<gant>"
+	"gant" pr @case #24->26
+"<ar>"
+	"an" det def sp @det #25->26
+"<gevredigezh>"
+	"kevredigezh" n f sg @obl:agent #26->12
+"<Dazont>"
+	"dazont" n m sg @appos #27->26
+"<ar>"
+	"an" det def sp @det #28->29
+"<yezh>"
+	"yezh" n f sg @nmod:gen #29->27
+"<.>"
+	"." sent @punct #30->12
 
 # text = War tachenn Kerampuilh e vo graet evel boaz. 
 # text[fra¹] = Sur le terrain de Kerampuilh sera fait comme habitude. 
