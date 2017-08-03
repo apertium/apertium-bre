@@ -1335,7 +1335,7 @@
 ^adarre/adarre<adv>$
 ^hiziv/hiziv<adv>$
 ^evit/evit<pr>$
-^gwelet/gwelet<vblex><inf>$
+^gwelet/gwelout<vblex><inf>$
 ^penaos/penaos<adv><itg>$
 ^kas/kas<vblex><inf>$
 ^ar/an<det><def><sp>$
@@ -2147,7 +2147,7 @@
 ^Tu/tu<n><m><sg>$
 ^vo/bezañ<vblex><fti><p3><sg>$
 ^da/da<pr>$
-^welet/gwelet<vblex><inf>$
+^welet/gwelout<vblex><inf>$
 ^labourioù/labour<n><m><pl>$
 ^luc'hskeudennerien/luc’hskeudenner<n><m><pl>$
 ^gentañ/kentañ<adj><mf><sp>$
@@ -2275,7 +2275,7 @@
 ^omp/bezañ<vblex><pri><p1><pl>$
 ^bremañ/bremañ<adv>$
 ^da/da<pr>$
-^welet/gwelet<vblex><inf>$
+^welet/gwelout<vblex><inf>$
 ^milinoù/milin<n><f><pl>$
 ^-/-<guio>$
 ^tredan/tredan<n><m><sg>$
@@ -2731,7 +2731,7 @@
 ^e/e<vpart><obj>$
 ^vefe/bezañ<vblex><cni><p3><sg>$
 ^eta/eta<adv>$
-^gwelet/gwelet<vblex><inf>$
+^gwelet/gwelout<vblex><inf>$
 ^ur/un<det><ind><sp>$
 ^gall/gall<adj><mf><sp>$
 ^o/o<vpart><ger>$
@@ -3590,7 +3590,7 @@
 ^Gellout/gellout<vblex><inf>$
 ^a/a<vpart>$
 ^reer/ober<vblex><pri><impers><sp>$
-^gwelet/gwelet<vblex><inf>$
+^gwelet/gwelout<vblex><inf>$
 ^skeudennoù/skeudenn<n><f><pl>$
 ^eus/eus<pr>$
 ^al/an<det><def><sp>$
@@ -3821,7 +3821,7 @@
 ^Ar/an<det><def><sp>$
 ^mab/mab<n><m><sg>$
 ^a/a<vpart>$
-^welas/gwelet<vblex><past><p3><sg>$
+^welas/gwelout<vblex><past><p3><sg>$
 ^ar/an<det><def><sp>$
 ^plac'h/plac’h<n><f><sg>$
 ^yaouank/yaouank<adj><mf><sp>$
@@ -7142,7 +7142,7 @@
 ^war-du/war-zu<adv>$
 
 ^Klaskit/klask<vblex><imp><p2><pl>$
-^gwelet/gwelet<vblex><inf>$
+^gwelet/gwelout<vblex><inf>$
 ^hag-eñ/hag-eñ<prn><itg><mf><sp>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^reizh/reizh<adj><mf><sp>$
@@ -8350,7 +8350,7 @@
 
 ^Me/prpers<prn><subj><p1><mf><sg>$
 ^'/a<vpart>$
-^welas/gwelet<vblex><past><p3><sg>$
+^welas/gwelout<vblex><past><p3><sg>$
 ^ur/un<det><ind><sp>$
 ^verjelenn/berjelenn<n><f><sg>$
 ^war/war<pr>$
@@ -8419,7 +8419,7 @@
 ^ploñjadenn/ploñjadenn<n><f><sg>$
 ^,/,<cm>$
 ^netra/netra<prn><def><mf><sg>$
-^gwelet/gwelet<vblex><pp>$
+^gwelet/gwelout<vblex><pp>$
 ^e/e<vpart><obj>$
 ^oa/bezañ<vblex><pii><p3><sg>$
 ^./.<sent>$
@@ -9497,7 +9497,7 @@
 ^a/a<pr>$
 ^dud/den<n><m><pl>$
 ^ha/ha<cnjcoo>$
-^gwelet/gwelet<vblex><pp>$
+^gwelet/gwelout<vblex><pp>$
 ^e/e<vpart><obj>$
 ^vez/bezañ<vblex><prh><p3><sg>$
 ^e/e<pr>$

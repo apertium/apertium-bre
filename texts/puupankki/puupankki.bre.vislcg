@@ -2850,7 +2850,7 @@
 "<evit>"
 	"evit" pr @mark #10->11
 "<gwelet>"
-	"gwelet" vblex inf @advcl #11->2
+	"gwelout" vblex inf @advcl #11->2
 "<penaos>"
 	"penaos" adv itg @advmod #12->23
 "<kas>"
@@ -4545,7 +4545,7 @@
 "<da>"
 	"da" pr @mark #3->4
 "<welet>"
-	"gwelet" vblex inf @advcl #4->1
+	"gwelout" vblex inf @advcl #4->1
 "<labourioù>"
 	"labour" n m pl @obj #5->4
 "<luc'hskeudennerien>"
@@ -4813,7 +4813,7 @@
 "<da>"
 	"da" pr @mark #4->5
 "<welet>"
-	"gwelet" vblex inf @advcl #5->1
+	"gwelout" vblex inf @advcl #5->1
 "<milinoù>"
 	"milin" n f pl @obj #6->5
 "<->"
@@ -5768,7 +5768,7 @@
 "<eta>"
 	"eta" adv @advmod #4->1
 "<gwelet>"
-	"gwelet" vblex inf @csubj #5->1
+	"gwelout" vblex inf @csubj #5->1
 "<ur>"
 	"un" det ind sp @det #6->7
 "<gall>"
@@ -7574,7 +7574,7 @@
 "<reer>"
 	"ober" vblex pri impers sp @aux #3->1
 "<gwelet>"
-	"gwelet" vblex inf @xcomp #4->1
+	"gwelout" vblex inf @xcomp #4->1
 "<skeudennoù>"
 	"skeudenn" n f pl @obj #5->4
 "<eus>"
@@ -8063,7 +8063,7 @@
 "<a>"
 	"a" vpart @aux #3->4
 "<welas>"
-	"gwelet" vblex past p3 sg @root #4->0
+	"gwelout" vblex past p3 sg @root #4->0
 "<ar>"
 	"an" det def sp @det #5->6
 "<plac'h>"
@@ -15404,7 +15404,7 @@
 "<Klaskit>"
 	"klask" vblex imp p2 pl @root #1->0
 "<gwelet>"
-	"gwelet" vblex inf @xcomp #2->1
+	"gwelout" vblex inf @xcomp #2->1
 "<hag-eñ>"
 	"hag-eñ" prn itg mf sp @dep #3->5
 "<eo>"
@@ -17939,7 +17939,7 @@
 "<'>"
 	"a" vpart @aux #2->3
 "<welas>"
-	"gwelet" vblex past p3 sg @root #3->0
+	"gwelout" vblex past p3 sg @root #3->0
 "<ur>" 
 	"un" det ind sp @det #4->5
 "<verjelenn>"
@@ -18091,7 +18091,7 @@
 "<netra>"
 	"netra" prn def mf sg @obj #6->7
 "<gwelet>"
-	"gwelet" vblex pp @root #7->0
+	"gwelout" vblex pp @root #7->0
 "<e>"
 	"e" vpart obj @aux #8->7
 "<oa>"
@@ -20342,7 +20342,7 @@
 "<ha>"
 	"ha" cnjcoo @cc #11->12
 "<gwelet>"
-	"gwelet" vblex pp @conj #12->1
+	"gwelout" vblex pp @conj #12->1
 "<e>"
 	"e" vpart obj @aux #13->12
 "<vez>"

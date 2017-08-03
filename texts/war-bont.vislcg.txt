@@ -33,7 +33,7 @@
 "<'>"
 	"a" vpart @aux #2->3
 "<welas>"
-	"gwelet" vblex past p3 sg @root #3->0
+	"gwelout" vblex past p3 sg @root #3->0
 "<ur>" 
 	"un" det ind sp @det #4->5
 "<verjelenn>"
@@ -185,7 +185,7 @@
 "<netra>"
 	"netra" prn def mf sg @obj #6->7
 "<gwelet>"
-	"gwelet" vblex pp @root #7->0
+	"gwelout" vblex pp @root #7->0
 "<e>"
 	"e" vpart obj @aux #8->7
 "<oa>"

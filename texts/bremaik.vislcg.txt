@@ -29378,7 +29378,7 @@
 "<evit>"
 	"evit" pr @mark #10->11
 "<gwelet>"
-	"gwelet" vblex inf @advcl #11->2
+	"gwelout" vblex inf @advcl #11->2
 "<penaos>"
 	"penaos" adv itg @advmod #12->23
 "<kas>"
@@ -36120,7 +36120,7 @@
 "<da>"
 	"da" pr @mark #3->4
 "<welet>"
-	"gwelet" vblex inf @advcl #4->1
+	"gwelout" vblex inf @advcl #4->1
 "<labourioù>"
 	"labour" n m pl @obj #5->4
 "<luc'hskeudennerien>"
@@ -37033,7 +37033,7 @@
 "<da>"
 	"da" pr @mark #4->5
 "<welet>"
-	"gwelet" vblex inf @advcl #5->1
+	"gwelout" vblex inf @advcl #5->1
 "<milinoù>"
 	"milin" n f pl @obj #6->5
 "<->"
@@ -41416,7 +41416,7 @@
 "<eta>"
 	"eta" adv @advmod #4->1
 "<gwelet>"
-	"gwelet" vblex inf @csubj #5->1
+	"gwelout" vblex inf @csubj #5->1
 "<ur>"
 	"un" det ind sp @det #6->7
 "<gall>"
@@ -49384,7 +49384,7 @@
 "<reer>"
 	"ober" vblex pri impers sp @aux #3->1
 "<gwelet>"
-	"gwelet" vblex inf @xcomp #4->1
+	"gwelout" vblex inf @xcomp #4->1
 "<skeudennoù>"
 	"skeudenn" n f pl @obj #5->4
 "<eus>"

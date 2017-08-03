@@ -10268,7 +10268,7 @@
 "<Klaskit>"
 	"klask" vblex imp p2 pl @root #1->0
 "<gwelet>"
-	"gwelet" vblex inf @xcomp #2->1
+	"gwelout" vblex inf @xcomp #2->1
 "<hag-eñ>"
 	"hag-eñ" prn itg mf sp @dep #3->5
 "<eo>"

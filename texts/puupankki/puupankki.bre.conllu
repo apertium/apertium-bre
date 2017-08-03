@@ -1837,7 +1837,7 @@
 9	adarre	adarre	ADV	adv	_	3	advmod	_	_
 10	hiziv	hiziv	ADV	adv	_	3	advmod	_	_
 11	evit	evit	ADP	pr	_	12	mark	_	_
-12	gwelet	gwelet	VERB	vblex	VerbForm=Inf	3	advcl	_	_
+12	gwelet	gwelout	VERB	vblex	VerbForm=Inf	3	advcl	_	_
 13	penaos	penaos	ADV	adv	PronType=Itg	24	advmod	_	_
 14	kas	kas	VERB	vblex	VerbForm=Inf	12	xcomp	_	_
 15	ar	an	DET	det	_	16	det	_	_
@@ -2847,7 +2847,7 @@
 1	Tu	tu	NOUN	n	Gender=Msc|Number=Sing	0	root	_	_
 2	vo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	cop	_	_
 3	da	da	ADP	pr	_	4	mark	_	_
-4	welet	gwelet	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+4	welet	gwelout	VERB	vblex	VerbForm=Inf	1	advcl	_	_
 5	labourioù	labour	NOUN	n	Gender=Msc|Number=Plur	4	obj	_	_
 6	luc'hskeudennerien	luc’hskeudenner	NOUN	n	Gender=Msc|Number=Plur	5	nmod:gen	_	_
 7	gentañ	kentañ	ADJ	adj	_	5	amod	_	_
@@ -3008,7 +3008,7 @@
 2	omp	bezañ	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
 3	bremañ	bremañ	ADV	adv	_	1	advmod	_	_
 4	da	da	ADP	pr	_	5	mark	_	_
-5	welet	gwelet	VERB	vblex	VerbForm=Inf	1	advcl	_	_
+5	welet	gwelout	VERB	vblex	VerbForm=Inf	1	advcl	_	_
 6	milinoù	milin	NOUN	n	Gender=Fem|Number=Plur	5	obj	_	_
 7	-	-	PUNCT	guio	_	8	punct	_	_
 8	tredan	tredan	NOUN	n	Gender=Msc|Number=Sing	6	compound	_	_
@@ -3594,7 +3594,7 @@
 2	e	e	PART	vpart	_	1	aux	_	_
 3	vefe	bezañ	VERB	vblex	Mood=Cond|Number=Sing|Person=3	1	cop	_	_
 4	eta	eta	ADV	adv	_	1	advmod	_	_
-5	gwelet	gwelet	VERB	vblex	VerbForm=Inf	1	csubj	_	_
+5	gwelet	gwelout	VERB	vblex	VerbForm=Inf	1	csubj	_	_
 6	ur	un	DET	det	_	7	det	_	_
 7	gall	gall	ADJ	adj	_	5	obj	_	_
 8	o	o	PART	vpart	_	9	aux	_	_
@@ -4696,7 +4696,7 @@
 1	Gellout	gellout	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	a	a	PART	vpart	_	1	aux	_	_
 3	reer	ober	VERB	vblex	Mood=Ind|Person=Auto|Tense=Pres|VerbForm=Fin	1	aux	_	_
-4	gwelet	gwelet	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
+4	gwelet	gwelout	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
 5	skeudennoù	skeudenn	NOUN	n	Gender=Fem|Number=Plur	4	obj	_	_
 6	eus	eus	ADP	pr	_	8	case	_	_
 7	al	an	DET	det	_	8	det	_	_
@@ -4999,7 +4999,7 @@
 1	Ar	an	DET	det	_	2	det	_	_
 2	mab	mab	NOUN	n	Gender=Msc|Number=Sing	4	nsubj	_	_
 3	a	a	PART	vpart	_	4	aux	_	_
-4	welas	gwelet	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	welas	gwelout	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	ar	an	DET	det	_	6	det	_	_
 6	plac'h	plac’h	NOUN	n	Gender=Fem|Number=Sing	4	obj	_	_
 7	yaouank	yaouank	ADJ	adj	_	6	amod	_	_
@@ -9876,7 +9876,7 @@
 # text = Klaskit gwelet hag-eñ eo reizh hoc'h anv implijer hag ho ker-tremen.
 # text[fra] = Vérifiez que votre nom d'utilisateur et que votre mot de passe sont corrects.
 1	Klaskit	klask	VERB	vblex	Number=Plur|Person=2	0	root	_	_
-2	gwelet	gwelet	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
+2	gwelet	gwelout	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
 3	hag-eñ	hag-eñ	PRON	prn	PronType=Itg	5	dep	_	_
 4	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	reizh	reizh	ADJ	adj	_	2	dep	_	_
@@ -11431,7 +11431,7 @@
 # text[fra] = Je vis une bergère qui pleurait sur le pont 
 1	Me	prpers	_	prn	Case=Nom|Number=Sing|Person=1|PronType=Pers	3	nsubj	_	_
 2	'	a	PART	vpart	_	3	aux	_	_
-3	welas	gwelet	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	welas	gwelout	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ur	un	DET	det	_	5	det	_	_
 5	verjelenn	berjelenn	NOUN	n	Gender=Fem|Number=Sing	3	obj	_	_
 6	war	war	ADP	pr	_	8	case	_	_
@@ -11534,7 +11534,7 @@
 4	ploñjadenn	ploñjadenn	NOUN	n	Gender=Fem|Number=Sing	7	obl	_	_
 5	,	,	PUNCT	cm	_	7	punct	_	_
 6	netra	netra	_	prn	Case=Acc|Number=Sing|PronType=Pers	7	obj	_	_
-7	gwelet	gwelet	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
+7	gwelet	gwelout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 8	e	e	PART	vpart	_	7	aux	_	_
 9	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 10	.	.	PUNCT	sent	_	7	punct	_	_
@@ -12889,7 +12889,7 @@
 9	a	a	ADP	pr	_	10	case	_	_
 10	dud	den	NOUN	n	Gender=Msc|Number=Plur	6	nmod	_	_
 11	ha	ha	CCONJ	cnjcoo	_	12	cc	_	_
-12	gwelet	gwelet	VERB	vblex	Tense=Past|VerbForm=Part	1	conj	_	_
+12	gwelet	gwelout	VERB	vblex	Tense=Past|VerbForm=Part	1	conj	_	_
 13	e	e	PART	vpart	_	12	aux	_	_
 14	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
 15	e	e	ADP	pr	_	17	case	_	_
