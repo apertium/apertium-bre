@@ -1,5 +1,6 @@
 # text = Ni, Breizhiz a galon, karomp hon gwir vro!
 # text[fra] = Nous Bretons de coeur, nous aimons notre vrai pays!
+# labels = to_check song
 "<Ni>"
 	"prpers" prn subj p1 mf pl @nsubj #1->7
 "<,>"
@@ -24,6 +25,7 @@
 
 # text = Brudet eo an Arvor dre ar bed tro-do.
 # text[fra] = L'Arvor est renommée à travers le monde.
+# labels = to_check song
 "<Brudet>"
 	"brudañ" vblex pp @root #1->0
 "<eo>"
@@ -43,6 +45,7 @@
 
 # text = Dispont kreiz ar brezel, hon tadoù ken mad, a skuilhas eviti o gwad.
 # text[fra] = Sans peur au coeur de la guerre, nos ancêtres si bons versèrent leur sang pour elle.
+# labels = to_check song
 "<Dispont>"
 	"dispont" adj mf sp @amod #1->7
 "<'kreiz>"
@@ -79,6 +82,7 @@
 
 # text = O Breizh, ma Bro, me 'gar ma Bro.
 # text[fra] = O Bretagne, mon pays, que j'aime mon pays
+# labels = to_check song
 "<O>"
 	"o" ij @case #1->2
 "<Breizh>"
@@ -106,6 +110,7 @@
 
 # text = Tra ma vo mor 'vel mur 'n he zro.
 # text[fra] = Tant que la mer sera comme un mur autour d'elle.
+# labels = to_check song
 "<Tra ma>"
 	"tra ma" cnjadv @mark #1->5
 "<vo>"
@@ -139,6 +144,7 @@
 
 # text = Breizh, douar ar sent kozh, douar ar Varzhed, n'eus bro all a garan kement 'barzh ar bed, pep menez, pep traonienn, d'am c'halon zo kaer, enne kousk meur a Vreizhad taer !
 # text[fra] = Bretagne, terre des vieux Saints, terre des Bardes, Il n'est d'autre pays au monde que j'aime autant; Chaque montagne, chaque vallée est chère dans mon coeur. En eux dorment plus d'un Breton héroïque!
+# labels = to_check song
 "<Breizh>"
 	"Breizh" np top sg @dislocated
 "<,>"
@@ -226,6 +232,7 @@
 
 # text = Ar Vretoned 'zo tud kalet ha kreñv.
 # text[fra] = Les Bretons sont des gens durs et forts;
+# labels = to_check song
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Vretoned>"
@@ -245,6 +252,7 @@
 
 # text = N'eus pobl ken kaloneg a zindan an neñv.
 # text[fra] =  Aucun peuple sous les cieux n'est aussi ardent.
+# labels = to_check song
 "<N'eus>"
 	"ne" adv @advmod #1->5
 		"bezañ" vblex pri impers sp @cop #2->5
@@ -265,6 +273,7 @@
 
 # text = Gwerz trist, son dudius a ziwan eno.
 # text[fra] = Complainte triste ou chant plaisant s'éclosent en eux.
+# labels = to_check song
 "<Gwerz>"
 	"gwerz" n f sg @nsubj #1->7
 "<trist>"
@@ -287,6 +296,7 @@
 
 # text = O! pegen kaer ez out, ma Bro!
 # text[fra] = O! Combien tu es belle, ma patrie!
+# labels = to_check song
 "<O>"
 	"o" ij @root #1->0
 "<!>"
@@ -310,6 +320,7 @@
 
 # text = Mard eo bet trec'het Breizh er brezelioù braz, he yezh a zo bepred ken beo ha bizkoazh, he c'halon birvidik a lamm c'hoazh 'n he c'hreiz.
 # text[fra] = Si autrefois Bretagne, tu as fléchi durant les guerres, ta langue est restée vivante à jamais, son coeur ardent tressaille encore pour elle.
+# labels = to_check song
 "<Mard>"
 	"ma" cnjsub @mark #1->4
 "<eo>"
@@ -372,6 +383,7 @@
 
 # text = Dihunet out bremañ, ma Breizh !
 # text[fra] = Tu es réveillée maintenant ma Bretagne!
+# labels = to_check song
 "<Dihunet>"
 	"dihuniñ" vblex pp @root #1->0
 "<out>"
