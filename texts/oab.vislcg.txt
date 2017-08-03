@@ -1,5 +1,6 @@
 # text = Ur gevezadeg ziaes ha brudet eo an Olimpiadennoù, met ouzhpenn an dra-se ez int.
 # text[fra] = Les Olympiades sont une compétition exigeante et prestigieuse mais pas seulement.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gevezadeg>"
@@ -37,6 +38,7 @@
 
 # text = An takad merket gant ar bir n'eo ket ur c'halaksienn met ur bouilh stered ha gaz a zeu eus unan eus ar galaksiennoù distummet gant efed ar gravitadur.
 # text[fra] = La zone indiquée par la flèche n'est pas une galaxie mais un jet d'étoiles et de gaz provenant d'une des galaxies déformée par effet gravitationnel.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<takad>"
@@ -100,6 +102,7 @@
 
 # text = En em gavout a rae takadoù bras eus an aod dindan an dour ha dindan an amzer a bep eil un nebeud eurvezhioù war-lerc'h.
 # text[fra] = De vastes zones côtières se retrouvent donc alternativement submergées par les eaux, puis à l'air libre quelques heures plus tard.
+# labels = to_check opab_parallel
 "<En em>"
 	"en em" vpart ref @aux
 "<gavout>"
@@ -162,6 +165,7 @@
 
 # text = Grit anaoudegezh gant istor an Hollved kontet deoc'h a-hed e bazennoù bras war-bouez gerioù eeun dalc'hmat.
 # text[fra] = Découvrez l’histoire de l’Univers racontée dans ses grandes étapes avec un souci constant de simplicité.
+# labels = to_check opab_parallel
 "<Grit>"
 	"ober" vblex imp p2 pl @root #1->0
 "<anaoudegezh>"
@@ -200,6 +204,7 @@
 
 # text = Katalog menegerioù lodenn ar Rannvro atebek a oa bet kinniget da-geñver ar memes dalc'h.
 # text[fra] = Le catalogue des indicateurs du volet Région responsable a été présenté lors de la même session.
+# labels = to_check opab_parallel
 "<Katalog>"
 	"katalog" n m sg @nsubj #1->10
 "<menegerioù>"
@@ -233,6 +238,7 @@
 
 # text = Framm dave an diorren padus e Breizh
 # text[fra] = Le cadre de référence du développement durable en Bretagne
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg @root #1->0
 "<dave>"
@@ -250,6 +256,7 @@
 
 # text = Pa vez tort an Heol d'an dremmwel o deus ar « bannoù » anezhañ ur gwiskad aergelc'h tevoc'h da dreuziñ.
 # text[fra] = Lorsque le Soleil est proche de l'horizon, les « rayons » du Soleil ont une plus grande épaisseur d'atmosphère à traverser.
+# labels = to_check opab_parallel
 "<Pa>"
 	"pa" cnjsub @mark #1->3
 "<vez>"
@@ -296,6 +303,7 @@
 
 # text = Penaos displegañ kement-se ?
 # text[fra] = Comment expliquer cela ?
+# labels = to_check opab_parallel
 "<Penaos>"
 	"penaos" adv itg @advmod #1->2
 "<displegañ>"
@@ -307,6 +315,7 @@
 
 # text = Muzuliañ uhelder Sterenn an Norzh zo kement hag anavezout ledred al lec'h (hag a-c'hin).
 # text[fra] = Mesurer la hauteur de l'étoile polaire, c'est connaître la latitude du lieu (et inversement).
+# labels = to_check opab_parallel
 "<Muzuliañ>"
 	"muzuliañ" vblex inf @csubj #1->8
 "<uhelder>"
@@ -342,6 +351,7 @@
 
 # text = Treiñ a ra an Douar en-dro d'an Heol (360°) en ur ober 365 devezh.
 # text[fra] = Effectivement, la Terre tourne autour du Soleil (360°) en 365 jours.
+# labels = to_check opab_parallel
 "<Treiñ>"
 	"treiñ" vblex inf @root #1->0
 "<a>"
@@ -377,6 +387,7 @@
 
 # text = Heuliet e oa bet pizh kresk ar vugale e-touez gorilhed ar menezioù.
 # text[fra] = Le développement de l'enfant a été suivi avec minutie chez le gorille de montagne.
+# labels = to_check opab_parallel
 "<Heuliet>"
 	"heuliañ" vblex pp @root #1->0
 "<e>"
@@ -406,6 +417,7 @@
 
 # text = Emgavioù etre strolladoù gorilhed a vez alies dre ma n'int ket loened da zerc'hel d'o zachenn ha dre ma rannont an tachennoù-se.
 # text[fra] = Les rencontres entre groupes de gorilles sont favorisées par le fait que les gorilles ne sont pas des animaux territoriaux et que leurs groupes utilisent des domaines qui se chevauchent largement.
+# labels = to_check opab_parallel
 "<Emgavioù>"
 	"emgav" n m pl
 "<etre>"
@@ -458,6 +470,7 @@
 
 # text = Displegañ a ra ar stummoù direizh a gaver a-wechoù gant galaksiennoù zo.
 # text[fra] = Elles expliquent les formes parfois anormales de certaines galaxies.
+# labels = to_check opab_parallel
 "<Displegañ>"
 	"displegañ" vblex inf @root
 "<a>"
@@ -489,6 +502,7 @@
 
 # text = Anavezet evit bezañ un douar dedennus, darev evit an avantur evel rannvro europat, ne lez den ebet diseblant a-benn ar fin.
 # text[fra] = Reconnue pour son attractivité, prête pour l'aventure en tant que région européenne elle ne laisse en fin de compte personne indifférent.
+# labels = to_check opab_parallel
 "<Anavezet>"
 	"anavezout" vblex pp
 "<evit>"
@@ -535,6 +549,7 @@
 
 # text = Takad teñval
 # text[fra] = Zone obscure
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<teñval>"
@@ -542,6 +557,7 @@
 
 # text = Unan eus an divizoù meur eo evit ma c’hallo hor planedenn tapout ur c’hempouez demokratel.
 # text[fra] = Il s’agit d’une des conditions majeures de l’équilibre démocratique de notre planète.
+# labels = to_check opab_parallel
 "<Unan>"
 	"unan" num mf sg @root
 "<eus>"
@@ -575,6 +591,7 @@
 
 # text = Domani Arvorig an Hanternoz
 # text[fra] = Domaine nord armoricain
+# labels = to_check opab_parallel
 "<Domani>"
 	"domani" n m sg @root #1->0
 "<Arvorig>"
@@ -586,6 +603,7 @@
 
 # text = Ar Vreizhiz a ranko deskiñ terkañ mat o bro ma fell dezho mirout he neuz dibar dezhi.
 # text[fra] = Il s’agit d’un des défis que la Bretagne devra relever pour préserver son originalité.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Vreizhiz>"
@@ -627,6 +645,7 @@
 
 # text = E-doug ar mizioù diwezhañ ho poa pouezet war ar ret m’eo ober ur c’hemm armerzhel.
 # text[fra] = Au cours de ces derniers mois, vous avez insisté sur la nécessité d’une mutation économique.
+# labels = to_check opab_parallel
 "<E-doug>"
 	"e-doug" pr @case #1->3
 "<ar>"
@@ -661,6 +680,7 @@
 
 # text = Gant Ofis ar Brezhoneg eo bet troet al levr-mañ
 # text[fra] = Cet ouvrage a été traduit par l'Office de la Langue Bretonne
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->2
 "<Ofis ar Brezhoneg>"
@@ -680,6 +700,7 @@
 
 # text = Serret-eñ kloz e-korn ho kalver
 # text[fra] = Rangez-le bien dans le coin de votre calvaire,
+# labels = to_check opab_parallel
 "<Serret>"
 	"serriñ" vblex imp p3 sg 
 "<-eñ>"
@@ -708,6 +729,7 @@
 
 # text = Daou arvest eus buhez Sant Erwan
 # text[fra] = Deux scènes de la vie de saint Yves
+# labels = to_check opab_parallel
 "<Daou>"
 	"daou" num m pl @nummod #1->2
 "<arvest>" 
@@ -723,6 +745,7 @@
 
 # text = Porzh-mor bihan ouzh sklaer al loar
 # text[fra] = Petit port au clair de lune
+# labels = to_check opab_parallel
 "<Porzh-mor>"
 	"porzh-mor" n m sg @root #1->0
 "<bihan>"
@@ -738,6 +761,7 @@
 
 # text = Porzh Pont-Aven
 # text[fra] = Port de Pont-Aven
+# labels = to_check opab_parallel
 "<Porzh>"
 	"porzh" n m sg @root #1->0
 "<Pont-Aven>"
@@ -745,6 +769,7 @@
 
 # text = Donder an dourioù, gourdrouz an oabl a zeu da zegas takadoù teñval, glas ha rous, ha frammañ an ec’honder.
 # text[fra] = La profondeur des eaux, la menace du ciel, viennent apporter leurs touches sombres, bleues et brunes, et construire l'espace.
+# labels = to_check opab_parallel
 "<Donder>"
 	"donder" n m sg @nsubj #1->9
 "<an>"
@@ -794,6 +819,7 @@
 
 # text = An Den gloazet
 # text[fra] = L'Homme blessé
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -809,6 +835,7 @@
 
 # text = En em gavout a ra gant Gauguin e 1888. 
 # text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
+# labels = to_check opab_parallel
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<gavout>"
@@ -830,6 +857,7 @@
 
 # text = Hemañ a erbed dezhañ en em ouestlañ penn-da-benn d'al livañ.
 # text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
+# labels = to_check opab_parallel
 "<Hemañ>"
 	"hemañ" prn dem m sg @nsubj #1->3
 "<a>"
@@ -855,6 +883,7 @@
 
 # text = Ezel eus Kevredigezh al Livourien-engraverien c'hall, e produ dourioù-kreñv.
 # text[fra] = Membre de la Société des Peintres-Graveurs français, il exécute des eaux-fortes.
+# labels = to_check opab_parallel
 "<Ezel>"
 	"ezel" n m sg @nsubj:appos #1->11
 "<eus>"
@@ -888,6 +917,7 @@
 
 # text = Embann a ra ivez levrioù ha pennadoù niverus.
 # text[fra] = Il publie également de nombreux ouvrages et articles.
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf @root #1->0
 "<a>"
@@ -909,6 +939,7 @@
 
 # text = Gouestlet eo an darn vrasañ eus e oberenn d’an engravañ.
 # text[fra] = L'essentiel de son travail est consacré à la gravure.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
@@ -935,6 +966,7 @@
 
 # text = E 1994 e oa bet gouestlet un diskouezadeg adsell dezhañ gant mirdi Montroulez.	
 # text[fra] = Le musée de Morlaix lui a consacré en 1994 une exposition rétrospective.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case #1->2
 "<1994>"
@@ -967,6 +999,7 @@
 
 # text = Met e 1881 e ra freuz-stal e di-embann, ken e tilez an dour-kreñv da vat evit en em ouestlañ d'al liverezh.
 # text[fra] = Mais la chute de sa maison d'édition en 1881 le fait renoncer à l'eau-forte pour se consacrer à la peinture.
+# labels = to_check opab_parallel
 "<Met>"
 	"met" cnjcoo @cc #1->5
 "<e>"
@@ -1021,6 +1054,7 @@
 
 # text = Un toullad mat a weledvaoù eus ar maezioù war vord an dour a zo chomet war e lerc'h.
 # text[fra] = Il nous laisse de nombreux paysages de campagne au bord de l'eau.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det
 "<toullad mat>"
@@ -1057,6 +1091,7 @@
 
 # text = Gant Ofis ar Brezhoneg eo bet troet al levr-mañ.
 # text[fra] = Cet ouvrage a été traduit par l'Office de la Langue Bretonne.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->2
 "<Ofis ar Brezhoneg>"
@@ -1078,6 +1113,7 @@
 
 # text = Doare-ober hag enklask arzourien ar gevredigezh Spered Kelt hag arzourien dizalc'h a zo lakaet war wel en diskouezadeg.
 # text[fra] = Cette exposition met en valeur la démarche et la recherche des artistes de l’association Spered Kelt et d’artistes indépendants.
+# labels = to_check opab_parallel
 "<Doare>"
 	"doare" n m sg
 "<->"
@@ -1124,6 +1160,7 @@
 
 # text = Arzourien ar gevredigezh Spered Kelt
 # text[fra] = Artistes de l’association Spered Kelt
+# labels = to_check opab_parallel
 "<Arzourien>"
 	"arzour" n m pl @root #1->0
 "<ar>"
@@ -1137,6 +1174,7 @@
 
 # text = En deroù e talveze ar c'henemglev evit an eskemmoù kenwerzhel hag ekonomikel dreist-holl, met tamm-ha-tamm eo bet astennet da dachennoù all.
 # text[fra] = Plutôt concentrée sur les échanges commerciaux et économiques dans la phase de démarrage, la coopération s’est progressivement étendue à d’autres secteurs.
+# labels = to_check opab_parallel
 "<En deroù>"
 	"en deroù" adv @dep #1->3
 "<e>"
@@ -1184,6 +1222,7 @@
 
 # text = Dre ar c’hinkladurioù e lavarer ar pezh a daver warnañ.
 # text[fra] = Les décors disent ce que la parole tait.
+# labels = to_check opab_parallel
 "<Dre>"
 	"dre" pr @case #1->3
 "<ar>"
@@ -1206,6 +1245,7 @@
 
 # text = Tennit dousik-kenañ war an neudenn evit lakaat donder.
 # text[fra] = Tirez très légèrement sur votre fil pour donner du relief.
+# labels = to_check opab_parallel
 "<Tennit>"
 	"tennañ" vblex imp p2 pl @root #1->0
 "<dousik>"
@@ -1231,6 +1271,7 @@
 
 # text = Treuzit an holl wiadoù, tennit ho nadoz er-maez en ur zilec’hiañ anezhi, hag all.
 # text[fra] = Traversez toutes les étoffes, ressortez votre aiguille en décalant et ainsi de suite.
+# labels = to_check opab_parallel
 "<Treuzit>"
 	"treuziñ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -1264,6 +1305,7 @@
 
 # text = Tennit an nadoz just e-kichen ho neudenn gentañ en ur lakaat an nadoz da dremen dreist ho neudenn.
 # text[fra] = Ressortez juste à côté de votre premier fil en faisant passer l'aiguille au dessus de votre fil.
+# labels = to_check opab_parallel
 "<Tennit>"
 	"tennañ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -1303,6 +1345,7 @@
 
 # text = Treuzit an holl wiadoù, tennit ho nadoz er-maez en ur zilec’hiañ, hag all.
 # text[fra] = Traversez toutes les étoffes, ressortez votre aiguille en décalant et ainsi de suite.
+# labels = to_check opab_parallel
 "<Treuzit>"
 	"treuziñ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -1334,6 +1377,7 @@
 
 # text = Evel-se e c’haller stardañ mat ar perlez.
 # text[fra] = Cela permet de bien serrer les perles.
+# labels = to_check opab_parallel
 "<Evel-se>"
 	"evel-se" adv @advmod #1->3
 "<e>"
@@ -1353,6 +1397,7 @@
 
 # text = 2) a gas keloù d’ar guzulierien-departamant eus Rannvro Breizh diwar-benn ar pezh emañ o c’houlenn digant ministr ar sevenadur abalamour da ginnig dezho penaos prederiañ hag ober kinnigoù asambles.
 # text[fra] = 2) décide d'informer les conseils généraux de la région Bretagne de sa démarche auprès du ministre de la culture afin de leur proposer un cadre de réflexion et de proposition commun.
+# labels = to_check opab_parallel
 "<2>"
 	"2" num mf pl @appos #1->
 "<)>"
@@ -1422,6 +1467,7 @@
 
 # text = Modernaat ar porzhioù rannvroel	
 # text[fra] = Moderniser les ports à vocation régionale
+# labels = to_check opab_parallel
 "<Modernaat>"
 	"modernaat" vblex inf @root #1->0
 "<ar>"
@@ -1433,6 +1479,7 @@
 
 # text = an adkreizennañ start a-berzh ar Stad, enep reolennoù ar merañ frank evit ar strollegezhioù tiriadel hag an aozañ digreizennet hervez ar Vonreizh.
 # text[fra] = d’une recentralisation forte de l'État, contraire aux principes de libre administration des collectivités territoriales et d'organisation décentralisée prévue par la Constitution.
+# labels = to_check opab_parallel
 "<an>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -1499,6 +1546,7 @@
 
 # text = An darvoud-se a ziskouez mat ar youl zo gant kevredigezh Breizh da lakaat ar brezhoneg da vont war-raok ha da reiñ dezhañ ar statud zo dleet hiziv d'ur yezh eus Europa.
 # text[fra] = Cet événement montre la volonté de la société bretonne de faire avancer le breton et de lui donner le statut qui est aujourd'hui du à une langue européenne.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det
 "<darvoud>"
@@ -1579,6 +1627,7 @@
 
 # text = E 2004 e oa bet embannet gant an Ofis diagnostikoù war stad ar brezhoneg evit pep bro.
 # text[fra] = En 2004 l’Office publiait des diagnostics par pays sur l’état du breton.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case #1->2
 "<2004>"
@@ -1618,6 +1667,7 @@
 
 # text = N’eus ket keit-se e oa bet kalzik pennadoù diwar-benn mekanikoù nevez ar Post ha na vijent ket bet gouest da lenn brezhoneg.
 # text[fra] = Il y a peu la presse s’était faite largement l’écho de difficultés supposées des nouvelles machines de la Poste pour lire la langue bretonne.
+# labels = to_check opab_parallel
 "<N’eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -1685,6 +1735,7 @@
 
 # text = Tud hag a lenn eo lennerien.
 # text[fra] = Les personnes seront des lennerien.
+# labels = to_check opab_parallel
 "<Tud>"
 	"den" n m pl @nsubj
 "<hag>"
@@ -1714,6 +1765,7 @@
 
 # text = Paul Molac, prezidant KSB
 # text[fra] = Paul Molac, président du CCB
+# labels = to_check opab_parallel
 "<Paul>"
 	"Paul" np ant m sg @root #1->0
 "<Molac>"
@@ -1727,6 +1779,7 @@
 
 # text = Ar ger tiriad-se n’eo ket gwall anavezet c’hoazh.
 # text[fra] = Le mot “tiriad” n’est pas encore très connu.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<ger>"
@@ -1752,6 +1805,7 @@
 
 # text = Ar c’hinnig kelenn divyezhek e 2007/2008
 # text[fra] = L’offre de l’enseignement bilingue en 2007/2008
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<c’hinnig>"
@@ -1771,6 +1825,7 @@
 
 # text = D’an distro-skol 2007, eus ar skol-vamm d’al lise e renabler e Breizh 364 lec’hiad (345 lec’hiad e 2006/2007) ma vez kinniget un hentad divyezhek da nebeutañ.
 # text[fra] = A la rentrée scolaire 2007, de la maternelle au lycée, on recense en Bretagne 364 sites (345 sites en 2006/2007) où est proposée une filière bilingue au minimum.
+# labels = to_check opab_parallel
 "<D’an>"
 	"da" pr @case
 		"an" det def sp
@@ -1843,6 +1898,7 @@
 # text = Anat eo pegen pouezus eo evit ar gerent kaout ur c’hinnig tost d’o lec’h annez.
 # text[fra] = L’importance qu’il y a pour les parents de disposer d’une offre de proximité est évidente.
 #Évident il est comme important est pour les parents avoir une proposition près de #le o de lieu d’habitation.
+# labels = to_check opab_parallel
 "<Anat>"
 	"anat" adj mf sp @root #1->0
 "<eo>"
@@ -1878,6 +1934,7 @@
 
 # text = Emdroadur kresk bloaziek ar c’helenn divyezhek etre 1997 ha 2007
 # text[fra] = Evolution de la croissance annuelle de l’enseignement bilingue entre 1997 et 2007
+# labels = to_check opab_parallel
 "<Emdroadur>"
 	"emdroadur" n m sg
 "<kresk>"
@@ -1901,6 +1958,7 @@
 
 # text = Ne oa kont e-giz-se nemet gant ur c’hard eus ar c’humunioù e 2005/2006 e-keñver 2004/2005.
 # text[fra] = En 2005/2006, par rapport à 2004/2005, ce n’était le cas que dans un quart des communes.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg @advmod
 "<oa>"
@@ -1952,6 +2010,7 @@
 
 # text = Kargoù hollek
 # text[fra] = Charges à caractère général
+# labels = to_check opab_parallel
 "<Kargoù>"
 	"karg" n f pl @root #1->0
 "<hollek>"
@@ -1959,6 +2018,7 @@
 
 # text = Kargoù sokial diseurt all
 # text[fra] = Autres charges sociales diverses
+# labels = to_check opab_parallel
 "<Kargoù>"
 	"karg" n f pl @root #1->0
 "<sokial>"
@@ -1970,6 +2030,7 @@
 
 # text = Skoaziadennoù mont en-dro evit ar c’hevredigezhioù ha tud all a wir brevez
 # text[fra] = Subventions de fonctionnement aux associations et autres personnes de droit privé
+# labels = to_check opab_parallel
 "<Skoaziadennoù>"
 	"skoaziadenn" n f pl @root #1->0
 "<mont en-dro>"
@@ -1995,6 +2056,7 @@
 
 # text = C'hwec'h geriaoueg-godell pleustrek a zo o paouez bezañ embannet gant Ofis ar Brezhoneg.
 # text[fra] = Six lexiques de poche très pratiques viennent d'être édités par l'Office de la langue bretonne.
+# labels = to_check opab_parallel
 "<C'hwec'h>"
 	"c’hwec’h" num mf pl @nummod #1->
 "<geriaoueg>"
@@ -2026,6 +2088,7 @@
 
 # text = Hiziv e vo kinniget an 19 skipailh d’an holl.
 # text[fra] = Les 19 équipes seront présentées aujourd'hui.
+# labels = to_check opab_parallel
 "<Hiziv>"
 	"hiziv" adv @advmod #1->4
 "<e>"
@@ -2047,6 +2110,7 @@
 
 # text = Priziet eo ar brezhoneg gant ar gevredigezh hiziv an deiz, met ezhomm he deus bezañ emskiantekoc’h eus talvoudegezh ar yezh.
 # text[fra] = Aujourd’hui, la société estime la langue bretonne, mais elle a besoin d’être davantage consciente de son utilité.
+# labels = to_check opab_parallel
 "<Priziet>"
 	"priziañ" vblex pp @root #1->0
 "<eo>"
@@ -2088,6 +2152,7 @@
 
 # text = Degas a ra ar statud ofisiel ur framm lezennel a-benn normalaat implij ur yezh vihanniver.
 # text[fra] = Un statut officiel apporte en effet un cadre juridique pour normaliser l’emploi d’une langue minoritaire.
+# labels = to_check opab_parallel
 "<Degas>"
 	"degas" vblex inf @root #1->0
 "<a>"
@@ -2123,6 +2188,7 @@
 
 # text = Adalek 2007 e vo ur programm nevez war meur a vloaz evit ar frammoù a labour evit skoazellañ ar yezhoù bihanniver en Europa.
 # text[fra] = A partir de 2007, elle va mettre en place un programme pluriannuel pour les structures travaillant au soutien des langues minoritaires en Europe.
+# labels = to_check opab_parallel
 "<Adalek>"
 	"adalek" pr @case #1->2
 "<2007>"
@@ -2172,6 +2238,7 @@
 
 # text = Diorren an teknologiezhoù nevez, ar micherioù hag ar gennadoù liammet d’ar yezhoù bihanniver a lak an danevell-se war-raok peurgetket.
 # text[fra] = Le rapport met particulièrement en avant le développement des nouvelles technologies, des professions et des secteurs liés aux langues les moins répandues.
+# labels = to_check opab_parallel
 "<Diorren>"
 	"diorren" vblex inf
 	"diorren" n m sg
@@ -2236,6 +2303,7 @@
 
 # text = Ar Gevrat-steuñv Stad-Rannvro, ur stern evit termenañ perzh ar Stad
 # text[fra] = Le Contrat de Plan Etat-Région, un cadre pour définir le rôle de l’État
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -2284,6 +2352,7 @@
 
 # text = An darn vrasañ eus ar budjed-se a vez gouestlet d'ar galleg atav.
 # text[fra] = La majeure partie de ce budget reste toujours consacrée à la langue française.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<darn>"
@@ -2316,6 +2385,7 @@
 
 # text = Gant ar PS hag an UDB e oa bet embannet diazez ur politikerezh yezh gant pennaennoù resis zoken.
 # text[fra] = Les bases d’une politique linguistique comprenant des principes précis avaient même été publiées par le PS et l’UDB.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ar>"
@@ -2357,6 +2427,7 @@
 
 # text = Kinnigoù pennañ politikerezh yezh Rannvro Breizh evit ar brezhoneg
 # text[fra] = Principales propositions de la politique linguistique de la Région Bretagne pour la langue bretonne
+# labels = to_check opab_parallel
 "<Kinnigoù>"
 	"kinnig" n m pl @root #1->0
 "<pennañ>"
@@ -2378,6 +2449,7 @@
 
 # text = Ar c’hresk bloaziek evit ar brezhoneg a oa da 10,7% e 2003, 8,8% e 2004 ha 18,3% e 2005 hervez an doare jediñ-mañ.
 # text[fra] = La progression annuelle pour la langue bretonne était de 10,7% en 2003, 8,8% en 2004 et 18,3% en 2005 suivant ce mode de calcul.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<c’hresk>"
@@ -2433,6 +2505,7 @@
 
 # text = Bras a-walc’h eo ar c’hresk evit ar c’helenn d’an oadourien hag an aozadurioù sevenadurel a-hend-all (met diouzh ar raktresoù a vez kinniget e c’hell an traoù cheñch eus un eil bloavezh d’egile).
 # text[fra] = Par ailleurs, la progression pour l’enseignement aux adultes et les organisations culturelles est assez importante (mais il peut y avoir des variations d’une année sur l’autre en fonction des projets qui sont présentés).
+# labels = to_check opab_parallel
 "<Bras>"
 	"bras" adj mf sp
 "<a-walc’h>"
@@ -2546,6 +2619,7 @@
 
 # text = Ar budjed gouestlet d'ar yezhoù rannvro gant Kuzulioù-rannvro all e Frañs
 # text[fra] = Le budget alloué aux langues régionales par d’autres Conseils régionaux en France
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<budjed>"
@@ -2572,6 +2646,7 @@
 
 # text = Nebeutoc'h a venegoù a vo troet er reter koulskoude.
 # text[fra] = Toutefois, moins de mentions seront traduites à l’est.
+# labels = to_check opab_parallel
 "<Nebeutoc'h a>"
 	"nebeutoc’h a" pr @case #1->2
 "<venegoù>"
@@ -2594,6 +2669,7 @@
 
 # text = Disklêriadurioù evel-se zo da vezañ lieskementet ha da vezañ lakaet da dalvezout asambles gant sikour derezioù all ar galloudoù foran.
 # text[fra] = De telles déclarations méritent d’être multipliées et d’être mises en pratique avec l’aide d’autres échelons des pouvoirs publics.
+# labels = to_check opab_parallel
 "<Disklêriadurioù>"
 	"disklêriadur" n m pl
 "<evel-se>"
@@ -2647,6 +2723,7 @@
 
 # text = Chañsoù zo eta e teufe da vezañ brasoc’h-brasañ e-touez ar galloudoù foran.
 # text[fra] = Elle est ainsi susceptible de jouer un rôle grandissant au sein des pouvoirs publics.
+# labels = to_check opab_parallel
 "<Chañsoù>"
 	"chañs" n f pl
 "<zo>"
@@ -2680,6 +2757,7 @@
 
 # text = Nebeut-tre a oberoù a-du gant ar brezhoneg a vez kaset ganto evit ar poent c’hoazh, setu ret e vefe gounit e kemerfent anezhañ e kont buan.
 # text[fra] = Pour l’heure, leurs actions en faveur de la langue bretonne restent encore très limitées, il apparaît par conséquent nécessaire de parvenir à ce qu’elles la prennent rapidement en compte.
+# labels = to_check opab_parallel
 "<Nebeut-tre>"
 	"nebeut" adj mf sp
 		"tre" adv
@@ -2772,6 +2850,7 @@
 
 # text = Dilennidi, teknikourien ar gumun ha frammoù dave (Ofis ar Brezhoneg en o zouez) a ya d’ober ar bodadoù trakêr-se.
 # text[fra] = Ces commissions se composent d’élus, de techniciens de la commune et de structures de référence (dont l’Office de la langue bretonne).
+# labels = to_check opab_parallel
 "<Dilennidi>"
 	"dilennad" n m pl @dep #1->15
 "<,>"
@@ -2818,6 +2897,7 @@
 
 # text = Kemer harp war yezh ar vro, gwriziennet ha bev, a ro tro da zigeriñ muioc’h c’hoazh spered ar vugale (anavezout an-unan evit gellout anavezout ar re all) e-ser doujañ da liesseurted ar sevenadurioù.
 # text[fra] = S’appuyer sur la langue du pays, enracinée et vivante, permet d’ouvrir encore davantage l’esprit des enfants (se connaître soi-même pour pouvoir connaître les autres) tout en respectant la diversité culturelle.
+# labels = to_check opab_parallel
 "<Kemer harp war>"
 	"kemer# harp war" vblex inf
 ;	"kemer# harp war" vblex imp p2 sg 
@@ -2911,6 +2991,7 @@
 
 # text = Pell emañ Yann eus e gazeg avat evit ar pal a 2000 skoliad ouzhpenn en eil derez.
 # text[fra] = A la rentrée 2006, le secondaire ne comptait que 625 élèves bilingues supplémentaires par rapport à la rentrée 2001, soit moins du tiers de l’objectif fixé.
+# labels = to_check opab_parallel
 "<Pell>"
 	"pell" adj mf sp
 "<emañ>"
@@ -2946,6 +3027,7 @@
 
 # text = Un Aotreegezh gant ar meneg yezhoù ha sevenadur rannvro zo kinniget d’ar studierien hepken.
 # text[fra] = Celle-ci ne propose qu’une Licence intitulée « Langues et culture régionales ».
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<Aotreegezh>"
@@ -2980,6 +3062,7 @@
 
 # text = Evit echuiñ, kinnig a ra Skol-veur Breizh-Izel un diplom skol-veur « Yezhoù ha sevenadur Breizh ».
 # text[fra] = Enfin, l’Université de Bretagne Occidentale propose un diplôme universitaire “Langues et culture bretonnes”.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @mark #1->2
 "<echuiñ>"
@@ -3019,6 +3102,7 @@
 
 # text = Karget eo da genurzhiañ ar studioù war an dachenn geltiek.
 # text[fra] = Il est chargé de coordonner les études sur la matière celtique.
+# labels = to_check opab_parallel
 "<Karget>"
 	"kargañ" vblex pp @root #1->0
 "<eo>"
@@ -3044,6 +3128,7 @@
 
 # text = Diorroet eo bet ar c’hinnig dre rouedadoù gant labour ar c’hevreadoù.
 # text[fra] = L’offre s’est développée en réseau par le travail des fédérations.
+# labels = to_check opab_parallel
 "<Diorroet>"
 	"diorren" vblex pp @root #1->0
 "<eo>"
@@ -3071,6 +3156,7 @@
 
 # text = Stad ar c’hinnig kentelioù noz
 # text[fra] = Etat de l’offre de cours du soir
+# labels = to_check opab_parallel
 "<Stad>"
 	"stad" n f sg @root #1->0
 "<ar>"
@@ -3082,6 +3168,7 @@
 
 # text = Kinniget e vez da skouer gant Mervent daou pe tri hanter-devezh bep miz da implijidi ti-kêr Douarnenez.
 # text[fra] = Ainsi, Mervent propose deux à trois demi-journées de cours par mois aux employés municipaux de Douarnenez.
+# labels = to_check opab_parallel
 "<Kinniget>"
 	"kinnig" vblex pp
 "<e>"
@@ -3128,6 +3215,7 @@
 
 # text = Evel ma ya an implijoù yaouank da get e chom stanket emdroadur ar c’hinnig tamm-ha-tamm abaoe 2002.
 # text[fra] = Il est clair que l’évolution de l’offre se trouve freinée depuis 2002 par l’arrivée à échéance progressive des emplois-jeunes.
+# labels = to_check opab_parallel
 "<Evel ma>"
 	"evel ma" cnjadv 
 "<ya>"
@@ -3182,6 +3270,7 @@
 
 # text = Brasoc’h eo bet an digresk gant live an deraouidi.
 # text[fra] = La baisse a été plus marquée chez les débutants.
+# labels = to_check opab_parallel
 "<Brasoc’h>"
 	"bras" adj sint comp
 "<eo>"
@@ -3216,6 +3305,7 @@
 
 # text = Pal kentañ ar gevredigezh-se eo bodañ ar frammoù deskiñ evit an oadourien, er-maez eus an Deskadurezh Stad.
 # text[fra] = L’objectif premier de cette association est de rassembler les structures d’apprentissage pour adultes, hors Éducation Nationale.
+# labels = to_check opab_parallel
 "<Pal>"
 	"pal" n f sg
 	"pal" n m sg
@@ -3270,6 +3360,7 @@
 
 # text = Ar splet ober se dindan askell DAO eo kaout ur framm boutin d'an 230 lec'hiad deskiñ a zo e Breizh.
 # text[fra] = L’avantage de réaliser cette évaluation sous l’égide de DAO est d’avoir un cadre commun pour les 230 sites d’apprentissage présents en Bretagne.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -3335,6 +3426,7 @@
 
 # text = Gant an implijerien e vez arc’hantaouet an darn vrasañ eus ar stummadurioù a-hend-all.
 # text[fra] = En cas de financement externe, ce sont en majorité les employeurs qui financent les formations.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -3380,6 +3472,7 @@
 
 # text = Evit echuiñ, a-benn diorren ar c’hinnig war an dachenn e ranker stummañ an niver a gelennerien ret.
 # text[fra] = Enfin, il est nécessaire de former le nombre requis d’enseignants pour pouvoir développer l’offre sur le terrain.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case
 ;	"evañ" vblex imp p2 pl 
@@ -3446,6 +3539,7 @@
 
 # text = Bed ar yec’hed a rankfe diorren an degemer hag ar c’hinnig servijoù e brezhoneg ivez.
 # text[fra] = Le monde de la santé devrait aussi développer l’accueil et l’offre de services en langue bretonne.
+# labels = to_check opab_parallel
 "<Bed>"
 	"bed" n m sg
 ;	"pediñ" vblex imp p2 sg 
@@ -3498,6 +3592,7 @@
 
 # text = Un digarez eo ivez da vroudañ ar re gozh da gomz e brezhoneg ouzh ar remziadoù all.
 # text[fra] = C’est également une occasion d’inciter les personnes âgées à s’adresser en breton aux autres générations.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det
 "<digarez>"
@@ -3543,6 +3638,7 @@
 
 # text = Un nebeud kevredigezhioù a glask mont war an dachenn-se e-giz Startijenn ar Vro Vigoudenn.
 # text[fra] = Quelques associations cherchent à aller sur ce terrain comme Startijenn ar Vro Vigoudenn.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det
 "<nebeud>"
@@ -3590,6 +3686,7 @@
 
 # text = Talvoudus-kenañ e vefe diorren ha stankaat implij ar brezhoneg war an tachennoù-se o lakaat politikerezhioù azasaet da dalvezout.
 # text[fra] = Il serait très utile de développer et de compléter l’emploi de la langue bretonne dans ces domaines, ceci en mettant en pratique des politiques adaptées.
+# labels = to_check opab_parallel
 "<Talvoudus-kenañ>"
 	"talvoudus" adj mf sp
 		"kenañ" adv
@@ -3655,6 +3752,7 @@
 
 # text = Bec’h o dez ar skolioù pe ar c’hevredigezhioù oc’h aozañ degouezhioù evit ar vugale, ha bras eo ar goulenn avat.
 # text[fra] = Les écoles et les associations ont des difficultés à organiser des événements pour les enfants, la demande est pourtant importante.
+# labels = to_check opab_parallel
 "<Bec’h>"
 	"bec’h" n m sg
 ;	"pec’hiñ" vblex imp p2 sg 
@@ -3716,6 +3814,7 @@
 
 # text = Abadennoù a-ratozh evit ar re gozh a vez aozet gant ar c’hevread UDARPA 29 o teurel evezh eus peseurt rannyezh zo anavezet gant an arvesterien.
 # text[fra] = La fédération UDARPA 29 organise des spectacles à l’intention des anciens en prêtant attention à la forme dialectale que connaissent les spectateurs.
+# labels = to_check opab_parallel
 "<Abadennoù>"
 	"abadenn" n f pl
 "<a-ratozh>"
@@ -3799,6 +3898,7 @@
 
 # text = Pa vez implijet selaouelloù gant displegadennoù enrollet e meur a yezh eo mat soñjal lakaat ar brezhoneg en o zouez.
 # text[fra] = Quand des écouteurs sont utilisés avec des explications enregistrées en plusieurs langues, il est bon de penser à y introduire la langue bretonne.
+# labels = to_check opab_parallel
 "<Pa>"
 	"pa" cnjsub @mark
 "<vez>"
@@ -3839,6 +3939,7 @@
 
 # text = Un diviz « kafe-filo » a vez aozet da-geñver ar festival Taol Kurun abaoe 2005 (heuliet eo bet ar skouer-se gant Sked adalek 2007).
 # text[fra] = Un débat « kafe-filo » en breton est organisé dans le cadre du festival Taol Kurun depuis 2005 (Sked a suivi cet exemple à partir de 2007).
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det
 "<diviz>"
@@ -3934,6 +4035,7 @@
 
 # text = Pal ar beilhadegoù dre-vras a zo bodañ brezhonegerien a-vihanik gant tud zo o teskiñ ar yezh evit ma tivizfent kenetrezo war danvezioù a bep seurt.
 # text[fra] = Globalement, la vocation des veillées est de réunir des brittophones de naissance avec des gens qui apprennent la langue afin qu’ils discutent entre eux sur des sujets de toutes sortes.
+# labels = to_check opab_parallel
 "<Pal>"
 	"pal" n f sg
 	"pal" n m sg
@@ -4009,6 +4111,7 @@
 
 # text = Alies ne gavont ket e diabarzh o framm ar barregezhioù ret evit diorren implij ar yezh ouzhpenn-se.
 # text[fra] = Souvent, ils ne trouvent pas à l’intérieur de leur structure les compétences nécessaires pour développer l’usage de la langue, qui plus est.
+# labels = to_check opab_parallel
 "<Alies>"
 	"alies" adv @advmod #1->3
 "<ne>"
@@ -4048,6 +4151,7 @@
 
 # text = Gouelioù hag abadennoù all
 # text[fra] = Fêtes et autres événements
+# labels = to_check opab_parallel
 "<Gouelioù>"
 	"gouel" n m pl
 	"gouel" n f pl
@@ -4060,6 +4164,7 @@
 
 # text = Abadennoù all a c’hell bezañ aozet gant Strollad ar Vro Bagan da skouer war dachenn ar c’hoariva.
 # text[fra] = D’autres spectacles peuvent être montés avec Strollad ar Vro Bagan, par exemple, sur le terrain du théâtre.
+# labels = to_check opab_parallel
 "<Abadennoù>"
 	"abadenn" n f pl
 "<all>"
@@ -4114,6 +4219,7 @@
 
 # text = An darn vrasañ eus ar stalioù pleustriñ a vez kinniget d’an dud deuet a bled gant un danvez liammet ouzh glad ar vro e mod pe vod.
 # text[fra] = La majorité des ateliers pratiques qui sont proposés aux adultes ont trait à une matière liée d’une manière ou d’une autre au patrimoine breton.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -4185,6 +4291,7 @@
 
 # text = E Frañs ne bled ket niveradeg ar boblañs gant tachennoù sellet outo evel traoù a denn d’ar vuhez prevez, abaoe 1962.
 # text[fra] = En France, depuis 1962, le recensement de la population ne s’occupe pas des domaines considérés comme relevant de la vie privée.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr 
 ;	"e" det pos m sp 
@@ -4262,6 +4369,7 @@
 
 # text = Gallout a ra an dra-se displegañ perak ne blij ket dezho lenn e brezhoneg.
 # text[fra] = Ceci peut expliquer en partie pourquoi ils n’aiment pas lire en breton.
+# labels = to_check opab_parallel
 "<Gallout>"
 	"gallout" vblex inf
 "<a>"
@@ -4313,6 +4421,7 @@
 
 # text = Ur skoilh diazez eo hemañ a adkaver war dachennoù all evel hini ar media (radio, skinwel).
 # text[fra] = Il s’agit là d’un point d’achoppement de base que l’on retrouve dans d’autres domaines comme celui des médias (radio, télévision).
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det
 "<skoilh>"
@@ -4367,6 +4476,7 @@
 
 # text = Keleier eus Breizh hag eus ar bed a-bezh zo kinniget gant Bremañ.
 # text[fra] = Bremañ propose des informations bretonnes et internationales.
+# labels = to_check opab_parallel
 "<Keleier>"
 	"Keleier" np al m sg 
 ;	"keloù" n m pl 
@@ -4397,6 +4507,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<20>"
 	"20" num mf pl
  % 
@@ -4444,6 +4555,7 @@
 
 # text = Skoazellet eo an embann e brezhoneg gant ar galloudoù foran.
 # text[fra] = L’édition en breton est aidée par les pouvoirs publics.
+# labels = to_check opab_parallel
 "<Skoazellet>"
 	"skoazellañ" vblex pp @root #1->0
 "<eo>"
@@ -4469,6 +4581,7 @@
 
 # text = Tennet en deus digant Skol-Uhel ar Vro ar galloud da ingalañ skoaziadoù war an dachenn-se.
 # text[fra] = Il a retiré à l’Institut Culturel de Bretagne le pouvoir de répartir des aides dans ce domaine.
+# labels = to_check opab_parallel
 "<Tennet>"
 	"tennañ" vblex pp
 ;	"tennañ" vblex imp p3 sg 
@@ -4507,6 +4620,7 @@
 
 # text = Da-heul he steuñv Politikerezh yezh he deus kinniget Rannvro Breizh lakaat e pleustr ur stignad a-ratozh evit harpañ an embann brezhonek e 2006.
 # text[fra] = A la suite de son plan de Politique linguistique, la Région Bretagne a proposé de mettre en place un dispositif sur mesure pour aider l’édition en breton en 2006.
+# labels = to_check opab_parallel
 "<Da-heul>"
 	"da-heul" pr @case
 	"da-heul" adv 
@@ -4565,6 +4679,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Abaoe>"
 	"abaoe" pr @case
 	"abaoe" adv 
@@ -4628,6 +4743,7 @@
 
 # text = Daoust d'un digresk etre 2002 ha 2004 eo kresket ar budjed roet d'an embann e brezhoneg gant Kuzul-rannvro Breizh.
 # text[fra] = Malgré une baisse entre 2002 et 2004, les budgets alloués à l’édition par le Conseil régional ont augmenté.
+# labels = to_check opab_parallel
 "<Daoust>"
 	"daoust" pr @case
 "<d'>"
@@ -4686,6 +4802,7 @@
 
 # text = Kinniget eo ar produiñ kleweled e brezhoneg d’ar c’houlz-se ivez.
 # text[fra] = La production audiovisuelle en langue bretonne est présentée par la même occasion.
+# labels = to_check opab_parallel
 "<Kinniget>"
 	"kinnig" vblex pp @root #1->0
 "<eo>"
@@ -4714,6 +4831,7 @@
 
 # text = Ehanet e vez gant an abadennoù brezhonek e-pad an hañv ivez.
 # text[fra] = Les émissions s’arrêtent également pendant la période estivale.
+# labels = to_check opab_parallel
 "<Ehanet>"
 	"ehanañ" vblex pp
 "<e>"
@@ -4741,6 +4859,7 @@
 
 # text = Mennozh an abadenn eo pediñ tud vrudet da weladenniñ ur gêr hervez o dibab.
 # text[fra] = Le concept de l’émission consiste à visiter une ville en compagnie de personnes célèbres suivant leur inspiration.
+# labels = to_check opab_parallel
 "<Mennozh>"
 	"mennozh" n m sg 
 "<an>"
@@ -4778,6 +4897,7 @@
 
 # text = Grafik 6 - Emdroadur ar c’hementad bloaziek a abadennoù brezhonek (en eurvezhioù) skignet gant pep chadenn eus 2000 da 2005.
 # text[fra] = Graphique 6 - Évolution du volume annuel d’émissions en langue bretonne (en heures) diffusé par chaque chaîne de 2000 à 2005
+# labels = to_check opab_parallel
 "<Grafik>"
 	"grafik" n m sg
 "<6>"
@@ -4827,6 +4947,7 @@
 
 # text = Sinet e oa bet ur c’hendivizad palioù ha danvezioù etre ar Stad, France 3 ha Strollegezh Korsika evit krouiñ ar chadenn e miz Ebrel 2006.
 # text[fra] = En avril 2006, une convention d’objectifs et de moyens a été signée entre l’État, France 3 et la Collectivité de Corse pour la création de cette chaîne.
+# labels = to_check opab_parallel
 "<Sinet>"
 	"sinañ" vblex pp @root #1->0
 "<e>"
@@ -4882,6 +5003,7 @@
 
 # text = Ledanaet eo bet ar c’hinnig programmoù skinwel gant an SND abaoe miz Meurzh 2005.
 # text[fra] = Depuis 2005, l’offre de programmes télévisés s’est agrandie grâce à la TNT.
+# labels = to_check opab_parallel
 "<Ledanaet>"
 	"ledanaat" vblex pp @root #1->0
 "<eo>"
@@ -4913,6 +5035,7 @@
 
 # text = N’eus nemet gant an araokadenn-se e vo tu da ginnig ur chadenn divyezhek e Breizh.
 # text[fra] = Seule cette avancée permettra de proposer une chaîne bilingue en Bretagne.
+# labels = to_check opab_parallel
 "<N’eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -4964,6 +5087,7 @@
 
 # text = Savet he deus renerezh ar skingomz a-enep dre ma n’eo ket gouest da gompren danvez an abadennoù.
 # text[fra] = La direction s’y est opposée, faute de pouvoir comprendre les émissions.
+# labels = to_check opab_parallel
 "<Savet>"
 	"sevel" vblex tv pp @root
 "<he deus>"
@@ -5002,6 +5126,7 @@
 
 # text = Met nevez eo ar c’hinnig-se.
 # text[fra] = Mais cette offre nouvelle commence à émerger.
+# labels = to_check opab_parallel
 "<Met>"
 	"met" cnjcoo @cc #1->2
 "<nevez>"
@@ -5019,6 +5144,7 @@
 
 # text = Klotañ a rafe un diviz a seurt-se gant ar soñj eo politikerezh yezh ar Rannvro un ahel politikel treuz.
 # text[fra] = Une décision de cet ordre serait en conformité avec la valeur d’axe politique transversal que la Région souhaite donner à sa politique linguistique.
+# labels = to_check opab_parallel
 "<Klotañ>"
 	"klotañ" vblex inf @root #1->0
 "<a>"
@@ -5064,6 +5190,7 @@
 
 # text = An diskoulmoù hag an diaesterioù evit diorren ar c’hinnig
 # text[fra] = Les solutions pour développer l’offre et les blocages
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<diskoulmoù>"
@@ -5085,6 +5212,7 @@
 
 # text = Evit ledanaat ar c’hinnig abadennoù e c’haller diorren ar rouedad a grog da zont war wel gant an eskemmoù abadennoù.
 # text[fra] = Afin d’étoffer l’offre d’émissions, on peut développer le réseau qui commence à émerger avec les échanges d’émissions.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case
 ;	"evañ" vblex imp p2 pl 
@@ -5147,6 +5275,7 @@
 
 # text = Stankoc’h eo deuet ar c’hinnig programmoù brezhonek da vezañ, gant an teknologiezhioù nevez ha dreist-holl gant ar Genrouedad.
 # text[fra] = L’offre de programmes en breton s’est étoffée grâce aux nouvelles technologies et, surtout, grâce à Internet.
+# labels = to_check opab_parallel
 "<Stankoc’h>"
 	"stank" adj sint comp
 ;	"stankañ" vblex fti p2 pl 
@@ -5202,6 +5331,7 @@
 
 # text = Un hent all eo ar podskignañ evit ledanaat ar skignañ abadennoù brezhoneg ha diorren ar skingomz e brezhoneg.
 # text[fra] = La baladodiffusion est une nouvelle voie ouverte pour généraliser la diffusion des émissions en breton et développer la radio en breton.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det
 "<hent>"
@@ -5254,6 +5384,7 @@
 
 # text = Ar framm-se a chom da vezañ dibabet.
 # text[fra] = Cette structure-là reste encore à déterminer.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -5288,6 +5419,7 @@
 
 # text = Gant lec'hienn An Tour Tan e vez skignet abadennoù Radio Kerne war-eeun abaoe deroù 2005 a-hend-all.
 # text[fra] = Par ailleurs, depuis début 2005, An Tour Tan diffuse en direct des émissions de Radio Kerne.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -5338,6 +5470,7 @@
 
 # text = Lakaet e vez enlinenn abadennoù keleier France Bleu Breizh-Izel e brezhoneg.
 # text[fra] = Les émissions en breton, consacrées aux informations, de France Bleu Breiz Izel sont mises en ligne.
+# labels = to_check opab_parallel
 "<Lakaet>"
 	"lakaat" vblex pp
 "<e>"
@@ -5366,6 +5499,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<En em>"
 	"en em" vpart ref
 "<ziorren>"
@@ -5403,6 +5537,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<France 3 Ouest>"
 	"France 3 Ouest" np al mf sg
 "<da skouer>"
@@ -5458,6 +5593,7 @@
 
 # text = Kinniget e vez keleier berr enlinenn bep Lun, diwar-benn ar sport, ar sinema, an dudi hag ar vuhez pemdeziek dre vras.
 # text[fra] = Chaque lundi, il propose brièvement en ligne des informations sur le sport, le cinéma, les loisirs et la vie quotidienne en général.
+# labels = to_check opab_parallel
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -5530,6 +5666,7 @@
 
 # text = Ur vammenn eo evit ar mediaoù, ar strollegezhioù foran hag an dud o deus c’hoant bezañ kelaouet diwar-benn kement a denn d’ar yezhoù bihanniver hag ar brezhoneg peurgetket.
 # text[fra] = C’est une source pour les médias, les collectivités territoriales et les personnes souhaitant se tenir informés de ce qui concerne les langues minoritaires et, notamment, le breton.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det
 "<vammenn>"
@@ -5606,6 +5743,7 @@
 
 # text = A-drugarez da labour hiniennoù pe kevredigezhioù ez eus eus al lec'hiennoù-se.
 # text[fra] = C'est grâce au travail de particuliers ou d'associations que ces sites existent.
+# labels = to_check opab_parallel
 "<A-drugarez da>"
 	"a-drugarez da" pr @case
 "<labour>"
@@ -5635,6 +5773,7 @@
 
 # text = Embann a ra traoù a vez produet ha skignet e brezhoneg koulz evit an dud deuet hag ar vugale.
 # text[fra] = Cette association publie des films produits et diffusés en breton tant pour les adultes que pour les enfants.
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf
 ;	"embann" vblex imp p2 sg 
@@ -5700,6 +5839,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Kartenn>"
 	"kartenn" n f sg
 "<1>"
@@ -5756,6 +5896,7 @@
 
 # text = Poan en deus an AVAL da anavezout ar brezhoneg
 # text[fra] = L’ANPE peine à reconnaître la langue bretonne
+# labels = to_check opab_parallel
 "<Poan>"
 	"poan" n f sg
 "<en deus>"
@@ -5784,6 +5925,7 @@
 
 # text = Ret eo anzav o deus sinet kalzig a dud evit embann e oa tomm o c’halon ouzh ar yezh met n’o deus graet netra fetis evit kas ar yezh-se war-raok war o zachenn.
 # text[fra] = Il faut admettre que de nombreuses personnes ont signé pour affirmer leur attachement à la langue, mais qu’elles n’ont rien fait de concret pour développer le breton dans leur domaine d’activité.
+# labels = to_check opab_parallel
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -5895,6 +6037,7 @@
 
 # text = Gant un 900 post-labour KILA bennak ha, gant se, tremen ur miliad a vrezhonegerien implijet warno e c’heller lavaret eo ar brezhoneg unan eus embregerezhioù bras Breizh.
 # text[fra] = Avec quelques 900 postes de travail ETP pourvus par plus d’un millier de brittophones, il est possible de dire que la langue bretonne est l’une des grandes entreprises de Bretagne.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case
 ;	"kant" num mf pl 
@@ -6000,6 +6143,7 @@
 
 # text = Tud n'o deus ket labouret biskoazh
 # text[fra] = Personnes n'ayant jamais travaillé
+# labels = to_check opab_parallel
 "<Tud>"
 	"den" n m pl
 "<n'>"
@@ -6015,6 +6159,7 @@
 
 # text = N’eo ket trawalc’h evit ma teufe un den da vezañ brezhoneger ampart ha gouest da gomz brezhoneg ouzh e vugale d’e dro.
 # text[fra] = Cette pratique est insuffisante pour permettre à une personne de devenir brittophone à part entière et d’être un agent de transmission de la langue à ses enfants.
+# labels = to_check opab_parallel
 "<N’>"
 	"ne" adv neg 
 "<eo>"
@@ -6091,6 +6236,7 @@
 
 # text = Ne c’hoari ket ar familh he roll ken evit treuzkas ar yezh, koulz lavaret.
 # text[fra] = La famille ne joue pratiquement plus son rôle dans la transmission de la langue bretonne.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg 
 "<c’hoari>"
@@ -6142,6 +6288,7 @@
 
 # text = Emouestl pep hini evit reiñ lañs en-dro d’an treuzkas eo diazez kendalc’h ar brezhoneg ha savidigezh e zazont.
 # text[fra] = La conservation de la langue régionale et la construction de son avenir repose sur l’implication de chacun dans la relance de la transmission familiale.
+# labels = to_check opab_parallel
 "<Emouestl>"
 	"emouestl" n m sg
 "<pep hini>"
@@ -6206,6 +6353,7 @@
 
 # text = Ret eo goulenn ar respont digant kuzulierien an departamantoù kentoc’h
 # text[fra] = Il faut demander la réponse au conseiller généraux plutôt.
+# labels = to_check opab_parallel
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -6238,6 +6386,7 @@
 
 # text = A-wechoù ne ouezer ket re petra da ober, pa n’eur ket tud diouzh ar vicher, pa weler kement a dud o c’houlenn, evit gouzout da biv reiñ sikour.
 # text[fra] = Parfois, on ne sait pas quoi faire, quand on n'est pas du métier, quand on voit tant de gens qui vous sollicitent, pour savoir à qui donner de l'aide.
+# labels = to_check opab_parallel
 "<A-wechoù>"
 	"a-wezhioù" adv 
 "<ne>"
@@ -6326,6 +6475,7 @@
 
 # text = Diskouez a ra e plij ar brezhoneg d’an dud.
 # text[fra] = Cela montre que le breton plaît aux gens.
+# labels = to_check opab_parallel
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -6370,6 +6520,7 @@
 
 # text = Kevredigezh an dilennidi vrezhonegerien a c’hellfe labourat gant an dilennidi-se.
 # text[fra] = L’association des élus bretonnants pourrait travailler avec tous ces élus-là.
+# labels = to_check opab_parallel
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<an>"
@@ -6409,6 +6560,7 @@
 
 # text = Ne vir ket e lakaer panelloù divyezhek bep tro ma vez digoret ur savadur nevez gant ar Gumuniezh kumunioù.
 # text[fra] = Cela n’empêche que dès qu’un nouveau bâtiment est inauguré par la Communauté de communes, on y applique une signalétique bilingue.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg 
 "<vir>"
@@ -6463,6 +6615,7 @@
 
 # text = Lavaret em eus ez eus da gaozeal eus ar yezh war bep tachenn.
 # text[fra] = J'ai dit qu'on devait parler de la langue dans tous les domaines.
+# labels = to_check opab_parallel
 "<Lavaret>"
 	"lavarout" vblex pp
 	"lavaret" vblex pp
@@ -6499,6 +6652,7 @@
 
 # text = Arabat rediañ an dud nemet e rank ar brezhoneg bezañ e pep lec’h.
 # text[fra] = On ne doit pas obliger les gens mais le breton doit être partout.
+# labels = to_check opab_parallel
 "<Arabat>"
 	"arabat" pr @case
 	"arabat" adv 
@@ -6541,6 +6695,7 @@
 
 # text = en ur zielfennañ stad ar yezh dre c’hennad ha dre dakad bro;
 # text[fra] = analysera la situation de la langue par secteurs et par zones géographiques ;
+# labels = to_check opab_parallel
 "<en ur>"
 	"en ur" vpart ppres
 ;	"e" pr 
@@ -6575,6 +6730,7 @@
 
 # text = hon eus c’hoant, der al lusk engouestl hag emglev-mañ, da lakaat splann youl hor c’hevredigezh da greñvaat ar brezhoneg.
 # text[fra] = ouhaitons, par cette dynamique d’engagement et d’accord, afficher la volonté de notre société à renforcer la langue bretonne.
+# labels = to_check opab_parallel
 "<hon eus>"
 	"kaout" vblex pri p1 pl 
 "<c’hoant>"
@@ -6633,6 +6789,7 @@
 
 # text = Muioc'h-mui e rank an diskoulmoù kinniget plegañ d'ar palioù kenwerzhel pe d'ar c'hontroll sokial.
 # text[fra] = Les solutions proposées sont de plus en plus soumises à des objectifs marchands ou de contrôle social.
+# labels = to_check opab_parallel
 "<Muioc'h-mui>"
 	"muioc’h-mui" adv 
 "<e>"
@@ -6683,6 +6840,7 @@
 
 # text = Kenlabourat gant ar c'hevredigezhioù a stourm abaoe dekvloaziadoù evit lakaat ar galloudoù publik a-dal d'o atebegezh.
 # text[fra] = Travailler en partenariat avec les associations qui luttent depuis des décennies pour mettre les pouvoirs publics face à leurs responsabilités
+# labels = to_check opab_parallel
 "<Kenlabourat>"
 	"kenlabourat" vblex inf
 "<gant>"
@@ -6737,6 +6895,7 @@
 
 # text = Ar palioù lakaet a oa ar c’henwerzh hag ar politikerezh, ar sevenadur hag ar relijion.
 # text[fra] = Ses objectifs sont le commerce et la politique, la culture et la religion.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -6788,6 +6947,7 @@
 
 # text = Deuet e oa Douarnenez, neuze, da borzh kentañ Frañs evit ar sardin.
 # text[fra] = Douarnenez est devenu le premier port sardinier français.
+# labels = to_check opab_parallel
 "<Deuet>"
 	"dont" vblex pp
 "<e>"
@@ -6830,6 +6990,7 @@
 
 # text = Gouestlet e oa bet Iliz ar Galon-Sakr da Zoue d’ar 16 a viz Gwengolo 1877.
 # text[fra] = L’église du Sacré Cœur est consacrée le 16 septembre 1877.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp
 ;	"gouestlañ" vblex imp p3 sg 
@@ -6884,6 +7045,7 @@
 
 # text = Deuet eo porzh Douarnenez a-benn d'en em ober ouzh plegennoù diaes ar gennad.
 # text[fra] = Le port de Douarnenez a su une nouvelle fois s’adapter à une conjoncture difficile.
+# labels = to_check opab_parallel
 "<Deuet>"
 	"dont" vblex pp
 "<eo>"
@@ -6917,6 +7079,7 @@
 
 # text = Frammoù ar bed prevez a ra kalz gant ar brezhoneg ivez.
 # text[fra] = Les organismes du secteur privé ne sont pas en reste.
+# labels = to_check opab_parallel
 "<Frammoù>"
 	"framm" n m pl
 "<ar>"
@@ -6964,6 +7127,7 @@
 
 # text = Ouzhpenn-se ne anavezer ket tout ar c’horfoù-egor a c’hallfe bezañ dañjerus evit an Douar.
 # text[fra] = De plus, nous ne connaissons pas tous les objets célestes dangereux pour la Terre.
+# labels = to_check opab_parallel
 "<Ouzhpenn-se>"
 	"ouzhpenn-se" adv 
 "<ne>"
@@ -7014,6 +7178,7 @@
 
 # text = Ul lec’h nevez d’ober kinnigoù
 # text[fra] = Une nouvelle force de proposition
+# labels = to_check opab_parallel
 "<Ul>"
 	"un" det ind sp @det
 "<lec’h>"
@@ -7032,6 +7197,7 @@
 
 # text = 1 dileuriad eus Ti Skiantoù an Den e, kinniget gant Kuzul skiantel an Ti,
 # text[fra] = 1 représentant de la Maison des Sciences de l'Homme en Bretagne, proposé par le Conseil scientifique de la Maison,
+# labels = to_check opab_parallel
 "<1>"
 	"1" num mf sg
 	"1" num mf pl
@@ -7083,6 +7249,7 @@
 
 # text = An hini a zo lakaet d’erlec’hiañ un ezel eus ar C’huzul, zo anvet betek fin respet an den erlec’hiet gantañ.
 # text[fra] = La personne désignée pour remplacer un membre du Conseil exerce son mandat jusqu'à expiration du mandat de la personne qu'elle remplace.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp 
 ;	"mont" vblex pri p1 sg 
@@ -7152,6 +7319,7 @@
 
 # text = Gwelet aozlun KSB evit pep bodad
 # text[fra] = Voir l'organigramme du CCB par commissions
+# labels = to_check opab_parallel
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -7174,6 +7342,7 @@
 
 # text = Lakaat war wel reolennoù diabarzh ar framm e brezhoneg
 # text[fra] = Affichage du réglement intérieur de l'organisme en langue bretonne
+# labels = to_check opab_parallel
 "<Lakaat war wel>"
 	"lakaat# war wel" vblex inf
 "<reolennoù>"
@@ -7194,6 +7363,7 @@
 
 # text = Tikedoù-kef e brezhoneg
 # text[fra] = Tickets de caisse en langue bretonne
+# labels = to_check opab_parallel
 "<Tikedoù>"
 	"tiked" n m pl
 "<->"
@@ -7205,6 +7375,7 @@
 
 # text = D'ar re a ginnig servijoù e brezhoneg d'ar re e darempred ganto e vo roet al label-mañ.
 # text[fra] = Ce label s'adresse aux organismes qui offrent des services en langue bretonne à leurs membres ou clients.
+# labels = to_check opab_parallel
 "<D'ar re>"
 	"da" pr @case
 		"ar re" prn rel mf pl
@@ -7255,6 +7426,7 @@
 
 # text = E 2003 e oa bet kefridiet servij Glad Yezhel an Ofis gant Brest Meurgêr ar Mor da sevel un teul dave a-benn kinnig ur stumm boutin d’an anvioù-lec’h.
 # text[fra] = En 2003, le service Patrimoine linguistique a été missionné par Brest Métropole Océane pour établir un document de référence afin de proposer une forme homogène des toponymes locaux.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case
 	"e" n m sp
@@ -7340,6 +7512,7 @@
 
 # text = An Emglev « Ya d’ar brezhoneg », kroget e 2001 gant 178 siner, a vod e 2007, goude 6 vloaz eta, 600 siner deuet eus holl dachennoù ar gennad prevez.
 # text[fra] = Lancé en 2001 avec 178 premiers signataires, « l’Accord du XXI siècle Ya d’ar brezhoneg » rassemble 6 ans plus tard en 2007 600 signataires issus de tous les domaines du secteur privé.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -7441,6 +7614,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Priz>"
 	"priz" n m sg
 "<rannvroel>"
@@ -7523,6 +7697,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Kregiñ>"
 	"kregiñ" vblex inf
 "<a>"
@@ -7560,6 +7735,7 @@
 
 # text = War an div dachenn-se ez eo anat ez eus da genlabourat.
 # text[fra] = Dans ces deux domaines une collaboration interrégionale s’impose.
+# labels = to_check opab_parallel
 "<War>"
 	"war" pr @case
 ;	"gwar" n m sg 
@@ -7595,6 +7771,7 @@
 
 # text = Ar skrivagner, Jakez Konan, em boa bet anavezet un tamm ouzhpenn-se.
 # text[fra] = J'avais d'ailleurs connu un peu son auteur Jakez Konan.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -7630,6 +7807,7 @@
 
 # text = Karaez hag ar Poc’hêr, zo anezhañ un douar sonerien, zo ivez un douar gouelioù hag hengounioù dre natur.
 # text[fra] = Terre de musiciens, Carhaix et le Poher est aussi une terre de fêtes et de traditions par nature.
+# labels = to_check opab_parallel
 "<Karaez>"
 	"Karaez" np top sg
 "<hag>"
@@ -7685,6 +7863,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Adalek>"
 	"adalek" pr @case
 "<an>"
@@ -7764,6 +7943,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Leugnit>"
 	"leuniañ" vblex pri p2 pl 
 ;	"leuniañ" vblex imp p2 pl 
@@ -7777,6 +7957,7 @@
 
 # text = Porzh diabarzh
 # text[fra] = Cour intérieure
+# labels = to_check opab_parallel
 "<Porzh>"
 	"porzh" n m sg
 "<diabarzh>"
@@ -7786,6 +7967,7 @@
 
 # text = Deiziadur ar gouelioù hag an abadennoù
 # text[fra] = Calendrier des fêtes et manifestations
+# labels = to_check opab_parallel
 "<Deiziadur>"
 	"deiziadur" n m sg
 "<ar>"
@@ -7805,6 +7987,7 @@
 
 # text = Renkañ aferioù ar gumun dre votiñ divizoù eo roll ar c’huzul-kêr.
 # text[fra] = Le rôle du conseil municipal consiste à régler par le vote de délibérations les affaires de la commune.
+# labels = to_check opab_parallel
 "<Renkañ>"
 	"renkañ" vblex inf
 "<aferioù>"
@@ -7837,6 +8020,7 @@
 
 # text = prientiñ ha seveniñ a ra divizoù ar c’huzul-kêr,
 # text[fra] = il prépare et exécute les délibérations du conseil municipal,
+# labels = to_check opab_parallel
 "<prientiñ>"
 	"prientiñ" vblex inf
 "<ha>"
@@ -7868,6 +8052,7 @@
 
 # text = lakaat takadoù gwareziñ en-dro d’al lec’hioù ma vez renet obererezhioù noazus.
 # text[fra] = Instauration de zones tampon autour des activités nuisantes.
+# labels = to_check opab_parallel
 "<lakaat>"
 	"lakaat" vblex inf
 "<takadoù>"
@@ -7901,6 +8086,7 @@
 
 # text = tres lec’hiañ an dachenn
 # text[fra] = plan de situation permettant de localiser le terrain
+# labels = to_check opab_parallel
 "<tres>"
 	"tres" n m sg
 ;	"tresañ" vblex imp p2 sg 
@@ -7919,9 +8105,11 @@
 
 # text = kinnigoù labour
 # text[fra] = offres d'emploi
+# labels = to_check opab_parallel
 "<kinnigoù labour>"
 	"kinnig# labour" n m pl
 
+# labels = to_check opab_parallel
 "<Kevredigezhioù>"
 	"kevredigezh" n f pl
 "<a-leizh>"
@@ -7962,6 +8150,7 @@
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
 
+# labels = to_check opab_parallel
 "<bloaz>"
 	"bloaz" n m sg
 "<un>"
@@ -7988,6 +8177,7 @@
 
 # text = un dachenn vasket diavaez,
 # text[fra] = un terrain de basket extérieur,
+# labels = to_check opab_parallel
 "<un>"
 	"un" det ind sp @det
 "<dachenn>"
@@ -8002,6 +8192,7 @@
 
 # text = Sellet ouzh bloazlevr ar c’hevredigezhioù (rubrikenn bloazlevr)
 # text[fra] = Se reporter à l'annuaire des associations (rubrique annuaire)
+# labels = to_check opab_parallel
 "<Sellet ouzh>"
 	"sellet# ouzh" vblex inf
 	"sellet# ouzh" vblex pp
@@ -8023,6 +8214,7 @@
 "<)>"
 	")" rpar
 
+# labels = to_check opab_parallel
 "<Sellet ouzh>"
 	"sellet# ouzh" vblex inf
 	"sellet# ouzh" vblex pp
@@ -8042,6 +8234,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<o>"
 	"o" n m sp
 	"o" det pos mf sp
@@ -8051,6 +8244,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -8065,6 +8259,7 @@
 
 # text = Adalek Breizh-Veur e c’haller mont da Norzh Breizh dre borzh Rosko.
 # text[fra] = Depuis la Grande-Bretagne, accès en Bretagne nord par le port de Roscoff.
+# labels = to_check opab_parallel
 "<Adalek>"
 	"adalek" pr @case
 "<Breizh-Veur>"
@@ -8098,6 +8293,7 @@
 
 # text = bilhedoù evit arvestoù a bep seurt;
 # text[fra] = une billetterie pour des spectacles divers;
+# labels = to_check opab_parallel
 "<bilhedoù>"
 	"bilhed" n m pl
 "<evit>"
@@ -8113,6 +8309,7 @@
 
 # text = Goude ma voe staget Breizh ouzh Bro-C’hall e 1532 e kendalc’has ar c’hevezerezh etre galloud an eskob ha hini an dug, en ur wanaat koulskoude.
 # text[fra] = Avec le rattachement de la Bretagne à la France en 1532, la rivalité entre le pouvoir épiscopal et ducal persiste mais s'atténue.
+# labels = to_check opab_parallel
 "<Goude ma>"
 	"goude ma" cnjadv 
 "<voe>"
@@ -8187,6 +8384,7 @@
 
 # text = N’ouzer ket da betra e talveze ar pezh-se pa oa bet graet ar c’hinkladur-se, dibar e Breizh.
 # text[fra] = On ignore la fonction de cette pièce lorsqu’y fut exécuté ce décor, exceptionnel en Bretagne.
+# labels = to_check opab_parallel
 "<N’>"
 	"ne" adv neg 
 "<ouzer>"
@@ -8246,6 +8444,7 @@
 
 # text = Kemper, kêr arz hag istor, a ginnig un endro bevañ dibar d’hec’h annezidi ha dizoloadennoù dibaouez d’he gweladennerien.
 # text[fra] = Quimper, ville d'art et d'histoire, offre à ses habitants un cadre de vie exceptionnel et à ses visiteurs des sources de découvertes inépuisables.
+# labels = to_check opab_parallel
 "<Kemper>"
 	"Kemper" np top sg
 "<,>"
@@ -8305,6 +8504,7 @@
 
 # text = E-pad c’hwec’h devezh, e-kreiz an hañv, e teu Kemper a-bezh da vezañ ur gouel bras gant sonioù, livioù ha dañsoù Breizh ha re sevenadurioù all ar bed.
 # text[fra] = Pendant six jours, au cœur de l'été, Le Cornouaille donne à Quimper des allures de fête parmi les sons, les couleurs et les danses de Bretagne et des autres cultures du monde.
+# labels = to_check opab_parallel
 "<E-pad>"
 	"e-pad" pr @case
 "<c’hwec’h>"
@@ -8390,6 +8590,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Kuitaat>"
 	"kuitaat" vblex inf
 "<ar>"
@@ -8420,6 +8621,7 @@
 
 # text = Ouzhpenn 40 obererezh sport a vez kinniget bep bloaz.
 # text[fra] = Plus de 40 activités sportives sont proposées chaque année.
+# labels = to_check opab_parallel
 "<Ouzhpenn>"
 	"ouzhpenn" pr 
 ;	"ouzhpennañ" vblex imp p2 sg 
@@ -8455,6 +8657,7 @@
 
 # text = Tachennoù dibar Breizh
 # text[fra] = Espaces remarquables de Bretagne
+# labels = to_check opab_parallel
 "<Tachennoù>"
 	"tachenn" n f pl
 "<dibar>"
@@ -8465,6 +8668,7 @@
 
 # text = Ur glad naturel pinvidik-mor eo hag a ouestl Rannvro Breizh gwareziñ ha talvoudekaat.
 # text[fra] = Un patrimoine naturel particulièrement riche que la Région Bretagne s'engage à préserver et valoriser.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det
 "<glad>"
@@ -8512,6 +8716,7 @@
 
 # text = Bep Merc’her da 10 e 30 (nemet e-pad ar vakañsoù-skol), e vez kinniget mare ar c’hontadennoù d’ar vugale adalek 3 bloaz.
 # text[fra] = Chaque mercredi à 10h30 (sauf pendant les vacances scolaires), il est proposé l’heure du conte pour les enfants à partir de 3 ans.
+# labels = to_check opab_parallel
 "<Bep>"
 	"bep" det ind mf sg
 ;	"pep" det ind mf sg 
@@ -8587,6 +8792,7 @@
 
 # text = Kevredigezh ar skoazellerezed-mamm grataet
 # text[fra] = Association des assistantes maternelles agréées
+# labels = to_check opab_parallel
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<ar>"
@@ -8603,6 +8809,7 @@
 
 # text = Merañ an takadoù naturel
 # text[fra] = Gestion des espaces naturels
+# labels = to_check opab_parallel
 "<Merañ>"
 	"merañ" vblex inf
 	"merañ" n m sg
@@ -8617,6 +8824,7 @@
 
 # text = Sevel pedadennoù divyezhek evit an abadennoù aozet get ar gumun.
 # text[fra] = Rédaction des cartons d'invitations bilingues pour les manifestations organisées dans la commune
+# labels = to_check opab_parallel
 "<Sevel>"
 	"sevel" vblex tv inf 
 "<pedadennoù>"
@@ -8651,6 +8859,7 @@
 
 # text = Sonadegoù, arvestoù diehan, fest-noz
 # text[fra] = Concerts, spectacle permanent, Fest Noz,
+# labels = to_check opab_parallel
 "<Sonadegoù>"
 	"sonadeg" n f pl
 "<,>"
@@ -8666,6 +8875,7 @@
 
 # text = Kevredigezh sevenadurel a ginnig arvestoù hag abadennoù a vesk arz, natur ha gouiziegezh.
 # text[fra] = Association culturelle proposant des spectacles et animations mêlant art, nature et connaissance.
+# labels = to_check opab_parallel
 "<Kevredigezh>"
 	"kevredigezh" n f sg
 "<sevenadurel>"
@@ -8716,6 +8926,7 @@
 
 # text = Pounneroc’h e oa karg an tour nevez eget hini an tour kent, eus an 11vet kantved.
 # text[fra] = Les charges de cette nouvelle tour sont plus lourdes que la précédente datant du 11e siècle.
+# labels = to_check opab_parallel
 "<Pounneroc’h>"
 	"pounner" adj sint comp
 "<e>"
@@ -8780,6 +8991,7 @@
 
 # text = Ur raktres bras e oa, pa oa anv da gaout un talbenn daou-ugent metr hed.
 # text[fra] = Ce projet est ambitieux puisqu’il prévoit une longueur de façade de quarante mètres.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<raktres>"
@@ -8817,6 +9029,7 @@
 
 # text = Koll a reas an abatioù eus o galloud neuze.
 # text[fra] = Les abbayes perdent alors de leur pouvoir.
+# labels = to_check opab_parallel
 "<Koll>"
 	"koll" vblex inf @root #1->0
 "<a>"
@@ -8840,6 +9053,7 @@
 
 # text = Kresk kêr
 # text[fra] = Centre ville
+# labels = to_check opab_parallel
 "<Kresk>"
 	"kresk" n m sg @root #1->0
 "<kêr>"
@@ -8847,6 +9061,7 @@
 
 # text = Gant ar porzh o kreskiñ e teuas greantioù d’en em staliañ eno.
 # text[fra] = Le développement du port incite les industries à s’y implanter.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ar>"
@@ -8876,6 +9091,7 @@
 
 # text = Hiziv eo deuet ar porzh da vezañ ul lec’h plijus da vont da vale, ha dizoleiñ al loened hag ar plant a vev ar geunioù.
 # text[fra] = Aujourd’hui, le port est devenu un lieu idéal pour une promenade au calme à la découverte de la faune et de la flore des marais.
+# labels = to_check opab_parallel
 "<Hiziv>"
 	"hiziv" adv 
 "<eo>"
@@ -8956,6 +9172,7 @@
 
 # text = Gallout a ra ar vugale sevel goulennoù ouzh o zud hag ar gerioù-alc'hwez sikour anezho da respont.
 # text[fra] = Un enfant peut poser une question à ses parents, et les mots-clés aident les parents à répondre.
+# labels = to_check opab_parallel
 "<Gallout>"
 	"gallout" vblex inf
 "<a>"
@@ -9024,6 +9241,7 @@
 
 # text = Pa vez feurmet al lojeiz, e rank an hêred daskoriñ ar feurmoù d’ar pried chomet bev.
 # text[fra] = Lorsque le logement est assuré en vertu d’un contrat de bail, la succession doit rembourser les loyers au conjoint survivant.
+# labels = to_check opab_parallel
 "<Pa>"
 	"pa" cnjsub 
 "<vez>"
@@ -9081,6 +9299,7 @@
 
 # text = Kinnig a raio kelc’hioù keltiek gwellañ Breizh o frogramm 2002.
 # text[fra] = Les meilleurs cercles de Bretagne présenteront leur programme 2002.
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<a>"
@@ -9106,6 +9325,7 @@
 
 # text = En em ouestlet eo mererien ar Park da lakaat an traoù da cheñch eus ar gwellañ.
 # text[fra] = Les gestionnaires du Parc se sont engagés à y remédier, en recherchant une harmonie.
+# labels = to_check opab_parallel
 "<En em>"
 	"en em" vpart ref
 "<ouestlet>"
@@ -9139,6 +9359,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Dan>"
 	"Dan" n m sg
 	"dan" n m sg
@@ -9195,6 +9416,7 @@
 
 # text = Dre ur gemennadenn o deus embannet ar ministr hag an tri frezidant e c’hallfe en em glevet ar Surentez sokial ha dileuridi ar vezeien frankizour a-benn nebeut.
 # text[fra] = Dans un communiqué, le ministre et les trois présidents ont déclaré qu'un "accord cadre doit pouvoir être conclu au plus tôt" entre la Sécu et les représentants des médecins libéraux.
+# labels = to_check opab_parallel
 "<Dre>"
 	"dre" pr @case
 "<ur>"
@@ -9249,6 +9471,7 @@
 
 # text = Ampart-kenañ, anavezet gant an holl evel « an hini gwellañ », ne baouezas ket da luskañ euredoù betek fin e vuhez.
 # text[fra] = Virtuose, reconnu par tous comme « le meilleur », il ne cessera d’animer des noces jusqu’à la fin de sa vie.
+# labels = to_check opab_parallel
 "<Ampart-kenañ>"
 	"ampart" adj mf sp @nsubj 
 		"kenañ" adv @advmod
@@ -9301,6 +9524,7 @@
 
 # text = Adalek ar bloavezhioù 1880 e oa tremenet ar gevredigezh diwar ar maez d’ar bed nevez, ar pezh zo bet kaoz d’an argerzh cheñch sevenadur.
 # text[fra] = À partir des années 1880, l’ancienne société rurale bascule dans le monde moderne, entraînant un processus d’acculturation.
+# labels = to_check opab_parallel
 "<Adalek>"
 	"adalek" pr @case #1->3
 "<ar>"
@@ -9356,6 +9580,7 @@
 
 # text = An digarezioù da seniñ
 # text[fra] = Les occasions de jeu
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -9370,6 +9595,7 @@
 
 # text = An hini kentañ a c’houneze ur seizenn, an eil ivez »
 # text[fra] = Le premier cavalier gagnait un ruban, le deuxième aussi »
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp 
 ;	"mont" vblex pri p1 sg 
@@ -9412,6 +9638,7 @@
 
 # text = Skrid-degemer embannet e-pad gouel Aoter ar vammvro
 # text[fra] = Reçu émis lors de la fête de l’Autel de la patrie
+# labels = to_check opab_parallel
 "<Skrid>"
 	"skrid" n m sg
 "<->"
@@ -9441,6 +9668,7 @@
 
 # text = Ar chomlec’h postel-mañ zo anezhañ dija, ne c’hallit ket krouiñ ar gont-mañ
 # text[fra] = Cet E-mail existe déjà vous ne pouvez pas créer ce compte
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -9484,6 +9712,7 @@
 	"mañ" adv 
 
 +
+# labels = to_check opab_parallel
 "<100>"
 	"100" num mf pl
  % 
@@ -9555,6 +9784,7 @@
 "<)>"
 	")" rpar
 
+# labels = to_check opab_parallel
 "<260>"
 	"260" num mf pl
 "<M>"
@@ -9622,6 +9852,7 @@
 
 # text = Tremen er c’hef
 # text[fra] = Le passage en caisse
+# labels = to_check opab_parallel
 "<Tremen>"
 	"tremen" adj mf sp 
 ;	"tremen" vblex imp p2 sg 
@@ -9637,6 +9868,7 @@
 
 # text = Traoñ ar skalfad, krec'h ar skalfad, kreiz ar skalfad
 # text[fra] = Bas de gamme, haut de gamme, milieu de gamme
+# labels = to_check opab_parallel
 "<Traoñ>"
 	"traoñ" n m sg
 "<ar>"
@@ -9668,6 +9900,7 @@
 
 # text = Ar bonn-mañ eo ar monumant milourel koshañ zo anavezet e Breizh.
 # text[fra] = Cette borne est le plus ancien monument milliaire connu en Bretagne.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det
 "<bonn>"
@@ -9697,6 +9930,7 @@
 
 # text = Warno e veze lakaet anv ar gwaz pe hini ar wreg.
 # text[fra] = Elles portaient le nom du mari ou de l’épouse.
+# labels = to_check opab_parallel
 "<Warno>"
 	"war" pr @case #1->2
 		"indirect" prn obj p3 mf pl @obl #2->4
@@ -9725,6 +9959,7 @@
 
 # text = Un torkad bokedoù mar plij.
 # text[fra] = Un bouquet s'il vous plaît.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<torkad>"
@@ -9736,6 +9971,7 @@
 "<.>"
 	"." sent @punct #5->2
 
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -9749,6 +9985,7 @@
 	"kuzul#-rannvro" n m sg
 ;	"Kuzul-rannvro" np al m sg 
 
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -9764,6 +10001,7 @@
 
 # text = Get an TTB emañ Gwened àr-hed teir euriad d'ar muiañ a Bariz, gant meur a dren bemdez.
 # text[fra] = En TGV, Vannes est à moins de trois heures de Paris, avec de nombreuses liaisons par jour.
+# labels = to_check opab_parallel
 "<Get>"
 	"get" pr @case #1->3
 "<an>" 
@@ -9801,6 +10039,7 @@
 
 # text = Kresk an niver ar skolidi, en holl, zo 660 skoliad e-keñver an distro-skol kent.
 # text[fra] = La croissance des effectifs en nombre absolu est de 660 élèves par rapport à la rentrée dernière.
+# labels = to_check opab_parallel
 "<Kresk>"
 	"kresk" n m sg @nsubj #1->12
 "<an>"
@@ -9838,6 +10077,7 @@
 
 # text = DASTUMADOÙ HA TUD
 # text[fra] = DES COLLECTIONS ET DES HOMMES
+# labels = to_check opab_parallel
 "<DASTUMADOÙ>"
 	"dastumad" n m pl @root #1->0
 "<HA>"
@@ -9847,6 +10087,7 @@
 
 # text = An dud a vor
 # text[fra] = Les gens de la mer
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -9868,6 +10109,7 @@
 
 # text = war tachennoù an deskadurezh, ar stummerezh hag ar yaouankiz
 # text[fra] = dans les domaines de l'éducation, de la formation et de la jeunesse
+# labels = to_check opab_parallel
 "<war>"
 	"war" pr @case
 ;	"gwar" n m sg 
@@ -9896,6 +10138,7 @@
 
 # text = Korn ar c’hevredigezhioù
 # text[fra] = Espace associations
+# labels = to_check opab_parallel
 "<Korn>"
 	"korn" n m sg
 "<ar>"
@@ -9906,6 +10149,7 @@
 
 # text = Àr tachenn ar sevenadur
 # text[fra] = Dans le domaine culturel
+# labels = to_check opab_parallel
 "<Àr>"
 	"àr" pr @case #1->2
 "<tachenn>"
@@ -9917,6 +10161,7 @@
 
 # text = Ur gevredigezh rannvroel e servij obererien sevenadurel ar c'humunioù war ar maez pe ar c'hêrioù krenn.
 # text[fra] = Une association régionale au service des acteurs culturels des communes en zones rurales et des villes moyennes.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gevredigezh>"
@@ -9954,6 +10199,7 @@
 
 # text = Pa oa kroget ajañs sevenadurel Breizh - tost ugent vloaz zo - da feurmiñ diskouezadegoù-bale, e oa er penn a-raok ha brudet dre ar vro war an dachenn-se.
 # text[fra] = En créant - il y a près de vingt ans - une activité de location d'expositions itinérantes, l'agence culturelle de Bretagne a été un précurseur, nationalement reconnu, dans ce domaine.
+# labels = to_check opab_parallel
 "<Pa>"
 	"pa" cnjsub 
 "<oa>"
@@ -10044,6 +10290,7 @@
 
 # text = Abaoe 2001 e vez kinniget arvestoù digor d'an holl gant an ti-kêr.
 # text[fra] = Depuis 2001, la municipalité propose au public des spectacles ouverts à tous.
+# labels = to_check opab_parallel
 "<Abaoe>"
 	"abaoe" pr @case #1->2
 "<2001>"
@@ -10074,6 +10321,7 @@
 
 # text = Standoù ar c'hevredigezhioù
 # text[fra] = Les stands des associations
+# labels = to_check opab_parallel
 "<Standoù>"
 	"stand" n m pl @root #1->0
 "<ar>"
@@ -10083,6 +10331,7 @@
 
 # text = Ofis ar Brezhoneg eo aozadur dave ar strollegezhioù lec'hel àr tachenn ar politikerezh yezh.
 # text[fra] = L'Office de la Langue Bretonne est l'organisme de référence pour les collectivités locales en matière de politique linguistique.
+# labels = to_check opab_parallel
 "<Ofis ar Brezhoneg>"
 	"Ofis ar Brezhoneg" np al mf sg @nsubj #1->3
 "<eo>"
@@ -10112,6 +10361,7 @@
 
 # text = Cheñch a ra perzhioù an traezoù tresañ diuzet
 # text[fra] = Modifie les propriétés des objets dessins sélectionnés
+# labels = to_check opab_parallel
 "<Cheñch>"
 	"cheñch" vblex inf @root
 "<a>"
@@ -10131,6 +10381,7 @@
 
 # text = Krouiñ ur roll niverennet diouzh an arventennoù dre ziouer red
 # text[fra] = Crée une liste numérotée en fonction des paramètres par défaut actuels
+# labels = to_check opab_parallel
 "<Krouiñ>"
 	"krouiñ" vblex inf @root #1->0
 "<ur>"
@@ -10154,6 +10405,7 @@
 
 # text = Lakaat bannoù gant an hevelep ledander
 # text[fra] = Forcer des colonnes de largeur identique
+# labels = to_check opab_parallel
 "<Lakaat>"
 	"lakaat" vblex inf
 "<bannoù>"
@@ -10172,6 +10424,7 @@
 
 # text = Diskouez al lec'hioù miret
 # text[fra] = Afficher les espaces réservés
+# labels = to_check opab_parallel
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -10186,6 +10439,7 @@
 
 # text = Keñveriañ an teul-mañ gant ar stumm enrollet da ziwezhañ war ar servijer.
 # text[fra] = Compare ce document avec la dernière version enregistrée sur le serveur.
+# labels = to_check opab_parallel
 "<Keñveriañ>"
 	"keñveriañ" vblex inf @root #1->0
 "<an>"
@@ -10217,6 +10471,7 @@
 
 # text = Eilañ war-du
 # text[fra] = Copier vers
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf @root #1->0
 "<war-du>"
@@ -10224,6 +10479,7 @@
 
 # text = Titouroù all an implijer
 # text[fra] = Autres informations utilisateur
+# labels = to_check opab_parallel
 "<Titouroù>"
 	"titour" n m pl
 ;	"ditour" n m pl 
@@ -10239,6 +10495,7 @@
 
 # text = Arventennoù ar gont
 # text[fra] = Paramètres du compte
+# labels = to_check opab_parallel
 "<Arventennoù>"
 	"arventenn" n f pl
 "<ar>"
@@ -10252,6 +10509,7 @@
 
 # text = Roll skignañ nevez
 # text[fra] = Nouvelle liste de distribution
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -10265,6 +10523,7 @@
 
 # text = Klaskit gwelet hag-eñ eo reizh hoc'h anv implijer hag ho ker-tremen.
 # text[fra] = Vérifiez que votre nom d'utilisateur et que votre mot de passe sont corrects.
+# labels = to_check opab_parallel
 "<Klaskit>"
 	"klask" vblex imp p2 pl @root #1->0
 "<gwelet>"
@@ -10292,6 +10551,7 @@
 
 # text = Ne c'haller ouzhpennañ implijer ebet d'ar roll.
 # text[fra] = Impossible d'ajouter un ou plusieurs utilisateurs à la liste.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<c'haller>"
@@ -10312,6 +10572,7 @@
 
 # text = Eilañ perzhioù an teuliad
 # text[fra] = Copier les propriétés du dossier
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf @root #1->0
 "<perzhioù>"
@@ -10323,6 +10584,7 @@
 
 # text = Ne c'haller ket lenn ur perzh skrivañ hepken.
 # text[fra] = Impossible de lire une propriété écriture seule.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<c'haller>"
@@ -10344,6 +10606,7 @@
 
 # text = Unan eus ho kontoù pe meur a gont a gas ar c'hemennadoù nevez d'ar restr roadennoù-mañ.
 # text[fra] = Un ou plusieurs de vos comptes remettent les nouveaux messages dans ce fichier de données.
+# labels = to_check opab_parallel
 "<Unan>"
 	"unan" num mf sg @nsubj #1->9
 "<eus>"
@@ -10382,6 +10645,7 @@
 
 # text = Eilañ patrom
 # text[fra] = Copier le modèle de
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf
 "<patrom>"
@@ -10389,6 +10653,7 @@
 
 # text = Servijer kas
 # text[fra] = Serveur sortant
+# labels = to_check opab_parallel
 "<Servijer>"
 	"servijer" n m sg
 ;	"servijañ" vblex pri impers sp 
@@ -10401,6 +10666,7 @@
 
 # text = Implijout ar memes arventennoù ha re ma servijer posteloù degas
 # text[fra] = Utiliser les mêmes paramètres que mon serveur de courrier entrant
+# labels = to_check opab_parallel
 "<Implijout>"
 	"implijout" vblex inf
 "<ar>"
@@ -10435,6 +10701,7 @@
 
 # text = Evel-se e tiwaller na vefe paouezet ho roll gant embanner un deiziadur Kenrouedad.
 # text[fra] = Ceci permet d'éviter la suspension éventuelle de votre liste par l'éditeur d'un calendrier Internet.
+# labels = to_check opab_parallel
 "<Evel-se>"
 	"evel-se" adv @dep #1->3
 "<e>"
@@ -10466,6 +10733,7 @@
 
 # text = Kevreañ ouzh ur servijer LDAP evit klask ha gwiriañ ar chomlec'hioù postel ha titouroù all.
 # text[fra] = Se connecter à un serveur LDAP pour rechercher et vérifier les adresses de messagerie et autres informations.
+# labels = to_check opab_parallel
 "<Kevreañ>"
 	"kevreañ" vblex inf @root #1->0
 "<ouzh>"
@@ -10501,6 +10769,7 @@
 
 # text = Gant ar servijer-mañ e vez goulennet diganin kevreañ
 # text[fra] = Ce serveur exige que je me connecte
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ar>"
@@ -10523,6 +10792,7 @@
 
 # text = Skriverezit an anv a fell deoc'h e vefe graet dave anezhañ evit ar gont-mañ.
 # text[fra] = Tapez le nom à l'aide duquel vous voulez faire référence à ce compte.
+# labels = to_check opab_parallel
 "<Skriverezit>"
 ;	"skriverezañ" vblex imp p2 pl 
 "<an>"
@@ -10583,6 +10853,7 @@
 
 # text = Kefluniet brav eo ho kont postel evit implijout
 # text[fra] = Votre compte de messagerie est correctement configuré pour utiliser
+# labels = to_check opab_parallel
 "<Kefluniet>"
 	"kefluniañ" vblex pp @root #1->0
 "<brav>"
@@ -10602,6 +10873,7 @@
 
 # text = Kefluniañ gant an dorn arventennoù ar servijer
 # text[fra] = Configurer manuellement les paramètres du serveur
+# labels = to_check opab_parallel
 "<Kefluniañ>"
 	"kefluniañ" vblex inf
 "<gant>"
@@ -10628,6 +10900,7 @@
 
 # text = An titouroù a eskemmit gant al lec'hienn-mañ ne c'hallont ket bezañ lennet pe cheñchet gant implijerien all.
 # text[fra] = Les informations que vous échangez avec ce site ne peuvent pas être consultées ou modifiées par d'autres utilisateurs.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<titouroù>"
@@ -10669,6 +10942,7 @@
 
 # text = Skriverezit anv ar voest posteloù en deus kefluniet ho merour evidoc'h. 
 # text[fra] = Tapez le nom de la boîte aux lettres que l'administrateur a configurée pour vous. 
+# labels = to_check opab_parallel
 "<Skriverezit>"
 	"skriverezañ" vblex imp p2 pl @root #1->0
 "<anv>"
@@ -10695,6 +10969,7 @@
 
 # text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
 # text[spa] = Generalmente el nombre de buzón de correos corresponde a tu nombre de usuario.
+# labels = to_check opab_parallel
 "<Peurliesañ>"
 	"peurliesañ" adv @advmod #1->3
 "<e>"
@@ -10722,6 +10997,7 @@
 
 # text = Embann deiziadurioù all
 # text[fra] = Publier d'autres calendriers
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -10734,6 +11010,7 @@
 
 # text = Arventennoù an deiziadur embannet
 # text[fra] = Paramètres du calendrier publié
+# labels = to_check opab_parallel
 "<Arventennoù>"
 	"arventenn" n f pl
 "<an>"
@@ -10746,6 +11023,7 @@
 	"embann" vblex pp
 ;	"embann" vblex imp p3 sg 
 
+# labels = to_check opab_parallel
 "<Embannet>"
 	"embann" vblex pp
 ;	"embann" vblex imp p3 sg 
@@ -10759,6 +11037,7 @@
 
 # text = Roll pennañ ar rummadoù
 # text[fra] = Liste principale des catégories
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -10774,6 +11053,7 @@
 
 # text = Aozer diwezhañ
 # text[fra] = Dernier auteur
+# labels = to_check opab_parallel
 "<Aozer>"
 	"aozer" n m sg
 ;	"aozañ" vblex pri impers sp 
@@ -10783,6 +11063,7 @@
 
 # text = Perzhioù ar vaezienn
 # text[fra] = Propriétés du champ
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -10793,6 +11074,7 @@
 
 # text = Framm hep liv.
 # text[fra] = Structure sans couleur.
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -10809,6 +11091,7 @@
 
 # text = Gorread 3M gant ur framm war wel.
 # text[fra] = Surface 3D avec structure apparente.
+# labels = to_check opab_parallel
 "<Gorread>"
 	"gorread" n m sg
 "<3>"
@@ -10830,9 +11113,11 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<(>"
 	"(" lpar
 
+# labels = to_check opab_parallel
 "<Astennoù>"
 	"astenn" n m pl
 "<Stilo>"
@@ -10842,6 +11127,7 @@
 
 # text = Pouezit war F1 evit kaout skoazell war ar voest kendiviz
 # text[fra] = Appuyez sur F1 pour obtenir de l'aide sur la boîte de dialogue
+# labels = to_check opab_parallel
 "<Pouezit>"
 	"pouezañ" vblex imp p2 pl @root #1->0
 "<war>"
@@ -10865,6 +11151,7 @@
 
 # text = Kelligoù eilet
 # text[fra] = Cellule copiée
+# labels = to_check opab_parallel
 "<Kelligoù>"
 	"kellig" n f pl
 "<eilet>"
@@ -10873,6 +11160,7 @@
 
 # text = Linennoù Krec'h-Traoñ diuzet…
 # text[fra] = Lignes Haut-Bas sélectionnées...
+# labels = to_check opab_parallel
 "<Linennoù>"
 	"linenn" n f pl
 "<Krec'h>"
@@ -10889,6 +11177,7 @@
 
 # text = Eilañ ar grafik
 # text[fra] = Copier le graphique
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf @root #1->0
 "<ar>"
@@ -10898,6 +11187,7 @@
 
 # text = Un destenn erlec'hiañ a vez implijet ivez evit an dud nammet.
 # text[fra] = Un texte de remplacement est également utilisé pour aider les personnes handicapées.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<destenn>"
@@ -10925,6 +11215,7 @@
 
 # text = N'eo ket implijet ar perzh-mañ gant ahel an talvoudoù.
 # text[fra] = Cette propriété n'est pas utilisée par les axes des valeurs.
+# labels = to_check opab_parallel
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eo>"
@@ -10952,6 +11243,7 @@
 
 # text = N'eo ket implijet ar perzh-mañ gant ahel ar rummadoù.
 # text[fra] = Propriété non utilisée par les axes des catégories.
+# labels = to_check opab_parallel
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eo>"
@@ -10979,6 +11271,7 @@
 
 # text = Roll restroù
 # text[fra] = Liste de fichiers
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -10988,6 +11281,7 @@
 
 # text = Enrollañ an takad labour
 # text[fra] = Enregistrer l'espace de travail...`E
+# labels = to_check opab_parallel
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -11002,6 +11296,7 @@
 
 # text = Sil an danevell
 # text[fra] = Filtre du rapport
+# labels = to_check opab_parallel
 "<Sil>"
 	"Sil" np top sg 
 ;	"silañ" vblex imp p2 sg 
@@ -11020,6 +11315,7 @@
 
 # text = Perzh brouilhed
 # text[fra] = Qualité brouillon
+# labels = to_check opab_parallel
 "<Perzh>"
 	"perzh" n m sg
 ;	"berzh" n m sg 
@@ -11028,6 +11324,7 @@
 
 # text = A grec'h da draoñ
 # text[fra] = Du haut vers le bas
+# labels = to_check opab_parallel
 "<A>"
 	"a" pr 
 ;	"a" vpart 
@@ -11046,6 +11343,7 @@
 
 # text = Dilec'hiañ pe eilañ
 # text[fra] = Déplacer ou copier
+# labels = to_check opab_parallel
 "<Dilec'hiañ>"
 	"dilec’hiañ" vblex inf
 "<pe>"
@@ -11057,6 +11355,7 @@
 
 # text = Ne c'haller ket kevreañ ouzh ar servijer evit ar poent.
 # text[fra] = Impossible d'établir une connexion avec le serveur en ce moment.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg 
 "<c'haller>"
@@ -11079,6 +11378,7 @@
 
 # text = Diskwel prenestr ar Perzhioù
 # text[fra] = Afficher la fenêtre des Propriétés
+# labels = to_check opab_parallel
 "<Diskwel>"
 	"diskwel" vblex inf
 ;	"diskwel" vblex imp p2 sg 
@@ -11093,6 +11393,7 @@
 
 # text = Bannoù taolenn a-gleiz
 # text[fra] = Colonnes de tableau à gauche
+# labels = to_check opab_parallel
 "<Bannoù>"
 	"bann" n m pl
 "<taolenn>"
@@ -11104,6 +11405,7 @@
 
 # text = Perzhioù ar roadennoù diavaez
 # text[fra] = Propriétés des données externes
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -11117,6 +11419,7 @@
 
 # text = Brasaat an arouez
 # text[fra] = Agrandir le symbole
+# labels = to_check opab_parallel
 "<Brasaat>"
 	"brasaat" vblex inf
 "<an>"
@@ -11126,6 +11429,7 @@
 "<arouez>"
 	"arouez" n f sg
 
+# labels = to_check opab_parallel
 "<Amdreiñ>"
 	"amdreiñ" vblex inf
 "<e>"
@@ -11142,6 +11446,7 @@
 
 # text = Kemmañ an implijer
 # text[fra] = Modifier l'utilisateur
+# labels = to_check opab_parallel
 "<Kemmañ>"
 	"kemmañ" vblex inf
 "<an>"
@@ -11154,6 +11459,7 @@
 
 # text = Pellgargañ an talbennoù
 # text[fra] = Télécharger les en-têtes
+# labels = to_check opab_parallel
 "<Pellgargañ>"
 	"pellgargañ" vblex inf
 "<an>"
@@ -11165,6 +11471,7 @@
 
 # text = Roll ebet
 # text[fra] = Aucune liste
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11174,6 +11481,7 @@
 
 # text = Brasaat d'al live
 # text[fra] = Agrandir au niveau
+# labels = to_check opab_parallel
 "<Brasaat>"
 	"brasaat" vblex inf
 "<d'al>"
@@ -11183,6 +11491,7 @@
 	"live" n m sg 
 ;	"livañ" vblex pii p3 sg 
 
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -11193,14 +11502,17 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<.>"
 	"." sent @punct
 
 # text = Diskouez takad labour an emvod
 # text[fra] = Afficher l'espace de travail de réunion
+# labels = to_check opab_parallel
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -11217,6 +11529,7 @@
 "<emvod>"
 	"emvod" n m sg
 
+# labels = to_check opab_parallel
 "<Muioc'h a>"
 	"muioc’h a" pr @case
 "<implijerien>"
@@ -11224,19 +11537,23 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<.>"
 	"." sent @punct
 
 # text = Takad tresañ
 # text[fra] = Zone de dessin
+# labels = to_check opab_parallel
 "<Takad tresañ>"
 	"takad# tresañ" n m sg
 
 # text = Implijout an anv implijer hag ar ger-tremen-mañ
 # text[fra] = Utiliser le nom d'utilisateur et le mot de passe suivants
+# labels = to_check opab_parallel
 "<Implijout>"
 	"implijout" vblex inf
 "<an>"
@@ -11272,6 +11589,7 @@
 
 # text = Sil servijer
 # text[fra] = Filtre de serveur
+# labels = to_check opab_parallel
 "<Sil>"
 	"Sil" np top sg 
 ;	"silañ" vblex imp p2 sg 
@@ -11284,6 +11602,7 @@
 
 # text = Hizivaat eilenn an takad labour
 # text[fra] = Mettre à jour la copie de l'espace de travail
+# labels = to_check opab_parallel
 "<Hizivaat>"
 	"hizivaat" vblex inf
 "<eilenn>"
@@ -11300,6 +11619,7 @@
 
 # text = Ouzhpennañ an domani da roll ar gaserien aprouet
 # text[fra] = Ajouter le domaine à la liste des expéditeurs approuvés
+# labels = to_check opab_parallel
 "<Ouzhpennañ>"
 	"ouzhpennañ" vblex inf
 "<an>"
@@ -11326,6 +11646,7 @@
 
 # text = Mirout ma eilenn
 # text[fra] = Conserver ma copie
+# labels = to_check opab_parallel
 "<Mirout>"
 	"mirout" vblex inf
 "<ma>"
@@ -11337,6 +11658,7 @@
 
 # text = Hizivaat eilenn ar servijer
 # text[fra] = Mettre à jour la copie du serveur
+# labels = to_check opab_parallel
 "<Hizivaat>"
 	"hizivaat" vblex inf
 "<eilenn>"
@@ -11351,6 +11673,7 @@
 
 # text = Takadoù testenn
 # text[fra] = Zones de texte
+# labels = to_check opab_parallel
 "<Takadoù>"
 	"takad" n m pl
 "<testenn>"
@@ -11358,6 +11681,7 @@
 
 # text = Eus ar c'horn
 # text[fra] = Du coin
+# labels = to_check opab_parallel
 "<Eus>"
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
@@ -11369,6 +11693,7 @@
 
 # text = Roll an trevelloù pemdeziek
 # text[fra] = Liste des tâches quotidiennes
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11384,6 +11709,7 @@
 
 # text = Embann war ar Genrouedad
 # text[fra] = Publier sur Internet
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -11400,6 +11726,7 @@
 
 # text = Perzhioù ar riblenn
 # text[fra] = Propriétés de la bordure
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<ar>"
@@ -11410,6 +11737,7 @@
 
 # text = Steudañ war an takad tresañ
 # text[fra] = Aligner sur la zone de dessin
+# labels = to_check opab_parallel
 "<Steudañ>"
 	"steudañ" vblex inf
 "<war>"
@@ -11424,6 +11752,7 @@
 
 # text = Digeriñ takad ar furmskrid
 # text[fra] = Ouvrir la zone du formulaire...
+# labels = to_check opab_parallel
 "<Digeriñ>"
 	"digeriñ" vblex inf
 	"digeriñ" n m sg
@@ -11437,6 +11766,7 @@
 
 # text = Fichañ an danevell
 # text[fra] = Disposition du rapport`C
+# labels = to_check opab_parallel
 "<Fichañ>"
 	"fichañ" vblex inf
 "<an>"
@@ -11452,6 +11782,7 @@
 
 # text = Bann diwezhañ
 # text[fra] = À la dernière colonne
+# labels = to_check opab_parallel
 "<Bann>"
 	"bann" adj mf sp 
 ;	"bannañ" vblex imp p2 sg 
@@ -11462,6 +11793,7 @@
 
 # text = Bannoù gant bandennoù
 # text[fra] = Colonnes à bandes`E
+# labels = to_check opab_parallel
 "<Bannoù>"
 	"bann" n m pl
 "<gant>"
@@ -11473,6 +11805,7 @@
 
 # text = Urzh an takad kendeuziñ
 # text[fra] = Ordre de la zone de fusion
+# labels = to_check opab_parallel
 "<Urzh>"
 	"urzh" n f sg
 "<an>"
@@ -11486,6 +11819,7 @@
 
 # text = Perzhioù CSS
 # text[fra] = Propriétés CSS
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<CSS>"
@@ -11493,6 +11827,7 @@
 
 # text = Diskouez an holl berzhioù
 # text[fra] = Afficher toutes les propriétés
+# labels = to_check opab_parallel
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -11510,6 +11845,7 @@
 
 # text = Pouezañ war
 # text[fra] = Appuyer sur
+# labels = to_check opab_parallel
 "<Pouezañ>"
 	"pouezañ" vblex inf
 "<war>"
@@ -11518,6 +11854,7 @@
 
 # text = Ouzhpennañ gerioù d'ar roll ent emgefreek
 # text[fra] = Ajout automatique des mots à la liste
+# labels = to_check opab_parallel
 "<Ouzhpennañ>"
 	"ouzhpennañ" vblex inf
 "<gerioù>"
@@ -11534,6 +11871,7 @@
 
 # text = Takad testenn
 # text[fra] = Zone de texte
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<testenn>"
@@ -11541,6 +11879,7 @@
 
 # text = Furmad al lec'h miret
 # text[fra] = Format d'espace réservé
+# labels = to_check opab_parallel
 "<Furmad>"
 	"furmad" n f sg
 "<al>"
@@ -11553,6 +11892,7 @@
 
 # text = Lakait ar biz war unan eus an dornelloù hag riklit anezhi da grennañ ar skeudenn.
 # text[fra] = Placez le pointeur sur l'une des poignées et faites-la glisser pour rogner l'image.
+# labels = to_check opab_parallel
 "<Lakait>"
 	"lakaat" vblex pri p2 pl 
 "<ar>"
@@ -11606,6 +11946,7 @@
 
 # text = Testenn pe perzh
 # text[fra] = Texte ou propriété
+# labels = to_check opab_parallel
 "<Testenn>"
 	"testenn" n f sg
 "<pe>"
@@ -11618,6 +11959,7 @@
 
 # text = Anv implijer
 # text[fra] = Nom d'utilisateur
+# labels = to_check opab_parallel
 "<Anv>"
 	"anv" n m sg
 ;	"envel" vblex imp p2 sg 
@@ -11626,6 +11968,7 @@
 	"implijer" n m sg
 ;	"implijout" vblex pri impers sp 
 
+# labels = to_check opab_parallel
 "<implijer>"
 	"implijer" n m sg
 ;	"implijout" vblex pri impers sp 
@@ -11635,6 +11978,7 @@
 "<;>"
 	";" sent @punct
 
+# labels = to_check opab_parallel
 "<DOMANI>"
 	"domani" n m sg
 ;	"DOMANI" n acr m sg 
@@ -11646,11 +11990,13 @@
 "<;>"
 	";" sent @punct
 
+# labels = to_check opab_parallel
 "<unanbennak@skouer.com>"
 	"unanbennak@skouer.com" num
 
 # text = Dilemel an takad labour
 # text[fra] = Supprimer l'espace de travail
+# labels = to_check opab_parallel
 "<Dilemel>"
 	"dilemel" vblex inf
 "<an>"
@@ -11665,6 +12011,7 @@
 
 # text = Dilemel ar bannoù
 # text[fra] = Supprimer les colonnes
+# labels = to_check opab_parallel
 "<Dilemel>"
 	"dilemel" vblex inf
 "<ar>"
@@ -11675,6 +12022,7 @@
 
 # text = Ensoc'hañ ur framm
 # text[fra] = Insérer un cadre
+# labels = to_check opab_parallel
 "<Ensoc'hañ>"
 	"ensoc’hañ" vblex inf
 "<ur>"
@@ -11686,6 +12034,7 @@
 
 # text = Diuzañ ar bann
 # text[fra] = Sélectionner la colonne
+# labels = to_check opab_parallel
 "<Diuzañ>"
 	"diuzañ" vblex inf
 "<ar>"
@@ -11699,6 +12048,7 @@
 
 # text = Follenn berzhioù
 # text[fra] = Feuille des propriétés
+# labels = to_check opab_parallel
 "<Follenn>"
 	"follenn" n f sg
 "<berzhioù>"
@@ -11706,6 +12056,7 @@
 
 # text = Roll furmadoù
 # text[fra] = Liste de formats
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11715,6 +12066,7 @@
 
 # text = Log da askañ
 # text[fra] = Case à cocher
+# labels = to_check opab_parallel
 "<Log>"
 	"log" n f sg
 "<da>"
@@ -11725,6 +12077,7 @@
 
 # text = Takad testenn a-blom
 # text[fra] = Zone de texte verticale`V
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg
 "<testenn>"
@@ -11734,6 +12087,7 @@
 
 # text = Embann al lec'hienn
 # text[fra] = Publier le site
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -11746,6 +12100,7 @@
 
 # text = Kinnig klok
 # text[fra] = Présentation complète
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" n m sg
 ;	"kinnig" vblex imp p2 sg 
@@ -11756,6 +12111,7 @@
 
 # text = Enrollañ an takad furmskrid
 # text[fra] = Enregistrer la zone du formulaire
+# labels = to_check opab_parallel
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -11769,6 +12125,7 @@
 
 # text = Serriñ an takad furmskrid
 # text[fra] = Fermer la zone de formulaire
+# labels = to_check opab_parallel
 "<Serriñ>"
 	"serriñ" vblex inf
 "<an>"
@@ -11780,6 +12137,7 @@
 "<furmskrid>"
 	"furmskrid" n m sg
 
+# labels = to_check opab_parallel
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -11792,6 +12150,7 @@
 
 # text = Talbenn ha traoñ pajenn emgefreek
 # text[fra] = En-tête et pied de page automatiques`ZH
+# labels = to_check opab_parallel
 "<Talbenn>"
 	"talbenn" n m sg
 "<ha>"
@@ -11806,6 +12165,7 @@
 
 # text = Ostilhoù lec'hioù miret
 # text[fra] = Outils des espaces réservés
+# labels = to_check opab_parallel
 "<Ostilhoù>"
 	"ostilh" n m pl
 "<lec'hioù>"
@@ -11816,6 +12176,7 @@
 
 # text = Talbennoù bannoù
 # text[fra] = En-têtes de colonnes`T
+# labels = to_check opab_parallel
 "<Talbennoù>"
 	"talbenn" n m pl
 "<bannoù>"
@@ -11823,6 +12184,7 @@
 
 # text = Diuzañ roadennoù ur bann eus an daolenn
 # text[fra] = Sélectionner les données d'une colonne du tableau`T
+# labels = to_check opab_parallel
 "<Diuzañ>"
 	"diuzañ" vblex inf
 "<roadennoù>"
@@ -11848,6 +12210,7 @@
 
 # text = Takad testenn
 # text[fra] = Zone de texte
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<testenn>"
@@ -11855,6 +12218,7 @@
 
 # text = Kemmañ ar bannoù hag an arventennoù
 # text[fra] = Modifier les colonnes et les paramètres
+# labels = to_check opab_parallel
 "<Kemmañ>"
 	"kemmañ" vblex inf @root #1->0
 "<ar>"
@@ -11870,6 +12234,7 @@
 
 # text = Tresañ un takad testenn
 # text[fra] = Dessiner une zone de texte
+# labels = to_check opab_parallel
 "<Tresañ>"
 	"tresañ" vblex inf
 ;	"dresañ" vblex inf 
@@ -11882,11 +12247,13 @@
 
 # text = 5.
 # text[fra] = 5.
+# labels = to_check opab_parallel
 "<5>"
 	"5" num mf pl @root #1->0
 "<.>"
 	"." sent @punct #2->1
 
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -11896,6 +12263,7 @@
 
 # text = Digeriñ ar roll teulioù-mañ
 # text[fra] = Ouvrir cette liste de documents`G
+# labels = to_check opab_parallel
 "<Digeriñ>"
 	"digeriñ" vblex inf
 	"digeriñ" n m sg
@@ -11913,6 +12281,7 @@
 
 # text = Digeriñ an teuliad roll skignañ-mañ
 # text[fra] = Ouvrir ce dossier de liste de distribution
+# labels = to_check opab_parallel
 "<Digeriñ>"
 	"digeriñ" vblex inf
 	"digeriñ" n m sg
@@ -11933,6 +12302,7 @@
 
 # text = Gwelet alberz ar roll darempredoù-mañ
 # text[fra] = Afficher l'aperçu de cette liste de contacts
+# labels = to_check opab_parallel
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -11954,6 +12324,7 @@
 
 # text = Takad testenn a-blom
 # text[fra] = Zone de texte verticale`V
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg
 "<testenn>"
@@ -11963,6 +12334,7 @@
 
 # text = Stern roll
 # text[fra] = Zone de liste`CS
+# labels = to_check opab_parallel
 "<Stern>"
 	"stern" n m sg
 "<roll>"
@@ -11972,6 +12344,7 @@
 
 # text = Framm traezenn dizalc'h
 # text[fra] = Cadre d'objet indépendant`CB
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -11981,6 +12354,7 @@
 "<dizalc'h>"
 	"dizalc’h" adj mf sp
 
+# labels = to_check opab_parallel
 "<Talbenn>"
 	"talbenn" n m sg
 /
@@ -11991,6 +12365,7 @@
 
 # text = Eilañ evel skeudenn
 # text[fra] = Copier comme image`R
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf
 "<evel>"
@@ -12002,6 +12377,7 @@
 
 # text = Enrollañ an takad labour
 # text[fra] = Enregistrer l'espace de travail...`E
+# labels = to_check opab_parallel
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -12016,6 +12392,7 @@
 
 # text = Roll ar formulennoù
 # text[fra] = Liste des formules
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -12028,6 +12405,7 @@
 
 # text = Kendeuziñ Krouiñ Tarzh Talbenn
 # text[fra] = Fusion Créer Source En-tête
+# labels = to_check opab_parallel
 "<Kendeuziñ>"
 	"kendeuziñ" vblex inf
 "<Krouiñ>"
@@ -12042,6 +12420,7 @@
 
 # text = Gwel Boas Talbenn
 # text[fra] = Affichage Normal En-tête
+# labels = to_check opab_parallel
 "<Gwel>"
 	"gwel" n m sg
 ;	"gwelout" vblex imp p2 sg 
@@ -12054,6 +12433,7 @@
 
 # text = Enrollañ an danevell
 # text[fra] = Enregistrer la narration`N
+# labels = to_check opab_parallel
 "<Enrollañ>"
 	"enrollañ" vblex inf
 "<an>"
@@ -12069,6 +12449,7 @@
 
 # text = Distreiñ da roll an trevelloù
 # text[fra] = Revenir à la liste des tâches`I
+# labels = to_check opab_parallel
 "<Distreiñ>"
 	"distreiñ" vblex inf
 "<da>"
@@ -12087,6 +12468,7 @@
 
 # text = Embann ar respont
 # text[fra] = Publier la réponse`O
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -12101,6 +12483,7 @@
 ;	"respont" vblex inf 
 ;	"respont" vblex pri p3 sg 
 
+# labels = to_check opab_parallel
 "<Mont>"
 	"mont" vblex inf
 "<d'ar>"
@@ -12113,6 +12496,7 @@
 
 # text = Ensoc'hañ bannoù a-gleiz
 # text[fra] = Insérer des colonnes à gauche`IG
+# labels = to_check opab_parallel
 "<Ensoc'hañ>"
 	"ensoc’hañ" vblex inf
 "<bannoù>"
@@ -12122,6 +12506,7 @@
 
 # text = Perzhioù an daolenn
 # text[fra] = Propriétés du tableau...`P
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<an>"
@@ -12135,6 +12520,7 @@
 
 # text = Framm nevez a-is
 # text[fra] = Nouveau cadre en dessous
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -12148,6 +12534,7 @@
 
 # text = Framm nevez a-gleiz
 # text[fra] = Nouveau cadre à gauche
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -12161,6 +12548,7 @@
 
 # text = Kont nevez
 # text[fra] = Nouveau compte
+# labels = to_check opab_parallel
 "<Kont>"
 	"kont" n f sg
 	"kont" n m sg
@@ -12173,6 +12561,7 @@
 
 # text = Dilec'hiañ d'an takad bannoù
 # text[fra] = Déplacer vers la zone de colonnes
+# labels = to_check opab_parallel
 "<Dilec'hiañ>"
 	"dilec’hiañ" vblex inf
 "<d'an>"
@@ -12185,6 +12574,7 @@
 
 # text = Aotren kinnigoù eurioù nevez
 # text[fra] = Permettre de nouvelles propositions d'horaires
+# labels = to_check opab_parallel
 "<Aotren>"
 	"aotren" vblex inf
 "<kinnigoù>"
@@ -12198,6 +12588,7 @@
 
 # text = Takad labour emvod
 # text[fra] = Espace de travail de réunion`N
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg
 "<labour>"
@@ -12206,6 +12597,7 @@
 "<emvod>"
 	"emvod" n m sg
 
+# labels = to_check opab_parallel
 "<Talbenn>"
 	"talbenn" n m sg
 "<ha>"
@@ -12219,6 +12611,7 @@
 
 # text = Adskrivañ linennoù an talbenn
 # text[fra] = Répéter les lignes d'en-tête`P
+# labels = to_check opab_parallel
 "<Adskrivañ>"
 	"adskrivañ" vblex inf
 "<linennoù>"
@@ -12232,6 +12625,7 @@
 
 # text = Eilañ e Ma Deiziadur
 # text[fra] = Copier dans Mon Calendrier`FT
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf
 "<e>"
@@ -12249,6 +12643,7 @@
 
 # text = Takadoù teurel
 # text[fra] = Zones de dépôt`T
+# labels = to_check opab_parallel
 "<Takadoù>"
 	"takad" n m pl
 "<teurel>"
@@ -12256,6 +12651,7 @@
 
 # text = Ostilhoù talbenn ha traoñ pajenn
 # text[fra] = Outils des en-têtes et pieds de page
+# labels = to_check opab_parallel
 "<Ostilhoù>"
 	"ostilh" n m pl
 "<talbenn>"
@@ -12270,6 +12666,7 @@
 
 # text = Mont d'an talbenn
 # text[fra] = Atteindre l'en-tête`E
+# labels = to_check opab_parallel
 "<Mont>"
 	"mont" vblex inf
 "<d'an>"
@@ -12278,6 +12675,7 @@
 "<talbenn>"
 	"talbenn" n m sg
 
+# labels = to_check opab_parallel
 "<Ment>"
 	"ment" n f sg
 "<ha>"
@@ -12289,6 +12687,7 @@
 
 # text = Linenn talbenn
 # text[fra] = Ligne d'en-tête`G
+# labels = to_check opab_parallel
 "<Linenn>"
 	"linenn" n f sg
 ;	"linennañ" vblex imp p2 sg 
@@ -12298,6 +12697,7 @@
 
 # text = Rolloù aprouet
 # text[fra] = Listes approuvées`P
+# labels = to_check opab_parallel
 "<Rolloù>"
 	"roll" n m pl
 "<aprouet>"
@@ -12306,6 +12706,7 @@
 
 # text = Stil takad testenn
 # text[fra] = Style de zone de texte`D
+# labels = to_check opab_parallel
 "<Stil>"
 	"stil" n m sg
 "<takad>"
@@ -12315,6 +12716,7 @@
 
 # text = Merañ titouroù ar servijer evit an diaz roadennoù
 # text[fra] = Gérer les informations du serveur pour la base de données
+# labels = to_check opab_parallel
 "<Merañ>"
 	"merañ" vblex inf
 	"merañ" n m sg
@@ -12343,6 +12745,7 @@
 
 # text = Gweredekaet evit ar bannoù hepken
 # text[fra] = Activé pour les colonnes uniquement
+# labels = to_check opab_parallel
 "<Gweredekaet>"
 	"gweredekaat" vblex pp
 "<evit>"
@@ -12359,6 +12762,7 @@
 
 # text = Stiloù an takadoù testenn
 # text[fra] = Styles des zones de texte`ZY
+# labels = to_check opab_parallel
 "<Stiloù>"
 	"stil" n m pl
 "<an>"
@@ -12372,6 +12776,7 @@
 
 # text = Implijer dianav
 # text[fra] = Utilisateur inconnu
+# labels = to_check opab_parallel
 "<Implijer>"
 	"implijer" n m sg
 ;	"implijout" vblex pri impers sp 
@@ -12380,6 +12785,7 @@
 
 # text = Embann evel
 # text[fra] = Publier en tant que
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf
 	"embann" n m sg
@@ -12390,6 +12796,7 @@
 
 # text = Anavezer nemetañ an teul
 # text[fra] = Identifiant unique du document
+# labels = to_check opab_parallel
 "<Anavezer>"
 	"anavezout" vblex pri impers sp 
 "<nemetañ>"
@@ -12404,6 +12811,7 @@
 
 # text = Lakaat a ra ar c'hemmoù hoc'h eus degaset e-kerz implijerien all.
 # text[fra] = Met à la disposition des autres utilisateurs les modifications que vous avez apportées.
+# labels = to_check opab_parallel
 "<Lakaat>"
 	"lakaat" vblex inf
 "<a>"
@@ -12433,6 +12841,7 @@
 
 # text = Enporzhiañ rolloù eus
 # text[fra] = Importer les listes à partir des
+# labels = to_check opab_parallel
 "<Enporzhiañ>"
 	"enporzhiañ" vblex inf
 "<rolloù>"
@@ -12443,6 +12852,7 @@
 
 # text = Amdreiñ ar siloù danevell
 # text[fra] = Convertir les filtres de rapport
+# labels = to_check opab_parallel
 "<Amdreiñ>"
 	"amdreiñ" vblex inf
 "<ar>"
@@ -12459,6 +12869,7 @@
 
 # text = Takad red
 # text[fra] = Zone en cours
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg
 "<red>"
@@ -12468,6 +12879,7 @@
 
 # text = Diforc'hioù dre vann
 # text[fra] = Différences par colonne
+# labels = to_check opab_parallel
 "<Diforc'hioù>"
 	"diforc’h" n m pl
 "<dre>"
@@ -12481,6 +12893,7 @@
 
 # text = Skouer talbenn
 # text[fra] = Exemple d'en-tête
+# labels = to_check opab_parallel
 "<Skouer>"
 	"skouer" adj mf sp 
 ;	"skouer" n f sg 
@@ -12489,6 +12902,7 @@
 
 # text = Perzhioù fonetek
 # text[fra] = Propriétés phonétiques
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<fonetek>"
@@ -12496,6 +12910,7 @@
 
 # text = Implijout anvioù ar bannoù hag al linennoù
 # text[fra] = Utiliser les noms de colonnes et de lignes
+# labels = to_check opab_parallel
 "<Implijout>"
 	"implijout" vblex inf
 "<anvioù>"
@@ -12514,6 +12929,7 @@
 
 # text = Linenn, bann
 # text[fra] = Ligne, colonne
+# labels = to_check opab_parallel
 "<Linenn>"
 	"linenn" n f sg
 ;	"linennañ" vblex imp p2 sg 
@@ -12528,6 +12944,7 @@
 
 # text = Elfenn da embann
 # text[fra] = Éléments à publier
+# labels = to_check opab_parallel
 "<Elfenn>"
 	"elfenn" n f sg
 "<da>"
@@ -12541,6 +12958,7 @@
 
 # text = Pelec'h hoc'h eus c'hoant da lakaat an danevell kroaziet dinamek ?
 # text[fra] = Où souhaitez-vous placer le rapport de tableau croisé dynamique ?
+# labels = to_check opab_parallel
 "<Pelec'h>"
 	"pelec’h" adv itg 
 "<hoc'h eus c'hoant da>"
@@ -12567,6 +12985,7 @@
 
 # text = Danevell ar grafik zo da vezañ liammet ouzh un danevell kroaziet dinamek.
 # text[fra] = Le rapport du graphique doit être lié à un rapport de tableau croisé dynamique.
+# labels = to_check opab_parallel
 "<Danevell>"
 	"danevell" n f sg @nsubj
 "<ar>"
@@ -12596,6 +13015,7 @@
 
 # text = Klikit war Echuiñ evit krouiñ danevell an daolenn kroaziet dinamek.
 # text[fra] = Cliquez sur Terminer pour créer le rapport de tableau croisé dynamique.
+# labels = to_check opab_parallel
 "<Klikit>"
 	"klikañ" vblex imp p2 pl @root #1->0
 "<war>"
@@ -12621,6 +13041,7 @@
 
 # text = Mirout ar c'hemmoù enrollet dija
 # text[fra] = Conserver celles déjà enregistrées
+# labels = to_check opab_parallel
 "<Mirout>"
 	"mirout" vblex inf @root #1->0
 "<ar>"
@@ -12634,6 +13055,7 @@
 
 # text = Arventennoù al linennoù, ar bannoù hag ar siloù kuzh.
 # text[fra] = Paramètres masqués des lignes, colonnes et filtres
+# labels = to_check opab_parallel
 "<Arventennoù>"
 	"arventenn" n f pl
 "<al>"
@@ -12663,6 +13085,7 @@
 
 # text = Dibab maeziennoù ar perzhioù evit ar vent
 # text[fra] = Choisir des champs de propriété pour la dimension
+# labels = to_check opab_parallel
 "<Dibab>"
 	"dibab" vblex inf
 	"dibab" n m sg
@@ -12687,6 +13110,7 @@
 
 # text = Mirout ar sil bannoù
 # text[fra] = Conserver le filtre des colonnes
+# labels = to_check opab_parallel
 "<Mirout>"
 	"mirout" vblex inf
 "<ar>"
@@ -12701,6 +13125,7 @@
 
 # text = Danevell ar grafik kroaziet dinamek hag an daolenn kroaziet dinamek
 # text[fra] = Rapport de graphique croisé dynamique et de tableau croisé dynamique
+# labels = to_check opab_parallel
 "<Danevell>"
 	"danevell" n f sg
 ;	"danevelliñ" vblex imp p2 sg 
@@ -12735,6 +13160,7 @@
 
 # text = Dibabit lec'hiadur ho tanevell taolenn kroaziet dinamek
 # text[fra] = Choisissez l'emplacement de votre rapport de tableau croisé dynamique
+# labels = to_check opab_parallel
 "<Dibabit>"
 	"dibab" vblex pri p2 pl 
 ;	"dibab" vblex imp p2 pl 
@@ -12761,6 +13187,7 @@
 
 # text = Pa vo prest ho roll, klikit war OK.
 # text[fra] = Cliquez sur OK lorsque votre liste est prête à l'emploi.
+# labels = to_check opab_parallel
 "<Pa>"
 	"pa" cnjsub 
 "<vo>"
@@ -12794,6 +13221,7 @@
 
 # text = O kehentiñ gant ar servijer
 # text[fra] = Communication avec le serveur en cours
+# labels = to_check opab_parallel
 "<O>"
 	"o" vpart ger 
 ;	"o" ij 
@@ -12817,6 +13245,7 @@
 
 # text = O c'hortoz ur respont digant ar servijer.
 # text[fra] = En attente d'une réponse du serveur.
+# labels = to_check opab_parallel
 "<O>"
 	"o" vpart ger 
 ;	"o" ij 
@@ -12848,6 +13277,7 @@
 
 # text = Diskwel ur c'hemenn diwall
 # text[fra] = Afficher un message d'avertissement
+# labels = to_check opab_parallel
 "<Diskwel>"
 	"diskwel" vblex inf
 ;	"diskwel" vblex imp p2 sg 
@@ -12866,6 +13296,7 @@
 
 # text = Aozer ar gwel personelaet
 # text[fra] = Organisateur de l'affichage personnalisé
+# labels = to_check opab_parallel
 "<Aozer>"
 	"aozer" n m sg
 ;	"aozañ" vblex pri impers sp 
@@ -12883,6 +13314,7 @@
 
 # text = Troc'hañ al linenn e dibenn un oberiadenn kas pe resev gant an dorn
 # text[fra] = Raccrocher à la fin d'une opération manuelle d'envoi ou de réception
+# labels = to_check opab_parallel
 "<Troc'hañ>"
 	"troc’hañ" vblex inf
 "<al>"
@@ -12929,6 +13361,7 @@
 
 # text = Roll arlunioù
 # text[fra] = Liste d'icônes
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 ;	"rollañ" vblex imp p2 sg 
@@ -12936,6 +13369,7 @@
 "<arlunioù>"
 	"arlun" n m pl
 
+# labels = to_check opab_parallel
 "<Implijet>"
 	"implijout" vblex pp
 ;	"implijout" vblex imp p3 sg 
@@ -13013,6 +13447,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Hizivaat>"
 	"hizivaat" vblex inf
 "<an>"
@@ -13043,6 +13478,7 @@
 
 # text = Termenañ a ra kas hollek testenn ar chadennoù hag an takadoù testenn.
 # text[fra] = Définit le flux global du texte des chaînes et des zones de texte.
+# labels = to_check opab_parallel
 "<Termenañ>"
 	"termenañ" vblex inf
 "<a>"
@@ -13084,6 +13520,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Seveniñ>"
 	"seveniñ" vblex inf
 "<ur>"
@@ -13113,6 +13550,7 @@
 
 # text = Diuzit an dibarzhioù hoc'h eus c'hoant evit ar gont diuzet
 # text[fra] = Sélectionnez les options désirées pour le compte sélectionné
+# labels = to_check opab_parallel
 "<Diuzit>"
 	"diuzañ" vblex pri p2 pl 
 ;	"diuzañ" vblex imp p2 pl 
@@ -13145,6 +13583,7 @@
 
 # text = Pellgargañ an elfennoù klok a bleg d'an divizoù-mañ...
 # text[fra] = Télécharger les éléments complets qui satisfont aux conditions suivantes...
+# labels = to_check opab_parallel
 "<Pellgargañ>"
 	"pellgargañ" vblex inf
 "<an>"
@@ -13179,6 +13618,7 @@
 
 # text = Pellgargañ an talbennoù hepken evit an elfennoù brasoc'h eget
 # text[fra] = Télécharger uniquement les en-têtes pour les éléments supérieurs à
+# labels = to_check opab_parallel
 "<Pellgargañ>"
 	"pellgargañ" vblex inf
 "<an>"
@@ -13206,6 +13646,7 @@
 
 # text = Perzhioù ober ar furmskrid
 # text[fra] = Propriétés de l'action du formulaire
+# labels = to_check opab_parallel
 "<Perzhioù>"
 	"perzh" n m pl
 "<ober>"
@@ -13219,6 +13660,7 @@
 
 # text = Goulenn digant an implijer digeriñ pe kas
 # text[fra] = Demander à l'utilisateur de l'ouvrir ou de l'envoyer
+# labels = to_check opab_parallel
 "<Goulenn>"
 	"goulenn" vblex inf
 ;	"goulenn" vblex imp p2 sg 
@@ -13248,6 +13690,7 @@
 
 # text = Spisaat ur c'hemenn diwall
 # text[fra] = Spécifier un message d'alerte
+# labels = to_check opab_parallel
 "<Spisaat>"
 	"spisaat" vblex inf
 "<ur>"
@@ -13261,6 +13704,7 @@
 
 # text = Ma kendalc'hit e c'hall c'hoarvezout ma ne vo ket an dud-se evit lenn ar c'hemennad-mañ.
 # text[fra] = Si vous continuez, ces personnes ne seront peut-être pas en mesure de lire ce message.
+# labels = to_check opab_parallel
 "<Ma>"
 	"ma" cnjsub 
 "<kendalc'hit>"
@@ -13319,6 +13763,7 @@
 
 # text = Ha c'hoant hoc'h eus da gefluniañ ur gont postel ?
 # text[fra] = Voulez-vous configurer un compte de messagerie ?
+# labels = to_check opab_parallel
 "<Ha>"
 	"ha" cnjcoo @cc #1->3
 "<c'hoant>"
@@ -13340,6 +13785,7 @@
 
 # text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
 # text[fra] = Il est recommandé de conserver celles du serveur.
+# labels = to_check opab_parallel
 "<Peurliesañ>"
 	"peurliesañ" adv @advmod #1->2
 "<ho po>"
@@ -13365,6 +13811,7 @@
 
 # text = Ha c'hoant hoc'h eus da verañ ho rolloù kaserien berzet bremañ ?
 # text[fra] = Voulez-vous gérer vos listes des expéditeurs indésirables maintenant ?
+# labels = to_check opab_parallel
 "<Ha>"
 	"ha" cnjcoo @cc #1->3
 "<c'hoant>"
@@ -13390,6 +13837,7 @@
 
 # text = Merañ ar rolloù...
 # text[fra] = Gérer les listes...
+# labels = to_check opab_parallel
 "<Merañ>"
 	"merañ" vblex inf @root #1->0
 "<ar>"
@@ -13401,6 +13849,7 @@
 
 # text = Kemennad respont emgefreek d'an dud e-maez ma aozadur
 # text[fra] = Message de réponse automatique aux personnes étrangères à ma société
+# labels = to_check opab_parallel
 "<Kemennad>"
 	"kemennad" n m sg
 "<respont>"
@@ -13426,6 +13875,7 @@
 
 # text = An danevelloù hir o fad zo da vezañ liammet evit kaout ar gwellañ disoc'hoù.
 # text[fra] = Les narrations de longue durée doivent être liées pour obtenir de meilleurs résultats.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 "<danevelloù>"
@@ -13470,6 +13920,7 @@
 
 # text = O prientiñ ar c'hinnig hag o kontrollañ ar restr e-keñver an arventennoù surentez red.
 # text[fra] = Préparation de la présentation en cours et contrôle du fichier par rapport aux paramètres de sécurité actuels.
+# labels = to_check opab_parallel
 "<O>"
 	"o" vpart ger 
 ;	"o" det pos mf sp 
@@ -13520,6 +13971,7 @@
 
 # text = Framm hiniennel
 # text[fra] = Cadre individuel
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg
 ;	"frammañ" vblex imp p2 sg 
@@ -13529,6 +13981,7 @@
 
 # text = Logo / Galloud
 # text[fra] = Logo / Pouvoir
+# labels = to_check opab_parallel
 "<Logo>"
 	"logo" n m sg @root #1->0
 "</>"
@@ -13538,6 +13991,7 @@
 
 # text = E diabarzh an douaroù e oa tiez-feurm, bras-kenañ a-wechoù, ha klozioù en-dro dezho d'o gwareziñ.
 # text[fra] = A l'intérieur des terres, les fermes, parfois très grandes, sont entourées d'enclos protecteurs.
+# labels = to_check opab_parallel
 "<E diabarzh>"
 	"e diabarzh" pr @case
 "<an>"
@@ -13576,6 +14030,7 @@
 
 # text = E-kreiz ar reuz e voe kreñvaet o galloud gant an Duged ha krouet un danvez Stad vodern.
 # text[fra] = Au milieu de ces difficultés, le nouveau pouvoir ducal se renforce et façonne un embryon d’état moderne.
+# labels = to_check opab_parallel
 "<E-kreiz>"
 	"e-kreiz" pr @case #1->3
 "<ar>"
@@ -13615,6 +14070,7 @@
 
 # text = Kevredigezh Breizh dindan ar Renad Kozh
 # text[fra] = La société bretonne sous l'Ancien Régime
+# labels = to_check opab_parallel
 "<Kevredigezh>"
 	"kevredigezh" n f sg @root #1->0
 "<Breizh>"
@@ -13630,6 +14086,7 @@
 
 # text = Met derc'hel a reas takadoù 'zo da vezañ dindan dalc'h ar Chouaned, ha takadoù bras all da vezañ feal d'ar Republik.
 # text[fra] = Mais des zones dominées par les chouans perdurent, en contraste avec de larges secteurs demeurés fidèles à la République.
+# labels = to_check opab_parallel
 "<Met>"
 	"met" cnjcoo @cc
 "<derc'hel>"
@@ -13679,6 +14136,7 @@
 
 # text = ur vro zo pinvidik a wazed hag a vaouezed
 # text[fra] = une terre riche de ses hommes et de ses femmes.
+# labels = to_check opab_parallel
 "<ur>"
 	"un" det ind sp @det #1->2
 "<vro>"
@@ -13700,6 +14158,7 @@
 
 # text = brasaet e voe ar c'hastell hag adsavet e voe moger-dro kêr a-raok he astenn.
 # text[fra] = le château est agrandi et l'enceinte urbaine est reconstruite et étendue.
+# labels = to_check opab_parallel
 "<brasaet>"
 	"brasaat" vblex pp @root #1->0
 "<e>"
@@ -13733,6 +14192,7 @@
 
 # text = Ouzhpenn an displegadennoù-se ez eus kalz skeudennoù war ar panelloù-se.
 # text[fra] = Ces explications s'appuient sur une riche iconographie.
+# labels = to_check opab_parallel
 "<Ouzhpenn>"
 	"ouzhpenn" pr @case
 	"ouzhpenn" adv 
@@ -13762,6 +14222,7 @@
 
 # text = 3/ Tachenn Veurzh hiziv an deiz
 # text[fra] = 3/ Le champs de Mars aujourd'hui
+# labels = to_check opab_parallel
 "<3>"
 	"3" num mf pl
 "</>"
@@ -13775,6 +14236,7 @@
 
 # text = Evit adkregiñ ganti, pouezit adarre war an douchenn PAUSE-se.
 # text[fra] = Pour la reprendre, appuyez à nouveau sur cette touche PAUSE.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case #1->2
 "<adkregiñ>"
@@ -13803,6 +14265,7 @@
 
 # text = N'eus ket kalz a draoù arkeologel kinniget d'ar weladennerien, homañ avat a zo unan anezho.
 # text[fra] = C'est un des rares objets archéologiques présentés dans le parcours.
+# labels = to_check opab_parallel
 "<N'eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -13844,6 +14307,7 @@
 
 # text = Gouestlet eo ar werenn-mañ d'ar binvioù merdeiñ.
 # text[fra] = Cette vitrine est consacrée aux instruments de navigation.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
@@ -13866,6 +14330,7 @@
 
 # text = Gouestlet eo an eil gwerenn e-kreiz da ensavadurioù ar c'henwerzh ha d' ar c'huzul-kêr.
 # text[fra] = La deuxième vitrine au centre est consacrée aux institutions du négoce et à la municipalité.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
@@ -13899,6 +14364,7 @@
 
 # text = Brud vras o deus tapet lomaned Sant-Nazer war ar vicher-se ken akuit ha ma'z int.
 # text[fra] = Devenus maîtres dans cet exercice, les pilotes de Saint-Nazaire se sont forgés une solide réputation.
+# labels = to_check opab_parallel
 "<Brud>"
 	"brud" n m sg
 "<vras>"
@@ -13938,6 +14404,7 @@
 
 # text = Dindan un nebeud bloavezhioù eo deuet Sant-Nazer da vezañ porzh bras an aber ha keveziñ a ra ouzh Naoned.
 # text[fra] = En quelques années, Saint-Nazaire devient le grand port de l'estuaire, concurrençant Nantes.
+# labels = to_check opab_parallel
 "<Dindan>"
 	"dindan" pr @case #1->3
 "<un>"
@@ -13981,6 +14448,7 @@
 
 # text = D'ar greanterezhioù nevez eo gouestlet ar peurrest eus ar sal.
 # text[fra] = Le reste de la salle est consacré aux nouvelles industries.
+# labels = to_check opab_parallel
 "<D'ar>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -14007,6 +14475,7 @@
 
 # text = Evit pennadurezhioù Frañs libr eo ret adsevel ar porzh a-raok pep tra.
 # text[fra] = Pour les nouvelles autorités de la France libre, la priorité est la reconstruction du port.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case #1->2
 "<pennadurezhioù>"
@@ -14036,6 +14505,7 @@
 
 # text = a zo laouen ouzh ho pediñ d'al lid-degemer kinniget en enor da
 # text[fra] = ont le plaisir de vous convier à la réception offerte en l'honneur des
+# labels = to_check opab_parallel
 "<a>"
 	"a" vpart 
 ;	"mont" vblex imp p2 sg 
@@ -14088,6 +14558,7 @@
 
 # text = berzhidi hag aozerien
 # text[fra] = participants et des organisateurs de la
+# labels = to_check opab_parallel
 "<berzhidi>"
 	"perzhiad" n m pl
 "<hag>"
@@ -14097,6 +14568,7 @@
 
 # text = An douvezioù, ar porzh hag an hent-ged a c'haller gweladenniñ digoust.
 # text[fra] = Les douves, la cour et le chemin de ronde sont en accès libre.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<douvezioù>"
@@ -14126,6 +14598,7 @@
 
 # text = Dieub oc'h da zibab an displegadenn-mañ-displegadenn hervez ho c'hoant hag an amzer ho peus.
 # text[fra] = N'hésitez pas à sélectionner les commentaires en fonction de vos centres d'intérêts et du temps dont vous disposez.
+# labels = to_check opab_parallel
 "<Dieub>"
 	"dieub" adj mf sp
 ;	"dieubiñ" vblex imp p2 sg 
@@ -14172,6 +14645,7 @@
 
 # text = Niv. d'ober war an douchennaoueg
 # text[fra] = N° à composer sur votre clavier
+# labels = to_check opab_parallel
 "<Niv.>"
 	"niv." n acr m sg @root #1->0
 "<d'>"
@@ -14187,6 +14661,7 @@
 
 # text = 2602 Porzh Naoned e 1914
 # text[fra] = 2602 Le port de Nantes en 1914
+# labels = to_check opab_parallel
 "<2602>"
 	"2602" num mf pl @parataxis #1->2
 "<Porzh>"
@@ -14200,6 +14675,7 @@
 
 # text = 2803 Amprest evit adsevel porzh Naoned
 # text[fra] = 2803 Emprunt pour la reconstruction du port
+# labels = to_check opab_parallel
 "<2803>"
 	"2803" num mf pl @parataxis #1->2
 "<Amprest>" 
@@ -14215,6 +14691,7 @@
 
 # text = Ostel Kentañ ar C'hef Espern
 # text[fra] = Premier Hôtel de la Caisse d'Epargne
+# labels = to_check opab_parallel
 "<Ostel>"
 	"ostel" n m sg
 "<Kentañ>"
@@ -14230,6 +14707,7 @@
 
 # text = E-kreizik-kreiz ar gêr nevez e oa ar blasenn divent-se, hañval a-walc'h doc'h an Arme Veur e-kreiz galloud an impalaeriezh.
 # text[fra] = De même que la Grande Armée constitue le cœur du pouvoir impérial, cette place immense est l'élément central autour duquel s'organise la ville nouvelle.
+# labels = to_check opab_parallel
 "<E-kreizik-kreiz>"
 	"e-kreizik-kreiz" pr @case
 "<ar>"
@@ -14279,6 +14757,7 @@
 
 # text = Gwezharall e talveze ar Blavezh da harzoù naturel er c'hornôg d'ar gêr.
 # text[fra] = Le Blavet servait jadis de frontière naturelle à l'ouest de la ville.
+# labels = to_check opab_parallel
 "<Gwezharall>"
 	"gwezhall" adv @advmod #1->3
 "<e>"
@@ -14310,6 +14789,7 @@
 
 # text = Kinnig d'ar Maezioù Frank aozañ ur brezegenn diwar-benn kudenn ar yezhoù adalek 2 eur enderv (da-geñver o heuliad prezegennoù).
 # text[fra] = Proposer aux Champs Libres d'organiser une conférence sur le thème de la question linguistique à partir de 14 h (dans le cadre de son cycle de conférences).
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf
 	"kinnig" n m sg
@@ -14368,6 +14848,7 @@
 
 # text = War ar fichennoù all a-zivout an hentadoù divyezhek e vo kinniget ar bedagogiezh lakaet e plas gant pep hini eus an hentadoù-se ha diskouezet roll pep kevredigezh.
 # text[fra] = Les fiches suivantes sur les filières d'enseignement présenteront la pédagogie mise en place par chacune de ces filières et le rôle de chaque association.
+# labels = to_check opab_parallel
 "<War>"
 	"war" pr @case
 ;	"gwar" n m sg 
@@ -14441,6 +14922,7 @@
 
 # text = studiañ an dermenadurezh hervez un hentenn skiantel war an tachennoù nevez digoret d'ar brezhoneg a-benn erbediñ implij termenoù skoueriekaet.
 # text[fra] = étudier scientifiquement la terminologie des nouveaux domaines qui s'ouvrent à la langue bretonne afin de recommander des termes normalisés.
+# labels = to_check opab_parallel
 "<studiañ>"
 	"studiañ" vblex inf
 "<an>"
@@ -14501,6 +14983,7 @@
 
 # text = «Ya d'ar Brezhoneg», soñjet da gentañ-penn evit oberourien ar gevredigezh keodedel,
 # text[fra] = Initialement destiné aux acteurs de la société civile, “Ya d'ar
+# labels = to_check opab_parallel
 "<«>"
 	"«" lquot
 "<Ya d'ar Brezhoneg>"
@@ -14530,6 +15013,7 @@
 
 # text = Hiziv an deiz ez eus 270 000 a dud hag a gomz brezhoneg war ar pemdez, hag 11 000 bugel zo skoliataet en hentadoù kelenn divyezhek e Breizh.
 # text[fra] = Aujourd'hui, 270 000 personnes le parlent au quotidien et, en Bretagne, 11 000 élèves sont scolarisés en filière bilingue.
+# labels = to_check opab_parallel
 "<Hiziv an deiz>"
 	"hiziv an deiz" adv 
 "<ez eus>"
@@ -14584,6 +15068,7 @@
 
 # text = E-pad ar sizhunvezh-se e vo tu da dalvoudekaat ar pezh labour a zo bet kaset da benn gant aozadurioù, kevredigezhioù, maouezed ha gwazed o deus gouezet difenn danvezioù hor rannvro, hag int gwallgaset a-wechoù.
 # text[fra] = Cette semaine est l'occasion de valoriser l'immense travail accompli par les organisations, associations, femmes et hommes qui ont su défendre les ressources de notre région parfois mises à mal.
+# labels = to_check opab_parallel
 "<E-pad>"
 	"e-pad" pr @case
 "<ar>"
@@ -14680,6 +15165,7 @@
 
 # text = An ekonomiezh, eil diazez an diorren padus, a roio tro da ziskouez ne vez ket atav un troc'h dre ret etre prederiadennoù ar geodedourien gant an endro ha kinnigoù an embregerezhioù.
 # text[fra] = Le second pilier du développement durable, l'économie, sera l'occasion de montrer qu'il n'y a pas forcément hiatus entre les préoccupations environnementales des citoyens et les propositions des entreprises.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -14778,6 +15264,7 @@
 
 # text = gounidegezh an annezidi, live an tailhoù, kresk ar boblañs ha kresk niver an implijoù.
 # text[fra] = le revenu des habitants, le niveau des impôts, l'augmentation de population et l'augmentation du nombre d'emplois.
+# labels = to_check opab_parallel
 "<gounidegezh>"
 	"gounidegezh" n f sg @root #1->0
 "<an>"
@@ -14815,6 +15302,7 @@
 
 # text = Galvet e vo ar poloù kevezusted, an embregerezhioù, ar poellgorioù rannvro, ar c'hreizennoù skiantel, an ensavadurioù enklask hag an obererien sevenadurel dave, da ziskouez o skiant-prenet war an tachennoù-se.
 # text[fra] = Elle mobilisera l'expertise des pôles de compétitivité, des entreprises, des comités régionaux, des centres scientifiques, des instituts de recherche et des acteurs culturels faisant référence dans ces domaines.
+# labels = to_check opab_parallel
 "<Galvet>"
 	"gelver" vblex pp @root #1->0
 "<e>"
@@ -14890,6 +15378,7 @@
 
 # text = Peseurt palioù zo d'ar Gevrat-se ?
 # text[fra] = Quels sont les objectifs de ce Contrat ?
+# labels = to_check opab_parallel
 "<Peseurt>"
 	"peseurt" adj itg mf sp @det #1->2
 "<palioù>"
@@ -14908,6 +15397,7 @@
 
 # text = E-touez ar Vretoned, anezho krouerien ha gwastadourien war tachennoù a bep seurt, e kaver maouezed ha gwazed dezho c'hoant bras da vont war-raok ha da neveziñ.
 # text[fra] = Les Bretons, créatifs et pionniers dans de nombreux domaines, nous offrent aussi des portraits de femmes et d'hommes aux ambitions affirmées et aux projets innovants.
+# labels = to_check opab_parallel
 "<E-touez>"
 	"e-touez" pr @case
 "<ar>"
@@ -14977,6 +15467,7 @@
 
 # text = 37 gwazour o doa embannet o youl da luskañ an argerzh-se war o zachenn barregezh ha bremañ e kemeront perzh da gas ar c'houlzad war-raok ;
 # text[fra] = 37 agents se sont déclarés volontaires pour animer cette démarche dans leur champ de compétences et participent aujourd'hui à la progression de l'opération ;
+# labels = to_check opab_parallel
 "<37>"
 	"37" num mf pl @nummod #1->2
 "<gwazour>"
@@ -15032,6 +15523,7 @@
 
 # text = N'eus nemet ur c'hinnig eus an daolenn amañ dindan, gwelloc'h e vo azasaat anezhi diouzh ar gwirvoud evit pep chanter enta.
 # text[fra] = Le tableau ci-dessous constitue une proposition qu'il conviendra de confronter à la réalité et d'adapter à chaque chantier.
+# labels = to_check opab_parallel
 "<N'eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -15101,6 +15593,7 @@
 
 # text = Derc'hel kont eus pennaenn ar ragevezh ;
 # text[fra] = Prise en compte du principe de précaution ;
+# labels = to_check opab_parallel
 "<Derc'hel>"
 	"derc’hel" vblex inf
 "<kont>"
@@ -15123,6 +15616,7 @@
 
 # text = Evit echuiñ e kinnigont un hollad roadennoù war an tem-mañ-tem, a c'haller muzuliañ hag a c'hallo servijout da ziazez evit danzen tamm-ha-tamm ar menegerioù.
 # text[fra] = Elles proposent enfin un ensemble de données mesurables sur la thématique concernée, qui pourront servir de base à l'élaboration progressive des indicateurs.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case
 "<echuiñ>"
@@ -15204,6 +15698,7 @@
 
 # text = - termeniñ kevelerien a c'hallfe bezañ war dachenn al labour-douar padus.
 # text[fra] = - l'identification des partenaires potentiels en matière d'agriculture durable.
+# labels = to_check opab_parallel
 "<->"
 	"-" guio @punct #1->2
 "<termeniñ>"
@@ -15231,6 +15726,7 @@
 
 # text = Klask kevelerezhioù evit aesaat an eskemm skiant-prenet, war dachenn an deskadurezh ouzh an endro da skouer, gwarez al loened hag ar plant pe kalite an dour hag an tachennoù natur.
 # text[fra] = Recherche de partenariats pour favoriser l'échange d'expériences, notamment en matière d'éducation à l'environnement, de protection de la faune et de la flore, de qualité de l'eau et des espaces naturels.
+# labels = to_check opab_parallel
 "<Klask>"
 	"klask" n m sg 
 "<kevelerezhioù>"
@@ -15301,6 +15797,7 @@
 
 # text = War dachenn ar sevenadur e vo broudet an div Rannvro da zizoleiñ holl dachennoù krouidigezh sevenadurel an eil hag eben.
 # text[fra] = Dans le domaine culturel, les deux Régions favoriseront la découverte réciproque dans tous les domaines de la création culturelle.
+# labels = to_check opab_parallel
 "<War>"
 	"war" pr @case #1->2
 "<dachenn>"
@@ -15346,6 +15843,7 @@
 
 # text = An hevelep gwarantoù a vo roet e Breizh d'an obererien valgach gant ar pennadurezhioù gall koulz ha gant Rannvro Breizh.
 # text[fra] = Les mêmes garanties seront apportées aux acteurs malgaches pour leurs projets en Bretagne, tant par les autorités françaises que par la Région Bretagne.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->3
 "<hevelep>"
@@ -15390,6 +15888,7 @@
 
 # text = Laouen on get an emdroadur-se.
 # text[fra] = Je me réjouis de cette évolution.
+# labels = to_check opab_parallel
 "<Laouen>"
 	"laouen" adj mf sp @root #1->0
 "<on>"
@@ -15405,6 +15904,7 @@
 "<.>"
 	"." sent @punct #7->1
 
+# labels = to_check opab_parallel
 "<Hep>"
 	"hep" pr @case
 "<kavout abeg>"
@@ -15482,6 +15982,7 @@
 
 # text = Kinnigoù hervez an ezhommoù
 # text[fra] = Avec des offres adaptées
+# labels = to_check opab_parallel
 "<Kinnigoù>"
 	"kinnig" n m pl
 "<hervez>"
@@ -15495,6 +15996,7 @@
 
 # text = ha c’hoant hoc'h eus da virout kambreier ?
 # text[fra] = Désirez-vous réserver des chambres d’hôtel ?
+# labels = to_check opab_parallel
 "<ha>"
 	"ha" cnjcoo @cc #1->3
 "<c’hoant>"
@@ -15512,6 +16014,7 @@
 
 # text = ha c’hoant hoc’h eus da virout predoù ?
 # text[fra] = Désirez-vous réserver de la restauration ?
+# labels = to_check opab_parallel
 "<ha>"
 	"ha" cnjcoo @cc #1->3
 "<c’hoant>"
@@ -15529,6 +16032,7 @@
 
 # text = 2002 Lidañ a reer digoradur ar framm touristel degemer « Douar an Holen »
 # text[fra] = 2002 Inauguration de la structure touristique d’accueil « Terre de Sel »
+# labels = to_check opab_parallel
 "<2002>"
 	"2002" num mf pl @parataxis #1->2
 "<Lidañ>"
@@ -15560,6 +16064,7 @@
 
 # text = Kreizenn ar monumantoù broadel a embann un dastumad levrioù-heñchañ diwar-benn monumantoù Frañs, zo troet e meur a yezh
 # text[fra] = Le Centre des monuments nationaux publie une collection de guides sur les monuments français, traduits en plusieurs langues.
+# labels = to_check opab_parallel
 "<Kreizenn>"
 	"kreizenn" n f sg
 ;	"kreizenniñ" vblex imp p2 sg 
@@ -15627,6 +16132,7 @@
 
 # text = Setu perak e vo kinniget d'ar strollegezhioù tiriadel, d'ar strolladoù obererezh ha d'ar Broioù, sinañ ha degemer anezhi.
 # text[fra] = Elle sera donc proposée pour signature et adoption aux collectivités territoriales, à leurs groupements et aux Pays.
+# labels = to_check opab_parallel
 "<Setu perak>"
 	"setu perak" cnjadv 
 "<e>"
@@ -15685,6 +16191,7 @@
 
 # text = KINNIG DEOC'H DISKOULMOÙ PERSONELAET
 # text[fra] = VOUS OFFRIR DES SOLUTIONS PERSONNALISEES
+# labels = to_check opab_parallel
 "<KINNIG>"
 	"kinnig" vblex inf @root #1->0
 "<DEOC'H>"
@@ -15697,6 +16204,7 @@
 
 # text = A-zehou emañ bodet an dastumadoù arz grafek, tra m'eo miret an trepas kreiz evit an diskouezadegoù berrbad.
 # text[fra] = L'espace droit réunit les collections d'art graphique, tandis que le passage central est réservé aux expositions temporaires.
+# labels = to_check opab_parallel
 "<A-zehou>"
 	"a-zehou" adv @advmod #1->3
 "<emañ>"
@@ -15738,6 +16246,7 @@
 
 # text = Emañ Breizh o c'hortoz Tro Frañs gant mall, prest da reiñ bec'h evit ma vefe dispar ar gouel ha ma vefe dalc'het ur soñj kaer anezhañ gant ar sportourien, an arvesterien, an aozerien hag ar gazetennerien.
 # text[fra] = La Bretagne attend le Tour, elle est prête à tout mettre en œuvre pour que la fête soit parfaite et pour que sportifs, spectateurs, organisateurs, journalistes en gardent un souvenir ébloui.
+# labels = to_check opab_parallel
 "<Emañ>"
 	"bezañ" vbloc pri p3 sg 
 "<Breizh>"
@@ -15859,6 +16368,7 @@
 
 # text = Notennomp e ranker intent ar gerioù « padus » hag « atebek » evel gerioù a denn d'ar framm daveiñ ha n'eo ket evel barnadennoù war talvoudegezh ar pleustroù boas.
 # text[fra] = A noter que les termes « durable » et « responsable » doivent être compris comme relevant du cadre de référence et non comme de quelconques jugements de valeurs sur des pratiques conventionnelles.
+# labels = to_check opab_parallel
 "<Notennomp>"
 	"notenniñ" vblex imp p1 pl 
 "<e>"
@@ -15927,6 +16437,7 @@
 
 # text = keodedourien, strollegezhioù, obererien armerzhel...
 # text[fra] = citoyens, collectivités, acteurs économiques… 
+# labels = to_check opab_parallel
 "<keodedourien>"
 	"keodedour" n m pl @root #1->0
 "<,>"
@@ -15944,6 +16455,7 @@
 
 # text = Galvidigezh an atlas zo kinnig roadennoù e stumm grafikoù ha kartennoù hag a vo nevezet ingal war ul lec'hienn Genrouedad digor d'an holl.
 # text[fra] = La vocation de l'atlas est de présenter des données sous forme graphique et cartographique qui seront mises régulièrement à jour sur un site internet accessible à tous.
+# labels = to_check opab_parallel
 "<Galvidigezh>"
 	"galvidigezh" n f sg @nsubj #1->5
 "<an>"
@@ -15996,6 +16508,7 @@
 
 # text = Diwar 2008 e vo roet da c'houzout d'al liseoù gant ar Rannvro, pa vo paeet ar skoaziad hollek, an durc'hadurioù konterezh a dalvez da anavezout ar skoaziad « yezhoù rannvroel ».
 # text[fra] = A partir de 2008, la Région communiquera aux lycées, lors du versement de la dotation globale, les orientations comptables qui permettent d'identifier la dotation « langues régionales ».
+# labels = to_check opab_parallel
 "<Diwar>"
 	"diwar" pr @case
 "<2008>"
@@ -16089,6 +16602,7 @@
 
 # text = Skoazellet e vez mont en-dro ar gevredigezh gant ar Rannvro hag emañ goprad ar gevredigezh gant un implij kevredigezhel a laz rannvroel.
 # text[fra] = Le fonctionnement de l'association est aidé par la Région et le salarié de l'association est sur un emploi associatif d'intérêt régional.
+# labels = to_check opab_parallel
 "<Skoazellet>"
 	"skoazellañ" vblex pp @root #1->0
 "<e>"
@@ -16136,6 +16650,7 @@
 
 # text = Kevredet e vez un niver bras eus ar frammoù-se gant ar gevredigezh DAO (Deskiñ d'an Oadourien) a ro sikour dezho ivez e stumm dafar pedagogel.
 # text[fra] = L'association DAO (Deskiñ d'an Oadourien) fédère un grand nombre de ces structures et leur apporte un soutien matériel pédagogique.
+# labels = to_check opab_parallel
 "<Kevredet>"
 	"kevrediñ" vblex pp
 "<e>"
@@ -16202,6 +16717,7 @@
 
 # text = Gouelioù Gouelioù an Arvor
 # text[fra] = Fêtes d'Arvor
+# labels = to_check opab_parallel
 "<Gouelioù>"
 	"gouel" n m pl
 	"gouel" n f pl
@@ -16213,6 +16729,7 @@
 
 # text = Kinnig ar gêr pe ar vro
 # text[fra] = Présenter la ville ou le pays
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<ar>"
@@ -16228,6 +16745,7 @@
 
 # text = Mes he c'hreiz-kêr kozh zo bet miret mat gant Gwened, gant ar steuñv saveteiñ ha talvoudekaat a oa bet degemeret e 1982.
 # text[fra] = Mais Vannes a su préserver son cœur ancien grâce au plan de sauvegarde et de mise en valeur approuvé en 1982.
+# labels = to_check opab_parallel
 "<Mes>"
 	"met" cnjcoo
 "<he>"
@@ -16292,6 +16810,7 @@
 
 # text = Saverion bennañ àr o zachenn
 # text[fra] = Des constructeurs leaders dans leur domaine
+# labels = to_check opab_parallel
 "<Saverion>"
 	"saver" n m pl @root #1->0
 "<bennañ>"
@@ -16305,6 +16824,7 @@
 
 # text = Ur gorread leur a 350 m² a vo da bep hini hag hañval e vo o framm.	
 # text[fra] = De structures similaires, ils disposeront chacun d'une surface au sol de 350 m².
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gorread>"
@@ -16344,6 +16864,7 @@
 
 # text = 2 a Vinistrerezh an touristerezh ha 2 rener servijoù takadoù glas a strollegezhioù arall.
 # text[fra] = En 2005, le jury était composé de 4 personnes, 2 du Ministère du tourisme et 2 directeurs de services espaces verts d'autres collectivités.
+# labels = to_check opab_parallel
 "<2>"
 	"2" num mf pl
 "<a>"
@@ -16389,6 +16910,7 @@
 
 # text = Laouen eo kêr Wened o kinnig deoc'h he lec'hienn Internet nevez.
 # text[fra] = La ville de Vannes est heureuse de vous présenter son nouveau site Internet.
+# labels = to_check opab_parallel
 "<Laouen>"
 	"laouen" adj mf sp @root #1->0
 "<eo>"
@@ -16417,6 +16939,7 @@
 
 # text = Dre an nor-dal-se he deus c'hoant Kêr da zegas deoc'h titouroù talvoudus ha nevesaet, ha da ginnig servijoù enlinenn deoc'h a-benn aesaat hoc'h enklaskoù hag ho tifraeoù.
 # text[fra] = Par ce portail, la Ville souhaite vous apporter des informations pertinentes et actualisées et vous proposer des services en ligne afin de faciliter vos recherches et démarches.
+# labels = to_check opab_parallel
 "<Dre>"
 	"dre" pr @case
 "<an>"
@@ -16501,6 +17024,7 @@
 
 # text = Kinnig a ra al lec'hienn deoc'h un dorikell c'halloudel evit ho tifraeoù melestradurel.
 # text[fra] = Le site vous propose un guichet virtuel d'accès aux démarches administratives.
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<a>"
@@ -16533,6 +17057,7 @@
 
 # text = Kargoù ar maer
 # text[fra] = Les fonctions du maire
+# labels = to_check opab_parallel
 "<Kargoù>"
 	"karg" n f pl @root #1->0
 "<ar>"
@@ -16542,6 +17067,7 @@
 
 # text = Ul lec'h evit kinnigoù hag eskemmoù eo ivez.
 # text[fra] = Elles sont également un lieu de propositions et d'échanges.
+# labels = to_check opab_parallel
 "<Ul>"
 	"un" det ind sp @det #1->2
 "<lec'h>"
@@ -16563,6 +17089,7 @@
 
 # text = Skoaziadennoù d'ar c'hevredigezhioù
 # text[fra] = Subventions aux associations
+# labels = to_check opab_parallel
 "<Skoaziadennoù>"
 	"skoaziadenn" n f pl
 "<d'ar>"
@@ -16573,6 +17100,7 @@
 
 # text = Tachenn foran
 # text[fra] = Domaine public
+# labels = to_check opab_parallel
 "<Tachenn>"
 	"tachenn" n f sg
 "<foran>"
@@ -16580,6 +17108,7 @@
 
 # text = skolioù, studierion, kevredigezhioù sevenadurel ha sport, dileuridi a ved an armerzh.
 # text[fra] = scolaires, étudiants, associations culturelles et sportives, représentants du monde économique.
+# labels = to_check opab_parallel
 "<skolioù>"
 	"skol" n f pl
 "<,>"
@@ -16625,6 +17154,7 @@
 
 # text = Aezamant 28° eo gwrezverk dour ar poull sport.
 # text[fra] = Confort La température de l'eau du bassin sportif est de 28°.
+# labels = to_check opab_parallel
 "<Aezamant>"
 	"aezamant" n m sg @parataxis #1->2
 "<28°>"
@@ -16646,6 +17176,7 @@
 
 # text = Ag ar mammennoù d'ar c'hogoù
 # text[fra] = De la source au robinet
+# labels = to_check opab_parallel
 "<Ag>"
 	"a" pr @case #1->3
 "<ar>"
@@ -16660,6 +17191,7 @@
 
 # text = Graet e vezont àr standilhonoù dastumet àr-eeun diouzh ar c'hogoù.
 # text[fra] = Ils sont réalisés sur des échantillons prélevés directement au robinet.
+# labels = to_check opab_parallel
 "<Graet>"
 	"ober" vblex pp @root #1->0 
 "<e>"
@@ -16685,6 +17217,7 @@
 
 # text = ■ 60 tonennad produioù da naetaat marc'hadoù hag abadennoù.
 # text[fra] = ■ 60 tonnes de produits de nettoyage des marchés et manifestations.
+# labels = to_check opab_parallel
 "<■>"
 	"■" sent @punct #1->3
 "<60>"
@@ -16708,6 +17241,7 @@
 
 # text = Labourioù diouzh ar c'houlz (karter ar porzh) ha dreistordinal a vez graet alies.
 # text[fra] = Des opérations saisonnières (secteur du port) et exceptionnelles sont fréquemment organisées.
+# labels = to_check opab_parallel
 "<Labourioù>"
 	"labour" n m pl @nsubj #1->14
 "<diouzh>"
@@ -16743,6 +17277,7 @@
 
 # text = Ho kont
 # text[fra] = Votre compte
+# labels = to_check opab_parallel
 "<Ho>"
 	"ho" det pos mf sp @det #1->2
 "<kont>"
@@ -16750,6 +17285,7 @@
 
 # text = Deiziataer ar c'hevredigezhioù
 # text[fra] = Agenda des associations
+# labels = to_check opab_parallel
 "<Deiziataer>"
 	"deiziataer" n m sg @root #1->0
 "<ar>"
@@ -16759,6 +17295,7 @@
 
 # text = Klask un abadenn
 # text[fra] = Rechercher une manifestation
+# labels = to_check opab_parallel
 "<Klask>"
 	"klask" vblex inf @root #1->0
 "<un>"
@@ -16768,6 +17305,7 @@
 
 # text = - ar retredidi hag an dud oadet .
 # text[fra] = - les retraités et personnes âgées .
+# labels = to_check opab_parallel
 "<->"
 	"-" guio @punct #1->3
 "<ar>"
@@ -16787,6 +17325,7 @@
 
 # text = Monet d'ar poull
 # text[fra] = Accès au bassin
+# labels = to_check opab_parallel
 "<Monet>"
 	"monet" vblex inf @root #1->0
 "<d'ar>"
@@ -16797,6 +17336,7 @@
 
 # text = E 1952 e oa daet da vout ezel ag ar Gevredigezh Liesdiskiblezh.
 # text[fra] = En 1952, il devient membre de la Société Polymathique.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case #1->2
 "<1952>"
@@ -16826,6 +17366,7 @@
 
 # text = « Ar c'horn azasaet ouzh an dud e kadorioù-ruilh zo aveet gant skrammoù difer evit titouriñ ar veajourien ha dudiañ anezho.
 # text[fra] = « L'espace adapté pour les personnes en fauteuil roulant est équipé spécifiquement d'écrans d'information voyageurs et loisirs.
+# labels = to_check opab_parallel
 "<«>"
 	"«" lquot @punct #1->11
 "<Ar>"
@@ -16873,6 +17414,7 @@
 
 # text = Reiñ a reont un neuz c'hwekoc'h d'an tren ha gallout a reer krouiñ kinkladurioù gouloù ganto. »
 # text[fra] = Elles permettent de donner un aspect plus chaleureux au train et de créer des décors lumineux »
+# labels = to_check opab_parallel
 "<Reiñ>"
 	"reiñ" vblex inf @root #1->0
 "<a>"
@@ -16914,6 +17456,7 @@
 
 # text = Pedadenn evit daou zen.
 # text[fra] = Invitation pour deux personnes.
+# labels = to_check opab_parallel
 "<Pedadenn>"
 	"pedadenn" n f sg @root #1->0
 "<evit>"
@@ -16927,6 +17470,7 @@
 
 # text = Evit reiñ buhez d'ar vro e ranker, da gentañ penn ha dreist pep tra, bout ar muiañ posupl a frammoù da daliñ doc'h doberioù ha da c'hoantoù an annezidi.
 # text[fra] = Développer la vie locale, c'est d'abord et avant tout, mettre au service du plus grand nombre des structures répondant aux attentes et besoins des administrés.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @mark #1->2
 "<reiñ>"
@@ -16993,6 +17537,7 @@
 
 # text = Dibabet he deus Breizh ivez degas skoazell d'an deskadurezh uhel evit diorren ur c'hinnig stummañ kempouezet e-barzh ar vro.
 # text[fra] = La Bretagne a également choisi d'apporter son soutien à l'enseignement supérieur afin de développer une offre de formation équilibrée sur le territoire.
+# labels = to_check opab_parallel
 "<Dibabet>"
 	"dibab" vblex pp @root #1->0
 "<he deus>"
@@ -17035,6 +17580,7 @@
 
 # text = Roll Kuzul armerzhel ha sokial ar Rannvro
 # text[fra] = Le rôle du Conseil économique et social régional
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 "<Kuzul>"
@@ -17052,6 +17598,7 @@
 
 # text = Roll an izili dre skolaj
 # text[fra] = La liste des membres par collège
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 "<an>"
@@ -17065,6 +17612,7 @@
 
 # text = Prezidant Kuzul-rannvro Breizh (PS)
 # text[fra] = Président du Conseil régional de Bretagne (PS)
+# labels = to_check opab_parallel
 "<Prezidant>"
 	"prezidant" n m sg @root #1->0
 "<Kuzul-rannvro Breizh>"
@@ -17078,6 +17626,7 @@
 
 # text = Pennadoù, levrioù ha danevelloù savet nevez zo
 # text[fra] = Articles, ouvrages et rapports récents
+# labels = to_check opab_parallel
 "<Pennadoù>"
 	"pennad" n m pl
 "<,>"
@@ -17097,6 +17646,7 @@
 
 # text = Un taol-chañs eo ar c'hresk poblañs-se.
 # text[fra] = Cette progression démographique est une chance.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<taol-chañs>"
@@ -17116,6 +17666,7 @@
 
 # text = a brient ar c'hinnigoù
 # text[fra] = prépare les propositions
+# labels = to_check opab_parallel
 "<a>"
 	"a" vpart @aux #1->2
 "<brient>"
@@ -17127,6 +17678,7 @@
 
 # text = "Labourat a ra hor c'hevredigezh evit an diorren padus en ur reiñ ur plas a bouez d'ar c'hengred.
 # text[fra] = "Notre association œuvre pour le développement durable en y intégrant une notion forte de solidarité.
+# labels = to_check opab_parallel
 "<">"
 	""" quot
 "<Labourat>"
@@ -17171,6 +17723,7 @@
 
 # text = Muioc'h-mui a dud a zebr boued bio. 
 # text[fra] = De plus en plus de personnes consomment bio. 
+# labels = to_check opab_parallel
 "<Muioc'h-mui>"
 	"muioc’h-mui" adv #1->5
 "<a>"
@@ -17190,6 +17743,7 @@
 
 # text = Sin vat eo.
 # text[fra] = C'est bon signe.
+# labels = to_check opab_parallel
 "<Sin>"
 	"sin" n m sg @root #1->0
 "<vat>"
@@ -17201,6 +17755,7 @@
 
 # text = Ret eo da holl obererien Breizh degas o lod, ha d'ar Stad ivez p'he deus, asambles gant ar c'humunioù, ar galloud da cheñch ar reolennoù.
 # text[fra] = L'implication de tous les acteurs bretons est nécessaire, de même que l'implication de l'État qui dispose, avec les communes, du pouvoir réglementaire.
+# labels = to_check opab_parallel
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -17284,6 +17839,7 @@
 
 # text = Gant ur c'hresk a 35% eus ar veajourien dindan pemp bloaz, emañ Breizh e penn rannvroioù Frañs evit an TER.
 # text[fra] = Avec une croissance de fréquentation du TER de 35% en cinq ans, la Bretagne se classe en tête des régions de France.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ur>"
@@ -17331,6 +17887,7 @@
 
 # text = Merañ enframmet an takadoù aod
 # text[fra] = Gestion Intégrée des Zones Côtières
+# labels = to_check opab_parallel
 "<Merañ>"
 	"merañ" n m sg @root #1->0
 "<enframmet>"
@@ -17344,6 +17901,7 @@
 
 # text = Eus an den a lezenn d'ar sant pareour
 # text[fra] = De l'homme de loi au saint guérisseur
+# labels = to_check opab_parallel
 "<Eus>"
 	"eus" pr @case
 ;	"bezañ" vblex pri p3 sg 
@@ -17378,6 +17936,7 @@
 
 # text = Breizh ar maezioù
 # text[fra] = Bretagne des campagnes
+# labels = to_check opab_parallel
 "<Breizh>"
 	"Breizh" np top sg
 ;	"preizh" n m sg 
@@ -17387,6 +17946,7 @@
 "<maezioù>"
 	"maez" n m pl
 
+# labels = to_check opab_parallel
 "<Pa>"
 	"pa" cnjsub 
 "<'>"
@@ -17453,6 +18013,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Pebezh>"
 	"pebezh" adj itg mf sp
 "<enor>"
@@ -17466,6 +18027,7 @@
 
 # text = Souezhet-kaer e vi da'z tro, pa weli kamaladed eus ar fozioù o tont en-dro eus an talbenn ha galleg ganto.
 # text[fra] = A ton tour tu seras bien surpris de voir revenir du front des copains de tranchées qui s'expriment en français.
+# labels = to_check opab_parallel
 "<Souezhet>"
 	"souezhet" adj mf sp
 "<->"
@@ -17539,6 +18101,7 @@
 
 # text = Daoust ma c'hallont kaout kefridioù disheñvel - pourvezioù metal pe profadennoù relijiel - e vezont bep tro oc'h aroueziañ ar galloud.
 # text[fra] = Stock de métal, offrande religieuse, il peut avoir différentes fonctions, mais reste toujours chargé d’un symbole de pouvoir.
+# labels = to_check opab_parallel
 "<Daoust ma>"
 	"daoust ma" cnjadv 
 "<c'hallont>"
@@ -17592,6 +18155,7 @@
 
 # text = Krenn am zer
 # text[fra] = Moyen- â ge
+# labels = to_check opab_parallel
 "<Krenn>"
 	"krenn" adj mf sp
 ;	"krennañ" vblex imp p2 sg 
@@ -17604,6 +18168,7 @@
 
 # text = En holl lec'hioù e c'hall mont an dud nammet.
 # text[fra] = L’ensemble des espaces est accessible aux personnes à mobilité réduite
+# labels = to_check opab_parallel
 "<En>"
 	"e" pr @case #1->3
 "<holl>"
@@ -17627,6 +18192,7 @@
 
 # text = Evit tizhout ar pal-se e tleer suraat hag aesaat labour ar wazourien.
 # text[fra] = Pour atteindre cet objectif, il est nécessaire d'améliorer le niveau de sécurité et de confort des agents.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @mark #1->2
 "<tizhout>"
@@ -17658,6 +18224,7 @@
 
 # text = Roll ar servijoù
 # text[fra] = Annuaire des services
+# labels = to_check opab_parallel
 "<Roll>"
 	"roll" n m sg
 "<ar>"
@@ -17667,6 +18234,7 @@
 
 # text = Muioc'h-mui a diez-annez, stank ha strewet, a voe diwar-goust ar c'hoadegi hag al lanneier ha gant se e voe krouet kalz tachennoù digor.
 # text[fra] = L ’ habitat rural, dense et dispersé, se développe en gagnant sur la forêt et la lande, en créant de nombreux espaces ouverts.
+# labels = to_check opab_parallel
 "<Muioc'h-mui a>"
 	"muioc’h-mui a" pr @case
 "<diez-annez>"
@@ -17746,6 +18314,7 @@
 
 # text = Enebiezh Dispac'hourien / Chouaned.
 # text[fra] = Opposition Révolution / Chouannerie.
+# labels = to_check opab_parallel
 "<Enebiezh>"
 	"enebiezh" n f sg
 "<Dispac'hourien>"
@@ -17757,6 +18326,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf
 	"kinnig" n m sg
@@ -17784,6 +18354,7 @@
 
 # text = Tachennoù a-bezh eus keodedoù zo a yeas da get.
 # text[fra] = Des secteurs entiers des Cités périclitent.
+# labels = to_check opab_parallel
 "<Tachennoù>"
 	"tachenn" n f pl
 "<a-bezh>"
@@ -17812,6 +18383,7 @@
 
 # text = ar varc'hadourezh, an dud hag an amzer. »
 # text[fra] = marchandises, des hommes et du temps. »
+# labels = to_check opab_parallel
 "<ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -17840,6 +18412,7 @@
 
 # text = Poan o kenvevañ gant an amezeien frank c'halloudus
 # text[fra] = Cohabitation difficile avec le puissant voisin franc
+# labels = to_check opab_parallel
 "<Poan>"
 	"poan" n f sg
 "<o>"
@@ -17868,6 +18441,7 @@
 
 # text = Logo / Galloud
 # text[fra] = Logo / Pouvoir
+# labels = to_check opab_parallel
 "<Logo>"
 	"logo" n m sg
 "</>"
@@ -17877,6 +18451,7 @@
 
 # text = - Pouez an hent-houarn hag ar porzhioù
 # text[fra] = - Rôle important du chemin de fer et des ports
+# labels = to_check opab_parallel
 "<->"
 	"-" guio
 "<Pouez>"
@@ -17900,6 +18475,7 @@
 
 # text = kresk ar friturioù war aod ar su (eus
 # text[fra] = développement des conserveries sur la côte sud (de
+# labels = to_check opab_parallel
 "<kresk>"
 	"kresk" n m sg
 ;	"kreskiñ" vblex imp p2 sg 
@@ -17927,6 +18503,7 @@
 
 # text = An talbenn - An adreñv
 # text[fra] = Le front L ’ arrière
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -17944,6 +18521,7 @@
 
 # text = ul liamm etre an talbenn hag an adreñv, pouez
 # text[fra] = trait d ’ union entre le front et l ’ arrière, importance de la
+# labels = to_check opab_parallel
 "<ul>"
 	"un" det ind sp @det
 "<liamm>"
@@ -17976,6 +18554,7 @@
 
 # text = Karr-arsailh amerikan war maezioù Sant-Maloù (Il-ha-Gwilen)
 # text[fra] = Char américain dans la campagne de Saint-Malo (Ille-et Vilaine)
+# labels = to_check opab_parallel
 "<Karr>"
 	"karr" n m sg
 "<->"
@@ -18000,6 +18579,7 @@
 
 # text = dindan tri bloaz e vo tizhet an daou bal-se gant ar Rannvro ha skol-veur Breizh-Izel (SBI).
 # text[fra] = pour atteindre ce double objectif, la Région et l'université de Bretagne occidentale (UBO) se donnent trois ans.
+# labels = to_check opab_parallel
 "<dindan>"
 	"dindan" pr @case #1->3
 "<tri>"
@@ -18043,6 +18623,7 @@
 
 # text = Anavezet-kaer eo evit difenn ar servijoù publik hag ar stourm skouerius kaset gantañ evit ospital Karaez.
 # text[fra] = Il est aussi très connu pour sa défense des services publics et la lutte exemplaire en faveur de l’hôpital de Carhaix.
+# labels = to_check opab_parallel
 "<Anavezet>"
 	"anavezout" vblex pp
 "<->"
@@ -18085,6 +18666,7 @@
 
 # text = Dielfennañ a ra hoc'h ezhommoù, selaou hoc'h evezhiadennoù, kinnig diskoulmoù deoc'h ha sevel rakprizioù.
 # text[fra] = Il analyse vos besoins, écoute vos remarques, vous propose des solutions et en établit le devis.
+# labels = to_check opab_parallel
 "<Dielfennañ>"
 	"dielfennañ" vblex inf
 "<a>"
@@ -18137,6 +18719,7 @@
 
 # text = Post-labour
 # text[fra] = Poste occupé
+# labels = to_check opab_parallel
 "<Post>"
 	"post" n m sg
 ;	"postañ" vblex imp p2 sg 
@@ -18149,6 +18732,7 @@
 
 # text = War-lerc’h ar brezel ez eus bet embannet un toullad kanaouennoù bet skrivet en toull-bac’h dindan an titl « Tri zon brudet eus mare an Dieubidigezh ».
 # text[fra] = Quelques chansons écrites en prison ont été éditées après guerre sous le titre « Trois succès de la Libération ».
+# labels = to_check opab_parallel
 "<War-lerc’h>"
 	"war-lerc’h" pr @case
 	"war-lerc’h" adv 
@@ -18232,6 +18816,7 @@
 
 # text = Graet e oant evit bezañ gwelet hag embann ar soñjoù kentelius a vennent difenn, ha diskouez a raent ivez ar medalennoù o doa gounezet da-geñver kenstrivadegoù.
 # text[fra] = Faites pour être vues et pour exprimer les valeurs morales des ensembles vocaux, elles « exposent » également les médailles qu’ils gagnent lors des concours.
+# labels = to_check opab_parallel
 "<Graet>"
 	"ober" vblex pp
 "<e>"
@@ -18315,6 +18900,7 @@
 
 # text = An holl frammoù a sav kartennoù hetoù ha da gentañ holl evit lidañ ar bloavezh nevez.
 # text[fra] = Tous les organismes impriment des cartes de voeux et en premier lieu pour souhaiter la bonne année.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->3
 "<holl>"
@@ -18352,6 +18938,7 @@
 
 # text = Lakaat kement den e darempred gant ho framm da welet brezhoneg
 # text[fra] = Amener toute personne en contact avec votre organisme à voir du breton
+# labels = to_check opab_parallel
 "<Lakaat>"
 	"lakaat" vblex inf
 "<kement>"
@@ -18381,6 +18968,7 @@
 
 # text = Roll-labour emvodoù ar framm
 # text[fra] = Ordre du jour des réunions de la structure
+# labels = to_check opab_parallel
 "<Roll-labour>"
 	"roll#-labour" n m sg
 "<emvodoù>"
@@ -18395,6 +18983,7 @@
 
 # text = Diskouez d’ho pratikoù identelezh ho framm
 # text[fra] = Afficher auprès de vos clients l’identité bilingue de votre organisme
+# labels = to_check opab_parallel
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -18418,6 +19007,7 @@
 
 # text = Staliañ ar brezhoneg e diabarzh mont en-dro ho framm
 # text[fra] = Installer la langue bretonne dans le cœur du fonctionnement de votre organisme
+# labels = to_check opab_parallel
 "<Staliañ>"
 	"staliañ" vblex inf @root #1->0
 "<ar>"
@@ -18435,6 +19025,7 @@
 
 # text = Rakpriz a-ratozh da sevel.
 # text[fra] = Devis spécifique à réaliser.
+# labels = to_check opab_parallel
 "<Rakpriz>"
 	"rakpriz" n m sg
 "<a-ratozh>"
@@ -18447,6 +19038,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Frammoù>"
 	"framm" n m pl
 "<zo>"
@@ -18471,6 +19063,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Bastet>"
 	"bastañ" vblex pp
 ;	"bastañ" vblex imp p3 sg 
@@ -18513,6 +19106,7 @@
 
 # text = Ofis ar Brezhoneg a sav kontoù e zisoc'hoù eus ar 1añ a viz Genver d'ar 31añ a viz Kerzu.
 # text[fra] = L'Office de la Langue Bretonne établit ses comptes de résultats du 1er Janvier au 31 Décembre.
+# labels = to_check opab_parallel
 "<Ofis ar Brezhoneg>"
 	"Ofis ar Brezhoneg" np al mf sg @nsubj #1->3
 "<a>"
@@ -18549,6 +19143,7 @@
 
 # text = Tres ofisiel embannet gant kumun Pluguen, warnañ stummoù skoueriekaet al lec’hanvioù
 # text[fra] = Plan officiel édité par la commune de Pluguffan, comprenant les formes normalisées des toponymes locaux
+# labels = to_check opab_parallel
 "<Tres>"
 	"tres" n m sg
 ;	"tresañ" vblex imp p2 sg 
@@ -18586,6 +19181,7 @@
 
 # text = Kaset e vo da benn gant 8 menaj skouer da gentañ-penn.
 # text[fra] = Il s'appuiera notamment sur 8 fermes pilotes.
+# labels = to_check opab_parallel
 "<Kaset>"
 	"kas" vblex pp
 ;	"kas" vblex imp p3 sg 
@@ -18622,6 +19218,7 @@
 
 # text = Estreget gant danvez al Levr gwer e pled ar respont pa glask kinnig ur sell hollek hag enframmet war ar pesketaerezh hag an dourc'hounezerezh.
 # text[fra] = Cette réponse ne concerne pas seulement le contenu du Livre vert mais cherche à proposer une vision globale et intégrée des activités de pêche et d'aquaculture.
+# labels = to_check opab_parallel
 "<Estreget>"
 	"estreget" pr @case
 	"estreget" cnjadv 
@@ -18701,6 +19298,7 @@
 
 # text = War-dro 5.000 den o doa lestret e bigi ar gompagnunezh-vor Penn-ar-Bed evit mont da Eusa, Sun ha Molenez e-kerzh an dibenn-sizhun Pask tremen.
 # text[fra] = Près de 5.000 personnes ont été transportées par la Compagnie maritime Penn ar Bed durant le dernier week-end de Pâques vers les îles de Molène, Ouessant et Sein.
+# labels = to_check opab_parallel
 "<War-dro>"
 	"war-dro" adv @advmod #1->2
 "<5.000>"
@@ -18756,6 +19354,7 @@
 
 # text = A-benn tizhout e balioù en doa disklêriet an emstriver sokialour e oa « a-du » evit krouiñ ministrerezh ar Mor.
 # text[fra] = Pour atteindre ces objectifs, le candidat socialiste à la présidentielle s'est déclaré "favorable" à l'idée d'un ministère de la Mer.
+# labels = to_check opab_parallel
 "<A-benn>"
 	"a-benn" pr @mark #1->2
 "<tizhout>"
@@ -18799,6 +19398,7 @@
 
 # text = « Ma'z on dilennet da brezidant ar Republik e vo degemeret mat ar c'hinnig-se ganin », en doa lavaret dirak 1.000 den bodet d'abardaez e Palez ar C'hendalc'hioù an Oriant.
 # text[fra] = "Si je suis élu président de la République, j'accueillerai positivement une telle proposition", a-t-il déclaré devant 1.000 personnes réunies en début de soirée au palais des Congrès de Lorient.
+# labels = to_check opab_parallel
 "<«>"
 	"«" lquot @punct #1->11
 "<Ma'z>"
@@ -18865,6 +19465,7 @@
 
 # text = Kinniget en doa Jacques Chirac sevel Karta gwir an endro, stag ouzh ar Vonreizh, evel ma'z eo bet graet dija evit gwirioù Mab-den hag ar gwirioù ekonomikel ha sokial.
 # text[fra] = Jacques Chirac a notamment proposé l'élaboration d'une Charte du droit à l'environnement, adossée à la Constitution, comme le sont les droits de l'Homme ou les droits économiques et sociaux.
+# labels = to_check opab_parallel
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -18935,6 +19536,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Mont a raio>"
 	"mont a ober" vblex fti p3 sg 
 "<ar>"
@@ -18972,6 +19574,7 @@
 "<.>"
 	"." sent @punct
 
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg 
 "<ra>"
@@ -19008,6 +19611,7 @@
 
 # text = E-maez dibunadeg Pariz e oa bet trubuilhoù etre ar polis hag « hiniennoù diavaez e-maez kontroll an aozerien, war a seblant ».
 # text[fra] = En marge du cortège parisien, la manifestation a été ternie par quelques affrontements entre la police et "des éléments extérieurs semblant échapper aux organisateurs".
+# labels = to_check opab_parallel
 "<E-maez>"
 	"e-maez" pr @case
 "<dibunadeg>"
@@ -19055,6 +19659,7 @@
 
 # text = « N’eus dañjer ebet ken war vor », zo bet embannet gant ar prefeti-mor.
 # text[fra] = "Tout danger nautique est écarté", a annoncé la préfecture maritime.
+# labels = to_check opab_parallel
 "<«>"
 	"«" lquot @punct #1->
 "<N’eus>"
@@ -19093,6 +19698,7 @@
 
 # text = Ma'z ouzhpenner ar familh hag ar vignoned, pedet ur wezh an amzer, e tizher e-tro 3 milion den.
 # text[fra] = Si l'on ajoute la famille et les copains, invités occasionnels, ce total atteint sans doute trois millions de personnes.
+# labels = to_check opab_parallel
 "<Ma'z>"
 	"ma" cnjsub @mark #1->2
 "<ouzhpenner>"
@@ -19138,6 +19744,7 @@
 
 # text = Er bloaz-mañ ne vo mui a harzoù war an tri-c’hard eus Frañs.
 # text[fra] = Cette année, les pêcheurs ne connaîtront plus de frontières sur les trois quarts du territoire national.
+# labels = to_check opab_parallel
 "<Er>"
 	"e" pr @case
 		"an" det def sp @det
@@ -19174,6 +19781,7 @@
 
 # text = Evit talañ ouzh an oberoù-se e krog Naonediz d'en em frammañ evit mestroniañ o aon ha sachañ evezh ar galloudoù foran lec'hel ha broadel.
 # text[fra] = Face à ces actes, les habitants commencent à s'organiser afin de dominer leur peur et d'interpeller les pouvoirs publics à l'échelon local et national.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case
 "<talañ ouzh>"
@@ -19228,6 +19836,7 @@
 
 # text = Un nebeud kevredigezhioù a vez degemeret eno ur wezh an amzer ivez.
 # text[fra] = Quelques associations y trouvent ponctuellement refuge.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det
 "<nebeud>"
@@ -19261,6 +19870,7 @@
 
 # text = Fichenn Titouroù Abadenn
 # text[fra] = Fiche infos spectacle
+# labels = to_check opab_parallel
 "<Fichenn>"
 	"fichenn" n f sg
 "<Titouroù>"
@@ -19271,6 +19881,7 @@
 
 # text = Fichenn ditouroù abadenn pe saloñs
 # text[fra] = Infos spectacle ou salon
+# labels = to_check opab_parallel
 "<Fichenn>"
 	"fichenn" n f sg
 "<ditouroù>"
@@ -19287,6 +19898,7 @@
 
 # text = Kinniget vez gant ar gouel ur gwir skeudenn eus an embann e Breizh, ken evit ar galleg ken evit ar brezhoneg.
 # text[fra] = Le festival propose une véritable vitrine de l’édition en Bretagne, aussi bien en langue française que bretonne.
+# labels = to_check opab_parallel
 "<Kinniget>"
 	"kinnig" vblex pp
 ;	"kinnig" vblex imp p3 sg 
@@ -19376,6 +19988,7 @@
 
 # text = En em gavit 15 munut a-raok an abadenn, mar plij.
 # text[fra] = Merci d’arriver 15 minutes avant le spectacle.
+# labels = to_check opab_parallel
 "<En em>"
 	"en em" vpart ref
 "<gavit>"
@@ -19404,6 +20017,7 @@
 
 # text = Digoret e vez dorioù ar sal 20 munut a-raok an abadenn.
 # text[fra] = L’ouverture des portes se fait 20 minutes avant le spectacle.
+# labels = to_check opab_parallel
 "<Digoret>"
 	"digoriñ" vblex pp
 	"digeriñ" vblex pp
@@ -19447,6 +20061,7 @@
 
 # text = Dedennet eo gant an deskadurezh ha kemer a ra perzh e kevredigezhioù a bep seurt a stourm evit stummañ ar re yaouank.
 # text[fra] = Il est intéressé par l'éducation et il est impliqué dans différentes associations qui militent pour la formation des jeunes.
+# labels = to_check opab_parallel
 "<Dedennet>"
 	"dedennañ" vblex pp @root #1->0
 "<eo>"
@@ -19494,6 +20109,7 @@
 
 # text = Kement abadenn sevenadurel a denn da zanvez Breizh a vez brudet gant pedadennoù divyezhek.
 # text[fra] = Les manifestations culturelles font l’objet de communication bilingue systématique quand ils concernent des thèmes bretons.
+# labels = to_check opab_parallel
 "<Kement>"
 	"kement" det ind mf sg @det #1->2
 "<abadenn>"
@@ -19527,6 +20143,7 @@
 
 # text = Gweladennoù ingal e brezhoneg evit an holl e kreizenn an arz a vremañ bep tro ma vez kinniget diskouezadegoù.
 # text[fra] = Des visites régulières en breton pour tous publics sont également organisées au centre d’art contemporain à l’occasion de chacune des expositions présentées.
+# labels = to_check opab_parallel
 "<Gweladennoù>"
 	"gweladenn" n f pl
 "<ingal>"
@@ -19573,6 +20190,7 @@
 
 # text = Al linenn reter-kornôg a zarempredo an takadoù annez, implij hag obererezh pennañ.
 # text[fra] = Cette ligne est-ouest desservira les principaux secteurs d’habitat, d’emploi et d’activité.
+# labels = to_check opab_parallel
 "<Al>"
 	"an" det def sp @det #1->2
 "<linenn>"
@@ -19608,6 +20226,7 @@
 
 # text = al leon zo kousket ouzh ma zreid n'eo ket an hini emaout o klask.
 # text[fra] = le lion endormi à mes pieds n'est pas celui que tu cherches.
+# labels = to_check opab_parallel
 "<al>"
 	"an" det def sp
 "<leon>"
@@ -19644,6 +20263,7 @@
 
 # text = un aod traezh munut !
 # text[fra] = plage de sable fin !
+# labels = to_check opab_parallel
 "<un>"
 	"un" det ind sp @det #1->2
 "<aod>"

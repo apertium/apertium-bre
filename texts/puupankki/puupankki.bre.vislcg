@@ -1,5 +1,6 @@
 # text = N'int ket aet war-raok.
 # text[fra] = Ils n'ont pas progressé.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<int>"
@@ -15,6 +16,7 @@
 
 # text = N'eur ket aet war-raok.
 # text[fra] = On n'a pas progressé.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eur>"
@@ -30,6 +32,7 @@
 
 # text = Ne labour ket amañ.
 # text[fra] = Il ne travaille pas ici.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<labour>"
@@ -43,6 +46,7 @@
 
 # text = Glav a ra.
 # text[fra] = Il pleut.
+# labels = to_check
 "<Glav>"
 	"glav" n m sg @dep #1->3
 "<a>"
@@ -54,6 +58,7 @@
 
 # text = Erc’h a ra.
 # text[fra] = Il neige.
+# labels = to_check
 "<Erc’h>"
 	"erc’h" n m sg @dep #1->3
 "<a>"
@@ -65,6 +70,7 @@
 
 # text = Debriñ a ran.
 # text[fra] = Je mange.
+# labels = to_check
 "<Debriñ>"
 	"debriñ" vblex inf @root #1->0
 "<a>"
@@ -76,6 +82,7 @@
 
 # text = Graet he deus.
 # text[fra] = Elle a fait.
+# labels = to_check
 "<Graet>"
 	"ober" vblex pp @root #1->0
 "<he deus>"
@@ -85,6 +92,7 @@
 
 # text = Dav e vije.
 # text[fra] = Il serait nécessaire.
+# labels = to_check
 "<Dav>"
 	"dav" adj mf sp @root #1->0
 "<e>"
@@ -96,6 +104,7 @@
 
 # text = Evet en deus.
 # text[fra] = Il a bu.
+# labels = to_check
 "<Evet>"
 	"evañ" vblex pp @root #1->0
 "<en deus>"
@@ -105,6 +114,7 @@
 
 # text = Evet he deus.
 # text[fra] = Elle a bu.
+# labels = to_check
 "<Evet>"
 	"evañ" vblex pp @root #1->0
 "<he deus>"
@@ -114,6 +124,7 @@
 
 # text = Kerzhet hon eus e-pad 2 eurvezh.
 # text[fra] = Nous avons marché pendant 2 heures.
+# labels = to_check
 "<Kerzhet>"
 	"kerzhout" vblex pp @root #1->0
 "<hon eus>"
@@ -129,6 +140,7 @@
 
 # text = Lennet he devoa ur gontadenn d'he bugel.
 # text[fra] = Elle avait lu un conte à son enfant.
+# labels = to_check
 "<Lennet>"
 	"lenn" vblex pp @root #1->0
 "<he devoa>"
@@ -147,6 +159,7 @@
 
 # text = Bet hon eus kalz a draoù.
 # text[fra] = Nous avons eu beaucoup de choses.
+# labels = to_check
 "<Bet>"
 	"kaout" vblex pp @root #1->0
 "<hon eus>"
@@ -160,6 +173,7 @@
 
 # text = Bet em eus plijadur gant ar plac'h.
 # text[fra] = J'ai eu du plaisir avec la fille.
+# labels = to_check
 "<Bet>"
 	"kaout" vblex pp @root #1->0
 "<em eus>"
@@ -177,6 +191,7 @@
 
 # text = Mont a ran da c'hoari.
 # text[fra] = Je vais jouer.
+# labels = to_check
 "<Mont>"
 	"mont" vblex inf @root #1->0
 "<a>"
@@ -192,6 +207,7 @@
 
 # text = Bras eo ar paotr.
 # text[fra] = Le garçon est grand.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp @root #1->0
 "<eo>"
@@ -205,6 +221,7 @@
 
 # text = Bras eo ti Herve.
 # text[fra] = La maison d'Herve est grande.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp @root #1->0
 "<eo>"
@@ -218,6 +235,7 @@
 
 # text = Londrez eo kêr-benn Bro-Saoz.
 # text[fra] = La capitale de l'Angleterre est Londres.
+# labels = to_check
 "<Londrez>"
 	"Londrez" np top sg @root #1->0
 "<eo>"
@@ -231,6 +249,7 @@
 
 # text = Ret eo dit dont.
 # text[fra] = Il faut que tu viennes.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -245,6 +264,7 @@
 
 # text = Ret eo deomp dont.
 # text[fra] = Il faut que nous venions.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -259,6 +279,7 @@
 
 # text = Ret eo deoc'h dont.
 # text[fra] = Il faut que vous veniez.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -273,6 +294,7 @@
 
 # text = Ret eo dezhañ dont.
 # text[fra] = Il faut qu'il vienne.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -287,6 +309,7 @@
 
 # text = Ret eo dezhi dont.
 # text[fra] = Il faut qu'elle vienne.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -301,6 +324,7 @@
 
 # text = Ret eo dezho dont.
 # text[fra] = Il faut qu'ils viennent.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -315,6 +339,7 @@
 
 # text = Ret eo d'an dud dont.
 # text[fra] = Il faut que les gens viennent.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -331,6 +356,7 @@
 
 # text = Poent eo din mont.
 # text[fra] = Il est temps que j'y aille.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg @root #1->0
 "<eo>"
@@ -345,6 +371,7 @@
 
 # text = Poent eo mont d'ar gêr.
 # text[fra] = Il est temps d'aller à la maison.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg @root #1->0
 "<eo>"
@@ -361,6 +388,7 @@
 
 # text = Poent eo debriñ.
 # text[fra] = Il est temps de manger.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg @root #1->0
 "<eo>"
@@ -372,6 +400,7 @@
 
 # text = C’hwitellat a ra en ur labourat.
 # text[fra] = Il siffle en travaillant.
+# labels = to_check
 "<C’hwitellat>"
 	"c’hwitellat" vblex inf @root #1->0
 "<a>"
@@ -387,6 +416,7 @@
 
 # text = Gwelet em eus ar c’hi en ur dreuziñ an hent.
 # text[fra] = J'ai vu le chien en traversant la route.
+# labels = to_check
 "<Gwelet>"
 	"gwelout" vblex pp @root #1->0
 "<em eus>"
@@ -408,6 +438,7 @@
 
 # text = Emaon o paouez echuiñ ma levr.
 # text[fra] = Je viens de finir mon livre.
+# labels = to_check
 "<Emaon>"
 	"bezañ" vbloc pri p1 sg @aux #1->3
 "<o>"
@@ -425,6 +456,7 @@
 
 # text = Krog on da gompren.
 # text[fra] = Je commence à comprendre.
+# labels = to_check
 "<Krog>"
 	"krog" adj mf sp @root #1->0
 "<on>"
@@ -438,6 +470,7 @@
 
 # text = Ne oar ket.
 # text[fra] = Il ne sait pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<oar>"
@@ -449,6 +482,7 @@
 
 # text = Ne ra ket glav.
 # text[fra] = Il ne pleut pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<ra>"
@@ -462,6 +496,7 @@
 
 # text = N'eo ket bet lazhet.
 # text[fra] = Il n'a pas été tué.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->5
 "<eo>"
@@ -477,6 +512,7 @@
 
 # text = En em gannet out c'hoazh ?
 # text[fra] = Tu t'es encore battu ?
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<gannet>"
@@ -490,6 +526,7 @@
 
 # text = Me en em walc'h.
 # text[fra] = Je me lave.
+# labels = to_check
 "<Me>"
 	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<en em>"
@@ -501,6 +538,7 @@
 
 # text = Er sal dour en em walc'han.
 # text[fra] = Je me lave dans la salle de bain.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -517,6 +555,7 @@
 
 # text = Er sal dour en em walc'hen.
 # text[fra] = Je me lavais dans la salle de bain.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -533,6 +572,7 @@
 
 # text = Er sal dour on en em walc'het.
 # text[fra] = Je me suis lavé dans la salle de bain.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -551,6 +591,7 @@
 
 # text = En em walc'het on er sal dour.
 # text[fra] = Je me suis lavé dans la salle de bain.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<walc'het>"
@@ -569,6 +610,7 @@
 
 # text = Perak en em walc'hez ?
 # text[fra] = Pourquoi te laves tu ?
+# labels = to_check
 "<Perak>"
 	"perak" adv itg @advmod #1->3
 "<en em>"
@@ -580,6 +622,7 @@
 
 # text = Trizek sizhunvezh e oa padet kendivizoù ar prosez, etre C'hwevrer ha Mezheven 2007.
 # text[fra] = Les débats du procès avaient duré treize semaines, entre février et juin 2007.
+# labels = to_check
 "<Trizek>"
 	"trizek" num mf pl @nummod #1->2
 "<sizhunvezh>"
@@ -613,6 +656,7 @@
 
 # text = Baleadennoù kontet hag heñchet er c’hoadoù a vo aozet ivez.
 # text[fra] = Des excursions contées et orientées dans les bois seront aussi organisées.
+# labels = to_check
 "<Baleadennoù>"
 	"baleadenn" n f pl @nsubj #1->10
 "<kontet>"
@@ -639,6 +683,7 @@
 
 # text = Kalz re hir eo ar film.
 # text[fra] = Le film est beaucoup trop long.
+# labels = to_check
 "<Kalz re>"
 	"kalz re" adv @advmod #1->2
 "<hir>"
@@ -654,6 +699,7 @@
 
 # text = Ret e vo dibab goude-se.
 # text[fra] = Il faudra choisir après ça.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<e>"
@@ -669,6 +715,7 @@
 
 # text = Gallout a rin ober kement-se.
 # text[fra] = Je pourrai faire tout cela.
+# labels = to_check
 "<Gallout>"
 	"gallout" vblex inf @aux #1->4
 "<a>"
@@ -684,6 +731,7 @@
 
 # text = Goulenn a reont ma vo digoret an nor .
 # text[fra] = Ils demandent que soit ouvert la porte.
+# labels = to_check
 "<Goulenn>"
 	"goulenn" vblex inf @root #1->0
 "<a>"
@@ -705,6 +753,7 @@
 
 # text = Soñjal a ran enni.
 # text[fra] = Je pense à elle.
+# labels = to_check
 "<Soñjal>"
 	"soñjal" vblex inf @root #1->0
 "<a>"
@@ -719,6 +768,7 @@
 
 # text = Degouezhet eo da gentañ.
 # text[fra] = Il est arrivé en premier.
+# labels = to_check
 "<Degouezhet>"
 	"degouezhout" vblex pp @root #1->0
 "<eo>"
@@ -731,6 +781,7 @@
 
 # text = Degouezhet eo da eil.
 # text[fra] = Il est arrivé en deuxième.
+# labels = to_check
 "<Degouezhet>"
 	"degouezhout" vblex pp @root #1->0
 "<eo>" 
@@ -744,6 +795,7 @@
 
 # text = Degouezhet eo da drede.
 # text[fra] = Il est arrivé en troisième.
+# labels = to_check
 "<Degouezhet>"
 	"degouezhout" vblex pp @root #1->0
 "<eo>"
@@ -757,6 +809,7 @@
 
 # text = Piv eo ar pempvet?
 # text[fra] = Qui est le cinquième?
+# labels = to_check
 "<Piv>"
 	"piv" prn itg mf sp @nsubj #1->4
 "<eo>"
@@ -770,6 +823,7 @@
 
 # text = Hi eo ar bempvet.
 # text[fra] = C'est elle la cinquième.
+# labels = to_check
 "<Hi>"
 	"prpers" prn subj p3 f sg @nsubj #1->4
 "<eo>"
@@ -783,6 +837,7 @@
 
 # text = Hi zo pempvet.
 # text[fra] = Elle est cinquième.
+# labels = to_check
 "<Hi>"
 	"prpers" prn subj p3 f sg @nsubj #1->3
 "<zo>"
@@ -794,6 +849,7 @@
 
 # text = Piv zo da bevare?
 # text[fra] = Qui est arrivé quatrième?
+# labels = to_check
 "<Piv>"
 	"piv" prn itg mf sp @nsubj #1->4
 "<zo>"
@@ -807,6 +863,7 @@
 
 # text = En teuliad e vez kinniget ur pennad diwar-benn stad an dachenn douar, arouezius eus an dizemglev padus etre Israeliz ha Palestiniz.
 # text[fra¹] = Dans le dossier est présenté un article au sujet de l'état du terrain terre, significative de la mésentente durable entre des Israéliens/Israéliens et des Palestiniens.
+# labels = to_check
 "<En>"
 	"e" pr @case #1->2
 		"an" det def sp @det #2->3
@@ -857,6 +914,7 @@
 
 # text = En India eo bet kemeret ar skeudennoù.
 # text[fra¹] = en Inde a été prise les images.
+# labels = to_check
 "<En>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -877,6 +935,7 @@
 
 # text = Ouzhpenn 20 beaj zo bet graet gantañ en India abaoe e 25 bloaz.
 # text[fra¹] = En plus 20 voyages ont été faits avec lui en Inde depuis dans 25 ans.
+# labels = to_check
 "<Ouzhpenn>"
 	"ouzhpenn" adv @advmod #1->2
 "<20>"
@@ -910,6 +969,7 @@
 
 # text = A-bouez bras eo al livioù.
 # text[fra¹] = Les couleurs est importantes grandes
+# labels = to_check
 "<A-bouez>"
 	"a-bouez" adj mf sp @amod #1->2
 "<bras>"
@@ -925,6 +985,7 @@
 
 # text = Diskouezadegoù skeudennoù a vez graet ingal gant Skol Diwan Roazhon.
 # text[fra¹] = Il y a les expositions d'images fait régulièrement avec l'École Diwan de Rennes.
+# labels = to_check
 "<Diskouezadegoù>"
 	"diskouezadeg" n f pl @nsubj #1->5
 "<skeudennoù>"
@@ -950,6 +1011,7 @@
 
 # text = Staliet e Konk-Kerne emañ.
 # text[fra¹] = Installé est à Concarneau.
+# labels = to_check
 "<Staliet>"
 	"staliañ" vblex pp @root #1->0
 "<e>"
@@ -963,6 +1025,7 @@
 
 # text = Ranket em boa dilezel geriaoueg voutin ar rock evit sevel ur pennad diwar-benn ar bladenn-se.
 # text[fra¹] = J'avais dû délaisser le vocabulaire commun du rock pour lever un article au sujet de ce disque.
+# labels = to_check
 "<Ranket>"
 	"rankout" vblex pp @root #1->0
 "<em boa>"
@@ -998,6 +1061,7 @@
 
 # text = Diskennit div loaiad vras a zourenn bleuñv-orañjez en un hanter litrad a zour o virviñ.
 # text[fra¹] = Descendez deux cuillerées grandes au liquide de fleurs-orange dans un à moitié litre il arrose en train de bouillir.
+# labels = to_check
 "<Diskennit>"
 	"diskenn" vblex imp p2 pl @root #1->0
 "<div>"
@@ -1036,6 +1100,7 @@
 
 # text = Ouzhpennit div loaiad vras a sukr rouz.
 # text[fra¹] = Vous ajoutez deux cuillerées grandes elle sucre roux.
+# labels = to_check
 "<Ouzhpennit>"
 	"ouzhpennañ" vblex imp p2 pl @root #1->0
 "<div>"
@@ -1055,6 +1120,7 @@
 
 # text = Pa grog da virviñ adarre, tennit diwar an tan.
 # text[fra¹] = Quand Il commence à bouillir de nouveau, tirez du feu.
+# labels = to_check
 "<Pa>"
 	"pa" cnjsub @mark #1->2
 "<grog>"
@@ -1080,6 +1146,7 @@
 
 # text = Ho fent avat a chom unan eus ho perzhioù gwellañ.
 # text[fra¹] = Votre humour alors reste une de vos qualités les plus mieux.
+# labels = to_check
 "<Ho>"
 	"ho" det pos mf sp @det #1->2
 "<fent>"
@@ -1105,6 +1172,7 @@
 
 # text = Ne vezit dilezet gwezh ebet gantañ.
 # text[fra¹] = vous n'êtes délaissé jamais avec lui.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->3
 "<vezit>"
@@ -1121,6 +1189,7 @@
 
 # text = Beajoù a c'hellfe bezañ mat evit ho labour.
 # text[fra¹] = Voyages pourraient être bien pour votre travail.
+# labels = to_check
 "<Beajoù>"
 	"beaj" n f pl @nsubj #1->5
 "<a>"
@@ -1142,6 +1211,7 @@
 
 # text = A-hed ar bloavezh, klaskit chom gant ur spered distan, ha derc'hel d'ho palioù.
 # text[fra¹] = Le long de l'année, cherchez rester avec un esprit calme, et tenir à vos avenues.
+# labels = to_check
 "<A-hed>"
 	"a-hed" pr @case #1->3
 "<ar>"
@@ -1178,6 +1248,7 @@
 
 # text = Ober a reot pep tra evit en em staliañ da vat, en ho puhez personel koulz hag en ho puhez labour.
 # text[fra¹] = Vous ferez tout pour installer pour de bon, dans votre vie personnelle ainsi que dans votre vie de travail.
+# labels = to_check
 "<Ober>"
 	"ober" vblex inf @root #1->0
 "<a>"
@@ -1221,6 +1292,7 @@
 
 # text = Labourit an toaz un tammig.
 # text[fra¹] = Travaillez la pâte un petit peu.
+# labels = to_check
 "<Labourit>"
 	"labourat" vblex pri p2 pl @root #1->0
 "<an>"
@@ -1236,6 +1308,7 @@
 
 # text = Gant beg ur gontell, tresit linennoù war ar gorre.
 # text[fra¹] = Avec la pointe d'un couteau, Vous dessinez des lignes sur la surface.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->2
 "<beg>"
@@ -1261,6 +1334,7 @@
 
 # text = Klaskit chom e peoc'h.
 # text[fra¹] = Vous cherchez rester dans paix.
+# labels = to_check
 "<Klaskit>"
 	"klask" vblex imp p2 pl @root #1->0
 "<chom>"
@@ -1274,6 +1348,7 @@
 
 # text = Pasianted ivez! 
 # text[fra¹] = Patience aussi! 
+# labels = to_check
 "<Pasianted>"
 	"pasianted" n f sg @root #1->0
 "<ivez>"
@@ -1283,6 +1358,7 @@
 
 # text = Tarzhañ ne zegaso mann ebet deoc'h.
 # text[fra¹] = Éclater Il n'apportera rien du tout à vous.
+# labels = to_check
 "<Tarzhañ>"
 	"tarzhañ" vblex inf @csubj #1->3
 "<ne>"
@@ -1299,6 +1375,7 @@
 
 # text = Ret e vo deoc'h kemer divizioù, en em zifenn, fiñval ha cheñch.
 # text[fra¹] = Il faudra que Vous preniez décisions, défend, bouger et changer.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<e>"
@@ -1331,6 +1408,7 @@
 
 # text = Ret e vo derc'hel mat.
 # text[fra¹] = Nécessaire sera tenir bien.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<e>"
@@ -1346,6 +1424,7 @@
 
 # text = Aesoc'h e vo an traoù deoc'h.
 # text[fra¹] = Plus facile sera les choses à vous.
+# labels = to_check
 "<Aesoc'h>"
 	"aes" adj sint comp @root #1->0
 "<e>"
@@ -1364,6 +1443,7 @@
 
 # text = Un nebeud diaesterioù a c'hellfe c'hoarvezout en ho puhez kalon pe en ho labour.
 # text[fra¹] = Un peu de difficultés pourrait arriver dans votre vie de coeur quel dans votre travail.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<nebeud>"
@@ -1397,6 +1477,7 @@
 
 # text = Arabat deoc'h en em santout re gablus ma rit fazioù.
 # text[fra¹] = Interdit à vous sentir trop coupable si vous faites des erreurs.
+# labels = to_check
 "<Arabat>"
 	"arabat" adv @root #1->0
 "<deoc'h>"
@@ -1421,6 +1502,7 @@
 
 # text = Ho youl da eeunaat an traoù a vo a-walc'h evit bezañ digarezet.
 # text[fra¹] = Votre volonté à simplifier les choses sera assez pour être excusé.
+# labels = to_check
 "<Ho>"
 	"ho" det pos mf sp @det #1->2
 "<youl>"
@@ -1450,6 +1532,7 @@
 
 # text = Sirius-tre eo an afer-mañ.
 # text[fra¹] = Cette affaire est très sérieuse
+# labels = to_check
 "<Sirius-tre>"
 	"sirius" adj mf sp @root #1->0
 		"tre" adv @advmod #2->1
@@ -1466,6 +1549,7 @@
 
 # text = Un teuliad peder fajennad zo bet gouestlet en niverenn-mañ da Vro-Euskadi.
 # text[fra¹] = Un dossier quatre pages ont été engagées dans ce numéro à Pays-le Pays Basque.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<teuliad>"
@@ -1496,6 +1580,7 @@
 
 # text = Sinema, kontadennoù, dañs, sonerezh, c'hoariva, barzhonegoù, kendivizoù, stajoù...
 # text[fra¹] = Cinéma, contes, danse, musique, théâtre, poèmes, débats, stages...
+# labels = to_check
 "<Sinema>"
 	"sinema" n m sg @root #1->0
 "<,>"
@@ -1531,6 +1616,7 @@
 
 # text = Kontet gant ur paotrig, mab d'un den gwenn ha d'ur plac'h du, e tizho an istor-mañ tud a bep seurt oadoù.
 # text[fra¹] = Compté par un petit garçon, fils à une personne blanche et à une fille noire, atteindra cette histoire gens de toute sorte âges.
+# labels = to_check
 "<Kontet>"
 	"kontañ" vblex pp @acl #1->20
 "<gant>"
@@ -1588,6 +1674,7 @@
 
 # text = Lakait er yenerez.
 # text[fra¹] = Mettez dans le réfrigérateur.
+# labels = to_check
 "<Lakait>"
 	"lakaat" vblex imp p2 pl @root #1->0
 "<er>"
@@ -1600,6 +1687,7 @@
 
 # text = En ur girin, savit da erc'h ar 4 gwenn-vi.
 # text[fra¹] = Dans une terrine, lèvez à neige les 4 blancs d’oeufs.
+# labels = to_check
 "<En ur>"
 	"e" pr @case #1->3
 		"un" det ind sp @det #2->3
@@ -1624,6 +1712,7 @@
 
 # text = Ouzhpennit ar meskaj bleud, ha goude-se an amann blotaet, meskit kaer a-benn chom hep terriñ ar vioù.
 # text[fra¹] = Ajoutez le mélange en farine, et ensuite le beurre amolli, tu mélanges beau pour rester sans casser les oeufs.
+# labels = to_check
 "<Ouzhpennit>"
 	"ouzhpennañ" vblex imp p2 pl @root #1->0
 "<ar>"
@@ -1667,6 +1756,7 @@
 
 # text = An teuliad peder fajennad zo gouestlet da adunvanidigezh Breizh. 
 # text[fra¹] = Le dossier quatre pages ont engagées à la réunification de la Bretagne. 
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<teuliad>"
@@ -1690,6 +1780,7 @@
 
 # text = Merket e vo poentoù ganeoc'h pa dizhoc'h harnez ar c'hoarierien all.
 # text[fra¹] = Des points sera marqué par vous quand vous atteindrez le harnais des autres joueurs.
+# labels = to_check
 "<Merket>"
 	"merkañ" vblex pp @root #1->0
 "<e>"
@@ -1718,6 +1809,7 @@
 
 # text = Kontet e vo ar poentoù er fin gant an urzhiataer.
 # text[fra¹] = sera compté les points à la fin par l'ordinateur.
+# labels = to_check
 "<Kontet>"
 	"kontañ" vblex pp @root #1->0
 "<e>"
@@ -1744,6 +1836,7 @@
 
 # text = Meskit an hanter eus ar c'heuz gant ar c'hraoñ-kelvez pilet hag an eoul.
 # text[fra¹] = Vous mélangez le à moitié du fromage avec les noisettes écrasées et l'huile.
+# labels = to_check
 "<Meskit>"
 	"meskañ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -1775,6 +1868,7 @@
 
 # text = Ho pet pasianted! 
 # text[fra¹] = Ayez patience! 
+# labels = to_check
 "<Ho pet>"
 	"kaout" vblex imp p2 pl @root #1->0
 "<pasianted>"
@@ -1784,6 +1878,7 @@
 
 # text = Cheñchamantoù bras a vo evidoc'h, met ne vint ket graet trumm.
 # text[fra¹] = Grands changements sera pour vous, mais ils ne seront pas fait instantané.
+# labels = to_check
 "<Cheñchamantoù>"
 	"cheñchamant" n m pl @nsubj #1->6
 "<bras>"
@@ -1814,6 +1909,7 @@
 
 # text = Klaskit chom e peoc'h.
 # text[fra¹] = Vous cherchez rester dans paix.
+# labels = to_check
 "<Klaskit>"
 	"klask" vblex imp p2 pl @root #1->0
 "<chom>"
@@ -1827,6 +1923,7 @@
 
 # text = Un emzalc'h doujus ha spis a zereo kalz gwelloc'h.
 # text[fra¹] = Un comportement respectueux et clair conviendra beaucoup plus mieux.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<emzalc'h>"
@@ -1850,6 +1947,7 @@
 
 # text = Tachennoù an arc'hant hag ar familh a vo gwarezet.
 # text[fra¹] = Les terrains de l'argent et la famille sera protégée.
+# labels = to_check
 "<Tachennoù>"
 	"tachenn" n f pl @nsubj #1->9
 "<an>"
@@ -1873,6 +1971,7 @@
 
 # text = En holl e vefe bet tizhet etre 2,1 ha 4,8 milion a dud.
 # text[fra¹] = en tout il aurait été atteint entre 2,1 et 4,8 millions à gens.
+# labels = to_check
 "<En>"
 	"e" pr @case #1->2
 "<holl>"
@@ -1904,6 +2003,7 @@
 
 # text = Kinnig a ra ar gevredigezh Kentelioù an Noz un dibenn-sizhun staj er Poulgwenn (44) d'ar Sadorn 15 ha d'ar Sul 16 a viz Meurzh 2008.
 # text[fra¹] = La société de Leçons de la Nuit présente un week-end de stage à Pouliguen (44) le samedi 15 et le dimanche 16 mars 2008.
+# labels = to_check
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<a>"
@@ -1962,6 +2062,7 @@
 
 # text = Pezhioù-c'hoari a bep seurt a vo kinniget e Konk-Kerne, Pont-Aven, Sant-Ivi, Tregon.
 # text[fra¹] = @Pezh de toute sorte il sera présenté à Concarneau, Pont-Aven, Saint-Yvi, Trégunc.
+# labels = to_check
 "<Pezhioù-c'hoari>"
 	"pezh-c’hoari" n m pl @nsubj #1->7
 "<a>"
@@ -1997,6 +2098,7 @@
 
 # text = Ar re o deus ezhomm groñs eus ur c'harr-saout (4x4) evit o micher (labour-douar, labour er c'hoadoù) a vefe aotreet da gaout unan.
 # text[fra¹] = Ceux qui ont besoin formel d'une voiture-vaches (4x4) pour leur métier (agriculture, travail dans les bois) aient autorisés à avoir un.
+# labels = to_check
 "<Ar re>"
 	"ar re" prn rel mf sg @nsubj #1->26
 "<o deus>"
@@ -2059,6 +2161,7 @@
 
 # text = Kenaozet e vo an degouezh er bloaz-mañ gant Park an Arvorig.
 # text[fra¹] = Il sera coorganisé l'occasion cette année avec Parc d’Armorique.
+# labels = to_check
 "<Kenaozet>"
 	"kenaozañ" vblex pp @root #1->0
 "<e>"
@@ -2085,6 +2188,7 @@
 
 # text = Ma n'ho peus ket lennet al lodenn gentañ er sizhun tremenet, klikit amañ evit lenn anezhi pe war Bremaik_ar_sizhun_dremenet.
 # text[fra¹] = Si vous n'avez pas lu la première partie dans la semaine passée, cliquez ici pour lire elle quelle sur #le_Bremaik de la_semaine_passée.
+# labels = to_check
 "<Ma>"
 	"ma" cnjsub @mark #1->5
 "<n'>"
@@ -2137,6 +2241,7 @@
 
 # text = Hag int kroget da c'hounit tachenn en-dro memes tra.
 # text[fra¹] = Et ils ont commencé à gagner terrain de nouveau quand même.
+# labels = to_check
 "<Hag>"
 	"ha" cnjcoo @cc #1->3
 "<int>"
@@ -2158,6 +2263,7 @@
 
 # text = Dek kilometrad a-raok ar fin, e oa daou varc'hhouarner oc'h en em gannañ evit ar plas kentañ.
 # text[fra¹] = Dix kilomètres avant la fin, elle était deux cyclistes êtes battre pour la première place.
+# labels = to_check
 "<Dek>"
 	"dek" num mf pl @nummod #1->2
 "<kilometrad>"
@@ -2197,6 +2303,7 @@
 
 # text = Servijit diouzhtu.
 # text[fra¹] = Vous servez tout de suite.
+# labels = to_check
 "<Servijit>"
 	"servijañ" vblex imp p2 pl @root #1->0
 "<diouzhtu>"
@@ -2206,6 +2313,7 @@
 
 # text = Hiziv, d'al Lun 8 a viz Meurzh, e vez lidet devezh etrebroadel ar maouezed.
 # text[fra¹] = Aujourd’hui, le lundi 8 mars, il est célébré la journée internationale des femmes.
+# labels = to_check
 "<Hiziv>"
 	"hiziv" adv @advmod #1->12
 "<,>"
@@ -2242,6 +2350,7 @@
 
 # text = Hervez Burev Etrebroadel al Labour, 40 % eus an dud gopret er bed a zo merc'hed.
 # text[fra¹] = Selon le Bureau International du Travail, 40 % de les salariés dans le monde sont filles.
+# labels = to_check
 "<Hervez>"
 	"hervez" pr @case #1->2
 "<Burev>"
@@ -2278,6 +2387,7 @@
 
 # text = Met 60 % eus an dud a c'hounez nebeutoc'h eget 1 $ bemdez a zo merc'hed. 
 # text[fra¹] = Mais 60 % des gens Elle gagne moins que 1 $ tous les jours est filles. 
+# labels = to_check
 "<Met>"
 	"met" cnjcoo @cc #1->4
 "<60 %>"
@@ -2311,6 +2421,7 @@
 
 # text = E Frañs, e 2001, e oa bet jedet gant an EBSSA (INSEE) e veze paeet ar merc'hed, en embregerezhioù prevez hag evit memes amzer labour, tro-dro da 20 % nebeutoc'h eget ar baotred.
 # text[fra¹] = En France, dans 2001, a été calculés par l'EBSSA (d'INSEE) que les filles ont était payé, dans les entreprises privées et pour même le temps de travail, autour de 20 % moins que les garçons.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<Frañs>"
@@ -2389,6 +2500,7 @@
 
 # text = Klaseloc'h e oa ar pezh kinniget e Kemper d'ar mare-mañ.
 # text[fra¹] = Plus classique était ce que présenté à Quimper à ce moment.
+# labels = to_check
 "<Klaseloc'h>"
 	"klasel" adj sint comp @root #1->0
 "<e>"
@@ -2415,6 +2527,7 @@
 
 # text = En dibenn-sizhun-mañ paseet e oa bet kroget kampionad ar bed an F1.
 # text[fra¹] = Dans ce week-end passé avait été commencé le championnat du monde le F1.
+# labels = to_check
 "<En>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -2447,6 +2560,7 @@
 
 # text = Peurrest ar skipailhoù a seblant pell a-walc'h eus al live avat.
 # text[fra¹] = Le reste des équipes semble assez loin du niveau alors.
+# labels = to_check
 "<Peurrest>"
 	"peurrest" n m sg @nsubj #1->5
 "<ar>"
@@ -2474,6 +2588,7 @@
 
 # text = Ur fest-deiz a vo kinniget goude an droiad er maezioù.
 # text[fra¹] = Un fest-deiz sera présenté après la tournée dans les campagnes.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<fest-deiz>"
@@ -2500,6 +2615,7 @@
 
 # text = Fellout a ra dezho e vefe savet un destenn ofisiel a-benn anzav n'eo ket doujet ouzh o gwirioù abaoe trevadennerezh Aostralia gant ar Rouantelezh.
 # text[fra¹] = Ils Veulent qu'il aurait levé un texte officiel pour reconnaître qu'il n'a pas respecté leur droits depuis la colonisation de l'Australie par le Royaume.
+# labels = to_check
 "<Fellout>"
 	"fellout" vblex inf @root #1->0
 "<a>"
@@ -2556,6 +2672,7 @@
 
 # text = Ar c'harotez a zle dont da vezañ tener-kenañ.
 # text[fra¹] = Les carottes à doivent devenir très tendres.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<c'harotez>"
@@ -2578,6 +2695,7 @@
 
 # text = Savet ez eus bet ur c'houlennaoueg gant tud Divskouarn eta, a-benn gouzout "piv, petra ha penaos" e-keñver ar c'hinnig brezhoneg d'ar bugaligoù er vro.
 # text[fra¹] = Un questionnaire a été levé par les gens de Divskouarn donc, pour savoir "qui, quoi et comment" par comparaison à la proposition de breton aux petits enfants dans le pays.
+# labels = to_check
 "<Savet>"
 	"sevel" vblex pp @root #1->0
 "<ez eus>"
@@ -2639,6 +2757,7 @@
 
 # text = Ret e vo kinnig 2 ganaouenn da nebeutañ hag an hollad ne ranko ket padout ouzhpenn 20 munutenn.
 # text[fra¹] = Nécessaire sera proposer 2 chansons au moins et le total ne devront pas durer plus de 20 minutes.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<e>"
@@ -2678,6 +2797,7 @@
 
 # text = Tennit diouzh ar forn.
 # text[fra¹] = Vous tirez du four.
+# labels = to_check
 "<Tennit>"
 	"tennañ" vblex imp p2 pl @root #1->0
 "<diouzh>"
@@ -2691,6 +2811,7 @@
 
 # text = 200 den a oa bet lazhet diriaou, ha 1500 den gloazet, gant gwall-daolioù Madrid.
 # text[fra¹] = 200 personnes avaient été tuées jeudi, et 1500 personnes blessées, par mal-les coups de Madrid.
+# labels = to_check
 "<200>"
 	"200" num mf pl @nummod #1->2
 "<den>"
@@ -2732,6 +2853,7 @@
 
 # text = Evit ar wech kentañ en he istor e kaso Frañs daou skipailh e kardgourfennoù kib kampioned Europa.
 # text[fra¹] = Pour la première fois dans son histoire elle enverra la France deux équipes dans les quarts de finale de la coupe des champions d'Europe.
+# labels = to_check
 "<Evit>"
 	"evit" pr @case #1->3
 "<ar>"
@@ -2771,6 +2893,7 @@
 
 # text = Pennoù ar sindikadoù a stourm a-enep ar CPE o deus disklêriet dec'h e roent un "ultimatom" daou devezh d'ar gouarnamant evit lemel kinnig ar CPE.
 # text[fra¹] = Les chefs des syndicats qui combattent contre le CPE ont déclarés hier qu'ils donnaient un "ultimatum" de deux journées au gouvernement pour ôter présenter le CPE.
+# labels = to_check
 "<Pennoù>"
 	"penn" n m pl @nsubj #1->10
 "<ar>"
@@ -2829,6 +2952,7 @@
 
 # text = En em vodañ a raio pennoù ar sindikadoù adarre hiziv evit gwelet penaos kas ar stourm war-raok.
 # text[fra¹] = regroupera les têtes des syndicats de nouveau aujourd’hui pour voir comment envoyer le combat en avant.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<vodañ>"
@@ -2866,6 +2990,7 @@
 
 # text = Kantikoù ha sonennoù a vo kanet er bloaz-mañ, en o zouez kantikoù gouestlet d'ar Werc'hez ha da Santez Anna.
 # text[fra¹] = Cantiques et chansons Elle sera chantée cette année, parmi eux cantiques engagés à la Vierge et à la Sainte d'Anna.
+# labels = to_check
 "<Kantikoù>"
 	"kantik" n m pl @nsubj #1->6
 "<ha>"
@@ -2912,6 +3037,7 @@
 
 # text = Cheñch a raio spontus e vuhez abalamour d'an enklask-se.
 # text[fra¹] = Il changera effrayant sa vie à cause de cette enquête.
+# labels = to_check
 "<Cheñch>"
 	"cheñch" vblex inf @root #1->0
 "<a>"
@@ -2937,6 +3063,7 @@
 
 # text = Dre veskañ ar meteier sokial ha diskouez heñvelderioù mab-den e sav ar film goulennoù dedennus-tre.
 # text[fra¹] = Par mélanger les milieux sociaux et montrer les conformités d'homme le film monte questions très intéressantes.
+# labels = to_check
 "<Dre>"
 	"dre" pr @mark #1->2
 "<veskañ>"
@@ -2973,6 +3100,7 @@
 
 # text = Ijinit 'ta.
 # text[fra¹] = Inventez donc.
+# labels = to_check
 "<Ijinit>"
 	"ijinañ" vblex imp p2 pl @root #1->0
 "<'ta>"
@@ -2982,6 +3110,7 @@
 
 # text = Meskit mat pep tra.
 # text[fra¹] = Mélangez bien tout.
+# labels = to_check
 "<Meskit>"
 	"meskañ" vblex imp p2 pl @root #1->0
 "<mat>"
@@ -2993,6 +3122,7 @@
 
 # text = Ledit ar meskaj-se war an toaz.
 # text[fra¹] = Vous étalez ce mélange sur la pâte.
+# labels = to_check
 "<Ledit>"
 	"ledañ" vblex imp p2 pl @root #1->0
 "<ar>"
@@ -3012,6 +3142,7 @@
 
 # text = Kaotigell sivi a c'heller ouzhpennañ ivez.
 # text[fra¹] = On peut ajouter la confiture de fraises aussi.
+# labels = to_check
 "<Kaotigell>"
 	"kaotigell" n f sg @nsubj #1->5
 "<sivi>"
@@ -3029,6 +3160,7 @@
 
 # text = Evel boaz e vo kinniget neuze a bep seurt traoù (sonerezh, c'hoariva, filmoù, arzoù a-vremañ).
 # text[fra¹] =  Evel habitude Elle sera présentée alors de toute sorte les choses (de musique, théâtre, films, arts désormais).
+# labels = to_check
 "<Evel>"
 	"evel" pr @case #1->2
 "<boaz>"
@@ -3074,6 +3206,7 @@
 
 # text = Un nebeud strolladoù a vank c'hoazh er programm, kit neuze da welout al liammoù kinniget amañ dindan evit gouzout hiroc'h.
 # text[fra¹] = Un peu de groupes manque encore dans le programme, allez alors à voir les liens présentés ci-dessous pour en savoir plus.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<nebeud>"
@@ -3120,6 +3253,7 @@
 
 # text = Ouzhpenn 200 darvoud liesseurt a vo kinniget war dachenn Frañs a-bezh.
 # text[fra¹] = Plus de 200 événements divers seront présentés sur le terrain de la France entièrement.
+# labels = to_check
 "<Ouzhpenn>"
 	"ouzhpenn" pr @dep #1->2
 "<200>"
@@ -3147,6 +3281,7 @@
 
 # text = Hag anavezout a rit an abadenn "Mil dremm" a vez kinniget bep sizhun war TV Breizh? 
 # text[fra¹] = Et connaissez-vous l'émission "d'Animal visage" qui est présenté toutes les semaines sur TV Breizh? 
+# labels = to_check
 "<Hag>"
 	"ha" cnjcoo @cc #1->2
 "<anavezout>"
@@ -3186,6 +3321,7 @@
 
 # text = War an tele e tremen abred-tre d'ar Sadorn neuze, e-tro 7 eur.
 # text[fra¹] = Sur la télé dans passage très tôt le samedi alors, autour de 7 heures.
+# labels = to_check
 "<War>"
 	"war" pr @case #1->3
 "<an>"
@@ -3219,6 +3355,7 @@
 
 # text = E gwerzh er stalioù levrioù a ginnig danvez Breizh, pe dre goumanant.
 # text[fra¹] = En vente dans les librairies ou par abonnement il présente la matière de la Bretagne.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<gwerzh>"
@@ -3251,6 +3388,7 @@
 
 # text = Ganet eo bet e 1958 e Naoned ha marv e Pariz e 1993.
 # text[fra¹] = Elle a été née en 1958 à Nantes et morte à Paris en 1993.
+# labels = to_check
 "<Ganet>"
 	"genel" vblex pp @root #1->0
 "<eo>"
@@ -3282,6 +3420,7 @@
 
 # text = Techet e oa al livour da skeudenniñ buhez pemdez ar 17vet kantved en e gorn-bro.
 # text[fra¹] = Porté était le peintre à représenter vie quotidienne les 17ème siècle dans son coin.
+# labels = to_check
 "<Techet>"
 	"techet" adj mf sp @root #1->0
 "<e>"
@@ -3317,6 +3456,7 @@
 
 # text = Un "dro bed ar sonerezh" a zastumo war he hent 10 strollad a sono e-kerz 13vet Gouel an Erer Kozh.
 # text[fra¹] = Un "tour de monde de la musique" ramassera sur son route 10 groupes qui sonnera en la possession de 13ème Fête de l'Aigle Vieille.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->3
 "<">" 
@@ -3366,6 +3506,7 @@
 
 # text = Ma fell deoc'h kemer perzh en Erer Yaouank e c'hellit lakaat hoc'h anv e-pad ur pennadig c'hoazh.
 # text[fra¹] = Si vous voulez participer dans le Jeune Aigle pouvez mettre votre nom pendant un petit moment encore.
+# labels = to_check
 "<Ma>"
 	"ma" cnjsub @mark #1->2
 "<fell>"
@@ -3407,6 +3548,7 @@
 
 # text = Ur stourm a ranko kenderc'hel (ha marteze dont da vezañ... nerzhusoc'h) ma fell d'ar Vretoned bezañ doujet evit pezh a sell ouzh skignañ o yezh er radio.
 # text[fra¹] = Un combat devra continuer (et peut-être devenir... plus fort) s'il veut aux Bretons être respectés pour ce que regardent les diffuser linguistiques dans la radio.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<stourm>"
@@ -3472,6 +3614,7 @@
 
 # text = Ur pred krampouezh a vo kinniget war al lec'h.
 # text[fra¹] = Il Sera présenté un repas de crêpes sur place.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<pred>"
@@ -3495,6 +3638,7 @@
 
 # text = Kenaozet eo gant implijidi an ospital ha kevredigezhioù lec'hel.
 # text[fra¹] = Il a coorganisé avec les employés de l'hôpital et des sociétés locales.
+# labels = to_check
 "<Kenaozet>"
 	"kenaozañ" vblex pp @root #1->0
 "<eo>"
@@ -3518,6 +3662,7 @@
 
 # text = An holl arc'hant dastumet a servijo da seveniñ raktresoù pe da brenañ dafar evit gwellaat degemer ar vugale en ospitalioù.
 # text[fra¹] = Tout l'argent ramassé servira à réaliser projets où à acheter matériel pour améliorer accueillir les enfants dans les hôpitaux.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->3
 "<holl>"
@@ -3564,6 +3709,7 @@
 
 # text = Gwelomp er sizhun-mañ peseurt strategiezhioù a vez lakaet e-pleustr gant an embregerezhioù bras-se evit mirout al labourerien-douar en o dalc'h.
 # text[fra¹] = Nous voyons cette semaine quel stratégies son mis en pratique par ces grandes entreprises pour garder les fermiers dans leurs maintien.
+# labels = to_check
 "<Gwelomp>"
 	"gwelout" vblex pri p1 pl @root #1->0
 "<er>"
@@ -3614,6 +3760,7 @@
 
 # text = Met n'eo ket sioul pep tra er palez.
 # text[fra¹] = Mais tout n'est pas tranquille dans le palais.
+# labels = to_check
 "<Met>"
 	"met" cnjcoo @cc #1->5
 "<n'>"
@@ -3636,6 +3783,7 @@
 
 # text = Hervez al lec'h e vo marteze graet an dibab? 
 # text[fra¹] = Selon le lieu peut-être sera fait le choix? 
+# labels = to_check
 "<Hervez>"
 	"hervez" pr @case #1->3
 "<al>"
@@ -3659,6 +3807,7 @@
 
 # text = Ar goulenn brasañ graet ganto zo krouiñ ur skoaziad arc'hant kevatal d'ar SMIC, evit ma c'hellfe bevañ en un doare aesoc'h an dud nammet betek chom hep gellout labourat.
 # text[fra¹] = La question grande faite par eux est créer une subvention d'argent égal au SMIC, pour que puisse vivre dans une manière plus facile les gens handicapés jusque rester sans pouvoir travailler.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<goulenn>"
@@ -3723,6 +3872,7 @@
 
 # text = E Kemper ez eo ar stourm evit ar c'helenn divyezhek a vo er jeu.
 # text[fra¹] = À Quimper est le combat pour l'enseignement bilingue qui sera dans l'affaire.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<Kemper>"
@@ -3757,6 +3907,7 @@
 
 # text = Rankout a reont bewech stourm ha stourm adarre evit rediañ Renerezh-eskopti ar c'helenn katolik da zigeriñ klasoù divyezhek nevez.
 # text[fra¹] = Ils doivent chaque fois combattre et combattre de nouveau pour obliger la Direction de l'évêché de l'enseignement catholique à ouvrir des nouvelles classes bilingues.
+# labels = to_check
 "<Rankout>"
 	"rankout" vblex inf @aux #1->5
 "<a>"
@@ -3804,6 +3955,7 @@
 
 # text = E Brest, Douarnenez, Kemper, Montroulez ha Naoned e vo ivez tud bodet evit goulenn ar peoc'h etre Israel ha Palestina.
 # text[fra¹] = À Brest, Douarnenez, Quimper, Morlaix et Nantes il y aura aussi gens regroupés pour demander la paix entre Israël et la Palestine.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<Brest>"
@@ -3855,6 +4007,7 @@
 
 # text = Pep Kevre football amatour a zo e karg eus dibab ar c'hoarierien betek ar rummad DH hepken.
 # text[fra¹] = Chaque Ligue de football amateur est en charge de choisir les joueurs jusque la catégorie DH seulement.
+# labels = to_check
 "<Pep>"
 	"pep" det ind mf sg @det #1->2
 "<Kevre>"
@@ -3894,6 +4047,7 @@
 
 # text = An dilennadegoù kanton o deus lakaet 4 departamant breton diwar 5 da vezañ renet gant an tu kleiz. 
 # text[fra¹] = Les élections de canton ont mises 4 de 5 départements bretons à être dirigés par le gauche. 
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<dilennadegoù>"
@@ -3933,6 +4087,7 @@
 
 # text = Echuet eo bet tournamant ar 6 broad en dibenn-sizhun-mañ.
 # text[fra¹] = Il a été fini tournoi les 6 nations dans ce week-end.
+# labels = to_check
 "<Echuet>"
 	"echuiñ" vblex pp @root #1->0
 "<eo>"
@@ -3959,6 +4114,7 @@
 
 # text = Un dra all a chom da venegiñ eo ar fed ral a-walc'h ez eus bet moullet skritelloù gant an titl e brezhoneg evit ar film-mañ.
 # text[fra¹] = Une autre chose qui reste mentionner est le fait assez rare qu'il a été imprimé affiches avec le titre en breton pour ce film.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<dra>"
@@ -4014,6 +4170,7 @@
 
 # text = Koustañ a ra daou euro mui ar frejoù post.
 # text[fra¹] = Il coûte deux euros plus les frais de poste.
+# labels = to_check
 "<Koustañ>"
 	"koustañ" vblex inf @root #1->0
 "<a>"
@@ -4037,6 +4194,7 @@
 
 # text = Er mod-se eo bet saveteet gouenn "yer-koukoug Bro-Roazhon" pe an deñved bihan eus Enez Eusa.
 # text[fra¹] = Comme ça Elle a été sauvé la race "de poules-le coucou de Pays Rennais" quel les petits moutons de l'Île d'Ouessant.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -4083,6 +4241,7 @@
 
 # text = Met chom a ra bresk-tre an traoù memes tra.
 # text[fra¹] = Mais Elle reste très fragile les choses quand même.
+# labels = to_check
 "<met>"
 	"met" cnjcoo @cc #1->2
 "<chom>"
@@ -4105,6 +4264,7 @@
 
 # text = Evit an 23e gwech e vo aozet ar gouel-se e Sant-Brieg.
 # text[fra¹] = Pour la 23h fois sera organisée cette fête à Saint-Brieuc.
+# labels = to_check
 "<Evit>"
 	"evit" pr @case #1->4
 "<an>"
@@ -4134,6 +4294,7 @@
 
 # text = Goude gerioù fromus ar ganerez Nolwenn Korbell e oa bet kaset an dibunadeg war-raok gant startijenn liseidi ha skolajidi an hentad kelenn dre soubidigezh.
 # text[fra¹] = Après les mots émouvants de la chanteuse Nolwenn Korbell la manifestation avait été envoyé en avant par le dynamisme de lycéens et les collégiens du circuit enseignement par immersion.
+# labels = to_check
 "<Goude>"
 	"goude" pr @case #1->2
 "<gerioù>"
@@ -4187,6 +4348,7 @@
 
 # text = Da eil e vez erlec'hiet genoù liesseurt-kenañ gant un doare gen hepken.
 # text[fra¹] = Deuxièmement il est remplacé bouche très diverse avec une manière de gènes seulement.
+# labels = to_check
 "<Da>"
 	"da" pr @case #1->2
 "<eil>"
@@ -4217,6 +4379,7 @@
 
 # text = Dimerc'her e c'hoario skipailh Roazhon a-enep Lyon.
 # text[fra¹] = Mercredi il jouera l'équipe de Rennes contre Lyon.
+# labels = to_check
 "<Dimerc'her>"
 	"dimerc’her" adv @advmod #1->3
 "<e>"
@@ -4236,6 +4399,7 @@
 
 # text = Implijidi an ospital, kenwerzherien Kreiz-Breizh, dilennidi ha tud ar vro, o labourat pe war o leve, a oa bodet holl evit goulenn e virfe ospital Karaez holl e servijoù.
 # text[fra¹] = Les employés de l'hôpital, les commerçants de Centre Bretagne, élus et les gens du pays, en travaillant où en retraite, tous avait regroupé pour demander que l'hôpital de Carhaix garderait tous son services.
+# labels = to_check
 "<Implijidi>"
 	"implijad" n m pl @dislocated #1->23
 "<an>"
@@ -4307,6 +4471,7 @@
 
 # text = Disklêriet en deus Kristian Troadeg, maer Karaez ha prezidant kuzul-verañ an ospital, e oa ret derc'hel gant ar stourm.
 # text[fra¹] = Kristian Troadec, le maire de Carhaix et le président de conseil-gérer l'hôpital, a déclaré qu'il était nécessaire tenir avec le combat.
+# labels = to_check
 "<Disklêriet>"
 	"disklêriañ" vblex pp @root #1->0
 "<en deus>"
@@ -4356,6 +4521,7 @@
 
 # text = D'ar sadorn 5 ha Sul 6 a viz Ebrel e vo aozet e Brest ul lodenn eus kampionad Bro-C'hall kentañ rummad mell-droad war gador-ruilh.
 # text[fra¹] = Au samedi 5 et dimanche 6 avril seront organisés il Prête une partie du championnat de la France première la catégorie de football sur chaise roulante.
+# labels = to_check
 "<D'ar>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -4408,6 +4574,7 @@
 
 # text = Koulskoude e tiviz Francis pediñ e zaou vreur d'ober ur veaj speredel e bro Indez e-pad ur miz.
 # text[fra¹] = Pourtant Francis décide de prier ses deux frères à faire un voyage spirituel à pays d'Indes pendant un mois.
+# labels = to_check
 "<Koulskoude>"
 	"koulskoude" adv @advmod #1->3
 "<e>"
@@ -4451,6 +4618,7 @@
 
 # text = Evel-just e c'hoarvezo ganto ur bern traoù iskis ha dic'hortoz o do pouez ha levezon war o darempredoù.
 # text[fra¹] = Naturellement avec eux il arrivera un tas de choses étranges et inattendus qui auront poids et influence sur leurs relations.
+# labels = to_check
 "<Evel-just>"
 	"evel-just" adv @advmod #1->3
 "<e>"
@@ -4491,6 +4659,7 @@
 
 # text = Kinniget e vo gant Mirdi ar Faoued ouzhpenn 130 luc'hskeudenn ha skeudenn, bet graet e-kerzh an 19vet kantved, e Breizh.
 # text[fra¹] = Par le Musée de Faouët il soit présenté plus de 130 photographies et image, été faite pendant les 19ème siècle, en Bretagne.
+# labels = to_check
 "<Kinniget>"
 	"kinnig" vblex pp @root #1->0
 "<e>"
@@ -4538,6 +4707,7 @@
 
 # text = Tu vo da welet labourioù luc'hskeudennerien gentañ ar vro koulz hag ur rummad skeudennoù "touristel" brudet-tre e fin an 19vet kantved.
 # text[fra¹] = Il sera possible de voir les travaux de photographes premiers du pays ainsi qu'une catégorie d'images "touristiques" très célèbre à la fin des 19ème siècle.
+# labels = to_check
 "<Tu>"
 	"tu" n m sg @root #1->0
 "<vo>"
@@ -4588,6 +4758,7 @@
 
 # text = Displegañ a reer en diskouezadeg diaesterioù teknikel al luc'hskeudennerien hag o freder arzel ivez.
 # text[fra¹] = On déplie dans l'exposition de difficultés techniques les photographes et leur réflexion artistique aussi.
+# labels = to_check
 "<Displegañ>"
 	"displegañ" vblex inf @root #1->0
 "<a>"
@@ -4622,6 +4793,7 @@
 
 # text = Ho puhez karantez a vo disheñvel.
 # text[fra¹] = Votre vie d'amour Il sera différent.
+# labels = to_check
 "<Ho>"
 	"ho" det pos mf sp @det #1->2
 "<puhez>"
@@ -4639,6 +4811,7 @@
 
 # text = Da eil e c'helloc'h stabilaat an traoù da vat ha diskuizhañ un tamm.
 # text[fra¹] = Deuxièmement vous pourrez stabiliser les choses pour de bon et reposer quelques peu.
+# labels = to_check
 "<Da>"
 	"da" pr @case #1->2
 "<eil>"
@@ -4668,6 +4841,7 @@
 
 # text = Gouest e vioc'h da gas ho raktresoù da vat ! 
 # text[fra¹] = Vous serez capable d'envoyer vos projets pour de bon ! 
+# labels = to_check
 "<Gouest>"
 	"gouest" adj mf sp @root #1->0
 "<e>"
@@ -4689,6 +4863,7 @@
 
 # text = An dud a labour ganeoc'h a vo souezhet ha plijet gant hoc'h emzalc'h.
 # text[fra¹] = Les gens qui travaillent avec vous sera étonné et plu avec votre comportement.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<dud>"
@@ -4721,6 +4896,7 @@
 
 # text = Disklêriet en deus e oa nec'het gant ar feulster na glote ket gant mennozhioù ar C'hoarioù Olimpek.
 # text[fra¹] = Il a déclaré qu'il était affligé par la violence qui correspondait pas avec les idées des Jeux Olympiques.
+# labels = to_check
 "<Disklêriet>"
 	"disklêriañ" vblex pp @root #1->0
 "<en deus>"
@@ -4758,6 +4934,7 @@
 
 # text = Miliadoù a dud a oa deuet da vanifestiñ dec'h er gêr-benn saoz evit skoazellañ tud Tibet gwasket gant gouarnamant Sina.
 # text[fra¹] = Milliers à gens avaient venus en manifester hier à la maison-tête anglaise pour aider les gens de Tibet pressés avec le gouvernement de la Chine.
+# labels = to_check
 "<Miliadoù>"
 	"miliad" n m pl @nsubj #1->6
 "<a>"
@@ -4804,6 +4981,7 @@
 
 # text = Boazet omp bremañ da welet milinoù-tredan a ya en-dro gant an avel e Breizh.
 # text[fra¹] = Nous avons habitué maintenant à voir moulins-électricité qui fonctionne avec le vent en Bretagne.
+# labels = to_check
 "<Boazet>"
 	"boazañ" vblex pp @root #1->0
 "<omp>"
@@ -4841,6 +5019,7 @@
 
 # text = Met n'eo ket alies e vez klevet komz eus ar re a c'heller lakaat er mor.
 # text[fra¹] = Mais Elle n'est pas souvent est entendu parler de ceux qui on peut mettre dans la mer.
+# labels = to_check
 "<Met>"
 	"met" cnjcoo @cc #1->5
 "<n'>"
@@ -4879,6 +5058,7 @@
 
 # text = Gant redoù an dour pe gant al lanvioù e c'hellont bezañ lakaet da dreiñ.
 # text[fra¹] = Par les courants de l'eau où avec les marées peuvent être mis à tourner.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->2
 "<redoù>"
@@ -4912,6 +5092,7 @@
 
 # text = E miz Even 1998 e oa aet diwar wel Eric Tabarly war vor.
 # text[fra¹] = En juin 1998 il avait disparu Eric Tabarly en mer.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<miz Even>"
@@ -4941,6 +5122,7 @@
 
 # text = Antronoz e vo c'hoariet ar gourfenn adalek 5e g.m.
 # text[fra¹] = le lendemain il sera joué la finale à partir de 5h p.m.
+# labels = to_check
 "<Antronoz>"
 	"antronoz" adv @advmod #1->4
 "<e>"
@@ -4964,6 +5146,7 @@
 
 # text = An abadenn nemeti er c'hwec'hkorn e vo.
 # text[fra¹] = La seule émission sera dans l'hexagone.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<abadenn>"
@@ -4985,6 +5168,7 @@
 
 # text = An teuliad peder fajennad zo gouestlet en niverenn-mañ da zisoc'hoù dilennadegoù kêr ha kanton 2008 e Breizh.
 # text[fra¹] = Le dossier quatre pages ont engagées dans ce numéro aux résultats d'élections ville et canton 2008 en Bretagne.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<teuliad>"
@@ -5027,6 +5211,7 @@
 
 # text = Ne c'heller ket mui komz a hiniennoù pe a strolladoù bihan lezet d'ober ar pezh a garont.
 # text[fra¹] = On ne peut plus parler à individus quels à groupes petits laissés à faire ce que ils aiment.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->4
 "<c'heller>"
@@ -5062,6 +5247,7 @@
 
 # text = Start a-walc'h eo buhez an dud er gêriadenn-se.
 # text[fra¹] = Assez difficile est la vie des gens dans ce village.
+# labels = to_check
 "<Start>"
 	"start" adj mf sp @root #1->0
 "<a-walc'h>"
@@ -5086,6 +5272,7 @@
 
 # text = Ur film a roio levenez d'an holl en desped da bep tra.
 # text[fra¹] = Un film donnera bonheur à tous malgré tous les choses.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<film>"
@@ -5112,6 +5299,7 @@
 
 # text = Hemañ a ginnigo un veaj en amzer war-zu ar bloavezhioù 60 e saloñs ha kegin an daou haroz, bepred prest da ijinañ ur sotoni nevez.
 # text[fra¹] = Celui-ci présentera un voyage dans le temps vers les années 60 dans salon et cuisine les deux héros, toujours prêts à inventer une nouvelle sottise.
+# labels = to_check
 "<Hemañ>"
 	"hemañ" prn dem m sg @nsubj #1->3
 "<a>"
@@ -5170,6 +5358,7 @@
 
 # text = Ur sizhunvezh c'hoazh...
 # text[fra¹] = Une semaine encore...
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<sizhunvezh>"
@@ -5181,6 +5370,7 @@
 
 # text = E niverenn miz Ebrel ar gelaouenn Bremañ e c'hellit lenn soñjoù ar strolladoù dilennet e Kuzul-rannvro Breizh war an danvezioù-se.
 # text[fra¹] = Dans le numéro d'avril du magazine Bremañ vous pouvez lire les pensées des groupes élus dans le Conseil régional de Bretagne sur ces matières.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<niverenn>"
@@ -5224,6 +5414,7 @@
 
 # text = Tro Bro Leon, savet e 1984, a oa da gentañ ur redadeg mirc'hi-houarn evit an dud na oant ket a-vicher.
 # text[fra¹] = Le tour du Leon, levé dans 1984, Il était en premier une course de chevaux-fer pour les gens étaient pas professionnel.
+# labels = to_check
 "<Tro>"
 	"tro" n f sg @nsubj #1->13
 "<Bro Leon>"
@@ -5274,6 +5465,7 @@
 
 # text = Tro-dro da vourk Lanniliz e vez aozet Tro Bro Leon bewech.
 # text[fra¹] = Autour du bourg de Lannilis Elle est organisé Tour de Leon chaque fois.
+# labels = to_check
 "<Tro-dro da>"
 	"tro-dro da" pr @case #1->2
 "<vourk>"
@@ -5297,6 +5489,7 @@
 
 # text = Disul e vo aozet Tro Bro Leon 2007.
 # text[fra¹] = dimanche il sera organisé le Tour du Leon 2007.
+# labels = to_check
 "<Disul>"
 	"disul" adv @advmod #1->4
 "<e>"
@@ -5316,6 +5509,7 @@
 
 # text = Digresket eo an niver an dud o kemer perzh er votadeg eus 4 foent keñveriet gant mouezhiadeg 2006.
 # text[fra¹] = Le nombre les gens en train de participer dans les élections a décru de 4 points comparés avec vote 2006.
+# labels = to_check
 "<Digresket>"
 	"digreskiñ" vblex pp @root #1->0
 "<eo>"
@@ -5358,6 +5552,7 @@
 
 # text = Betek an 8 Even e vo kinniget "Chanterioù" er C'harter e Kemper.
 # text[fra¹] = Jusque le 8 juin sera présenté "Chantiers" dans le Quartier à Quimper.
+# labels = to_check
 "<Betek>"
 	"betek" pr @case #1->4
 "<an>"
@@ -5392,6 +5587,7 @@
 
 # text = Digeriñ a ra an diviz war ar perzh a vez roet hiriv d'an arzourien.
 # text[fra¹] = Il ouvre la décision sur le rôle qui est donné aujourd’hui aux artistes.
+# labels = to_check
 "<Digeriñ>"
 	"digeriñ" vblex inf @root #1->0
 "<a>"
@@ -5426,6 +5622,7 @@
 
 # text = Kalz risklusoc'h e vo beaj FK Lannuon e gourenez Kraozon.
 # text[fra¹] = Beaucoup plus dangereux sera le voyage du FK Lannion dans l'île de Crozon.
+# labels = to_check
 "<Kalz>"
 	"kalz" adv @advmod #1->2
 "<risklusoc'h>"
@@ -5451,6 +5648,7 @@
 
 # text = Un ugent den bennak zo bet lazhet ha meur a gant den gloazet zo.
 # text[fra¹] = Quelques vingt personnes quelconques ont été tuées et plusieurs cents personne il a blessé.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->3
 "<ugent>"
@@ -5482,6 +5680,7 @@
 
 # text = Un droidigezh c'hallek a vo dav kas gant al lizher.
 # text[fra¹] = Une traduction française sera nécessaire envoyer avec la lettre.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<droidigezh>"
@@ -5507,6 +5706,7 @@
 
 # text = An destenn a rank bezañ etre 10 ha 30 linenn.
 # text[fra¹] = Le texte doit être entre 10 et 30 lignes.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<destenn>"
@@ -5532,6 +5732,7 @@
 
 # text = Gwelet hon eus pegen bras e oa an dislavar etre diskleriadennoù ar gouarnamant diwar-benn an endro hag ar pezh a veze graet gantañ.
 # text[fra¹] = Nous avons vu comme grand était la contradiction entre les déclarations du gouvernement au sujet de l'environnement et ce que étaient fait avec lui.
+# labels = to_check
 "<Gwelet>"
 	"gwelout" vblex pp @root #1->0
 "<hon eus>"
@@ -5578,6 +5779,7 @@
 
 # text = Fentus eo pa soñjer e c'hallfe bezañ degemeret e Gwened er mizioù a zeu ar... Paris Sent-Jermen marteze.
 # text[fra¹] = Il est comique quand on pense qu'il pourrait être accueilli à Vannes dans les mois qui vient le... Paris Saint-Germaine peut-être.
+# labels = to_check
 "<Fentus>"
 	"fentus" adj mf sp @root #1->0
 "<eo>"
@@ -5626,6 +5828,7 @@
 
 # text = Un nebeud mizioù a chom deoc'h neuze evit dont a-benn da vont e-barzh unan eus oberennoù pennañ istor ar rock.
 # text[fra¹] = Quelques mois il reste à vous alors pour réussir à aller à l’intérieur un des oeuvres principales d'histoire le rock.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<nebeud>"
@@ -5672,6 +5875,7 @@
 
 # text = D'an 18 a viz Ebrel e oa bet lakaet da dalvezout en Europa al lezenn nevez diwar-benn penaos heuliañ an OGM ha menegiñ anezhe war an tikedennoù.
 # text[fra¹] = Le 18 avril il avait été fait valoir en Europe la nouvelle loi au sujet de comment suivre l'OGM et les mentionner sur les étiquettes.
+# labels = to_check
 "<D'an>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -5730,6 +5934,7 @@
 
 # text = Sellit ouzh an tikedennoù eta da c'houzout petra zo e-barzh ar pezh a brenit.
 # text[fra¹] = Vous regardez les étiquettes donc à savoir qu'est ce qu'il à l’intérieur de ce que vous achetez.
+# labels = to_check
 "<Sellit>"
 	"sellout" vblex pri p2 pl @root #1->0
 "<ouzh>"
@@ -5759,6 +5964,7 @@
 
 # text = Souezhus e vefe eta gwelet ur gall o c'hounit an tournamant er bloaz-mañ.
 # text[fra¹] = Étonnant serait donc voir français en train de gagner le tournoi cette année.
+# labels = to_check
 "<Souezhus>"
 	"souezhus" adj mf sp @root #1->0
 "<e>"
@@ -5793,6 +5999,7 @@
 
 # text = Adarre a c'houlenner a wir galon, hag a vo graet moarvat.
 # text[fra¹] = De nouveau on demande de tout coeur, et il sera fait certainement.
+# labels = to_check
 "<Adarre>"
 	"adarre" adv @advmod #1->3
 "<a>"
@@ -5822,6 +6029,7 @@
 
 # text = Er bloavezh 2057, emañ heol hon c'hoskoriad o vervel.
 # text[fra¹] = Dans l'année 2057, le soleil de notre cortège est en train de mourir.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -5848,6 +6056,7 @@
 
 # text = Kaset eo skipailh ICARUS II en egor da gas ur vombezenn nukleel en Heol evit ma c'hanfe ur steredenn nevez diwarnañ. 
 # text[fra¹] = Il a envoyé l'équipe d'ICARUS II dans l'espace à envoyer une bombe nucléaire dans le Soleil pour que chanterait une nouvelle étoile de lui. 
+# labels = to_check
 "<Kaset>"
 	"kas" vblex pp @root #1->0
 "<eo>"
@@ -5896,6 +6105,7 @@
 
 # text = Ne vo ket aes an traoù evito siwazh...
 # text[fra¹] = Elle ne sera pas facile les choses pour eux hélas...
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->4
 "<vo>"
@@ -5918,6 +6128,7 @@
 
 # text = Ha ne cheñch ket an traoù e 2007.
 # text[fra¹] = Et ne change pas les choses dans 2007.
+# labels = to_check
 "<Ha>"
 	"ha" cnjcoo @cc #1->1
 "<ne>"
@@ -5939,6 +6150,7 @@
 
 # text = Ar Yaou da noz a vo gouestlet, evel warlene, d'ar sonerezh gall.
 # text[fra¹] = Le jeudi à nuit soient engagées, comme l’année dernière, à la musique française.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Yaou>"
@@ -5973,6 +6185,7 @@
 
 # text = Pedet eo an holl da lidañ 30 vloaz skolioù Diwan. 
 # text[fra¹] = Tous sont invités à célébrer 30 ans écoles Diwan. 
+# labels = to_check
 "<Pedet>"
 	"pediñ" vblex pp @root #1->0
 "<eo>"
@@ -5998,6 +6211,7 @@
 
 # text = Start e vo ober an dibab! 
 # text[fra¹] = Difficile sera faire le choix! 
+# labels = to_check
 "<Start>"
 	"start" adj mf sp @root #1->0
 "<e>"
@@ -6015,6 +6229,7 @@
 
 # text = Kinniget e vo ivez ur romant nevez savet gant skolidi Diwan, un dastumad skridoù 30 linenn, savet gant 30 den diwar-benn ar skolioù brezhonek...
 # text[fra¹] = Il sera présenté aussi un roman nouveau #lever avec les écoliers de Diwan, une collection d'écrits 30 lignes, #lever avec 30 personnes au sujet des écoles bretonnes...
+# labels = to_check
 "<Kinniget>"
 	"kinnig" vblex pp @root #1->0
 "<e>"
@@ -6072,6 +6287,7 @@
 
 # text = En Euskadi, Okitania, Korsika ... e vo kinniget obererezhioù tro-dro d'an darvoud-mañ en holl yezhoù.
 # text[fra¹] = au Pays Basque, Occitanie, la Corse ... Il sera présenté des activités autour de cet événement en tout langues.
+# labels = to_check
 "<En>"
 	"e" pr @case #1->2
 "<Euskadi>"
@@ -6113,6 +6329,7 @@
 
 # text = Perak eo mat? 
 # text[fra¹] = Pourquoi Elle est bien? 
+# labels = to_check
 "<Perak>"
 	"perak" adv itg @advmod #1->3
 "<eo>"
@@ -6124,6 +6341,7 @@
 
 # text = Tri fezh-c'hoari e brezhoneg a vo kinniget d'an 10, 19 ha 24.
 # text[fra¹] = Trois @pezh en breton il sera présenté aux 10, 19 et 24.
+# labels = to_check
 "<Tri>"
 	"tri" num m pl @nummod #1->2
 "<fezh-c'hoari>"
@@ -6156,6 +6374,7 @@
 
 # text = An holl a oar dija piv a zeuy da Gerampuilh d'ar Yaou 20, setu kenkoulz eo lakaat ar gaoz war ar peurrest eus ar gouel.
 # text[fra¹] = tous sait déjà qui viendra en Kerampuilh le jeudi 20, voilà aussi bien est mettre la conversation sur le reste de la fête.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<holl>"
@@ -6214,6 +6433,7 @@
 
 # text = M'ho pez c'hoant da gemer perzh en ur stourm sokial pe bolitikel, e vo ar bloavezh mat evit kregiñ e-barzh.
 # text[fra¹] = Si vous avez envie de participer dans un combat social ou politique, il sera la bonne année pour saisir-poète.
+# labels = to_check
 "<M'>"
 	"ma" cnjsub @mark #1->2
 "<ho pez>"
@@ -6260,6 +6480,7 @@
 
 # text = War tachenn al labour e vo mat-kenañ lodenn gentañ 2006.
 # text[fra¹] = Sur le terrain du travail Il sera très bien première partie 2006.
+# labels = to_check
 "<War>"
 	"war" pr @case #1->2
 "<tachenn>"
@@ -6310,6 +6531,7 @@
 
 # text = Ur sinadeg a zo bet kinniget zoken evit ma vefe paouezet d'ober ganto.
 # text[fra¹] = Une pétition a été présentée même pour qu'ait cessée à faire avec eux.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<sinadeg>"
@@ -6342,6 +6564,7 @@
 
 # text = E-pad an hañv e kinnigo Kamp Etrekeltiek Ar Vrezhonegerion e 60vet staj.
 # text[fra¹] = Pendant l'été Il présentera Kamp Etrekeltiek ar Vrezhonegerion dans 60ème stage.
+# labels = to_check
 "<E-pad>"
 	"e-pad" pr @case #1->3
 "<an>"
@@ -6371,6 +6594,7 @@
 
 # text = Kentelioù war implij ar video a vo kinniget e-pad an eil sizhunvezh.
 # text[fra¹] = Leçons sur l'emploi de la vidéo seront présentés pendant second semaine.
+# labels = to_check
 "<Kentelioù>"
 	"kentel" n f pl @nsubj #1->8
 "<war>"
@@ -6400,6 +6624,7 @@
 
 # text = Kaset e vo ar programm resis gant an aozerien d'an dud dedennet.
 # text[fra¹] = Il sera envoyé le programme précis avec les auteurs aux gens intéressés.
+# labels = to_check
 "<Kaset>"
 	"kas" vblex pp @root #1->0
 "<e>"
@@ -6430,6 +6655,7 @@
 
 # text = An teuliad peder fajennad zo gouestlet en niverenn-mañ d'an dud nammet.
 # text[fra¹] = Le dossier quatre pages ont engagées dans ce numéro aux gens handicapés.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<teuliad>"
@@ -6461,6 +6687,7 @@
 
 # text = Mankout a ra an awen da broduerien filmoù sinema ar Stadoù-Unanet, anat eo.
 # text[fra¹] = Il manque l'inspiration aux producteurs de films le cinéma des États-Unis, il est évidents.
+# labels = to_check
 "<Mankout>"
 	"mankout" vblex inf @root #1->0
 "<a>"
@@ -6494,6 +6721,7 @@
 
 # text = E 2002 e oa bet gwerzhet 15 % eus an dilhad er chadennoù bras-se.
 # text[fra¹] = Dans 2002 avaient été vendus 15 % des vêtements dans ces grandes chaînes.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<2002>"
@@ -6528,6 +6756,7 @@
 
 # text = Hervez kont eo bet kresket ar c'heitad-mañ a 50 % en daou vloaz diwezhañ, ar pezh a gas betek tost ur c'hard eus ar marc'had.
 # text[fra¹] = À ce qu’il parait cette moyenne a été augmenté à 50 % dans les deux ans derniers, ce que envoient jusque près un quart du marché.
+# labels = to_check
 "<Hervez>"
 	"hervez" pr @case #1->2
 "<kont>"
@@ -6582,6 +6811,7 @@
 
 # text = Er bloavezhioù 80, e Sina.
 # text[fra¹] = Dans les années 80, en Chine.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -6600,6 +6830,7 @@
 
 # text = Mignoniezh a sav etre an div blac'h yaouank, ha karantez zoken...
 # text[fra¹] = Amitié lève entre les deux jeunes filles, et amour même...
+# labels = to_check
 "<Mignoniezh>"
 	"mignoniezh" n f sg @nsubj #1->3
 "<a>"
@@ -6629,6 +6860,7 @@
 
 # text = Mat-tre eo an disoc'h.
 # text[fra¹] = Le résultat est très bien
+# labels = to_check
 "<Mat-tre>"
 	"mat" adj mf sp @root #1->0
 		"tre" adv @advmod #2->1
@@ -6643,6 +6875,7 @@
 
 # text = Poanius, trist ha tener.
 # text[fra¹] = Pénible, triste et tendre.
+# labels = to_check
 "<Poanius>"
 	"poanius" adj mf sp @root #1->0
 "<,>"
@@ -6658,6 +6891,7 @@
 
 # text = Dimeurzh tremenet eo aet an traoù war-raok en Iwerzhon an Hanternoz.
 # text[fra¹] = Il mardi dernier est allé en avant les choses en Irlande le Nord.
+# labels = to_check
 "<Dimeurzh>"
 	"dimeurzh" adv @advmod #1->4
 "<tremenet>"
@@ -6685,6 +6919,7 @@
 
 # text = Disklêriet en deus ar pastor 81 bloaz e oa Iwerzhon an Hanternoz o voulc'hañ ur maread a beoc'h.
 # text[fra¹] = Il a déclaré le pasteur 81 ans il était l'Irlande le Nord en train d'entamer une époque de paix.
+# labels = to_check
 "<Disklêriet>"
 	"disklêriañ" vblex pp @root #1->0
 "<en deus>"
@@ -6724,6 +6959,7 @@
 
 # text = Ur film dudius eo neuze, met hep a-walc'h a bersonelezh evit ma vefe dispar.
 # text[fra¹] = Il est un film intéressant alors, mais sans assez à personnalité pour que soit super.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<film>"
@@ -6757,6 +6993,7 @@
 
 # text = Skipailh Frañs, a veze sellet outañ evel ouzh unan kreñv, n'eo ket bet d'al live gortozet.
 # text[fra¹] = L'équipe de la France, était le regarder comme contre un fort, n'est pas été au niveau attendu.
+# labels = to_check
 "<Skipailh>"
 	"skipailh" n m sg @nsubj #1->20
 "<Frañs>"
@@ -6802,6 +7039,7 @@
 
 # text = Cheñchet o deus, met e gwirionez n'o deus ket cheñchet.
 # text[fra¹] = Ils ont changé, mais en vérité ils n'ont pas changé.
+# labels = to_check
 "<Cheñchet>"
 	"cheñch" vblex pp @root #1->0
 "<o deus>"
@@ -6827,6 +7065,7 @@
 
 # text = Poazhit war an daou du. 
 # text[fra¹] = Vous cuisez sur les deux côtés. 
+# labels = to_check
 "<Poazhit>"
 	"poazhañ" vblex imp p2 pl @root #1->0
 "<war>"
@@ -6842,6 +7081,7 @@
 
 # text = Mirit a-gostez.
 # text[fra¹] = Vous gardez de côté.
+# labels = to_check
 "<Mirit>"
 	"mirout" vblex imp p2 pl @root #1->0
 "<a-gostez>"
@@ -6851,6 +7091,7 @@
 
 # text = Meskit an daou zoare toaz.
 # text[fra¹] = Vous mélangez les deux manières pâte.
+# labels = to_check
 "<Meskit>"
 	"meskañ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -6866,6 +7107,7 @@
 
 # text = Un tañva eus he labour abaoe miz Meurzh 2005 a zo lakaet war wel aze, gant skeudennoù ha skritelloù arouezius eus al liammoù bet skoulmet etre he obererezhioù.
 # text[fra¹] = Une initiation de son travail depuis mars 2005 il a mis en évidence là, avec des images et des affiches significatives des liens qui été conclus entre ses activités.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<tañva>"
@@ -6927,6 +7169,7 @@
 
 # text = E penn-kentañ ar sizhun dremenet ez eus tremenet un destenn evit ma vefe paouezet da dabutal diwar-benn al lezenn.
 # text[fra¹] = Au début de la semaine passée est passée un texte pour qu'il ait cessé à débattre au sujet de la loi.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<penn-kentañ>"
@@ -6966,6 +7209,7 @@
 
 # text = Adwelet eo bet hounnezh, met n'eus bet cheñchet netra enni, hag evel-se ne savo tabut ebet war ar 56 testenn-kemm a vez kinniget.
 # text[fra¹] = Celle-là a été revu, mais n'on a eu changée rien dans elle, et comme ça elle ne lèvera pas dispute sur les 56 textes-changement il est présenté.
+# labels = to_check
 "<Adwelet>"
 	"adwelet" vblex pp @root #1->0
 "<eo>"
@@ -7027,6 +7271,7 @@
 
 # text = Emañ ar PS o vont da sevel klemm dirak al lezenn, hervezañ n'eo ket diouzh al lezenn ober seurt traoù.
 # text[fra¹] = Le PS est en train d'aller à lever plaindre devant la loi, selon lui n'est pas de la loi faire la sorte de choses.
+# labels = to_check
 "<Emañ>"
 	"bezañ" vbloc pri p3 sg @aux #1->5
 "<ar>"
@@ -7077,6 +7322,7 @@
 
 # text = Evel-se e vo aesoc'h lakaat hon evezh war ar c'hanaouennoù.
 # text[fra¹] = Comme ça il sera plus facile mettre notre attention sur les chansons.
+# labels = to_check
 "<Evel-se>"
 	"evel-se" adv @advmod #1->4
 "<e>"
@@ -7102,6 +7348,7 @@
 
 # text = Degasit d'ar berv ar banne laezh.
 # text[fra¹] = Vous apportez à bouillant le coup de lait.
+# labels = to_check
 "<Degasit>"
 	"degas" vblex imp p2 pl @root #1->0
 "<d'ar>"
@@ -7120,6 +7367,7 @@
 
 # text = Lezit da yenañ a-raok servijout.
 # text[fra¹] = Laissez au plus froid avant servir.
+# labels = to_check
 "<Lezit>"
 	"lezel" vblex imp p2 pl @root #1->0
 "<da>"
@@ -7135,6 +7383,7 @@
 
 # text = Bep miz e kinnig ar gelaouenn Bremañ, abaoe 1980, pennadoù brezhonek a bep seurt, diwar-benn Breizh hag ar bed, kinniget brav, e doare ur magazin.
 # text[fra¹] = Tous les mois dans le magazine Bremañ présente, depuis 1980, articles de toute sorte bretons, au sujet de Bretagne et le monde, présenté beau, dans la manière d'un magazine.
+# labels = to_check
 "<Bep>"
 	"bep" det ind mf sg @det #1->2
 "<miz>"
@@ -7200,6 +7449,7 @@
 
 # text = Kavet ez eus bet 4 den marv ha d'an nebeutañ 3 den gloazet.
 # text[fra¹] = Il a été trouvé 4 personnes mortes et du moins 3 personnes blessées.
+# labels = to_check
 "<Kavet>"
 	"kavout" vblex pp @root #1->0
 "<ez eus>"
@@ -7227,6 +7477,7 @@
 
 # text = Lakait 40 gramm a amann da deuziñ en ur gastelodenn.
 # text[fra¹] = Mettez 40 grammes à beurre à fondre dans une casserole.
+# labels = to_check
 "<Lakait>"
 	"lakaat" vblex imp p2 pl @root #1->0
 "<40>"
@@ -7251,6 +7502,7 @@
 
 # text = Soubit ar pesked er bleud.
 # text[fra¹] = Trempez les poissons dans la farine.
+# labels = to_check
 "<Soubit>"
 	"soubañ" vblex imp p2 pl @root #1->0
 "<ar>"
@@ -7267,6 +7519,7 @@
 
 # text = Lakait holen ha pebr.
 # text[fra¹] = Mettez du sel et du poivre.
+# labels = to_check
 "<Lakait>"
 	"lakaat" vblex pri p2 pl @root #1->0
 "<holen>"
@@ -7280,6 +7533,7 @@
 
 # text = Al lugan zo "lakaomp hor sevenadur da vleuniañ er vro".
 # text[fra¹] = Le slogan est "mettons notre culture à fleurir dans le pays".
+# labels = to_check
 "<Al>"
 	"an" det def sp @det #1->2
 "<lugan>"
@@ -7310,6 +7564,7 @@
 
 # text = Disadorn e krogo ivez trede Devezh ar brezhoneg e Karaez.
 # text[fra¹] = Le samedi troisième la Journée du breton à Carhaix commencera aussi.
+# labels = to_check
 "<Disadorn>"
 	"disadorn" adv @advmod #1->3
 "<e>"
@@ -7335,6 +7590,7 @@
 
 # text = Emgavioù departamant ar c'hoariva a vo aozet gant Ti ar c'hoariva e Brest, etre ar 1añ hag ar 4 a viz Even, war pevarzek kumun disheñvel e Penn-ar-bed.
 # text[fra¹] = Les rendez-vous du département du théâtre seront organisés par la Maison du théâtre à Brest, entre le 1ère et le 4 juin, sur quatorze communes différentes à Finistere.
+# labels = to_check
 "<Emgavioù>"
 	"emgav" n m pl @nsubj #1->7
 "<departamant>"
@@ -7398,6 +7654,7 @@
 
 # text = Kalz a drouz evit netra a lavarfen-me.
 # text[fra¹] = Beaucoup de bruit pour rien Je dirais-je.
+# labels = to_check
 "<Kalz a>"
 	"kalz a" pr @case #1->2
 "<drouz>"
@@ -7417,6 +7674,7 @@
 
 # text = D'ar Sadorn 2 ha Sul 3 a viz Even e vo aozet evit ar pevare gwech "Devezh ar Brezhoneg" e Karaez gant ar gevredigezh Dazont ar yezh.
 # text[fra¹] = Le samedi 2 et dimanche 3 juin seront organisés pour la quatrième fois "Journée du Breton" à Carhaix avec la société de Futur de la langue.
+# labels = to_check
 "<D'ar>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -7479,6 +7737,7 @@
 
 # text = War tachenn Kerampuilh e vo graet evel boaz. 
 # text[fra¹] = Sur le terrain de Kerampuilh sera fait comme habitude. 
+# labels = to_check
 "<War>"
 	"war" pr @case #1->2
 "<tachenn>"
@@ -7500,6 +7759,7 @@
 
 # text = Ma ouifemp penaos e vev ar yer a brenomp er gourmarc'hadoù, moarvat e kollfemp hon c'hoant da zebriñ anezho, pe e teufe c'hoant deomp da brenañ re bio.
 # text[fra¹] = Si nous saurions comment il vit les poules achetons dans les supermarchés, certainement perdrions notre envie à les manger, quelle viendrait envie à nous à acheter paire bio.
+# labels = to_check
 "<Ma>"
 	"ma" cnjsub @mark #1->2
 "<ouifemp>"
@@ -7567,6 +7827,7 @@
 
 # text = Gellout a reer gwelet skeudennoù eus al labourioù-se en diskouezadeg.
 # text[fra¹] = On peut voir des images de ces travaux dans l'exposition.
+# labels = to_check
 "<Gellout>"
 	"gellout" vblex inf @root #1->0
 "<a>"
@@ -7595,6 +7856,7 @@
 
 # text = Met ne oa nemet penn-kentañ an nozvezh, an traoù a c'helle cheñch buan.
 # text[fra¹] = Mais elle n'était pas seul le début de la soirée, les choses pouvait changer vite.
+# labels = to_check
 "<Met>"
 	"met" cnjcoo @cc #1->4
 "<ne>"
@@ -7628,6 +7890,7 @@
 
 # text = E-pad 20 munutenn e oa Roazhon ar skipailh nemetañ war ar renk evit kib Europa ar Gampioned.
 # text[fra¹] = Pendant 20 minutes était Rennes la seule équipe sur les rangs pour la coupe de l'Europe les Champions.
+# labels = to_check
 "<E-pad>"
 	"e-pad" pr @case #1->3
 "<20>"
@@ -7668,6 +7931,7 @@
 
 # text = An daou skipailh gant ar muiañ a boentoù a c'helle neuze pignat er Rummad 1.
 # text[fra¹] = Les deux équipes avec les augmenter à points Il pouvait alors monter dans la Catégorie 1.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->3
 "<daou>"
@@ -7704,6 +7968,7 @@
 
 # text = Ne oa bet skipailh Breizhadezed ebet o vont ken uhel er c'hampionad evit ar poent.
 # text[fra¹] = Il n'avait été pas l'équipe de Bretonnes en train d'aller si haute dans le championnat pour l’instant.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->4
 "<oa>"
@@ -7740,6 +8005,7 @@
 
 # text = Gorrek eo al lusk.
 # text[fra¹] = Le rythme est lent
+# labels = to_check
 "<Gorrek>"
 	"gorrek" adj mf sp @root #1->0
 "<eo>"
@@ -7753,6 +8019,7 @@
 
 # text = Ni, Breizhiz a galon, karomp hon gwir vro!
 # text[fra] = Nous Bretons de coeur, nous aimons notre vrai pays!
+# labels = to_check song
 "<Ni>"
 	"prpers" prn subj p1 mf pl @nsubj #1->7
 "<,>"
@@ -7777,6 +8044,7 @@
 
 # text = Brudet eo an Arvor dre ar bed tro-do.
 # text[fra] = L'Arvor est renommée à travers le monde.
+# labels = to_check song
 "<Brudet>"
 	"brudañ" vblex pp @root #1->0
 "<eo>"
@@ -7796,6 +8064,7 @@
 
 # text = Dispont kreiz ar brezel, hon tadoù ken mad, a skuilhas eviti o gwad.
 # text[fra] = Sans peur au coeur de la guerre, nos ancêtres si bons versèrent leur sang pour elle.
+# labels = to_check song
 "<Dispont>"
 	"dispont" adj mf sp @amod #1->7
 "<'kreiz>"
@@ -7832,6 +8101,7 @@
 
 # text = O Breizh, ma Bro, me 'gar ma Bro.
 # text[fra] = O Bretagne, mon pays, que j'aime mon pays
+# labels = to_check song
 "<O>"
 	"o" ij @case #1->2
 "<Breizh>"
@@ -7859,6 +8129,7 @@
 
 # text = Tra ma vo mor 'vel mur 'n he zro.
 # text[fra] = Tant que la mer sera comme un mur autour d'elle.
+# labels = to_check song
 "<Tra ma>"
 	"tra ma" cnjadv @mark #1->5
 "<vo>"
@@ -7892,6 +8163,7 @@
 
 # text = Ar Vretoned 'zo tud kalet ha kreñv.
 # text[fra] = Les Bretons sont des gens durs et forts;
+# labels = to_check song
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Vretoned>"
@@ -7911,6 +8183,7 @@
 
 # text = N'eus pobl ken kaloneg a zindan an neñv.
 # text[fra] =  Aucun peuple sous les cieux n'est aussi ardent.
+# labels = to_check song
 "<N'eus>"
 	"ne" adv @advmod #1->5
 		"bezañ" vblex pri impers sp @cop #2->5
@@ -7931,6 +8204,7 @@
 
 # text = Gwerz trist, son dudius a ziwan eno.
 # text[fra] = Complainte triste ou chant plaisant s'éclosent en eux.
+# labels = to_check song
 "<Gwerz>"
 	"gwerz" n f sg @nsubj #1->7
 "<trist>"
@@ -7953,6 +8227,7 @@
 
 # text = O! pegen kaer ez out, ma Bro!
 # text[fra] = O! Combien tu es belle, ma patrie!
+# labels = to_check song
 "<O>"
 	"o" ij @root #1->0
 "<!>"
@@ -7976,6 +8251,7 @@
 
 # text = Mard eo bet trec'het Breizh er brezelioù braz, he yezh a zo bepred ken beo ha bizkoazh, he c'halon birvidik a lamm c'hoazh 'n he c'hreiz.
 # text[fra] = Si autrefois Bretagne, tu as fléchi durant les guerres, ta langue est restée vivante à jamais, son coeur ardent tressaille encore pour elle.
+# labels = to_check song
 "<Mard>"
 	"ma" cnjsub @mark #1->4
 "<eo>"
@@ -8038,6 +8314,7 @@
 
 # text = Dihunet out bremañ, ma Breizh !
 # text[fra] = Tu es réveillée maintenant ma Bretagne!
+# labels = to_check song
 "<Dihunet>"
 	"dihuniñ" vblex pp @root #1->0
 "<out>"
@@ -13142,6 +13419,8 @@
 "<.>"
 	"." sent @punct #10->4
 
+# text = Me zo o komz gant ma amezeg.
+# labels = to_check
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->4
 "<zo>"
@@ -13158,6 +13437,8 @@
 "<.>"
 	"." sent @punct #8->4
 
+# text = Me a gomz gant ma amezeg.
+# labels = to_check
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->3
 "<a>"
@@ -13172,6 +13453,8 @@
 "<.>"
 	"." sent @punct #7->3
 
+# text = Ul levr zo ganin.
+# labels = to_check
 "<Ul>"
 	"un" det ind sp @det #1->2
 "<levr>"
@@ -13184,6 +13467,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Un died zo ganit.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<died>"
@@ -13196,6 +13481,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Un urzhiataer zo gantañ.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<urzhiataer>"
@@ -13208,6 +13495,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Ur bugel zo ganti.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<bugel>"
@@ -13220,6 +13509,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Ur c'harr zo ganimp.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<c'harr>"
@@ -13232,6 +13523,8 @@
 "<.>" 
 	"." sent @punct #6->5
 
+# text = Un ti zo ganeoc'h.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<ti>"
@@ -13244,6 +13537,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Arc'hant zo ganto.
+# labels = to_check
 "<Arc'hant>"
 	"arc’hant" n m sg @nsubj #1->4
 "<zo>"
@@ -13256,6 +13551,7 @@
 
 # text = Ur gevezadeg ziaes ha brudet eo an Olimpiadennoù, met ouzhpenn an dra-se ez int.
 # text[fra] = Les Olympiades sont une compétition exigeante et prestigieuse mais pas seulement.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gevezadeg>"
@@ -13293,6 +13589,7 @@
 
 # text = An takad merket gant ar bir n'eo ket ur c'halaksienn met ur bouilh stered ha gaz a zeu eus unan eus ar galaksiennoù distummet gant efed ar gravitadur.
 # text[fra] = La zone indiquée par la flèche n'est pas une galaxie mais un jet d'étoiles et de gaz provenant d'une des galaxies déformée par effet gravitationnel.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<takad>"
@@ -13356,6 +13653,7 @@
 
 # text = Grit anaoudegezh gant istor an Hollved kontet deoc'h a-hed e bazennoù bras war-bouez gerioù eeun dalc'hmat.
 # text[fra] = Découvrez l’histoire de l’Univers racontée dans ses grandes étapes avec un souci constant de simplicité.
+# labels = to_check opab_parallel
 "<Grit>"
 	"ober" vblex imp p2 pl @root #1->0
 "<anaoudegezh>"
@@ -13394,6 +13692,7 @@
 
 # text = Katalog menegerioù lodenn ar Rannvro atebek a oa bet kinniget da-geñver ar memes dalc'h.
 # text[fra] = Le catalogue des indicateurs du volet Région responsable a été présenté lors de la même session.
+# labels = to_check opab_parallel
 "<Katalog>"
 	"katalog" n m sg @nsubj #1->10
 "<menegerioù>"
@@ -13427,6 +13726,7 @@
 
 # text = Framm dave an diorren padus e Breizh
 # text[fra] = Le cadre de référence du développement durable en Bretagne
+# labels = to_check opab_parallel
 "<Framm>"
 	"framm" n m sg @root #1->0
 "<dave>"
@@ -13444,6 +13744,7 @@
 
 # text = Penaos displegañ kement-se ?
 # text[fra] = Comment expliquer cela ?
+# labels = to_check opab_parallel
 "<Penaos>"
 	"penaos" adv itg @advmod #1->2
 "<displegañ>"
@@ -13455,6 +13756,7 @@
 
 # text = Muzuliañ uhelder Sterenn an Norzh zo kement hag anavezout ledred al lec'h (hag a-c'hin).
 # text[fra] = Mesurer la hauteur de l'étoile polaire, c'est connaître la latitude du lieu (et inversement).
+# labels = to_check opab_parallel
 "<Muzuliañ>"
 	"muzuliañ" vblex inf @csubj #1->8
 "<uhelder>"
@@ -13490,6 +13792,7 @@
 
 # text = Treiñ a ra an Douar en-dro d'an Heol (360°) en ur ober 365 devezh.
 # text[fra] = Effectivement, la Terre tourne autour du Soleil (360°) en 365 jours.
+# labels = to_check opab_parallel
 "<Treiñ>"
 	"treiñ" vblex inf @root #1->0
 "<a>"
@@ -13525,6 +13828,7 @@
 
 # text = Heuliet e oa bet pizh kresk ar vugale e-touez gorilhed ar menezioù.
 # text[fra] = Le développement de l'enfant a été suivi avec minutie chez le gorille de montagne.
+# labels = to_check opab_parallel
 "<Heuliet>"
 	"heuliañ" vblex pp @root #1->0
 "<e>"
@@ -13554,6 +13858,7 @@
 
 # text = Takad teñval
 # text[fra] = Zone obscure
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<teñval>"
@@ -13561,6 +13866,7 @@
 
 # text = Domani Arvorig an Hanternoz
 # text[fra] = Domaine nord armoricain
+# labels = to_check opab_parallel
 "<Domani>"
 	"domani" n m sg @root #1->0
 "<Arvorig>"
@@ -13572,6 +13878,7 @@
 
 # text = Ar Vreizhiz a ranko deskiñ terkañ mat o bro ma fell dezho mirout he neuz dibar dezhi.
 # text[fra] = Il s’agit d’un des défis que la Bretagne devra relever pour préserver son originalité.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Vreizhiz>"
@@ -13613,6 +13920,7 @@
 
 # text = E-doug ar mizioù diwezhañ ho poa pouezet war ar ret m’eo ober ur c’hemm armerzhel.
 # text[fra] = Au cours de ces derniers mois, vous avez insisté sur la nécessité d’une mutation économique.
+# labels = to_check opab_parallel
 "<E-doug>"
 	"e-doug" pr @case #1->3
 "<ar>"
@@ -13647,6 +13955,7 @@
 
 # text = Gant Ofis ar Brezhoneg eo bet troet al levr-mañ
 # text[fra] = Cet ouvrage a été traduit par l'Office de la Langue Bretonne
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->2
 "<Ofis ar Brezhoneg>"
@@ -13666,6 +13975,7 @@
 
 # text = Daou arvest eus buhez Sant Erwan
 # text[fra] = Deux scènes de la vie de saint Yves
+# labels = to_check opab_parallel
 "<Daou>"
 	"daou" num m pl @nummod #1->2
 "<arvest>" 
@@ -13681,6 +13991,7 @@
 
 # text = Porzh-mor bihan ouzh sklaer al loar
 # text[fra] = Petit port au clair de lune
+# labels = to_check opab_parallel
 "<Porzh-mor>"
 	"porzh-mor" n m sg @root #1->0
 "<bihan>"
@@ -13696,6 +14007,7 @@
 
 # text = Porzh Pont-Aven
 # text[fra] = Port de Pont-Aven
+# labels = to_check opab_parallel
 "<Porzh>"
 	"porzh" n m sg @root #1->0
 "<Pont-Aven>"
@@ -13703,6 +14015,7 @@
 
 # text = Donder an dourioù, gourdrouz an oabl a zeu da zegas takadoù teñval, glas ha rous, ha frammañ an ec’honder.
 # text[fra] = La profondeur des eaux, la menace du ciel, viennent apporter leurs touches sombres, bleues et brunes, et construire l'espace.
+# labels = to_check opab_parallel
 "<Donder>"
 	"donder" n m sg @nsubj #1->9
 "<an>"
@@ -13752,6 +14065,7 @@
 
 # text = En em gavout a ra gant Gauguin e 1888. 
 # text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
+# labels = to_check opab_parallel
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<gavout>"
@@ -13773,6 +14087,7 @@
 
 # text = Hemañ a erbed dezhañ en em ouestlañ penn-da-benn d'al livañ.
 # text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
+# labels = to_check opab_parallel
 "<Hemañ>"
 	"hemañ" prn dem m sg @nsubj #1->3
 "<a>"
@@ -13798,6 +14113,7 @@
 
 # text = Ezel eus Kevredigezh al Livourien-engraverien c'hall, e produ dourioù-kreñv.
 # text[fra] = Membre de la Société des Peintres-Graveurs français, il exécute des eaux-fortes.
+# labels = to_check opab_parallel
 "<Ezel>"
 	"ezel" n m sg @nsubj:appos #1->11
 "<eus>"
@@ -13831,6 +14147,7 @@
 
 # text = Embann a ra ivez levrioù ha pennadoù niverus.
 # text[fra] = Il publie également de nombreux ouvrages et articles.
+# labels = to_check opab_parallel
 "<Embann>"
 	"embann" vblex inf @root #1->0
 "<a>"
@@ -13852,6 +14169,7 @@
 
 # text = Gouestlet eo an darn vrasañ eus e oberenn d’an engravañ.
 # text[fra] = L'essentiel de son travail est consacré à la gravure.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
@@ -13878,6 +14196,7 @@
 
 # text = E 1994 e oa bet gouestlet un diskouezadeg adsell dezhañ gant mirdi Montroulez.	
 # text[fra] = Le musée de Morlaix lui a consacré en 1994 une exposition rétrospective.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case #1->2
 "<1994>"
@@ -13910,6 +14229,7 @@
 
 # text = Gant Ofis ar Brezhoneg eo bet troet al levr-mañ.
 # text[fra] = Cet ouvrage a été traduit par l'Office de la Langue Bretonne.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->2
 "<Ofis ar Brezhoneg>"
@@ -13931,6 +14251,7 @@
 
 # text = Arzourien ar gevredigezh Spered Kelt
 # text[fra] = Artistes de l’association Spered Kelt
+# labels = to_check opab_parallel
 "<Arzourien>"
 	"arzour" n m pl @root #1->0
 "<ar>"
@@ -13944,6 +14265,7 @@
 
 # text = En deroù e talveze ar c'henemglev evit an eskemmoù kenwerzhel hag ekonomikel dreist-holl, met tamm-ha-tamm eo bet astennet da dachennoù all.
 # text[fra] = Plutôt concentrée sur les échanges commerciaux et économiques dans la phase de démarrage, la coopération s’est progressivement étendue à d’autres secteurs.
+# labels = to_check opab_parallel
 "<En deroù>"
 	"en deroù" adv @dep #1->3
 "<e>"
@@ -13991,6 +14313,7 @@
 
 # text = Tennit dousik-kenañ war an neudenn evit lakaat donder.
 # text[fra] = Tirez très légèrement sur votre fil pour donner du relief.
+# labels = to_check opab_parallel
 "<Tennit>"
 	"tennañ" vblex imp p2 pl @root #1->0
 "<dousik>"
@@ -14016,6 +14339,7 @@
 
 # text = Treuzit an holl wiadoù, tennit ho nadoz er-maez en ur zilec’hiañ anezhi, hag all.
 # text[fra] = Traversez toutes les étoffes, ressortez votre aiguille en décalant et ainsi de suite.
+# labels = to_check opab_parallel
 "<Treuzit>"
 	"treuziñ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -14049,6 +14373,7 @@
 
 # text = Tennit an nadoz just e-kichen ho neudenn gentañ en ur lakaat an nadoz da dremen dreist ho neudenn.
 # text[fra] = Ressortez juste à côté de votre premier fil en faisant passer l'aiguille au dessus de votre fil.
+# labels = to_check opab_parallel
 "<Tennit>"
 	"tennañ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -14088,6 +14413,7 @@
 
 # text = Treuzit an holl wiadoù, tennit ho nadoz er-maez en ur zilec’hiañ, hag all.
 # text[fra] = Traversez toutes les étoffes, ressortez votre aiguille en décalant et ainsi de suite.
+# labels = to_check opab_parallel
 "<Treuzit>"
 	"treuziñ" vblex imp p2 pl @root #1->0
 "<an>"
@@ -14119,6 +14445,7 @@
 
 # text = Evel-se e c’haller stardañ mat ar perlez.
 # text[fra] = Cela permet de bien serrer les perles.
+# labels = to_check opab_parallel
 "<Evel-se>"
 	"evel-se" adv @advmod #1->3
 "<e>"
@@ -14138,6 +14465,7 @@
 
 # text = Modernaat ar porzhioù rannvroel	
 # text[fra] = Moderniser les ports à vocation régionale
+# labels = to_check opab_parallel
 "<Modernaat>"
 	"modernaat" vblex inf @root #1->0
 "<ar>"
@@ -14149,6 +14477,7 @@
 
 # text = E 2004 e oa bet embannet gant an Ofis diagnostikoù war stad ar brezhoneg evit pep bro.
 # text[fra] = En 2004 l’Office publiait des diagnostics par pays sur l’état du breton.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case #1->2
 "<2004>"
@@ -14188,6 +14517,7 @@
 
 # text = Paul Molac, prezidant KSB
 # text[fra] = Paul Molac, président du CCB
+# labels = to_check opab_parallel
 "<Paul>"
 	"Paul" np ant m sg @root #1->0
 "<Molac>"
@@ -14201,6 +14531,7 @@
 
 # text = Ar ger tiriad-se n’eo ket gwall anavezet c’hoazh.
 # text[fra] = Le mot “tiriad” n’est pas encore très connu.
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<ger>"
@@ -14226,6 +14557,7 @@
 
 # text = Ar c’hinnig kelenn divyezhek e 2007/2008
 # text[fra] = L’offre de l’enseignement bilingue en 2007/2008
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<c’hinnig>"
@@ -14246,6 +14578,7 @@
 # text = Anat eo pegen pouezus eo evit ar gerent kaout ur c’hinnig tost d’o lec’h annez.
 # text[fra] = L’importance qu’il y a pour les parents de disposer d’une offre de proximité est évidente.
 #Évident il est comme important est pour les parents avoir une proposition près de #le o de lieu d’habitation.
+# labels = to_check opab_parallel
 "<Anat>"
 	"anat" adj mf sp @root #1->0
 "<eo>"
@@ -14281,6 +14614,7 @@
 
 # text = Kargoù hollek
 # text[fra] = Charges à caractère général
+# labels = to_check opab_parallel
 "<Kargoù>"
 	"karg" n f pl @root #1->0
 "<hollek>"
@@ -14288,6 +14622,7 @@
 
 # text = Kargoù sokial diseurt all
 # text[fra] = Autres charges sociales diverses
+# labels = to_check opab_parallel
 "<Kargoù>"
 	"karg" n f pl @root #1->0
 "<sokial>"
@@ -14299,6 +14634,7 @@
 
 # text = Skoaziadennoù mont en-dro evit ar c’hevredigezhioù ha tud all a wir brevez
 # text[fra] = Subventions de fonctionnement aux associations et autres personnes de droit privé
+# labels = to_check opab_parallel
 "<Skoaziadennoù>"
 	"skoaziadenn" n f pl @root #1->0
 "<mont en-dro>"
@@ -14324,6 +14660,7 @@
 
 # text = Hiziv e vo kinniget an 19 skipailh d’an holl.
 # text[fra] = Les 19 équipes seront présentées aujourd'hui.
+# labels = to_check opab_parallel
 "<Hiziv>"
 	"hiziv" adv @advmod #1->4
 "<e>"
@@ -14345,6 +14682,7 @@
 
 # text = Priziet eo ar brezhoneg gant ar gevredigezh hiziv an deiz, met ezhomm he deus bezañ emskiantekoc’h eus talvoudegezh ar yezh.
 # text[fra] = Aujourd’hui, la société estime la langue bretonne, mais elle a besoin d’être davantage consciente de son utilité.
+# labels = to_check opab_parallel
 "<Priziet>"
 	"priziañ" vblex pp @root #1->0
 "<eo>"
@@ -14386,6 +14724,7 @@
 
 # text = Degas a ra ar statud ofisiel ur framm lezennel a-benn normalaat implij ur yezh vihanniver.
 # text[fra] = Un statut officiel apporte en effet un cadre juridique pour normaliser l’emploi d’une langue minoritaire.
+# labels = to_check opab_parallel
 "<Degas>"
 	"degas" vblex inf @root #1->0
 "<a>"
@@ -14421,6 +14760,7 @@
 
 # text = Adalek 2007 e vo ur programm nevez war meur a vloaz evit ar frammoù a labour evit skoazellañ ar yezhoù bihanniver en Europa.
 # text[fra] = A partir de 2007, elle va mettre en place un programme pluriannuel pour les structures travaillant au soutien des langues minoritaires en Europe.
+# labels = to_check opab_parallel
 "<Adalek>"
 	"adalek" pr @case #1->2
 "<2007>"
@@ -14470,6 +14810,7 @@
 
 # text = An darn vrasañ eus ar budjed-se a vez gouestlet d'ar galleg atav.
 # text[fra] = La majeure partie de ce budget reste toujours consacrée à la langue française.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<darn>"
@@ -14502,6 +14843,7 @@
 
 # text = Gant ar PS hag an UDB e oa bet embannet diazez ur politikerezh yezh gant pennaennoù resis zoken.
 # text[fra] = Les bases d’une politique linguistique comprenant des principes précis avaient même été publiées par le PS et l’UDB.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ar>"
@@ -14543,6 +14885,7 @@
 
 # text = Kinnigoù pennañ politikerezh yezh Rannvro Breizh evit ar brezhoneg
 # text[fra] = Principales propositions de la politique linguistique de la Région Bretagne pour la langue bretonne
+# labels = to_check opab_parallel
 "<Kinnigoù>"
 	"kinnig" n m pl @root #1->0
 "<pennañ>"
@@ -14564,6 +14907,7 @@
 
 # text = Ar budjed gouestlet d'ar yezhoù rannvro gant Kuzulioù-rannvro all e Frañs
 # text[fra] = Le budget alloué aux langues régionales par d’autres Conseils régionaux en France
+# labels = to_check opab_parallel
 "<Ar>"
 	"an" det def sp @det #1->2
 "<budjed>"
@@ -14590,6 +14934,7 @@
 
 # text = Nebeutoc'h a venegoù a vo troet er reter koulskoude.
 # text[fra] = Toutefois, moins de mentions seront traduites à l’est.
+# labels = to_check opab_parallel
 "<Nebeutoc'h a>"
 	"nebeutoc’h a" pr @case #1->2
 "<venegoù>"
@@ -14612,6 +14957,7 @@
 
 # text = Dilennidi, teknikourien ar gumun ha frammoù dave (Ofis ar Brezhoneg en o zouez) a ya d’ober ar bodadoù trakêr-se.
 # text[fra] = Ces commissions se composent d’élus, de techniciens de la commune et de structures de référence (dont l’Office de la langue bretonne).
+# labels = to_check opab_parallel
 "<Dilennidi>"
 	"dilennad" n m pl @dep #1->15
 "<,>"
@@ -14658,6 +15004,7 @@
 
 # text = Un Aotreegezh gant ar meneg yezhoù ha sevenadur rannvro zo kinniget d’ar studierien hepken.
 # text[fra] = Celle-ci ne propose qu’une Licence intitulée « Langues et culture régionales ».
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<Aotreegezh>"
@@ -14692,6 +15039,7 @@
 
 # text = Evit echuiñ, kinnig a ra Skol-veur Breizh-Izel un diplom skol-veur « Yezhoù ha sevenadur Breizh ».
 # text[fra] = Enfin, l’Université de Bretagne Occidentale propose un diplôme universitaire “Langues et culture bretonnes”.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @mark #1->2
 "<echuiñ>"
@@ -14731,6 +15079,7 @@
 
 # text = Karget eo da genurzhiañ ar studioù war an dachenn geltiek.
 # text[fra] = Il est chargé de coordonner les études sur la matière celtique.
+# labels = to_check opab_parallel
 "<Karget>"
 	"kargañ" vblex pp @root #1->0
 "<eo>"
@@ -14756,6 +15105,7 @@
 
 # text = Diorroet eo bet ar c’hinnig dre rouedadoù gant labour ar c’hevreadoù.
 # text[fra] = L’offre s’est développée en réseau par le travail des fédérations.
+# labels = to_check opab_parallel
 "<Diorroet>"
 	"diorren" vblex pp @root #1->0
 "<eo>"
@@ -14783,6 +15133,7 @@
 
 # text = Stad ar c’hinnig kentelioù noz
 # text[fra] = Etat de l’offre de cours du soir
+# labels = to_check opab_parallel
 "<Stad>"
 	"stad" n f sg @root #1->0
 "<ar>"
@@ -14794,6 +15145,7 @@
 
 # text = Alies ne gavont ket e diabarzh o framm ar barregezhioù ret evit diorren implij ar yezh ouzhpenn-se.
 # text[fra] = Souvent, ils ne trouvent pas à l’intérieur de leur structure les compétences nécessaires pour développer l’usage de la langue, qui plus est.
+# labels = to_check opab_parallel
 "<Alies>"
 	"alies" adv @advmod #1->3
 "<ne>"
@@ -14833,6 +15185,7 @@
 
 # text = Skoazellet eo an embann e brezhoneg gant ar galloudoù foran.
 # text[fra] = L’édition en breton est aidée par les pouvoirs publics.
+# labels = to_check opab_parallel
 "<Skoazellet>"
 	"skoazellañ" vblex pp @root #1->0
 "<eo>"
@@ -14858,6 +15211,7 @@
 
 # text = Kinniget eo ar produiñ kleweled e brezhoneg d’ar c’houlz-se ivez.
 # text[fra] = La production audiovisuelle en langue bretonne est présentée par la même occasion.
+# labels = to_check opab_parallel
 "<Kinniget>"
 	"kinnig" vblex pp @root #1->0
 "<eo>"
@@ -14886,6 +15240,7 @@
 
 # text = Sinet e oa bet ur c’hendivizad palioù ha danvezioù etre ar Stad, France 3 ha Strollegezh Korsika evit krouiñ ar chadenn e miz Ebrel 2006.
 # text[fra] = En avril 2006, une convention d’objectifs et de moyens a été signée entre l’État, France 3 et la Collectivité de Corse pour la création de cette chaîne.
+# labels = to_check opab_parallel
 "<Sinet>"
 	"sinañ" vblex pp @root #1->0
 "<e>"
@@ -14941,6 +15296,7 @@
 
 # text = Met nevez eo ar c’hinnig-se.
 # text[fra] = Mais cette offre nouvelle commence à émerger.
+# labels = to_check opab_parallel
 "<Met>"
 	"met" cnjcoo @cc #1->2
 "<nevez>"
@@ -14958,6 +15314,7 @@
 
 # text = An diskoulmoù hag an diaesterioù evit diorren ar c’hinnig
 # text[fra] = Les solutions pour développer l’offre et les blocages
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<diskoulmoù>"
@@ -14979,6 +15336,7 @@
 
 # text = Ur raktres bras e oa, pa oa anv da gaout un talbenn daou-ugent metr hed.
 # text[fra] = Ce projet est ambitieux puisqu’il prévoit une longueur de façade de quarante mètres.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<raktres>"
@@ -15016,6 +15374,7 @@
 
 # text = Koll a reas an abatioù eus o galloud neuze.
 # text[fra] = Les abbayes perdent alors de leur pouvoir.
+# labels = to_check opab_parallel
 "<Koll>"
 	"koll" vblex inf @root #1->0
 "<a>"
@@ -15039,6 +15398,7 @@
 
 # text = Kresk kêr
 # text[fra] = Centre ville
+# labels = to_check opab_parallel
 "<Kresk>"
 	"kresk" n m sg @root #1->0
 "<kêr>"
@@ -15046,6 +15406,7 @@
 
 # text = Gant ar porzh o kreskiñ e teuas greantioù d’en em staliañ eno.
 # text[fra] = Le développement du port incite les industries à s’y implanter.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ar>"
@@ -15075,6 +15436,7 @@
 
 # text = Kinnig a raio kelc’hioù keltiek gwellañ Breizh o frogramm 2002.
 # text[fra] = Les meilleurs cercles de Bretagne présenteront leur programme 2002.
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<a>"
@@ -15100,6 +15462,7 @@
 
 # text = Warno e veze lakaet anv ar gwaz pe hini ar wreg.
 # text[fra] = Elles portaient le nom du mari ou de l’épouse.
+# labels = to_check opab_parallel
 "<Warno>"
 	"war" pr @case #1->2
 		"indirect" prn obj p3 mf pl @obl #2->4
@@ -15128,6 +15491,7 @@
 
 # text = Un torkad bokedoù mar plij.
 # text[fra] = Un bouquet s'il vous plaît.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<torkad>"
@@ -15141,6 +15505,7 @@
 
 # text = Get an TTB emañ Gwened àr-hed teir euriad d'ar muiañ a Bariz, gant meur a dren bemdez.
 # text[fra] = En TGV, Vannes est à moins de trois heures de Paris, avec de nombreuses liaisons par jour.
+# labels = to_check opab_parallel
 "<Get>"
 	"get" pr @case #1->3
 "<an>" 
@@ -15178,6 +15543,7 @@
 
 # text = Kresk an niver ar skolidi, en holl, zo 660 skoliad e-keñver an distro-skol kent.
 # text[fra] = La croissance des effectifs en nombre absolu est de 660 élèves par rapport à la rentrée dernière.
+# labels = to_check opab_parallel
 "<Kresk>"
 	"kresk" n m sg @nsubj #1->12
 "<an>"
@@ -15215,6 +15581,7 @@
 
 # text = DASTUMADOÙ HA TUD
 # text[fra] = DES COLLECTIONS ET DES HOMMES
+# labels = to_check opab_parallel
 "<DASTUMADOÙ>"
 	"dastumad" n m pl @root #1->0
 "<HA>"
@@ -15224,6 +15591,7 @@
 
 # text = Àr tachenn ar sevenadur
 # text[fra] = Dans le domaine culturel
+# labels = to_check opab_parallel
 "<Àr>"
 	"àr" pr @case #1->2
 "<tachenn>"
@@ -15235,6 +15603,7 @@
 
 # text = Ur gevredigezh rannvroel e servij obererien sevenadurel ar c'humunioù war ar maez pe ar c'hêrioù krenn.
 # text[fra] = Une association régionale au service des acteurs culturels des communes en zones rurales et des villes moyennes.
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gevredigezh>"
@@ -15272,6 +15641,7 @@
 
 # text = Abaoe 2001 e vez kinniget arvestoù digor d'an holl gant an ti-kêr.
 # text[fra] = Depuis 2001, la municipalité propose au public des spectacles ouverts à tous.
+# labels = to_check opab_parallel
 "<Abaoe>"
 	"abaoe" pr @case #1->2
 "<2001>"
@@ -15302,6 +15672,7 @@
 
 # text = Standoù ar c'hevredigezhioù
 # text[fra] = Les stands des associations
+# labels = to_check opab_parallel
 "<Standoù>"
 	"stand" n m pl @root #1->0
 "<ar>"
@@ -15311,6 +15682,7 @@
 
 # text = Ofis ar Brezhoneg eo aozadur dave ar strollegezhioù lec'hel àr tachenn ar politikerezh yezh.
 # text[fra] = L'Office de la Langue Bretonne est l'organisme de référence pour les collectivités locales en matière de politique linguistique.
+# labels = to_check opab_parallel
 "<Ofis ar Brezhoneg>"
 	"Ofis ar Brezhoneg" np al mf sg @nsubj #1->3
 "<eo>"
@@ -15340,6 +15712,7 @@
 
 # text = Krouiñ ur roll niverennet diouzh an arventennoù dre ziouer red
 # text[fra] = Crée une liste numérotée en fonction des paramètres par défaut actuels
+# labels = to_check opab_parallel
 "<Krouiñ>"
 	"krouiñ" vblex inf @root #1->0
 "<ur>"
@@ -15363,6 +15736,7 @@
 
 # text = Keñveriañ an teul-mañ gant ar stumm enrollet da ziwezhañ war ar servijer.
 # text[fra] = Compare ce document avec la dernière version enregistrée sur le serveur.
+# labels = to_check opab_parallel
 "<Keñveriañ>"
 	"keñveriañ" vblex inf @root #1->0
 "<an>"
@@ -15394,6 +15768,7 @@
 
 # text = Eilañ war-du
 # text[fra] = Copier vers
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf @root #1->0
 "<war-du>"
@@ -15401,6 +15776,7 @@
 
 # text = Klaskit gwelet hag-eñ eo reizh hoc'h anv implijer hag ho ker-tremen.
 # text[fra] = Vérifiez que votre nom d'utilisateur et que votre mot de passe sont corrects.
+# labels = to_check opab_parallel
 "<Klaskit>"
 	"klask" vblex imp p2 pl @root #1->0
 "<gwelet>"
@@ -15428,6 +15804,7 @@
 
 # text = Ne c'haller ouzhpennañ implijer ebet d'ar roll.
 # text[fra] = Impossible d'ajouter un ou plusieurs utilisateurs à la liste.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<c'haller>"
@@ -15448,6 +15825,7 @@
 
 # text = Eilañ perzhioù an teuliad
 # text[fra] = Copier les propriétés du dossier
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf @root #1->0
 "<perzhioù>"
@@ -15459,6 +15837,7 @@
 
 # text = Ne c'haller ket lenn ur perzh skrivañ hepken.
 # text[fra] = Impossible de lire une propriété écriture seule.
+# labels = to_check opab_parallel
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<c'haller>"
@@ -15480,6 +15859,7 @@
 
 # text = Unan eus ho kontoù pe meur a gont a gas ar c'hemennadoù nevez d'ar restr roadennoù-mañ.
 # text[fra] = Un ou plusieurs de vos comptes remettent les nouveaux messages dans ce fichier de données.
+# labels = to_check opab_parallel
 "<Unan>"
 	"unan" num mf sg @nsubj #1->9
 "<eus>"
@@ -15518,6 +15898,7 @@
 
 # text = Evel-se e tiwaller na vefe paouezet ho roll gant embanner un deiziadur Kenrouedad.
 # text[fra] = Ceci permet d'éviter la suspension éventuelle de votre liste par l'éditeur d'un calendrier Internet.
+# labels = to_check opab_parallel
 "<Evel-se>"
 	"evel-se" adv @dep #1->3
 "<e>"
@@ -15549,6 +15930,7 @@
 
 # text = Kevreañ ouzh ur servijer LDAP evit klask ha gwiriañ ar chomlec'hioù postel ha titouroù all.
 # text[fra] = Se connecter à un serveur LDAP pour rechercher et vérifier les adresses de messagerie et autres informations.
+# labels = to_check opab_parallel
 "<Kevreañ>"
 	"kevreañ" vblex inf @root #1->0
 "<ouzh>"
@@ -15584,6 +15966,7 @@
 
 # text = Gant ar servijer-mañ e vez goulennet diganin kevreañ
 # text[fra] = Ce serveur exige que je me connecte
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ar>"
@@ -15606,6 +15989,7 @@
 
 # text = Kefluniet brav eo ho kont postel evit implijout
 # text[fra] = Votre compte de messagerie est correctement configuré pour utiliser
+# labels = to_check opab_parallel
 "<Kefluniet>"
 	"kefluniañ" vblex pp @root #1->0
 "<brav>"
@@ -15625,6 +16009,7 @@
 
 # text = An titouroù a eskemmit gant al lec'hienn-mañ ne c'hallont ket bezañ lennet pe cheñchet gant implijerien all.
 # text[fra] = Les informations que vous échangez avec ce site ne peuvent pas être consultées ou modifiées par d'autres utilisateurs.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<titouroù>"
@@ -15666,6 +16051,7 @@
 
 # text = Skriverezit anv ar voest posteloù en deus kefluniet ho merour evidoc'h. 
 # text[fra] = Tapez le nom de la boîte aux lettres que l'administrateur a configurée pour vous. 
+# labels = to_check opab_parallel
 "<Skriverezit>"
 	"skriverezañ" vblex imp p2 pl @root #1->0
 "<anv>"
@@ -15692,6 +16078,7 @@
 
 # text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
 # text[spa] = Generalmente el nombre de buzón de correos corresponde a tu nombre de usuario.
+# labels = to_check opab_parallel
 "<Peurliesañ>"
 	"peurliesañ" adv @advmod #1->3
 "<e>"
@@ -15719,6 +16106,7 @@
 
 # text = Pouezit war F1 evit kaout skoazell war ar voest kendiviz
 # text[fra] = Appuyez sur F1 pour obtenir de l'aide sur la boîte de dialogue
+# labels = to_check opab_parallel
 "<Pouezit>"
 	"pouezañ" vblex imp p2 pl @root #1->0
 "<war>"
@@ -15742,6 +16130,7 @@
 
 # text = Eilañ ar grafik
 # text[fra] = Copier le graphique
+# labels = to_check opab_parallel
 "<Eilañ>"
 	"eilañ" vblex inf @root #1->0
 "<ar>"
@@ -15751,6 +16140,7 @@
 
 # text = Un destenn erlec'hiañ a vez implijet ivez evit an dud nammet.
 # text[fra] = Un texte de remplacement est également utilisé pour aider les personnes handicapées.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<destenn>"
@@ -15778,6 +16168,7 @@
 
 # text = N'eo ket implijet ar perzh-mañ gant ahel an talvoudoù.
 # text[fra] = Cette propriété n'est pas utilisée par les axes des valeurs.
+# labels = to_check opab_parallel
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eo>"
@@ -15805,6 +16196,7 @@
 
 # text = N'eo ket implijet ar perzh-mañ gant ahel ar rummadoù.
 # text[fra] = Propriété non utilisée par les axes des catégories.
+# labels = to_check opab_parallel
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eo>"
@@ -15832,6 +16224,7 @@
 
 # text = Takad testenn
 # text[fra] = Zone de texte
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<testenn>"
@@ -15839,6 +16232,7 @@
 
 # text = Takad testenn
 # text[fra] = Zone de texte
+# labels = to_check opab_parallel
 "<Takad>"
 	"takad" n m sg @root #1->0
 "<testenn>"
@@ -15846,6 +16240,7 @@
 
 # text = Kemmañ ar bannoù hag an arventennoù
 # text[fra] = Modifier les colonnes et les paramètres
+# labels = to_check opab_parallel
 "<Kemmañ>"
 	"kemmañ" vblex inf @root #1->0
 "<ar>"
@@ -15861,6 +16256,7 @@
 
 # text = 5.
 # text[fra] = 5.
+# labels = to_check opab_parallel
 "<5>"
 	"5" num mf pl @root #1->0
 "<.>"
@@ -15868,6 +16264,7 @@
 
 # text = Klikit war Echuiñ evit krouiñ danevell an daolenn kroaziet dinamek.
 # text[fra] = Cliquez sur Terminer pour créer le rapport de tableau croisé dynamique.
+# labels = to_check opab_parallel
 "<Klikit>"
 	"klikañ" vblex imp p2 pl @root #1->0
 "<war>"
@@ -15893,6 +16290,7 @@
 
 # text = Mirout ar c'hemmoù enrollet dija
 # text[fra] = Conserver celles déjà enregistrées
+# labels = to_check opab_parallel
 "<Mirout>"
 	"mirout" vblex inf @root #1->0
 "<ar>"
@@ -15906,6 +16304,7 @@
 
 # text = Ha c'hoant hoc'h eus da gefluniañ ur gont postel ?
 # text[fra] = Voulez-vous configurer un compte de messagerie ?
+# labels = to_check opab_parallel
 "<Ha>"
 	"ha" cnjcoo @cc #1->3
 "<c'hoant>"
@@ -15927,6 +16326,7 @@
 
 # text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
 # text[fra] = Il est recommandé de conserver celles du serveur.
+# labels = to_check opab_parallel
 "<Peurliesañ>"
 	"peurliesañ" adv @advmod #1->2
 "<ho po>"
@@ -15952,6 +16352,7 @@
 
 # text = Ha c'hoant hoc'h eus da verañ ho rolloù kaserien berzet bremañ ?
 # text[fra] = Voulez-vous gérer vos listes des expéditeurs indésirables maintenant ?
+# labels = to_check opab_parallel
 "<Ha>"
 	"ha" cnjcoo @cc #1->3
 "<c'hoant>"
@@ -15977,6 +16378,7 @@
 
 # text = Merañ ar rolloù...
 # text[fra] = Gérer les listes...
+# labels = to_check opab_parallel
 "<Merañ>"
 	"merañ" vblex inf @root #1->0
 "<ar>"
@@ -15988,6 +16390,7 @@
 
 # text = Logo / Galloud
 # text[fra] = Logo / Pouvoir
+# labels = to_check opab_parallel
 "<Logo>"
 	"logo" n m sg @root #1->0
 "</>"
@@ -15997,6 +16400,7 @@
 
 # text = E-kreiz ar reuz e voe kreñvaet o galloud gant an Duged ha krouet un danvez Stad vodern.
 # text[fra] = Au milieu de ces difficultés, le nouveau pouvoir ducal se renforce et façonne un embryon d’état moderne.
+# labels = to_check opab_parallel
 "<E-kreiz>"
 	"e-kreiz" pr @case #1->3
 "<ar>"
@@ -16036,6 +16440,7 @@
 
 # text = Kevredigezh Breizh dindan ar Renad Kozh
 # text[fra] = La société bretonne sous l'Ancien Régime
+# labels = to_check opab_parallel
 "<Kevredigezh>"
 	"kevredigezh" n f sg @root #1->0
 "<Breizh>"
@@ -16051,6 +16456,7 @@
 
 # text = ur vro zo pinvidik a wazed hag a vaouezed
 # text[fra] = une terre riche de ses hommes et de ses femmes.
+# labels = to_check opab_parallel
 "<ur>"
 	"un" det ind sp @det #1->2
 "<vro>"
@@ -16072,6 +16478,7 @@
 
 # text = brasaet e voe ar c'hastell hag adsavet e voe moger-dro kêr a-raok he astenn.
 # text[fra] = le château est agrandi et l'enceinte urbaine est reconstruite et étendue.
+# labels = to_check opab_parallel
 "<brasaet>"
 	"brasaat" vblex pp @root #1->0
 "<e>"
@@ -16105,6 +16512,7 @@
 
 # text = Evit adkregiñ ganti, pouezit adarre war an douchenn PAUSE-se.
 # text[fra] = Pour la reprendre, appuyez à nouveau sur cette touche PAUSE.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case #1->2
 "<adkregiñ>"
@@ -16133,6 +16541,7 @@
 
 # text = Gouestlet eo ar werenn-mañ d'ar binvioù merdeiñ.
 # text[fra] = Cette vitrine est consacrée aux instruments de navigation.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
@@ -16155,6 +16564,7 @@
 
 # text = Gouestlet eo an eil gwerenn e-kreiz da ensavadurioù ar c'henwerzh ha d' ar c'huzul-kêr.
 # text[fra] = La deuxième vitrine au centre est consacrée aux institutions du négoce et à la municipalité.
+# labels = to_check opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
@@ -16188,6 +16598,7 @@
 
 # text = Dindan un nebeud bloavezhioù eo deuet Sant-Nazer da vezañ porzh bras an aber ha keveziñ a ra ouzh Naoned.
 # text[fra] = En quelques années, Saint-Nazaire devient le grand port de l'estuaire, concurrençant Nantes.
+# labels = to_check opab_parallel
 "<Dindan>"
 	"dindan" pr @case #1->3
 "<un>"
@@ -16231,6 +16642,7 @@
 
 # text = D'ar greanterezhioù nevez eo gouestlet ar peurrest eus ar sal.
 # text[fra] = Le reste de la salle est consacré aux nouvelles industries.
+# labels = to_check opab_parallel
 "<D'ar>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -16257,6 +16669,7 @@
 
 # text = Evit pennadurezhioù Frañs libr eo ret adsevel ar porzh a-raok pep tra.
 # text[fra] = Pour les nouvelles autorités de la France libre, la priorité est la reconstruction du port.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @case #1->2
 "<pennadurezhioù>"
@@ -16286,6 +16699,7 @@
 
 # text = An douvezioù, ar porzh hag an hent-ged a c'haller gweladenniñ digoust.
 # text[fra] = Les douves, la cour et le chemin de ronde sont en accès libre.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->2
 "<douvezioù>"
@@ -16315,6 +16729,7 @@
 
 # text = Niv. d'ober war an douchennaoueg
 # text[fra] = N° à composer sur votre clavier
+# labels = to_check opab_parallel
 "<Niv.>"
 	"niv." n acr m sg @root #1->0
 "<d'>"
@@ -16330,6 +16745,7 @@
 
 # text = 2602 Porzh Naoned e 1914
 # text[fra] = 2602 Le port de Nantes en 1914
+# labels = to_check opab_parallel
 "<2602>"
 	"2602" num mf pl @parataxis #1->2
 "<Porzh>"
@@ -16343,6 +16759,7 @@
 
 # text = 2803 Amprest evit adsevel porzh Naoned
 # text[fra] = 2803 Emprunt pour la reconstruction du port
+# labels = to_check opab_parallel
 "<2803>"
 	"2803" num mf pl @parataxis #1->2
 "<Amprest>" 
@@ -16358,6 +16775,7 @@
 
 # text = Gwezharall e talveze ar Blavezh da harzoù naturel er c'hornôg d'ar gêr.
 # text[fra] = Le Blavet servait jadis de frontière naturelle à l'ouest de la ville.
+# labels = to_check opab_parallel
 "<Gwezharall>"
 	"gwezhall" adv @advmod #1->3
 "<e>"
@@ -16389,6 +16807,7 @@
 
 # text = gounidegezh an annezidi, live an tailhoù, kresk ar boblañs ha kresk niver an implijoù.
 # text[fra] = le revenu des habitants, le niveau des impôts, l'augmentation de population et l'augmentation du nombre d'emplois.
+# labels = to_check opab_parallel
 "<gounidegezh>"
 	"gounidegezh" n f sg @root #1->0
 "<an>"
@@ -16426,6 +16845,7 @@
 
 # text = Galvet e vo ar poloù kevezusted, an embregerezhioù, ar poellgorioù rannvro, ar c'hreizennoù skiantel, an ensavadurioù enklask hag an obererien sevenadurel dave, da ziskouez o skiant-prenet war an tachennoù-se.
 # text[fra] = Elle mobilisera l'expertise des pôles de compétitivité, des entreprises, des comités régionaux, des centres scientifiques, des instituts de recherche et des acteurs culturels faisant référence dans ces domaines.
+# labels = to_check opab_parallel
 "<Galvet>"
 	"gelver" vblex pp @root #1->0
 "<e>"
@@ -16501,6 +16921,7 @@
 
 # text = Peseurt palioù zo d'ar Gevrat-se ?
 # text[fra] = Quels sont les objectifs de ce Contrat ?
+# labels = to_check opab_parallel
 "<Peseurt>"
 	"peseurt" adj itg mf sp @det #1->2
 "<palioù>"
@@ -16519,6 +16940,7 @@
 
 # text = 37 gwazour o doa embannet o youl da luskañ an argerzh-se war o zachenn barregezh ha bremañ e kemeront perzh da gas ar c'houlzad war-raok ;
 # text[fra] = 37 agents se sont déclarés volontaires pour animer cette démarche dans leur champ de compétences et participent aujourd'hui à la progression de l'opération ;
+# labels = to_check opab_parallel
 "<37>"
 	"37" num mf pl @nummod #1->2
 "<gwazour>"
@@ -16574,6 +16996,7 @@
 
 # text = - termeniñ kevelerien a c'hallfe bezañ war dachenn al labour-douar padus.
 # text[fra] = - l'identification des partenaires potentiels en matière d'agriculture durable.
+# labels = to_check opab_parallel
 "<->"
 	"-" guio @punct #1->2
 "<termeniñ>"
@@ -16601,6 +17024,7 @@
 
 # text = War dachenn ar sevenadur e vo broudet an div Rannvro da zizoleiñ holl dachennoù krouidigezh sevenadurel an eil hag eben.
 # text[fra] = Dans le domaine culturel, les deux Régions favoriseront la découverte réciproque dans tous les domaines de la création culturelle.
+# labels = to_check opab_parallel
 "<War>"
 	"war" pr @case #1->2
 "<dachenn>"
@@ -16646,6 +17070,7 @@
 
 # text = Laouen on get an emdroadur-se.
 # text[fra] = Je me réjouis de cette évolution.
+# labels = to_check opab_parallel
 "<Laouen>"
 	"laouen" adj mf sp @root #1->0
 "<on>"
@@ -16663,6 +17088,7 @@
 
 # text = ha c’hoant hoc'h eus da virout kambreier ?
 # text[fra] = Désirez-vous réserver des chambres d’hôtel ?
+# labels = to_check opab_parallel
 "<ha>"
 	"ha" cnjcoo @cc #1->3
 "<c’hoant>"
@@ -16680,6 +17106,7 @@
 
 # text = ha c’hoant hoc’h eus da virout predoù ?
 # text[fra] = Désirez-vous réserver de la restauration ?
+# labels = to_check opab_parallel
 "<ha>"
 	"ha" cnjcoo @cc #1->3
 "<c’hoant>"
@@ -16697,6 +17124,7 @@
 
 # text = 2002 Lidañ a reer digoradur ar framm touristel degemer « Douar an Holen »
 # text[fra] = 2002 Inauguration de la structure touristique d’accueil « Terre de Sel »
+# labels = to_check opab_parallel
 "<2002>"
 	"2002" num mf pl @parataxis #1->2
 "<Lidañ>"
@@ -16728,6 +17156,7 @@
 
 # text = KINNIG DEOC'H DISKOULMOÙ PERSONELAET
 # text[fra] = VOUS OFFRIR DES SOLUTIONS PERSONNALISEES
+# labels = to_check opab_parallel
 "<KINNIG>"
 	"kinnig" vblex inf @root #1->0
 "<DEOC'H>"
@@ -16740,6 +17169,7 @@
 
 # text = keodedourien, strollegezhioù, obererien armerzhel...
 # text[fra] = citoyens, collectivités, acteurs économiques… 
+# labels = to_check opab_parallel
 "<keodedourien>"
 	"keodedour" n m pl @root #1->0
 "<,>"
@@ -16757,6 +17187,7 @@
 
 # text = Skoazellet e vez mont en-dro ar gevredigezh gant ar Rannvro hag emañ goprad ar gevredigezh gant un implij kevredigezhel a laz rannvroel.
 # text[fra] = Le fonctionnement de l'association est aidé par la Région et le salarié de l'association est sur un emploi associatif d'intérêt régional.
+# labels = to_check opab_parallel
 "<Skoazellet>"
 	"skoazellañ" vblex pp @root #1->0
 "<e>"
@@ -16804,6 +17235,7 @@
 
 # text = Kinnig ar gêr pe ar vro
 # text[fra] = Présenter la ville ou le pays
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<ar>"
@@ -16819,6 +17251,7 @@
 
 # text = Saverion bennañ àr o zachenn
 # text[fra] = Des constructeurs leaders dans leur domaine
+# labels = to_check opab_parallel
 "<Saverion>"
 	"saver" n m pl @root #1->0
 "<bennañ>"
@@ -16832,6 +17265,7 @@
 
 # text = Ur gorread leur a 350 m² a vo da bep hini hag hañval e vo o framm.	
 # text[fra] = De structures similaires, ils disposeront chacun d'une surface au sol de 350 m².
+# labels = to_check opab_parallel
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<gorread>"
@@ -16871,6 +17305,7 @@
 
 # text = Laouen eo kêr Wened o kinnig deoc'h he lec'hienn Internet nevez.
 # text[fra] = La ville de Vannes est heureuse de vous présenter son nouveau site Internet.
+# labels = to_check opab_parallel
 "<Laouen>"
 	"laouen" adj mf sp @root #1->0
 "<eo>"
@@ -16899,6 +17334,7 @@
 
 # text = Kinnig a ra al lec'hienn deoc'h un dorikell c'halloudel evit ho tifraeoù melestradurel.
 # text[fra] = Le site vous propose un guichet virtuel d'accès aux démarches administratives.
+# labels = to_check opab_parallel
 "<Kinnig>"
 	"kinnig" vblex inf @root #1->0
 "<a>"
@@ -16931,6 +17367,7 @@
 
 # text = Kargoù ar maer
 # text[fra] = Les fonctions du maire
+# labels = to_check opab_parallel
 "<Kargoù>"
 	"karg" n f pl @root #1->0
 "<ar>"
@@ -16940,6 +17377,7 @@
 
 # text = Ul lec'h evit kinnigoù hag eskemmoù eo ivez.
 # text[fra] = Elles sont également un lieu de propositions et d'échanges.
+# labels = to_check opab_parallel
 "<Ul>"
 	"un" det ind sp @det #1->2
 "<lec'h>"
@@ -16961,6 +17399,7 @@
 
 # text = Aezamant 28° eo gwrezverk dour ar poull sport.
 # text[fra] = Confort La température de l'eau du bassin sportif est de 28°.
+# labels = to_check opab_parallel
 "<Aezamant>"
 	"aezamant" n m sg @parataxis #1->2
 "<28°>"
@@ -16982,6 +17421,7 @@
 
 # text = Ag ar mammennoù d'ar c'hogoù
 # text[fra] = De la source au robinet
+# labels = to_check opab_parallel
 "<Ag>"
 	"a" pr @case #1->3
 "<ar>"
@@ -16996,6 +17436,7 @@
 
 # text = Graet e vezont àr standilhonoù dastumet àr-eeun diouzh ar c'hogoù.
 # text[fra] = Ils sont réalisés sur des échantillons prélevés directement au robinet.
+# labels = to_check opab_parallel
 "<Graet>"
 	"ober" vblex pp @root #1->0 
 "<e>"
@@ -17021,6 +17462,7 @@
 
 # text = ■ 60 tonennad produioù da naetaat marc'hadoù hag abadennoù.
 # text[fra] = ■ 60 tonnes de produits de nettoyage des marchés et manifestations.
+# labels = to_check opab_parallel
 "<■>"
 	"■" sent @punct #1->3
 "<60>"
@@ -17044,6 +17486,7 @@
 
 # text = Labourioù diouzh ar c'houlz (karter ar porzh) ha dreistordinal a vez graet alies.
 # text[fra] = Des opérations saisonnières (secteur du port) et exceptionnelles sont fréquemment organisées.
+# labels = to_check opab_parallel
 "<Labourioù>"
 	"labour" n m pl @nsubj #1->14
 "<diouzh>"
@@ -17079,6 +17522,7 @@
 
 # text = Ho kont
 # text[fra] = Votre compte
+# labels = to_check opab_parallel
 "<Ho>"
 	"ho" det pos mf sp @det #1->2
 "<kont>"
@@ -17086,6 +17530,7 @@
 
 # text = Deiziataer ar c'hevredigezhioù
 # text[fra] = Agenda des associations
+# labels = to_check opab_parallel
 "<Deiziataer>"
 	"deiziataer" n m sg @root #1->0
 "<ar>"
@@ -17095,6 +17540,7 @@
 
 # text = Klask un abadenn
 # text[fra] = Rechercher une manifestation
+# labels = to_check opab_parallel
 "<Klask>"
 	"klask" vblex inf @root #1->0
 "<un>"
@@ -17104,6 +17550,7 @@
 
 # text = - ar retredidi hag an dud oadet .
 # text[fra] = - les retraités et personnes âgées .
+# labels = to_check opab_parallel
 "<->"
 	"-" guio @punct #1->3
 "<ar>"
@@ -17123,6 +17570,7 @@
 
 # text = Monet d'ar poull
 # text[fra] = Accès au bassin
+# labels = to_check opab_parallel
 "<Monet>"
 	"monet" vblex inf @root #1->0
 "<d'ar>"
@@ -17133,6 +17581,7 @@
 
 # text = E 1952 e oa daet da vout ezel ag ar Gevredigezh Liesdiskiblezh.
 # text[fra] = En 1952, il devient membre de la Société Polymathique.
+# labels = to_check opab_parallel
 "<E>"
 	"e" pr @case #1->2
 "<1952>"
@@ -17162,6 +17611,7 @@
 
 # text = « Ar c'horn azasaet ouzh an dud e kadorioù-ruilh zo aveet gant skrammoù difer evit titouriñ ar veajourien ha dudiañ anezho.
 # text[fra] = « L'espace adapté pour les personnes en fauteuil roulant est équipé spécifiquement d'écrans d'information voyageurs et loisirs.
+# labels = to_check opab_parallel
 "<«>"
 	"«" lquot @punct #1->11
 "<Ar>"
@@ -17209,6 +17659,7 @@
 
 # text = Reiñ a reont un neuz c'hwekoc'h d'an tren ha gallout a reer krouiñ kinkladurioù gouloù ganto. »
 # text[fra] = Elles permettent de donner un aspect plus chaleureux au train et de créer des décors lumineux »
+# labels = to_check opab_parallel
 "<Reiñ>"
 	"reiñ" vblex inf @root #1->0
 "<a>"
@@ -17250,6 +17701,7 @@
 
 # text = Pedadenn evit daou zen.
 # text[fra] = Invitation pour deux personnes.
+# labels = to_check opab_parallel
 "<Pedadenn>"
 	"pedadenn" n f sg @root #1->0
 "<evit>"
@@ -17263,6 +17715,7 @@
 
 # text = Dibabet he deus Breizh ivez degas skoazell d'an deskadurezh uhel evit diorren ur c'hinnig stummañ kempouezet e-barzh ar vro.
 # text[fra] = La Bretagne a également choisi d'apporter son soutien à l'enseignement supérieur afin de développer une offre de formation équilibrée sur le territoire.
+# labels = to_check opab_parallel
 "<Dibabet>"
 	"dibab" vblex pp @root #1->0
 "<he deus>"
@@ -17305,6 +17758,7 @@
 
 # text = Prezidant Kuzul-rannvro Breizh (PS)
 # text[fra] = Président du Conseil régional de Bretagne (PS)
+# labels = to_check opab_parallel
 "<Prezidant>"
 	"prezidant" n m sg @root #1->0
 "<Kuzul-rannvro Breizh>"
@@ -17318,6 +17772,7 @@
 
 # text = Un taol-chañs eo ar c'hresk poblañs-se.
 # text[fra] = Cette progression démographique est une chance.
+# labels = to_check opab_parallel
 "<Un>"
 	"un" det ind sp @det #1->2
 "<taol-chañs>"
@@ -17337,6 +17792,7 @@
 
 # text = a brient ar c'hinnigoù
 # text[fra] = prépare les propositions
+# labels = to_check opab_parallel
 "<a>"
 	"a" vpart @aux #1->2
 "<brient>"
@@ -17348,6 +17804,7 @@
 
 # text = Muioc'h-mui a dud a zebr boued bio. 
 # text[fra] = De plus en plus de personnes consomment bio. 
+# labels = to_check opab_parallel
 "<Muioc'h-mui>"
 	"muioc’h-mui" adv #1->5
 "<a>"
@@ -17367,6 +17824,7 @@
 
 # text = Sin vat eo.
 # text[fra] = C'est bon signe.
+# labels = to_check opab_parallel
 "<Sin>"
 	"sin" n m sg @root #1->0
 "<vat>"
@@ -17378,6 +17836,7 @@
 
 # text = Gant ur c'hresk a 35% eus ar veajourien dindan pemp bloaz, emañ Breizh e penn rannvroioù Frañs evit an TER.
 # text[fra] = Avec une croissance de fréquentation du TER de 35% en cinq ans, la Bretagne se classe en tête des régions de France.
+# labels = to_check opab_parallel
 "<Gant>"
 	"gant" pr @case #1->3
 "<ur>"
@@ -17425,6 +17884,7 @@
 
 # text = En holl lec'hioù e c'hall mont an dud nammet.
 # text[fra] = L’ensemble des espaces est accessible aux personnes à mobilité réduite
+# labels = to_check opab_parallel
 "<En>"
 	"e" pr @case #1->3
 "<holl>"
@@ -17448,6 +17908,7 @@
 
 # text = Evit tizhout ar pal-se e tleer suraat hag aesaat labour ar wazourien.
 # text[fra] = Pour atteindre cet objectif, il est nécessaire d'améliorer le niveau de sécurité et de confort des agents.
+# labels = to_check opab_parallel
 "<Evit>"
 	"evit" pr @mark #1->2
 "<tizhout>"
@@ -17479,6 +17940,7 @@
 
 # text = An holl frammoù a sav kartennoù hetoù ha da gentañ holl evit lidañ ar bloavezh nevez.
 # text[fra] = Tous les organismes impriment des cartes de voeux et en premier lieu pour souhaiter la bonne année.
+# labels = to_check opab_parallel
 "<An>"
 	"an" det def sp @det #1->3
 "<holl>"
@@ -17516,6 +17978,7 @@
 
 # text = Staliañ ar brezhoneg e diabarzh mont en-dro ho framm
 # text[fra] = Installer la langue bretonne dans le cœur du fonctionnement de votre organisme
+# labels = to_check opab_parallel
 "<Staliañ>"
 	"staliañ" vblex inf @root #1->0
 "<ar>"
@@ -17533,6 +17996,7 @@
 
 # text = Ofis ar Brezhoneg a sav kontoù e zisoc'hoù eus ar 1añ a viz Genver d'ar 31añ a viz Kerzu.
 # text[fra] = L'Office de la Langue Bretonne établit ses comptes de résultats du 1er Janvier au 31 Décembre.
+# labels = to_check opab_parallel
 "<Ofis ar Brezhoneg>"
 	"Ofis ar Brezhoneg" np al mf sg @nsubj #1->3
 "<a>"
@@ -17569,6 +18033,7 @@
 
 # text = War-dro 5.000 den o doa lestret e bigi ar gompagnunezh-vor Penn-ar-Bed evit mont da Eusa, Sun ha Molenez e-kerzh an dibenn-sizhun Pask tremen.
 # text[fra] = Près de 5.000 personnes ont été transportées par la Compagnie maritime Penn ar Bed durant le dernier week-end de Pâques vers les îles de Molène, Ouessant et Sein.
+# labels = to_check opab_parallel
 "<War-dro>"
 	"war-dro" adv @advmod #1->2
 "<5.000>"
@@ -17624,6 +18089,7 @@
 
 # text = A-benn tizhout e balioù en doa disklêriet an emstriver sokialour e oa « a-du » evit krouiñ ministrerezh ar Mor.
 # text[fra] = Pour atteindre ces objectifs, le candidat socialiste à la présidentielle s'est déclaré "favorable" à l'idée d'un ministère de la Mer.
+# labels = to_check opab_parallel
 "<A-benn>"
 	"a-benn" pr @mark #1->2
 "<tizhout>"
@@ -17667,6 +18133,7 @@
 
 # text = « Ma'z on dilennet da brezidant ar Republik e vo degemeret mat ar c'hinnig-se ganin », en doa lavaret dirak 1.000 den bodet d'abardaez e Palez ar C'hendalc'hioù an Oriant.
 # text[fra] = "Si je suis élu président de la République, j'accueillerai positivement une telle proposition", a-t-il déclaré devant 1.000 personnes réunies en début de soirée au palais des Congrès de Lorient.
+# labels = to_check opab_parallel
 "<«>"
 	"«" lquot @punct #1->11
 "<Ma'z>"
@@ -17733,6 +18200,7 @@
 
 # text = Ma'z ouzhpenner ar familh hag ar vignoned, pedet ur wezh an amzer, e tizher e-tro 3 milion den.
 # text[fra] = Si l'on ajoute la famille et les copains, invités occasionnels, ce total atteint sans doute trois millions de personnes.
+# labels = to_check opab_parallel
 "<Ma'z>"
 	"ma" cnjsub @mark #1->2
 "<ouzhpenner>"
@@ -17778,6 +18246,7 @@
 
 # text = Dedennet eo gant an deskadurezh ha kemer a ra perzh e kevredigezhioù a bep seurt a stourm evit stummañ ar re yaouank.
 # text[fra] = Il est intéressé par l'éducation et il est impliqué dans différentes associations qui militent pour la formation des jeunes.
+# labels = to_check opab_parallel
 "<Dedennet>"
 	"dedennañ" vblex pp @root #1->0
 "<eo>"
@@ -17825,6 +18294,7 @@
 
 # text = Kement abadenn sevenadurel a denn da zanvez Breizh a vez brudet gant pedadennoù divyezhek.
 # text[fra] = Les manifestations culturelles font l’objet de communication bilingue systématique quand ils concernent des thèmes bretons.
+# labels = to_check opab_parallel
 "<Kement>"
 	"kement" det ind mf sg @det #1->2
 "<abadenn>"
@@ -17858,6 +18328,7 @@
 
 # text = Al linenn reter-kornôg a zarempredo an takadoù annez, implij hag obererezh pennañ.
 # text[fra] = Cette ligne est-ouest desservira les principaux secteurs d’habitat, d’emploi et d’activité.
+# labels = to_check opab_parallel
 "<Al>"
 	"an" det def sp @det #1->2
 "<linenn>"
@@ -17893,6 +18364,7 @@
 
 # text = un aod traezh munut !
 # text[fra] = plage de sable fin !
+# labels = to_check opab_parallel
 "<un>"
 	"un" det ind sp @det #1->2
 "<aod>"
@@ -17906,6 +18378,7 @@
 
 # text = P'edon war bont an Naoned, an deiz all o kanañ.
 # text[fra] = Quand j'étais sur le pont de Nantes l'autre jour à chanter
+# labels = to_check song
 "<P'edon>"
 	"pa" cnjsub @mark #1->4
 		"bezañ" vbloc pii p1 sg @cop #2->4
@@ -17934,6 +18407,7 @@
 
 # text = Me 'welas ur verjelenn, war ar pont o ouelañ.
 # text[fra] = Je vis une bergère qui pleurait sur le pont 
+# labels = to_check song
 "<Me>"
 	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<'>"
@@ -17959,6 +18433,7 @@
 
 # text = Petra 'peus 'ta plac'h yaouank?
 # text[fra] = Qu'as-tu donc jeune fille? 
+# labels = to_check song
 "<Petra>"
 	"petra" prn itg mf sp @advmod #1->3
 "<'>"
@@ -17976,6 +18451,7 @@
 
 # text = Petra 'ra dit gouelañ ?
 # text[fra] = Qu'est-ce qui te fait pleurer ? 
+# labels = to_check song
 "<Petra>"
 	"petra" prn itg mf sp @advmod #1->3
 "<'>"
@@ -17992,6 +18468,7 @@
 
 # text = Va gwalenn aour, emezi, zo kouezhet er mor amañ.
 # text[fra] = Mon anneau d'or, dit-elle, Est tombé là dans la mer 
+# labels = to_check song
 "<Va>"
 	"ma" det pos mf sp @det #1->2
 "<gwalenn>"
@@ -18021,6 +18498,7 @@
 
 # text = Petra 'roi din, plac'h yaouank, me 'yelo d'he zapañ ?
 # text[fra] = Que me donnes-tu, jeune fille, si je vais le chercher ? 
+# labels = to_check song
 "<Petra>"
 	"petra" prn itg mf sp @obj #1->3
 "<'>"
@@ -18053,6 +18531,7 @@
 
 # text = Hanter-kant skoed, emezi, em eus em yalc'h amañ.
 # text[fra] = Cinquante écus, dit-elle, que j'ai là dans ma bourse. 
+# labels = to_check song
 "<Hanter-kant>"
 	"hanter-kant" num mf pl @nummod #1->2
 "<skoed>"
@@ -18078,6 +18557,7 @@
 
 # text = 'vit ar c'hentañ ploñjadenn, netra gwelet e oa.
 # text[fra] = Au premier plongeon, on ne vit rien.
+# labels = to_check song
 "<'vit>"
 	"evit" pr @case #1->4
 "<ar>"
@@ -18101,6 +18581,7 @@
 
 # text = 'vit an eilvet ploñjadenn, 'r walenn touchet e oa.
 # text[fra] = Au deuxième plongeon, l'anneau était touché.
+# labels = to_check song
 "<'vit>"
 	"evit" pr @case #1->4
 "<an>"
@@ -18126,6 +18607,7 @@
 
 # text = 'vit an drede ploñjadenn, ar paotr beuzet e oa.
 # text[fra] = Au troisième plongeon, le garçon fut noyé.
+# labels = to_check song
 "<'vit>"
 	"evit" pr @case #1->4
 "<an>"
@@ -18151,6 +18633,7 @@
 
 # text = Studiañ an Istor.
 # text[fra¹] = Étudier l'Histoire.
+# labels = to_check
 "<Studiañ>"
 	"studiañ" vblex inf @root #1->0
 "<an>"
@@ -18162,6 +18645,7 @@
 
 # text = Dre al lec'hioù.
 # text[fra¹] = Par les lieux.
+# labels = to_check
 "<Dre>"
 	"dre" pr @case #1->3
 "<al>"
@@ -18173,6 +18657,7 @@
 
 # text = Dre ar sevenadurioù.
 # text[fra¹] = Par les cultures.
+# labels = to_check
 "<Dre>"
 	"dre" pr @case #1->3
 "<ar>"
@@ -18184,6 +18669,7 @@
 
 # text = Dre an darvoudoù.
 # text[fra¹] = Par les événements.
+# labels = to_check
 "<Dre>"
 	"dre" pr @case #1->3
 "<an>"
@@ -18195,6 +18681,7 @@
 
 # text = Ar brezelioù hag o heuliadoù.
 # text[fra¹] = Les guerres et leur suites.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<brezelioù>"
@@ -18210,6 +18697,7 @@
 
 # text = Istor diavaez ar brezhoneg.
 # text[fra¹] = L'histoire externe du breton.
+# labels = to_check
 "<Istor>"
 	"istor" n m sg @root #1->0
 "<diavaez>"
@@ -18223,6 +18711,7 @@
 
 # text = Er bloaz 1950 ne chome mui nemet 100 000 a dud na ouient nemet brezhoneg.
 # text[fra¹] = Dans l'an 1950 ne restaient plus sauf 100 000 à gens savaient sauf breton.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -18257,6 +18746,7 @@
 
 # text = Er bloaz 1977 eo bet krouet ar skolioù Diwan.
 # text[fra¹] = Dans l'an 1977 ont été créés les écoles Diwan.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -18281,6 +18771,7 @@
 
 # text = Er skolioù-se e vez desket dre ar brezhoneg (4 087 skoliad da vare an distro-skol e 2015).
 # text[fra¹] = Dans ces écoles est appris par le breton (4 087 écoliers à l’époque de la rentrée scolaire dans 2015).
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -18325,6 +18816,7 @@
 
 # text = Miliadoù a dud yaouank (16 345 e 2015) a ya da skolioù seurt-se adal ar skol-vamm betek fin al lise.
 # text[fra¹] = Milliers à jeunes hommes (16 345 dans 2015) va aux écoles de sorte ci à partir de l'école maternelle jusqu’à la fin du lycée.
+# labels = to_check
 "<Miliadoù>"
 	"miliad" n m pl @nsubj #1->11
 "<a>"
@@ -18374,6 +18866,7 @@
 
 # text = Dre an daolenn dindan e c'haller gwelet ar pezh zo heñvel etre brezhoneg (hini Gwened ha KLT) ha kerneveureg, gallaoueg ha galleg.
 # text[fra¹] = Par le tableau dessous on peut voir ce que il est semblable entre breton (aucun Vannes et KLT) et cornique, gallo et français.
+# labels = to_check
 "<Dre>"
 	"dre" pr @case #1->3
 "<an>"
@@ -18427,6 +18920,7 @@
 
 # text = A-benn talañ ouzh an diouer a gelennerien stummet war an deskadurezh vrezhoneg ez eus bet krouet yalc'hadoù gant ar rannvroioù hag ar c'huzul bro.
 # text[fra¹] = Pour affronter le manque de professeurs formé sur l'enseignement de breton ont été créé bourses par les régions et le conseil de pays.
+# labels = to_check
 "<A-benn>"
 	"a-benn" pr @case #1->2
 "<talañ>"
@@ -18478,6 +18972,7 @@
 
 # text = Muioc'h-mui e adkaver ivez ar yezh vrezhon e-liamm gant ar bed ekonomikel.
 # text[fra¹] = On de plus en plus retrouve aussi la langue bretonne e-lien avec le monde économique.
+# labels = to_check
 "<Muioc'h-mui>"
 	"muioc’h-mui" adv @advmod #1->3
 "<e>"
@@ -18507,6 +19002,7 @@
 
 # text = Er maez eus an Emsav e adkaver nebeut implij eus ar yezh vrezhon war an dachenn bolitikel.
 # text[fra¹] = Dehors de l'Emsav qu'on retrouve peu emploi de la langue bretonne sur le terrain politique.
+# labels = to_check
 "<Er maez>"
 	"er-maez" adv @case #1->4
 "<eus>"
@@ -18544,6 +19040,7 @@
 
 # text = Ral eo da gavout ur c'hoant gwirion da souten ar yezh.
 # text[fra¹] = Rare est trouver une envie effective à soutenir la langue.
+# labels = to_check
 "<Ral>"
 	"ral" adj mf sp @root #1->0
 "<eo>"
@@ -18571,6 +19068,7 @@
 
 # text = Hervez un enklask kaset en-dro gant Fañch Broudig ha TMO, paeet gant Kuzul Rannvro Breizh, ne vije nemet 207 000 brezhoneger ken e 2007.
 # text[fra¹] = Selon une enquête renvoyée par Fañch Broudig et TMO, payé par le Conseil de la Région de Bretagne, n'elle serait sauf 207 000 brittophones si dans 2007.
+# labels = to_check
 "<Hervez>"
 	"hervez" pr @case #1->3
 "<un>"
@@ -18626,6 +19124,7 @@
 
 # text = Hervez enklask an INSEE, kempoelloc'h hervez Hervé Abalain, graet e 1999, e vefe 295 000.
 # text[fra¹] = Selon enquêter l'INSEE, plus cohérent selon Hervé Abalain, fait dans 1999, Il serait 295 000.
+# labels = to_check
 "<Hervez>"
 	"hervez" pr @case #1->2
 "<enklask>"
@@ -18665,6 +19164,7 @@
 
 # text = Ur vro eo Breizh.
 # text[fra¹] = Un pays est la Bretagne.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<vro>"
@@ -18678,6 +19178,7 @@
 
 # text = Unan eus ar riezoù kentañ bet krouet en Europa eo ivez.
 # text[fra¹] = Un des états premiers été créés il est en Europe aussi.
+# labels = to_check
 "<Unan>"
 	"unan" num mf sg @nsubj #1->7
 "<eus>"
@@ -18705,6 +19206,7 @@
 
 # text = Krouet e oa ar rannvro Breizh ez-ofisiel e 1943 gant gouarnamant Vichy, enni pevar departamant eus Breizh istorel hepken.
 # text[fra¹] = Il avait créé la région la Bretagne dans ta-officielle dans 1943 avec le gouvernement de Vichy, dans elle quatre départements de Bretagne historique seulement.
+# labels = to_check
 "<Krouet>"
 	"krouiñ" vblex pp @root #1->0
 "<e>"
@@ -18751,6 +19253,7 @@
 
 # text = Chaseal a raent kirvi, yourc'hed ha lern.
 # text[fra¹] = Ils chassaient des cerfs, chevreuils et renards.
+# labels = to_check
 "<Chaseal>"
 	"chaseal" vblex inf @root #1->0
 "<a>"
@@ -18772,6 +19275,7 @@
 
 # text = Pesketa ha kregina a raent ivez a-benn debriñ.
 # text[fra¹] = Pêcher et Ils @kregina aussi pour manger.
+# labels = to_check
 "<Pesketa>"
 	"pesketa" vblex inf @root #1->0
 "<ha>"
@@ -18793,6 +19297,7 @@
 
 # text = Stagañ a raent da c'hounit plant, ha da zoñvaat loened.
 # text[fra¹] = Ils attachaient à gagner des plantes, et à domestiquer des animaux.
+# labels = to_check
 "<Stagañ>"
 	"stagañ" vblex inf @root #1->0
 "<a>"
@@ -18820,6 +19325,7 @@
 
 # text = Ar Gelted ne implijent ket ar skritur da gustum.
 # text[fra¹] = Les Celtes n'employaient pas l'écriture à accoutumée.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Gelted>"
@@ -18843,6 +19349,7 @@
 
 # text = Antreal a rae hor bro en istor.
 # text[fra¹] = Notre pays entrait dans l'histoire.
+# labels = to_check
 "<Antreal>"
 	"antreal" vblex inf @root #1->0
 "<a>"
@@ -18863,6 +19370,7 @@
 
 # text = Lakaet e oa izili ar sened d'ar marv hag ar "peurrest" eus ar bobl a oa gwerzhet evel sklaved.
 # text[fra¹] = Il avait mis les membres du sénat à la morte et le "reste" du peuple avaient vendus comme esclaves.
+# labels = to_check
 "<Lakaet>"
 	"lakaat" vblex pp @root #1->0
 "<e>"
@@ -18911,6 +19419,7 @@
 
 # text = Distrujet e oa kalz kêriadennoù.
 # text[fra¹] = Il avait détruit beaucoup des villages.
+# labels = to_check
 "<Distrujet>"
 	"distrujañ" vblex pp @root #1->0
 "<e>"
@@ -18926,6 +19435,7 @@
 
 # text = Graet e oa kalz pezhioù moneiz.
 # text[fra¹] = Il avait fait beaucoup des pièces de monnaie.
+# labels = to_check
 "<Graet>"
 	"ober" vblex pp @root #1->0
 "<e>"
@@ -18943,6 +19453,7 @@
 
 # text = War ar memes tro eo aloubet reter an enezenn gant pobloù german, an Angled hag ar Saozon peurgetket, a argas ar Vrezhoned trema ar c'hornôg.
 # text[fra¹] = Sur même tour a envahi l'est de l'île par peuples germains, les Angles et les Anglais notamment, il chasse les Bretons vers l'ouest.
+# labels = to_check
 "<War>"
 	"war" pr @case #1->4
 "<ar>"
@@ -19002,6 +19513,7 @@
 
 # text = Bodet e oa bet an teir rouantelezh dindan aotrouniezh roueed ha duged Breizh en IXvet kantved.
 # text[fra¹] = Il avait été regroupé les trois royaumes dessous l'autorité de rois et les ducs de la Bretagne dans l'IXème siècle.
+# labels = to_check
 "<Bodet>"
 	"bodañ" vblex pp @root #1->0
 "<e>"
@@ -19039,6 +19551,7 @@
 
 # text = Rouantelezh Breizh.
 # text[fra¹] = Le royaume de la Bretagne.
+# labels = to_check
 "<Rouantelezh>"
 	"rouantelezh" n f sg @root #1->0
 "<Breizh>"
@@ -19048,6 +19561,7 @@
 
 # text = D’ar mare-se e voe staget Bro-Naoned ha Bro-Roazhon ouzh rouantelezh Breizh.
 # text[fra¹] = À ce moment-là il fut attaché Pays nantais et Pays Rennais contre le royaume de la Bretagne.
+# labels = to_check
 "<D’ar>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -19078,6 +19592,7 @@
 
 # text = Ar Vikinged, siwazh d’ar Vretoned, a aloubas Stad unanet kentañ Breizh e 913.
 # text[fra¹] = Les Vikings, hélas aux Bretons, il envahit État uni premier la Bretagne dans 913.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Vikinged>"
@@ -19114,6 +19629,7 @@
 
 # text = Distrujet hag aloubet e voe war-lerc’h gant ar Vikinged e deroù an X kantved.
 # text[fra¹] = Détruit et envahi fut ensuite avec les Vikings au début du X de siècle.
+# labels = to_check
 "<Distrujet>"
 	"distrujañ" vblex pp @root #1->0
 "<hag>"
@@ -19145,6 +19661,7 @@
 
 # text = Melestradurezh c’hall ar Renadur kozh a anaveze Breizh da vroad.
 # text[fra¹] = L'administration française du Régime vieille Elle connaissait la Bretagne à nation.
+# labels = to_check
 "<Melestradurezh>"
 	"melestradurezh" n f sg @nsubj #1->7
 "<c’hall>"
@@ -19170,6 +19687,7 @@
 
 # text = Da-heul e voe trec’h rouantelezh Bro-C’hall, ur rouantelezh c’halloudus anezhi, war an dugelezh da vare emgannoù 1488 ha 1491.
 # text[fra¹] = Ensuite elle fut victorieux royaume de France, un royaume puissant d'elle, sur le duché à l’époque de batailles 1488 et 1491.
+# labels = to_check
 "<Da-heul>"
 	"da-heul" adv @advmod #1->4
 "<e>"
@@ -19218,6 +19736,7 @@
 
 # text = Gant se e oa bet boulc’het an hent a gase d’an unaniezh.
 # text[fra¹] = Par ça avait été entamé la route que envoyait à l'union.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->2
 "<se>"
@@ -19248,6 +19767,7 @@
 
 # text = Daou seurt unaniezh a voe.
 # text[fra¹] = Deux sortes union fut.
+# labels = to_check
 "<Daou>"
 	"daou" num m pl @nummod #1->2
 "<seurt>" 
@@ -19263,6 +19783,7 @@
 
 # text = Gant an arc’hant bras dastumet d’ar mare-se e voe diorroet-mat glad ar savouriezh er vro.
 # text[fra¹] = Avec l'argent grand ramassé à ce moment-là fut très développé le patrimoine de l'architecture dans le pays.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->3
 "<an>"
@@ -19303,6 +19824,7 @@
 
 # text = Ostel an Arc’hant Roazhon a oa an hini kentañ eus Frañs.
 # text[fra¹] = L'hôtel de l'Argent Rennes était l'aucun premier de France.
+# labels = to_check
 "<Ostel>"
 	"ostel" n m sg @nsubj #1->8
 "<an>"
@@ -19330,6 +19852,7 @@
 
 # text = Rannet e oant ivez etre nav eskopti.
 # text[fra¹] = Ils avaient partagés aussi entre neuf évêchés.
+# labels = to_check
 "<Rannet>"
 	"rannañ" vblex pp @root #1->0
 "<e>"
@@ -19349,6 +19872,7 @@
 
 # text = An Dispac'h Gall.
 # text[fra¹] = La Révolution Française.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<Dispac'h>"
@@ -19360,6 +19884,7 @@
 
 # text = Breizh rannet e pemp departamant.
 # text[fra¹] = la Bretagne partagée dans cinq départements.
+# labels = to_check
 "<Breizh>"
 	"Breizh" np top sg @root #1->0
 "<rannet>"
@@ -19375,6 +19900,7 @@
 
 # text = Hennezh a oa e penn ar gomiserien all (=prefeded) e Breizh.
 # text[fra¹] = Celui-là était à la tête des autres commissaires (=préfets) en Bretagne.
+# labels = to_check
 "<Hennezh>"
 	"hennezh" prn dem m sg @nsubj #1->5
 "<a>"
@@ -19408,6 +19934,7 @@
 
 # text = An Eil Brezel-bed en deus skoet kalz tud e Breizh, prizoniet, gloazet, kaset d'ar c'hampoù bac'h pe gloazet.
 # text[fra¹] = Second Guerre-monde a frappé beaucoup des gens en Bretagne, faite prisonnier, blessée, envoyée aux camps de prison ou blessés.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->3
 "<Eil>"
@@ -19458,6 +19985,7 @@
 
 # text = Kalz distrujoù zo bet ivez betek 1945.
 # text[fra¹] = Beaucoup destructions elle a été aussi jusque 1945.
+# labels = to_check
 "<Kalz>"
 	"kalz" pr @case  #1->2
 "<distrujoù>"
@@ -19477,6 +20005,7 @@
 
 # text = Gounit a ra ar gomunouriezh kalz tachenn e Breizh abalamour d'ar roll a-bouez en deus bet ar PCF hag an URSS er brezel.
 # text[fra¹] = Elle gagne le communisme beaucoup terrain en Bretagne à cause de la rôle importante elle a eue le PCF et l'URSS dans la guerre.
+# labels = to_check
 "<Gounit>"
 	"gounit" vblex inf @root #1->0
 "<a>"
@@ -19527,6 +20056,7 @@
 
 # text = E miz Gwengolo 1919 o doa kroget ar c’hevredadoù tiez an degemer da aozañ “rannvroioù touristel” diwar ur patrom un tamm disheñvel.
 # text[fra¹] = En septembre 1919 avaient commencés les sociétés de maisons l'accueil à organiser “des régions touristiques” d'un patron un peu différent.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<miz Gwengolo>" 
@@ -19576,6 +20106,7 @@
 
 # text = Ne gloto tamm ebet ar rannvroioù-se gant ar rannvroioù armerzhel.
 # text[fra¹] = Elle ne correspondra pas du tout ces régions avec les régions économiques.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<gloto>"
@@ -19601,6 +20132,7 @@
 
 # text = Krouet eo bet ar rannvro velestradurel nevez-se hep derc’hel kont eus an istor.
 # text[fra¹] = Elle a été créé la région administrative nouvelle ci sans tenir en compte de l'histoire.
+# labels = to_check
 "<Krouet>"
 	"krouiñ" vblex pp @root #1->0
 "<eo>"
@@ -19634,6 +20166,7 @@
 
 # text = Mouezhiadegoù peurheñvel a voe aozet gant Kuzul-rannvro Breizh ivez.
 # text[fra¹] = Votes identiques Elle fut organisé par Conseil régional de Bretagne aussi.
+# labels = to_check
 "<Mouezhiadegoù>"
 	"mouezhiadeg" n f pl @nsubj #1->5
 "<peurheñvel>"
@@ -19657,6 +20190,7 @@
 
 # text = Kenderc’hel a reer da zivizout er mare-mañ evit adstagañ al Liger-Atlantel ouzh Rannvro Breizh. 
 # text[fra¹] = On continue à décider en ce moment pour rattacher le Loire-Atlantique contre la Région de la Bretagne. 
+# labels = to_check
 "<Kenderc’hel>"
 	"kenderc’hel" vblex inf @root #1->0
 "<a>"
@@ -19692,6 +20226,7 @@
 
 # text = Tu a vefe neuze da unaniñ ar vro bremañ.
 # text[fra¹] = Il y aurait moyen Alors à unir le pays maintenant.
+# labels = to_check
 "<Tu>"
 	"tu" n m sg @nsubj #1->3
 "<a>"
@@ -19715,6 +20250,7 @@
 
 # text = Prezidanted an daou guzul-rannvro ha prezidant kuzul-departamant al Liger-Atlantel hepken a c’hall divizout reiñ lañs da adaozañ ar rannvro.
 # text[fra¹] = Présidents les deux conseils régionaux et le président de conseil général le Loire-Atlantique seulement il peut décider lancer réorganiser la région.
+# labels = to_check
 "<Prezidanted>"
 	"prezidant" n m pl @nsubj #1->12
 "<an>"
@@ -19758,6 +20294,7 @@
 
 # text = Doare-skrivañ pennañ ar brezhoneg eo hiziv.
 # text[fra¹] = Il y a le #orthographe principal du breton aujourd’hui.
+# labels = to_check
 "<Doare-skrivañ>"
 	"doare-skrivañ" n m sg @root #1->0
 "<pennañ>"
@@ -19775,6 +20312,7 @@
 
 # text = Implijet e vez gant an holl skolioù, degemeret gant an holl skolioù-meur, hag e ya da ober tost an holl levrioù embannet.
 # text[fra¹] = Employé est avec toutes les écoles, accueillies avec toutes les universités, et Elle va faire près tous les livres édités.
+# labels = to_check
 "<Implijet>"
 	"implijout" vblex pp @root #1->0
 "<e>"
@@ -19828,6 +20366,7 @@
 
 # text = Reolennoù doare-skrivañ ar peurunvan a vo kavet er pennad doareoù-skrivañ e brezhoneg.
 # text[fra¹] = Les règles du orthographe du peurunvan seront trouvées dans l'article de orthographe en breton.
+# labels = to_check
 "<Reolennoù>"
 	"reolenn" n f pl @nsubj #1->7
 "<doare-skrivañ>"
@@ -19858,6 +20397,7 @@
 
 # text = Koulskoude ez eus bet tabut e-pad pell e Breizh diwar-benn an doare-skrivañ ha dreist-holl enebiezh ouzh ar peurunvan.
 # text[fra¹] = Elle pourtant a été pendant longtemps dispute en Bretagne au sujet du #orthographe et surtout animosité contre le peurunvan.
+# labels = to_check
 "<Koulskoude>"
 	"koulskoude" adv @advmod #1->8
 "<ez eus>"
@@ -19897,6 +20437,7 @@
 
 # text = Kevreet eo ar spas gant an arzoù plastik, hag an amzer gant ar muzik hag al lennegezh.
 # text[fra¹] = Il a connecté l'espace avec les arts de plastique, et le temps avec la musique et la littérature.
+# labels = to_check
 "<Kevreet>"
 	"kevreañ" vblex pp @root #1->0
 "<eo>"
@@ -19938,6 +20479,7 @@
 
 # text = Gant an teatr hag an dañs e teu an nen da vezañ danvez e arz.
 # text[fra¹] = Avec le théâtre et la danse vient la personne à être la matière d'e art.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->3
 "<an>"
@@ -19973,6 +20515,7 @@
 
 # text = Istor.
 # text[fra¹] = Histoire.
+# labels = to_check
 "<Istor>"
 	"istor" n m sg @root #1->0 
 "<.>"
@@ -19980,6 +20523,7 @@
 
 # text = Ar ouenn goshañ anezhe a zo bet kavet en Afrika.
 # text[fra¹] = La race la plus vieille d'eux a été trouvée en Afrique.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<ouenn>"
@@ -20007,6 +20551,7 @@
 
 # text = Ur sindikad zo kevredigezh ur c’houch tud ha prevez, dizalc’h e-keñver ar Stad met anavezet ganti, ha renet gant un teskad lezennoù.
 # text[fra¹] = un syndicat est un société d'une équipe gens et privés, indépendants par comparaison à l'État mais connu avec elle, et dirigé avec un recueil de lois.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det  #1->2
 "<sindikad>"
@@ -20061,6 +20606,7 @@
 
 # text = Gant al lodenn all ez eus kaoz eus gouzout tout a-fet Mab-Den, anvet douaroniezh denel.
 # text[fra¹] = Avec l'autre partie est conversation de savoir toute au sujet d'homme, nommé géographie humaine.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->3
 "<al>"
@@ -20096,6 +20642,7 @@
 
 # text = Abaoe an Dispac'h gall ez eo deuet war-wel ur sell nevez evit renkañ ar strolladoù politikel hag an dud hervez al liv politikel warno.
 # text[fra¹] = Depuis la Révolution française est apparue un nouveau regard pour ranger les groupes politiques et les gens selon la couleur politique sur eux.
+# labels = to_check
 "<Abaoe>"
 	"abaoe" pr @case #1->3
 "<an>"
@@ -20150,6 +20697,7 @@
 
 # text = Emdroadur ar yezh.
 # text[fra¹] = L'évolution de la langue.
+# labels = to_check
 "<Emdroadur>"
 	"emdroadur" n m sg @root #1->0
 "<ar>"
@@ -20161,6 +20709,7 @@
 
 # text = Ar saozneg zo ur yezh c'hermanek hag a zo bet edan levezon ar galleg e meur a goulz.
 # text[fra¹] = L'anglais est une langue germanique et ont été sous l'influence du français #le e de plusieurs moment.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<saozneg>"
@@ -20200,6 +20749,7 @@
 
 # text = Hañval-bras ouzh hini ar brezhoneg eo ereadurezh ar c'herneveureg.
 # text[fra¹] = Très semblable contre aucun le breton il est la syntaxe du cornique.
+# labels = to_check
 "<Hañval-bras>"
 	"hañval" adj mf sp @root #1->0
 		"bras" adv @advmod #2->1
@@ -20224,6 +20774,7 @@
 
 # text = Komzet e vez kembraeg e Kembre, gant war-dro 611 000 den (da lavaret eo tremen 22% eus tud ar vro). 
 # text[fra¹] = Parlé est gallois au , avec environ 611 000 personnes (c’est-à-dire passage 22% des gens du pays). 
+# labels = to_check
 "<Komzet>"
 	"komz" vblex pp @root #1->0
 "<e>"
@@ -20273,6 +20824,7 @@
 
 # text = Komzet e vez kembraeg e Bro-Saoz gant tost da 150 000 a dud.
 # text[fra¹] = Parlé est gallois en Angleterre avec près de 150 000 à gens.
+# labels = to_check
 "<Komzet>"
 	"komz" vblex pp @root #1->0
 "<e>"
@@ -20300,6 +20852,7 @@
 
 # text = Stummoù kozh ar c'hembraeg zo anavezet mat.
 # text[fra¹] = Les formes anciennes du gallois sont connues bien.
+# labels = to_check
 "<Stummoù>"
 	"stumm" n m pl @nsubj #1->6
 "<kozh>"
@@ -20319,6 +20872,7 @@
 
 # text = Komzet e vez bemdez gant miliadoù ha miliadoù a dud ha gwelet e vez e pep lec’h e Kembre.
 # text[fra¹] = Il est parlé tous les jours par milliers et milliers de gens et voir il est partout au Pays de Galles.
+# labels = to_check
 "<Komzet>"
 	"komz" vblex pp @root #1->0
 "<e>"
@@ -20362,6 +20916,7 @@
 
 # text = Rankout a ra an aozadurioù foran prientiñ ha kas da benn ur steuñv yezh.
 # text[fra¹] = les organisations publiques doit préparer et réaliser un plan linguistique.
+# labels = to_check
 "<Rankout>"
 	"rankout" vblex inf @aux #1->7
 "<a>"
@@ -20395,6 +20950,7 @@
 
 # text = Gant strollegezhioù lec’hel ha gant Bodadenn Kembre e vez implijet ar c’hembraeg evel ur yezh ofisiel, oc’h embann skridoù er yezh-se ha dleout a rafe an holl banelloù hent e Kembre bezañ e kembraeg hag e saozneg.
 # text[fra¹] = Par collectivités locales et avec l'Assemblée du Pays de Galles le gallois est employé comme une langue officielle, en train d'éditer écrits dans cette langue et elle devrait tous les panneaux à l'être en gallois et en anglais.
+# labels = to_check
 "<Gant>"
 	"gant" pr @case #1->2
 "<strollegezhioù>"
@@ -20477,6 +21033,7 @@
 
 # text = Kavout a reer kembraeg war ar Genrouedad ivez.
 # text[fra¹] = On trouve gallois sur l'Internet aussi.
+# labels = to_check
 "<Kavout>"
 	"kavout" vblex inf @root #1->0
 "<a>"
@@ -20498,6 +21055,7 @@
 
 # text = Gwechall e oa kembraegerien unyezhek eus an holl Gembreiz, koulz lavaret. 
 # text[fra¹] = Autrefois il était galloisants monolingues de tous les Gallois, pour ainsi dire. 
+# labels = to_check
 "<Gwechall>"
 	"gwezhall" adv @advmod #1->9
 "<e>"
@@ -20525,6 +21083,7 @@
 
 # text = E deroù an naontekvet kantved e oa, d’an nebeutañ, 80% eus an dud o komz kembraeg.
 # text[fra¹] = Au début de dix-neuvième siècle était, du moins, 80% des gens en train de parler gallois.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<deroù>"
@@ -20564,6 +21123,7 @@
 
 # text = Met gant an dispac’h greantel e voe desachet ur bern tud eus an diavaez da Su Kembre.
 # text[fra¹] = Mais par la révolution industrielle Il fut attiré un tas de gens de l'extérieur au Sud du Pays de Galles.
+# labels = to_check
 "<Met>"
 	"met" cnjcoo @cc #1->8
 "<gant>"
@@ -20603,6 +21163,7 @@
 
 # text = Kement-se a zegasas un diskar en dregantad a gembraegerien er rannvroioù-se, dre ma oa kresket ar boblañs eno en un taol. 
 # text[fra¹] = Cela apporta un déclin dans le pourcentage de galloisants dans ces régions, puisque elle avait augmentée la population là-bas dans un coup. 
+# labels = to_check
 "<Kement-se>"
 	"kement-se" prn dem mf sg @nsubj #1->3
 "<a>"
@@ -20653,6 +21214,7 @@
 
 # text = E niveradeg 1911 e voe embannet sifroù resis da live ar parrezioù.
 # text[fra¹] = Dans le recensement 1911 Il fut édité chiffres précis au niveau des paroisses.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<niveradeg>"
@@ -20682,6 +21244,7 @@
 
 # text = Da gentañ e ranker menegiñ levezon al lezennoù evit unvaniñ Kembre ha Bro-Saoz e 1536 ha 1542.
 # text[fra¹] = En premier on doit mentionner l'influence des lois pour unifier le Pays de Galles et l'Angleterre dans 1536 et 1542.
+# labels = to_check
 "<Da>"
 	"da" pr @case #1->2
 "<gentañ>"
@@ -20721,6 +21284,7 @@
 
 # text = Ar saozneg e oa ar yezh ofisiel nemeti e Kembre. 
 # text[fra¹] = L'anglais Il était la seule langue officielle au Pays de Galles. 
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<saozneg>"
@@ -20747,6 +21311,7 @@
 
 # text = Ha bremañ e ra Jañ-Mari war-dro an deñved eno.
 # text[fra¹] = Et maintenant il fait Jañ-Mari environ les moutons là-bas.
+# labels = to_check
 "<Ha>"
 	"ha" cnjcoo @cc #1->4
 "<bremañ>"
@@ -20774,6 +21339,7 @@
 
 # text = E miz Gouhere 2013 e vo o kanañ en Erer Kozh , e Karaez.
 # text[fra¹] = En juillet 2013 elle sera en train de chanter dans le Vieux Aigle , à Carhaix.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<miz Gouhere>"
@@ -20805,6 +21371,7 @@
 
 # text = E gwirionez e vez implijet ar skeul-se gant ur bern muzikoù er bed.
 # text[fra¹] = En vérité il est employé cette échelle avec un tas de musiques dans le monde.
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<gwirionez>"
@@ -20839,6 +21406,7 @@
 
 # text = Implijet eo ar japaneg gant 130 milion a dud, tout ar re zo bar vro.
 # text[fra¹] = Il a employé le japonais par 130 millions à gens, touts ceux qui sont égaux pays.
+# labels = to_check
 "<Implijet>"
 	"implijout" vblex pp @root #1->1
 "<eo>"
@@ -20874,6 +21442,7 @@
 
 # text = Ar voudaegezh a vez kemeret a-wechoù evel prederouriezh pe evel ur relijion.
 # text[fra¹] = le bouddhisme a été pris parfois comme philosophie quelle comme une religion.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<voudaegezh>"
@@ -20903,6 +21472,7 @@
 
 # text = Kontet e vez 6 milion a Dibetaned ha 7,5 milion a Sinaiz ouzhpenn, deuet nevez 'zo.
 # text[fra¹] = Compté est 6 millions à des Tibétains et 7,5 millions à Chinois en plus, il est venus nouveaux.
+# labels = to_check
 "<Kontet>"
 	"kontañ" vblex pp @root #1->0
 "<e>"
@@ -20942,6 +21512,7 @@
 
 # text = Kelenn a reas dezhañ un anaoudegezh vat eus sevenadur broioù ar c'hornôg hag eus ar gevredigezh vodern, a-raok bezañ rediet da vont kuit e 1959.
 # text[fra¹] = Il enseigna à lui une reconnaissance bien de la culture du pays de l'ouest et de la société moderne, avant être obligée à partir dans 1959.
+# labels = to_check
 "<Kelenn>"
 	"kelenn" vblex inf @root #1->0
 "<a>"
@@ -21000,6 +21571,7 @@
 
 # text = Pemp devezh diwezhatoc'h e varvas diwar ul lamm-kalon d'an oad a 50 vloaz.
 # text[fra¹] = Cinq journées plus tard elle mourut d'un saut-coeur à l'âge à 50 ans.
+# labels = to_check
 "<Pemp>"
 	"pemp" num mf pl @nummod #1->2
 "<devezh>"
@@ -21032,6 +21604,7 @@
 
 # text = Krouet eo bet holl an deskadurezh laik e Rannvro emren Tibet goude an dispac'h.
 # text[fra¹] = Il a été créé tous l'enseignement laïque e de Région autonome Tibet après la révolution.
+# labels = to_check
 "<Krouet>"
 	"krouiñ" vblex pp @root #1->0
 "<eo>"
@@ -21065,6 +21638,7 @@
 
 # text = Bout a ra 25 skol-uhel imbourc'h pa ne oa hini e 1950.
 # text[fra¹] = Elle est 25 écoles-hautes recherche quand n'étaient aucun dans 1950.
+# labels = to_check
 "<Bout>"
 	"bezañ" vblex inf @root #1->0
 "<a>"
@@ -21094,6 +21668,7 @@
 
 # text = Diskennet eo feur mervel ar vugale eus 43% e 1950 da 0,661% e 2000.
 # text[fra¹] = Il est descendu taux mourir les enfants de 43% dans 1950 à 0,661% dans 2000.
+# labels = to_check
 "<Diskennet>"
 	"diskenn" vblex pp @root #1->0
 "<eo>"
@@ -21127,6 +21702,7 @@
 
 # text = Savet eo ar spi da vevañ eus 35,5 bloaz e 1950 da 67 e 2000.
 # text[fra¹] = Il a levé l'espoir à vivre de 35,5 ans dans 1950 à 67 dans 2000.
+# labels = to_check
 "<Savet>"
 	"sevel" vblex pp @root #1->0
 "<eo>"
@@ -21162,6 +21738,7 @@
 
 # text = Lazhet e oa tud ha serret e oa Tibet d'an estrañjourien.
 # text[fra¹] = Il avait tué des gens et il avait fermé Tibet aux étrangers.
+# labels = to_check
 "<Lazhet>"
 	"lazhañ" vblex pp @root #1->0
 "<e>"
@@ -21190,6 +21767,7 @@
 
 # text = Teir relijion a gaver e Tibet : ar voudaegezh, ar bon hag an islam.
 # text[fra¹] = Trois religions qu'on trouve à Tibet : le bouddhisme, le radical et l'islam.
+# labels = to_check
 "<Teir>"
 	"tri" num f pl @nummod #1->2
 "<relijion>"
@@ -21225,6 +21803,7 @@
 
 # text = N'eo ket diorroet brav an armerzh.
 # text[fra¹] = Il n'est pas développé beau l'économie.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eo>"
@@ -21244,6 +21823,7 @@
 
 # text = An urzhiataerezh pe ar "c'hompoderezh" eo ar skiant hag ar pleustr a denn d'an urzhiataerioù.
 # text[fra¹] = L'informatique ou l'"informatique" est la science et la pratique qui tire aux ordinateurs.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<urzhiataerezh>"
@@ -21284,6 +21864,7 @@
 
 # text = N'ouzer ket mat eus pelec'h e teue Nevenoe.
 # text[fra¹] = On ne sait pas bien d'où venait Nominoe.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod  #1->2
 "<ouzer>"
@@ -21307,6 +21888,7 @@
 
 # text = Feal e chomas Nevenoe da Loeiz betek marv an impalaer e 840, met ne oa ket evit anavezout beli e vab pa n'en doa ket touet chom feal dezhañ.
 # text[fra¹] = Nominoe resta fidèle à Loeiz jusque la morte de l'empereur en 840, mais il n'étaient pas pour connaître le pouvoir de son fils quand il n'avait pas juré rester fidèle à lui.
+# labels = to_check
 "<Feal>"
 	"feal" adj mf sp @xcomp #1->3
 "<e>"
@@ -21373,6 +21955,7 @@
 
 # text = Trec'h e voe Nevenoe war Karl Voal, mab da Loeiz an Deol en Emgann Ballon e-kichen Baen-Ballon e 845.
 # text[fra¹] = Victorieux fut Nominoe sur Karl Moal, fils à Loeiz les Tuiles dans la Bataille Ballon à côté Bains-sur-Oust dans 845.
+# labels = to_check
 "<Trec'h>"
 	"trec’h" adj mf sp @root #1->0
 "<e>"
@@ -21419,6 +22002,7 @@
 
 # text = Ur werz (liester: "gwerzioù") a zo ur ganaouenn e brezhoneg hag a gont un istor.
 # text[fra¹] = Une gwerz (pluriel: gwerzioù) est une chanson en breton et à la comtesse d'une histoire.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<werz>"
@@ -21464,6 +22048,7 @@
 
 # text = Yann-Fañch Kemener zo unan eus gwellañ kanerien hengounel a Vreizh.
 # text[fra¹] = Yann-Fañch Tailleur est un du plus mieux chanteurs traditionnels à Bretagne.
+# labels = to_check
 "<Yann>"
 	"Yann" np ant m sg @nsubj #1->6
 "<->"
@@ -21493,6 +22078,7 @@
 
 # text = En em gavout a ra eno gant e gamaladed skol met ivez gant izili eus e familh, deuet eus pell.
 # text[fra¹] = Il se trouve là-bas avec ses camarades d'école mais aussi avec membres de son famille, venu de loin.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<gavout>"
@@ -21538,6 +22124,7 @@
 
 # text = Hemañ a roas ar c'hentelioù kentañ hag a zeskas dezhe kanaouennoù ha tonioù.
 # text[fra¹] = Celui-ci donna les premières leçons et Elle apprit à eux chansons et airs.
+# labels = to_check
 "<Hemañ>"
 	"hemañ" prn dem m sg @nsubj #1->3
 "<a>"
@@ -21570,6 +22157,7 @@
 
 # text = D'ar 26 a viz Gwengolo 2009 en deus resevet Yann-Fañch Kemener Urzh an Erminig.
 # text[fra¹] = Le 26 septembre 2009 Il a reçu Yann-Fañch le Tailleur de l'Ordre de l'Hermine.
+# labels = to_check
 "<D'ar>"
 	"da" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -21604,6 +22192,7 @@
 
 # text = Ar c'heginañ eo an doare da aozañ boued evit magañ an dud.
 # text[fra¹] = La cuisine est la manière à organiser nourriture pour alimenter les gens.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<c'heginañ>"
@@ -21633,6 +22222,7 @@
 
 # text = Meur a bred a ra an den bemdez.
 # text[fra¹] = Plusieurs repas Il fait le personne tous les jours.
+# labels = to_check
 "<Meur a>"
 	"meur a" det ind mf pl @det #1->2
 "<bred>"
@@ -21652,6 +22242,7 @@
 
 # text = Aozet e vez ar predoù-se gant ur c'heginer.
 # text[fra¹] = Organisé est ces repas avec un cuisinier.
+# labels = to_check
 "<Aozet>"
 	"aozañ" vblex pp @root #1->0
 "<e>"
@@ -21675,6 +22266,7 @@
 
 # text = Kriz e chomo ar boued na vo ket poazhet.
 # text[fra¹] = Cru restera la nourriture sera pas cuit.
+# labels = to_check
 "<Kriz>"
 	"kriz" adj mf sp @acl #1->3
 "<e>"
@@ -21698,6 +22290,7 @@
 
 # text = War un dro e voe diazezet roll an termenoù pennañ kavet war ar panelloù-hent gant ar pal kenurzhiañ an troidigezhioù.
 # text[fra¹] = À la fois il fut établi la liste des termes principaux trouvée sur les panneaux-route avec l'objectif coordonner les traductions.
+# labels = to_check
 "<War>"
 	"war" pr @case #1->3
 "<un>"
@@ -21743,6 +22336,7 @@
 
 # text = Hervez ar vonreizh eo lakaet da vezañ "Prezidant peurbadel" ar vro, goude e varv zoken.
 # text[fra¹] = Selon la constitution a mise à être le "Président éternel" du pays, même après sa morte.
+# labels = to_check
 "<Hervez>"
 	"hervez" pr @case #1->3
 "<ar>"
@@ -21784,6 +22378,7 @@
 
 # text = Un deiz ha tregont zo ennañ, unan eus ar mizioù hirañ eo eta.
 # text[fra¹] = Un jour et trente sont dans lui, un des mois les plus longs Il est donc.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<deiz>"
@@ -21818,6 +22413,7 @@
 
 # text = An anv.
 # text[fra¹] = Le nom.
+# labels = to_check
 "<An>"
 	"an" det def sp @det #1->2
 "<anv>"
@@ -21827,6 +22423,7 @@
 
 # text = Un anv-tiegezh eo Genver ivez.
 # text[fra¹] = Un nom-famille est janvier aussi.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<anv>"
@@ -21846,6 +22443,7 @@
 
 # text = E gresianeg a-vremañ e vez skrivet μπ evit ober diouzh ar son .
 # text[fra¹] = Le e de grec désormais il est écrit μπ pour faire du son .
+# labels = to_check
 "<E>"
 	"e" pr @case #1->2
 "<gresianeg>"
@@ -21875,6 +22473,7 @@
 
 # text = Ar Gurded o doa ivez da zilenn ar 111 kannad eus ar vodadenn emren.
 # text[fra¹] = Les Kurdes avaient aussi à élire les 111 ambassadeurs de l'assemblée autonome.
+# labels = to_check
 "<Ar>"
 	"an" det def sp @det #1->2
 "<Gurded>"
@@ -21906,6 +22505,7 @@
 
 # text = Bras eo bet e levezon war an emsav sevenadurel.
 # text[fra¹] = Grand a été il influence sur l'avantage culturel.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp @root #1->0
 "<eo>"
@@ -21929,6 +22529,7 @@
 
 # text = War-dro 300.000 annezad zo enni.
 # text[fra¹] = Environ 300.000 habitants sont dans elle.
+# labels = to_check
 "<War-dro>"
 	"war-dro" adv @advmod #1->2
 "<300.000>"
@@ -21945,6 +22546,7 @@
 
 # text = E vamm-gozh a oa keginerez.
 # text[fra¹] = Son grand-mère était cuisinière.
+# labels = to_check
 "<E>"
 	"e" det pos m sp @det #1->2
 "<vamm-gozh>"
@@ -21960,6 +22562,7 @@
 
 # text = Met skrivañ eo e oberiantiz pennañ.
 # text[fra¹] = Mais écrire Il est e d'activité principale.
+# labels = to_check
 "<Met>"
 	"met" cnjcoo @cc #1->2
 "<skrivañ>"
@@ -21977,6 +22580,7 @@
 
 # text = Skrivet en deus un tregont bennak a levrioù, war ar c’heginañ pe al liorzhañ.
 # text[fra¹] = Il a écrit un trente quelconques à livres, sur la cuisine quelle le jardinage.
+# labels = to_check
 "<Skrivet>"
 	"skrivañ" vblex pp @root #1->0
 "<en deus>"
@@ -22010,6 +22614,7 @@
 
 # text = Gwelet ivez.
 # text[fra¹] = Voir aussi.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf @root #1->0
 "<ivez>"
@@ -22019,6 +22624,7 @@
 
 # text = E dad, Olier Iañ Klison, a reas brezel da Yann Iañ, dug Breizh.
 # text[fra¹] = Son père, Olier Iañ Clisson, Il fit guerre à Yann Iañ, le duc de la Bretagne.
+# labels = to_check
 "<E>"
 	"e" det pos m sp @det #1->2
 "<dad>"
@@ -22056,6 +22662,7 @@
 
 # text = Un den a-bouez eo bet en istor ha sevenadur portugalek.
 # text[fra¹] = Une personne importante a été dans l'histoire et culture portugaise.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<den>"
@@ -22082,6 +22689,7 @@
 
 # text = Sebastian zo un anv-badez brezhonek a orin gresianek.
 # text[fra¹] = Sebastian est un nom-baptisent breton à origine grecque.
+# labels = to_check
 "<Sebastian>"
 	"Sebastian" np ant m sg @nsubj #1->4
 "<zo>"
@@ -22103,6 +22711,7 @@
 
 # text = Sébastien zo un anv-badez gallek.
 # text[fra¹] = Sébastien est un nom-baptisent français.
+# labels = to_check
 "<Sébastien>"
 	"Sébastien" np ant m sg @nsubj #1->4
 "<zo>"
@@ -22118,6 +22727,7 @@
 
 # text = Er bloavezh 2001 e voe ar GSI anzavet evel dizoloer an elfenn 110.
 # text[fra¹] = Dans l'année 2001 fut le GSI reconnu comme le découvreur de l'élément 110.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -22150,6 +22760,7 @@
 
 # text = Honnezh he devoa barradoù follentez ha mervel a reas e 1615.
 # text[fra¹] = Celle-là avait les accès de folie et Il mourut dans 1615.
+# labels = to_check
 "<Honnezh>"
 	"honnezh" prn dem f sg @nsubj #1->2
 "<he devoa>"
@@ -22175,6 +22786,7 @@
 
 # text = Bez' e oa 180 719 a annezidi e 2010.
 # text[fra¹] = Il était 180 719 à habitants dans 2010.
+# labels = to_check
 "<Bez'>"
 	"bezañ" vblex inf @cop #1->8
 "<e>"
@@ -22196,6 +22808,7 @@
 
 # text = Un elfenn genaozet gant mab-den eo, n'he c'haver ket en natur.
 # text[fra¹] = Un élément coorganisé par homme sont, on ne le trouve pas dans la nature.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<elfenn>"
@@ -22228,6 +22841,7 @@
 
 # text = Er bloavezh 2003 e voe ar GSI anzavet evel dizoloer an elfenn 111.
 # text[fra¹] = Dans l'année 2003 fut le GSI reconnu comme le découvreur de l'élément 111.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -22260,6 +22874,7 @@
 
 # text = Liamm diavaez.
 # text[fra¹] = Lien externe.
+# labels = to_check
 "<Liamm>"
 	"liamm" n m sg @root #1->0
 "<diavaez>"
@@ -22269,6 +22884,7 @@
 
 # text = Brudet eo bet ar ganaouenn gant ur film bruderezh evit Citroën.
 # text[fra¹] = Il a été fait connaître la chanson avec un film de publicité pour Citroën.
+# labels = to_check
 "<Brudet>"
 	"brudañ" vblex pp @root #1->0
 "<eo>"
@@ -22296,6 +22912,7 @@
 
 # text = Bras e voe e levezon war al lennegezh italianek er XVIIvet kantved.
 # text[fra¹] = Grand fut son influence sur la littérature italienne dans le XVIIème siècle.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp @root #1->0
 "<e>"
@@ -22326,6 +22943,7 @@
 
 # text = Tri bugel a zeuas d'ar priedoù.
 # text[fra¹] = Trois enfants vinent aux époux.
+# labels = to_check
 "<Tri>"
 	"tri" num m pl @nummod #1->2
 "<bugel>"

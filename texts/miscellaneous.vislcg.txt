@@ -1,3 +1,5 @@
+# text = Me zo o komz gant ma amezeg.
+# labels = to_check
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->4
 "<zo>"
@@ -14,6 +16,8 @@
 "<.>"
 	"." sent @punct #8->4
 
+# text = Me a gomz gant ma amezeg.
+# labels = to_check
 "<Me>"
 	"me" prn subj p1 mf sg @nsubj #1->3
 "<a>"
@@ -28,6 +32,8 @@
 "<.>"
 	"." sent @punct #7->3
 
+# text = Ul levr zo ganin.
+# labels = to_check
 "<Ul>"
 	"un" det ind sp @det #1->2
 "<levr>"
@@ -40,6 +46,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Un died zo ganit.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<died>"
@@ -52,6 +60,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Un urzhiataer zo gantañ.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<urzhiataer>"
@@ -64,6 +74,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Ur bugel zo ganti.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<bugel>"
@@ -76,6 +88,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Ur c'harr zo ganimp.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp @det #1->2
 "<c'harr>"
@@ -88,6 +102,8 @@
 "<.>" 
 	"." sent @punct #6->5
 
+# text = Un ti zo ganeoc'h.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det #1->2
 "<ti>"
@@ -100,6 +116,8 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = Arc'hant zo ganto.
+# labels = to_check
 "<Arc'hant>"
 	"arc’hant" n m sg @nsubj #1->4
 "<zo>"

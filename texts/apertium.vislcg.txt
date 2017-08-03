@@ -1,5 +1,6 @@
 # text = N'int ket aet war-raok.
 # text[fra] = Ils n'ont pas progressé.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<int>"
@@ -15,6 +16,7 @@
 
 # text = N'eur ket aet war-raok.
 # text[fra] = On n'a pas progressé.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->4
 "<eur>"
@@ -30,6 +32,7 @@
 
 # text = Ne labour ket amañ.
 # text[fra] = Il ne travaille pas ici.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<labour>"
@@ -43,6 +46,7 @@
 
 # text = Ne implij ket.
 # text[fra] = Il n'emploie pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<implij>"
@@ -54,6 +58,7 @@
 
 # text = Glav a ra.
 # text[fra] = Il pleut.
+# labels = to_check
 "<Glav>"
 	"glav" n m sg @dep #1->3
 "<a>"
@@ -65,6 +70,7 @@
 
 # text = Erc’h a ra.
 # text[fra] = Il neige.
+# labels = to_check
 "<Erc’h>"
 	"erc’h" n m sg @dep #1->3
 "<a>"
@@ -76,6 +82,7 @@
 
 # text = O kanañ emañ.
 # text[fra] = Il est en train de chanter.
+# labels = to_check
 "<O>"
 	"o" vpart ger @aux
 "<kanañ>"
@@ -87,6 +94,7 @@
 
 # text = O kanañ kreñv emañ.
 # text[fra] = Il est en train de chanter fort.
+# labels = to_check
 "<O>"
 	"o" vpart ger @aux
 "<kanañ>"
@@ -100,6 +108,7 @@
 
 # text = Debriñ a ran.
 # text[fra] = Je mange.
+# labels = to_check
 "<Debriñ>"
 	"debriñ" vblex inf @root #1->0
 "<a>"
@@ -111,6 +120,7 @@
 
 # text = Graet he deus.
 # text[fra] = Elle a fait.
+# labels = to_check
 "<Graet>"
 	"ober" vblex pp @root #1->0
 "<he deus>"
@@ -120,6 +130,7 @@
 
 # text = Lazhet eo bet.
 # text[fra] = Il a été tué.
+# labels = to_check
 "<Lazhet>"
 	"lazhañ" vblex pp @root
 "<eo>"
@@ -131,6 +142,7 @@
 
 # text = Dav e vije.
 # text[fra] = Il serait nécessaire.
+# labels = to_check
 "<Dav>"
 	"dav" adj mf sp @root #1->0
 "<e>"
@@ -142,6 +154,7 @@
 
 # text = Evet en deus.
 # text[fra] = Il a bu.
+# labels = to_check
 "<Evet>"
 	"evañ" vblex pp @root #1->0
 "<en deus>"
@@ -151,6 +164,7 @@
 
 # text = Evet he deus.
 # text[fra] = Elle a bu.
+# labels = to_check
 "<Evet>"
 	"evañ" vblex pp @root #1->0
 "<he deus>"
@@ -160,6 +174,7 @@
 
 # text = Kerzhet hon eus e-pad 2 eurvezh.
 # text[fra] = Nous avons marché pendant 2 heures.
+# labels = to_check
 "<Kerzhet>"
 	"kerzhout" vblex pp @root #1->0
 "<hon eus>"
@@ -175,6 +190,7 @@
 
 # text = Lennet he devoa ur gontadenn d'he bugel.
 # text[fra] = Elle avait lu un conte à son enfant.
+# labels = to_check
 "<Lennet>"
 	"lenn" vblex pp @root #1->0
 "<he devoa>"
@@ -193,6 +209,7 @@
 
 # text = Bet hon eus kalz a draoù.
 # text[fra] = Nous avons eu beaucoup de choses.
+# labels = to_check
 "<Bet>"
 	"kaout" vblex pp @root #1->0
 "<hon eus>"
@@ -206,6 +223,7 @@
 
 # text = Bet em eus plijadur gant ar plac'h.
 # text[fra] = J'ai eu du plaisir avec la fille.
+# labels = to_check
 "<Bet>"
 	"kaout" vblex pp @root #1->0
 "<em eus>"
@@ -223,6 +241,7 @@
 
 # text = Klask a ran ober un dra bennak.
 # text[fra] = Je cherche à faire quelque chose.
+# labels = to_check
 "<Klask>"
 	"klask" vblex inf
 "<a>"
@@ -238,6 +257,7 @@
 
 # text = Klask a ran mont kuit.
 # text[fra] = J'essaie de partir.
+# labels = to_check
 "<Klask>"
 	"klask" vblex inf
 ;	"klask" vblex imp p2 sg 
@@ -261,6 +281,7 @@
 
 # text = Emaon o vont da ginnig ac’hanout dezho.
 # text[fra] = Je vais te présenter à eux.
+# labels = to_check
 "<Emaon>"
 	"bezañ" vbloc pri p1 sg 
 "<o>"
@@ -291,6 +312,7 @@
 
 # text = Katell a zeuio da gomz.
 # text[fra] = Katell viendra parler.
+# labels = to_check
 "<Katell>"
 	"Katell" np ant f sg
 "<a>"
@@ -313,6 +335,7 @@
 
 # text = Mont a ran da c'hoari.
 # text[fra] = Je vais jouer.
+# labels = to_check
 "<Mont>"
 	"mont" vblex inf @root #1->0
 "<a>"
@@ -328,6 +351,7 @@
 
 # text = Bet on o lavarout dezhañ.
 # text[fra] = Je suis allé lui dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 "<on>"
@@ -348,6 +372,7 @@
 
 # text = Bet on o lavarout anezhañ dit.
 # text[fra] = Je suis allé te le dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -374,6 +399,7 @@
 
 # text = Bras eo ar paotr.
 # text[fra] = Le garçon est grand.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp @root #1->0
 "<eo>"
@@ -387,6 +413,7 @@
 
 # text = Bras eo ti Herve.
 # text[fra] = La maison d'Herve est grande.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp @root #1->0
 "<eo>"
@@ -400,6 +427,7 @@
 
 # text = Londrez eo kêr-benn Bro-Saoz.
 # text[fra] = La capitale de l'Angleterre est Londres.
+# labels = to_check
 "<Londrez>"
 	"Londrez" np top sg @root #1->0
 "<eo>"
@@ -413,6 +441,7 @@
 
 # text = Pa vez anv a vont kuit.
 # text[fra] = Quand il est question de partir.
+# labels = to_check
 "<Pa>"
 	"pa" cnjsub 
 "<vez anv a>"
@@ -425,6 +454,7 @@
 
 # text = Ret eo dit dont.
 # text[fra] = Il faut que tu viennes.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -439,6 +469,7 @@
 
 # text = Ret eo deomp dont.
 # text[fra] = Il faut que nous venions.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -453,6 +484,7 @@
 
 # text = Ret eo deoc'h dont.
 # text[fra] = Il faut que vous veniez.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -467,6 +499,7 @@
 
 # text = Ret eo dezhañ dont.
 # text[fra] = Il faut qu'il vienne.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -481,6 +514,7 @@
 
 # text = Ret eo dezhi dont.
 # text[fra] = Il faut qu'elle vienne.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -495,6 +529,7 @@
 
 # text = Ret eo dezho dont.
 # text[fra] = Il faut qu'ils viennent.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -509,6 +544,7 @@
 
 # text = Ret eo d'an dud dont.
 # text[fra] = Il faut que les gens viennent.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<eo>"
@@ -525,6 +561,7 @@
 
 # text = Poent eo din mont.
 # text[fra] = Il est temps que j'y aille.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg @root #1->0
 "<eo>"
@@ -539,6 +576,7 @@
 
 # text = Poent eo mont d'ar gêr.
 # text[fra] = Il est temps d'aller à la maison.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg @root #1->0
 "<eo>"
@@ -555,6 +593,7 @@
 
 # text = Poent eo da Francis debriñ.
 # text[fra] = Il est temps que Francis mange.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg
 ;	"bezañ" vblex past p3 pl 
@@ -572,6 +611,7 @@
 
 # text = Poent eo debriñ.
 # text[fra] = Il est temps de manger.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg @root #1->0
 "<eo>"
@@ -583,6 +623,7 @@
 
 # text = C’hwitellat a ra en ur labourat.
 # text[fra] = Il siffle en travaillant.
+# labels = to_check
 "<C’hwitellat>"
 	"c’hwitellat" vblex inf @root #1->0
 "<a>"
@@ -598,6 +639,7 @@
 
 # text = Gwelet em eus ar c’hi en ur dreuziñ an hent.
 # text[fra] = J'ai vu le chien en traversant la route.
+# labels = to_check
 "<Gwelet>"
 	"gwelout" vblex pp @root #1->0
 "<em eus>"
@@ -619,6 +661,7 @@
 
 # text = Bez' hor bo muioc'h a amzer warc'hoazh.
 # text[fra] = Nous aurons plus de temps demain.
+# labels = to_check
 "<Bez'>"
 	"bezañ" vblex inf @
 "<hor bo>"
@@ -634,6 +677,7 @@
 
 # text = Emaon o paouez echuiñ ma levr.
 # text[fra] = Je viens de finir mon livre.
+# labels = to_check
 "<Emaon>"
 	"bezañ" vbloc pri p1 sg @aux #1->3
 "<o>"
@@ -651,6 +695,7 @@
 
 # text = Krog on da gompren.
 # text[fra] = Je commence à comprendre.
+# labels = to_check
 "<Krog>"
 	"krog" adj mf sp @root #1->0
 "<on>"
@@ -664,6 +709,7 @@
 
 # text = Fellout a ra dezhañ ma advevo yezh e vro.
 # text[fra] = Il veut que revive la langue de son pays.
+# labels = to_check
 "<Fellout>"
 	"fellout" vblex inf @root #1->
 "<a>"
@@ -688,6 +734,7 @@
 
 # text = Ne oar ket.
 # text[fra] = Il ne sait pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<oar>"
@@ -699,6 +746,7 @@
 
 # text = Distagañ a reas ar chadenn aour.
 # text[fra] = Il détacha la chaîne en or.
+# labels = to_check
 "<Distagañ>"
 	"distagañ" vblex inf
 "<a>"
@@ -725,6 +773,7 @@
 
 # text = Ne ra ket glav.
 # text[fra] = Il ne pleut pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg @advmod #1->2
 "<ra>"
@@ -738,6 +787,7 @@
 
 # text = N'eo ket bet lazhet.
 # text[fra] = Il n'a pas été tué.
+# labels = to_check
 "<N'>"
 	"ne" adv neg @advmod #1->5
 "<eo>"
@@ -753,6 +803,7 @@
 
 # text = N'he deus ket graet.
 # text[fra] = Elle n'a pas fait.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<he deus>"
@@ -767,6 +818,7 @@
 
 # text = N'em eus ket roet.
 # text[fra] = Je n'ai pas donné.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<em eus>"
@@ -783,6 +835,7 @@
 
 # text = N'hon eus ket bet kalz a draoù.
 # text[fra] = Nous n'avons pas eu beaucoup de choses.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<hon eus>"
@@ -802,6 +855,7 @@
 
 # text = Ne zeuio ket Katell da gomz.
 # text[fra] = Katell ne viendra pas parler.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<zeuio>"
@@ -823,6 +877,7 @@
 
 # text = N'ez an ket da labourat.
 # text[fra] = Je ne vais pas travailler.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<ez>"
@@ -847,6 +902,7 @@
 
 # text = N'on ket bet o lavarout dezhañ.
 # text[fra] = Je ne suis pas allé lui dire.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<on>"
@@ -873,6 +929,7 @@
 
 # text = N'emañ ket ar vugale o tebriñ.
 # text[fra] = Les enfants ne sont pas en train de manger.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<emañ>"
@@ -897,6 +954,7 @@
 
 # text = Ne c’hallan ket ober an dra-se.
 # text[fra] = Je ne peux pas faire cette chose.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<c’hallan>"
@@ -919,6 +977,7 @@
 
 # text = N'em eus ket roet anezhañ dezhañ.
 # text[fra] = Je ne le lui ai pas donné.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<em eus>"
@@ -942,6 +1001,7 @@
 
 # text = Ne welin ket ac'hanoc'h.
 # text[fra] = Je ne vous verrai pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<welin>"
@@ -958,6 +1018,7 @@
 
 # text = Ne garan ket ac’hanout.
 # text[fra] = Je ne t'aime pas.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<garan>"
@@ -977,6 +1038,7 @@
 
 # text = N'on ket bet o kinnig anezhi dezhi.
 # text[fra] = Je ne suis pas allé la lui présenter.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<on>"
@@ -1010,6 +1072,7 @@
 
 # text = N'ouzon ket.
 # text[fra] = Je ne sais pas.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<ouzon>"
@@ -1021,6 +1084,7 @@
 
 # text = N'ouzon ket mui.
 # text[fra] = Je ne sais plus.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<ouzon>"
@@ -1032,6 +1096,7 @@
 
 # text = N'ouzon ket ken.
 # text[fra] = Je ne sais plus.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<ouzon>"
@@ -1043,6 +1108,7 @@
 
 # text = N'ouzon ket petra ober.
 # text[fra] = Je ne sais pas quoi faire.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<ouzon>"
@@ -1059,6 +1125,7 @@
 
 # text = Ne vefe hentad divyezhek ebet er Releg-Kerhuon.
 # text[fra] = Il n'y aurait pas de filière bilingue au Relecq-Kerhuon.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<vefe>"
@@ -1075,6 +1142,7 @@
 
 # text = Sellout a ra ouzh ur plac’h.
 # text[fra] = Il regarde une fille.
+# labels = to_check
 "<Sellout a ra ouzh>"
 	"sellout a ober# ouzh" vblex pri p3 sg 
 ;	"sellout a ober# ouzh" vblex imp p2 sg 
@@ -1087,6 +1155,7 @@
 
 # text = Bet on o kinnig ac’hanout.
 # text[fra] = Je suis allé te présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1113,6 +1182,7 @@
 
 # text = Bet on o kinnig ac’hanomp.
 # text[fra] = Je suis allé nous présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1139,6 +1209,7 @@
 
 # text = Bet on o kinnig ac’hanoc’h.
 # text[fra] = Je suis allé vous présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1165,6 +1236,7 @@
 
 # text = Bet on o kinnig anezhañ.
 # text[fra] = Je suis allé le présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1191,6 +1263,7 @@
 
 # text = Bet on o kinnig anezhi.
 # text[fra] = Je suis allé la présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1217,6 +1290,7 @@
 
 # text = Bet on o kinnig anezho.
 # text[fra] = Je suis allé les présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1243,6 +1317,7 @@
 
 # text = Bet on o lavarout dit.
 # text[fra] = Je suis allé te dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1265,6 +1340,7 @@
 
 # text = Bet on o lavarout deomp.
 # text[fra] = Je suis allé nous dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1289,6 +1365,7 @@
 
 # text = Bet on o lavarout deoc'h.
 # text[fra] = Je suis allé vous dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1311,6 +1388,7 @@
 
 # text = Bet on o lavarout dezhañ.
 # text[fra] = Je suis allé lui dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1333,6 +1411,7 @@
 
 # text = Bet on o lavarout dezhi.
 # text[fra] = Je suis allé lui dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1355,6 +1434,7 @@
 
 # text = Bet on o lavarout dezho.
 # text[fra] = Je suis allé leur dire.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1377,6 +1457,7 @@
 
 # text = Bet on o kinnig ac’hanout dezhañ.
 # text[fra] = Je suis allé te présenter à lui.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1406,6 +1487,7 @@
 
 # text = Bet on o kinnig ac’hanout dezhi.
 # text[fra] = Je suis allé te présenter à elle.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1435,6 +1517,7 @@
 
 # text = Bet on o kinnig ac’hanout dezhe.
 # text[fra] = Je suis allé te présenter à eux.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1464,6 +1547,7 @@
 
 # text = Bet on o kinnig ac’hanomp dezhañ.
 # text[fra] = Je suis allé nous présenter à lui.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1493,6 +1577,7 @@
 
 # text = Bet on o kinnig ac’hanomp dezhi.
 # text[fra] = Je suis allé nous présenter à elle.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1522,6 +1607,7 @@
 
 # text = Bet on o kinnig ac’hanomp dezhe.
 # text[fra] = Je suis allé nous présenter à eux.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1551,6 +1637,7 @@
 
 # text = Bet on o kinnig ac’hanomp dezho.
 # text[fra] = Je suis allé nous présenter à eux.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1580,6 +1667,7 @@
 
 # text = Bet on o kinnig ac’hanoc’h dezhañ.
 # text[fra] = Je suis allé vous présenter à lui.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1609,6 +1697,7 @@
 
 # text = Bet on o kinnig ac’hanoc’h dezhi.
 # text[fra] = Je suis allé vous présenter à elle.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1638,6 +1727,7 @@
 
 # text = Bet on o kinnig ac’hanoc’h deomp.
 # text[fra] = Je suis allé vous présenter à nous.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1669,6 +1759,7 @@
 
 # text = Bet on o kinnig ac’hanoc’h dezhe.
 # text[fra] = Je suis allé vous présenter à eux.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1698,6 +1789,7 @@
 
 # text = Bet on o kinnig anezhañ dit.
 # text[fra] = Je suis allé te le présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1727,6 +1819,7 @@
 
 # text = Bet on o kinnig anezhañ dezhi.
 # text[fra] = Je suis allé le lui présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1756,6 +1849,7 @@
 
 # text = Bet on o kinnig anezhañ dezhañ.
 # text[fra] = Je suis allé le lui présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1785,6 +1879,7 @@
 
 # text = Bet on o kinnig anezhañ deomp.
 # text[fra] = Je suis allé nous le présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1816,6 +1911,7 @@
 
 # text = Bet on o kinnig anezhañ deoc’h.
 # text[fra] = Je suis allé vous le présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1845,6 +1941,7 @@
 
 # text = Bet on o kinnig anezhañ dezhe.
 # text[fra] = Je suis allé le leur présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1874,6 +1971,7 @@
 
 # text = Bet on o kinnig anezhañ dezho.
 # text[fra] = Je suis allé le leur présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1903,6 +2001,7 @@
 
 # text = Bet on o kinnig anezhi dit.
 # text[fra] = Je suis allé te la présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1932,6 +2031,7 @@
 
 # text = Bet on o kinnig anezhi dezhañ.
 # text[fra] = Je suis allé la lui présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1961,6 +2061,7 @@
 
 # text = Bet on o kinnig anezhi dezhi.
 # text[fra] = Je suis allé la lui présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -1990,6 +2091,7 @@
 
 # text = Bet on o kinnig anezhi deomp.
 # text[fra] = Je suis allé nous la présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2021,6 +2123,7 @@
 
 # text = Bet on o kinnig anezhi deoc’h.
 # text[fra] = Je suis allé vous la présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2050,6 +2153,7 @@
 
 # text = Bet on o kinnig anezhi dezhe.
 # text[fra] = Je suis allé la leur présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2079,6 +2183,7 @@
 
 # text = Bet on o kinnig anezhi dezho.
 # text[fra] = Je suis allé la leur présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2108,6 +2213,7 @@
 
 # text = Bet on o kinnig anezho dit.
 # text[fra] = Je suis allé te les présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2137,6 +2243,7 @@
 
 # text = Bet on o kinnig anezho dezhañ.
 # text[fra] = Je suis allé les lui présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2166,6 +2273,7 @@
 
 # text = Bet on o kinnig anezho dezhi.
 # text[fra] = Je suis allé les lui présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2195,6 +2303,7 @@
 
 # text = Bet on o kinnig anezho deoc’h.
 # text[fra] = Je suis allé vous les présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2224,6 +2333,7 @@
 
 # text = Bet on o kinnig anezho dezhe.
 # text[fra] = Je suis allé les leur présenter.
+# labels = to_check
 "<Bet>"
 	"bezañ" vblex pp 
 ;	"pet" prn itg mf sp 
@@ -2253,6 +2363,7 @@
 
 # text = Mont a ran da ginnig ac’hanout.
 # text[fra] = Je vais te présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -2272,6 +2383,7 @@
 
 # text = Mont a ran da ginnig ac’hanomp.
 # text[fra] = Je vais nous présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -2291,6 +2403,7 @@
 
 # text = Mont a ran da ginnig ac’hanoc’h.
 # text[fra] = Je vais vous présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -2310,6 +2423,7 @@
 
 # text = Mont a ran da ginnig anezhañ.
 # text[fra] = Je vais le présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -2329,6 +2443,7 @@
 
 # text = Mont a ran da ginnig anezhi.
 # text[fra] = Je vais la présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -2348,6 +2463,7 @@
 
 # text = Mont a ran da ginnig anezho.
 # text[fra] = Je vais les présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -2367,6 +2483,7 @@
 
 # text = Gwelet a rin anezhañ dimerc’her kentañ.
 # text[fra] = Je le verrai mercredi prochain.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2387,6 +2504,7 @@
 
 # text = Gwelet a rin ac’hanout.
 # text[fra] = Je te verrai.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2411,6 +2529,7 @@
 
 # text = Gwelet a rin ac’hanomp.
 # text[fra] = Je nous verrai.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2435,6 +2554,7 @@
 
 # text = Gwelet a rin ac’hanoc’h.
 # text[fra] = Je vous verrai.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2459,6 +2579,7 @@
 
 # text = Gwelet a rin anezhañ.
 # text[fra] = Je le verrai.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2483,6 +2604,7 @@
 
 # text = Gwelet a rin anezhi.
 # text[fra] = Je la verrai.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2507,6 +2629,7 @@
 
 # text = Gwelet a rin anezho.
 # text[fra] = Je les verrai.
+# labels = to_check
 "<Gwelet>"
 	"gwelet" vblex inf
 	"gwelet" vblex pp
@@ -2531,6 +2654,7 @@
 
 # text = Karout a ran ac’hanout.
 # text[fra] = Je t'aime.
+# labels = to_check
 "<Karout>"
 	"karout" vblex inf
 "<a>"
@@ -2553,6 +2677,7 @@
 
 # text = Al labour a vo kinniget deoc’h.
 # text[fra] = Le travail vous sera présenté.
+# labels = to_check
 "<Al>"
 	"an" det def sp
 "<labour>"
@@ -2579,6 +2704,7 @@
 
 # text = Roet em eus ac’hanout dezhañ.
 # text[fra] = Je t'ai donné à lui.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2598,6 +2724,7 @@
 
 # text = Roet em eus ac’hanout dezhi.
 # text[fra] = Je t'ai donné à elle.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2617,6 +2744,7 @@
 
 # text = Roet em eus ac’hanout dezhe.
 # text[fra] = Je t'ai donné à eux.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2636,6 +2764,7 @@
 
 # text = Roet em eus ac’hanomp dezhañ.
 # text[fra] = Je nous ai donné à lui.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2655,6 +2784,7 @@
 
 # text = Roet em eus ac’hanomp dezhi.
 # text[fra] = Je nous ai donné à elle.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2674,6 +2804,7 @@
 
 # text = Roet em eus ac’hanomp deoc’h.
 # text[fra] = Je nous ai donné à vous.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2693,6 +2824,7 @@
 
 # text = Roet em eus ac’hanomp dezhe.
 # text[fra] = Je nous ai donné à eux.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2712,6 +2844,7 @@
 
 # text = Roet em eus ac’hanomp dezho.
 # text[fra] = Je nous ai donné à eux.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2731,6 +2864,7 @@
 
 # text = Roet em eus ac’hanoc’h dezhañ.
 # text[fra] = Je vous ai donné à lui.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2750,6 +2884,7 @@
 
 # text = Roet em eus ac’hanoc’h dezhi.
 # text[fra] = Je vous ai donné à elle.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2769,6 +2904,7 @@
 
 # text = Roet em eus ac’hanoc’h deomp.
 # text[fra] = Je vous ai donné à nous.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2790,6 +2926,7 @@
 
 # text = Roet em eus ac’hanoc’h dezhe.
 # text[fra] = Je vous ai donné à eux.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2809,6 +2946,7 @@
 
 # text = Roet em eus anezhañ dit.
 # text[fra] = Je te l'ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2828,6 +2966,7 @@
 
 # text = Roet em eus anezhañ dezhi.
 # text[fra] = Je le lui ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2847,6 +2986,7 @@
 
 # text = Roet em eus anezhañ dezhañ.
 # text[fra] = Je le lui ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2866,6 +3006,7 @@
 
 # text = Roet em eus anezhañ deomp.
 # text[fra] = Je nous l'ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2887,6 +3028,7 @@
 
 # text = Roet em eus anezhañ deoc’h.
 # text[fra] = Je vous l'ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2906,6 +3048,7 @@
 
 # text = Roet em eus anezhañ dezhe.
 # text[fra] = Je le leur ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2925,6 +3068,7 @@
 
 # text = Roet em eus anezhañ dezho.
 # text[fra] = Je le leur ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2944,6 +3088,7 @@
 
 # text = Roet em eus anezhi dit.
 # text[fra] = Je te l'ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2963,6 +3108,7 @@
 
 # text = Roet em eus anezhi dezhañ.
 # text[fra] = Je la lui ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -2982,6 +3128,7 @@
 
 # text = Roet em eus anezhi dezhi.
 # text[fra] = Je la lui ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3001,6 +3148,7 @@
 
 # text = Roet em eus anezhi deomp.
 # text[fra] = Je nous l'ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3022,6 +3170,7 @@
 
 # text = Roet em eus anezhi deoc’h.
 # text[fra] = Je vous l'ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3041,6 +3190,7 @@
 
 # text = Roet em eus anezhi dezhe.
 # text[fra] = Je la leur ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3060,6 +3210,7 @@
 
 # text = Roet em eus anezhi dezho.
 # text[fra] = Je la leur ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3079,6 +3230,7 @@
 
 # text = Roet em eus anezho dit.
 # text[fra] = Je te les ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3098,6 +3250,7 @@
 
 # text = Roet em eus anezho dezhañ.
 # text[fra] = Je les lui ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3117,6 +3270,7 @@
 
 # text = Roet em eus anezho dezhi.
 # text[fra] = Je les lui ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3136,6 +3290,7 @@
 
 # text = Roet em eus anezho deoc’h.
 # text[fra] = Je vous les ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3155,6 +3310,7 @@
 
 # text = Roet em eus anezho dezhe.
 # text[fra] = Je les leur ai donné.
+# labels = to_check
 "<Roet>"
 	"roiñ" vblex pp
 	"reiñ" vblex pp
@@ -3174,6 +3330,7 @@
 
 # text = Reiñ ac’hanout dezhañ.
 # text[fra] = Te donner à lui.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanout>"
@@ -3188,6 +3345,7 @@
 
 # text = Reiñ ac’hanout dezhi.
 # text[fra] = Te donner à elle.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanout>"
@@ -3202,6 +3360,7 @@
 
 # text = Reiñ ac’hanout dezhe.
 # text[fra] = Te donner à eux.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanout>"
@@ -3216,6 +3375,7 @@
 
 # text = Reiñ ac’hanomp dezhañ.
 # text[fra] = Nous donner à lui.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanomp>"
@@ -3230,6 +3390,7 @@
 
 # text = Reiñ ac’hanomp dezhi.
 # text[fra] = Nous donner à elle.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanomp>"
@@ -3244,6 +3405,7 @@
 
 # text = Reiñ ac’hanomp deoc’h.
 # text[fra] = Nous donner à vous.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanomp>"
@@ -3258,6 +3420,7 @@
 
 # text = Reiñ ac’hanomp dezhe.
 # text[fra] = Nous donner à eux.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanomp>"
@@ -3272,6 +3435,7 @@
 
 # text = Reiñ ac’hanomp dezho.
 # text[fra] = Nous donner à eux.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanomp>"
@@ -3286,6 +3450,7 @@
 
 # text = Reiñ ac’hanoc’h dezhañ.
 # text[fra] = Vous donner à lui.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanoc’h>"
@@ -3300,6 +3465,7 @@
 
 # text = Reiñ ac’hanoc’h dezhi.
 # text[fra] = Vous donner à elle.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanoc’h>"
@@ -3314,6 +3480,7 @@
 
 # text = Reiñ ac’hanoc’h deomp.
 # text[fra] = Vous donner à nous.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanoc’h>"
@@ -3330,6 +3497,7 @@
 
 # text = Reiñ ac’hanoc’h dezhe.
 # text[fra] = Vous donner à eux.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<ac’hanoc’h>"
@@ -3344,6 +3512,7 @@
 
 # text = Reiñ anezhañ dit.
 # text[fra] = Te le donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3358,6 +3527,7 @@
 
 # text = Reiñ anezhañ dezhi.
 # text[fra] = Le lui donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3372,6 +3542,7 @@
 
 # text = Reiñ anezhañ dezhañ.
 # text[fra] = Le lui donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3386,6 +3557,7 @@
 
 # text = Reiñ anezhañ deomp.
 # text[fra] = Nous le donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3402,6 +3574,7 @@
 
 # text = Reiñ anezhañ deoc’h.
 # text[fra] = Vous le donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3416,6 +3589,7 @@
 
 # text = Reiñ anezhañ dezhe.
 # text[fra] = Le leur donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3430,6 +3604,7 @@
 
 # text = Reiñ anezhañ dezho.
 # text[fra] = Le leur donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhañ>"
@@ -3444,6 +3619,7 @@
 
 # text = Reiñ anezhi dit.
 # text[fra] = Te la donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3458,6 +3634,7 @@
 
 # text = Reiñ anezhi dezhañ.
 # text[fra] = La lui donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3472,6 +3649,7 @@
 
 # text = Reiñ anezhi dezhi.
 # text[fra] = La lui donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3486,6 +3664,7 @@
 
 # text = Reiñ anezhi deomp.
 # text[fra] = Nous la donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3502,6 +3681,7 @@
 
 # text = Reiñ anezhi deoc’h.
 # text[fra] = Vous la donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3516,6 +3696,7 @@
 
 # text = Reiñ anezhi dezhe.
 # text[fra] = La leur donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3530,6 +3711,7 @@
 
 # text = Reiñ anezhi dezho.
 # text[fra] = La leur donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezhi>"
@@ -3544,6 +3726,7 @@
 
 # text = Reiñ anezho dit.
 # text[fra] = Te les donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezho>"
@@ -3558,6 +3741,7 @@
 
 # text = Reiñ anezho dezhañ.
 # text[fra] = Les lui donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezho>"
@@ -3572,6 +3756,7 @@
 
 # text = Reiñ anezho dezhi.
 # text[fra] = Les lui donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezho>"
@@ -3586,6 +3771,7 @@
 
 # text = Reiñ anezho deoc’h.
 # text[fra] = Vous les donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezho>"
@@ -3600,6 +3786,7 @@
 
 # text = Reiñ anezho dezhe.
 # text[fra] = Les leur donner.
+# labels = to_check
 "<Reiñ>"
 	"reiñ" vblex inf
 "<anezho>"
@@ -3614,6 +3801,7 @@
 
 # text = Mont a ran da ginnig ac’hanout dezhañ.
 # text[fra] = Je vais te présenter à lui.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3636,6 +3824,7 @@
 
 # text = Mont a ran da ginnig ac’hanout dezhi.
 # text[fra] = Je vais te présenter à elle.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3658,6 +3847,7 @@
 
 # text = Mont a ran da ginnig ac’hanout dezhe.
 # text[fra] = Je vais te présenter à eux.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3680,6 +3870,7 @@
 
 # text = Mont a ran da ginnig ac’hanomp dezhañ.
 # text[fra] = Je vais nous présenter à lui.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3702,6 +3893,7 @@
 
 # text = Mont a ran da ginnig ac’hanomp dezhi.
 # text[fra] = Je vais nous présenter à elle.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3724,6 +3916,7 @@
 
 # text = Mont a ran da ginnig ac’hanomp deoc’h.
 # text[fra] = Je vais nous présenter à vous.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3746,6 +3939,7 @@
 
 # text = Mont a ran da ginnig ac’hanomp dezhe.
 # text[fra] = Je vais nous présenter à eux.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3768,6 +3962,7 @@
 
 # text = Mont a ran da ginnig ac’hanomp dezho.
 # text[fra] = Je vais nous présenter à eux.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3790,6 +3985,7 @@
 
 # text = Mont a ran da ginnig ac’hanoc’h dezhañ.
 # text[fra] = Je vais vous présenter à lui.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3812,6 +4008,7 @@
 
 # text = Mont a ran da ginnig ac’hanoc’h dezhi.
 # text[fra] = Je vais vous présenter à elle.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3834,6 +4031,7 @@
 
 # text = Mont a ran da ginnig ac’hanoc’h deomp.
 # text[fra] = Je vais vous présenter à nous.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3858,6 +4056,7 @@
 
 # text = Mont a ran da ginnig ac’hanoc’h dezhe.
 # text[fra] = Je vais vous présenter à eux.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3880,6 +4079,7 @@
 
 # text = Mont a ran da ginnig anezhañ dit.
 # text[fra] = Je vais te le présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3902,6 +4102,7 @@
 
 # text = Mont a ran da ginnig anezhañ dezhi.
 # text[fra] = Je vais le lui présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3924,6 +4125,7 @@
 
 # text = Mont a ran da ginnig anezhañ dezhañ.
 # text[fra] = Je vais le lui présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3946,6 +4148,7 @@
 
 # text = Mont a ran da ginnig anezhañ deomp.
 # text[fra] = Je vais nous le présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3970,6 +4173,7 @@
 
 # text = Mont a ran da ginnig anezhañ deoc’h.
 # text[fra] = Je vais vous le présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -3992,6 +4196,7 @@
 
 # text = Mont a ran da ginnig anezhañ dezhe.
 # text[fra] = Je vais le leur présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4014,6 +4219,7 @@
 
 # text = Mont a ran da ginnig anezhañ dezho.
 # text[fra] = Je vais le leur présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4036,6 +4242,7 @@
 
 # text = Mont a ran da ginnig anezhi dit.
 # text[fra] = Je vais te la présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4058,6 +4265,7 @@
 
 # text = Mont a ran da ginnig anezhi dezhañ.
 # text[fra] = Je vais la lui présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4080,6 +4288,7 @@
 
 # text = Mont a ran da ginnig anezhi dezhi.
 # text[fra] = Je vais la lui présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4102,6 +4311,7 @@
 
 # text = Mont a ran da ginnig anezhi deomp.
 # text[fra] = Je vais nous la présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4126,6 +4336,7 @@
 
 # text = Mont a ran da ginnig anezhi deoc’h.
 # text[fra] = Je vais vous la présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4148,6 +4359,7 @@
 
 # text = Mont a ran da ginnig anezhi dezhe.
 # text[fra] = Je vais la leur présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4170,6 +4382,7 @@
 
 # text = Mont a ran da ginnig anezhi dezho.
 # text[fra] = Je vais la leur présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4192,6 +4405,7 @@
 
 # text = Mont a ran da ginnig anezho dit.
 # text[fra] = Je vais te les présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4214,6 +4428,7 @@
 
 # text = Mont a ran da ginnig anezho dezhañ.
 # text[fra] = Je vais les lui présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4236,6 +4451,7 @@
 
 # text = Mont a ran da ginnig anezho dezhi.
 # text[fra] = Je vais les lui présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4258,6 +4474,7 @@
 
 # text = Mont a ran da ginnig anezho deoc’h.
 # text[fra] = Je vais vous les présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4280,6 +4497,7 @@
 
 # text = Mont a ran da ginnig anezho dezhe.
 # text[fra] = Je vais les leur présenter.
+# labels = to_check
 "<Mont a ran>"
 	"mont a ober" vblex pri p1 sg 
 "<da>"
@@ -4302,6 +4520,7 @@
 
 # text = Me am eus kanet.
 # text[fra] = J'ai chanté.
+# labels = to_check
 "<Me>"
 	"prpers" prn subj p1 mf sg @X MAP:943
 "<am eus>"
@@ -4320,6 +4539,7 @@
 
 # text = An amzer zo brav.
 # text[fra] = Le temps est beau.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -4337,6 +4557,7 @@
 
 # text = Ni a ro al laezh da Vari.
 # text[fra] = Nous donnons le lait à Mari.
+# labels = to_check
 "<Ni>"
 	"prpers" prn subj p1 mf pl @SUBJ→ MAP:937
 "<a>"
@@ -4368,6 +4589,7 @@
 
 # text = Yann a zeuy hag a ray ur brezegenn.
 # text[fra] = Yann viendra et il fera un discours.
+# labels = to_check
 "<Yann>"
 	"Yann" np ant m sg
 "<a>"
@@ -4403,6 +4625,7 @@
 
 # text = Deskiñ a reer traoù amañ.
 # text[fra] = On apprend des choses ici.
+# labels = to_check
 "<Deskiñ>"
 	"deskiñ" vblex inf
 "<a>"
@@ -4424,6 +4647,7 @@
 
 # text = Dilun beure e welin ar maer da 11 eur.
 # text[fra] = Lundi matin je verrai le maire à 11 heures.
+# labels = to_check
 "<Dilun>"
 	"dilun" adv 
 "<beure>"
@@ -4456,6 +4680,7 @@
 
 # text = Debriñ a ran un aval.
 # text[fra] = Je mange une pomme.
+# labels = to_check
 "<Debriñ>"
 	"debriñ" vblex inf
 "<a>"
@@ -4478,6 +4703,7 @@
 
 # text = Ober a ra ur wastell.
 # text[fra] = Il fait un gâteau.
+# labels = to_check
 "<Ober>"
 	"ober" vblex inf
 ;	"ober" n m sg 
@@ -4502,6 +4728,7 @@
 
 # text = Ober a ra gwestell.
 # text[fra] = Il fait des gâteaux.
+# labels = to_check
 "<Ober>"
 	"ober" vblex inf
 ;	"ober" n m sg 
@@ -4524,6 +4751,7 @@
 
 # text = Emañ ar vugale o tebriñ.
 # text[fra] = Les enfants sont en train de manger.
+# labels = to_check
 "<Emañ>"
 	"bezañ" vbloc pri p3 sg 
 "<ar>"
@@ -4544,6 +4772,7 @@
 
 # text = O redek un tamm pep lec’h emaint.
 # text[fra] = Ils sont en train de courir un peu partout.
+# labels = to_check
 "<O>"
 	"o" vpart ger @aux
 ;	"o" det pos mf sp 
@@ -4561,6 +4790,7 @@
 
 # text = Tad Yann eo ma eontr.
 # text[fra] = Le père de Yann est mon oncle.
+# labels = to_check
 "<Tad>"
 	"tad" n m sg
 "<Yann>"
@@ -4578,6 +4808,7 @@
 
 # text = Ma teuez ganin.
 # text[fra] = Si tu viens avec moi.
+# labels = to_check
 "<Ma>"
 	"ma" cnjsub 
 ;	"ma" det pos mf sp 
@@ -4596,6 +4827,7 @@
 
 # text = Tangi a zo bet kaset dirak al lez-varn.
 # text[fra] = Tangi a été envoyé devant le tribunal.
+# labels = to_check
 "<Tangi>"
 	"Tangi" np ant m sg
 "<a>"
@@ -4628,6 +4860,7 @@
 
 # text = Gallout a ran ober an dra-se.
 # text[fra] = Je peux faire cette chose.
+# labels = to_check
 "<Gallout>"
 	"gallout" vblex inf
 "<a>"
@@ -4657,6 +4890,7 @@
 
 # text = Ar vugale a rede buan.
 # text[fra] = Les enfants couraient vite.
+# labels = to_check
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -4680,6 +4914,7 @@
 
 # text = Ar serc’hed en em starde.
 # text[fra] = Les amants se serraient.
+# labels = to_check
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -4694,6 +4929,7 @@
 
 # text = Jean Pierre Cluzel, Prezidant Radio France a oa e Kemper d'ar 6 a viz Here evit sinañ an emglev Ya d’ar Brezhoneg.
 # text[fra] = Jean Pierre Cluzel, le Président de Radio France était à Quimper le 6 octobre pour signer l'accord Ya d’ar Brezhoneg.
+# labels = to_check
 "<Jean>"
 	"Jean" np ant m sg 
 ;	"jean" n m sg 
@@ -4759,6 +4995,7 @@
 
 # text = Hiziv, pep tra a cheñch fonnus.
 # text[fra] = Aujourd’hui, tout change vite.
+# labels = to_check
 "<Hiziv>"
 	"hiziv" adv 
 "<,>"
@@ -4785,6 +5022,7 @@
 
 # text = Ar stad zo unan eus stummoù aozadur politikel ur vro.
 # text[fra] = L'état est une des formes d'organisation politique d'un pays.
+# labels = to_check
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -4818,6 +5056,7 @@
 
 # text = Skrivañ a ran da Erwan Le Bourdonnec.
 # text[fra] = J'écris à Erwan Le Bourdonnec.
+# labels = to_check
 "<Skrivañ>"
 	"skrivañ" vblex inf
 "<a>"
@@ -4841,6 +5080,7 @@
 
 # text = An Emvod Meur en deus votet evit dilenn ar C’huzul-Merañ.
 # text[fra] = L'Assemblée générale a voté pour élire le Conseil d’administration.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -4870,6 +5110,7 @@
 
 # text = Enskrivadurioù ar studierien a vo degemeret etre an 29 a viz Meurzh hag an 9 a viz Ebrel.
 # text[fra] = Les inscriptions des étudiants seront accueillies entre le 29 mars et le 9 avril.
+# labels = to_check
 "<Enskrivadurioù>"
 	"enskrivadur" n m pl
 "<ar>"
@@ -4932,6 +5173,7 @@
 
 # text = Ober a rin se ma-unan.
 # text[fra] = Je ferai ça moi-même.
+# labels = to_check
 "<Ober>"
 	"ober" vblex inf
 ;	"ober" n m sg 
@@ -4954,6 +5196,7 @@
 
 # text = Ober a raio se e-unan.
 # text[fra] = Il fera ça lui-même.
+# labels = to_check
 "<Ober>"
 	"ober" vblex inf
 ;	"ober" n m sg 
@@ -4976,6 +5219,7 @@
 
 # text = Ober a raio se hec’h-unan.
 # text[fra] = Elle fera ça elle-même.
+# labels = to_check
 "<Ober>"
 	"ober" vblex inf
 ;	"ober" n m sg 
@@ -4998,6 +5242,7 @@
 
 # text = Troc’het em eus ma biz bihan.
 # text[fra] = Je me suis coupé le petit doigt.
+# labels = to_check
 "<Troc’het>"
 	"troc’hañ" vblex pp
 ;	"troc’hañ" vblex imp p3 sg 
@@ -5019,6 +5264,7 @@
 
 # text = Dec'h en doa klasket ar c'henstrollad "Rusia Arall" manifestiñ war plasenn Trioumfalnaia.
 # text[fra] = Hier, le collectif "Une Autre Russie" avait essayé de manifester sur la place Trioumfalnaia.
+# labels = to_check
 "<Dec'h>"
 	"dec’h" adv 
 ;	"tec’hout" vblex imp p2 sg 
@@ -5053,6 +5299,7 @@
 
 # text = Chañs am eus bet.
 # text[fra] = J'ai eu de la chance.
+# labels = to_check
 "<Chañs>"
 	"chañs" n f sg
 "<am eus>"
@@ -5066,6 +5313,7 @@
 
 # text = Ur prof am eus bet.
 # text[fra] = J'ai eu un cadeau.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp
 "<prof>"
@@ -5083,6 +5331,7 @@
 
 # text = Chas ar c’helenner Aouregan a oa bet prenet er C'hastell-Nevez.
 # text[fra] = Les chiens du professeur Aouregan avaient été achetés à Châteauneuf.
+# labels = to_check
 "<Chas>"
 	"ki" n m pl
 "<ar>"
@@ -5120,6 +5369,7 @@
 
 # text = Ret eo dit chom hep dont.
 # text[fra] = Il ne faut pas que tu viennes.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp
 "<eo>"
@@ -5140,6 +5390,7 @@
 
 # text = Poent eo mont.
 # text[fra] = Il est temps d'y aller.
+# labels = to_check
 "<Poent>"
 	"poent" n m sg
 ;	"bezañ" vblex past p3 pl 
@@ -5152,6 +5403,7 @@
 
 # text = N'eo ket dav mont ken buan.
 # text[fra] = Il ne faut pas aller si vite.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<eo>"
@@ -5177,6 +5429,7 @@
 
 # text = N'eo ket ret deoc'h reiñ ho chomlec'h.
 # text[fra] = Vous n'avez pas à donner votre adresse.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<eo>"
@@ -5200,6 +5453,7 @@
 
 # text = Skuizh on.
 # text[fra] = Je suis fatigué.
+# labels = to_check
 "<Skuizh>"
 	"skuizh" adj mf sp
 ;	"skuizhañ" vblex imp p2 sg 
@@ -5211,6 +5465,7 @@
 
 # text = Klañv on.
 # text[fra] = Je suis malade.
+# labels = to_check
 "<Klañv>"
 	"klañv" adj mf sp
 ;	"kleñvel" vblex imp p2 sg 
@@ -5222,6 +5477,7 @@
 
 # text = Laouen e oa Katell.
 # text[fra] = Katell était contente.
+# labels = to_check
 "<Laouen>"
 	"laouen" adj mf sp
 "<e>"
@@ -5239,6 +5495,7 @@
 
 # text = Hiziv eo yen.
 # text[fra] = Il fait froid aujourd'hui.
+# labels = to_check
 "<Hiziv>"
 	"hiziv" adv 
 "<eo>"
@@ -5250,6 +5507,7 @@
 
 # text = Bras eo.
 # text[fra] = Il est grand.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp
 "<eo>"
@@ -5259,6 +5517,7 @@
 
 # text = Savet ha renet eo al lec’hienn gant Philippe Argouarc’h.
 # text[fra] = Le site est construit et dirigé par Philippe Argouarc’h.
+# labels = to_check
 "<Savet>"
 	"sevel" vblex tv tv pp 
 ;	"sevel" vblex imp p3 sg 
@@ -5287,6 +5546,7 @@
 
 # text = Ar Redadeg a zo he fal talvoudekaat ar yezh.
 # text[fra] = Le but de la Redadeg est de valoriser la langue.
+# labels = to_check
 "<Ar Redadeg>"
 	"Ar Redadeg" np al mf sg
 "<a>"
@@ -5321,6 +5581,7 @@
 
 # text = Skuizh e vi.
 # text[fra] = Tu seras fatigué.
+# labels = to_check
 "<Skuizh>"
 	"skuizh" adj mf sp
 ;	"skuizhañ" vblex imp p2 sg 
@@ -5339,6 +5600,7 @@
 
 # text = Bez' e rankan mont bremañ.
 # text[fra] = Je dois y aller maintenant.
+# labels = to_check
 "<Bez'>"
 	"bezañ" vblex inf
 "<e>"
@@ -5358,6 +5620,7 @@
 
 # text = Ur c’hi bihan a welan.
 # text[fra] = Je vois un petit chien.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp
 "<c’hi>"
@@ -5382,6 +5645,7 @@
 
 # text = Al levr-mañ a brenimp warc’hoazh.
 # text[fra] = Nous achèterons ce livre demain.
+# labels = to_check
 "<Al>"
 	"an" det def sp
 "<levr>"
@@ -5405,6 +5669,7 @@
 
 # text = Ar paotr a welan a zo skuizh.
 # text[fra] = Le garçon que je vois est fatigué.
+# labels = to_check
 "<Ar>"
 	"an" det def sp
 ;	"arat" vblex pri p3 sg 
@@ -5442,6 +5707,7 @@
 
 # text = Ur vezh eo.
 # text[fra] = C'est une honte.
+# labels = to_check
 "<Ur>"
 	"un" det ind sp
 "<vezh>"
@@ -5453,6 +5719,7 @@
 
 # text = Un ti eo.
 # text[fra] = C'est une maison.
+# labels = to_check
 "<Un>"
 	"un" det ind sp
 "<ti>"
@@ -5464,6 +5731,7 @@
 
 # text = Bras eo.
 # text[fra] = C'est grand.
+# labels = to_check
 "<Bras>"
 	"bras" adj mf sp
 "<eo>"
@@ -5473,6 +5741,7 @@
 
 # text = Amañ eo.
 # text[fra] = C'est ici.
+# labels = to_check
 "<Amañ>"
 	"amañ" adv 
 "<eo>"
@@ -5482,6 +5751,7 @@
 
 # text = Eno ez eus tud .
 # text[fra] = Là-bas, il y a du monde.
+# labels = to_check
 "<Eno>"
 	"eno" adv 
 "<ez eus>"
@@ -5493,6 +5763,7 @@
 
 # text = Er stal ez eus traoù marc'had-mat.
 # text[fra] = Dans le magasin il y a des choses bon marchés.
+# labels = to_check
 "<Er>"
 	"e" pr
 		"an" det def sp
@@ -5509,6 +5780,7 @@
 
 # text = Bara a zo war an daol.
 # text[fra] = Il y a du pain sur la table.
+# labels = to_check
 "<Bara>"
 	"bara" n m sg
 ;	"parañ" vblex pri p3 sg 
@@ -5543,6 +5815,7 @@
 
 # text = Tri miz 'zo .
 # text[fra] = Il y a trois mois.
+# labels = to_check
 "<Tri>"
 	"tri" num m pl
 "<miz>"
@@ -5554,6 +5827,7 @@
 
 # text = N'eus morse bet kement a dud.
 # text[fra] = Il n'y a jamais eu autant de monde.
+# labels = to_check
 "<N'eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -5574,6 +5848,7 @@
 
 # text = N'eus bet degaset titour nevez ebet.
 # text[fra] = Aucun nouveau renseignement n'a été apporté.
+# labels = to_check
 "<N'eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -5602,6 +5877,7 @@
 
 # text = D'an emgann ez an .
 # text[fra] = Je vais au combat.
+# labels = to_check
 "<D'an>"
 	"da" pr
 		"an" det def sp
@@ -5622,6 +5898,7 @@
 
 # text = D'an emgann ez ez .
 # text[fra] = Tu vas au combat.
+# labels = to_check
 "<D'an>"
 	"da" pr
 		"an" det def sp
@@ -5644,6 +5921,7 @@
 
 # text = D'an emgann ez a .
 # text[fra] = Il va au combat.
+# labels = to_check
 "<D'an>"
 	"da" pr
 		"an" det def sp
@@ -5668,6 +5946,7 @@
 
 # text = Da Wened ez i .
 # text[fra] = Tu iras à Vannes.
+# labels = to_check
 "<Da>"
 	"da" pr
 ;	"da" det pos mf sp 
@@ -5689,6 +5968,7 @@
 
 # text = Buan e rede ar vugale.
 # text[fra] = Les enfants couraient vite.
+# labels = to_check
 "<Buan>"
 	"buan" adv 
 	"buan" adj mf sp
@@ -5710,6 +5990,7 @@
 
 # text = Ne red ket buan ar vugale.
 # text[fra] = Les enfants ne courent pas vite.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<red>"
@@ -5731,6 +6012,7 @@
 
 # text = Amañ emañ.
 # text[fra] = Il est ici.
+# labels = to_check
 "<Amañ>"
 	"amañ" adv 
 "<emañ>"
@@ -5740,6 +6022,7 @@
 
 # text = Diskouez a rin an timbr-se dit.
 # text[fra] = Je te montrerai ce timbre.
+# labels = to_check
 "<Diskouez>"
 	"diskouez" vblex inf
 ;	"diskouez" vblex imp p2 sg 
@@ -5772,6 +6055,7 @@
 
 # text = Gwellañ ma c’hallez.
 # text[fra] = Le mieux que tu peux.
+# labels = to_check
 "<Gwellañ>"
 	"gwell" adj sint sup
 "<ma>"
@@ -5785,6 +6069,7 @@
 
 # text = An doping hag en deus breinet an dro diwezhañ.
 # text[fra] = Le dopage qui a pourri le dernier tour.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -5815,6 +6100,7 @@
 
 # text = An den hag a zeuy fenoz.
 # text[fra] = La personne qui viendra ce soir.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -5843,6 +6129,7 @@
 
 # text = An iliz hag a welit ahont a zo bras.
 # text[fra] = L'église que vous voyez là-bas est grande.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -5884,6 +6171,7 @@
 
 # text = Da dad a zo bras.
 # text[fra] = Ton père est grand.
+# labels = to_check
 "<Da>"
 	"da" pr
 	"da" det pos mf sp
@@ -5908,6 +6196,7 @@
 
 # text = Dedennus eo da labour.
 # text[fra] = Ton travail est intéressant.
+# labels = to_check
 "<Dedennus>"
 	"dedennus" adj mf sp
 "<eo>"
@@ -5923,6 +6212,7 @@
 
 # text = Ezhomm am eus koad evit ober tan.
 # text[fra] = J'ai besoin de bois pour faire du feu.
+# labels = to_check
 "<Ezhomm>"
 	"ezhomm" n m sg
 "<am eus>"
@@ -5944,6 +6234,7 @@
 
 # text = An den en em wel er melezour.
 # text[fra] = La personne se voit dans le miroir.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -5970,6 +6261,7 @@
 
 # text = Rankout a ran en em ginnig.
 # text[fra] = Je dois me présenter.
+# labels = to_check
 "<Rankout>"
 	"rankout" vblex inf
 "<a>"
@@ -5995,6 +6287,7 @@
 
 # text = En em walc’hiñ a ran.
 # text[fra] = Je me lave.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux
 "<walc’hiñ>"
@@ -6015,6 +6308,7 @@
 
 # text = En em c'houlenn a ran.
 # text[fra] = Je me demande.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux
 "<c'houlenn>"
@@ -6038,6 +6332,7 @@
 
 # text = Ret e vefe deomp en em gavout.
 # text[fra] = Il faudrait que l'on se retrouve.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp
 "<e>"
@@ -6062,6 +6357,7 @@
 
 # text = En em gannet out c'hoazh ?
 # text[fra] = Tu t'es encore battu ?
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<gannet>"
@@ -6075,6 +6371,7 @@
 
 # text = Pa zihunan re abred ne savan ket diouzhtu.
 # text[fra] = Quand je me réveille trop tôt je ne me lève pas tout de suite.
+# labels = to_check
 "<Pa>"
 	"pa" cnjsub 
 "<zihunan>"
@@ -6099,6 +6396,7 @@
 
 # text = En em walc'hiñ a ran.
 # text[fra] = Je me lave.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux
 "<walc'hiñ>"
@@ -6119,6 +6417,7 @@
 
 # text = En em walc'hiñ a rin.
 # text[fra] = Je me laverai.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux
 "<walc'hiñ>"
@@ -6138,6 +6437,7 @@
 
 # text = En em walc'het on.
 # text[fra] = Je me suis lavé.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux
 "<walc'het>"
@@ -6152,6 +6452,7 @@
 
 # text = N'on ket en em walc'het c'hoazh.
 # text[fra] = Je ne me suis pas encore lavé.
+# labels = to_check
 "<N'>"
 	"ne" adv neg 
 "<on>"
@@ -6174,6 +6475,7 @@
 
 # text = Emaon oc'h en em walc'hiñ.
 # text[fra] = Je suis en train de me laver.
+# labels = to_check
 "<Emaon>"
 	"bezañ" vbloc pri p1 sg 
 "<oc'h>"
@@ -6188,6 +6490,7 @@
 
 # text = Oc'h en em walc'hiñ e oan.
 # text[fra] = J'étais en train de me laver.
+# labels = to_check
 "<Oc'h>"
 	"bezañ" vblex pri p2 pl 
 ;	"o" vpart ger @aux
@@ -6209,6 +6512,7 @@
 
 # text = Emaon o vont d'en em walc'hiñ.
 # text[fra] = Je vais me laver.
+# labels = to_check
 "<Emaon>"
 	"bezañ" vbloc pri p1 sg 
 "<o>"
@@ -6226,6 +6530,7 @@
 
 # text = Me en em walc'h.
 # text[fra] = Je me lave.
+# labels = to_check
 "<Me>"
 	"prpers" prn subj p1 mf sg @nsubj #1->3
 "<en em>"
@@ -6237,6 +6542,7 @@
 
 # text = Er sal dour en em walc'han.
 # text[fra] = Je me lave dans la salle de bain.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -6253,6 +6559,7 @@
 
 # text = Er sal dour en em walc'hen.
 # text[fra] = Je me lavais dans la salle de bain.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -6269,6 +6576,7 @@
 
 # text = Er sal dour on en em walc'het.
 # text[fra] = Je me suis lavé dans la salle de bain.
+# labels = to_check
 "<Er>"
 	"e" pr @case #1->3
 		"an" det def sp @det #2->3
@@ -6287,6 +6595,7 @@
 
 # text = En em walc'het on er sal dour.
 # text[fra] = Je me suis lavé dans la salle de bain.
+# labels = to_check
 "<En em>"
 	"en em" vpart ref @aux #1->2
 "<walc'het>"
@@ -6305,6 +6614,7 @@
 
 # text = Perak en em walc'hez ?
 # text[fra] = Pourquoi te laves tu ?
+# labels = to_check
 "<Perak>"
 	"perak" adv itg @advmod #1->3
 "<en em>"
@@ -6316,6 +6626,7 @@
 
 # text = Evit ar poent e c’heller ober gant e ijinadenn en un dek yezh bennak.
 # text[fra] = Pour l'instant on peut faire avec son invention dans une dizaine de langues.
+# labels = to_check
 "<Evit ar poent>"
 	"evit ar poent" adv 
 "<e>"
@@ -6356,6 +6667,7 @@
 
 # text = E penn ar raktres emañ Nadine Thouvenin hag he doa graet berzh e Lannarstêr gant raktres an dorioù.
 # text[fra] = A la tête du projet c'est Nadine Thouvenin qui avait eu du succès à Lanester avec le projet des portes.
+# labels = to_check
 "<E penn>"
 	"e penn" pr
 "<ar>"
@@ -6405,6 +6717,7 @@
 
 # text = Barnet e vo c’hwec’h stourmer an adunvanidigezh d'ar Yaou 12 a viz C'hwevrer e Lez-kastiz Naoned.
 # text[fra] = Six militants de la réunification seront jugés le jeudi 12 février au tribunal correctionnel de Nantes. .
+# labels = to_check
 "<Barnet>"
 	"barn" vblex pp
 ;	"barn" vblex imp p3 sg 
@@ -6456,6 +6769,7 @@
 
 # text = Er bloaz-mañ eo aet un tamm mat war-raok al luskad.
 # text[fra] = Cette année l'élan a bien avancé .
+# labels = to_check
 "<Er bloaz-mañ>"
 	"er bloaz-mañ" adv 
 "<eo>"
@@ -6483,6 +6797,7 @@
 
 # text = Lavaret ez eus dit mont d'ar gêr.
 # text[fra] = On t'a dit de rentrer à la maison.
+# labels = to_check
 "<Lavaret>"
 	"lavaret" vblex pp 
 	"lavarout" vblex pp 
@@ -6502,6 +6817,7 @@
 
 # text = Gwechall e vezen o pesketa e Loktudi.
 # text[fra] = Avant je pêchais à Loctudy.
+# labels = to_check
 "<Gwechall>"
 	"gwezhall" adv 
 "<e>"
@@ -6521,6 +6837,7 @@
 
 # text = Biken ne gredfes pokat dezhi.
 # text[fra] = Tu n'oserais jamais l'embrasser.
+# labels = to_check
 "<Biken>"
 	"biken" adv @advmod
 "<ne>"
@@ -6537,6 +6854,7 @@
 
 # text = Gouzout a ran an tu d'ober an dra-se.
 # text[fra] = Je sais le moyen de faire cette chose.
+# labels = to_check
 "<Gouzout>"
 	"gouzout" vblex inf
 ;	"gouzout" vblex pri p2 sg 
@@ -6578,6 +6896,7 @@
 
 # text = N'eus ket tu siwazh.
 # text[fra] = Il n'y pas moyen malheureusement.
+# labels = to_check
 "<N'eus>"
 	"ne" adv 
 		"bezañ" vblex pri impers sp
@@ -6598,6 +6917,7 @@
 
 # text = Pegoulz ez po tro da zont ?
 # text[fra] = Quand auras tu l'occasion de venir ?
+# labels = to_check
 "<Pegoulz>"
 	"pegoulz" adv itg 
 "<ez>"
@@ -6616,6 +6936,7 @@
 
 # text = Deuet e oa an holl.
 # text[fra] = Ils étaient tous venus.
+# labels = to_check
 "<Deuet>"
 	"dont" vblex pp
 "<e>"
@@ -6639,6 +6960,7 @@
 
 # text = An holl ac'hanomp a oa eno.
 # text[fra] = Nous étions tous là.
+# labels = to_check
 "<An>"
 	"an" det def sp
 ;	"mont" vblex pri p1 sg 
@@ -6668,6 +6990,7 @@
 
 # text = Me zo o vont da zebriñ.
 # text[fra] = Je vais aller manger.
+# labels = to_check
 "<Me>"
 	"prpers" prn subj p1 mf sg @SUBJ→ MAP:935
 "<zo>"
@@ -6692,6 +7015,7 @@
 
 # text = Trizek sizhunvezh e oa padet kendivizoù ar prosez, etre C'hwevrer ha Mezheven 2007.
 # text[fra] = Les débats du procès avaient duré treize semaines, entre février et juin 2007.
+# labels = to_check
 "<Trizek>"
 	"trizek" num mf pl @nummod #1->2
 "<sizhunvezh>"
@@ -6725,6 +7049,7 @@
 
 # text = Ar pezh a fell deomp ober eo liammañ anezho.
 # text[fra] = Ce que nous voulons faire c'est les relier.
+# labels = to_check
 "<Ar pezh a>"
 	"ar pezh a" prn rel mf sg
 "<fell>"
@@ -6752,6 +7077,7 @@
 
 # text = Baleadennoù kontet hag heñchet er c’hoadoù a vo aozet ivez.
 # text[fra] = Des excursions contées et orientées dans les bois seront aussi organisées.
+# labels = to_check
 "<Baleadennoù>"
 	"baleadenn" n f pl @nsubj #1->10
 "<kontet>"
@@ -6778,6 +7104,7 @@
 
 # text = Un abadenn evit ar re yaouank eo.
 # text[fra] = C'est une émission pour les jeunes.
+# labels = to_check
 "<Un>"
 	"un" det ind sp @det
 "<abadenn>"
@@ -6795,6 +7122,7 @@
 
 # text = Kalz re hir eo ar film.
 # text[fra] = Le film est beaucoup trop long.
+# labels = to_check
 "<Kalz re>"
 	"kalz re" adv @advmod #1->2
 "<hir>"
@@ -6810,6 +7138,7 @@
 
 # text = Mont a rin gant ar re-se.
 # text[fra] = J'irai avec ceux-ci.
+# labels = to_check
 "<Mont a rin>"
 	"mont a ober" vblex fti p1 sg 
 "<gant>"
@@ -6821,6 +7150,7 @@
 
 # text = Ret e vo dibab goude-se.
 # text[fra] = Il faudra choisir après ça.
+# labels = to_check
 "<Ret>"
 	"ret" adj mf sp @root #1->0
 "<e>"
@@ -6836,6 +7166,7 @@
 
 # text = Gallout a rin ober kement-se.
 # text[fra] = Je pourrai faire tout cela.
+# labels = to_check
 "<Gallout>"
 	"gallout" vblex inf @aux #1->4
 "<a>"
@@ -6851,6 +7182,7 @@
 
 # text = Goulenn a reont ma vo digoret an nor .
 # text[fra] = Ils demandent que soit ouvert la porte.
+# labels = to_check
 "<Goulenn>"
 	"goulenn" vblex inf @root #1->0
 "<a>"
@@ -6872,6 +7204,7 @@
 
 # text = Ne vin ket evit dont.
 # text[fra] = Je ne pourrai pas venir.
+# labels = to_check
 "<Ne>"
 	"ne" adv neg 
 "<vin>"
@@ -6887,6 +7220,7 @@
 
 # text = Soñjal a ran enni.
 # text[fra] = Je pense à elle.
+# labels = to_check
 "<Soñjal>"
 	"soñjal" vblex inf @root #1->0
 "<a>"
@@ -6901,6 +7235,7 @@
 
 # text = An eil gwech din gwelet se.
 # text[fra] = C'est la deuxième fois que je vois ça.
+# labels = to_check
 "<An>"
 	"an" det def sp @det
 "<eil>"
@@ -6919,6 +7254,7 @@
 
 # text = Kentañ klevet.
 # text[fra] = C'est la première fois que j'entends ça.
+# labels = to_check
 "<Kentañ>"
 	"kentañ" adj mf sp
 "<klevet>"
@@ -6931,6 +7267,7 @@
 
 # text = Degouezhet eo da gentañ.
 # text[fra] = Il est arrivé en premier.
+# labels = to_check
 "<Degouezhet>"
 	"degouezhout" vblex pp @root #1->0
 "<eo>"
@@ -6943,6 +7280,7 @@
 
 # text = Degouezhet eo da eil.
 # text[fra] = Il est arrivé en deuxième.
+# labels = to_check
 "<Degouezhet>"
 	"degouezhout" vblex pp @root #1->0
 "<eo>" 
@@ -6956,6 +7294,7 @@
 
 # text = Degouezhet eo da drede.
 # text[fra] = Il est arrivé en troisième.
+# labels = to_check
 "<Degouezhet>"
 	"degouezhout" vblex pp @root #1->0
 "<eo>"
@@ -6969,6 +7308,7 @@
 
 # text = Piv eo ar pempvet?
 # text[fra] = Qui est le cinquième?
+# labels = to_check
 "<Piv>"
 	"piv" prn itg mf sp @nsubj #1->4
 "<eo>"
@@ -6982,6 +7322,7 @@
 
 # text = Hi eo ar bempvet.
 # text[fra] = C'est elle la cinquième.
+# labels = to_check
 "<Hi>"
 	"prpers" prn subj p3 f sg @nsubj #1->4
 "<eo>"
@@ -6995,6 +7336,7 @@
 
 # text = Hi zo pempvet.
 # text[fra] = Elle est cinquième.
+# labels = to_check
 "<Hi>"
 	"prpers" prn subj p3 f sg @nsubj #1->3
 "<zo>"
@@ -7006,6 +7348,7 @@
 
 # text = Piv zo da bevare?
 # text[fra] = Qui est arrivé quatrième?
+# labels = to_check
 "<Piv>"
 	"piv" prn itg mf sp @nsubj #1->4
 "<zo>"
@@ -7019,6 +7362,7 @@
 
 # text = Kentañ tra zo d'ober eo mont kuit alemañ.
 # text[fra] = La première chose à faire c'est de partir d'ici.
+# labels = to_check
 "<Kentañ>"
 	"kentañ" num ord mf sp
 "<tra>"
