@@ -6095,6 +6095,695 @@
 "<.>"
 	"." sent @punct #19->10
 
+# text = Perak eo mat? 
+# text[fra¹] = Pourquoi Elle est bien? 
+"<Perak>"
+	"perak" adv itg @advmod #1->3
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #2->3
+"<mat>"
+	"mat" adj mf sp @root #3->0
+"<?>"
+	"?" sent @punct #4->3
+
+# text = Tri fezh-c'hoari e brezhoneg a vo kinniget d'an 10, 19 ha 24.
+# text[fra¹] = Trois @pezh en breton il sera présenté aux 10, 19 et 24.
+"<Tri>"
+	"tri" num m pl @nummod #1->2
+"<fezh-c'hoari>"
+	"pezh-c’hoari" n m sg @nsubj #2->7
+"<e>"
+	"e" pr @case #3->4
+"<brezhoneg>"
+	"brezhoneg" n m sg @nmod #4->2
+"<a>"
+	"a" vpart @aux #5->7
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux:pass #6->7
+"<kinniget>"
+	"kinnig" vblex pp @root #7->0
+"<d'an>"
+	"da" pr @case #8->10
+		"an" det def sp @det #9->10
+"<10>"
+	"10" num mf pl @obl #10->7
+"<,>"
+	"," cm @punct #11->12
+"<19>"
+	"19" num mf pl @conj #12->10
+"<ha>"
+	"ha" cnjcoo @cc #13->14
+"<24>"
+	"24" num mf pl @conj #14->10
+"<.>"
+	"." sent @punct #15->7
+
+# text = An holl a oar dija piv a zeuy da Gerampuilh d'ar Yaou 20, setu kenkoulz eo lakaat ar gaoz war ar peurrest eus ar gouel.
+# text[fra¹] = tous sait déjà qui viendra en Kerampuilh le jeudi 20, voilà aussi bien est mettre la conversation sur le reste de la fête.
+"<An>"
+	"an" det def sp @det #1->2
+"<holl>"
+	"holl" prn ind mf pl @nsubj #2->4
+"<a>"
+	"a" vpart @aux #3->4
+"<oar>"
+	"gouzout" vblex pri p3 sg @root #4->0
+"<dija>"
+	"dija" adv @advmod #5->4
+"<piv>"
+	"piv" prn itg mf sp @nsubj #6->8
+"<a>"
+	"a" vpart @aux #7->8
+"<zeuy>"
+	"dont" vblex fti p3 sg @ccomp #8->4
+"<da>"
+	"da" pr @case #9->10
+"<Gerampuilh>"
+	"Kerampuilh" np top sg @obl #10->8
+"<d'ar>"
+	"da" pr @case #11->13
+		"an" det def sp @det #12->13
+"<Yaou>"
+	"Yaou" n m sp @obl #13->8
+"<20>"
+	"20" num mf pl @nmod #14->13
+"<,>"
+	"," cm @punct #15->19
+"<setu>"
+	"setu" adv @advmod #16->19
+"<kenkoulz>"
+	"kenkoulz" adv @advmod #17->19
+"<eo>"
+	"bezañ" vblex pri p3 sg @dep #18->19
+"<lakaat>"
+	"lakaat" vblex inf @parataxis #19->4
+"<ar>"
+	"an" det def sp @det #20->21
+"<gaoz>"
+	"kaoz" n f sg @obj #21->19
+"<war>"
+	"war" pr @case #22->24
+"<ar>"
+	"an" det def sp @det #23->24
+"<peurrest>"
+	"peurrest" n m sg @obl #24->19
+"<eus>"
+	"eus" pr @case #25->27
+"<ar>"
+	"an" det def sp @det #26->27
+"<gouel>"
+	"gouel" n m sg @nmod #27->24
+"<.>"
+	"." sent @punct #28->4
+
+# text = M'ho pez c'hoant da gemer perzh en ur stourm sokial pe bolitikel, e vo ar bloavezh mat evit kregiñ e-barzh.
+# text[fra¹] = Si vous avez envie de participer dans un combat social ou politique, il sera la bonne année pour saisir-poète.
+"<M'>"
+	"ma" cnjsub @mark #1->2
+"<ho pez>"
+	"kaout" vblex prh p2 pl @advcl #2->17
+"<c'hoant>"
+	"c’hoant" n m sg @obj #3->2
+"<da>"
+	"da" pr @mark #4->5
+"<gemer>"
+	"kemer" vblex inf @advcl #5->2
+"<perzh>"
+	"perzh" n m sg @obj #6->5
+"<en ur>"
+	"e" pr @case #7->9
+		"un" det ind sp @det #8->9
+"<stourm>"
+	"stourm" n m sg @obl #9->5
+"<sokial>"
+	"sokial" adj mf sp @amod #10->9
+"<pe>"
+	"pe" cnjcoo @cc #11->12
+"<bolitikel>"
+	"politikel" adj mf sp @conj #12->10
+"<,>"
+	"," cm @punct #13->2
+"<e>"
+	"e" vpart obj @aux #14->17
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #15->17
+"<ar>"
+	"an" det def sp @det #16->17
+"<bloavezh>"
+	"bloavezh" n m sg @root #17->0
+"<mat>"
+	"mat" adj mf sp @amod #18->17
+"<evit>"
+	"evit" pr @mark #19->20
+"<kregiñ>"
+	"kregiñ" vblex inf @advcl #20->17
+"<e-barzh>"
+	"e-barzh" adv @advmod #21->20
+"<.>"
+	"." sent @punct #22->17
+
+# text = War tachenn al labour e vo mat-kenañ lodenn gentañ 2006.
+# text[fra¹] = Sur le terrain du travail Il sera très bien première partie 2006.
+"<War>"
+	"war" pr @case #1->2
+"<tachenn>"
+	"tachenn" n f sg @obl #2->7
+"<al>"
+	"an" det def sp @det #3->4
+"<labour>"
+	"labour" n m sg @nmod:gen #4->2
+"<e>"
+	"e" vpart obj @aux #5->7
+"<vo>"
+	"bezañ" vblex fti p3 sg @cop #6->7
+"<mat-kenañ>"
+	"mat" adj mf sp @root #7->0
+		"kenañ" adv @advmod #8->7
+"<lodenn>"
+	"lodenn" n f sg @nsubj #9->7
+"<gentañ>"
+	"kentañ" adj mf sp @amod #10->9
+"<2006>"
+	"2006" num mf pl @nmod:gen #11->9
+"<.>"
+	"." sent @punct #12->7
+
+# text = Sirius ha kempenn, gounit a reoc'h fiziañs ar re all.
+# text[fra¹] = Sérieux et ordonné, vous gagnerez confiance les autres.
+# labels = to_check
+"<Sirius>"
+	"sirius" adj mf sp @root #1->0
+"<ha>"
+	"ha" cnjcoo @cc #2->3
+"<kempenn>"
+	"kempenn" adj mf sp @conj #3->1
+"<,>"
+	"," cm @cc #4->5
+"<gounit>"
+	"gounit" vblex inf @parataxis #5->1
+"<a>"
+	"a" vpart @aux #6->5
+"<reoc'h>"
+	"ober" vblex fti p2 pl @aux #7->5
+"<fiziañs>"
+	"fiziañs" n f sg @obj #8->5
+"<ar re all>"
+	"egile" prn def mf pl @nmod:gen #9->8
+"<.>"
+	"." sent @punct #10->1
+
+# text = Ur sinadeg a zo bet kinniget zoken evit ma vefe paouezet d'ober ganto.
+# text[fra¹] = Une pétition a été présentée même pour qu'ait cessée à faire avec eux.
+"<Ur>"
+	"un" det ind sp @det #1->2
+"<sinadeg>"
+	"sinadeg" n f sg @nsubj #2->6
+"<a>"
+	"a" vpart @aux #3->6
+"<zo>"
+	"bezañ" vblex pri p3 sg @aux #4->6
+"<bet>"
+	"bezañ" vblex pp @aux:pass #5->6
+"<kinniget>"
+	"kinnig" vblex pp @root #6->0
+"<zoken>"
+	"zoken" adv @advmod #7->6
+"<evit ma>"
+	"evit ma" cnjadv @mark #8->10
+"<vefe>"
+	"bezañ" vblex cni p3 sg @cop #9->10
+"<paouezet>"
+	"paouez" vblex pp @advcl #10->6
+"<d'>"
+	"da" pr @mark #11->12
+"<ober>"
+	"ober" vblex inf @advcl #12->10
+"<ganto>"
+	"gant" pr @case #13->14
+		"indirect" prn obj p3 mf pl @obl #14->12
+"<.>"
+	"." sent @punct #15->6
+
+# text = E-pad an hañv e kinnigo Kamp Etrekeltiek Ar Vrezhonegerion e 60vet staj.
+# text[fra¹] = Pendant l'été Il présentera Kamp Etrekeltiek ar Vrezhonegerion dans 60ème stage.
+"<E-pad>"
+	"e-pad" pr @case #1->3
+"<an>"
+	"an" det def sp @det #2->3
+"<hañv>"
+	"hañv" n m sg @obl #3->5
+"<e>"
+	"e" vpart obj @aux #4->5
+"<kinnigo>"
+	"kinnig" vblex fti p3 sg @root #5->0
+"<Kamp>"
+	"kamp" n m sg @obj #6->5
+"<Etrekeltiek>"
+	"etrekeltiek" adj mf sp @amod #7->6
+"<Ar>"
+	"an" det def sp @det #8->9
+"<Vrezhonegerion>"
+	"brezhoneger" n m pl @nmod:gen #9->6
+"<e>"
+	"e" pr @case #10->12
+"<60vet>"
+	"60vet" num ord mf pl @amod #11->12
+"<staj>"
+	"staj" n m sg @obl #12->5
+"<.>"
+	"." sent @punct #13->5
+
+# text = Kentelioù war implij ar video a vo kinniget e-pad an eil sizhunvezh.
+# text[fra¹] = Leçons sur l'emploi de la vidéo seront présentés pendant second semaine.
+"<Kentelioù>"
+	"kentel" n f pl @nsubj #1->8
+"<war>"
+	"war" pr @case #2->3
+"<implij>"
+	"implij" n m sg @nmod #3->1
+"<ar>"
+	"an" det def sp @det #4->5
+"<video>"
+	"video" n m sg @nmod:gen #5->3
+"<a>"
+	"a" vpart @aux #6->8
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux:pass #7->8
+"<kinniget>"
+	"kinnig" vblex pp @root #8->0
+"<e-pad>"
+	"e-pad" pr @case #9->12
+"<an>"
+	"an" det def sp @det #10->12
+"<eil>"
+	"eil" num ord mf sp @amod #11->12
+"<sizhunvezh>"
+	"sizhunvezh" n f sg @obl #12->8
+"<.>"
+	"." sent @punct #13->8
+
+# text = Kaset e vo ar programm resis gant an aozerien d'an dud dedennet.
+# text[fra¹] = Il sera envoyé le programme précis avec les auteurs aux gens intéressés.
+"<Kaset>"
+	"kas" vblex pp @root #1->0
+"<e>"
+	"e" vpart obj @aux #2->1
+"<vo>"
+	"bezañ" vblex fti p3 sg @aux #3->1
+"<ar>"
+	"an" det def sp @det #4->5
+"<programm>"
+	"programm" n m sg @nsubj #5->1
+"<resis>"
+	"resis" adj mf sp @amod #6->5
+"<gant>"
+	"gant" pr @case #7->9
+"<an>"
+	"an" det def sp @det #8->9
+"<aozerien>"
+	"aozer" n m pl @obl:agent #9->1
+"<d'an>"
+	"da" pr @case #10->12
+		"an" det def sp @det #11->12
+"<dud>"
+	"den" n m pl @obl #12->1
+"<dedennet>"
+	"dedennet" adj mf sp @amod #13->12
+"<.>"
+	"." sent @punct #14->1
+
+# text = An teuliad peder fajennad zo gouestlet en niverenn-mañ d'an dud nammet.
+# text[fra¹] = Le dossier quatre pages ont engagées dans ce numéro aux gens handicapés.
+"<An>"
+	"an" det def sp @det #1->2
+"<teuliad>"
+	"teuliad" n m sg @nsubj #2->6
+"<peder>"
+	"pevar" num f pl @nummod #3->4
+"<fajennad>"
+	"pajennad" n f sg @nmod:gen #4->2
+"<zo>"
+	"bezañ" vblex pri p3 sg @aux:pass #5->6
+"<gouestlet>"
+	"gouestlañ" vblex pp @root #6->0
+"<en>"
+	"e" pr @case #7->9
+		"an" det def sp @det #8->9
+"<niverenn>"
+	"niverenn" n f sg @obl #9->6
+"<-mañ>"
+	"mañ" adv @advmod #10->9
+"<d'an>"
+	"da" pr @case #11->13
+		"an" det def sp @det #12->13
+"<dud>"
+	"den" n m pl @obl #13->6
+"<nammet>"
+	"nammet" adj mf sp @amod #14->13
+"<.>"
+	"." sent @punct #15->6
+
+# text = Mankout a ra an awen da broduerien filmoù sinema ar Stadoù-Unanet, anat eo.
+# text[fra¹] = Il manque l'inspiration aux producteurs de films le cinéma des États-Unis, il est évidents.
+"<Mankout>"
+	"mankout" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ra>"
+	"ober" vblex pri p3 sg @aux #3->1
+"<an>"
+	"an" det def sp @det #4->5
+"<awen>"
+	"awen" n f sg @nsubj #5->1
+"<da>"
+	"da" pr @case #6->7
+"<broduerien>"
+	"produer" n m pl @obl #7->1
+"<filmoù>"
+	"film" n m pl @nmod:gen #8->7
+"<sinema>"
+	"sinema" n m sg @nmod:gen #9->8
+"<ar>"
+	"an" det def sp @det #10->11
+"<Stadoù-Unanet>"
+	"Stadoù-Unanet" np top pl @nmod:gen #11->9
+"<,>"
+	"," cm @punct #12->13
+"<anat>"
+	"anat" adj mf sp @parataxis #13->1
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #14->13
+"<.>"
+	"." sent @punct #15->1
+
+# text = E 2002 e oa bet gwerzhet 15 % eus an dilhad er chadennoù bras-se.
+# text[fra¹] = Dans 2002 avaient été vendus 15 % des vêtements dans ces grandes chaînes.
+"<E>"
+	"e" pr @case #1->2
+"<2002>"
+	"2002" num mf pl @obl #2->6
+"<e>"
+	"e" vpart obj @aux #3->6
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #4->6
+"<bet>"
+	"bezañ" vblex pp @aux:pass #5->6
+"<gwerzhet>"
+	"gwerzhañ" vblex pp @root #6->0
+"<15 %>"
+	"15" num percent mf pl @nsubj #7->6
+"<eus>"
+	"eus" pr @case #8->10
+"<an>"
+	"an" det def sp @det #9->10
+"<dilhad>"
+	"dilhad" n m sg @nmod #10->7
+"<er>"
+	"e" pr @case #11->13
+		"an" det def sp @det #12->13
+"<chadennoù>"
+	"chadenn" n f pl @obl #13->6
+"<bras>"
+	"bras" adj mf sp @amod #14->13
+"<-se>"
+	"se" adv @advmod #15->13
+"<.>"
+	"." sent @punct #16->6
+
+# text = Hervez kont eo bet kresket ar c'heitad-mañ a 50 % en daou vloaz diwezhañ, ar pezh a gas betek tost ur c'hard eus ar marc'had.
+# text[fra¹] = À ce qu’il parait cette moyenne a été augmenté à 50 % dans les deux ans derniers, ce que envoient jusque près un quart du marché.
+"<Hervez>"
+	"hervez" pr @case #1->2
+"<kont>"
+	"kont" n f sg @obl #2->5
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #3->5
+"<bet>"
+	"bezañ" vblex pp @aux:pass #4->5
+"<kresket>"
+	"kreskiñ" vblex pp @root #5->0
+"<ar>"
+	"an" det def sp @det #6->7
+"<c'heitad>"
+	"keitad" n m sg @nsubj #7->5
+"<-mañ>"
+	"mañ" adv @advmod #8->7
+"<a>"
+	"a" pr @case #9->10
+"<50 %>"
+	"50" num percent mf pl @obl #10->5
+"<en>"
+	"e" pr @case #11->14
+		"an" det def sp @det #12->14
+"<daou>"
+	"daou" num m pl @nummod #13->14
+"<vloaz>"
+	"bloaz" n m sg @obl #14->10
+"<diwezhañ>"
+	"diwezhañ" adj mf sp @amod #15->14
+"<,>"
+	"," cm @punct #16->18
+"<ar pezh a>"
+	"ar pezh a" prn rel mf sg @nsubj #17->18
+"<gas>"
+	"kas" vblex pri p3 sg @dep #18->10
+"<betek>"
+	"betek" pr @case #19->22
+"<tost>"
+	"tost" adv @advmod #20->22
+"<ur>"
+	"un" det ind sp @det #21->22
+"<c'hard>"
+	"kard" n m sg @obl #22->18
+"<eus>"
+	"eus" pr @case #23->25
+"<ar>"
+	"an" det def sp @det #24->25
+"<marc'had>"
+	"marc’had" n m sg @nmod #25->22
+"<.>"
+	"." sent @punct #26->5
+
+# text = Er bloavezhioù 80, e Sina.
+# text[fra¹] = Dans les années 80, en Chine.
+"<Er>"
+	"e" pr @case #1->3
+		"an" det def sp @det #2->3
+"<bloavezhioù>"
+	"bloavezh" n m pl @root #3->0
+"<80>"
+	"80" num mf pl @nmod #4->3
+"<,>"
+	"," cm @punct #5->7
+"<e>"
+	"e" pr @case #6->7
+"<Sina>"
+	"Sina" np top sg @nmod #7->3
+"<.>"
+	"." sent @punct #8->3
+
+# text = Mignoniezh a sav etre an div blac'h yaouank, ha karantez zoken...
+# text[fra¹] = Amitié lève entre les deux jeunes filles, et amour même...
+"<Mignoniezh>"
+	"mignoniezh" n f sg @nsubj #1->3
+"<a>"
+	"a" vpart @aux #2->3
+"<sav>"
+	"sevel" vblex pri p3 sg @root #3->0
+"<etre>"
+	"etre" pr @case #4->7
+"<an>"
+	"an" det def sp @det #5->7
+"<div>"
+	"daou" num f pl @nummod #6->7
+"<blac'h>"
+	"plac’h" n f sg @obl #7->3
+"<yaouank>"
+	"yaouank" adj mf sp @amod #8->7
+"<,>"
+	"," cm @punct #9->11
+"<ha>"
+	"ha" cnjcoo @cc #10->11
+"<karantez>"
+	"karantez" n f sg @conj #11->3
+"<zoken>"
+	"zoken" adv @orphan #12->11
+"<...>"
+	"..." sent @punct #13->3
+
+# text = Mat-tre eo an disoc'h.
+# text[fra¹] = Le résultat est très bien
+"<Mat-tre>"
+	"mat" adj mf sp @root #1->0
+		"tre" adv @advmod #2->1
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #3->1
+"<an>"
+	"an" det def sp @det #4->5
+"<disoc'h>"
+	"disoc’h" n m sg @nsubj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Poanius, trist ha tener.
+# text[fra¹] = Pénible, triste et tendre.
+"<Poanius>"
+	"poanius" adj mf sp @root #1->0
+"<,>"
+	"," cm @punct #2->3
+"<trist>"
+	"trist" adj mf sp @conj #3->1
+"<ha>"
+	"ha" cnjcoo @cc #4->5
+"<tener>"
+	"tener" adj mf sp @conj #5->1
+"<.>"
+	"." sent @punct #6->1
+
+# text = Dimeurzh tremenet eo aet an traoù war-raok en Iwerzhon an Hanternoz.
+# text[fra¹] = Il mardi dernier est allé en avant les choses en Irlande le Nord.
+"<Dimeurzh>"
+	"dimeurzh" adv @advmod #1->4
+"<tremenet>"
+	"tremen" vblex pp @acl #2->1
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #3->4
+"<aet>"
+	"mont" vblex pp @root #4->0
+"<an>"
+	"an" det def sp @det #5->6
+"<traoù>"
+	"tra" n m pl @nsubj #6->4
+"<war-raok>"
+	"war-raok" adv @advmod #7->4
+"<en>"
+	"e" pr @case #8->9
+"<Iwerzhon>"
+	"Iwerzhon" np top sg @obl #9->4
+"<an>"
+	"an" det def sp @det #10->11
+"<Hanternoz>"
+	"hanternoz" n m sg @nmod:gen #11->9
+"<.>"
+	"." sent @punct #12->4
+
+# text = Disklêriet en deus ar pastor 81 bloaz e oa Iwerzhon an Hanternoz o voulc'hañ ur maread a beoc'h.
+# text[fra¹] = Il a déclaré le pasteur 81 ans il était l'Irlande le Nord en train d'entamer une époque de paix.
+"<Disklêriet>"
+	"disklêriañ" vblex pp @root #1->0
+"<en deus>"
+	"kaout" vblex pri p3 m sg @aux #2->1
+"<ar>"
+	"an" det def sp @det #3->4
+"<pastor>"
+	"pastor" n m sg @nsubj #4->1
+"<81>"
+	"81" num mf pl @nummod #5->6
+"<bloaz>"
+	"bloaz" n m sg @nmod:gen #6->4
+"<e>"
+	"e" vpart obj @aux #7->13
+"<oa>"
+	"bezañ" vblex pii p3 sg @aux #8->13
+"<Iwerzhon>"
+	"Iwerzhon" np top sg @nsubj #9->13
+"<an>"
+	"an" det def sp @det #10->11
+"<Hanternoz>"
+	"hanternoz" n m sg @nmod:gen #11->9
+"<o>"
+	"o" vpart ger @aux #12->13
+"<voulc'hañ>"
+	"boulc’hañ" vblex inf @ccomp #13->0
+"<ur>"
+	"un" det ind sp @det #14->15
+"<maread>"
+	"maread" n m sg @obj #15->13
+"<a>"
+	"a" pr @case #16->17
+"<beoc'h>"
+	"peoc’h" n m sg @nmod #17->15
+"<.>"
+	"." sent @punct #18->1
+
+# text = Ur film dudius eo neuze, met hep a-walc'h a bersonelezh evit ma vefe dispar.
+# text[fra¹] = Il est un film intéressant alors, mais sans assez à personnalité pour que soit super.
+"<Ur>"
+	"un" det ind sp @det #1->2
+"<film>"
+	"film" n m sg @root #2->0
+"<dudius>"
+	"dudius" adj mf sp @amod #3->2
+"<eo>"
+	"bezañ" vblex pri p3 sg @cop #4->2
+"<neuze>"
+	"neuze" adv @advmod #5->2
+"<,>"
+	"," cm @punct #6->14
+"<met>"
+	"met" cnjcoo @cc #7->11
+"<hep>"
+	"hep" pr @case #8->11
+"<a-walc'h>"
+	"a-walc’h" adv @advmod #9->11
+"<a>"
+	"a" pr @case #10->11
+"<bersonelezh>"
+	"personelezh" n f sg @conj #11->2
+"<evit ma>"
+	"evit ma" cnjadv @mark #12->14
+"<vefe>"
+	"bezañ" vblex cni p3 sg @cop #13->14
+"<dispar>"
+	"dispar" adj mf sp @advcl #14->11
+"<.>"
+	"." sent @punct #15->2
+
+# text = Skipailh Frañs, a veze sellet outañ evel ouzh unan kreñv, n'eo ket bet d'al live gortozet.
+# text[fra¹] = L'équipe de la France, était le regarder comme contre un fort, n'est pas été au niveau attendu.
+"<Skipailh>"
+	"skipailh" n m sg @nsubj #1->20
+"<Frañs>"
+	"Frañs" np top sg @nmod:gen #2->1
+"<,>"
+	"," cm @punct #3->6
+"<a>"
+	"a" vpart @aux #4->6
+"<veze>"
+	"bezañ" vblex pih p3 sg @aux #5->6
+"<sellet>"
+	"sellout" vblex pp @acl #6->1
+"<outañ>"
+	"ouzh" pr @case #7->8
+		"indirect" prn obj p3 m sg @obl #8->6
+"<evel>"
+	"evel" pr @case #9->11
+"<ouzh>"
+	"ouzh" pr @case #10->11
+"<unan>"
+	"unan" num mf sg @obl #11->6
+"<kreñv>"
+	"kreñv" adj mf sp @amod #12->11
+"<,>"
+	"," cm @punct #13->6
+"<n'>"
+	"ne" adv neg @advmod #14->20
+"<eo>"
+	"bezañ" vblex pri p3 sg @aux #15->20
+"<ket>"
+	"ket" adv @advmod #16->20
+"<bet>"
+	"bezañ" vblex pp @cop #17->20
+"<d'al>"
+	"da" pr @case #18->20
+		"an" det def sp @det #19->20
+"<live>"
+	"live" n m sg @root #20->0
+"<gortozet>"
+	"gortoz" vblex pp @acl #21->20
+"<.>"
+	"." sent @punct #22->20
+
 # text = Cheñchet o deus, met e gwirionez n'o deus ket cheñchet.
 # text[fra¹] = Ils ont changé, mais en vérité ils n'ont pas changé.
 "<Cheñchet>"
@@ -6158,6 +6847,67 @@
 	"toaz" n m sg @nmod:gen #5->4
 "<.>"
 	"." sent @punct #6->1
+
+# text = Un tañva eus he labour abaoe miz Meurzh 2005 a zo lakaet war wel aze, gant skeudennoù ha skritelloù arouezius eus al liammoù bet skoulmet etre he obererezhioù.
+# text[fra¹] = Une initiation de son travail depuis mars 2005 il a mis en évidence là, avec des images et des affiches significatives des liens qui été conclus entre ses activités.
+"<Un>"
+	"un" det ind sp @det #1->2
+"<tañva>"
+	"tañva" n m sg @dep #2->11
+"<eus>"
+	"eus" pr @case #3->5
+"<he>"
+	"he" det pos f sp @det #4->5
+"<labour>"
+	"labour" n m sg @nmod #5->2
+"<abaoe>"
+	"abaoe" pr @case #6->7
+"<miz Meurzh>"
+	"miz Meurzh" n m sp @nmod #7->5
+"<2005>"
+	"2005" num mf pl @nmod #8->7
+"<a>"
+	"a" vpart @aux #9->11
+"<zo>"
+	"bezañ" vblex pri p3 sg @aux #10->11
+"<lakaet>"
+	"lakaat" vblex pp @root #11->0
+"<war>"
+	"war" pr @case #12->13
+"<wel>"
+	"gwel" n m sg @obl #13->11
+"<aze>"
+	"aze" adv @advmod #14->11
+"<,>"
+	"," cm @punct #15->17
+"<gant>"
+	"gant" pr @case #16->17
+"<skeudennoù>"
+	"skeudenn" n f pl @obl #17->11
+"<ha>"
+	"ha" cnjcoo @cc #18->19
+"<skritelloù>"
+	"skritell" n f pl @conj #19->17
+"<arouezius>"
+	"arouezius" adj mf sp @amod #20->19
+"<eus>"
+	"eus" pr @case #21->23
+"<al>"
+	"an" det def sp @det #22->23
+"<liammoù>"
+	"liamm" n m pl @nmod #23->17
+"<bet>"
+	"bezañ" vblex pp @aux:pass #24->25
+"<skoulmet>"
+	"skoulmañ" vblex pp @acl #25->23
+"<etre>"
+	"etre" pr @case #26->28
+"<he>"
+	"he" det pos f sp @det #27->28
+"<obererezhioù>"
+	"obererezh" n m pl @obl #28->25
+"<.>"
+	"." sent @punct #29->11
 
 # text = Emañ ar PS o vont da sevel klemm dirak al lezenn, hervezañ n'eo ket diouzh al lezenn ober seurt traoù.
 # text[fra¹] = Le PS est en train d'aller à lever plaindre devant la loi, selon lui n'est pas de la loi faire la sorte de choses.
@@ -8324,6 +9074,32 @@
 "<?>"
 	"?" sent @punct #9->5
 
+# text = Gouzout a ran ... e preno Yann ur wetur nevez.
+# text[eng] = I know that ... Yann will buy a new car.
+# labels = stephens_1993 to_check
+"<Gouzout>"
+	"gouzout" vblex inf @root #1->0
+"<a>"
+	"a" vpart @aux #2->1
+"<ran>"
+	"ober" vblex pri p1 sg @aux #3->1
+"<...>"
+	"..." sent @punct #4->1
+"<e>"
+	"e" vpart obj @aux #5->6
+"<preno>"
+	"prenañ" vblex fti p3 sg @ccomp #6->1
+"<Yann>"
+	"Yann" np ant m sg @nsubj #7->6
+"<ur>"
+	"un" det ind sp @det #8->9
+"<wetur>"
+	"gwetur" n f sg @obj #9->6
+"<nevez>"
+	"nevez" adj mf sp @amod #10->9
+"<.>"
+	"." sent @punct #11->6
+
 # text = Petra he deus prenet ?
 # text[eng] = What has she bought?
 # labels = stephens_1993 to_check
@@ -8379,6 +9155,20 @@
 	"Yann" np ant m sg @nsubj #4->2
 "<?>"
 	"?" sent @punct #5->2
+
+# text = Hag o tont out?
+# text[eng] = Are you coming?
+# labels = stephens_1993 to_check
+"<Hag>"
+	"ha" cnjcoo @cc #1->3
+"<o>"
+	"o" vpart ger @aux #2->3
+"<tont>"
+	"dont" vblex inf @root #3->0
+"<out>"
+	"bezañ" vblex pri p2 sg @aux #4->3
+"<?>"
+	"?" sent @punct #5->3
 
 # text = N'ouzon ket piv a zo aze.
 # text[eng] = I don't know who is there.

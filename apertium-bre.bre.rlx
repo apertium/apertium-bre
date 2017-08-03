@@ -196,6 +196,7 @@ LIST Bevañ = "bevañ" ;
 LIST Kregiñ = "kregiñ" ;
 LIST Klevet = "klevet" ;
 LIST Aozañ = "aozañ" ;
+LIST Brudañ = "brudañ" ;
 
 LIST Lancer = "teurel" "teuler" ;
 LIST Aimer = "kariñ" "karout" ;
@@ -203,6 +204,7 @@ LIST Donner = "reiñ" "roiñ" ;
 LIST Tourner = "treiñ" "troiñ" ;
 LIST Commencer = "kregiñ" krogiñ" ;
 LIST Regarder = "sellout" "sellet" ; 
+LIST Connaître = "brudañ" "brudiñ" ; 
 LIST Organiser = "aozañ" "aoziñ" ; 
 LIST Entendre = "klevet" "klevout" ;
 LIST Chanter = "kanañ" "kanal" "kaniñ" ;
@@ -994,7 +996,7 @@ SELECT:x-pe_cm_notpren CC IF (0C Pe) (NOT 1 PRE-N) ;
 
 SECTION
 
-SELECT:l-kanañ_if_chanter Kanañ IF (0C Chanter) (0C Verb) ;
+SELECT:l-kanañ_if_chant Kanañ IF (0C Chanter) (0C Verb) ;
 
 SELECT:l-lenn_if_lire Lenn IF (0C Lire) (0C Verb) ;
 
@@ -1004,15 +1006,15 @@ SELECT:l-gwelout_if_voir Gwelout IF (0C Voir) (0C Verb) ;
 
 SELECT:l-lavarout_if_dir Lavarout IF (0C Dire) (0C Verb) ; 
 
-SELECT:l-sellout_if_regar Sellout IF (0C Regarder) (0C Verb) ; 
+SELECT:l-sellout_if_reg Sellout IF (0C Regarder) (0C Verb) ; 
 
 SELECT:l-reiñ_if_donne Reiñ IF (0C Donner) (0C Verb) ; 
 
-SELECT:l-karout_if_aimer Karout (0C Aimer) (0C Verb) ; 
+SELECT:l-karout_if_aime Karout (0C Aimer) (0C Verb) ; 
 
 SELECT:l-teuler_if_lance Teuler (0C Lancer) (0C Verb) ; 
 
-SELECT:l-treiñ_if_donner Treiñ IF (0C Tourner) (0C Verb) ; 
+SELECT:l-treiñ_if_donne Treiñ IF (0C Tourner) (0C Verb) ; 
 
 SELECT:l-bevãn_if_vivre Bevañ IF (0C Vivre) (0C Verb) ;
 
@@ -1021,6 +1023,8 @@ SELECT:l-kregiñ_if_comm Kregiñ IF (0C Commencer) (0C Verb) ;
 SELECT:l-klevet_if_enten Klevet IF (0C Entendre) (0C Verb) ; 
 
 SELECT:l-aozañ_if_organ Aozañ IF (0C Organiser) (0C Verb) ;
+
+SELECT:l-brudañ_if_conn Brudañ IF (0C Connaître) (0C Verb) ; 
 
 ###############################################################################
 ## Lexical selection 
