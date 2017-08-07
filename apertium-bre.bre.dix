@@ -18,6 +18,7 @@
     <sdef n="abbr"    c="Abbreviations"/>
     <sdef n="barb"    c="Barbarismes"/>
     <sdef n="sym"     c="Symbols"/>
+    <sdef n="foc"     c="Focus"/>
     <sdef n="al"      c="Autres"/>
     <sdef n="pr"      c="Preposition"/>
     <sdef n="cnjcoo"  c="Conjonction de coordination"/>
@@ -28931,6 +28932,7 @@
 
     <e r="LR"><p><l>'r</l><r>an<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
     <e r="LR"><p><l>'n</l><r>un<s n="det"/><s n="ind"/><s n="sp"/></r></p></e>
+    <e r="LR"><p><l>'ni</l><r>hini<s n="prn"/><s n="foc"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
     <!-- Skraboù - Apostrophes -->

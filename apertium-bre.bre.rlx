@@ -1,3 +1,5 @@
+###############################################################################
+
 DELIMITERS            = sent ".";
 SOFT-DELIMITERS       = "<,>" ;
 
@@ -38,7 +40,7 @@ LIST Dem              = (prn dem) (det dem) ;
 
 # Adjectives
 LIST Adj              = adj ;
-LIST Itg              = itg ;
+LIST Interr           = itg ;
 LIST Sup              = sup ;
 
 # Pronouns
@@ -47,7 +49,7 @@ LIST PrnObj           = (prn obj) ;
 LIST PrnDObj          = ("direct"ri prn obj) ;
 LIST PrnIObj          = ("indirect"ri prn obj) (+indirect) ;  # Lemmas from sub-readings are expressed as tags and prefixed with '+'
 LIST PrnInd	      = (prn ind) ;
-LIST PrnItg	      = (prn itg) ;
+LIST PrnInterr	      = (prn itg) ;
 LIST PrnDem           = (prn dem) ;
 LIST Rel              = rel ; 
 
@@ -161,6 +163,8 @@ LIST Unknown = "\*.*"r ;
 
 # Specific words
 
+LIST Pr/da = ("da" pr) ;
+
 LIST Vez = "<vez>"i ;
 LIST Ne = "ne" ;
 LIST Eur = ("<eur>"i n) ;
@@ -180,6 +184,7 @@ LIST Da = "da" ;
 LIST Hini = "hini" ;
 LIST Digit = "[0-9]+"r ;
 LIST Pa = "pa" ;
+LIST Oc’h = "<oc’h>"i "<oc'h>"i ;
 
 LIST Kanañ = "kanañ" ;
 LIST Lenn = "lenn" ;
@@ -248,7 +253,7 @@ MAP:synpunct @punct TARGET Cm ;
 
 SECTION
 
-SELECT VpartIDO IF (1C Vez) ;
+SELECT:x-ido_if_vez VpartIDO IF (1C Vez) ;
 
 REMOVE:x-nodetpos_top DetPos IF (0 DetPos) (0 Pr) (1C Toponim) ;
 
@@ -257,7 +262,7 @@ REMOVE:x-Vpart_no_verb Vpart IF (NOT 1 Verb) (NOT 1/* Verb) (NOT 1 Unknown) ;
 
 REMOVE:x-remove-vpart-nc Vpart IF (1C NC) ;
 
-SELECT VerbFin IF (-1 VpartIDO OR VpartSDO) (0 Vez) (1 PrfPrc) ;
+SELECT:x-fin_if_dobj_prc VerbFin IF (-1 VpartIDO OR VpartSDO) (0 Vez) (1 PrfPrc) ;
 	# Setu petra a vez graet.
 
 #Ma vez klasket sevel abadennoù
@@ -265,27 +270,27 @@ REMOVE:x-no_DetPos_verb DetPos IF (-1 BOS) (1C Verb) ;
 
 #ne goust netra / n'eus redi ebet
 # N'ez an ket da labourat
-SELECT VerbFin IF (-1C Ne) (NOT -1/* VerbAux) (NOT 0 Vpart) ;
+SELECT:x-fin_if_ne VerbFin IF (-1C Ne) (NOT -1/* VerbAux) (NOT 0 Vpart) ;
 
 #deuet e oan
 SELECT:x-vpart_pp_fin Vpart IF (-1C PrfPrc) (1 VerbFin) ;
 
 #pet eur eo 
-SELECT PrnItg IF (1 VerbImpers) ;
+SELECT:x-interr_if_imprs PrnInterr IF (1 VerbImpers) ;
 
-SELECT NC IF (-1 PrnItg) (0 Eur) (0 VerbImpers) (1 VerbFin) ;
+SELECT:x-nc_if_eur_fin NC IF (-1 PrnInterr) (0 Eur) (0 VerbImpers) (1 VerbFin) ;
 
 # bet (pp) no muta nunca.
 REMOVE:m-no_bet_pet Bet IF (0 Pet) ;
 
 # kouezhet oc’h
 # kouezhet oc'h bet izel-tre
-REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (NOT 1 ("<[aeiou].*>"ri)) (NOT 1 Verb OR Adv) ;
-REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (1 Adv) ;
-REMOVE Vpart IF (0 ("<oc’h>"ri) OR ("<oc'h>"ri)) (NOT 1 VerbInf) ;
+REMOVE:x-vpart_och_not_vow Vpart IF (0 Oc’h) (NOT 1 Vow) (NOT 1 Verb OR Adv) ;
+REMOVE:x-vpart_och_adv Vpart IF (0 Oc’h) (1 Adv) ;
+REMOVE:x-vpart_och_not_inf Vpart IF (0 Oc’h) (NOT 1 VerbInf) (NOT 1 Vpart LINK 1 VerbInf) ;
 
 # ne'z a ket mat. ne ya ket mat. 
-SELECT VerbFin IF (-1C Ne) (0 VerbFin) (1C Ket) ;
+SELECT:x-vfin_if_neket VerbFin IF (-1C Ne) (0 VerbFin) (1C Ket) ;
 
 # "pell ez a an dud"
 REMOVE:x-no_2_vpart Vpart IF (-1C Vpart) ;
@@ -295,10 +300,10 @@ SELECT:x-only_vpart_verb Verb IF (-1C Vpart) ;
 
 # Dav e vije.
 # Bremañ o gwelan.
-SELECT:x-Vpart_if_only_Vfin Vpart IF (1C VerbFin) (NOT 0 VpartGer) ;
+SELECT:x-Vpart_if_C_Vfin Vpart IF (1C VerbFin) (NOT 0 VpartGer) ;
 
 # Lakait ar sivi.
-SELECT:x-imper_if_bos VerbImp IF (0C Verb) (0C Pl2) (-1 BOS) ;
+SELECT:x-imper_if_bos VerbImp IF (0C Verb) (0C Pl2) (-1 BOS OR Cm) ;
 # @@@NEW
 
 # Remove imperatives for now
@@ -373,18 +378,18 @@ SELECT:x-vfin_not_nc VerbFin IF (-1 Vpart) (-1 Pr) (0 NC) (0 VerbFin) (1 NC) ;
 REMOVE:x-inf_if_kaout VerbInf IF (1 ("kaout" vblex)) ;
 
 # REGLA (     ): "a ra"
-REMOVE Pr IF (0 Pr) (0 Verb) (1 Vpart) (1 VerbFin) (NOT 1 PRE-N) ;
+REMOVE:x-pr_not_v_part Pr IF (0 Pr) (0 Verb) (1 Vpart) (1 VerbFin) (NOT 1 PRE-N) ;
 
-REMOVE Vpart IF (0 Vpart) (0 VerbFin) (-1 VerbFin) (-1 Vpart) (NOT -1 PRE-N) ;
+REMOVE:x-fin_not_part Vpart IF (0 Vpart) (0 VerbFin) (-1 VerbFin) (-1 Vpart) (NOT -1 PRE-N) ;
 
 # REGLA (B0022): "ne ... ket"
-SELECT Verb IF (-1 VpartNeg) (1 Ket) ;
+SELECT:x-neg_v_ket Verb IF (-1 VpartNeg) (1 Ket) ;
 
 # "Evit ar poent e c’heller ober gant e ijinadenn"
-SELECT VerbInf IF (-1 ("gellout" vblex) OR ("ober" vblex)) ;
+SELECT:l-gellout_ober VerbInf IF (-1 ("gellout" vblex) OR ("ober" vblex)) ;
 
 # REGLA (B0005): "na ganit ket"
-SELECT VerbImp IF (-1 VpartNegImp) ;
+SELECT:l-imp_part_negimp VerbImp IF (-1 VpartNegImp) ;
 
 # REGLA (B0006): "emañ e Brest"
 SELECT:m-e_no_SoftMut Pr IF (-1 Vbloc) (NOT 1 SoftMut) ;
@@ -415,7 +420,8 @@ SELECT PreAdv IF (1 (adj sint comp)) ;
 # 
 #   We need a list of verbs which come with their own verbal particles
 #
-REMOVE NC IF ((-3 Vpart) OR (-2 ("mont a ober"ri))) (-2 VerbFin) (-1 ("da" pr)) (0 VerbInf) (0 NC) ;
+REMOVE:x-nonc_part_ober NC IF (-3 Vpart) (-2 VerbFin) (-1 Pr/da) (0 VerbInf) (0 NC) ;
+REMOVE:x-nonc_mont_ober NC IF (-2 ("mont a ober"i)) (-2 VerbFin) (-1 Pr/da) (0 VerbInf) (0 NC) ;
 
 # REGLA (B    ): "met dav eo dezho goulenn un aotre evit gallout ober kement-mañ gant ar re OGK"
 SELECT Verb IF (-3 ("dav"ri adj)) (-2 ("<eo>"ri vblex)) (-1 PrnIObj) ;
@@ -514,7 +520,7 @@ REMOVE VerbInf IF (-1 ("ne"ri)) (1 ("ket"ri)) ;
    ## Redek a ran en ur c'hoarzhin.
 REMOVE VerbImp IF (-1 Vpart) (0 VerbFin) ;
 
-REMOVE Itg IF (1 PrfPrc) ;
+REMOVE Interr IF (1 PrfPrc) ;
 
 SELECT CS IF (1 VerbFin) (NOT 1 NC) (0 DetPos) ;
 
@@ -597,13 +603,13 @@ REMOVE:m-nc_not_fin VerbFin IF (-1C Pr) (-1C SoftMutTrigger) (0 NC) (0 VerbFin) 
 SELECT NC IF (-1C Num) (0 NC) (0 VerbFin) (NOT 0 Pr) ;
 
 # eil gwreg ma zad
-REMOVE:x-Remove_VerbFin_BOS VerbFin IF (-1 BOS) ;
+REMOVE:x-Rem_VerbFin_BOS VerbFin IF (-1 BOS) ;
 
 # re a dud
-SELECT ("re a" pr) IF (0 ("<re a>"ri)) (1C NC) ; 
+SELECT:l-re_a_nc ("re a" pr) IF (0 ("<re a>"ri)) (1C NC) ; 
 
 # re a Roazhon. re a Varcelona.
-SELECT ("re" prn) IF (0 ("<re>"ri)) (1C Toponim) ; 
+SELECT:l-re_a_toponim ("re" prn) IF (0 ("<re>"ri)) (1C Toponim) ; 
 
 
 # Interyecciones 
@@ -613,10 +619,10 @@ REMOVE:x-noInterj_cm Interj IF (NOT 1 Cm OR Excl) ;
 SELECT:x-interj_BOS Interj IF (-1 BOS) (1 Cm OR Excl) ;
 
 # ar staj-se, an hini kentañ evel-se
-SELECT DetDef IF (1 Hini) ;
+SELECT:x-detdef_hini DetDef IF (1 Hini) ;
 
 #an eil priz
-REMOVE Verb IF (-1C DetDef) (1C NC) ;
+REMOVE:x-no_v_detdef_nc Verb IF (-1C DetDef) (1C NC) ;
 
 #Prezidant Kevre Gouren Aodoù-an-Arvor
 #Ma c’hall
@@ -1031,7 +1037,8 @@ SELECT:l-brudañ_if_conn Brudañ IF (0C Connaître) (0C Verb) ;
 ###############################################################################
 SECTION
 
-REMOVE DetPos (0 ("e"ri pr)) (1 Num OR Language) ;
+REMOVE:x-detpos_num_lang DetPos (0 ("e"ri pr)) (1 Num OR Language) ;
+
 #SUBSTITUTE ("e") ("e:1") ("e"ri pr) (0 Pr) (1 Num OR Language) ;
 #
 #SUBSTITUTE ("den") ("den:1") ("den"ri n m pl) (-1C DetPos) ;

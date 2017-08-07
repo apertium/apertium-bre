@@ -6,6 +6,8 @@ _	vpart	obj	_	_	PART	_	_
 _	vpart	ger	_	_	PART	_	_
 _	prn	obj	_	_	_	PronType=Pers|Case=Acc	_
 _	prn	subj	_	_	_	PronType=Pers|Case=Nom	_
+_	_	pos|m	_	_	_	PronType=Pos|Gender[psor]=Msc	_
+_	_	pos|f	_	_	_	PronType=Pos|Gender[psor]=Fem	_
 _	_	acr	_	_	_	_	_
 _	_	al	_	_	_	_	_
 _	_	ant	_	_	_	_	_
@@ -74,4 +76,5 @@ _	sent	_	_	_	PUNCT	_	_
 _	vblex	_	_	_	VERB	_	_
 _	vbloc	_	_	_	VERB	_	_
 _	vpart	_	_	_	PART	_	_
+_	barb	_	_	_	X	_	_
 _	x	_	_	dep	X	_	dep

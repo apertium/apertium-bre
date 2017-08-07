@@ -3834,6 +3834,16 @@
 ^ar/an<det><def><sp>$
 ^plac'h/plac’h<n><f><sg>$
 ^yaouank/yaouank<adj><mf><sp>$
+^anezhañ/direct<prn><obj><p3><m><sg>$
+^./.<sent>$
+
+^Ar/an<det><def><sp>$
+^mab/mab<n><m><sg>$
+^a/a<vpart>$
+^welas/gwelout<vblex><past><p3><sg>$
+^ar/an<det><def><sp>$
+^plac'h/plac’h<n><f><sg>$
+^yaouank/yaouank<adj><mf><sp>$
 ^a/a<vpart>$
 ^oa/bezañ<vblex><pii><p3><sg>$
 ^deuet/dont<vblex><pp>$
@@ -3841,7 +3851,22 @@
 ^laborat/labourat<vblex><inf>$
 ^./.<sent>$
 
-^Lavaret/lavaret<vblex><pp>$
+^Ar/an<det><def><sp>$
+^mab/mab<n><m><sg>$
+^a/a<vpart>$
+^welas/gwelout<vblex><past><p3><sg>$
+^ar/an<det><def><sp>$
+^plac'h/plac’h<n><f><sg>$
+^yaouank/yaouank<adj><mf><sp>$
+^anezhañ/direct<prn><obj><p3><m><sg>$
+^a/a<vpart>$
+^oa/bezañ<vblex><pii><p3><sg>$
+^deuet/dont<vblex><pp>$
+^da/da<pr>$
+^labourat/labourat<vblex><inf>$
+^./.<sent>$
+
+^Lavaret/lavarout<vblex><pp>$
 ^em eus/kaout<vblex><pri><p1><sg>$
 ^deoc'h/da<pr>+indirect<prn><obj><p2><mf><pl>$
 ^e/e<vpart><obj>$
@@ -3940,6 +3965,18 @@
 ^war/war<pr>$
 ^da/da<det><pos><mf><sp>$
 ^gein/kein<n><m><sg>$
+^./.<sent>$
+
+^Ne/ne<adv><neg>$
+^douin/touiñ<vblex><fti><p1><sg>$
+^ket/ket<adv>$
+^ne/ne<adv><neg>$
+^oa/bezañ<vblex><pii><p3><sg>$
+^netra/netra<prn><def><mf><sg>$
+^da/da<pr>$
+^damall/tamall<vblex><inf>$
+^d'am/da<pr>+ma<det><pos><mf><sp>$
+^distagadur/distagadur<n><m><sg>$
 ^./.<sent>$
 
 ^Gwech ebet/gwech ebet<adv>$
@@ -4457,6 +4494,14 @@
 ^kavet/kavout<vblex><pp>$
 ^./.<sent>$
 
+^Al/an<det><def><sp>$
+^levr/levr<n><m><sg>$
+^-mañ/mañ<adv>$
+^'ni/hini<prn><foc><mf><sp>$
+^am eus/kaout<vblex><pri><p1><sg>$
+^kavet/kavout<vblex><pp>$
+^./.<sent>$
+
 ^Fall/fall<adj><mf><sp>$
 ^eo/bezañ<vblex><pri><p3><sg>$
 ^an/an<det><def><sp>$
@@ -4703,6 +4748,15 @@
 ^d'am/da<pr>+direct<prn><obj><p1><mf><sg>$
 ^c'has/kas<vblex><inf>$
 ^gantañ/gant<pr>+indirect<prn><obj><p3><m><sg>$
+^./.<sent>$
+
+^Buan/buan<adv>$
+^'ni/hini<prn><foc><mf><sp>$
+^e/e<vpart><obj>$
+^rede/redek<vblex><pii><p3><sg>$
+^dre/dre<pr>$
+^ar/an<det><def><sp>$
+^parkeier/park<n><m><pl>$
 ^./.<sent>$
 
 ^N'/ne<adv><neg>$

@@ -19,27 +19,26 @@
 	"." sent @punct #8->4
 
 # text = Ar mab a welas ar plac'h yaouank anezhañ.
-# text[eng] = The young woman saw the boy of-him.
+# text[eng] = The young woman saw the boy him.
 # labels = timm_1988 to_check
 "<Ar>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<mab>"
-	"mab" n m sg
+	"mab" n m sg @obj #2->4
 "<a>"
-	"a" vpart 
+	"a" vpart  @aux #3->4
 "<welas>"
-	"gwelout" vblex past p3 sg
+	"gwelout" vblex past p3 sg @root #4->0
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #5->6
 "<plac'h>"
-	"plac’h" n f sg
+	"plac’h" n f sg @nsubj #6->4
 "<yaouank>"
-	"yaouank" adj mf sp
+	"yaouank" adj mf sp @amod #7->6
 "<anezhañ>"
-	"eus" pr
-		"indirect" prn obj p3 m sg
+	"direct" prn obj p3 m sg @expl #9->4
 "<.>"
-	"." sent
+	"." sent @punct #10->4
 
 # text = Ar mab a welas ar plac'h yaouank a oa deuet da labourat.
 # text[eng] = The boy who saw the girl had come to work.
@@ -75,38 +74,39 @@
 # text[eng] = The boy whom the girl saw had come to work.
 # labels = timm_1988 to_check
 "<Ar>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<mab>"
-	"mab" n m sg
+	"mab" n m sg @obj #2->11
 "<a>"
-	"a" vpart
+	"a" vpart @aux #3->4
 "<welas>"
-	"gwelout" vblex past p3 sg
+	"gwelout" vblex past p3 sg @acl #4->2
 "<ar>"
-	"an" det def sp
+	"an" det def sp @det #5->6
 "<plac'h>"
-	"plac’h" n f sg
+	"plac’h" n f sg @nsubj #6->4
 "<yaouank>"
-	"yaouank" adj mf sp
+	"yaouank" adj mf sp @amod #7->6
 "<anezhañ>"
-	"eus" pr
-		"indirect" prn obj p3 m sg
+	"direct" prn obj p3 m sg @expl #8->4
 "<a>"
-	"a" vpart
+	"a" vpart @aux #9->11
 "<oa>"
-	"bezañ" vblex pii p3 sg
-"<deuet da>"
-	"dont# da" vblex pp
+	"bezañ" vblex pii p3 sg @aux #10->11
+"<deuet>"
+	"dont" vblex pp @root #11->0
+"<da>"
+	"da" pr @mark #12->13
 "<labourat>"
-	"labourat" vblex inf
+	"labourat" vblex inf @advcl #13->11
 "<.>"
-	"." sent
+	"." sent @punct #14->11
 
 # text = Lavaret em eus deoc'h e oa Janed.
 # text[eng] = I told you it was Janed.
 # labels = timm_1988 to_check
 "<Lavaret>"
-	"lavaret" vblex pp @root #1->0
+	"lavarout" vblex pp @root #1->0
 "<em eus>"
 	"kaout" vblex pri p1 sg @aux #2->1
 "<deoc'h>"
@@ -332,28 +332,28 @@
 # text[eng] = I won't swear that there was nothing to complain about in my pronunciation.
 # labels = timm_1988 to_check
 "<Ne>"
-	"ne" adv neg @advmod
+	"ne" adv neg @advmod #1->2
 "<douin>"
-	"touiñ" vblex fti p1 sg @root
+	"touiñ" vblex fti p1 sg @root #2->0
 "<ket>"
-	"ket" adv @advmod
+	"ket" adv @advmod #3->2
 "<ne>"
-	"ne" adv neg @advmod
+	"ne" adv neg @advmod #4->6
 "<oa>"
-	"bezañ" vblex pii p3 sg @
+	"bezañ" vblex pii p3 sg @cop #5->6
 "<netra>"
-	"netra" prn def mf sg @
+	"netra" prn def mf sg @ccomp #6->2
 "<da>"
-	"da" pr @
+	"da" pr @mark #7->8
 "<damall>"
-	"tamall" vblex inf @
+	"tamall" vblex inf @advcl #8->6
 "<d'am>"
-	"da" pr @
-		"ma" det pos mf sp @
+	"da" pr @case #9->11
+		"ma" det pos mf sp @det #10->11
 "<distagadur>"
-	"distagadur" n m sg @
+	"distagadur" n m sg @obl #11->8
 "<.>"
-	"." sent @
+	"." sent @punct #12->2
 
 # text = Gwech ebet n'in da skeiñ war unan n'anavezan ket.
 # text[eng] = I will never hit one who I don't know.
@@ -560,19 +560,14 @@
 "<Ur>"
 	"un" det ind sp
 "<gernevadez>"
-	"*gernevadez"
+	"kernevadez" n f sg
 "<e>"
 	"e" vpart obj
-;	"e" pr
-;	"e" n m sp
-;	"e" det pos m sp
-;	"direct" prn obj p3 m sg
 "<oa>"
 	"bezañ" vblex pii p3 sg
 "<anezhi>"
-	"direct" prn obj p3 f sg
-;	"eus" pr
-;		"indirect" prn obj p3 f sg
+	"eus" pr
+		"indirect" prn obj p3 f sg
 "<.>"
 	"." sent
 
@@ -2247,15 +2242,15 @@
 "<Al>"
 	"an" det def sp @det #1->2
 "<levr>"
-	"levr" n m sg @nsubj #2->6
+	"levr" n m sg @root #2->0
 "<-mañ>"
 	"mañ" adv @advmod #3->2
 "<eo>"
-	"bezañ" vblex pri p3 sg @cop #4->6
+	"bezañ" vblex pri p3 sg @cop #4->2
 "<an>"
 	"an" det def sp @det #5->6
 "<hini>"
-	"hini" prn ind mf sg @root #6->0
+	"hini" prn ind mf sg @nsubj #6->2
 "<am eus>"
 	"kaout" vblex pri p1 sg @aux #7->8
 "<kavet>"
@@ -2267,25 +2262,19 @@
 # text[eng] = This is the book I have found.
 # labels = stephens_1993 to_check
 "<Al>"
-	"an" det def sp
+	"an" det def sp @det #1->2
 "<levr>"
-	"levr" n m sg
+	"levr" n m sg @root #2->0
 "<-mañ>"
-	"mañ" adv
-"<'>"
-	"’" apos
-;	"a" vpart REMOVE:197
-;	"e" vpart obj REMOVE:197
-;	"o" vpart ger REMOVE:197
-"<ni>"
-	"prpers" prn subj p1 mf pl
+	"mañ" adv @advmod #3->2
+"<'ni>"
+	"hini" prn foc mf sp @nsubj #4->2
 "<am eus>"
-	"kaout" vblex pri p1 sg
+	"kaout" vblex pri p1 sg @aux #5->6
 "<kavet>"
-	"kavout" vblex pp
-;	"kavout" vblex imp p3 sg REMOVE:240
+	"kavout" vblex pp @acl:focus #6->4
 "<.>"
-	"." sent
+	"." sent @punct #7->4
 
 # text = Fall eo an amzer ha glav a ra.
 # text[eng] = The weather is bad and it is raining.
@@ -3136,50 +3125,34 @@
 
 # text = Buan 'ni e rede dre ar parkeier.
 # text[eng] = It's quickly he would run through the fields.
-# labels = press_1986 ch_morphology to_check
+# labels = press_1986 ch_morphology to_check cleft
 "<Buan>"
-	"buan" adv
-	"buan" adj mf sp
-"<'>"
-	"’" apos SELECT:908:m-apos_not_vpart
-;	"a" vpart SELECT:908:m-apos_not_vpart
-;	"e" vpart obj SELECT:908:m-apos_not_vpart
-;	"o" vpart ger SELECT:908:m-apos_not_vpart
-"<ni>"
-	"prpers" prn subj p1 mf pl
+	"buan" adv @root #1->0
+"<'ni>"
+	"hini" prn foc mf sp @nsubj #2->1
 "<e>"
-	"e" vpart obj SELECT:243:x-Vpart_if_only_Vfin
-;	"e" pr SELECT:243:x-Vpart_if_only_Vfin
-;	"e" n m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"e" det pos m sp SELECT:243:x-Vpart_if_only_Vfin
-;	"direct" prn obj p3 m sg SELECT:243:x-Vpart_if_only_Vfin
+	"e" vpart obj @aux #3->4
 "<rede>"
-	"redek" vblex pii p3 sg
+	"redek" vblex pii p3 sg @acl:focus #4->2
 "<dre>"
-	"dre" pr
+	"dre" pr @case #5->7
 "<ar>"
-	"an" det def sp
-;	"arat" vblex pri p3 sg REMOVE:373
+	"an" det def sp @det #6->7
 "<parkeier>"
-	"park" n m pl
+	"park" n m pl @obl #7->4
 "<.>"
-	"." sent
+	"." sent @punct #8->2
 
 # text = Da Roazhon 'ni eo aet.
 # text[eng] = It's to Rennes she's gone.
-# labels = press_1986 ch_morphology to_check
+# labels = press_1986 ch_morphology to_check cleft
 "<Da>"
 	"da" pr
 ;	"da" det pos mf sp REMOVE:200
 "<Roazhon>"
 	"Roazhon" np top sg
-"<'>"
-	"’" apos SELECT:908:m-apos_not_vpart
-;	"a" vpart SELECT:908:m-apos_not_vpart
-;	"e" vpart obj SELECT:908:m-apos_not_vpart
-;	"o" vpart ger SELECT:908:m-apos_not_vpart
-"<ni>"
-	"prpers" prn subj p1 mf pl
+"<'ni>"
+	"hini" prn foc mf sp 
 "<eo>"
 	"bezañ" vblex pri p3 sg
 "<aet>"
@@ -3689,20 +3662,15 @@
 
 # text = Va breur-me 'ni oa aet d'ar mor.
 # text[eng] = It's my brother had gone to see.
-# labels = press_1986 ch_morphology to_check
+# labels = press_1986 ch_morphology to_check cleft
 "<Ma>"
 	"ma" det pos mf sp 
 "<breur>"
 	"breur" n m sg
 "<-me>"
 	"prpers" prn subj p1 mf sg
-"<'>"
-	"a" vpart SELECT:294
-;	"’" apos SELECT:294
-;	"e" vpart obj SELECT:294
-;	"o" vpart ger SELECT:294
-"<ni>"
-	"prpers" prn subj p1 mf pl
+"<'ni>"
+	"hini" prn foc mf sp
 "<oa>"
 	"bezañ" vblex pii p3 sg
 "<aet>"
@@ -3722,19 +3690,14 @@
 
 # text = Eus Kemper 'ni teue va c'hoar bemdez.
 # text[eng] = It's from Quimper my sister would come every day.
-# labels = press_1986 ch_morphology to_check
+# labels = press_1986 ch_morphology to_check cleft
 "<Eus>"
 	"eus" pr
 ;	"bezañ" vblex pri p3 sg REMOVE:541:x-Remove_VerbFin_BOS
 "<Kemper>"
 	"Kemper" np top sg
-"<'>"
-	"’" apos SELECT:908:m-apos_not_vpart
-;	"a" vpart SELECT:908:m-apos_not_vpart
-;	"e" vpart obj SELECT:908:m-apos_not_vpart
-;	"o" vpart ger SELECT:908:m-apos_not_vpart
-"<ni>"
-	"prpers" prn subj p1 mf pl
+"<'ni>"
+	"hini" prn foc mf sp
 "<teue>"
 	"dont" vblex pii p3 sg
 "<va>"
@@ -6403,13 +6366,8 @@
 # labels = press_1986 ch_syntax p_189 to_check
 "<Gwelout>"
 	"gwelout" vblex inf
-"<'>"
-	"’" apos SELECT:945:m-apos_not_vpart
-;	"a" vpart SELECT:945:m-apos_not_vpart
-;	"e" vpart obj SELECT:945:m-apos_not_vpart
-;	"o" vpart ger SELECT:945:m-apos_not_vpart
-"<ni>"
-	"prpers" prn subj p1 mf pl
+"<'ni>"
+	"hini" prn foc mf sp
 "<'>"
 	"a" vpart SELECT:327
 ;	"’" apos SELECT:327
@@ -6742,13 +6700,8 @@
 	"liorzh" n f sg
 ;	"liorzhañ" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
 ;	"liorzhañ" vblex pri p3 sg REMOVE:738:x-novfin_stuff
-"<'>"
-	"’" apos SELECT:945:m-apos_not_vpart
-;	"a" vpart SELECT:945:m-apos_not_vpart
-;	"e" vpart obj SELECT:945:m-apos_not_vpart
-;	"o" vpart ger SELECT:945:m-apos_not_vpart
-"<ni>"
-	"prpers" prn subj p1 mf pl
+"<'ni>"
+	"prpers" prn foc mf sp
 "<c'hortoz>"
 	"gortoz" vblex inf
 ;	"gortoz" vblex imp p2 sg REMOVE:280:x-Imper_no_Excl
@@ -6765,13 +6718,8 @@
 	"un" det ind sp
 "<levr>"
 	"levr" n m sg
-"<'>"
-	"’" apos SELECT:945:m-apos_not_vpart
-;	"a" vpart SELECT:945:m-apos_not_vpart
-;	"e" vpart obj SELECT:945:m-apos_not_vpart
-;	"o" vpart ger SELECT:945:m-apos_not_vpart
-"<ni>"
-	"prpers" prn subj p1 mf pl
+"<'ni>"
+	"prpers" prn foc mf sp
 "<glask>"
 	"klask" vblex inf
 	"klask" n m sg
