@@ -7153,7 +7153,7 @@
 "<Gallout>"
 	"gallout" vblex inf @aux #1->4
 "<a>"
-	"a" vpart @aux #3->4
+	"a" vpart @aux #2->4
 "<rin>"
 	"ober" vblex fti p1 sg @aux #3->4
 "<ober>"
