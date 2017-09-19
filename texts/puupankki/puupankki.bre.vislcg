@@ -510,6 +510,34 @@
 "<.>"
 	"." sent @punct #6->5
 
+# text = En em walc’hiñ a ran.
+# text[fra] = Je me lave.
+# labels = to_check
+"<En em>"
+	"en em" vpart ref @aux #1->2
+"<walc’hiñ>"
+	"gwalc’hiñ" vblex inf @root #2->0
+"<a>"
+	"a" vpart @aux #3->2
+"<ran>"
+	"ober" vblex pri p1 sg @aux #4->2
+"<.>"
+	"." sent @punct #5->2
+
+# text = En em c'houlenn a ran.
+# text[fra] = Je me demande.
+# labels = to_check
+"<En em>"
+	"en em" vpart ref @aux #1->2
+"<c'houlenn>"
+	"goulenn" vblex inf @root #2->0
+"<a>"
+	"a" vpart @aux #3->2
+"<ran>"
+	"ober" vblex pri p1 sg @aux #4->2
+"<.>"
+	"." sent @punct #5->2
+
 # text = En em gannet out c'hoazh ?
 # text[fra] = Tu t'es encore battu ?
 # labels = to_check
@@ -860,6 +888,36 @@
 	"pevare" adj mf sp @root #4->0
 "<?>"
 	"?" sent @punct #5->4
+
+# text = Kontadennoù niverus en doa gellet dastum diwar komzoù Stéphanie Guillaume, eus Gavr.
+# text[fra¹] = Contes nombreux avaient pu ramasser des paroles de Stéphanie Guillaume, de Gâvres.
+# labels = to_check
+"<Kontadennoù>"
+	"kontadenn" n f pl @nsubj #1->5
+"<niverus>"
+	"niverus" adj mf sp @amod #2->1
+"<en doa>"
+	"kaout" vblex pii p3 m sg @aux #3->5
+"<gellet>"
+	"gellout" vblex pp @aux #4->5
+"<dastum>"
+	"dastum" vblex inf @root #5->0
+"<diwar>"
+	"diwar" pr @case #6->7
+"<komzoù>"
+	"komz" n f pl @obl #7->5
+"<Stéphanie>"
+	"Stéphanie" np ant f sg @nmod:poss #8->7
+"<Guillaume>"
+	"Guillaume" np ant m sg @flat:name #9->8
+"<,>"
+	"," cm @punct #10->8
+"<eus>"
+	"eus" pr @case #11->12
+"<Gavr>"
+	"Gavr" np top sg @nmod #12->8
+"<.>"
+	"." sent @punct #13->5
 
 # text = En teuliad e vez kinniget ur pennad diwar-benn stad an dachenn douar, arouezius eus an dizemglev padus etre Israeliz ha Palestiniz.
 # text[fra¹] = Dans le dossier est présenté un article au sujet de l'état du terrain terre, significative de la mésentente durable entre des Israéliens/Israéliens et des Palestiniens.

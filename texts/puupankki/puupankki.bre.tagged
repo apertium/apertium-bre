@@ -215,6 +215,18 @@
 ^./.<sent>$
 
 ^En em/en em<vpart><ref>$
+^walc’hiñ/gwalc’hiñ<vblex><inf>$
+^a/a<vpart>$
+^ran/ober<vblex><pri><p1><sg>$
+^./.<sent>$
+
+^En em/en em<vpart><ref>$
+^c'houlenn/goulenn<vblex><inf>$
+^a/a<vpart>$
+^ran/ober<vblex><pri><p1><sg>$
+^./.<sent>$
+
+^En em/en em<vpart><ref>$
 ^gannet/kannañ<vblex><pp>$
 ^out/bezañ<vblex><pri><p2><sg>$
 ^c'hoazh/c’hoazh<adv>$
@@ -364,6 +376,20 @@
 ^da/da<pr>$
 ^bevare/pevare<adj><mf><sp>$
 ^?/?<sent>$
+
+^Kontadennoù/kontadenn<n><f><pl>$
+^niverus/niverus<adj><mf><sp>$
+^en doa/kaout<vblex><pii><p3><m><sg>$
+^gellet/gellout<vblex><pp>$
+^dastum/dastum<vblex><inf>$
+^diwar/diwar<pr>$
+^komzoù/komz<n><f><pl>$
+^Stéphanie/Stéphanie<np><ant><f><sg>$
+^Guillaume/Guillaume<np><ant><m><sg>$
+^,/,<cm>$
+^eus/eus<pr>$
+^Gavr/Gavr<np><top><sg>$
+^./.<sent>$
 
 ^En/e<pr>+an<det><def><sp>$
 ^teuliad/teuliad<n><m><sg>$

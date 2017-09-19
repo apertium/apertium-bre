@@ -98,39 +98,31 @@
 # text[fra¹] = Contes nombreux avaient pu ramasser des paroles de Stéphanie Guillaume, de Gâvres.
 # labels = to_check
 "<Kontadennoù>"
-	"kontadenn" n f pl
+	"kontadenn" n f pl @nsubj #1->5
 "<niverus>"
-	"niverus" adj mf sp
+	"niverus" adj mf sp @amod #2->1
 "<en doa>"
-	"kaout" vblex pii p3 m sg
+	"kaout" vblex pii p3 m sg @aux #3->5
 "<gellet>"
-	"gellout" vblex pp
-;	"gellout" vblex imp p3 sg
+	"gellout" vblex pp @aux #4->5
 "<dastum>"
-	"dastum" vblex inf
-;	"dastum" vblex imp p2 sg
-;	"dastumañ" vblex imp p2 sg
-;	"dastum" n m sg
-;	"dastum" vblex pri p3 sg
-;	"dastumañ" vblex pri p3 sg
+	"dastum" vblex inf @root #5->0
 "<diwar>"
-	"diwar" pr
+	"diwar" pr @case #6->7
 "<komzoù>"
-	"komz" n f pl
+	"komz" n f pl @obl #7->5
 "<Stéphanie>"
-	"Stéphanie" np ant f sg
+	"Stéphanie" np ant f sg @nmod:poss #8->7
 "<Guillaume>"
-	"Guillaume" np ant m sg
+	"Guillaume" np ant m sg @flat:name #9->8
 "<,>"
-	"," cm
+	"," cm @punct #10->8
 "<eus>"
-	"eus" pr
-;	"bezañ" vblex pri p3 sg
+	"eus" pr @case #11->12
 "<Gavr>"
-	"Gavr" np top sg
-;	"gavr" n f sg
+	"Gavr" np top sg @nmod #12->8
 "<.>"
-	"." sent
+	"." sent @punct #13->5
 
 # text = Ur c'hi dezhañ galloudoù dreist-natur eo Volt.
 # text[fra¹] = Un chien à lui pouvoirs excellents-nature est Volt.

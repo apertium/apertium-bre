@@ -6289,46 +6289,29 @@
 # text[fra] = Je me lave.
 # labels = to_check
 "<En em>"
-	"en em" vpart ref @aux
+	"en em" vpart ref @aux #1->2
 "<walc’hiñ>"
-	"gwalc’hiñ" vblex inf
+	"gwalc’hiñ" vblex inf @root #2->0
 "<a>"
-	"a" vpart @aux
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
-;	"a" pr 
-;	"a" n m sp 
+	"a" vpart @aux #3->2
 "<ran>"
-	"ober" vblex pri p1 sg 
-;	"ran" n f sg 
+	"ober" vblex pri p1 sg @aux #4->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->2
 
 # text = En em c'houlenn a ran.
 # text[fra] = Je me demande.
 # labels = to_check
 "<En em>"
-	"en em" vpart ref @aux
+	"en em" vpart ref @aux #1->2
 "<c'houlenn>"
-	"goulenn" vblex pri p3 sg 
-;	"goulenn" n m sg 
-;	"goulenn" vblex imp p2 sg 
-;	"goulenn" vblex inf 
+	"goulenn" vblex inf @root #2->0
 "<a>"
-	"a" vpart @aux
-;	"mont" vblex imp p2 sg 
-;	"monet" vblex imp p2 sg 
-;	"mont" vblex pri p3 sg 
-;	"monet" vblex pri p3 sg 
-;	"a" pr 
-;	"a" n m sp 
+	"a" vpart @aux #3->2
 "<ran>"
-	"ober" vblex pri p1 sg 
-;	"ran" n f sg 
+	"ober" vblex pri p1 sg @aux #4->2
 "<.>"
-	"." sent @punct
+	"." sent @punct #5->2
 
 # text = Ret e vefe deomp en em gavout.
 # text[fra] = Il faudrait que l'on se retrouve.
