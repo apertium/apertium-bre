@@ -939,15 +939,15 @@
 
 # text = Gouestlet eo an darn vrasañ eus e oberenn d’an engravañ.
 # text[fra] = L'essentiel de son travail est consacré à la gravure.
-# labels = to_check opab_parallel
+# labels = opab_parallel
 "<Gouestlet>"
 	"gouestlañ" vblex pp @root #1->0
 "<eo>"
-	"bezañ" vblex pri p3 sg @dep #2->1
+	"bezañ" vblex pri p3 sg @aux:pass #2->1
 "<an>"
 	"an" det def sp @det #3->4
 "<darn>"
-	"darn" n f sg @dep #4->1
+	"darn" n f sg @nsubj #4->1
 "<vrasañ>"
 	"bras" adj sint sup @amod #5->4
 "<eus>"

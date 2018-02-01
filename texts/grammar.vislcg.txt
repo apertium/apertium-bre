@@ -172,7 +172,7 @@
 "<a>"
 	"a" vpart @aux #7->8
 "<ya>"
-	"mont" vblex pri p3 sg @root #8->12
+	"mont" vblex pri p3 sg @root #8->0
 "<d'ar>"
 	"da" pr @case #9->10
 		"an" det def sp @det #10->11
@@ -1270,7 +1270,7 @@
 "<al>"
 	"an" det def sp @det #5->6
 "<levr>"
-	"levr" n m sg @root #6->1
+	"levr" n m sg @obj #6->1
 "<.>"
 	"." sent @punct #7->1
 
@@ -1878,7 +1878,7 @@
 "<levr>"
 	"levr" n m sg @obj #7->4
 "<.>"
-	"." sent @root #8->4
+	"." sent @punct #8->4
 
 # text = Ne gollas ket Yann al levr.
 # text[eng] = Yann did not lose the book.
