@@ -30014,7 +30014,7 @@
 "<gwelet>"
 	"gwelout" vblex inf @advcl #11->2
 "<penaos>"
-	"penaos" adv itg @advmod #12->23
+	"penaos" adv itg @advmod #12->13
 "<kas>"
 	"kas" vblex inf @xcomp #13->11
 "<ar>"
