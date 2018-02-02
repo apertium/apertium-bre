@@ -46971,7 +46971,7 @@
 "<o>"
 	"o" vpart ger @aux #12->13
 "<voulc'hañ>"
-	"boulc’hañ" vblex inf @ccomp #13->0
+	"boulc’hañ" vblex inf @ccomp #13->1
 "<ur>"
 	"un" det ind sp @det #14->15
 "<maread>"
