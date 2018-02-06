@@ -13862,7 +13862,7 @@
 # text = Implijet eo ar japaneg gant 130 milion a dud, tout ar re zo bar vro.
 # text[fra¹] = Il a employé le japonais par 130 millions à gens, touts ceux qui sont égaux pays.
 # labels = to_check
-1	Implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	1	root	_	_
+1	Implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 3	ar	an	DET	det	_	4	det	_	_
 4	japaneg	japaneg	NOUN	n	Gender=Msc|Number=Sing	1	nsubj	_	_

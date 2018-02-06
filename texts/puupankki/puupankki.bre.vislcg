@@ -21585,7 +21585,7 @@
 # text[fra¹] = Il a employé le japonais par 130 millions à gens, touts ceux qui sont égaux pays.
 # labels = to_check
 "<Implijet>"
-	"implijout" vblex pp @root #1->1
+	"implijout" vblex pp @root #1->0
 "<eo>"
 	"bezañ" vblex pri p3 sg @aux:pass #2->1
 "<ar>"
