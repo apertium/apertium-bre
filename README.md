@@ -1,6 +1,4 @@
-Breton
-
-                            apertium-bre
+Breton (`apertium-bre`)
 ===============================================================================
 
 This is an Apertium monolingual language package for Breton. What
@@ -50,14 +48,18 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
+```
 $ echo "Brav eo an amzer" | apertium -d . bre-morph
 ^Brav/brav<adj><mf><sp>$ ^eo/bezañ<vblex><pri><p3><sg>$
 ^an/an<det><def><sp>/mont<vblex><pri><p1><sg>/monet<vblex><pri><p1><sg>$ 
 ^amzer/amzer<n><f><sg>$^./.<sent>$
+```
 
+```
 $ echo "Brav eo an amzer" | apertium -d . bre-tagger
 ^Brav/Brav<adj><mf><sp>$ ^eo/bezañ<vblex><pri><p3><sg>$ 
 ^an/an<det><def><sp>$ ^amzer/amzer<n><f><sg>$^./.<sent>$
+```
 
 Files and data
 ===============================================================================
