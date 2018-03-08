@@ -24,11 +24,13 @@ Compiling
 
 Given the requirements being installed, you should be able to just run:
 
+```
 $ ./configure
 $ make
+```
 
-You can use ./autogen.sh instead of ./configure if you're compiling
-from SVN.
+You can use `./autogen.sh` instead of `./configure` if you're compiling
+from GitHub.
 
 If you're doing development, you don't have to install the data, you
 can use it directly from this directory.
@@ -38,7 +40,7 @@ Apertium translation pair, then do (typically as root / with sudo):
 
 # make install
 
-You can give a --prefix to ./configure to install as a non-root user,
+You can give a `--prefix` to `./configure` to install as a non-root user,
 but make sure to use the same prefix when installing the translation
 pair and any other language packages.
 
@@ -64,11 +66,11 @@ $ echo "Brav eo an amzer" | apertium -d . bre-tagger
 Files and data
 ===============================================================================
 
-* apertium-bre.bre.dix            - Monolingual dictionary
-* bre.prob                        - Tagger model
-* apertium-bre.bre.rlx            - Constraint Grammar disambiguation rules
-* apertium-bre.post-bre.dix       - Post-generator
-* modes.xml                       - Translation modes
+* `apertium-bre.bre.dix`            - Monolingual dictionary
+* `bre.prob`                        - Tagger model
+* `apertium-bre.bre.rlx`            - Constraint Grammar disambiguation rules
+* `apertium-bre.post-bre.dix`       - Post-generator
+* `modes.xml`                       - Translation modes
 
 For more information
 ===============================================================================
@@ -83,7 +85,7 @@ Help and support
 If you need help using this language pair or data, you can contact:
 
 * Mailing list: apertium-stuff@lists.sourceforge.net
-* IRC: #apertium on irc.freenode.net
+* IRC: `#apertium` on `irc.freenode.net`
 
 See also the file AUTHORS included in this distribution.
 
