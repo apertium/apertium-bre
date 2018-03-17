@@ -31,3 +31,8 @@ texts/puupankki/puupankki.bre.tagged -text
 texts/puupankki/puupankki.bre.vislcg -text
 texts/war-bont.vislcg.txt -text
 texts/wikipedia.vislcg.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
