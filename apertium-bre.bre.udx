@@ -35,13 +35,13 @@ _	_	p1	_	_	_	Person=1	_
 _	_	p2	_	_	_	Person=2	_
 _	_	p3	_	_	_	Person=3	_
 _	_	past	_	_	_	VerbForm=Fin|Tense=Past	_
-_	_	pih	_	_	_	VerbForm=Fin|Tense=Past|Mood=Hab	_
+_	_	pih	_	_	_	VerbForm=Fin|Tense=Past|Aspect=Hab	_
 _	_	pii	_	_	_	VerbForm=Fin|Tense=Past|Mood=Ind	_
 _	_	pl	_	_	_	Number=Plur	_
 _	_	pos	_	_	_	Poss=Yes	_
 _	_	pp	_	_	_	VerbForm=Part|Tense=Past	_
 _	_	ppres	_	_	_	_	_
-_	_	prh	_	_	_	VerbForm=Fin|Tense=Pres|Mood=Hab	_
+_	_	prh	_	_	_	VerbForm=Fin|Tense=Pres|Aspect=Hab	_
 _	_	pri	_	_	_	VerbForm=Fin|Tense=Pres|Mood=Ind	_
 _	_	ref	_	_	_	Reflex=Yes	_
 _	_	rel	_	_	_	PronType=Rel	_
