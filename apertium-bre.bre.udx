@@ -4,8 +4,8 @@ _	vpart	opt	_	_	PART	Mood=Opt	_
 _	vpart	neg	_	_	PART	Polarity=Neg	_
 _	vpart	obj	_	_	PART	_	_
 _	vpart	ger	_	_	PART	_	_
-_	prn	obj	_	_	PRON	PronType=Pers|Case=Acc	_
-_	prn	subj	_	_	PRON	PronType=Pers|Case=Nom	_
+_	prn	obj	_	_	PRON	PronType=Prs|Case=Acc	_
+_	prn	subj	_	_	PRON	PronType=Prs|Case=Nom	_
 _	_	pos|m	_	_	_	Poss=Yes|Gender[psor]=Masc	_
 _	_	pos|f	_	_	_	Poss=Yes|Gender[psor]=Fem	_
 _	_	acr	_	_	_	_	_
