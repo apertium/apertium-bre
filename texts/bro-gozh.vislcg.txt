@@ -23,7 +23,7 @@
 "<!>"
 	"!" sent @punct #11->7
 
-# text = Brudet eo an Arvor dre ar bed tro-do.
+# text = Brudet eo an Arvor dre ar bed tro-dro.
 # text[fra] = L'Arvor est renommée à travers le monde.
 # labels = to_check song
 "<Brudet>"

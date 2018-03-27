@@ -16846,21 +16846,21 @@
 "<bep>"
 	"bep" det ind mf sg @det #10->11
 "<hini>"
-	"hini" prn ind mf sg @root #12->0
+	"hini" prn ind mf sg @root #11->0
 "<hag>"
-	"ha" cnjcoo @cc #13->12
+	"ha" cnjcoo @cc #12->13
 "<hañval>"
-	"hañval" adj mf sp @conj #14->12
+	"hañval" adj mf sp @conj #13->11
 "<e>"
-	"e" vpart obj @aux #15->14
+	"e" vpart obj @aux #14->13
 "<vo>"
-	"bezañ" vblex fti p3 sg @cop #16->14
+	"bezañ" vblex fti p3 sg @cop #15->13
 "<o>"
-	"o" det pos mf sp @det #17->18
+	"o" det pos mf sp @det #16->17
 "<framm>"
-	"framm" n m sg @nsubj #18->14
+	"framm" n m sg @nsubj #17->13
 "<.>"
-	"." sent @punct #19->12
+	"." sent @punct #18->11
 
 # text = 2 a Vinistrerezh an touristerezh ha 2 rener servijoù takadoù glas a strollegezhioù arall.
 # text[fra] = En 2005, le jury était composé de 4 personnes, 2 du Ministère du tourisme et 2 directeurs de services espaces verts d'autres collectivités.
@@ -20131,15 +20131,15 @@
 "<vez>"
 	"bezañ" vblex prh p3 sg @aux #10->11
 "<brudet>"
-	"brudañ" vblex pp @acl #12->8
+	"brudañ" vblex pp @acl #11->8
 "<gant>"
-	"gant" pr @case #13->14
+	"gant" pr @case #12->13
 "<pedadennoù>"
-	"pedadenn" n f pl @obl #14->12
+	"pedadenn" n f pl @obl #13->11
 "<divyezhek>"
-	"divyezhek" adj mf sp @amod #15->14
+	"divyezhek" adj mf sp @amod #14->13
 "<.>"
-	"." sent @punct #16->5
+	"." sent @punct #15->5
 
 # text = Gweladennoù ingal e brezhoneg evit an holl e kreizenn an arz a vremañ bep tro ma vez kinniget diskouezadegoù.
 # text[fra] = Des visites régulières en breton pour tous publics sont également organisées au centre d’art contemporain à l’occasion de chacune des expositions présentées.
@@ -20208,21 +20208,21 @@
 "<an>"
 	"an" det def sp @det #8->9
 "<takadoù>"
-	"takad" n m pl @obj #10->7
+	"takad" n m pl @obj #9->7
 "<annez>"
-	"annez" n m sg @nmod:gen #11->10
+	"annez" n m sg @nmod:gen #10->9
 "<,>"
-	"," cm @punct #12->13
+	"," cm @punct #11->12
 "<implij>"
-	"implij" n m sg @conj #13->11
+	"implij" n m sg @conj #12->9
 "<hag>"
-	"ha" cnjcoo @cc #14->15
+	"ha" cnjcoo @cc #13->14
 "<obererezh>"
-	"obererezh" n m sg @conj #15->11
+	"obererezh" n m sg @conj #14->9
 "<pennañ>"
-	"pennañ" adj mf sp @amod #16->15
+	"pennañ" adj mf sp @amod #15->14
 "<.>"
-	"." sent @punct #17->7
+	"." sent @punct #16->7
 
 # text = al leon zo kousket ouzh ma zreid n'eo ket an hini emaout o klask.
 # text[fra] = le lion endormi à mes pieds n'est pas celui que tu cherches.

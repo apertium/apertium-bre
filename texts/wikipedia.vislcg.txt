@@ -227,7 +227,7 @@
 "<al>"
 	"an" det def sp @det #21->22
 "<lise>"
-	"lise" n m sg @nmod:gen #22->21
+	"lise" n m sg @nmod:gen #22->20
 "<.>"
 	"." sent @punct #23->11
 
