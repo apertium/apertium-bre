@@ -481,7 +481,7 @@
 # text = Perak en em walc'hez ?
 # text[fra] = Pourquoi te laves tu ?
 # labels = to_check
-1	Perak	perak	ADV	adv	PronType=Itg	4	advmod	_	_
+1	Perak	perak	ADV	adv	PronType=Int	4	advmod	_	_
 2	en	en	X	x	_	3	dep	_	_
 3	em	em	PART	vpart	Reflex=Yes	4	aux	_	_
 4	walc'hez	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -556,7 +556,7 @@
 2	a	a	PART	vpart	_	4	aux	_	_
 3	rin	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	aux	_	_
 4	ober	ober	VERB	vblex	VerbForm=Inf	0	root	_	_
-5	kement-se	kement-se	PRON	prn	Case=Acc|Number=Sing|PronType=Dem|PronType=Prs	4	obj	_	SpaceAfter=No
+5	kement-se	kement-se	PRON	prn	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = apertium.vislcg.txt:50:782
@@ -620,7 +620,7 @@
 # text = Piv eo ar pempvet?
 # text[fra] = Qui est le cinquième?
 # labels = to_check
-1	Piv	piv	PRON	prn	PronType=Itg	4	nsubj	_	_
+1	Piv	piv	PRON	prn	PronType=Int	4	nsubj	_	_
 2	ar	an	DET	det	_	4	det	_	_
 3	pempvet	pempvet	ADJ	adj	_	0	root	_	_
 4	?	?	PUNCT	sent	_	4	punct	_	_
@@ -648,7 +648,7 @@
 # text = Piv zo da bevare?
 # text[fra] = Qui est arrivé quatrième?
 # labels = to_check
-1	Piv	piv	PRON	prn	PronType=Itg	4	nsubj	_	_
+1	Piv	piv	PRON	prn	PronType=Int	4	nsubj	_	_
 2	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	da	da	ADP	pr	_	4	case	_	_
 4	bevare	pevare	ADJ	adj	_	0	root	_	SpaceAfter=No
@@ -681,7 +681,7 @@
 2	_	an	DET	det	_	3	det	_	_
 3	teuliad	teuliad	NOUN	n	Gender=Masc|Number=Sing	6	obl	_	_
 4	e	e	PART	vpart	_	6	aux	_	_
-5	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	kinniget	kinnig	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 7	ur	un	DET	det	_	8	det	_	_
 8	pennad	pennad	NOUN	n	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -758,7 +758,7 @@
 1	Diskouezadegoù	diskouezadeg	NOUN	n	Gender=Fem|Number=Plur	5	nsubj	_	_
 2	skeudennoù	skeudenn	NOUN	n	Gender=Fem|Number=Plur	1	nmod:gen	_	_
 3	a	a	PART	vpart	_	5	aux	_	_
-4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	graet	ober	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 6	ingal	ingal	ADV	adv	_	5	advmod	_	_
 7	gant	gant	ADP	pr	_	8	case	_	_
@@ -871,7 +871,7 @@
 # text[fra¹] = vous n'êtes délaissé jamais avec lui.
 # labels = to_check
 1	Ne	ne	ADV	adv	Polarity=Neg	3	advmod	_	_
-2	vezit	bezañ	VERB	vblex	Mood=Hab|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	vezit	bezañ	VERB	vblex	Aspect=Hab|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	dilezet	dilezel	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	gwezh	gwezh	X	x	_	5	dep	_	_
 5	ebet	ebet	ADV	adv	_	3	advmod	_	_
@@ -1613,7 +1613,7 @@
 9	Meurzh	Meurzh	NOUN	n	Gender=Masc	5	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	cm	_	5	punct	_	_
 11	e	e	PART	vpart	_	13	aux	_	_
-12	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	lidet	lidañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 14	devezh	devezh	NOUN	n	Gender=Masc|Number=Sing	13	nsubj	_	_
 15	etrebroadel	etrebroadel	ADJ	adj	_	14	amod	_	_
@@ -1687,7 +1687,7 @@
 15	INSEE	INSEE	NOUN	n	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	rpar	_	15	punct	_	_
 17	e	e	PART	vpart	_	19	aux	_	_
-18	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+18	veze	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
 19	paeet	paeañ	VERB	vblex	Tense=Past|VerbForm=Part	10	csubj	_	_
 20	ar	an	DET	det	_	21	det	_	_
 21	merc'hed	merc’h	NOUN	n	Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
@@ -1852,11 +1852,11 @@
 11	a-benn	a-benn	ADP	pr	_	12	mark	_	_
 12	gouzout	gouzout	VERB	vblex	VerbForm=Inf	1	advcl	_	_
 13	"	"	_	quot	_	15	punct	_	SpaceAfter=No
-14	piv	piv	PRON	prn	Case=Acc|PronType=Itg|PronType=Prs	12	obj	_	SpaceAfter=No
+14	piv	piv	PRON	prn	PronType=Int	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	cm	_	17	punct	_	_
-16	petra	petra	PRON	prn	PronType=Itg	15	conj	_	_
+16	petra	petra	PRON	prn	PronType=Int	15	conj	_	_
 17	ha	ha	CCONJ	cnjcoo	_	19	cc	_	_
-18	penaos	penaos	ADV	adv	PronType=Itg	15	conj	_	SpaceAfter=No
+18	penaos	penaos	ADV	adv	PronType=Int	15	conj	_	SpaceAfter=No
 19	"	"	_	quot	_	15	punct	_	_
 20	e-keñver	e-keñver	ADP	pr	_	23	case	_	_
 21	ar	an	DET	det	_	23	det	_	_
@@ -2003,7 +2003,7 @@
 10	hiziv	hiziv	ADV	adv	_	3	advmod	_	_
 11	evit	evit	ADP	pr	_	12	mark	_	_
 12	gwelet	gwelout	VERB	vblex	VerbForm=Inf	3	advcl	_	_
-13	penaos	penaos	ADV	adv	PronType=Itg	14	advmod	_	_
+13	penaos	penaos	ADV	adv	PronType=Int	14	advmod	_	_
 14	kas	kas	VERB	vblex	VerbForm=Inf	12	xcomp	_	_
 15	ar	an	DET	det	_	16	det	_	_
 16	stourm	stourm	NOUN	n	Gender=Masc|Number=Sing	14	obj	_	_
@@ -2211,7 +2211,7 @@
 9	dremm	dremm	NOUN	n	Gender=Fem|Number=Sing	8	nmod:gen	_	SpaceAfter=No
 10	"	"	_	quot	_	8	punct	_	_
 11	a	a	PART	vpart	_	13	aux	_	_
-12	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	kinniget	kinnig	VERB	vblex	Tense=Past|VerbForm=Part	6	acl	_	_
 14	bep	bep	DET	det	Number=Sing	15	det	_	_
 15	sizhun	sizhun	NOUN	n	Gender=Fem|Number=Sing	13	obl	_	_
@@ -2467,10 +2467,10 @@
 3	r	an	DET	det	_	4	det	_	_
 4	sizhun	sizhun	NOUN	n	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 5	-mañ	mañ	ADV	adv	_	4	advmod	_	_
-6	peseurt	peseurt	ADJ	adj	PronType=Itg	7	amod	_	_
+6	peseurt	peseurt	ADJ	adj	PronType=Int	7	amod	_	_
 7	strategiezhioù	strategiezh	NOUN	n	Gender=Fem|Number=Plur	10	nsubj	_	_
 8	a	a	PART	vpart	_	10	aux	_	_
-9	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	lakaet	lakaat	VERB	vblex	Tense=Past|VerbForm=Part	1	ccomp	_	_
 11	e-pleustr	e-pleustr	ADV	adv	_	10	advmod	_	_
 12	gant	gant	ADP	pr	_	14	case	_	_
@@ -2848,7 +2848,7 @@
 1	Da	da	ADP	pr	_	2	case	_	_
 2	eil	eil	NUM	num	NumType=Ord	5	obl	_	_
 3	e	e	PART	vpart	_	5	aux	_	_
-4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	erlec'hiet	erlec’hiañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 6	genoù	genoù	NOUN	n	Gender=Masc|Number=Sing	5	nsubj	_	_
 7-8	liesseurt-kenañ	_	_	_	_	_	_	_	_
@@ -3251,7 +3251,7 @@
 4	ket	ket	ADV	adv	_	5	advmod	_	_
 5	alies	alies	ADV	adv	_	0	root	_	_
 6	e	e	PART	vpart	_	8	aux	_	_
-7	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	klevet	klevet	VERB	vblex	Tense=Past|VerbForm=Part	5	csubj	_	_
 9	komz	komz	VERB	vblex	VerbForm=Inf	8	xcomp	_	_
 10	eus	eus	ADP	pr	_	12	case	_	_
@@ -3383,7 +3383,7 @@
 14	ober	ober	VERB	vblex	VerbForm=Inf	12	advcl	_	_
 15	ar	ar	X	x	_	17	dep	_	_
 16	pezh	pezh	X	x	_	17	dep	_	_
-17	a	a	PRON	prn	Case=Acc|Number=Sing|PronType=Prs|PronType=Rel	14	obj	_	_
+17	a	a	PRON	prn	Number=Sing|PronType=Rel	14	obj	_	_
 18	garont	karout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	SpaceAfter=No
 19	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -3533,7 +3533,7 @@
 3	vourk	bourk	NOUN	n	Gender=Masc|Number=Sing	7	obl	_	_
 4	Lanniliz	Lanniliz	PROPN	np	Number=Sing	3	nmod:gen	_	_
 5	e	e	PART	vpart	_	7	aux	_	_
-6	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 7	aozet	aozañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 8	Tro	tro	NOUN	n	Gender=Fem|Number=Sing	7	nsubj	_	_
 9	Bro Leon	bro-Leon	PROPN	np	Number=Sing	8	nmod:gen	_	_
@@ -3614,7 +3614,7 @@
 7	ar	an	DET	det	_	8	det	_	_
 8	perzh	perzh	NOUN	n	Gender=Masc|Number=Sing	5	nmod	_	_
 9	a	a	PART	vpart	_	11	aux	_	_
-10	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+10	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	roet	reiñ	VERB	vblex	Tense=Past|VerbForm=Part	8	acl	_	_
 12	hiriv	hiziv	ADV	adv	_	11	advmod	_	_
 13-14	d'an	_	_	_	_	_	_	_	_
@@ -3697,7 +3697,7 @@
 # labels = to_check
 1	Gwelet	gwelout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	hon eus	kaout	VERB	vblex	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	_
-3	pegen	pegen	ADV	adv	PronType=Itg	4	advmod	_	_
+3	pegen	pegen	ADV	adv	PronType=Int	4	advmod	_	_
 4	bras	bras	ADJ	adj	_	1	ccomp	_	_
 5	e	e	PART	vpart	_	4	aux	_	_
 6	oa	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -3714,7 +3714,7 @@
 17	ar	ar	X	x	_	19	dep	_	_
 18	pezh	pezh	X	x	_	19	dep	_	_
 19	a	a	PRON	prn	Number=Sing|PronType=Rel	10	conj	_	_
-20	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+20	veze	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
 21	graet	ober	VERB	vblex	Tense=Past|VerbForm=Part	19	acl	_	_
 22-23	gantañ	_	_	_	_	_	_	_	SpaceAfter=No
 22	gantañ	gant	ADP	pr	_	23	case	_	_
@@ -3801,7 +3801,7 @@
 16	lezenn	lezenn	NOUN	n	Gender=Fem|Number=Sing	10	nsubj	_	_
 17	nevez	nevez	ADJ	adj	_	16	amod	_	_
 18	diwar-benn	diwar-benn	ADP	pr	_	20	mark	_	_
-19	penaos	penaos	ADV	adv	PronType=Itg	20	advmod	_	_
+19	penaos	penaos	ADV	adv	PronType=Int	20	advmod	_	_
 20	heuliañ	heuliañ	VERB	vblex	VerbForm=Inf	16	acl	_	_
 21	an	an	DET	det	_	22	det	_	_
 22	OGM	OGM	NOUN	n	Gender=Masc|Number=Sing	20	obj	_	_
@@ -3824,7 +3824,7 @@
 5	eta	eta	ADV	adv	_	1	advmod	_	_
 6	da	da	ADP	pr	_	7	mark	_	_
 7	c'houzout	gouzout	VERB	vblex	VerbForm=Inf	1	advcl	_	_
-8	petra	petra	PRON	prn	PronType=Itg	13	nsubj	_	_
+8	petra	petra	PRON	prn	PronType=Int	13	nsubj	_	_
 9	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 10	e-barzh	e-barzh	ADP	pr	_	13	case	_	_
 11	ar	ar	X	x	_	13	dep	_	_
@@ -4065,7 +4065,7 @@
 # text = Perak eo mat?
 # text[fra¹] = Pourquoi Elle est bien?
 # labels = to_check
-1	Perak	perak	ADV	adv	PronType=Itg	3	advmod	_	_
+1	Perak	perak	ADV	adv	PronType=Int	3	advmod	_	_
 2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	mat	mat	ADJ	adj	_	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	sent	_	3	punct	_	_
@@ -4100,7 +4100,7 @@
 3	a	a	PART	vpart	_	4	aux	_	_
 4	oar	gouzout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	dija	dija	ADV	adv	_	4	advmod	_	_
-6	piv	piv	PRON	prn	PronType=Itg	8	nsubj	_	_
+6	piv	piv	PRON	prn	PronType=Int	8	nsubj	_	_
 7	a	a	PART	vpart	_	8	aux	_	_
 8	zeuy	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
 9	da	da	ADP	pr	_	10	case	_	_
@@ -4130,7 +4130,7 @@
 # text[fra¹] = Si vous avez envie de participer dans un combat social ou politique, il sera la bonne année pour saisir-poète.
 # labels = to_check
 1	M'	ma	SCONJ	cnjsub	_	2	mark	_	SpaceAfter=No
-2	ho pez	kaout	VERB	vblex	Mood=Hab|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+2	ho pez	kaout	VERB	vblex	Aspect=Hab|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 3	c'hoant	c’hoant	NOUN	n	Gender=Masc|Number=Sing	2	obj	_	_
 4	da	da	ADP	pr	_	5	mark	_	_
 5	gemer	kemer	VERB	vblex	VerbForm=Inf	2	advcl	_	_
@@ -4486,7 +4486,7 @@
 2	Frañs	Frañs	PROPN	np	Number=Sing	1	nmod:gen	_	SpaceAfter=No
 3	,	,	PUNCT	cm	_	6	punct	_	_
 4	a	a	PART	vpart	_	6	aux	_	_
-5	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	veze	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 6	sellet	sellout	VERB	vblex	Tense=Past|VerbForm=Part	1	acl	_	_
 7-8	outañ	_	_	_	_	_	_	_	_
 7	outañ	ouzh	ADP	pr	_	8	case	_	_
@@ -4645,7 +4645,7 @@
 25	-	-	PUNCT	guio	_	26	punct	_	SpaceAfter=No
 26	kemm	kemm	NOUN	n	Gender=Masc|Number=Sing	24	compound	_	_
 27	a	a	PART	vpart	_	29	aux	_	_
-28	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
+28	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux:pass	_	_
 29	kinniget	kinnig	VERB	vblex	Tense=Past|VerbForm=Part	24	acl	_	SpaceAfter=No
 30	.	.	PUNCT	sent	_	1	punct	_	_
 
@@ -4957,7 +4957,7 @@
 # labels = to_check
 1	Ma	ma	SCONJ	cnjsub	_	2	mark	_	_
 2	ouifemp	gouzout	VERB	vblex	Mood=Cond|Number=Plur|Person=1	16	advcl	_	_
-3	penaos	penaos	ADV	adv	PronType=Itg	5	advmod	_	_
+3	penaos	penaos	ADV	adv	PronType=Int	5	advmod	_	_
 4	e	e	PART	vpart	_	5	aux	_	_
 5	vev	bevañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 6	ar	an	DET	det	_	7	det	_	_
@@ -5619,7 +5619,7 @@
 7	yaouank	yaouank	ADJ	adj	_	6	amod	_	SpaceAfter=No
 8	-se	se	ADV	adv	_	6	advmod	_	_
 9	a	a	PART	vpart	_	11	aux	_	_
-10	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	veze	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
 11	ret	ret	ADJ	adj	_	6	acl	_	_
 12-13	dezho	_	_	_	_	_	_	_	_
 12	dezho	da	ADP	pr	_	13	case	_	_
@@ -6136,7 +6136,7 @@
 3	ket	ket	ADV	adv	_	2	advmod	_	_
 4	an	an	DET	det	_	5	det	_	_
 5	den	den	NOUN	n	Gender=Masc|Number=Sing	2	nsubj	_	_
-6	pelec'h	pelec’h	ADV	adv	PronType=Itg	8	advmod	_	_
+6	pelec'h	pelec’h	ADV	adv	PronType=Int	8	advmod	_	_
 7	e	e	PART	vpart	_	8	aux	_	_
 8	klevas	klevet	VERB	vblex	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 9	an	an	DET	det	_	10	det	_	_
@@ -6184,7 +6184,7 @@
 # text = Piv en deus prenet an ti ruz?
 # text[eng] = Who has bought the red house?
 # labels = stephens_1993 to_check
-1	Piv	piv	PRON	prn	PronType=Itg	3	nsubj	_	_
+1	Piv	piv	PRON	prn	PronType=Int	3	nsubj	_	_
 2	en deus	kaout	VERB	vblex	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	prenet	prenañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	an	an	DET	det	_	5	det	_	_
@@ -6206,7 +6206,7 @@
 # text = Petra en deus prenet Yann?
 # text[eng] = What has Yann bought ?
 # labels = stephens_1993 to_check
-1	Petra	petra	PRON	prn	Case=Acc|PronType=Itg|PronType=Prs	3	obj	_	_
+1	Petra	petra	PRON	prn	PronType=Int	3	obj	_	_
 2	en deus	kaout	VERB	vblex	Gender=Masc|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	prenet	prenañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	Yann	Yann	PROPN	np	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
@@ -6217,7 +6217,7 @@
 # text[eng] = By whom was the red house bought?
 # labels = stephens_1993 to_check
 1	Gant	gant	ADP	pr	_	2	case	_	_
-2	piv	piv	PRON	prn	PronType=Itg	5	obl:agent	_	_
+2	piv	piv	PRON	prn	PronType=Int	5	obl:agent	_	_
 3	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	bet	bezañ	VERB	vblex	Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	prenet	prenañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
@@ -6246,7 +6246,7 @@
 # text = Petra he deus prenet ?
 # text[eng] = What has she bought?
 # labels = stephens_1993 to_check
-1	Petra	petra	PRON	prn	Case=Acc|PronType=Itg|PronType=Prs	3	obj	_	_
+1	Petra	petra	PRON	prn	PronType=Int	3	obj	_	_
 2	he deus	kaout	VERB	vblex	Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	prenet	prenañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	?	?	PUNCT	sent	_	3	punct	_	_
@@ -6255,7 +6255,7 @@
 # text = Pelec'h emañ ar vugale?
 # text[eng] = Where are the children?
 # labels = stephens_1993 to_check
-1	Pelec'h	pelec’h	ADV	adv	PronType=Itg	0	root	_	_
+1	Pelec'h	pelec’h	ADV	adv	PronType=Int	0	root	_	_
 2	emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	ar	an	DET	det	_	4	det	_	_
 4	vugale	bugel	NOUN	n	Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
@@ -6265,7 +6265,7 @@
 # text = Pegoulz e teuio da gêr?
 # text[eng] = When will he come home?
 # labels = stephens_1993 to_check
-1	Pegoulz	pegoulz	ADV	adv	PronType=Itg	3	advmod	_	_
+1	Pegoulz	pegoulz	ADV	adv	PronType=Int	3	advmod	_	_
 2	e	e	PART	vpart	_	3	aux	_	_
 3	teuio	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	da	da	ADP	pr	_	5	case	_	_
@@ -6277,7 +6277,7 @@
 # text[eng] = With whom is Yann?
 # labels = stephens_1993 to_check
 1	Gant	gant	ADP	pr	_	2	case	_	_
-2	piv	piv	PRON	prn	PronType=Itg	0	root	_	_
+2	piv	piv	PRON	prn	PronType=Int	0	root	_	_
 3	emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 4	Yann	Yann	PROPN	np	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 5	?	?	PUNCT	sent	_	2	punct	_	_
@@ -6299,7 +6299,7 @@
 1	N'	ne	ADV	adv	Polarity=Neg	2	advmod	_	SpaceAfter=No
 2	ouzon	gouzout	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ket	ket	ADV	adv	_	2	advmod	_	_
-4	piv	piv	PRON	prn	PronType=Itg	7	nsubj	_	_
+4	piv	piv	PRON	prn	PronType=Int	7	nsubj	_	_
 5	a	a	PART	vpart	_	7	aux	_	_
 6	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	aze	aze	ADV	adv	_	2	ccomp	_	SpaceAfter=No
@@ -6312,7 +6312,7 @@
 1	Gouzout	gouzout	VERB	vblex	VerbForm=Inf	0	root	_	_
 2	a	a	PART	vpart	_	1	aux	_	_
 3	rez	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	aux	_	_
-4	pelec'h	pelec’h	ADV	adv	PronType=Itg	1	ccomp	_	_
+4	pelec'h	pelec’h	ADV	adv	PronType=Int	1	ccomp	_	_
 5	emañ	bezañ	VERB	vbloc	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	4	punct	_	_
 
@@ -6750,7 +6750,7 @@
 3	ket	ket	ADV	adv	_	4	advmod	_	_
 4	labouret	labourat	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 5	a-walc'h	a-walc’h	ADV	adv	_	4	advmod	_	_
-6	se	se	PRON	prn	Case=Acc|Number=Sing|PronType=Dem|PronType=Prs	4	obj	_	SpaceAfter=No
+6	se	se	PRON	prn	Number=Sing|PronType=Dem	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	sent	_	4	punct	_	_
 
 # sent_id = grammar.vislcg.txt:113:2147
@@ -7140,7 +7140,7 @@
 1	E	e	ADP	pr	_	2	case	_	_
 2	Lesneven	Lesneven	PROPN	np	Number=Sing	0	root	_	_
 3	e	e	PART	vpart	_	2	aux	_	_
-4	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+4	veze	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
 5	bemdez	bemdez	ADV	adv	_	2	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	2	punct	_	_
 
@@ -7263,7 +7263,7 @@
 # text = Piv eo an den-se?
 # text[eng] = Who is that man?
 # labels = press_1986 ch_morphology to_check
-1	Piv	piv	PRON	prn	PronType=Itg	0	root	_	_
+1	Piv	piv	PRON	prn	PronType=Int	0	root	_	_
 2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	an	an	DET	det	_	4	det	_	_
 4	den	den	NOUN	n	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
@@ -7656,7 +7656,7 @@
 3	c'houlenn	goulenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
-6	hag-eñ	hag-eñ	PRON	prn	PronType=Itg	8	nsubj	_	_
+6	hag-eñ	hag-eñ	PRON	prn	PronType=Int	8	nsubj	_	_
 7	e	e	PART	vpart	_	8	aux	_	_
 8	teuy	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
 9	pe	pe	CCONJ	cnjcoo	_	11	cc	_	_
@@ -7888,7 +7888,7 @@
 # text = Pegement e labour-hi e-pad an devezh?
 # text[eng] = How much does she work during the day?
 # labels = press_1986 ch_morphology to_check
-1	Pegement	pegement	ADV	adv	PronType=Itg	3	advmod	_	_
+1	Pegement	pegement	ADV	adv	PronType=Int	3	advmod	_	_
 2	e	e	PART	vpart	_	3	aux	_	_
 3	labour	labourat	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-hi	prpers	PRON	prn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -8111,7 +8111,7 @@
 # text = Piv a wel Yannig ?
 # text[fra] = Qui a vu Yannig ?
 # labels = press_1986 ch_syntax to_check
-1	Piv	piv	PRON	prn	PronType=Itg	3	nsubj	_	_
+1	Piv	piv	PRON	prn	PronType=Int	3	nsubj	_	_
 2	a	a	PART	vpart	_	3	aux	_	_
 3	wel	gwelout	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Yannig	Yannig	PROPN	np	Gender=Masc|Number=Sing	3	obj	_	_
@@ -9064,9 +9064,9 @@
 # text = Penaos displegañ kement-se ?
 # text[fra] = Comment expliquer cela ?
 # labels = to_check opab_parallel
-1	Penaos	penaos	ADV	adv	PronType=Itg	2	advmod	_	_
+1	Penaos	penaos	ADV	adv	PronType=Int	2	advmod	_	_
 2	displegañ	displegañ	VERB	vblex	VerbForm=Inf	0	root	_	_
-3	kement-se	kement-se	PRON	prn	Case=Acc|Number=Sing|PronType=Dem|PronType=Prs	2	obj	_	_
+3	kement-se	kement-se	PRON	prn	Number=Sing|PronType=Dem	2	obj	_	_
 4	?	?	PUNCT	sent	_	2	punct	_	_
 
 # sent_id = oab.vislcg.txt:7:204
@@ -9605,7 +9605,7 @@
 # labels = to_check opab_parallel
 1	Anat	anat	ADJ	adj	_	0	root	_	_
 2	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	pegen	pegen	ADV	adv	PronType=Itg	4	advmod	_	_
+3	pegen	pegen	ADV	adv	PronType=Int	4	advmod	_	_
 4	pouezus	pouezus	ADJ	adj	_	1	csubj	_	_
 5	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 6	evit	evit	ADP	pr	_	9	case	_	_
@@ -9757,7 +9757,7 @@
 6	budjed	budjed	NOUN	n	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 7	-se	se	ADV	adv	_	6	advmod	_	_
 8	a	a	PART	vpart	_	10	aux	_	_
-9	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	gouestlet	gouestlañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 11-12	d'ar	_	_	_	_	_	_	_	_
 11	d	da	ADP	pr	_	13	case	_	_
@@ -10159,7 +10159,7 @@
 1	Warno	war	ADP	pr	_	2	case	_	_
 2	_	indirect	PRON	prn	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
 3	e	e	PART	vpart	_	5	aux	_	_
-4	veze	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	veze	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
 5	lakaet	lakaat	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 6	anv	anv	NOUN	n	Gender=Masc|Number=Sing	5	obj	_	_
 7	ar	an	DET	det	_	8	det	_	_
@@ -10273,7 +10273,7 @@
 1	Abaoe	abaoe	ADP	pr	_	2	case	_	_
 2	2001	2001	NUM	num	Number=Plur	5	obl	_	_
 3	e	e	PART	vpart	_	5	aux	_	_
-4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	kinniget	kinnig	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 6	arvestoù	arvest	NOUN	n	Gender=Masc|Number=Plur	5	nsubj	_	_
 7	digor	digor	ADJ	adj	_	6	amod	_	_
@@ -10361,7 +10361,7 @@
 # labels = to_check opab_parallel
 1	Klaskit	klask	VERB	vblex	Number=Plur|Person=2	0	root	_	_
 2	gwelet	gwelout	VERB	vblex	VerbForm=Inf	1	xcomp	_	_
-3	hag-eñ	hag-eñ	PRON	prn	PronType=Itg	5	dep	_	_
+3	hag-eñ	hag-eñ	PRON	prn	PronType=Int	5	dep	_	_
 4	eo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	reizh	reizh	ADJ	adj	_	2	dep	_	_
 6	hoc'h	ho	DET	det	Poss=Yes	7	det	_	_
@@ -10483,7 +10483,7 @@
 3	servijer	servijer	NOUN	n	Gender=Masc|Number=Sing	7	obl:x	_	SpaceAfter=No
 4	-mañ	mañ	ADV	adv	_	3	advmod	_	_
 5	e	e	PART	vpart	_	7	aux	_	_
-6	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	goulennet	goulenn	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 8-9	diganin	_	_	_	_	_	_	_	_
 8	diganin	digant	ADP	pr	_	9	case	_	_
@@ -10593,7 +10593,7 @@
 2	destenn	testenn	NOUN	n	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	erlec'hiañ	erlec’hiañ	VERB	vblex	VerbForm=Inf	2	acl	_	_
 4	a	a	PART	vpart	_	6	aux	_	_
-5	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 7	ivez	ivez	ADV	adv	_	6	advmod	_	_
 8	evit	evit	ADP	pr	_	10	case	_	_
@@ -11080,7 +11080,7 @@
 # text = Peseurt palioù zo d'ar Gevrat-se ?
 # text[fra] = Quels sont les objectifs de ce Contrat ?
 # labels = to_check opab_parallel
-1	Peseurt	peseurt	DET	adj	PronType=Itg	2	det	_	_
+1	Peseurt	peseurt	DET	adj	PronType=Int	2	det	_	_
 2	palioù	pal	NOUN	n	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	zo	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4-5	d'ar	_	_	_	_	_	_	_	_
@@ -11248,7 +11248,7 @@
 # labels = to_check opab_parallel
 1	Skoazellet	skoazellañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
 4	mont	mont	X	x	_	5	dep	_	_
 5	en-dro	en-dro	NOUN	n	Gender=Masc|Number=Sing	1	obj	_	_
 6	ar	an	DET	det	_	7	det	_	_
@@ -11408,7 +11408,7 @@
 # labels = to_check opab_parallel
 1	Graet	ober	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vezont	bezañ	VERB	vblex	Mood=Hab|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	vezont	bezañ	VERB	vblex	Aspect=Hab|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
 4	àr	àr	ADP	pr	_	5	case	_	_
 5	standilhonoù	standilhon	NOUN	n	Gender=Masc|Number=Plur	1	obl	_	_
 6	dastumet	dastum	VERB	vblex	Tense=Past|VerbForm=Part	5	acl	_	_
@@ -11449,7 +11449,7 @@
 10	ha	ha	CCONJ	cnjcoo	_	11	cc	_	_
 11	dreistordinal	dreistordinal	ADJ	adj	_	4	conj	_	_
 12	a	a	PART	vpart	_	14	aux	_	_
-13	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	graet	ober	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 15	alies	alies	ADV	adv	_	14	advmod	_	SpaceAfter=No
 16	.	.	PUNCT	sent	_	14	punct	_	_
@@ -11950,7 +11950,7 @@
 7	zanvez	danvez	NOUN	n	Gender=Masc|Number=Sing	5	obl	_	_
 8	Breizh	Breizh	PROPN	np	Number=Sing	7	nmod:gen	_	_
 9	a	a	PART	vpart	_	11	aux	_	_
-10	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	brudet	brudañ	VERB	vblex	Tense=Past|VerbForm=Part	8	acl	_	_
 12	gant	gant	ADP	pr	_	14	case	_	_
 13	pedadennoù	pedadenn	NOUN	n	Gender=Fem|Number=Plur	12	obl	_	_
@@ -12027,7 +12027,7 @@
 # text = Petra 'peus 'ta plac'h yaouank?
 # text[fra] = Qu'as-tu donc jeune fille?
 # labels = to_check song
-1	Petra	petra	PRON	prn	PronType=Itg	3	advmod	_	_
+1	Petra	petra	PRON	prn	PronType=Int	3	advmod	_	_
 2	'	a	PART	vpart	_	3	aux	_	SpaceAfter=No
 3	'peus	kaout	VERB	vblex	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	'ta	eta	ADV	adv	_	3	advmod	_	_
@@ -12039,7 +12039,7 @@
 # text = Petra 'ra dit gouelañ ?
 # text[fra] = Qu'est-ce qui te fait pleurer ?
 # labels = to_check song
-1	Petra	petra	PRON	prn	PronType=Itg	3	advmod	_	_
+1	Petra	petra	PRON	prn	PronType=Int	3	advmod	_	_
 2	'	a	PART	vpart	_	3	aux	_	SpaceAfter=No
 3	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	dit	_	_	_	_	_	_	_	_
@@ -12073,7 +12073,7 @@
 # text = Petra 'roi din, plac'h yaouank, me 'yelo d'he zapañ ?
 # text[fra] = Que me donnes-tu, jeune fille, si je vais le chercher ?
 # labels = to_check song
-1	Petra	petra	PRON	prn	Case=Acc|PronType=Itg|PronType=Prs	3	obj	_	_
+1	Petra	petra	PRON	prn	PronType=Int	3	obj	_	_
 2	'	a	PART	vpart	_	3	aux	_	SpaceAfter=No
 3	roi	reiñ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
 4-5	din	_	_	_	_	_	_	_	SpaceAfter=No
@@ -12266,7 +12266,7 @@
 3	skolioù	skol	NOUN	n	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 4	-se	se	ADV	adv	_	3	advmod	_	_
 5	e	e	PART	vpart	_	7	aux	_	_
-6	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 7	desket	deskiñ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 8	dre	dre	ADP	pr	_	10	case	_	_
 9	ar	an	DET	det	_	10	det	_	_
@@ -13201,7 +13201,7 @@
 # labels = to_check
 1	Implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 4	gant	gant	ADP	pr	_	7	case	_	_
 5	an	an	DET	det	_	7	det	_	_
 6	holl	holl	DET	predet	_	7	det	_	_
@@ -13481,7 +13481,7 @@
 # labels = to_check
 1	Komzet	komz	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 4	kembraeg	kembraeg	NOUN	n	Gender=Masc|Number=Sing	1	nsubj	_	_
 5	e	e	ADP	pr	_	6	case	_	_
 6	Kembre	Kembre	PROPN	np	Number=Sing	1	obl	_	SpaceAfter=No
@@ -13510,7 +13510,7 @@
 # labels = to_check
 1	Komzet	komz	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 4	kembraeg	kembraeg	NOUN	n	Gender=Masc|Number=Sing	1	nsubj	_	_
 5	e	e	ADP	pr	_	6	case	_	_
 6	Bro-Saoz	bro-Saoz	PROPN	np	Number=Sing	1	obl	_	_
@@ -13542,7 +13542,7 @@
 # labels = to_check
 1	Komzet	komz	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 4	bemdez	bemdez	ADV	adv	_	1	advmod	_	_
 5	gant	gant	ADP	pr	_	6	case	_	_
 6	miliadoù	miliad	NOUN	n	Gender=Masc|Number=Plur	1	obl:agent	_	_
@@ -13553,7 +13553,7 @@
 11	ha	ha	CCONJ	cnjcoo	_	12	cc	_	_
 12	gwelet	gwelout	VERB	vblex	Tense=Past|VerbForm=Part	1	conj	_	_
 13	e	e	PART	vpart	_	12	aux	_	_
-14	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+14	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
 15	e	e	ADP	pr	_	17	case	_	_
 16	pep	pep	DET	det	Number=Sing	17	det	_	_
 17	lec'h	lec’h	NOUN	n	Gender=Masc|Number=Sing	12	obl	_	_
@@ -13593,7 +13593,7 @@
 6	Bodadenn	bodadenn	NOUN	n	Gender=Fem|Number=Sing	2	conj	_	_
 7	Kembre	Kembre	PROPN	np	Number=Sing	6	nmod:gen	_	_
 8	e	e	PART	vpart	_	10	aux	_	_
-9	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 11	ar	an	DET	det	_	12	det	_	_
 12	c’hembraeg	kembraeg	NOUN	n	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -13843,7 +13843,7 @@
 1	E	e	ADP	pr	_	2	case	_	_
 2	gwirionez	gwirionez	NOUN	n	Gender=Fem|Number=Sing	5	obl	_	_
 3	e	e	PART	vpart	_	5	aux	_	_
-4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	implijet	implijout	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 6	ar	an	DET	det	_	7	det	_	_
 7	skeul	skeul	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
@@ -13887,7 +13887,7 @@
 1	Ar	an	DET	det	_	2	det	_	_
 2	voudaegezh	boudaegezh	NOUN	n	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	a	a	PART	vpart	_	5	aux	_	_
-4	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	kemeret	kemer	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 6	a-wechoù	a-wezhioù	ADV	adv	_	5	advmod	_	_
 7	evel	evel	ADP	pr	_	8	case	_	_
@@ -13904,7 +13904,7 @@
 # labels = to_check
 1	Kontet	kontañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 4	6	6	NUM	num	Number=Plur	5	nummod	_	_
 5	milion	milion	NOUN	n	Gender=Masc|Number=Sing	1	nsubj	_	_
 6	a	a	ADP	pr	_	7	case	_	_
@@ -14142,7 +14142,7 @@
 3	ket	ket	ADV	adv	_	2	advmod	_	_
 4	mat	mat	ADJ	adj	_	2	advmod	_	_
 5	eus	eus	ADP	pr	_	6	case	_	_
-6	pelec'h	pelec’h	ADV	adv	PronType=Itg	8	advmod	_	_
+6	pelec'h	pelec’h	ADV	adv	PronType=Int	8	advmod	_	_
 7	e	e	PART	vpart	_	8	aux	_	_
 8	teue	dont	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 9	Nevenoe	Nevenoe	PROPN	np	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
@@ -14367,7 +14367,7 @@
 # labels = to_check
 1	Aozet	aozañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 2	e	e	PART	vpart	_	1	aux	_	_
-3	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
+3	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux:pass	_	_
 4	ar	an	DET	det	_	5	det	_	_
 5	predoù	pred	NOUN	n	Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
 6	-se	se	ADV	adv	_	5	advmod	_	_
@@ -14491,7 +14491,7 @@
 2	gresianeg	gresianeg	NOUN	n	Gender=Masc|Number=Sing	6	obl	_	_
 3	a-vremañ	a-vremañ	ADV	adv	_	6	advmod	_	_
 4	e	e	PART	vpart	_	6	aux	_	_
-5	vez	bezañ	VERB	vblex	Mood=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	vez	bezañ	VERB	vblex	Aspect=Hab|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	skrivet	skrivañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 7	μπ	μπ	X	barb	_	6	xcomp	_	_
 8	evit	evit	ADP	pr	_	9	mark	_	_
