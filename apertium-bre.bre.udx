@@ -25,7 +25,7 @@ _	_	imp	_	_	_	_	_
 _	_	impers	_	_	_	Person=Auto	_
 _	_	ind	_	_	_	_	_
 _	_	inf	_	_	_	VerbForm=Inf	_
-_	_	itg	_	_	_	PronType=Itg	_
+_	_	itg	_	_	_	PronType=Int	_
 _	_	m	_	_	_	Gender=Masc	_
 _	_	mf	_	_	_	_	_
 _	_	neg	_	_	_	Polarity=Neg	_
