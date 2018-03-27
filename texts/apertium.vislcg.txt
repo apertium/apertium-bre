@@ -28,7 +28,7 @@
 "<war-raok>"
 	"war-raok" adv @advmod #5->4
 "<.>"
-	"." sent @punct #5->4
+	"." sent @punct #6->4
 
 # text = Ne labour ket amañ.
 # text[fra] = Il ne travaille pas ici.
@@ -7295,7 +7295,7 @@
 "<Piv>"
 	"piv" prn itg mf sp @nsubj #1->4
 "<eo>"
-	"bezañ" vblex pri p3 sg @cop #3->4
+	"bezañ" vblex pri p3 sg @cop #2->4
 "<ar>" 
 	"an" det def sp @det #3->4
 "<pempvet>"

@@ -590,35 +590,35 @@
 "<diwar-benn>"
 	"diwar-benn" pr @case #9->11
 "<stad>"
-	"stad" n f sg @nmod #11->8
+	"stad" n f sg @nmod #10->8
 "<an>"
-	"an" det def sp @det #12->13
+	"an" det def sp @det #11->12
 "<dachenn>"
-	"tachenn" n f sg @nmod #13->11
+	"tachenn" n f sg @nmod #12->10
 "<douar>"
-	"douar" n m sg @nmod:gen #14->13
+	"douar" n m sg @nmod:gen #13->12
 "<,>"
-	"," cm @punct #15->16
+	"," cm @punct #14->15
 "<arouezius>"
-	"arouezius" adj mf sp @dep #16->11
+	"arouezius" adj mf sp @dep #15->10
 "<eus>"
-	"eus" pr @case #17->19
+	"eus" pr @case #16->18
 "<an>"
-	"an" det def sp @det #18->19
+	"an" det def sp @det #17->18
 "<dizemglev>"
-	"dizemglev" n m sg @dep #19->16
+	"dizemglev" n m sg @dep #18->15
 "<padus>"
-	"padus" adj mf sp @amod #20->19
+	"padus" adj mf sp @amod #19->18
 "<etre>"
-	"etre" pr @case #21->22
+	"etre" pr @case #20->21
 "<Israeliz>"
-	"Israelad" n m pl @nmod #22->19
+	"Israelad" n m pl @nmod #21->18
 "<ha>"
-	"ha" cnjcoo @cc #23->24
+	"ha" cnjcoo @cc #22->23
 "<Palestiniz>"
-	"Palestinad" n m pl @conj #24->22
+	"Palestinad" n m pl @conj #23->21
 "<.>"
-	"." sent @punct #25->6
+	"." sent @punct #24->6
 
 # text = Trugarez d'an holl re o deus kaset deomp o respontoù d'ar goulennoù hor boa lakaet e niverenn diwezhañ Bremaik 2005.
 # text[fra¹] = Merci à tous Trop Ils ont envoyé à nous #le o de réponses aux questions nous avions mises il numérote dernier Bremaik 2005.
@@ -1305,12 +1305,12 @@
 	"." sent @punct #8->1
 
 # text = Pa grog da virviñ adarre, tennit diwar an tan.
-# text[fra¹] = Quand Il commence à bouillir de nouveau, tirez du feu.
+# text[fra¹] = Quand il commence à bouillir de nouveau, tirez du feu.
 # labels = to_check
 "<Pa>"
 	"pa" cnjsub @mark #1->2
 "<grog>"
-	"kregiñ" vblex pri p3 sg @advcl #2->6
+	"kregiñ" vblex pri p3 sg @advcl #2->7
 "<da>"
 	"da" pr @mark #3->4
 "<virviñ>"
@@ -1320,15 +1320,15 @@
 "<,>"
 	"," cm @punct #6->2
 "<tennit>"
-	"tennañ" vblex imp p2 pl @root #6->0
+	"tennañ" vblex imp p2 pl @root #7->0
 "<diwar>"
-	"diwar" pr @case #7->9
+	"diwar" pr @case #8->10
 "<an>"
-	"an" det def sp @det #8->9
+	"an" det def sp @det #9->10
 "<tan>"
-	"tan" n m sg @obl #9->6
+	"tan" n m sg @obl #10->7
 "<.>"
-	"." sent @punct #10->6
+	"." sent @punct #11->7
 
 # text = Teir sizhunvezh zo en doa bet kentañ ministr Israel kudennoù yec'hed a seurt-se c'hoazh.
 # text[fra¹] = Il y a trois semaines Elle avait eue le premier ministre d'Israël les problèmes de santé de la sorte encore.
@@ -1612,7 +1612,7 @@
 "<en>"
 	"e" pr @case #16->18
 "<ho>"
-	"ho" det pos mf sp @det #7->18
+	"ho" det pos mf sp @det #17->18
 "<puhez>"
 	"buhez" n f sg @obl #18->13
 "<labour>"
@@ -1829,7 +1829,7 @@
 "<ur>"
 	"un" det ind sp @det #3->4
 "<gontell>"
-	"kontell" n f sg @nmod:gen #4->3
+	"kontell" n f sg @nmod:gen #4->2
 "<,>"
 	"," cm @punct #5->2
 "<tresit>"
@@ -2438,7 +2438,7 @@
 "<fiñval>"
 	"fiñval" vblex inf @conj #12->6
 "<ha>"
-	"ha" cnjcoo @ #13->14
+	"ha" cnjcoo @cc #13->14
 "<cheñch>"
 	"cheñch" vblex inf @conj #14->6
 "<.>"
@@ -26734,8 +26734,8 @@
 "<.>"
 	"." sent
 
-# text = Ma n'ho peus ket lennet al lodenn gentañ er sizhun tremenet, klikit amañ evit lenn anezhi pe war Bremaik_ar_sizhun_dremenet.
-# text[fra¹] = Si vous n'avez pas lu la première partie dans la semaine passée, cliquez ici pour lire elle quelle sur #le_Bremaik de la_semaine_passée.
+# text = Ma n'ho peus ket lennet al lodenn gentañ er sizhun tremenet, klikit amañ evit lenn anezhi pe war Bremaik ar sizhun dremenet.
+# text[fra¹] = Si vous n'avez pas lu la première partie dans la semaine passée, cliquez ici pour lire elle quelle sur #le Bremaik de la semaine passée.
 # labels = to_check
 "<Ma>"
 	"ma" cnjsub @mark #1->5
@@ -28493,7 +28493,7 @@
 	"e" pr @case #28->30
 		"an" det def sp @det #29->30
 "<vro>"
-	"bro" n f sg @ #30->27
+	"bro" n f sg @nmod #30->27
 "<.>"
 	"." sent @punct #31->1
 
@@ -32009,7 +32009,7 @@
 "<ha>"
 	"ha" cnjcoo @cc #7->9
 "<marteze>"
-	"marteze" adv @avmod #8->9
+	"marteze" adv @advmod #8->9
 "<dont>"
 	"dont" vblex inf @parataxis #9->5
 "<da>"
@@ -34245,7 +34245,7 @@
 # text = Met chom a ra bresk-tre an traoù memes tra.
 # text[fra¹] = Mais Elle reste très fragile les choses quand même.
 # labels = to_check
-"<met>"
+"<Met>"
 	"met" cnjcoo @cc #1->2
 "<chom>"
 	"chom" vblex inf @root #2->0
@@ -49888,7 +49888,7 @@
 "<viz Even>"
 	"miz Even" n m sp @nmod #22->17
 "<,>"
-	"," cm @ #23->26
+	"," cm @punct #23->26
 "<war>"
 	"war" pr @case #24->26
 "<pevarzek>"

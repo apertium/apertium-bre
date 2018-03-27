@@ -4127,7 +4127,7 @@
 "<o>"
 	"o" det pos mf sp @det #7->8
 "<framm>"
-	"framm" n m sg nmod:gen #8->6
+	"framm" n m sg @nmod:gen #8->6
 "<ar>"
 	"an" det def sp @det #9->10
 "<barregezhioù>"
@@ -17725,9 +17725,9 @@
 # text[fra] = De plus en plus de personnes consomment bio. 
 # labels = to_check opab_parallel
 "<Muioc'h-mui>"
-	"muioc’h-mui" adv #1->5
+	"muioc’h-mui" adv @advmod #1->5
 "<a>"
-	"a" pr #2->3
+	"a" pr @case #2->3
 "<dud>"
 	"den" n m pl @nsubj #3->5
 "<a>"
@@ -20137,7 +20137,7 @@
 "<pedadennoù>"
 	"pedadenn" n f pl @obl #14->12
 "<divyezhek>"
-	"divyezhek" adj mf sp #15->14
+	"divyezhek" adj mf sp @amod #15->14
 "<.>"
 	"." sent @punct #16->5
 

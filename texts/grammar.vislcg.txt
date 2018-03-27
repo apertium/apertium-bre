@@ -4033,7 +4033,7 @@
 "<dud>"
 	"den" n m pl @obl #6->3
 "<o>"
-	"o" vpart ger @ #7->8
+	"o" vpart ger @aux #7->8
 "<labourat>"
 	"labourat" vblex inf @acl #8->6
 "<er>"
@@ -7730,7 +7730,7 @@
 "<eo>"
 	"bezañ" vblex pri p3 sg @aux #2->5
 "<Divi>"
-	"Divi" np ant m sg @ #3->5
+	"Divi" np ant m sg @nsubj #3->5
 "<o>"
 	"o" vpart ger @aux #4->5
 "<naetaat>"
