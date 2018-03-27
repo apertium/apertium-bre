@@ -76,11 +76,11 @@
 "<a>"
 	"a" vpart @aux #18->19
 "<zeu>"
-	"dont" vblex pri p3 sg @x #19->14
+	"dont" vblex pri p3 sg @dep #19->14
 "<eus>"
 	"eus" pr @case #20->21
 "<unan>"
-	"unan" num mf sg @x #21->19
+	"unan" num mf sg @dep #21->19
 "<eus>"
 	"eus" pr @case #22->24
 "<ar>"
@@ -5013,7 +5013,7 @@
 "<ar>"
 	"an" det def sp @det #4->5
 "<c’hinnig>"
-	"kinnig" n m sg @x #5->
+	"kinnig" n m sg @dep #5->
 "<programmoù>"
 	"programm" n m pl @nmod:gen #6->5
 "<skinwel>"
@@ -5029,7 +5029,7 @@
 "<miz Meurzh>"
 	"miz Meurzh" n m sp @obl #12->1
 "<2005>"
-	"2005" num mf pl @x #13->12
+	"2005" num mf pl @dep #13->12
 "<.>"
 	"." sent @punct #14->1
 
@@ -5154,7 +5154,7 @@
 "<un>"
 	"un" det ind sp @det #4->5
 "<diviz>"
-	"diviz" n m sg @x #5->
+	"diviz" n m sg @dep #5->
 "<a>"
 	"a" pr @case #6->7
 "<seurt>"
@@ -19664,9 +19664,9 @@
 	"«" lquot @punct #1->
 "<N’eus>"
 	"ne" adv @advmod #2->
-		"bezañ" vblex pri impers sp @x #3->
+		"bezañ" vblex pri impers sp @dep #3->
 "<dañjer>"
-	"dañjer" n m sg @x #4->
+	"dañjer" n m sg @dep #4->
 "<ebet>"
 	"ebet" adv @advmod #5->
 "<ken>"
