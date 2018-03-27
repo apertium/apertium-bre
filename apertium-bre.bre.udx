@@ -6,8 +6,8 @@ _	vpart	obj	_	_	PART	_	_
 _	vpart	ger	_	_	PART	_	_
 _	prn	obj	_	_	PRON	PronType=Pers|Case=Acc	_
 _	prn	subj	_	_	PRON	PronType=Pers|Case=Nom	_
-_	_	pos|m	_	_	_	PronType=Pos|Gender[psor]=Msc	_
-_	_	pos|f	_	_	_	PronType=Pos|Gender[psor]=Fem	_
+_	_	pos|m	_	_	_	Poss=Yes|Gender[psor]=Masc	_
+_	_	pos|f	_	_	_	Poss=Yes|Gender[psor]=Fem	_
 _	_	acr	_	_	_	_	_
 _	_	al	_	_	_	_	_
 _	_	ant	_	_	_	_	_
@@ -26,7 +26,7 @@ _	_	impers	_	_	_	Person=Auto	_
 _	_	ind	_	_	_	_	_
 _	_	inf	_	_	_	VerbForm=Inf	_
 _	_	itg	_	_	_	PronType=Itg	_
-_	_	m	_	_	_	Gender=Msc	_
+_	_	m	_	_	_	Gender=Masc	_
 _	_	mf	_	_	_	_	_
 _	_	neg	_	_	_	Polarity=Neg	_
 _	_	opt	_	_	_	_	_
@@ -38,12 +38,12 @@ _	_	past	_	_	_	VerbForm=Fin|Tense=Past	_
 _	_	pih	_	_	_	VerbForm=Fin|Tense=Past|Mood=Hab	_
 _	_	pii	_	_	_	VerbForm=Fin|Tense=Past|Mood=Ind	_
 _	_	pl	_	_	_	Number=Plur	_
-_	_	pos	_	_	_	PronType=Pos	_
+_	_	pos	_	_	_	Poss=Yes	_
 _	_	pp	_	_	_	VerbForm=Part|Tense=Past	_
 _	_	ppres	_	_	_	_	_
 _	_	prh	_	_	_	VerbForm=Fin|Tense=Pres|Mood=Hab	_
 _	_	pri	_	_	_	VerbForm=Fin|Tense=Pres|Mood=Ind	_
-_	_	ref	_	_	_	PronType=Ref	_
+_	_	ref	_	_	_	Reflex=Yes	_
 _	_	rel	_	_	_	PronType=Rel	_
 _	_	sg	_	_	_	Number=Sing	_
 _	_	sint	_	_	_	_	_
