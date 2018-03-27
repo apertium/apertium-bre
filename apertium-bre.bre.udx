@@ -1,5 +1,5 @@
 _	vpart	ppres	_	_	PART	_	_
-_	vpart	ref	_	_	PART	Reflexive=Yes	_
+_	vpart	ref	_	_	PART	Reflex=Yes	_
 _	vpart	opt	_	_	PART	Mood=Opt	_
 _	vpart	neg	_	_	PART	Polarity=Neg	_
 _	vpart	obj	_	_	PART	_	_
