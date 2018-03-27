@@ -94,7 +94,7 @@
 	"mui" adv @advmod #7->6
 "<nemet>"
 	"nemet" adv @advmod #8->9
-"<100 000>"
+"<100 000>"
 	"100 000" num mf pl @nsubj #9->6
 "<a>"
 	"a" pr @case #10->11
@@ -194,7 +194,7 @@
 	"yaouank" adj mf sp @amod #4->3
 "<(>"
 	"(" lpar @punct #5->6
-"<16 345>"
+"<16 345>"
 	"16 345" num mf pl @appos #6->1
 "<e>"
 	"e" pr @case #7->8
@@ -1568,7 +1568,7 @@
 	"da" pr @mark #4->5
 "<zivizout>"
 	"divizout" vblex inf @xcomp #5->1
-"<e>"
+"<er>"
 	"e" pr @case #6->7
 "<mare>"
 	"mare" n m sg @obl #7->5
@@ -2272,7 +2272,7 @@
 	"e" pr @case #15->17
 "<pep>"
 	"pep" det ind mf sg @det #16->17
-"<lec'h>"
+"<lec’h>"
 	"lec’h" n m sg @obl #17->12
 "<e>"
 	"e" pr @case #18->19
@@ -3669,7 +3669,7 @@
 "<voe>"
 	"bezañ" vblex past p3 sg @aux:pass #5->6
 "<diazezet>"
-	"diazezañ" vblex pp @root #6->0
+	"diazezañ" vblex pp @root #6->
 "<roll>"
 	"roll" n m sg @nsubj #7->6
 "<an>"

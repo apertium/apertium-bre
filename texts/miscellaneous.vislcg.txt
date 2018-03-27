@@ -37,7 +37,7 @@
 "<Ul>"
 	"un" det ind sp @det #1->2
 "<levr>"
-	"levr" n m sg @nsubj #3->5
+	"levr" n m sg @nsubj #2->5
 "<zo>"
 	"bezañ" vblex pri p3 sg @cop #3->5
 "<ganin>"

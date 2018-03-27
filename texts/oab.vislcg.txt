@@ -1900,37 +1900,37 @@
 #Évident il est comme important est pour les parents avoir une proposition près de #le o de lieu d’habitation.
 # labels = to_check opab_parallel
 "<Anat>"
-	"anat" adj mf sp @root #1->0
+	"anat" adj mf sp @root #1->
 "<eo>"
 	"bezañ" vblex pri p3 sg @cop #2->1
 "<pegen>"
 	"pegen" adv itg @advmod #3->4
 "<pouezus>"
-	"pouezus" adj mf sp @csubj #5->1
+	"pouezus" adj mf sp @csubj #4->1
 "<eo>"
-	"bezañ" vblex pri p3 sg @cop #6->5
+	"bezañ" vblex pri p3 sg @cop #5->1
 "<evit>"
-	"evit" pr @case #7->9
+	"evit" pr @case #6->8
 "<ar>"
-	"an" det def sp @det #8->9
+	"an" det def sp @det #7->8
 "<gerent>"
-	"kar" n m pl @obl #9->5
+	"kar" n m pl @obl #8->5
 "<kaout>"
-	"kaout" vblex inf @csubj #10->5
+	"kaout" vblex inf @csubj #9->5
 "<ur>"
-	"un" det ind sp @det #11->12
+	"un" det ind sp @det #10->11
 "<c’hinnig>"
-	"kinnig" n m sg @obj #12->10
+	"kinnig" n m sg @obj #11->10
 "<tost d’>"
-	"tost da" pr @case #13->15
+	"tost da" pr @case #12->14
 "<o>"
-	"o" det pos mf sp @det #14->15
+	"o" det pos mf sp @det #13->14
 "<lec’h>"
-	"lec’h" n m sg @nmod #15->12
+	"lec’h" n m sg @nmod #14->11
 "<annez>"
-	"annez" n m sg @nmod:gen #16->15
+	"annez" n m sg @nmod:gen #15->14
 "<.>"
-	"." sent @punct #17->1
+	"." sent @punct #16->1
 
 # text = Emdroadur kresk bloaziek ar c’helenn divyezhek etre 1997 ha 2007
 # text[fra] = Evolution de la croissance annuelle de l’enseignement bilingue entre 1997 et 2007
@@ -2407,7 +2407,7 @@
 "<embannet>"
 	"embann" vblex pp @root #10->0
 "<diazez>"
-	"diazez" n m sg @nsubj #11->11
+	"diazez" n m sg @nsubj #11->10
 "<ur>"
 	"un" det ind sp @det #12->13
 "<politikerezh>"
@@ -2439,7 +2439,7 @@
 "<Rannvro>"
 	"rannvro" n f sg @nmod:gen #5->6
 "<Breizh>"
-	"Breizh" np top sg @flat:name #6->5
+	"Breizh" np top sg @flat:name #6->4
 "<evit>"
 	"evit" pr @case #7->9
 "<ar>"
@@ -10537,7 +10537,7 @@
 "<hoc'h>"
 	"ho" det pos mf sp @det #6->7
 "<anv>"
-	"anv" n m sg @nsubj #7->6
+	"anv" n m sg @nsubj #7->5
 "<implijer>"
 	"implijer" n m sg @nmod:gen #8->7
 "<hag>"
@@ -10602,7 +10602,7 @@
 "<hepken>"
 	"hepken" adv @advmod #8->6
 "<.>"
-	"." sent @punct #7->2
+	"." sent @punct #9->2
 
 # text = Unan eus ho kontoù pe meur a gont a gas ar c'hemennadoù nevez d'ar restr roadennoù-mañ.
 # text[fra] = Un ou plusieurs de vos comptes remettent les nouveaux messages dans ce fichier de données.
@@ -10725,11 +10725,11 @@
 "<un>"
 	"un" det ind sp @det #11->12
 "<deiziadur>"
-	"deiziadur" n m sg @nmod:gen #13->10
+	"deiziadur" n m sg @nmod:gen #12->10
 "<Kenrouedad>"
-	"kenrouedad" n f sg @nmod:gen #14->13
+	"kenrouedad" n f sg @nmod:gen #13->12
 "<.>"
-	"." sent @punct #15->3
+	"." sent @punct #14->3
 
 # text = Kevreañ ouzh ur servijer LDAP evit klask ha gwiriañ ar chomlec'hioù postel ha titouroù all.
 # text[fra] = Se connecter à un serveur LDAP pour rechercher et vérifier les adresses de messagerie et autres informations.
@@ -10967,7 +10967,7 @@
 "<.>"
 	"." sent @punct #12->1
 
-# text = Peurliesañ ho po c'hoant da virout ar reolennoù war ar servijer.
+# text = Peurliesañ e klot anv ar voest posteloù gant hoc'h anv implijer.
 # text[spa] = Generalmente el nombre de buzón de correos corresponde a tu nombre de usuario.
 # labels = to_check opab_parallel
 "<Peurliesañ>"
@@ -13019,7 +13019,7 @@
 "<Klikit>"
 	"klikañ" vblex imp p2 pl @root #1->0
 "<war>"
-	"war" pr @case #2->2
+	"war" pr @case #2->3
 "<Echuiñ>"
 	"echuiñ" vblex inf @obl #3->1
 "<evit>"

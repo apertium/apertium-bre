@@ -43,7 +43,7 @@
 "<.>"
 	"." sent @punct #8->1
 
-# text = Dispont kreiz ar brezel, hon tadoù ken mad, a skuilhas eviti o gwad.
+# text = Dispont 'kreiz ar brezel, hon tadoù ken mat, a skuilhas eviti o gwad.
 # text[fra] = Sans peur au coeur de la guerre, nos ancêtres si bons versèrent leur sang pour elle.
 # labels = to_check song
 "<Dispont>"
@@ -91,7 +91,7 @@
 	"," cm @punct #3->5
 "<ma>"
 	"ma" det pos mf sp @det #4->5
-"<bro>"
+"<Bro>"
 	"bro" n f sg @appos #5->2
 "<,>"
 	"," cm @punct #6->5
@@ -103,12 +103,12 @@
 	"karout" vblex pri p3 sg @root #9->0
 "<ma>"
 	"ma" det pos mf sp @det #10->11
-"<bro>"
+"<Bro>"
 	"bro" n f sg @obj #11->9
 "<.>"
 	"." sent @punct #12->9
 
-# text = Tra ma vo mor 'vel mur 'n he zro.
+# text = Tra ma vo mor 'vel mur 'n he zro, ra vezo digabestr ma bro!
 # text[fra] = Tant que la mer sera comme un mur autour d'elle.
 # labels = to_check song
 "<Tra ma>"
@@ -250,7 +250,7 @@
 "<.>"
 	"." sent @punct #8->4
 
-# text = N'eus pobl ken kaloneg a zindan an neñv.
+# text = N'eus pobl ken kalonek a-zindan an neñv.
 # text[fra] =  Aucun peuple sous les cieux n'est aussi ardent.
 # labels = to_check song
 "<N'eus>"
@@ -271,7 +271,7 @@
 "<.>"
 	"." sent @punct #9->5
 
-# text = Gwerz trist, son dudius a ziwan eno.
+# text = Gwerz trist, son dudius a ziwan enno.
 # text[fra] = Complainte triste ou chant plaisant s'éclosent en eux.
 # labels = to_check song
 "<Gwerz>"
@@ -313,12 +313,12 @@
 	"," cm @punct #7->4
 "<ma>"
 	"ma" det pos mf sp @det #8->9
-"<bro>"
+"<Bro>"
 	"bro" n f sg @dislocated #9->4
 "<!>"
 	"!" sent @punct #10->4
 
-# text = Mard eo bet trec'het Breizh er brezelioù braz, he yezh a zo bepred ken beo ha bizkoazh, he c'halon birvidik a lamm c'hoazh 'n he c'hreiz.
+# text = Mard eo bet trec'het Breizh er brezelioù bras, he yezh a zo bepred ken bev ha biskoazh, he c'halon virvidik a lamm c'hoazh 'n he c'hreiz.
 # text[fra] = Si autrefois Bretagne, tu as fléchi durant les guerres, ta langue est restée vivante à jamais, son coeur ardent tressaille encore pour elle.
 # labels = to_check song
 "<Mard>"

@@ -65,7 +65,7 @@
 	"dont" vblex pp @root #10->0
 "<da>"
 	"da" pr @mark #11->12
-"<laborat>"
+"<labourat>"
 	"labourat" vblex inf @advcl #12->10
 "<.>"
 	"." sent @punct #13->10
@@ -381,7 +381,7 @@
 "<.>"
 	"." sent @punct #11->3
 
-# text = Hennezh a oa un den mat a zifenne ar vrol.
+# text = Hennezh a oa un den mat a zifenne ar vro.
 # text[eng] = He was a good man who defended the country.
 # labels = timm_1988 
 "<Hennezh>"
@@ -407,7 +407,7 @@
 "<.>"
 	"." sent @punct #11->5
 
-# text = Dont a ra soñj din, a-hend-all, eus ar c'homzoù a gane ma mamm d'am breuder ha din.
+# text = Dont a ra soñj din, a-hend-all, eus ar c'homzoù a gane ma mamm d'am breudeur ha din.
 # text[eng] = I remember above all the words that my mother sang to my brothers and me.
 # labels = timm_1988
 "<Dont>"
@@ -614,7 +614,7 @@
 "<a>"
 	"a" pr @case #4->5
 "<zen>"
-	"den" n m sg @nmod #5->4
+	"den" n m sg @nmod #5->2
 "<e>"
 	"e" vpart obj @aux #6->2
 "<oa>"
@@ -1752,7 +1752,7 @@
 	"na" vpart neg @aux #4->5
 "<gontas>"
 	"kontañ" vblex past p3 sg @acl #5->3
-"<key>"
+"<ket>"
 	"ket" adv @advmod #6->5
 "<an>"
 	"an" det def sp @det #7->8
@@ -3327,7 +3327,7 @@
 	"bezañ" vblex pri p3 sg @aux #2->3
 "<chomet>"
 	"chom" vblex pp @root #3->0
-"<ma>"
+"<va>"
 	"ma" det pos mf sp @det #4->5
 "<yalc'h>"
 	"yalc’h" n f sg @obj #5->3
@@ -3663,7 +3663,7 @@
 # text = Va breur-me 'ni oa aet d'ar mor.
 # text[eng] = It's my brother had gone to see.
 # labels = press_1986 ch_morphology to_check cleft
-"<Ma>"
+"<Va>"
 	"ma" det pos mf sp 
 "<breur>"
 	"breur" n m sg
@@ -4217,7 +4217,7 @@
 # text = Va breur a zo fur.
 # text[eng] = My brother is good.
 # labels = press_1986 ch_morphology to_check
-"<Ma>"
+"<Va>"
 	"ma" det pos mf sp @det #1->2
 "<breur>"
 	"breur" n m sg @nsubj #2->5
@@ -4237,7 +4237,7 @@
 	"fur" adj mf sp @root #1->0
 "<eo>"
 	"bezañ" vblex pri p3 sg @cop #2->1
-"<ma>"
+"<va>"
 	"ma" det pos mf sp @det #3->4
 "<breur>"
 	"breur" n m sg @nsubj #4->1
@@ -4329,7 +4329,7 @@
 "<Emañ>"
 	"bezañ" vbloc pri p3 sg @cop #1->6
 "<ma>"
-	"ma" det pos mf sp @det #2->2
+	"ma" det pos mf sp @det #2->3
 "<breur>"
 	"breur" n m sg @nsubj #3->6
 "<en>"
@@ -5288,7 +5288,7 @@
 # text[eng] = The children do not feed themselves.
 # labels = press_1986 ch_morphology to_check
 "<N'>"
-	"ne" adv neg @advmod #2->3
+	"ne" adv neg @advmod #1->3
 "<en em>"
 	"en em" vpart ref @aux #2->3
 "<vag>"
@@ -5871,7 +5871,7 @@
 # text = Va zud ne ouzont ket.
 # text[eng] = My family don't know.
 # labels = press_1986 ch_morphology to_check
-"<Ma>"
+"<Va>"
 	"ma" det pos mf sp @det #1->2
 "<zud>"
 	"den" n m pl @nsubj #2->4
@@ -5893,7 +5893,7 @@
 	"gouzout" vblex pri p3 sg @root #2->0
 "<ket>"
 	"ket" adv @advmod #3->2
-"<ma>"
+"<va>"
 	"ma" det pos mf sp @det #4->5
 "<zud>"
 	"den" n m pl @nsubj #5->2
@@ -6129,7 +6129,7 @@
 # text = Va gwreg ne vo ket eno kennebeut.
 # text[eng] = My wife will not be there either.
 # labels = press_1986 ch_morphology to_check
-"<Ma>"
+"<Va>"
 	"ma" det pos mf sp @det #1->2
 "<gwreg>"
 	"gwreg" n f sg @nsubj #2->6
@@ -6188,7 +6188,7 @@
 "<.>"
 	"." sent @
 
-# text = N'he deus klasket zoken gwalc'hiñ he belo
+# text = N'he deus klasket zoken gwalc'hiñ he belo.
 # text[eng] = She hasn't even tried to wash her bicycle.
 # labels = press_1986 ch_morphology to_check
 "<N'>"
