@@ -381,7 +381,7 @@
 # text[fra] = Je me lave.
 # labels = to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	walc’hiñ	gwalc’hiñ	VERB	vblex	VerbForm=Inf	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
@@ -392,7 +392,7 @@
 # text[fra] = Je me demande.
 # labels = to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	c'houlenn	goulenn	VERB	vblex	VerbForm=Inf	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
@@ -403,7 +403,7 @@
 # text[fra] = Tu t'es encore battu ?
 # labels = to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	gannet	kannañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	out	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
 5	c'hoazh	c’hoazh	ADV	adv	_	3	advmod	_	_
@@ -415,7 +415,7 @@
 # labels = to_check
 1	Me	prpers	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	en	en	X	x	_	3	dep	_	_
-3	em	em	PART	vpart	Reflexive=Yes	4	aux	_	_
+3	em	em	PART	vpart	Reflex=Yes	4	aux	_	_
 4	walc'h	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	sent	_	4	punct	_	_
 
@@ -429,7 +429,7 @@
 3	sal	sal	NOUN	n	Gender=Fem|Number=Sing	7	obl	_	_
 4	dour	dour	NOUN	n	Gender=Masc|Number=Sing	3	nmod:gen	_	_
 5	en	en	X	x	_	6	dep	_	_
-6	em	em	PART	vpart	Reflexive=Yes	7	aux	_	_
+6	em	em	PART	vpart	Reflex=Yes	7	aux	_	_
 7	walc'han	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -443,7 +443,7 @@
 3	sal	sal	NOUN	n	Gender=Fem|Number=Sing	7	obl	_	_
 4	dour	dour	NOUN	n	Gender=Masc|Number=Sing	3	nmod:gen	_	_
 5	en	en	X	x	_	6	dep	_	_
-6	em	em	PART	vpart	Reflexive=Yes	7	aux	_	_
+6	em	em	PART	vpart	Reflex=Yes	7	aux	_	_
 7	walc'hen	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	7	punct	_	_
 
@@ -458,7 +458,7 @@
 4	dour	dour	NOUN	n	Gender=Masc|Number=Sing	3	nmod:gen	_	_
 5	on	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
 6	en	en	X	x	_	7	dep	_	_
-7	em	em	PART	vpart	Reflexive=Yes	8	aux	_	_
+7	em	em	PART	vpart	Reflex=Yes	8	aux	_	_
 8	walc'het	gwalc’hañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	sent	_	8	punct	_	_
 
@@ -467,7 +467,7 @@
 # text[fra] = Je me suis lavé dans la salle de bain.
 # labels = to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	walc'het	gwalc’hañ	VERB	vblex	Tense=Past|VerbForm=Part	0	root	_	_
 4	on	bezañ	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 5-6	er	_	_	_	_	_	_	_	_
@@ -483,7 +483,7 @@
 # labels = to_check
 1	Perak	perak	ADV	adv	PronType=Itg	4	advmod	_	_
 2	en	en	X	x	_	3	dep	_	_
-3	em	em	PART	vpart	Reflexive=Yes	4	aux	_	_
+3	em	em	PART	vpart	Reflex=Yes	4	aux	_	_
 4	walc'hez	gwalc’hañ	VERB	vblex	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	?	?	PUNCT	sent	_	4	punct	_	_
 
@@ -928,7 +928,7 @@
 5	tra	tra	PRON	prn	Case=Acc|Number=Sing|PronType=Prs	1	obj	_	_
 6	evit	evit	ADP	pr	_	9	mark	_	_
 7	en	en	X	x	_	8	dep	_	_
-8	em	em	PART	vpart	Reflexive=Yes	9	aux	_	_
+8	em	em	PART	vpart	Reflex=Yes	9	aux	_	_
 9	ho	ho	DET	det	Poss=Yes	21	det	_	_
 10	da	da	DET	det	Poss=Yes	11	det	_	_
 11	vat	mat	ADJ	adj	_	9	obj	_	_
@@ -1017,7 +1017,7 @@
 7	divizioù	diviz	NOUN	n	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	cm	_	11	punct	_	_
 9	en	en	X	x	_	10	dep	_	_
-10	em	em	PART	vpart	Reflexive=Yes	11	aux	_	_
+10	em	em	PART	vpart	Reflex=Yes	11	aux	_	_
 11	zifenn	difenn	VERB	vblex	VerbForm=Inf	6	conj	_	SpaceAfter=No
 12	,	,	PUNCT	cm	_	13	punct	_	_
 13	fiñval	fiñval	VERB	vblex	VerbForm=Inf	6	conj	_	_
@@ -1079,7 +1079,7 @@
 2	deoc	da	ADP	pr	_	3	case	_	_
 3	h	indirect	PRON	prn	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obl	_	_
 4	en	en	X	x	_	5	dep	_	_
-5	em	em	PART	vpart	Reflexive=Yes	6	aux	_	_
+5	em	em	PART	vpart	Reflex=Yes	6	aux	_	_
 6	santout	santout	VERB	vblex	VerbForm=Inf	1	csubj	_	_
 7	re	re	ADV	adv	_	8	advmod	_	_
 8	gablus	kablus	ADJ	adj	_	6	xcomp	_	_
@@ -1581,7 +1581,7 @@
 10	varc'hhouarner	marc’hhouarner	NOUN	n	Gender=Masc|Number=Sing	14	nsubj	_	_
 11	oc'h	o	PART	vpart	_	14	aux	_	_
 12	en	en	X	x	_	13	dep	_	_
-13	em	em	PART	vpart	Reflexive=Yes	14	aux	_	_
+13	em	em	PART	vpart	Reflex=Yes	14	aux	_	_
 14	gannañ	kannañ	VERB	vblex	VerbForm=Inf	0	root	_	_
 15	evit	evit	ADP	pr	_	17	case	_	_
 16	ar	an	DET	det	_	17	det	_	_
@@ -1992,7 +1992,7 @@
 # text[fra¹] = regroupera les têtes des syndicats de nouveau aujourd’hui pour voir comment envoyer le combat en avant.
 # labels = to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	vodañ	bodañ	VERB	vblex	VerbForm=Inf	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	raio	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
@@ -7605,7 +7605,7 @@
 1	Ar	an	DET	det	_	2	det	_	_
 2	vugale	bugel	NOUN	n	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	en	en	X	x	_	4	dep	_	_
-4	em	em	PART	vpart	Reflexive=Yes	5	aux	_	_
+4	em	em	PART	vpart	Reflex=Yes	5	aux	_	_
 5	vag	magañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -7614,7 +7614,7 @@
 # text[eng] = The children feed themselves.
 # labels = press_1986 ch_morphology to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	vagañ	magañ	VERB	vblex	VerbForm=Inf	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -7630,7 +7630,7 @@
 2	vugale	bugel	NOUN	n	Gender=Masc|Number=Plur	6	nsubj	_	_
 3	n'	ne	ADV	adv	Polarity=Neg	6	advmod	_	SpaceAfter=No
 4	en	en	X	x	_	5	dep	_	_
-5	em	em	PART	vpart	Reflexive=Yes	6	aux	_	_
+5	em	em	PART	vpart	Reflex=Yes	6	aux	_	_
 6	vagont	magañ	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ket	ket	ADV	adv	_	6	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	sent	_	6	punct	_	_
@@ -7640,7 +7640,7 @@
 # text[eng] = The children do not feed themselves.
 # labels = press_1986 ch_morphology to_check
 1	en	en	X	x	_	3	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	4	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	4	aux	_	_
 3	vag	magañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ket	ket	ADV	adv	_	4	advmod	_	_
 5	ar	an	DET	det	_	7	det	_	_
@@ -7652,7 +7652,7 @@
 # text[eng] = I wonder if he will come or not.
 # labels = press_1986 ch_morphology to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	c'houlenn	goulenn	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ran	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -7672,7 +7672,7 @@
 1	Ar	an	DET	det	_	2	det	_	_
 2	armeoù	arme	NOUN	n	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	en	en	X	x	_	4	dep	_	_
-4	em	em	PART	vpart	Reflexive=Yes	5	aux	_	_
+4	em	em	PART	vpart	Reflex=Yes	5	aux	_	_
 5	gann	kannañ	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	sent	_	5	punct	_	_
 
@@ -7682,7 +7682,7 @@
 # labels = press_1986 ch_morphology to_check
 1	N'	ne	ADV	adv	Polarity=Neg	4	advmod	_	SpaceAfter=No
 2	en	en	X	x	_	3	dep	_	_
-3	em	em	PART	vpart	Reflexive=Yes	4	aux	_	_
+3	em	em	PART	vpart	Reflex=Yes	4	aux	_	_
 4	garont	karout	VERB	vblex	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ket	ket	ADV	adv	_	4	advmod	_	_
 6	an	an	DET	det	_	8	det	_	_
@@ -9274,7 +9274,7 @@
 # text[fra] = En 1888, il rencontre Gauguin qui lui conseille de se consacrer exclusivement à la peinture.
 # labels = to_check opab_parallel
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	gavout	kavout	VERB	vblex	VerbForm=Inf	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -9295,7 +9295,7 @@
 4	dezhañ	da	ADP	pr	_	5	case	_	_
 5	_	indirect	PRON	prn	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 6	en	en	X	x	_	7	dep	_	_
-7	em	em	PART	vpart	Reflexive=Yes	8	aux	_	_
+7	em	em	PART	vpart	Reflex=Yes	8	aux	_	_
 8	ouestlañ	gouestlañ	VERB	vblex	VerbForm=Inf	3	xcomp	_	_
 9	penn-da-benn	penn-da-benn	ADV	adv	_	8	advmod	_	_
 10-11	d'al	_	_	_	_	_	_	_	_
@@ -10130,7 +10130,7 @@
 8	greantioù	greanti	NOUN	n	Gender=Masc|Number=Plur	7	nsubj	_	_
 9	d’	da	ADP	pr	_	12	mark	_	SpaceAfter=No
 10	en	en	X	x	_	11	dep	_	_
-11	em	em	PART	vpart	Reflexive=Yes	12	aux	_	_
+11	em	em	PART	vpart	Reflex=Yes	12	aux	_	_
 12	staliañ	staliañ	VERB	vblex	VerbForm=Inf	8	acl	_	_
 13	eno	eno	ADV	adv	_	12	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	sent	_	7	punct	_	_
@@ -14263,7 +14263,7 @@
 # text[fra¹] = Il se trouve là-bas avec ses camarades d'école mais aussi avec membres de son famille, venu de loin.
 # labels = to_check
 1	En	en	X	x	_	2	dep	_	_
-2	em	em	PART	vpart	Reflexive=Yes	3	aux	_	_
+2	em	em	PART	vpart	Reflex=Yes	3	aux	_	_
 3	gavout	kavout	VERB	vblex	VerbForm=Inf	0	root	_	_
 4	a	a	PART	vpart	_	3	aux	_	_
 5	ra	ober	VERB	vblex	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
