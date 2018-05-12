@@ -9071,7 +9071,7 @@
 "<o>"
 	"o" vpart ger @aux #4->5
 "<kreskiñ>"
-	"kreskiñ" vblex inf @advcl #5->7
+	"kreskiñ" vblex inf @acl #5->3
 "<e>"
 	"e" vpart obj @aux #6->7
 "<teuas>"
@@ -9083,7 +9083,7 @@
 "<en em>"
 	"en em" vpart ref @aux #10->11
 "<staliañ>"
-	"staliañ" vblex inf @acl #11->8
+	"staliañ" vblex inf @advcl #11->7
 "<eno>"
 	"eno" adv @advmod #12->11
 "<.>"
