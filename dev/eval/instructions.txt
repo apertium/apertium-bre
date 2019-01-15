@@ -1,0 +1,15 @@
+	
+ID	Un identificador para la palabra
+GER	La palabra del corpus que está desconocida por el analizador morfológico
+TOKEN	Si hay una falta de tokenización ... por ejemplo peurc en lugar de peurc'h o raok en lugar de a-raok escribe "NO"
+BREZHONEG	"Si la palabra es una palabra que se podría usar en bretón y escrita así escribe ""YES"", si es una palabra en francés,
+inglés u otro idioma no adaptada a la ortografía bretona escribe ""NO"", por ejemplo ""making-of"" (entre comillas) = ""NO"", 
+pero cʼhasting = ""YES"". Si la palabra forma parte de un nombre propio extranjero en el contexto, escribe ""YES"", 
+pero si va entre comillas o entre parentesis, escribe ""NO""."
+PEURUNVAN	"Si la palabra es una palabra breton y escrita en ortografía peurunvan, escribe ""YES"", en otros casos ""NO"". Si la palabra
+no es una palabra bretona escribe guión: -"
+CATEGORIE	"Si la palabra es una palabra bretona, escribe la categoría léxica, las opciones son: 
+NOUN (sustantivo), ADJ (adjetivo), PROPN (nombre propio), VERB (verbo), ADV (adverb), X (otros)"
+ERROR	Si la palabra está en bretón y está escrita en orthografía peurunvan, pero hay una falta de ortografía, escribe "YES".
+CONTEXT	Un contexto para ayudar a entender la palabra. El contexto viene del corpus.
+	
