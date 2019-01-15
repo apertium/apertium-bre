@@ -1,0 +1,107 @@
+ID	GER	TOKEN	BREZHONEG	PEURUNVAN	ERROR	CATEGORIE	CONTEXT	COMENTARIOS																	
+1	vezviñ	YES	YES	YES		VERB	...  a zebriñ, da evañ, ha d'en em  vezviñ, ......  ...	Forma canónica mezviñ																	
+2	cʼhoabr	YES	YES	YES	YES	NOUN	...  let Mab an den, o tont war ur  cʼhoabr, gant ur galloud hag u ...	Es un plural colectivo, delante del indefinido se deveria usar el singular ur goabrenn																	
+3	eeunas	YES	YES	YES		VERB	...  ouarn warni, ha kerkent en em  eeunas, hag e roas gloar da Zo ...	Forma canónica eeunañ pero se usa muchísimo más eeunaat, lo que daría eeunaas																	
+4	Abiud	YES	YES	YES	-	PROPN	...         Zorobabel a voe tad da  Abiud. Abiud a voe tad da Elia ...	Nombre hebreo																	
+5	Santela	YES	YES	NO	YES	VERB	... Santela anezho dre da wirionez; da c'her eo ar wirionez ...	forma correcta : santelaat o santelañ																	
+6	herito	YES	YES	YES		VERB	...  resevo kant kement all, hag a  herito ar vuhez peurbadus. ......  ...	Forma canónica heritiñ o heritañ																	
+7	soupren	YES	YES	NO	YES	VERB	...   na zeufe an deñvalijenn d'ho  soupren; rak an hini a gerzh e ...	Error : sourpren																	
+8	Kosam	YES	YES	YES	-	PROPN	...       mab Melki, mab Addi, mab  Kosam, mab Elmodam, mab Er, ......  ...	Nombre hebreo																	
+9	kroazstagit	YES	YES	YES		VERB	...  Kemerit anezhañ hoc'h-unan ha  kroazstagit anezhañ; rak me ne ...	Forma canónica kroazstagañ																	
+10	Nahum	YES	YES	YES	-	PROPN	...    mab Matatiaz, mab Amoz, mab  Nahum, mab Esli, mab Naggai, ......  ...	Nombre hebreo																	
+11	diskredoni	YES	YES	YES		NOUN	...            Souezhet e oa eus o  diskredoni; hag e valeas ar bo ...																		
+12	macʼhagnoù	YES	YES	YES		NOUN	...   dud eus o cʼhleñvedoù, eus o  macʼhagnoù hag eus an drouk-sp ...	Forma canónica mac'hagn																	
+13	necʼhamant	YES	YES	YES		NOUN	...  r an douar, ar bobloù a vo en  necʼhamant, ha ne ouezint petr ...																		
+14	tivarr	YES	YES	YES		VERB	...   na zoug ket a frouezh; hag e  tivarr kement brank a zoug fro ...	Forma canónica divarrañ																	
+15	disprizet	YES	YES	YES		VERB	...  raet o badeziñ gantañ, o deus  disprizet menoz Doue evito. ......  ...	forma más usada : dispriziet																	
+16	cʼholoio	YES	YES	YES		VERB	...  a galloud an Uhelañ-Meurbet a  cʼholoio acʼhanout gant e skeu ...	Forma canónica goleiñ																	
+17	Ezrom	YES	YES	YES	-	PROPN	...  b, mab Aram, [mab Joram,] mab  Ezrom, mab Farez, mab Juda, ......  ...	Nombre hebreo																	
+18	vêsaerien	YES	YES	YES		NOUN	...   an aeled diganto en neñv, ar  vêsaerien a lavaras an eil d'e ...	Forma canónica mêsaer																	
+19	sadukeiz	YES	YES	YES		NOUN	...     Neuze hiniennoù a-douez ar  sadukeiz, ar re a lavar n'eus  ...	Falta la mayuscula, Sadukeed hubiera sido mejor																	
+20	levited	YES	YES	YES		NOUN	...  vien eus Jeruzalem beleien ha  levited da c'houlenn outañ: Pi ...	Forma canónica levit																	
+21	salvet	YES	YES	YES		VERB	...  t barn ar bed, met evit ma vo  salvet ar bed drezañ. ......  ...	Forma canónica salviñ																	
+22	kroazstaget	YES	YES	YES		VERB	...  roas anezhañ dezho evit bezañ  kroazstaget. Kemer a rejont et ...	Forma canónica kroazstagañ																	
+23	plaenit	YES	YES	YES		VERB	...  ar: Kempennit hent an Aotrou,  plaenit e wenodennoù. ......  ...	Forma canónica plaenañ pero plaenaat se usa muchísimo más, lo que daría plaenait																	
+24	skrapont	YES	YES	YES		VERB	...  ec'h ma toull al laeron ha ma  skrapont; ......  ...	Forma canónica skrapañ																	
+25	blueg	YES	YES	YES		NOUN	...  adreñv ar vag, kousket war ur  blueg; hag e tihunjont anezhañ ...	Forma canónica plueg																	
+26	kelcʼhint	YES	YES		YES	VERB	...  rien fozioù en-dro dit, hag e  kelcʼhint acʼhanout, hag e was ...	Kelc'hiint (el verbo es kelc'hiañ, rodear																	
+27	Vabilon	YES	YES	NO	-	PROPN	...  a goude ma voent bet kaset da  Vabilon, Jekonia a voe tad da  ...	format mutada de Babilon																	
+28	Bartolome	YES	YES	YES	YES	PROPN	...  reur; Jakez ha Yann; Filip ha  Bartolome; ......  ...	El estandar usa más Berteleme o Bertelame																	
+29	estlammet	YES	YES	YES		ADJ	...  urbet Doue. Evel ma oant holl  estlammet gant ar pezh a rae J ...																		
+30	eoulias	YES	YES	YES		VERB	...            Mari a oa an hini a  eoulias an Aotrou a c'hwez-vat ...	Forma canónica eouliañ																	
+31	beurober	YES	YES	YES		VERB	...  où en deus va Zad roet din da  beurober, an oberoù-mañ memes  ...	Forma canónica peurober																	
+32	bestl	YES	YES	YES		NOUN	...  ñ da evañ gwinegr mesket gant  bestl; ha p'en devoe e dañvaet ...																		
+33	krañchas	YES	YES	YES		VERB	...   O vezañ lavaret kement-se, e  krañchas d'an douar, hag e rea ...	Forma canónica krañchat																	
+34	Naaman	YES	YES	YES	-	PROPN	...  i anezho ne oa glanaet, nemet  Naaman ar Siriad. ......  ...	Nombre hebreo																	
+35	kendalcʼhus	YES	YES	YES		ADJ	...   frouezh, ha ma vo ho frouezh  kendalcʼhus, ha ma roio va Zad ...																		
+36	Aminadab	YES	YES	YES	-	PROPN	...                            mab  Aminadab, mab Aram, [mab Joram ...	Nombre hebreo																	
+37	Naggai	YES	YES	YES	-	PROPN	...  moz, mab Nahum, mab Esli, mab  Naggai, ......  ...	Nombre hebreo																	
+38	avius	YES	YES	YES		ADJ	...  aosoni, al loustoni, al lagad  avius, an droukkomz, an ourgou ...																		
+39	Semein	YES	YES	YES	-	PROPN	...    mab Maaz, mab Mataziaz, mab  Semein, mab Jozef, mab Juda, ......  ...	Nombre hebreo																	
+40	destenias	YES	YES	YES		VERB	...  -dro un eur goude, unan all a  destenias o lavarout: A dra su ...	Forma canónica testeniañ																	
+41	gourizet	YES	YES	YES		ADJ	...           Ra vo ho tivgroazell  gourizet, hag ho lampoù war en ...																		
+42	kroazstagjont	YES	YES	YES	-	VERB	...                          Eno e  kroazstagjont anezhañ ha daou  ...	Forma canónica kroazstagañ																	
+43	Heli	YES	YES	YES	-	PROPN	...   ma kreded, mab da Jozef, mab  Heli, ......  ...	Nombre hebreo, el estandar usa Eli o Eliaz																	
+44	didrakm	YES	YES	YES		NOUN	...  e Kafarnaoum, ar re a save an  didrakm a dostaas ouzh Pêr hag ...																		
+45	koñsevet	YES	YES	YES		VERB	...  hañ gant an ael, a-raok ma oa  koñsevet e kof e vamm. ......  ...	Forma canónica koñseviñ																	
+46	Joatam	YES	YES	YES	-	PROPN	...              Ozia a voe tad da  Joatam. Joatam a voe tad da Ac ...	Nombre hebreo																	
+47	cʼhrozmolat	YES	YES	YES		VERB	...  ar farizianed en em lakaas da  cʼhrozmolat ha da lavarout: Pi ...	Forma canónica grozmolat																	
+48	Salmon	YES	YES	YES	-	PROPN	...  Jese, mab Obed, mab Booz, mab  Salmon, mab Naason, ......  ...	Nombre hebreo, el estandar moderno es Salaun																	
+49	genou	YES	YES	NO	YES	NOUN	...  leunder ar galon eo e komz ar  genou. ......  ...	Error : genoù																	
+50	dreog	YES	YES	YES		NOUN	...  d, e enebour a zeuas, a hadas  dreog e-touez an ed, hag a yea ...																		
+51	pempilhoù	YES	YES	YES	-	NOUN	...  , o deus fulakterioù ledan ha  pempilhoù hir ouzh o dilhad; ......  ...	Forma canónica pempilh																	
+52	veskadenn	YES	YES	YES	-	NOUN	...  tegas war-dro kant lur eus ur  veskadenn mir hag aloez. ......  ...	Forma canónica meskadenn																	
+53	Salim	YES	YES	YES	-	PROPN	...  vadeze ivez e Enon, tost ouzh  Salim, abalamour ma oa eno kal ...	Nombre hebreo																	
+54	poentig	YES	YES	YES		NOUN	...  l lezenn, nag un iota, nag ur  poentig a lizherenn, ken na vo ...																		
+55	treuzneuziet	YES	YES	YES		VERB	...   war ur menez uhel; hag e voe  treuzneuziet dirazo. ......  ...	Forma canónica treuzneuziañ																	
+56	veinataomp	YES	YES	YES		VERB	...  : N'eo ket evit un ober mat e  veinataomp ac'hanout, met abal ...	Forma canónica meinata																	
+57	hananead	NO	YES	-	-	-	...                     Simon ar C' hananead, ha Judaz Iskariod, a ...	Forma canónica Kananead pero Kananean hubiera sido mejor																	
+58	arsavas	YES	YES	YES		VERB	...   arched, hag ar re en douge a  arsavas; hag e lavaras: Den ya ...	Forma canónica arsevel																	
+59	farizianed	YES	YES	YES		NOUN	...      Ar re a oa bet kaset a oa  farizianed. ......  ...	Forma canónica Farizian																	
+60	wersed	YES	YES	YES		PROPN	...  kalz a c'heot el lec'h-se. Ar  wersed eta a azezas, en niver  ...	No entiendo, tal vez nombre de un pueblo biblico, falta la mayuscula																	
+61	falstestenioù	YES	YES	YES		NOUN	...  ouerezhioù, al laeroñsioù, ar  falstestenioù, an droukkomzoù. ...	Forma canónica falstesteni																	
+62	zleour	YES	YES	YES		NOUN	...     Ur c'hredour en devoa daou  zleour, unan a zlee dezhañ pem ...	Forma canónica dleour																	
+63	riotal	YES	YES	YES		VERB	...  zianed, hag en em lakajont da  riotal anezhañ, o c'houlenn ou ...																		
+64	gwennet	YES	YES	YES		ADJ	...   ma'z oc'h heñvel ouzh bezioù  gwennet, en em ziskouez kaer e ...																		
+65	cʼhourizas	YES	YES	YES		VERB	...  zañ kemeret ul lienenn, en em  cʼhourizas ganti. ......  ...	Forma canónica gourizañ																	
+66	Kezar	YES	YES	YES		PROPN	...  c'hra roue, en em laka a-enep  Kezar. ......  ...																		
+67	faosoni	YES	YES	YES		NOUN	...  avaristed, ar fallentezoù, ar  faosoni, al loustoni, al lagad ...																		
+68	Babilon	YES	YES	NO	-	PROPN	...  eur, da vare an ermaeziadeg e  Babilon. ......  ...	Toponimo biblico, el estandar da Babilonia																	
+69	Gezar	YES	YES	YES		PROPN	...  n den-se, n'out ket mignon da  Gezar; rak piv bennak en em c' ...	Forma mutada de Kezar																	
+70	gouarnerien	YES	YES	YES		NOUN	...             Kaset e viot dirak  gouarnerien ha dirak rouaned a ...	Forma canónica gouarner																	
+71	eoulie	YES	YES	YES		VERB	...  kat a rae d'e dreid, hag ec'h  eoulie anezho gant ar c'hwezh- ...	Forma canónica eouliañ																	
+72	lercʼh	YES	YES	YES		OTHER	...   e benn: An hini a zeu war va  lercʼh a zo dreiston, abalamou ...	Forma canónica war-lerc'h																	
+73	deot	YES	YES	NO	YES	VERB	...   heñvel ouzh bugale vihan, ne  deot ket e rouantelezh an neñv ...	Error : ned eot ket																	
+74	drokerien	YES	YES	YES		NOUN	...  d, deñved ha koulmed, gant an  drokerien a oa azezet eno. ......  ...	Forma canónica troker																	
+75	Mammon	YES	YES	YES	-	PROPN	...  c'hellit ket servijañ Doue ha  Mammon. ......  ...	Nombre hebreo																	
+76	Satan	YES	YES	YES	-	PROPN	...   devoe Judaz kemeret an tamm,  Satan a yeas ennañ. Jezuz a la ...																		
+77	mailhuret	YES	YES	YES		ADJ	...  : c'hwi a gavo ur bugel bihan  mailhuret ha gourvezet en ur c ...																		
+78	eoniñ	YES	YES	YES		VERB	...  hej anezhañ start, en laka da  eoniñ, hag a boan e kuita anez ...																		
+79	kristed	YES	YES	YES	YES	NOUN	...                       Rak fals- kristed ha fals-profeded a sav ...	Aquí se debería excribir falskristed (Cristos falsos) y falsprofeded																	
+80	Trakonitiz	YES	YES	YES		PROPN	...  lip e vreur tetrark Iturea ha  Trakonitiz, Lisaniaz tetrark A ...																		
+81	zisklêrjent	YES	YES	YES		VERB	...  'hourc'hemenne start dezho na  zisklêrjent ket anezhañ. ......  ...	Forma canónica disklêriañ																	
+82	moñs	YES	YES	YES		ADJ	...  welloc'h eo dit mont er vuhez  moñs pe gamm, eget kaout daou  ...																		
+83	oberiañs	YES	YES	YES		NOUN	...  , ha pehini e vo ar sin eus o  oberiañs nesañ? ......  ...																		
+84	Beilhit	YES	YES	YES		VERB	... Beilhit ha pedit evit na gouezhot ket en temptadur ...	Forma canónica beilhañ																	
+85	Matuzala	YES	YES	YES	-	PROPN	...                            mab  Matuzala, mab Enoc'h, mab Jare ...	Nombre hebreo																	
+86	tiouganas	YES	YES	YES	YES	VERB	...  zañ beleg-meur er bloaz-se, e  tiouganas penaos e tlee Jezuz  ...	Forma canónica diouganañ																	
+87	Malkuz	YES	YES	YES	-	PROPN	...  añ; ar servijer-se a oa anvet  Malkuz. ......  ...	Nombre hebreo																	
+88	Yunañ	YES	YES	YES		VERB	... Yunañ a ran div wech ar sizhun, reiñ a ran an deog eus kement ...																		
+89	nemorantoù	YES	YES	YES		NOUN	...  o daouzek panerad leun eus an  nemorantoù. ......  ...	Normalmente nemorant no se usa en plural																	
+90	Tara	YES	YES	YES	-	PROPN	...  , mab Izaak, mab Abraham, mab  Tara, mab Nac'hor, ......  ...	Nombre hebreo																	
+91	daoulinet	YES	YES	YES		VERB	...  n den a zeredas, hag, o vezañ  daoulinet dirazañ, e c'houlenn ...	Forma canónica daoulinañ																	
+92	heskinerezh	YES	YES	YES		NOUN	...  -se, pa zeu ar glac'har pe an  heskinerezh abalamour d'ar ger ...																		
+93	tisklêrjont	YES	YES	YES		VERB	...             O vezañ e welet, e  tisklêrjont ar pezh a oa bet l ...	Forma canónica disklêriañ																	
+94	goabrenn	YES	YES	YES		NOUN	...  mz a rae c'hoazh, pa zeuas ur  goabrenn d'o golo; hag evel ma ...	Forma canónica kantener																	
+95	cʼhantener	YES	YES	YES	YES	NOUN	...                       Mevel ur  cʼhantener, karet mat gantañ,  ...	Error : kantenner																	
+96	heskinerezhioù	YES	YES	YES	-	NOUN	...  a vugale, hag a zouaroù, gant  heskinerezhioù, hag, er c'hant ...	Forma canónica heskinerezh																	
+97	raok	NO	YES	-	-	-	...   den hag a zo dreiston, rak a- raok din e oa. ......  ...																		
+98	pask	YES	YES	YES	YES	PROPN	...  ma oa e Jeruzalem, da ouel ar  pask, kalz a dud a gredas en e ...	Mejor escribirlo con mayuscula Pask (Easter)																	
+99	beilhit	YES	YES	YES	-	VERB	...  betek ar marv; chomit amañ ha  beilhit. ......  ...	Forma canónica beilhañ																	
+100	Matat	YES	YES	YES	-	PROPN	...                            mab  Matat, mab Levi, mab Melki, ma ...	Nombre hebreo																	
+																									
+	YES	98	100	91	11																				
+	NO	2	0	6	0																				
+																									
+#	PROPN	NOUN	VERB	ADJ	ADV	OTHER	-																		
+100	26	28	36	7	0	1	2																		
