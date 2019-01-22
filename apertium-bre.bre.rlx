@@ -315,7 +315,7 @@ SELECT NC IF (-1 Num) (0 NC) (0 VerbInf) ;
 #an treiñ emgefre
 SELECT NC IF (-1 ("an"ri det def)) (0 NC) (0 VerbInf) ;
 
-REMOVE:x-notdet_ober ("ober" n) IF (NOT -1 Det) ;
+REMOVE:l-notdet_ober ("ober" n) IF (NOT -1 Det) ;
 
 #ar bed
 REMOVE:x-noverbFin_if_ar VerbFin IF (-1 Ar) ;
@@ -324,7 +324,7 @@ REMOVE:x-noverbFin_if_ar VerbFin IF (-1 Ar) ;
 REMOVE:x-inf_nc_a_ober NC IF (0 NC) (0 VerbInf) (1 ("a" pr)) (2 ("ober" vblex pri)) ;
 
 # REGLA (B    ): "Ur perzh 20€ zo bet goulennet evit kaout e anv engravet war unan eus karrezennigoù ar murlivadur. "
-REMOVE Vpart IF (-1 ("kaout" vblex inf)) ; 
+REMOVE:x-kaout_vpart Vpart IF (-1 ("kaout" vblex inf)) ; 
 
 # implijout ar brezhoneg war ar panelloù kelaouiñ elektronek, prenañ ingal levrioù e brezhoneg evit ar vediaoueg, aozañ abadennoù e brezhoneg, stankaat ar c’hentelioù tañva brezhoneg er skolioù, komz brezhoneg e-pad al lidoù ofisiel.
 REMOVE:l-remove_komz_nc ("komz" n) IF (1 NC) ;
@@ -554,15 +554,15 @@ SELECT:x-Pr_for_poss_if_verb Pr IF (0 Pr) (0 DetPos) (1C Verb) (NOT 0 Vpart) ;
 REMOVE:x-remove_impers VerbImpers IF (NOT -1 Vpart) (-1 Num OR NC OR Det) (0 VerbImpers) (0 NC) ;
 
 # REGLA (B    ): "Bet hon eus kalz a draoù" / "Bet bezañ"
-SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (1 ("kaout" vblex)) ;
-SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-1 ("kaout" vblex)) ;
-SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (1 ("bezañ" vblex)) ;
-SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-1 ("bezañ" vblex)) ;
+SELECT:x-kaout_bezañ1 ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (1 ("kaout" vblex)) ;
+SELECT:x-kaout_bezañ2 ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-1 ("kaout" vblex)) ;
+SELECT:x-kaout_bezañ3 ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (1 ("bezañ" vblex)) ;
+SELECT:x-kaout_bezañ4 ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-1 ("bezañ" vblex)) ;
 
-SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("kaout" vblex)) ;
-SELECT ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("kaout" vblex)) ;
-SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("bezañ" vblex)) ;
-SELECT ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("bezañ" vblex)) ;
+SELECT:x-kaout_bezañ5 ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("kaout" vblex)) ;
+SELECT:x-kaout_bezañ6 ("kaout"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("kaout" vblex)) ;
+SELECT:x-kaout_bezañ7 ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (2 ("bezañ" vblex)) ;
+SELECT:x-kaout_bezañ8 ("bezañ"ri pp) IF (0 ("kaout"ri pp)) (0 ("bezañ"ri pp)) (-2 ("bezañ" vblex)) ;
 
 # REGLA (B    ): "Skuizh e vi"
 SELECT:m-softMut_part_pos SoftMut IF (-1 ("e" vpart obj) OR ("e" det pos)) (NOT -1 Pr) (NOT -1 PrnDObj) ;
