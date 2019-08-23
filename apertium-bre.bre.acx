@@ -1,19 +1,25 @@
 <?xml version="1.0"?>
 <analysis-chars>
   <!-- Make apostrophe variants equal ' -->
-  <char value="'">
-    <equiv-char value="’"/>
-    <equiv-char value="ʼ"/>
-    <equiv-char value="‘"/>
+  <char value="'"><!--U+0027 APOSTROPHE-->
+    <equiv-char value="’"/><!--U+2019 RIGHT SINGLE QUOTATION MARK-->
+    <equiv-char value="‘"/><!--U+2018 LEFT SINGLE QUOTATION MARK-->
+    <equiv-char value="ʼ"/><!--U+02BC MODIFIER LETTER APOSTROPHE-->
   </char>
-  <char value="’">
-    <equiv-char value="'"/>
-    <equiv-char value="ʼ"/>
-    <equiv-char value="‘"/>
+
+  <char value="’"><!--U+2019 RIGHT SINGLE QUOTATION MARK-->
+    <equiv-char value="'"/><!--U+0027 APOSTROPHE-->
+    <equiv-char value="‘"/><!--U+2018 LEFT SINGLE QUOTATION MARK-->
+    <equiv-char value="ʼ"/><!--U+02BC MODIFIER LETTER APOSTROPHE-->
   </char>
-  <char value="‘">
-    <equiv-char value="'"/>
-    <equiv-char value="ʼ"/>
-    <equiv-char value="‘"/>
+  <char value="‘"><!--U+2018 LEFT SINGLE QUOTATION MARK-->
+    <equiv-char value="'"/><!--U+0027 APOSTROPHE-->
+    <equiv-char value="’"/><!--U+2019 RIGHT SINGLE QUOTATION MARK-->
+    <equiv-char value="ʼ"/><!--U+02BC MODIFIER LETTER APOSTROPHE-->
+  </char>
+  <char value="ʼ"><!--U+02BC MODIFIER LETTER APOSTROPHE-->
+    <equiv-char value="'"/><!--U+0027 APOSTROPHE-->
+    <equiv-char value="’"/><!--U+2019 RIGHT SINGLE QUOTATION MARK-->
+    <equiv-char value="‘"/><!--U+2018 LEFT SINGLE QUOTATION MARK-->
   </char>
 </analysis-chars>
