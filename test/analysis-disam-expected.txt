@@ -1,0 +1,164 @@
+[3Q3SubfXOaDp#0] "<Ur>"
+	"un" det ind sp
+"<bugel>"
+	"bugel" n m sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<ganti>"
+	"gant" pr
+		"indirect" prn obj p3 f sg
+"<.>"
+	"." sent
+[/3Q3SubfXOaDp]
+[4Orzcp1bIune#0] "<Me>"
+	"prpers" prn subj p1 mf sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<o>"
+	"o" vpart ger SELECT:401:x-vpart_ger_inf
+;	"o" ij SELECT:401:x-vpart_ger_inf
+;	"o" n m sp SELECT:401:x-vpart_ger_inf
+;	"o" det pos mf sp SELECT:401:x-vpart_ger_inf
+;	"direct" prn obj p3 mf pl SELECT:401:x-vpart_ger_inf
+"<komz>"
+	"komz" vblex inf SELECT:407
+;	"komz" n f sg SELECT:407
+;	"komz" vblex pri p3 sg SELECT:407
+;	"komz" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<gant ma>"
+	"gant" pr SELECT:691
+		"ma" det pos mf sp
+;	"gant ma" cnjadv SELECT:691
+"<amezeg>"
+	"amezeg" n m sg
+"<.>"
+	"." sent
+[/4Orzcp1bIune]
+[4nHxmBobX5Ll#0] "<Un>"
+	"un" det ind sp
+"<urzhiataer>"
+	"urzhiataer" n m sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<gantañ>"
+	"gant" pr
+		"indirect" prn obj p3 m sg
+"<.>"
+	"." sent
+[/4nHxmBobX5Ll]
+[4niNts1XpCqF#0] "<Un>"
+	"un" det ind sp
+"<died>"
+	"died" n f sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<ganit>"
+	"gant" pr
+		"indirect" prn obj p2 mf sg
+;	"kanal" vblex pri p2 pl REMOVE:351:m-Remove_SoftMut
+;	"kanal" vblex imp p2 pl REMOVE:310:x-Imper_no_Excl
+;	"genel" vblex pri p2 pl REMOVE:632:m-novFin_sftM_ma
+;	"genel" vblex imp p2 pl REMOVE:310:x-Imper_no_Excl
+;	"kaniñ" vblex pri p2 pl REMOVE:351:m-Remove_SoftMut
+;	"kaniñ" vblex imp p2 pl REMOVE:310:x-Imper_no_Excl
+;	"kanañ" vblex pri p2 pl REMOVE:351:m-Remove_SoftMut
+;	"kanañ" vblex imp p2 pl REMOVE:310:x-Imper_no_Excl
+"<.>"
+	"." sent
+[/4niNts1XpCqF]
+[9BXmnBFInx2J#0] "<Un>"
+	"un" det ind sp
+"<ti>"
+	"ti" n m sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<ganeoc'h>"
+	"gant" pr
+		"indirect" prn obj p2 mf pl
+"<.>"
+	"." sent
+[/9BXmnBFInx2J]
+[MSEgNqAc_wdS#0] "<Me>"
+	"prpers" prn subj p1 mf sg
+"<a>"
+	"a" vpart SELECT:357
+;	"a" pr SELECT:357
+;	"a" n m sp SELECT:357
+;	"mont" vblex pri p3 sg SELECT:357
+;	"mont" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+;	"monet" vblex pri p3 sg SELECT:357
+;	"monet" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<gomz>"
+	"komz" vblex pri p3 sg SELECT:512
+;	"komz" vblex inf SELECT:512
+;	"komz" n f sg SELECT:512
+;	"komz" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<gant ma>"
+	"gant" pr SELECT:691
+		"ma" det pos mf sp
+;	"gant ma" cnjadv SELECT:691
+"<amezeg>"
+	"amezeg" n m sg
+"<.>"
+	"." sent
+[/MSEgNqAc_wdS]
+[Nn3Mni8fFJRJ#0] "<Ur>"
+	"un" det ind sp
+"<c'harr>"
+	"karr" n m sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<ganimp>"
+	"gant" pr
+		"indirect" prn obj p1 mf pl
+;	"kanal" vblex fti p1 pl REMOVE:351:m-Remove_SoftMut
+;	"genel" vblex fti p1 pl REMOVE:632:m-novFin_sftM_ma
+;	"kaniñ" vblex fti p1 pl REMOVE:351:m-Remove_SoftMut
+;	"kanañ" vblex fti p1 pl REMOVE:351:m-Remove_SoftMut
+"<.>"
+	"." sent
+[/Nn3Mni8fFJRJ]
+[Xfn9nfW3yyxJ#0] "<Arc'hant>"
+	"arcʼhant" n m sg
+;	"arcʼhantañ" vblex pri p3 sg REMOVE:606:x-Rem_VerbFin_BOS
+;	"arcʼhantañ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<ganto>"
+	"gant" pr
+		"indirect" prn obj p3 mf pl
+"<.>"
+	"." sent
+[/Xfn9nfW3yyxJ]
+[pk3UNjjfVsPb#0] "<Ul>"
+	"un" det ind sp
+"<levr>"
+	"levr" n m sg
+"<zo>"
+	"bezañ" vblex pri p3 sg
+;	"teiñ" vblex pri p3 sg REMOVE:877:m-noasp_notrig
+;	"teiñ" vblex imp p2 sg REMOVE:310:x-Imper_no_Excl
+"<ganin>"
+	"gant" pr
+		"indirect" prn obj p1 mf sg
+;	"kanal" vblex fti p1 sg REMOVE:351:m-Remove_SoftMut
+;	"genel" vblex fti p1 sg REMOVE:632:m-novFin_sftM_ma
+;	"kaniñ" vblex fti p1 sg REMOVE:351:m-Remove_SoftMut
+;	"kanañ" vblex fti p1 sg REMOVE:351:m-Remove_SoftMut
+"<.>"
+	"." sent
+[/pk3UNjjfVsPb]
