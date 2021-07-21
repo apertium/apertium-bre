@@ -34,8 +34,8 @@ $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 ## Disambiguation rules 
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
-	$(CGCOMP) $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+	cg-comp $< $@
 
 ###############################################################################
 ## Spell checker
